@@ -123,6 +123,14 @@ main.home h3 {
 main.home h4 {
   font-size: 1.3em;
 }
+main.home a {
+  color: #0a2d50;
+  font-family: KingsBureauGrotThreeSeven;
+  text-decoration: none;
+}
+main.home a:focus, main.home a:hover {
+  color: #3b5773;
+}
 main.home figcaption {
   display: none;
 }
@@ -193,7 +201,7 @@ main.home .information .info-blocks {
   margin-top: 20px;
 }
 main.home .information .info-blocks .info-block {
-  background-color: #0a2d50;
+  background-color: #3b5773;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   color: white;
   flex-basis: calc(33.33% - 20px);
