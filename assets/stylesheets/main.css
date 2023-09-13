@@ -55,11 +55,11 @@ html {
 
 html,
 body {
-  margin: 0;
-  height: 100%;
   font-family: KingsBureauGrotFiveOne, sans-serif;
   font-weight: 400;
   float: left;
+  height: 100%;
+  margin: 0;
   width: 100%;
 }
 
@@ -105,6 +105,105 @@ main p a:hover {
 }
 main img {
   width: 100%;
+}
+main.home h1,
+main.home h2,
+main.home h3,
+main.home h4 {
+  font-family: KingsBureauGrotThreeSeven;
+}
+main.home h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+main.home h3 {
+  font-size: 1.5em;
+}
+main.home h4 {
+  font-size: 1.3em;
+}
+main.home figcaption {
+  display: none;
+}
+main.home .hero {
+  background-color: #0a2d50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+main.home .hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+main.home .hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+main.home .hero img {
+  border: 1px solid white;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+main.home .discover {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+main.home .discover .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main.home .discover .projects .project {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e6ebed;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+main.home .discover .blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main.home .discover .blog .post {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e6ebed;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+main.home .discover .blog .post small {
+  font-size: 0.8em;
+  color: #0a2d50;
+}
+main.home .information {
+  background-color: #f8f9fa;
+  padding: 40px;
+  margin-top: 20px;
+}
+main.home .information .info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main.home .information .info-blocks .info-block {
+  background-color: #0a2d50;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+main.home .information .info-blocks .info-block a {
+  color: white;
+  font-family: KingsBureauGrotThreeSeven;
 }
 
 header {
