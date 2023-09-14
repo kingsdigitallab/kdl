@@ -249,6 +249,16 @@ main.home .information {
   padding: 3em;
   margin-top: 1.5em;
 }
+main.home .information figure {
+  padding: 3vw;
+}
+main.home .information figure img {
+  background-color: white;
+  border-radius: 50%;
+  width: 100%;
+  border: 9px double #0a2d50;
+  padding: 1vw;
+}
 main.home .information .info-blocks {
   display: flex;
   flex-wrap: wrap;
@@ -261,7 +271,7 @@ main.home .information .info-blocks .info-block {
   color: white;
   flex-basis: calc(33.33% - 1.5em);
   margin-bottom: 1.5em;
-  padding: 1.5em;
+  padding: 1.5vw;
   text-align: center;
 }
 main.home .information .info-blocks .info-block a {
