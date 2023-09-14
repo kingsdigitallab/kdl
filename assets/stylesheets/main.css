@@ -140,29 +140,38 @@ main.home .hero {
   display: flex;
   height: calc(100vh - 110px);
   position: relative;
-  width: 100%;
+  width: calc(100% + 2em);
+  margin: -54px -1em 0 -1em;
 }
 main.home .hero video {
   height: 100%;
   left: 0;
   object-fit: cover;
-  opacity: 0.2;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   width: 100%;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 main.home .hero .hero-content {
   color: white;
   left: 50%;
   position: absolute;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+main.home .hero .hero-content:hover {
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
 main.home .hero .hero-content:hover ~ video {
-  opacity: 0.1;
+  opacity: 0.3;
 }
 main.home .hero .hero-content h1 {
   font-size: 2.5em;
@@ -171,19 +180,42 @@ main.home .hero .hero-content h1 {
 main.home .hero .hero-content p {
   font-size: 1.2em;
 }
-main.home .hero .hero-content a {
+main.home .hero a {
   color: white;
   display: block;
-  font-size: 2em;
+  font-size: 1.5em;
+  margin-top: 25vh;
   transform: rotate(180deg);
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
-main.home .hero .hero-content a:focus, main.home .hero .hero-content a:hover {
-  opacity: 0.7;
+main.home .hero a:focus, main.home .hero a:hover {
+  opacity: 1;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  font-size: 1.6em;
+  line-height: 1.1;
+  font-weight: bold;
 }
 main.home .discover {
   background-color: white;
   padding: 40px;
   margin-top: 20px;
+}
+main.home .discover figure {
+  margin: 0;
+}
+main.home .discover figure img {
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
 }
 main.home .discover .projects {
   display: flex;
@@ -191,24 +223,22 @@ main.home .discover .projects {
   justify-content: space-between;
 }
 main.home .discover .projects .project {
-  flex-basis: calc(33.33% - 20px);
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #e6ebed;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.33% - 1.5em);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: #f5f7f8;
 }
 main.home .discover .blog {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 1.5em;
 }
 main.home .discover .blog .post {
-  flex-basis: calc(33.33% - 20px);
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #e6ebed;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.33% - 1.5em);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: #f5f7f8;
 }
 main.home .discover .blog .post small {
   font-size: 0.8em;
@@ -216,22 +246,22 @@ main.home .discover .blog .post small {
 }
 main.home .information {
   background-color: #f8f9fa;
-  padding: 40px;
-  margin-top: 20px;
+  padding: 3em;
+  margin-top: 1.5em;
 }
 main.home .information .info-blocks {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 1.5em;
 }
 main.home .information .info-blocks .info-block {
   background-color: #3b5773;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   color: white;
-  flex-basis: calc(33.33% - 20px);
-  margin-bottom: 20px;
-  padding: 20px;
+  flex-basis: calc(33.33% - 1.5em);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
   text-align: center;
 }
 main.home .information .info-blocks .info-block a {
@@ -262,6 +292,7 @@ header .site a.logo {
   float: right;
   position: relative;
   align-self: flex-end;
+  z-index: 1;
 }
 header .site a.logo img {
   width: 8em;
