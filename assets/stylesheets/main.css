@@ -137,23 +137,48 @@ main.home figcaption {
 main.home .hero {
   background-color: #0a2d50;
   color: white;
-  padding: 40px;
+  display: flex;
+  height: calc(100vh - 110px);
+  position: relative;
+  width: 100%;
+}
+main.home .hero video {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+main.home .hero .hero-content {
+  color: white;
+  left: 50%;
+  position: absolute;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
-main.home .hero h1 {
+main.home .hero .hero-content:hover ~ video {
+  opacity: 0.1;
+}
+main.home .hero .hero-content h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin: 0px;
 }
-main.home .hero p {
+main.home .hero .hero-content p {
   font-size: 1.2em;
-  margin-bottom: 20px;
 }
-main.home .hero img {
-  border: 1px solid white;
+main.home .hero .hero-content a {
+  color: white;
   display: block;
-  height: auto;
-  margin: 0 auto;
-  max-width: 100%;
+  font-size: 2em;
+  transform: rotate(180deg);
+}
+main.home .hero .hero-content a:focus, main.home .hero .hero-content a:hover {
+  opacity: 0.7;
 }
 main.home .discover {
   background-color: white;
