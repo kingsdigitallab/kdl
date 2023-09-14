@@ -138,7 +138,7 @@ main.home .hero {
   background-color: #0a2d50;
   color: white;
   display: flex;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 55px);
   position: relative;
   width: calc(100% + 2em);
   margin: -54px -1em 0 -1em;
