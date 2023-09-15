@@ -1281,7 +1281,7 @@ footer .footer-end .kdl-container a:hover {
     display: block;
   }
   main.people ul,
-main.organisations ul {
+  main.organisations ul {
     columns: 1;
     -webkit-columns: 1;
     -moz-columns: 1;
@@ -1322,15 +1322,15 @@ main.organisations ul {
     margin: 1em 0 0 0;
   }
   main.post .kdl-container,
-main.faqs .kdl-container,
-main.base .kdl-container,
-main.home .kdl-container {
+  main.faqs .kdl-container,
+  main.base .kdl-container,
+  main.home .kdl-container {
     display: block;
   }
   main.post .kdl-container aside,
-main.faqs .kdl-container aside,
-main.base .kdl-container aside,
-main.home .kdl-container aside {
+  main.faqs .kdl-container aside,
+  main.base .kdl-container aside,
+  main.home .kdl-container aside {
     margin: 0 0 1em 0;
     padding: 0.1em 1em;
   }
