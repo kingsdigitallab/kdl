@@ -123,13 +123,17 @@ main.home h3 {
 main.home h4 {
   font-size: 1.3em;
 }
-main.home a {
+main.home a,
+main.home button {
   color: #0a2d50;
   font-family: KingsBureauGrotThreeSeven;
   text-decoration: none;
 }
-main.home a:focus, main.home a:hover {
+main.home a:focus, main.home a:hover,
+main.home button:focus,
+main.home button:hover {
   color: #3b5773;
+  cursor: pointer;
 }
 main.home figcaption {
   display: none;
@@ -180,29 +184,25 @@ main.home .hero .hero-content h1 {
 main.home .hero .hero-content p {
   font-size: 1.2em;
 }
-main.home .hero a {
+main.home .hero a.scroll {
+  bottom: 1em;
   color: white;
   display: block;
-  font-size: 1.5em;
-  margin-top: 25vh;
-  transform: rotate(180deg);
   position: absolute;
-  bottom: 1em;
   text-align: center;
   width: 100%;
-  opacity: 0.8;
+  z-index: 1;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-main.home .hero a:focus, main.home .hero a:hover {
-  opacity: 1;
+main.home .hero a.scroll:focus, main.home .hero a.scroll:hover {
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
-  font-size: 1.6em;
-  line-height: 1.1;
-  font-weight: bold;
+}
+main.home .hero a.scroll:focus ~ video, main.home .hero a.scroll:hover ~ video {
+  opacity: 0.3;
 }
 main.home .discover {
   background-color: white;
