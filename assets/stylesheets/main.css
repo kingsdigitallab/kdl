@@ -286,6 +286,7 @@ header .site {
   padding: 0 1em;
 }
 header .site a.sitename {
+  font-family: KingsBureauGrotThreeSeven;
   text-decoration: none;
   color: white;
   position: absolute;
