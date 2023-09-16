@@ -188,6 +188,8 @@ main.home .hero a.scroll {
   bottom: 1em;
   color: white;
   display: block;
+  font-size: 2em;
+  font-weight: 100;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -203,6 +205,16 @@ main.home .hero a.scroll:focus, main.home .hero a.scroll:hover {
 }
 main.home .hero a.scroll:focus ~ video, main.home .hero a.scroll:hover ~ video {
   opacity: 0.3;
+}
+main.home .about {
+  background-color: #e6ebed;
+  margin-top: 20px;
+  padding: 40px 25%;
+  text-align: center;
+}
+main.home .about p {
+  font-size: 1.2em;
+  line-height: 2;
 }
 main.home .discover {
   background-color: white;
@@ -1358,4 +1370,7 @@ footer .footer-end .kdl-container a:hover {
   footer nav.footer .kdl-container {
     display: block;
   }
+}
+ion-icon {
+  --ionicon-stroke-width: 16px;
 }
