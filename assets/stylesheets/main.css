@@ -182,7 +182,19 @@ main.home .hero .hero-content h1 {
   margin: 0px;
 }
 main.home .hero .hero-content p {
+  font-size: 2.7em;
+  font-family: KingsCaslon, serif;
+}
+main.home .hero .hero-content button {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
   font-size: 1.2em;
+  padding: 0.5em 1.5em;
+}
+main.home .hero .hero-content button:hover {
+  background: white;
+  opacity: 1;
+  color: #0a2d50;
 }
 main.home .hero a.scroll {
   bottom: 1em;
@@ -194,6 +206,7 @@ main.home .hero a.scroll {
   text-align: center;
   width: 100%;
   z-index: 1;
+  opacity: 0.7;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
@@ -201,7 +214,7 @@ main.home .hero a.scroll {
   transition: all 300ms ease-in-out;
 }
 main.home .hero a.scroll:focus, main.home .hero a.scroll:hover {
-  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  opacity: 1;
 }
 main.home .hero a.scroll:focus ~ video, main.home .hero a.scroll:hover ~ video {
   opacity: 0.3;
