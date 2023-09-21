@@ -1054,6 +1054,33 @@ main.faqs .kdl-container > article figure img,
 main.base .kdl-container > article figure img,
 main.home .kdl-container > article figure img {
   width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+main.post .kdl-container > article figure figcaption,
+main.faqs .kdl-container > article figure figcaption,
+main.base .kdl-container > article figure figcaption,
+main.home .kdl-container > article figure figcaption {
+  text-align: center;
+  padding: 0.5em 0 1em 0;
+  font-size: 0.7em;
+  color: dimgray;
+}
+main.post .kdl-container > article .media-small,
+main.faqs .kdl-container > article .media-small,
+main.base .kdl-container > article .media-small,
+main.home .kdl-container > article .media-small {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+main.post .kdl-container > article .media-medium,
+main.faqs .kdl-container > article .media-medium,
+main.base .kdl-container > article .media-medium,
+main.home .kdl-container > article .media-medium {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
 }
 main.post .kdl-container footer,
 main.faqs .kdl-container footer,
