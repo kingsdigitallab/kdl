@@ -85,9 +85,10 @@ main a {
   font-family: "KingsCaslon", serif;
   color: #0e3f70;
   text-decoration-style: solid;
+  cursor: pointer;
 }
 main a:hover {
-  text-decoration-style: double;
+  text-decoration-style: dashed;
   color: #14589d;
 }
 main p {
@@ -100,8 +101,9 @@ main p a {
   font-weight: bold;
 }
 main p a:hover {
-  text-decoration-style: double;
+  text-decoration-style: dashed;
   color: #14589d;
+  cursor: pointer;
 }
 main img {
   width: 100%;
@@ -262,7 +264,6 @@ main.home .discover h3 {
   margin: 0 0 1em 0;
 }
 main.home .discover a {
-  float: right;
   font-family: KingsBureauGrotFiveOne, sans-serif;
   font-weight: 400;
   margin: 0;
@@ -272,6 +273,9 @@ main.home .discover a {
 }
 main.home .discover a:hover {
   text-decoration-style: dashed;
+}
+main.home .discover a.browse {
+  float: right;
 }
 main.home .discover .projects {
   display: flex;
@@ -982,6 +986,17 @@ main.base .kdl-container h1,
 main.home .kdl-container h1 {
   width: 100%;
   order: 1;
+}
+main.post .kdl-container h3, main.post .kdl-container h3 a,
+main.faqs .kdl-container h3,
+main.faqs .kdl-container h3 a,
+main.base .kdl-container h3,
+main.base .kdl-container h3 a,
+main.home .kdl-container h3,
+main.home .kdl-container h3 a {
+  font-family: KingsBureauGrotFiveOne, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
 }
 main.post .kdl-container aside,
 main.faqs .kdl-container aside,
