@@ -399,13 +399,10 @@ main h4 {
   font-weight: 400;
 }
 main h2 {
-  margin-bottom: 2em;
+  margin: 3em 0 2em 0;
   text-align: center;
   text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
   font-size: 3em;
-}
-main h2 span {
-  text-shadow: none;
 }
 main h3 {
   font-size: 1.5em;
@@ -434,14 +431,16 @@ main button:focus, main button:hover {
   color: #0a2d50;
 }
 
+.home .kdl-container {
+  max-width: 1500px;
+}
 .home .hero {
   background-color: #0a2d50;
   color: white;
-  display: flex;
   height: calc(100vh - 55px);
   position: relative;
-  width: calc(100% + 2em);
-  margin: -54px -1em 0 -1em;
+  width: calc(100% + 1em);
+  margin: 0 -1em 6em -1em;
 }
 .home .hero video {
   height: 100%;
@@ -518,10 +517,6 @@ main button:focus, main button:hover {
 .home figcaption {
   display: none;
 }
-.home .discover, .home .information, .home .contact {
-  padding: 40px;
-  margin-top: 20px;
-}
 .home .discover section, .home .information section, .home .contact section {
   display: flex;
   flex-wrap: wrap;
@@ -554,6 +549,7 @@ main button:focus, main button:hover {
 }
 .home .discover a.browse, .home .information a.browse, .home .contact a.browse {
   float: right;
+  margin-top: 1.7em;
 }
 .home .discover .research-themes, .home .discover .services, .home .information .research-themes, .home .information .services, .home .contact .research-themes, .home .contact .services {
   position: relative;
@@ -584,6 +580,9 @@ main button:focus, main button:hover {
 }
 .home .discover .services .services-block, .home .information .services .services-block, .home .contact .services .services-block {
   flex-basis: calc(33.3% - 1.5em);
+}
+.home .discover h3 {
+  float: left;
 }
 .home .contact {
   text-align: center;
