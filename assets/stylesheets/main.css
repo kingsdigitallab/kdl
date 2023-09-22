@@ -76,379 +76,6 @@ section {
   margin: 0 auto;
 }
 
-.kdl-member img {
-  height: 1.5em;
-  width: 1.5em;
-}
-
-.kdl-subtitle,
-.subtitle {
-  margin-top: 2em;
-  line-height: 1.3;
-}
-.kdl-subtitle span,
-.subtitle span {
-  background: linear-gradient(to left, lightcyan, #e8fce8);
-  padding: 0.5em;
-}
-
-main a {
-  font-family: "KingsCaslon", serif;
-  color: #0e3f70;
-  text-decoration-style: solid;
-  cursor: pointer;
-}
-main a:hover {
-  text-decoration-style: dashed;
-  color: #14589d;
-}
-main p {
-  line-height: 1.5;
-}
-main p a {
-  text-decoration-style: solid;
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  color: #0e3f70;
-  font-weight: bold;
-}
-main p a:hover {
-  text-decoration-style: dashed;
-  color: #14589d;
-  cursor: pointer;
-}
-main img {
-  width: 100%;
-}
-main.home h1,
-main.home h2,
-main.home h3,
-main.home h4 {
-  font-family: KingsBureauGrotThreeSeven;
-  font-weight: 400;
-}
-main.home h2 {
-  margin-bottom: 2em;
-  text-align: center;
-  text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
-  font-size: 3em;
-}
-main.home h2 span {
-  text-shadow: none;
-}
-main.home h3 {
-  font-size: 1.5em;
-}
-main.home h4 {
-  font-size: 1.3em;
-}
-main.home a,
-main.home button {
-  color: #0a2d50;
-  font-family: KingsBureauGrotThreeSeven;
-  font-weight: 400;
-  text-decoration: none;
-  margin: 0 auto;
-  border: none;
-}
-main.home a:focus, main.home a:hover,
-main.home button:focus,
-main.home button:hover {
-  color: #3b5773;
-  cursor: pointer;
-}
-main.home figcaption {
-  display: none;
-}
-main.home .hero {
-  background-color: #0a2d50;
-  color: white;
-  display: flex;
-  height: calc(100vh - 55px);
-  position: relative;
-  width: calc(100% + 2em);
-  margin: -54px -1em 0 -1em;
-}
-main.home .hero video {
-  height: 100%;
-  left: 0;
-  object-fit: cover;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
-  -o-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
-}
-main.home .hero .hero-content {
-  color: white;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-main.home .hero .hero-content:hover {
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-main.home .hero .hero-content:hover ~ video {
-  opacity: 0.3;
-}
-main.home .hero .hero-content h1 {
-  font-size: 2.5em;
-  margin: 0px;
-}
-main.home .hero .hero-content p {
-  font-size: 2.7em;
-  font-family: KingsCaslon, serif;
-}
-main.home .hero .hero-content button {
-  background: rgba(255, 255, 255, 0.7);
-  border: none;
-  font-size: 1.2em;
-  padding: 0.5em 1.5em;
-  -webkit-transition: all 300ms ease-in;
-  -moz-transition: all 300ms ease-in;
-  -ms-transition: all 300ms ease-in;
-  -o-transition: all 300ms ease-in;
-  transition: all 300ms ease-in;
-}
-main.home .hero .hero-content button:hover {
-  background: white;
-  opacity: 1;
-  color: #0a2d50;
-}
-main.home .hero a.scroll {
-  bottom: 1em;
-  color: white;
-  display: block;
-  font-size: 2.4em;
-  line-height: 1;
-  font-weight: 100;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-  opacity: 0.7;
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-main.home .hero a.scroll:focus, main.home .hero a.scroll:hover {
-  opacity: 1;
-  line-height: 0.7;
-}
-main.home .hero a.scroll:focus ~ video, main.home .hero a.scroll:hover ~ video {
-  opacity: 0.3;
-}
-main.home .about {
-  background-color: #e6ebed;
-  margin-top: 20px;
-  padding: 40px 25%;
-  text-align: center;
-}
-main.home .about p {
-  font-size: 1.2em;
-  line-height: 2;
-}
-main.home .discover {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-}
-main.home .discover figure {
-  margin: 0;
-}
-main.home .discover figure img {
-  width: 100%;
-  height: 15em;
-  object-fit: cover;
-}
-main.home .discover h3 {
-  float: left;
-  margin: 0 0 1em 0;
-}
-main.home .discover a {
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.7;
-  font-size: 1.1em;
-  text-decoration: underline;
-}
-main.home .discover a:hover {
-  text-decoration-style: dashed;
-}
-main.home .discover a.browse {
-  float: right;
-}
-main.home .discover .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 4em;
-}
-main.home .discover .projects .project {
-  flex-basis: calc(33.33% - 1.5em);
-  margin-bottom: 1.5em;
-  padding: 1.5em;
-  background-color: #f5f7f8;
-}
-main.home .discover .blog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1.5em;
-}
-main.home .discover .blog .post {
-  flex-basis: calc(33.33% - 1.5em);
-  margin-bottom: 1.5em;
-  padding: 1.5em;
-  background-color: #f5f7f8;
-}
-main.home .discover .blog .post small {
-  font-size: 0.8em;
-  color: #0a2d50;
-}
-main.home .information {
-  padding: 3em;
-  margin-top: 1.5em;
-  margin-bottom: 8em;
-}
-main.home .information figure {
-  margin: 0;
-}
-main.home .information figure img {
-  width: 100%;
-  height: 15em;
-  object-fit: cover;
-}
-main.home .information .services-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1.5em;
-  position: relative;
-  padding: 2em;
-}
-main.home .information .services-blocks:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  background-color: #cccccc;
-}
-main.home .information .services-blocks .services-block {
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.33% - 1.5em);
-  margin-bottom: 1.5em;
-  padding: 1.5vw;
-  position: relative;
-  background-color: white;
-}
-main.home .information .services-blocks .services-block ul {
-  margin-left: -20px;
-}
-main.home .information .services-blocks .services-block ul li {
-  list-style-type: circle;
-}
-main.home .information .services-blocks .services-block a {
-  color: white;
-  font-family: KingsBureauGrotThreeSeven;
-}
-main.home .information .research-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1.5em;
-  position: relative;
-  padding: 2em;
-}
-main.home .information .research-blocks:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  background-image: url("https://images.pexels.com/photos/17485819/pexels-photo-17485819/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-ways-in-which-ai-can-solve-important-problems-it-was-created-by-vincent-schwenk-as-part-of-the-visualis.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  background-color: #cccccc;
-}
-main.home .information .research-blocks .research-block {
-  background-color: white;
-  padding: 0.5em 1.5em;
-  flex-basis: calc(20% - 1.5em);
-  color: black;
-  position: relative;
-}
-main.home .information .info-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1.5em;
-}
-main.home .information .info-blocks .info-block {
-  background-color: #3b5773;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  color: white;
-  flex-basis: calc(33.33% - 1.5em);
-  margin-bottom: 1.5em;
-  padding: 1.5vw;
-  text-align: center;
-}
-main.home .information .info-blocks .info-block a {
-  color: white;
-  font-family: KingsBureauGrotThreeSeven;
-}
-main.home .contact {
-  text-align: center;
-  margin-bottom: 6em;
-}
-main.home .contact button {
-  border: 0.1em solid #0a2d50;
-  background: #0a2d50;
-  color: white;
-  padding: 0.5em 1.5em;
-  font-size: 1.2em;
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  border-radius: 0.2em;
-}
-main.home .contact button:hover {
-  background: white;
-  color: #0a2d50;
-}
-main.home .contact a {
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: 400;
-  text-decoration: underline;
-}
-main.home .contact a:hover {
-  text-decoration-style: dashed;
-}
-
 header {
   width: 100%;
 }
@@ -747,540 +374,227 @@ header nav.sub ul li:last-child {
   border-right: none;
 }
 
-main.projects {
-  padding: 2em 1em;
-}
-main.projects a {
-  color: #0a2d50;
-  padding: 0.5em 0;
-  cursor: default;
-  display: block;
-  text-decoration: none;
-  line-height: 1.4;
-}
-main.projects a h2 {
-  font-family: KingsCaslon, serif;
-  font-weight: normal;
-  cursor: pointer;
-  margin: 0;
-  line-height: 1;
-  display: inline-block;
-}
-main.projects a h2:hover {
-  text-decoration: underline;
-  color: #135394;
-}
-main.projects a small {
-  color: #5a6369;
+main a {
+  text-decoration-style: solid;
   font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: 400;
-  font-size: 0.6em;
-  display: inline-block;
-  margin-left: 0.3em;
-  font-style: normal;
-}
-main.projects a span {
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  display: block;
-}
-
-.project {
-  padding: 5em 1em;
-}
-.project .kdl-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.project .kdl-container h1 {
-  width: 100%;
-}
-.project .kdl-container h1 small {
-  color: #5a6369;
-  font-size: 0.6em;
-  font-weight: normal;
-}
-.project .kdl-container article {
-  display: flex;
-}
-.project .kdl-container article section {
-  margin: 0 5% 0 0;
-  flex: 3;
-}
-.project .kdl-container article section:last-child {
-  margin: 0;
-  flex: 1;
-  background: rgb(237, 241, 242);
-}
-.project .kdl-container article section figure {
-  margin: 0;
-}
-.project .kdl-container article section figure img {
-  width: 100%;
-}
-.project .kdl-container article section figure figcaption {
-  font-size: 0.7em;
-  text-align: center;
-}
-.project .kdl-container article section #metadata {
-  margin: 0 5%;
-  padding: 1em 0 2em 0;
-}
-.project .kdl-container article section #metadata dl dt {
-  margin-top: 1.5em;
-  font-size: 1.2em;
+  color: #0e3f70;
   font-weight: bold;
+  cursor: pointer;
 }
-.project .kdl-container article section #metadata dl dd {
-  margin-left: 20px;
-  margin-top: 0.5em;
+main a:hover {
+  text-decoration-style: dashed;
+  color: #14589d;
 }
-.project .kdl-container article section #metadata span.status {
-  background: #5a6369;
-  margin-left: -5%;
-  padding: 0.3em 0.5em;
-  margin-bottom: 1em;
+main p {
+  line-height: 1.5;
+}
+main img {
+  width: 100%;
+}
+main h1,
+main h2,
+main h3,
+main h4 {
+  font-family: KingsBureauGrotThreeSeven;
+  font-weight: 400;
+}
+main h2 {
+  margin-bottom: 2em;
+  text-align: center;
+  text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  font-size: 3em;
+}
+main h2 span {
+  text-shadow: none;
+}
+main h3 {
+  font-size: 1.5em;
+}
+main h4 {
+  font-size: 1.3em;
+}
+main button {
   color: white;
-  font-size: 1.2em;
-}
-.project .kdl-container article section #metadata #links,
-.project .kdl-container article section #metadata .funder {
-  border-bottom: 0.3em solid rgb(220, 227, 230);
-  width: 100%;
-  padding: 1em 0;
-}
-.project .kdl-container article section #metadata #links ul,
-.project .kdl-container article section #metadata .funder ul {
-  margin: 0 0 0 -20px;
-  list-style-type: circle;
-}
-.project .kdl-container article section #metadata #links ul li,
-.project .kdl-container article section #metadata .funder ul li {
-  margin-bottom: 0.5em;
-}
-.project .kdl-container article section #metadata #links ul li a,
-.project .kdl-container article section #metadata .funder ul li a {
-  font-size: 1.2em;
-  text-decoration: none;
-}
-.project .kdl-container article section #metadata #links ul li a:hover,
-.project .kdl-container article section #metadata .funder ul li a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  -webkit-transition: all 200ms ease-in;
-  -moz-transition: all 200ms ease-in;
-  -ms-transition: all 200ms ease-in;
-  -o-transition: all 200ms ease-in;
-  transition: all 200ms ease-in;
-}
-.project .kdl-container article section #metadata .funder {
-  border-bottom: 0.3em solid rgb(220, 227, 230);
-}
-.project .kdl-container article section #metadata .date ul {
-  margin: 0 0 0 -20px;
-  list-style-type: circle;
-}
-.project .kdl-container article section #metadata .date ul span {
-  background: none;
-  margin: 0;
-  padding: 0;
-  font-family: "KingsCaslon", serif;
-  color: black;
-}
-.project .kdl-container article section .post-meta {
-  margin-left: 5%;
-}
-.project .kdl-container article section #team {
-  width: 100%;
-  display: block;
-  border-top: 0.01em solid;
-}
-.project .kdl-container article section #team h2 {
-  width: 100%;
-}
-.project .kdl-container article section #team ul {
-  margin-left: -40px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.project .kdl-container article section #team ul h2 {
-  font-size: 1.2em;
-}
-.project .kdl-container article section #team ul li {
-  list-style-type: none;
-  flex: 0 0 50%;
-  margin-bottom: 1em;
-  font-size: 1.1em;
-}
-.project .kdl-container article section #team ul li a {
-  text-decoration: none;
-}
-.project .kdl-container article section #team ul li a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-}
-.project .kdl-container article section #team ul li span {
-  font-size: 0.8em;
-  display: block;
-}
-
-main.posts {
-  padding: 0 1em;
-  float: left;
-  width: 100%;
-}
-main.posts article {
-  display: block;
-}
-main.posts article article {
-  width: 100%;
-  display: flex;
-  margin-bottom: 1em;
-}
-main.posts article article figure {
-  width: 100%;
-  margin: 0;
-}
-main.posts article article figure img {
-  height: auto;
-  max-width: 45em;
-  object-fit: contain;
-  display: inline-block;
-  vertical-align: top;
-}
-main.posts article article figure img:hover {
-  filter: grayscale(100%);
-  transition: transform 1s, filter 0.5s ease-in-out;
-}
-main.posts article article section {
-  margin-left: 2em;
-}
-main.posts article article section a {
-  text-decoration: none;
-}
-main.posts article article section a:hover {
-  text-decoration: underline;
-}
-main.posts article article section a h2 {
-  margin: 0 0 0.3em 0;
-}
-main.posts article article section a:hover {
-  text-decoration: underline;
-}
-
-main.post,
-main.faqs,
-main.base,
-main.home {
-  padding: 0 1em;
-  float: left;
-  width: 100%;
-}
-main.post .kdl-container,
-main.faqs .kdl-container,
-main.base .kdl-container,
-main.home .kdl-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-main.post .kdl-container h1,
-main.faqs .kdl-container h1,
-main.base .kdl-container h1,
-main.home .kdl-container h1 {
-  width: 100%;
-  order: 1;
-}
-main.post .kdl-container h3,
-main.post .kdl-container h3 a,
-main.faqs .kdl-container h3,
-main.faqs .kdl-container h3 a,
-main.base .kdl-container h3,
-main.base .kdl-container h3 a,
-main.home .kdl-container h3,
-main.home .kdl-container h3 a {
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: 400;
-  font-size: 1.1em;
-}
-main.post .kdl-container aside,
-main.faqs .kdl-container aside,
-main.base .kdl-container aside,
-main.home .kdl-container aside {
-  flex: 1;
-  background: rgb(237, 241, 242);
-  order: 3;
-  margin: 0 0 0 5%;
-  padding: 0 1em;
-}
-main.post .kdl-container aside ol,
-main.faqs .kdl-container aside ol,
-main.base .kdl-container aside ol,
-main.home .kdl-container aside ol {
-  margin-left: -20px;
-  counter-reset: counter;
-  list-style: none;
-}
-main.post .kdl-container aside ol li,
-main.faqs .kdl-container aside ol li,
-main.base .kdl-container aside ol li,
-main.home .kdl-container aside ol li {
-  line-height: 1.3;
-  margin-top: 0.5em;
-  font-weight: bold;
-  list-style-type: circle;
-  /*&:before {
-    content: counters(counter, ".");
-
-    margin-left: -1em;
-    margin-top: 0.15em;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding-right:0.5em;
-    //color: $red;
-  } //&:before;*/
-}
-main.post .kdl-container aside ol li a,
-main.faqs .kdl-container aside ol li a,
-main.base .kdl-container aside ol li a,
-main.home .kdl-container aside ol li a {
-  text-decoration: none;
-}
-main.post .kdl-container aside ol li a:hover,
-main.faqs .kdl-container aside ol li a:hover,
-main.base .kdl-container aside ol li a:hover,
-main.home .kdl-container aside ol li a:hover {
-  text-decoration: underline;
-}
-main.post .kdl-container aside ol li ol li,
-main.faqs .kdl-container aside ol li ol li,
-main.base .kdl-container aside ol li ol li,
-main.home .kdl-container aside ol li ol li {
-  /* &:before {
-    margin-left: -1.7em;
-    margin-top: 0.4em;
-    font-size: 0.7em;
-    font-weight: bold;
-  } //&:before;*/
-}
-main.post .kdl-container > article,
-main.faqs .kdl-container > article,
-main.base .kdl-container > article,
-main.home .kdl-container > article {
-  flex: 3;
-  order: 2;
-}
-main.post .kdl-container > article figure,
-main.faqs .kdl-container > article figure,
-main.base .kdl-container > article figure,
-main.home .kdl-container > article figure {
-  width: 100%;
-  margin: 0;
-}
-main.post .kdl-container > article figure img,
-main.faqs .kdl-container > article figure img,
-main.base .kdl-container > article figure img,
-main.home .kdl-container > article figure img {
-  width: 100%;
-  display: flex;
+  font-family: KingsBureauGrotThreeSeven;
   margin: 0 auto;
-}
-main.post .kdl-container > article figure figcaption,
-main.faqs .kdl-container > article figure figcaption,
-main.base .kdl-container > article figure figcaption,
-main.home .kdl-container > article figure figcaption {
-  text-align: center;
-  padding: 0.5em 0 1em 0;
-  font-size: 0.7em;
-  color: dimgray;
-}
-main.post .kdl-container > article .media-small,
-main.faqs .kdl-container > article .media-small,
-main.base .kdl-container > article .media-small,
-main.home .kdl-container > article .media-small {
-  width: 300px;
-  display: flex;
-  margin: 0 auto;
-}
-main.post .kdl-container > article .media-medium,
-main.faqs .kdl-container > article .media-medium,
-main.base .kdl-container > article .media-medium,
-main.home .kdl-container > article .media-medium {
-  max-width: 600px;
-  display: flex;
-  margin: 0 auto;
-}
-main.post .kdl-container footer,
-main.faqs .kdl-container footer,
-main.base .kdl-container footer,
-main.home .kdl-container footer {
-  background: white;
-}
-
-main.people,
-main.organisations {
-  padding: 0 1em;
-  /*ul{
-    display:flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-left:-40px;
-    li{
-      flex: 0 0 33.3%;
-      list-style-type: none;
-      padding:0 0 0.5em 0;
-      font-size:1.4em;
-      a{
-        text-decoration:none;
-        &:hover{
-          text-decoration:underline;
-          text-decoration-style:solid;
-        }
-      }
-    }//li
-  }//ul*/
-}
-main.people ul,
-main.organisations ul {
-  margin-left: -40px;
-  list-style-type: none;
-  list-style-type: none;
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-}
-main.people ul li,
-main.organisations ul li {
-  padding-bottom: 0.5em;
-  font-size: 1.4em;
-}
-main.people ul li a,
-main.organisations ul li a {
-  text-decoration: none;
-}
-main.people ul li a:hover,
-main.organisations ul li a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-}
-
-main.person,
-main.organisation {
-  padding: 0 1em;
-}
-main.person h1,
-main.organisation h1 {
-  width: 100%;
-}
-main.person article img,
-main.organisation article img {
-  width: 30%;
-  height: auto;
-  max-width: 15em;
-  object-fit: contain;
-  display: inline-block;
-  vertical-align: top;
-}
-main.person article section,
-main.organisation article section {
-  display: block;
-  width: 100%;
-  padding: 1em 0;
-  border-bottom: 0.01em solid black;
-}
-main.person article section h2,
-main.organisation article section h2 {
-  margin: 0;
-}
-main.person article section h2 span,
-main.organisation article section h2 span {
-  display: block;
-  font-weight: normal;
-  font-size: 0.7em;
-  color: #5a6369;
-}
-main.person article section .part-of ul,
-main.organisation article section .part-of ul {
-  width: 100%;
-  margin-left: -40px;
-  list-style-type: none;
-}
-main.person article section .part-of ul li,
-main.organisation article section .part-of ul li {
   font-size: 1.2em;
-}
-main.person article section .part-of ul li a,
-main.organisation article section .part-of ul li a {
-  color: #0a2d50;
-  padding: 0.5em 0;
-  cursor: default;
-  display: block;
-  text-decoration: none;
-  line-height: 1.4;
-}
-main.person article section .part-of ul li a h3,
-main.organisation article section .part-of ul li a h3 {
-  font-family: KingsCaslon, serif;
-  font-weight: normal;
+  padding: 0.5em 2em;
+  background: #0a2d50;
+  border: 0.1em solid #0a2d50;
   cursor: pointer;
-  margin: 0;
-  line-height: 1;
-  display: inline-block;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -ms-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  border-radius: 1.1em;
 }
-main.person article section .part-of ul li a h3:hover,
-main.organisation article section .part-of ul li a h3:hover {
-  text-decoration: underline;
-  color: #135394;
-}
-main.person article section .part-of ul li a small,
-main.organisation article section .part-of ul li a small {
-  color: #5a6369;
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: 400;
-  font-size: 0.6em;
-  display: inline-block;
-  margin-left: 0.3em;
-  font-style: normal;
-}
-main.person article section .part-of ul li a span,
-main.organisation article section .part-of ul li a span {
-  font-family: KingsBureauGrotFiveOne, sans-serif;
-  font-weight: normal;
-  display: block;
+main button:focus, main button:hover {
+  background: white;
+  color: #0a2d50;
 }
 
-nav.pagination {
-  margin-top: 5em;
-  border-top: 0.2vw solid black;
-  width: 100%;
+.home .hero {
+  background-color: #0a2d50;
+  color: white;
+  display: flex;
+  height: calc(100vh - 55px);
+  position: relative;
+  width: calc(100% + 2em);
+  margin: -54px -1em 0 -1em;
 }
-nav.pagination ol {
+.home .hero video {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.home .hero .hero-content {
+  color: white;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.home .hero .hero-content:hover {
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.home .hero .hero-content:hover ~ video {
+  opacity: 0.3;
+}
+.home .hero .hero-content h1 {
+  font-size: 2.5em;
+  margin: 0px;
+}
+.home .hero .hero-content p {
+  font-size: 2.7em;
+  font-family: KingsCaslon, serif;
+}
+.home .hero .hero-content button {
+  background: rgba(255, 255, 255, 0.8);
+  color: #0a2d50;
+  border: 0.05em solid white;
+}
+.home .hero .hero-content button:hover {
+  background: white;
+  border: 0.05em solid #0a2d50;
+}
+.home .hero a.scroll {
+  bottom: 1em;
+  color: white;
+  display: block;
+  font-size: 2.4em;
+  line-height: 1;
+  font-weight: 100;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.7;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.home .hero a.scroll:focus, .home .hero a.scroll:hover {
+  opacity: 1;
+  line-height: 0.7;
+}
+.home .hero a.scroll:focus ~ video, .home .hero a.scroll:hover ~ video {
+  opacity: 0.3;
+}
+.home figcaption {
+  display: none;
+}
+.home .discover, .home .information, .home .contact {
+  padding: 40px;
+  margin-top: 20px;
+}
+.home .discover section, .home .information section, .home .contact section {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4em;
 }
-nav.pagination ol li {
-  border: none;
-  flex: 1;
-  display: block;
-  text-align: center;
+.home .discover section div, .home .information section div, .home .contact section div {
+  flex-basis: calc(33.33% - 1.5em);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: #f5f7f8;
 }
-nav.pagination ol li a {
-  color: #5a6369;
+.home .discover section a, .home .information section a, .home .contact section a {
   text-decoration: none;
 }
-nav.pagination ol li a:hover {
-  color: black;
+.home .discover section a:hover, .home .information section a:hover, .home .contact section a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
-nav.pagination ol li a span {
-  display: inline-block;
-  font-family: "KingsCaslon", serif;
+.home .discover figure, .home .information figure, .home .contact figure {
+  margin: 0;
+}
+.home .discover figure img, .home .information figure img, .home .contact figure img {
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+}
+.home .discover a, .home .information a, .home .contact a {
+  line-height: 1.7;
+}
+.home .discover a.browse, .home .information a.browse, .home .contact a.browse {
+  float: right;
+}
+.home .discover .research-themes, .home .discover .services, .home .information .research-themes, .home .information .services, .home .contact .research-themes, .home .contact .services {
+  position: relative;
+  padding: 2em;
+}
+.home .discover .research-themes:before, .home .discover .services:before, .home .information .research-themes:before, .home .information .services:before, .home .contact .research-themes:before, .home .contact .services:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url("https://images.pexels.com/photos/17485819/pexels-photo-17485819/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-ways-in-which-ai-can-solve-important-problems-it-was-created-by-vincent-schwenk-as-part-of-the-visualis.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-color: #cccccc;
+}
+.home .discover .research-themes .research-block, .home .discover .research-themes .services-block, .home .discover .services .research-block, .home .discover .services .services-block, .home .information .research-themes .research-block, .home .information .research-themes .services-block, .home .information .services .research-block, .home .information .services .services-block, .home .contact .research-themes .research-block, .home .contact .research-themes .services-block, .home .contact .services .research-block, .home .contact .services .services-block {
+  flex-basis: calc(20% - 1.5em);
+  background-color: white;
+  position: relative;
+}
+.home .discover .services:before, .home .information .services:before, .home .contact .services:before {
+  background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
+}
+.home .discover .services .services-block, .home .information .services .services-block, .home .contact .services .services-block {
+  flex-basis: calc(33.3% - 1.5em);
+}
+.home .contact {
+  text-align: center;
 }
 
 footer {
   background: #5a6369;
-  margin-top: 2em;
+  margin-top: 8em;
   float: left;
   width: 100%;
+  color: white;
 }
 footer .connect {
   padding: 0 1em;
@@ -1306,10 +620,8 @@ footer .connect .kdl-container ul li {
   justify-content: left;
 }
 footer .connect .kdl-container ul li a {
-  color: white;
   min-width: 4em;
   display: block;
-  text-decoration: none;
 }
 footer .connect .kdl-container ul li a img {
   width: 3em;
@@ -1322,13 +634,6 @@ footer .connect .kdl-container ul li a img:hover {
   background: white;
   filter: invert(0);
   border: 0.125em solid white;
-}
-footer .connect .kdl-container ul li a:hover {
-  text-decoration: underline;
-}
-footer nav.footer {
-  padding: 0 1em;
-  color: white;
 }
 footer nav.footer .kdl-container {
   display: flex;
@@ -1355,11 +660,9 @@ footer nav.footer .kdl-container section ul li a {
   min-width: 6em;
   display: block;
   text-decoration: none;
-  font-family: KingsBureauGrotFiveOne, sans-serif;
 }
 footer nav.footer .kdl-container section ul li a:hover {
   text-decoration: underline;
-  text-decoration-style: solid;
 }
 footer nav.footer .kdl-container section p,
 footer nav.footer .kdl-container section address {
@@ -1375,199 +678,13 @@ footer .footer-end {
   background-color: #3e4649;
   color: white;
   padding: 1.25em 1em;
+  text-align: center;
 }
-footer .footer-end .kdl-container {
-  display: flex;
-  margin-right: 2em;
-}
-footer .footer-end .kdl-container a {
+footer .footer-end a {
   color: white;
-  min-width: 6em;
-  display: block;
-  text-decoration: none;
-  font-family: KingsBureauGrotFiveOne, sans-serif;
+  opacity: 0.8;
 }
-footer .footer-end .kdl-container a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-}
-
-@media (max-width: 800px) {
-  header {
-    float: none;
-  }
-  header .site a.sitename {
-    font-size: 1.5em;
-    padding: 0.5em 0;
-  }
-  header .site a.logo img {
-    width: 3.65em;
-  }
-  header nav.main .kdl-container #menu-toggle ~ ul {
-    height: 0;
-    width: 0;
-    opacity: 1;
-    display: none;
-  }
-  header nav.main .kdl-container #menu-toggle:checked ~ ul {
-    height: 100%;
-    width: calc(100% + 40px);
-    opacity: 1;
-    margin-top: 0;
-    display: block;
-  }
-  header nav.main .kdl-container .kdl-menu-button-container {
-    display: flex;
-    position: absolute;
-    right: 7em;
-    top: 1.3em;
-    flex-direction: row;
-    justify-content: normal;
-    align-items: initial;
-  }
-  header nav.main .kdl-container > ul {
-    margin-top: 50px;
-    width: 100%;
-  }
-  header nav.main .kdl-container > ul > li {
-    margin: 0;
-    width: calc(100% + 40px);
-    color: white;
-    background-color: #42494e;
-    margin-left: 10px;
-    padding: 0;
-  }
-  header nav.main .kdl-container > ul > li:not(:last-child) {
-    border-bottom: 1px solid #444;
-  }
-  header nav.main .kdl-container > ul > li:not(:last-child) > ul {
-    margin-left: -40px;
-  }
-  header nav.main .kdl-container > ul > li:not(:last-child) > ul > li {
-    padding-left: 20px;
-  }
-  header nav.main.kdl-container > ul {
-    margin-top: 100px;
-    width: 100%;
-  }
-  header nav.sub {
-    border: none;
-  }
-  main.project {
-    padding: 1em 1em;
-  }
-  main.project .kdl-container {
-    display: block;
-  }
-  main.project .kdl-container article {
-    display: block;
-  }
-  main.project .kdl-container article section {
-    width: 100%;
-    margin: 0;
-  }
-  main.project .kdl-container article section:last-child {
-    width: 100%;
-    background: none;
-    border-top: 0.01em solid black;
-  }
-  main.project .kdl-container article section #metadata {
-    margin: 0;
-  }
-  main.project .kdl-container article section #metadata span.status {
-    margin-left: 0;
-    padding: 0.3em 0.5em;
-  }
-  main.project .kdl-container article section #team {
-    width: 100%;
-    display: block;
-    border-top: 0.01em solid;
-  }
-  main.project .kdl-container article section #team h2 {
-    width: 100%;
-  }
-  main.project .kdl-container article section #team ul {
-    display: block;
-  }
-  main.people ul,
-  main.organisations ul {
-    columns: 1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
-  main.person article img {
-    width: 100%;
-    display: block;
-  }
-  main.person article section {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-  }
-  main.person article section h2 {
-    margin-top: 0.5em;
-  }
-  main.person article section h2 span {
-    display: block;
-    font-weight: normal;
-    font-size: 0.7em;
-    color: #5a6369;
-  }
-  main.person ul {
-    width: 100%;
-    margin-left: -40px;
-  }
-  main.person ul li {
-    font-size: 1.2em;
-  }
-  main.posts article {
-    width: 100%;
-    display: block;
-  }
-  main.posts article a figure img {
-    max-width: 100%;
-  }
-  main.posts article section {
-    margin: 1em 0 0 0;
-  }
-  main.post .kdl-container,
-  main.faqs .kdl-container,
-  main.base .kdl-container,
-  main.home .kdl-container {
-    display: block;
-  }
-  main.post .kdl-container aside,
-  main.faqs .kdl-container aside,
-  main.base .kdl-container aside,
-  main.home .kdl-container aside {
-    margin: 0 0 1em 0;
-    padding: 0.1em 1em;
-  }
-  footer {
-    background: #5a6369;
-  }
-  footer .connect {
-    text-align: center;
-    padding: 0.1em 0;
-  }
-  footer .connect .kdl-container {
-    display: block;
-  }
-  footer .connect .kdl-container h2 {
-    font-family: KingsBureauGrotThreeSeven, sans-serif;
-    font-weight: 400;
-    width: 100%;
-  }
-  footer .connect .kdl-container ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  footer nav.footer .kdl-container {
-    display: block;
-  }
-}
-ion-icon {
-  --ionicon-stroke-width: 16px;
+footer .footer-end a:hover {
+  text-decoration-style: dashed;
+  opacity: 1;
 }
