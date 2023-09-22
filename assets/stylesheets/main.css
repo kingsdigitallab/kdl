@@ -376,9 +376,8 @@ header nav.sub ul li:last-child {
 
 main a {
   text-decoration-style: solid;
-  font-family: KingsBureauGrotFiveOne, sans-serif;
+  font-weight: 400;
   color: #0e3f70;
-  font-weight: bold;
   cursor: pointer;
 }
 main a:hover {
@@ -397,12 +396,6 @@ main h3,
 main h4 {
   font-family: KingsBureauGrotThreeSeven;
   font-weight: 400;
-}
-main h2 {
-  margin: 3em 0 2em 0;
-  text-align: center;
-  text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
-  font-size: 3em;
 }
 main h3 {
   font-size: 1.5em;
@@ -433,6 +426,12 @@ main button:focus, main button:hover {
 
 .home .kdl-container {
   max-width: 1500px;
+}
+.home h2 {
+  margin: 3em 0 2em 0;
+  text-align: center;
+  text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  font-size: 3em;
 }
 .home .hero {
   background-color: #0a2d50;
@@ -474,7 +473,7 @@ main button:focus, main button:hover {
 }
 .home .hero .hero-content h1 {
   font-size: 2.5em;
-  margin: 0px;
+  margin: 0;
 }
 .home .hero .hero-content p {
   font-size: 2.7em;
@@ -545,7 +544,7 @@ main button:focus, main button:hover {
   object-fit: cover;
 }
 .home .discover a, .home .information a, .home .contact a {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 .home .discover a.browse, .home .information a.browse, .home .contact a.browse {
   float: right;
@@ -586,6 +585,93 @@ main button:focus, main button:hover {
 }
 .home .contact {
   text-align: center;
+}
+
+main.projects article > a {
+  display: block;
+  padding: 1em 1.5em 1em 0.5em;
+  text-decoration: none;
+  border-left: 0.2em solid #e6ebed;
+}
+main.projects article > a:hover {
+  background: #f9f9f9;
+  border-left: 0.2em solid #14589d;
+}
+main.projects article > a p {
+  color: black;
+  margin: 0.2em 0;
+}
+main.projects h2 {
+  margin: 0;
+  display: inline-block;
+}
+main.projects h2 small {
+  color: #5a6369;
+  font-family: KingsCaslon, serif;
+  font-size: 0.7em;
+  display: inline-block;
+  margin-left: 0.3em;
+}
+
+nav.pagination {
+  margin-top: 5em;
+  border-top: 0.2vw solid black;
+  width: 100%;
+}
+nav.pagination ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1em 25vw;
+  margin-top: 3em;
+}
+nav.pagination ol li {
+  border: none;
+  flex: 1;
+  display: block;
+  text-align: center;
+  background: white;
+  margin: 0 0.1em;
+  opacity: 0.9;
+}
+nav.pagination ol li a {
+  padding: 0.5em 0;
+  display: block;
+}
+nav.pagination ol li:nth-child(1), nav.pagination ol li:nth-child(5) {
+  max-width: 3em;
+  background: #0a2d50;
+}
+nav.pagination ol li:nth-child(1) a, nav.pagination ol li:nth-child(5) a {
+  color: #e6e6e6;
+}
+nav.pagination ol li:nth-child(1) a:hover, nav.pagination ol li:nth-child(5) a:hover {
+  color: white;
+}
+nav.pagination ol li:nth-child(2), nav.pagination ol li:nth-child(4) {
+  max-width: 5em;
+  background: #e6ebed;
+}
+nav.pagination ol li:nth-child(3) {
+  min-width: 7em;
+  max-width: 10em;
+}
+nav.pagination ol li:hover {
+  opacity: 1;
+}
+nav.pagination ol li .kdl-visually-hidden {
+  display: none;
+}
+nav.pagination ol li a {
+  color: #5a6369;
+  text-decoration: none;
+}
+nav.pagination ol li a:hover {
+  color: black;
+}
+nav.pagination ol li a span {
+  display: inline-block;
+  font-family: "KingsCaslon", serif;
 }
 
 footer {
