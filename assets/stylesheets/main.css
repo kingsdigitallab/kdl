@@ -426,6 +426,11 @@ main button:focus, main button:hover {
   background: white;
   color: #0a2d50;
 }
+main .kdl-member sup {
+  font-family: KingsBureauGrotThreeSeven;
+  text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px, rgba(254, 1, 1, 0.25) -2px -2px 0px;
+  font-size: 0.7em;
+}
 
 .home .kdl-container {
   max-width: 1500px;
@@ -741,11 +746,6 @@ main.projects h2 small {
   display: block;
   color: #5a6369;
 }
-.project .kdl-container article section #team .kdl-member sup {
-  font-family: KingsBureauGrotThreeSeven;
-  text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px, rgba(254, 1, 1, 0.25) -2px -2px 0px;
-  font-size: 0.7em;
-}
 
 main.posts {
   padding: 0 1em;
@@ -827,7 +827,7 @@ main.home .kdl-container aside {
   background: rgb(237, 241, 242);
   order: 3;
   margin: 0 0 0 5%;
-  padding: 0 1em;
+  padding: 0.5em 1em;
 }
 main.post .kdl-container aside h2,
 main.faqs .kdl-container aside h2,
@@ -933,7 +933,7 @@ main.post .kdl-container > article > article h2,
 main.faqs .kdl-container > article > article h2,
 main.base .kdl-container > article > article h2,
 main.home .kdl-container > article > article h2 {
-  border-bottom: 0.1em solid #3b5773;
+  border-bottom: 0.03em solid #abbcc2;
 }
 main.post .kdl-container > article > article footer,
 main.faqs .kdl-container > article > article footer,
@@ -944,6 +944,110 @@ main.home .kdl-container > article > article footer {
   padding: 0.3em 0 0.3em 0.5em;
   border-left: 0.25em solid #5a6369;
   border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
+}
+
+main.people,
+main.organisations {
+  padding: 0 1em;
+}
+main.people h2,
+main.organisations h2 {
+  text-transform: uppercase;
+  text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  font-size: 2.5em;
+  border-bottom: 0.03em solid #abbcc2;
+  margin-top: 0;
+}
+main.people ul,
+main.organisations ul {
+  margin-top: 5em;
+  margin-left: -40px;
+  list-style-type: none;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+main.people ul li,
+main.organisations ul li {
+  padding-bottom: 0.5em;
+  padding-right: 2em;
+}
+main.people ul li ol,
+main.organisations ul li ol {
+  list-style-type: none;
+  margin-left: -40px;
+  margin-bottom: 2em;
+}
+main.people ul li a,
+main.organisations ul li a {
+  text-decoration: none;
+}
+main.people ul li a:hover,
+main.organisations ul li a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+main.person article, main.organisation article {
+  line-height: 1.7;
+}
+main.person article h2, main.organisation article h2 {
+  border-bottom: 0.03em solid #abbcc2;
+}
+main.person article img, main.organisation article img {
+  width: 100%;
+  display: block;
+}
+main.person article a, main.organisation article a {
+  text-decoration: none;
+}
+main.person article a:hover, main.organisation article a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+main.person article section, main.organisation article section {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+}
+main.person article section h2, main.organisation article section h2 {
+  margin-top: 0.5em;
+}
+main.person article section h2 span, main.organisation article section h2 span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.7em;
+  color: #5a6369;
+}
+main.person ul, main.organisation ul {
+  width: 100%;
+  margin-left: -40px;
+}
+main.person ul li, main.organisation ul li {
+  display: inherit;
+}
+main.person ul li a, main.organisation ul li a {
+  display: block;
+  padding: 1em 1.5em 1em 0.5em;
+  text-decoration: none;
+  border-left: 0.2em solid #e6ebed;
+}
+main.person ul li a:hover, main.organisation ul li a:hover {
+  background: #f9f9f9;
+  border-left: 0.2em solid #14589d;
+  text-decoration: none;
+}
+main.person ul li h3, main.organisation ul li h3 {
+  margin: 0;
+}
+main.person ul li h3 small, main.organisation ul li h3 small {
+  color: #5a6369;
+  font-family: KingsCaslon, serif;
+  font-size: 0.7em;
+  margin-left: 0.3em;
+}
+main.person ul li p, main.organisation ul li p {
+  margin: 0;
 }
 
 nav.pagination {
