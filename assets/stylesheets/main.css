@@ -397,11 +397,14 @@ main h4 {
   font-family: KingsBureauGrotThreeSeven;
   font-weight: 400;
 }
+main h2 {
+  font-size: 1.8em;
+}
 main h3 {
   font-size: 1.5em;
 }
 main h4 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 main button {
   color: white;
@@ -426,6 +429,7 @@ main button:focus, main button:hover {
 
 .home .kdl-container {
   max-width: 1500px;
+  padding: 0 2em;
 }
 .home h2 {
   margin: 3em 0 2em 0;
@@ -611,6 +615,335 @@ main.projects h2 small {
   font-size: 0.7em;
   display: inline-block;
   margin-left: 0.3em;
+}
+
+.project {
+  padding: 5em 1em;
+}
+.project .kdl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project .kdl-container h1 {
+  width: 100%;
+}
+.project .kdl-container h1 small {
+  color: #5a6369;
+  font-size: 0.6em;
+  font-family: KingsCaslon, serif;
+}
+.project .kdl-container h3 {
+  margin: 1em 0 0.5em 0;
+}
+.project .kdl-container article {
+  display: flex;
+  width: 100%;
+}
+.project .kdl-container article section {
+  margin: 0 5% 0 0;
+  width: 65%;
+}
+.project .kdl-container article section:last-child {
+  margin: 0;
+  width: 30%;
+  background: rgb(237, 241, 242);
+  min-width: 20em;
+}
+.project .kdl-container article section figure {
+  margin: 0;
+}
+.project .kdl-container article section figure img {
+  width: 100%;
+}
+.project .kdl-container article section figure figcaption {
+  font-size: 0.7em;
+  text-align: center;
+}
+.project .kdl-container article section #metadata {
+  margin: 0 5%;
+  padding: 1em 0 2em 0;
+  line-height: 1.5;
+}
+.project .kdl-container article section #metadata dl dt {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.project .kdl-container article section #metadata dl dd {
+  margin-left: 20px;
+  margin-top: 0.5em;
+}
+.project .kdl-container article section #metadata span.status {
+  background: #5a6369;
+  margin-left: -5%;
+  padding: 0.3em 0.5em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 1.2em;
+}
+.project .kdl-container article section #metadata #links,
+.project .kdl-container article section #metadata .funder {
+  border-bottom: 0.3em solid rgb(220, 227, 230);
+  width: 100%;
+  padding: 1em 0;
+}
+.project .kdl-container article section #metadata #links ul,
+.project .kdl-container article section #metadata .funder ul {
+  margin: 0 0 0 -20px;
+  list-style-type: circle;
+}
+.project .kdl-container article section #metadata #links ul li,
+.project .kdl-container article section #metadata .funder ul li {
+  margin-bottom: 0.5em;
+}
+.project .kdl-container article section #metadata .funder {
+  border-bottom: 0.3em solid rgb(220, 227, 230);
+}
+.project .kdl-container article section #metadata .date ul {
+  margin: 0 0 0 -20px;
+  list-style-type: circle;
+}
+.project .kdl-container article section .post-meta {
+  margin-left: 5%;
+}
+.project .kdl-container article section #team {
+  width: 100%;
+  display: block;
+  border-top: 0.01em solid;
+}
+.project .kdl-container article section #team h2 {
+  width: 100%;
+}
+.project .kdl-container article section #team ul {
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.project .kdl-container article section #team ul h2 {
+  font-size: 1.2em;
+}
+.project .kdl-container article section #team ul li {
+  list-style-type: none;
+  flex: 0 0 50%;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+.project .kdl-container article section #team ul li a {
+  text-decoration: none;
+}
+.project .kdl-container article section #team ul li a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+.project .kdl-container article section #team ul li span {
+  font-size: 0.8em;
+  display: block;
+  color: #5a6369;
+}
+.project .kdl-container article section #team .kdl-member sup {
+  font-family: KingsBureauGrotThreeSeven;
+  text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px, rgba(254, 1, 1, 0.25) -2px -2px 0px;
+  font-size: 0.7em;
+}
+
+main.posts {
+  padding: 0 1em;
+  float: left;
+  width: 100%;
+}
+main.posts article {
+  display: block;
+}
+main.posts article article {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1em;
+}
+main.posts article article figure {
+  width: 100%;
+  margin: 0;
+}
+main.posts article article figure img {
+  height: auto;
+  max-width: 45em;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: top;
+}
+main.posts article article figure img:hover {
+  filter: grayscale(100%);
+  transition: transform 1s, filter 0.5s ease-in-out;
+}
+main.posts article article section {
+  margin-left: 2em;
+}
+main.posts article article section a {
+  text-decoration: none;
+}
+main.posts article article section a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+main.posts article article section a h2 {
+  margin: 0 0 0.3em 0;
+}
+main.posts article article section .subtitle {
+  margin-top: 2em;
+  line-height: 1.3;
+}
+main.posts article article section .subtitle span {
+  background: linear-gradient(to left, lightcyan, #e8fce8);
+  padding: 0.5em;
+}
+
+main.post,
+main.faqs,
+main.base,
+main.home {
+  padding: 0 1em;
+  float: left;
+  width: 100%;
+}
+main.post .kdl-container,
+main.faqs .kdl-container,
+main.base .kdl-container,
+main.home .kdl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main.post .kdl-container h1,
+main.faqs .kdl-container h1,
+main.base .kdl-container h1,
+main.home .kdl-container h1 {
+  width: 100%;
+  order: 1;
+}
+main.post .kdl-container aside,
+main.faqs .kdl-container aside,
+main.base .kdl-container aside,
+main.home .kdl-container aside {
+  flex: 1;
+  background: rgb(237, 241, 242);
+  order: 3;
+  margin: 0 0 0 5%;
+  padding: 0 1em;
+}
+main.post .kdl-container aside h2,
+main.faqs .kdl-container aside h2,
+main.base .kdl-container aside h2,
+main.home .kdl-container aside h2 {
+  font-size: 1.3em;
+}
+main.post .kdl-container aside ol,
+main.faqs .kdl-container aside ol,
+main.base .kdl-container aside ol,
+main.home .kdl-container aside ol {
+  margin-left: -20px;
+  counter-reset: counter;
+  list-style: none;
+}
+main.post .kdl-container aside ol li,
+main.faqs .kdl-container aside ol li,
+main.base .kdl-container aside ol li,
+main.home .kdl-container aside ol li {
+  line-height: 1.3;
+  margin-top: 0.5em;
+  font-weight: bold;
+  list-style-type: circle;
+}
+main.post .kdl-container aside ol li a,
+main.faqs .kdl-container aside ol li a,
+main.base .kdl-container aside ol li a,
+main.home .kdl-container aside ol li a {
+  text-decoration: none;
+}
+main.post .kdl-container aside ol li a:hover,
+main.faqs .kdl-container aside ol li a:hover,
+main.base .kdl-container aside ol li a:hover,
+main.home .kdl-container aside ol li a:hover {
+  text-decoration: underline;
+}
+main.post .kdl-container > article,
+main.faqs .kdl-container > article,
+main.base .kdl-container > article,
+main.home .kdl-container > article {
+  flex: 3;
+  order: 2;
+}
+main.post .kdl-container > article figure,
+main.faqs .kdl-container > article figure,
+main.base .kdl-container > article figure,
+main.home .kdl-container > article figure {
+  width: 100%;
+  margin: 0;
+}
+main.post .kdl-container > article figure img,
+main.faqs .kdl-container > article figure img,
+main.base .kdl-container > article figure img,
+main.home .kdl-container > article figure img {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+main.post .kdl-container > article figure figcaption,
+main.faqs .kdl-container > article figure figcaption,
+main.base .kdl-container > article figure figcaption,
+main.home .kdl-container > article figure figcaption {
+  text-align: center;
+  padding: 0.5em 0 1em 0;
+  font-size: 0.7em;
+  color: dimgray;
+}
+main.post .kdl-container > article .media-small,
+main.faqs .kdl-container > article .media-small,
+main.base .kdl-container > article .media-small,
+main.home .kdl-container > article .media-small {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+main.post .kdl-container > article .media-medium,
+main.faqs .kdl-container > article .media-medium,
+main.base .kdl-container > article .media-medium,
+main.home .kdl-container > article .media-medium {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+}
+main.post .kdl-container > article > article,
+main.faqs .kdl-container > article > article,
+main.base .kdl-container > article > article,
+main.home .kdl-container > article > article {
+  line-height: 1.7;
+}
+main.post .kdl-container > article > article h2, main.post .kdl-container > article > article h3, main.post .kdl-container > article > article h4,
+main.faqs .kdl-container > article > article h2,
+main.faqs .kdl-container > article > article h3,
+main.faqs .kdl-container > article > article h4,
+main.base .kdl-container > article > article h2,
+main.base .kdl-container > article > article h3,
+main.base .kdl-container > article > article h4,
+main.home .kdl-container > article > article h2,
+main.home .kdl-container > article > article h3,
+main.home .kdl-container > article > article h4 {
+  margin-bottom: 0;
+}
+main.post .kdl-container > article > article h2,
+main.faqs .kdl-container > article > article h2,
+main.base .kdl-container > article > article h2,
+main.home .kdl-container > article > article h2 {
+  border-bottom: 0.1em solid #3b5773;
+}
+main.post .kdl-container > article > article footer,
+main.faqs .kdl-container > article > article footer,
+main.base .kdl-container > article > article footer,
+main.home .kdl-container > article > article footer {
+  background: white;
+  color: black;
+  padding: 0.3em 0 0.3em 0.5em;
+  border-left: 0.25em solid #5a6369;
+  border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
 }
 
 nav.pagination {
