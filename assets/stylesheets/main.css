@@ -542,7 +542,7 @@ main .kdl-member sup {
 .home .contact section div {
   flex-basis: calc(33.33% - 1.5em);
   margin-bottom: 1.5em;
-  padding: 1.5em;
+  padding: 1.5em 1.5em 1em 1.5em;
   background-color: #f5f7f8;
 }
 .home .discover section a,
@@ -586,7 +586,7 @@ main .kdl-member sup {
 .home .contact .research,
 .home .contact .services {
   position: relative;
-  padding: 2em;
+  padding: 3em 2em 1.1em 2em;
 }
 .home .discover .research:before,
 .home .discover .services:before,
@@ -620,9 +620,25 @@ main .kdl-member sup {
 .home .contact .research .services-block,
 .home .contact .services .research-block,
 .home .contact .services .services-block {
-  flex-basis: calc(20% - 1.5em);
+  flex-basis: calc(25% - 1.5em);
   background-color: white;
   position: relative;
+  padding: 0em 1.7em 1em 1.7em;
+}
+.home .discover .research .research-block h4,
+.home .discover .research .services-block h4,
+.home .discover .services .research-block h4,
+.home .discover .services .services-block h4,
+.home .information .research .research-block h4,
+.home .information .research .services-block h4,
+.home .information .services .research-block h4,
+.home .information .services .services-block h4,
+.home .contact .research .research-block h4,
+.home .contact .research .services-block h4,
+.home .contact .services .research-block h4,
+.home .contact .services .services-block h4 {
+  background: linear-gradient(to left, lightcyan, #e8fce8);
+  padding: 0.3em 0.2em 0.2em 0.4em;
 }
 .home .discover .services:before,
 .home .information .services:before,
