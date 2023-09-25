@@ -525,45 +525,71 @@ main .kdl-member sup {
 .home figcaption {
   display: none;
 }
-.home .discover section, .home .information section, .home .contact section {
+.home .discover section,
+.home .information section,
+.home .contact section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 4em;
 }
-.home .discover section div, .home .information section div, .home .contact section div {
+.home .discover section div,
+.home .information section div,
+.home .contact section div {
   flex-basis: calc(33.33% - 1.5em);
   margin-bottom: 1.5em;
   padding: 1.5em;
   background-color: #f5f7f8;
 }
-.home .discover section a, .home .information section a, .home .contact section a {
+.home .discover section a,
+.home .information section a,
+.home .contact section a {
   text-decoration: none;
 }
-.home .discover section a:hover, .home .information section a:hover, .home .contact section a:hover {
+.home .discover section a:hover,
+.home .information section a:hover,
+.home .contact section a:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
 }
-.home .discover figure, .home .information figure, .home .contact figure {
+.home .discover figure,
+.home .information figure,
+.home .contact figure {
   margin: 0;
 }
-.home .discover figure img, .home .information figure img, .home .contact figure img {
+.home .discover figure img,
+.home .information figure img,
+.home .contact figure img {
   width: 100%;
   height: 15em;
   object-fit: cover;
 }
-.home .discover a, .home .information a, .home .contact a {
+.home .discover a,
+.home .information a,
+.home .contact a {
   line-height: 1.5;
 }
-.home .discover a.browse, .home .information a.browse, .home .contact a.browse {
+.home .discover a.browse,
+.home .information a.browse,
+.home .contact a.browse {
   float: right;
   margin-top: 1.7em;
 }
-.home .discover .research-themes, .home .discover .services, .home .information .research-themes, .home .information .services, .home .contact .research-themes, .home .contact .services {
+.home .discover .research,
+.home .discover .services,
+.home .information .research,
+.home .information .services,
+.home .contact .research,
+.home .contact .services {
   position: relative;
   padding: 2em;
 }
-.home .discover .research-themes:before, .home .discover .services:before, .home .information .research-themes:before, .home .information .services:before, .home .contact .research-themes:before, .home .contact .services:before {
+.home .discover .research:before,
+.home .discover .services:before,
+.home .information .research:before,
+.home .information .services:before,
+.home .contact .research:before,
+.home .contact .services:before {
   content: " ";
   display: block;
   position: absolute;
@@ -578,15 +604,30 @@ main .kdl-member sup {
   background-size: cover;
   background-color: #cccccc;
 }
-.home .discover .research-themes .research-block, .home .discover .research-themes .services-block, .home .discover .services .research-block, .home .discover .services .services-block, .home .information .research-themes .research-block, .home .information .research-themes .services-block, .home .information .services .research-block, .home .information .services .services-block, .home .contact .research-themes .research-block, .home .contact .research-themes .services-block, .home .contact .services .research-block, .home .contact .services .services-block {
+.home .discover .research .research-block,
+.home .discover .research .services-block,
+.home .discover .services .research-block,
+.home .discover .services .services-block,
+.home .information .research .research-block,
+.home .information .research .services-block,
+.home .information .services .research-block,
+.home .information .services .services-block,
+.home .contact .research .research-block,
+.home .contact .research .services-block,
+.home .contact .services .research-block,
+.home .contact .services .services-block {
   flex-basis: calc(20% - 1.5em);
   background-color: white;
   position: relative;
 }
-.home .discover .services:before, .home .information .services:before, .home .contact .services:before {
+.home .discover .services:before,
+.home .information .services:before,
+.home .contact .services:before {
   background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
 }
-.home .discover .services .services-block, .home .information .services .services-block, .home .contact .services .services-block {
+.home .discover .services .services-block,
+.home .information .services .services-block,
+.home .contact .services .services-block {
   flex-basis: calc(33.3% - 1.5em);
 }
 .home .discover h3 {
@@ -917,7 +958,9 @@ main.base .kdl-container > article > article,
 main.home .kdl-container > article > article {
   line-height: 1.7;
 }
-main.post .kdl-container > article > article h2, main.post .kdl-container > article > article h3, main.post .kdl-container > article > article h4,
+main.post .kdl-container > article > article h2,
+main.post .kdl-container > article > article h3,
+main.post .kdl-container > article > article h4,
 main.faqs .kdl-container > article > article h2,
 main.faqs .kdl-container > article > article h3,
 main.faqs .kdl-container > article > article h4,
@@ -988,65 +1031,80 @@ main.organisations ul li a:hover {
   text-decoration-style: dashed;
 }
 
-main.person article, main.organisation article {
+main.person article,
+main.organisation article {
   line-height: 1.7;
 }
-main.person article h2, main.organisation article h2 {
+main.person article h2,
+main.organisation article h2 {
   border-bottom: 0.03em solid #abbcc2;
 }
-main.person article img, main.organisation article img {
+main.person article img,
+main.organisation article img {
   width: 100%;
   display: block;
 }
-main.person article a, main.organisation article a {
+main.person article a,
+main.organisation article a {
   text-decoration: none;
 }
-main.person article a:hover, main.organisation article a:hover {
+main.person article a:hover,
+main.organisation article a:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
 }
-main.person article section, main.organisation article section {
+main.person article section,
+main.organisation article section {
   display: block;
   width: 100%;
   padding-left: 0;
 }
-main.person article section h2, main.organisation article section h2 {
+main.person article section h2,
+main.organisation article section h2 {
   margin-top: 0.5em;
 }
-main.person article section h2 span, main.organisation article section h2 span {
+main.person article section h2 span,
+main.organisation article section h2 span {
   display: block;
   font-weight: normal;
   font-size: 0.7em;
   color: #5a6369;
 }
-main.person ul, main.organisation ul {
+main.person ul,
+main.organisation ul {
   width: 100%;
   margin-left: -40px;
 }
-main.person ul li, main.organisation ul li {
+main.person ul li,
+main.organisation ul li {
   display: inherit;
 }
-main.person ul li a, main.organisation ul li a {
+main.person ul li a,
+main.organisation ul li a {
   display: block;
   padding: 1em 1.5em 1em 0.5em;
   text-decoration: none;
   border-left: 0.2em solid #e6ebed;
 }
-main.person ul li a:hover, main.organisation ul li a:hover {
+main.person ul li a:hover,
+main.organisation ul li a:hover {
   background: #f9f9f9;
   border-left: 0.2em solid #14589d;
   text-decoration: none;
 }
-main.person ul li h3, main.organisation ul li h3 {
+main.person ul li h3,
+main.organisation ul li h3 {
   margin: 0;
 }
-main.person ul li h3 small, main.organisation ul li h3 small {
+main.person ul li h3 small,
+main.organisation ul li h3 small {
   color: #5a6369;
   font-family: KingsCaslon, serif;
   font-size: 0.7em;
   margin-left: 0.3em;
 }
-main.person ul li p, main.organisation ul li p {
+main.person ul li p,
+main.organisation ul li p {
   margin: 0;
 }
 
