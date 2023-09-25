@@ -1135,6 +1135,9 @@ nav.pagination ol li a {
 }
 nav.pagination ol li:nth-child(1), nav.pagination ol li:nth-child(5) {
   max-width: 3em;
+  background: #10477d;
+}
+nav.pagination ol li:nth-child(1):hover, nav.pagination ol li:nth-child(5):hover {
   background: #0a2d50;
 }
 nav.pagination ol li:nth-child(1) a, nav.pagination ol li:nth-child(5) a {
@@ -1145,7 +1148,11 @@ nav.pagination ol li:nth-child(1) a:hover, nav.pagination ol li:nth-child(5) a:h
 }
 nav.pagination ol li:nth-child(2), nav.pagination ol li:nth-child(4) {
   max-width: 5em;
-  background: #e6ebed;
+  background: #f5f7f8;
+  border: 0.05em solid #f5f7f8;
+}
+nav.pagination ol li:nth-child(2):hover, nav.pagination ol li:nth-child(4):hover {
+  border: 0.05em solid #c8d3d8;
 }
 nav.pagination ol li:nth-child(3) {
   min-width: 7em;
