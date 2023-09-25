@@ -625,21 +625,6 @@ main .kdl-member sup {
   position: relative;
   padding: 0em 1.7em 1em 1.7em;
 }
-.home .discover .research .research-block h4,
-.home .discover .research .services-block h4,
-.home .discover .services .research-block h4,
-.home .discover .services .services-block h4,
-.home .information .research .research-block h4,
-.home .information .research .services-block h4,
-.home .information .services .research-block h4,
-.home .information .services .services-block h4,
-.home .contact .research .research-block h4,
-.home .contact .research .services-block h4,
-.home .contact .services .research-block h4,
-.home .contact .services .services-block h4 {
-  background: linear-gradient(to left, lightcyan, #e8fce8);
-  padding: 0.3em 0.2em 0.2em 0.4em;
-}
 .home .discover .services:before,
 .home .information .services:before,
 .home .contact .services:before {
