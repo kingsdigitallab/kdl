@@ -519,19 +519,15 @@ main {
     }
   } //.kdl-member
 
-  .subtitle, .kdl-subtitle {
+  .subtitle,
+  .kdl-subtitle {
     margin-top: 2em;
     line-height: 1.3;
     span {
-      background: linear-gradient(
-        to left,
-        lightcyan,
-        lighten(lightgreen, 20%)
-      );
+      background: linear-gradient(to left, lightcyan, lighten(lightgreen, 20%));
       padding: 0.5em;
     }
   }
-
 } //main
 
 //--Home--
@@ -921,8 +917,6 @@ main.posts {
             margin: 0 0 0.3em 0;
           } //h2
         } //a
-
-
       } //section
     } //article
   } //article
@@ -988,14 +982,18 @@ main.faqs {
         } //figcaption
       } //figure
       .media-small {
+        img{
         width: 300px;
         display: flex;
         margin: 0 auto;
+        }
       }
       .media-medium {
+        img{
         max-width: 600px;
         display: flex;
         margin: 0 auto;
+        }
       }
       > article {
         line-height: 1.7;
