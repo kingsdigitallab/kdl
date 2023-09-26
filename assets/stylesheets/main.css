@@ -435,11 +435,13 @@ main .kdl-member sup {
   text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px, rgba(254, 1, 1, 0.25) -2px -2px 0px;
   font-size: 0.7em;
 }
-main .subtitle, main .kdl-subtitle {
+main .subtitle,
+main .kdl-subtitle {
   margin-top: 2em;
   line-height: 1.3;
 }
-main .subtitle span, main .kdl-subtitle span {
+main .subtitle span,
+main .kdl-subtitle span {
   background: linear-gradient(to left, lightcyan, #e8fce8);
   padding: 0.5em;
 }
@@ -915,14 +917,14 @@ main.faqs .kdl-container > article figure figcaption {
   font-size: 0.7em;
   color: dimgray;
 }
-main.post .kdl-container > article .media-small,
-main.faqs .kdl-container > article .media-small {
+main.post .kdl-container > article .media-small img,
+main.faqs .kdl-container > article .media-small img {
   width: 300px;
   display: flex;
   margin: 0 auto;
 }
-main.post .kdl-container > article .media-medium,
-main.faqs .kdl-container > article .media-medium {
+main.post .kdl-container > article .media-medium img,
+main.faqs .kdl-container > article .media-medium img {
   max-width: 600px;
   display: flex;
   margin: 0 auto;

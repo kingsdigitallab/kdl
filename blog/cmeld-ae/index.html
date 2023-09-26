@@ -162,9 +162,9 @@
   <article>
     <header>
       <figure>
-  <img src="/kdl/assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg" alt="Image5 for critical modelling blog">
+  <img src="/kdl/assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg" alt="Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.">
   <figcaption>
-    Image5 for critical modelling blog
+    Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.
   </figcaption>
 </figure>
 
@@ -211,7 +211,7 @@
 <p>(Fazi, 2018)</p>
 </blockquote>
 <p>Design-first approaches offer another source of inspiration. The visual examples quoted below are grounded on (often textual) data trustworthiness, yet work with readers’ perception and foreground the creative process not availed of technical functionalism.</p>
-<figure><img src="/kdl/assets/images/blog/Blank_4_Grids_Collage.width-1024.png" alt="Image for critical modelling blog"></figure>
+<figure><img src="/kdl/assets/images/blog/Blank_4_Grids_Collage.width-1024.png" alt="A collage showcasing diverse designs and patterns in a visually captivating arrangement."></figure>
 <p>Images clockwise from top left: <a href="https://www.stefanieposavec.com/work">Stefanie Posavec</a>; <a href="https://www.behance.net/gallery/83315693/Italo-Calvino-text-data-data-visualization-book">Hanna Piotrowska</a>; Stefanie Posavec again; <a href="http://feltron.com/FAR14.html">Nicholas Felton</a></p>
 <p>Are we able to design systems for contemporary textual data that operate like the codex, fixing things in place without suggesting that they are structurally predetermined to be that way, and creating the relations in which or through which engagement can occur without predetermining what will be done and how? Can these be generative in virtue of their structures rather than despite it?</p>
 <h3 id="experimental-modes" tabindex="-1">Experimental modes</h3>
@@ -232,9 +232,9 @@
 <p>Working with large textual datasets, like the corpus in this project, the questions we ask are dictated by the structures and qualities of the data. A key focus of this experiment was to consider how we might work outside the familiar structures that dominate our understanding of the data; beyond the connections of reviews to works and works to reviews, how else can we think about the data? This experiment aims not to consider what is being reviewed, nor who is reviewing, but how works are being discussed.</p>
 <p>To explore this idea, I decided to use Parts Of Speech (POS) tagging. A POS process involves tagging each word in a sentence using a lexical tag set; noun, verb, adjective, or other grammatical category. There are around 36 different tags in a typical NLP POS library such as the <a href="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">Penn Treebank Project</a>. Tagging is dependent on the relational context of each word, rather than using a static mapping between word and tag. My hunch was that POS encoding could show us something about how, in a grammatical sense, people were discussing Australian literature and use POS tagging to draw together review texts that would otherwise have no relation.</p>
 <p>To test this hunch, I used the <a href="https://finnlp.gitbook.io/fin/in-depth-look/pos-tagger">Fin NLP POS Tagger</a> to encode the review texts as POS and saved them as flat text files. I then created a JavaScript web app which encodes a user’s text input into a POS string and finds matching patterns in the POS encoded review files, displaying matching texts as a list.</p>
-<figure><img src="/kdl/assets/images/blog/Capture1.width-1024.png" alt="Image2 for critical modelling blog"></figure>
+<figure class="media-medium"><img src="/kdl/assets/images/blog/Capture1.width-1024.png" alt=" Screenshot of tagging model" class="media-medium"></figure>
 <p>A user’s text input is encoded as POS.</p>
-<figure class="media-small"><img src="/kdl/assets/images/blog/Capture2.width-300.png" alt="Image3 for critical modelling blog, this goes into img alt" class="media-small"><figcaption>The image title, goes into figcaption</figcaption></figure>
+<figure class="media-small"><img src="/kdl/assets/images/blog/Capture2.width-300.png" alt=" Screenshot of list of search results" class="media-small"></figure>
 <p>The list of matches, denoted by source (review publication type): [a]cademic, [s]ocial (media), [n]ewspaper.</p>
 <p>The results the app produces can be satisfyingly recognisable and also curiously oblique. The relevance of some results is clear and for others much less so, however, they consistently appear plausible and avoid the sense of being entirely random and meaningless. Ultimately, it feels like there is something there even if you’re unsure what it is, or why exactly the match has been made.</p>
 <p>As I’ve written about <a href="https://www.bloomsbury.com/au/making-data-9781350133235/">elsewhere</a>, the choice to work in the web browser is a strategic one. It allows me to experiment freely without dependence on exclusive infrastructure or proprietary systems, and makes the task of deploying for a public audience a relatively easy one. This experiment is one of many I have conducted on the RTI corpus, and sees me working in an iterative reflective cycle of experimentation; apply a technique, evaluate the results, reflect on if / how the technique could be used, adjust and repeat or move on to another approach.</p>
@@ -251,7 +251,7 @@
 <p>The <a href="http://tinyurl.com/y3p7nhun">ﬁrst notebook</a> we created was designed for data exploration, to get a better understanding of the textual data.  The data consists of around 615,000 literary works with corresponding metadata, and also 65,000 reviews for which the text of the review was available. We created new dimensions, such as the sentiment and n-grams of the text of the reviews, which  were used to experiment with different types of visualisations.</p>
 <p>The <a href="http://tinyurl.com/59ys8pz6">second notebook</a> was focused on temporal exploration and aimed to understand how the data evolved over time. Unlike the first notebook, this one didn’t focus on the text of the reviews, but rather on dimensions around the text, such as work metadata and the sentiment of the reviews. By exploring cyclical patterns in the data, we could analyse how the reviews evolved over time.</p>
 <p><a href="http://tinyurl.com/ycy27y7z">The final notebook</a> used  machine learning to create sentence embeddings. <a href="https://www.wikiwand.com/en/Sentence_embedding">Sentence embeddings</a> are mathematical representations of sentences that capture their features and are used for computational processing of sentence data. These can then be used for several applications, in this project it was used for <a href="https://www.sbert.net/examples/applications/semantic-search/README.html">semantic search</a> and <a href="https://www.wikiwand.com/en/Cluster_analysis">clustering</a>. This allows us to search and find reviews based on context and meaning rather than just keywords, making it easier to identify patterns in the data. We also explored different visualisations to represent the embeddings.</p>
-<figure><img src="/kdl/assets/images/blog/Capture3_AxrPb2c.width-1024.png" alt="Image4 for critical modelling blog"><figcaption>The image title, goes into figcaption</figcaption></figure>
+<figure class="media-medium"><img src="/kdl/assets/images/blog/Capture3_AxrPb2c.width-1024.png" alt="A map displayed in the various colours and a color spectrum bar on the right" class="media-medium"></figure>
 <p>Sentence embeddings of the RTI reviews (academic, social and newspapers) coloured by cluster</p>
 <p>Elements of the final exploration will be integrated into the Reading at the Interface platform.</p>
 <h4 id="entropy-in-large-language-models" tabindex="-1">Entropy in Large Language Models</h4>
