@@ -13,7 +13,7 @@ excerpt: We recently embarked with partners on an AHRC funded scoping exercise,
   Humanities.
 feature:
   image: /assets/images/blog/blog_banner_aX9rBsr.original.jpg
-  description: MarconiTapper
+  description: A 3D wooden box model and render of the Marconi Morse Tapper displaying the words "Complex 3D Data in Arts and Humanities", Neil Jakeman CC BY-NC.
 ---
 
 We recently embarked with partners on an AHRC funded scoping exercise, to define the specifications of a [Complex 3D Data Repository for the Arts and Humanities](https://blogs.brighton.ac.uk/3ddataservice/).
@@ -122,7 +122,7 @@ _User Interactions and Experience should enhance and encourage best practice, an
 
 Based on the number of mentions and co-occurence of these interest areas between stakeholders we attempted to visualise their relative importance and gain a clear sense of the areas that intersect:
 
-![VennDiagram](/assets/images/blog/venn_fig_1_report.width-1024.jpg)
+![Venn Diagram depicting the different classifications of information](/assets/images/blog/venn_fig_1_report.width-1024.jpg)
 
 Fig. 1. Venn diagram of intersecting needs and proportional importance
 
@@ -167,7 +167,7 @@ The conceptual journey described above is a useful tool as it asks us to restate
 
 Having so much collected experience together in one workshop, we also took the opportunity to ask delegates to think about what was likely to change over the next 5 to 10 years in this domain. As an "end-of-a-long-day" activity this was intended as a fun exercise in futurology and playful speculation, but it was also possible to pick out valuable narratives that we needed to consider when compiling our roadmap for a sustainable resource that would continue to meet changing needs.
 
-![timeline v5](/assets/images/blog/timeline_v5.width-1024.png)
+![An infographic timeline spanning 10 years displaying the big stories, opportunities and risks ](/assets/images/blog/timeline_v5.width-1024.png)
 
 Fig. 2. How will 3D data change over the next decade?
 
@@ -193,8 +193,6 @@ Better still, if you can make it to the workshop, you can register here:
 
 Workshop link: [Multi-Dimensional Visual Datasets in the Arts and Humanities - Workshop 2](https://www.eventbrite.co.uk/e/multi-dimensional-visual-datasets-in-the-arts-and-humanities-workshop-2-tickets-344783465627)
 
-#
-
 ## Project Consortium and Funder
 
-[![Project Consortium](/assets/images/blog/ConsortiumLogos.width-300.png)](https://blogs.brighton.ac.uk/3ddataservice/team/){.media-small}
+[![Collage of Project Consortium logos](/assets/images/blog/ConsortiumLogos.width-300.png)](https://blogs.brighton.ac.uk/3ddataservice/team/){.media-small}
