@@ -518,6 +518,20 @@ main {
       font-size: 0.7em;
     }
   } //.kdl-member
+
+  .subtitle, .kdl-subtitle {
+    margin-top: 2em;
+    line-height: 1.3;
+    span {
+      background: linear-gradient(
+        to left,
+        lightcyan,
+        lighten(lightgreen, 20%)
+      );
+      padding: 0.5em;
+    }
+  }
+
 } //main
 
 //--Home--
@@ -908,18 +922,7 @@ main.posts {
           } //h2
         } //a
 
-        .subtitle {
-          margin-top: 2em;
-          line-height: 1.3;
-          span {
-            background: linear-gradient(
-              to left,
-              lightcyan,
-              lighten(lightgreen, 20%)
-            );
-            padding: 0.5em;
-          }
-        }
+
       } //section
     } //article
   } //article
