@@ -109,7 +109,7 @@ To explore this idea, I decided to use Parts Of Speech (POS) tagging. A POS proc
 
 To test this hunch, I used the [Fin NLP POS Tagger](https://finnlp.gitbook.io/fin/in-depth-look/pos-tagger) to encode the review texts as POS and saved them as flat text files. I then created a JavaScript web app which encodes a user’s text input into a POS string and finds matching patterns in the POS encoded review files, displaying matching texts as a list.
 
-![ Screenshot of tagging model](/assets/images/blog/Capture1.width-1024.png)
+![ Screenshot of tagging model](/assets/images/blog/Capture1.width-1024.png){.media-medium}
 
 A user’s text input is encoded as POS.
 
