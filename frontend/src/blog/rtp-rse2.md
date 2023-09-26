@@ -12,10 +12,10 @@ excerpt: >-
   This is the second part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
   image: /assets/images/blog/pexels-adam-ernster-7767972.original.jpg
-  description: Underwater Photo of Whale and Iceberg
+  description: Professional shot of an orca, up close, gliding through the ocean iceberg waters
 ---
 
-![RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
+![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
 
 This is the second part of [a blogpost](/blog/rtp-rse/) published for [International Research Software Engineering Day](https://society-rse.org/international-rse-day-13th-october-2022/) integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 
@@ -81,9 +81,7 @@ Development of projects in KDL is undertaken using a mature Software Development
 >
 > (Ciula et al. forthcoming)
 
-![Ong 2021](/assets/images/blog/Distribution_of_Models.width-1024.jpg)
-
-Ong 2021
+![A diagram displaying a circular arrangement of people, highlighting various categories and types of individuals](/assets/images/blog/Distribution_of_Models.width-1024.jpg "Distribution of Models, Ong 2021")
 
 > Beyond instantiations in specific time-limited projects, in the RSE context where they were designed and developed, models often represented innovative solutions which have had a longstanding effect. ... During a project lifecycle, modelling journeys evolve non-linearly with moments of disruptions and breakthroughs in tandem with the development of the project intellectual and practical outputs. … The implementation imperative (design) requires a level of details that triggers questioning (analysis) and thus ripples and reshapes the project partners' conceptual domain.
 >
