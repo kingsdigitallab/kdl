@@ -435,6 +435,14 @@ main .kdl-member sup {
   text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px, rgba(254, 1, 1, 0.25) -2px -2px 0px;
   font-size: 0.7em;
 }
+main .subtitle, main .kdl-subtitle {
+  margin-top: 2em;
+  line-height: 1.3;
+}
+main .subtitle span, main .kdl-subtitle span {
+  background: linear-gradient(to left, lightcyan, #e8fce8);
+  padding: 0.5em;
+}
 
 .home .kdl-container {
   max-width: 1500px;
@@ -833,14 +841,6 @@ main.posts article article section a:hover {
 }
 main.posts article article section a h2 {
   margin: 0 0 0.3em 0;
-}
-main.posts article article section .subtitle {
-  margin-top: 2em;
-  line-height: 1.3;
-}
-main.posts article article section .subtitle span {
-  background: linear-gradient(to left, lightcyan, #e8fce8);
-  padding: 0.5em;
 }
 
 main.post,
