@@ -12,10 +12,10 @@ excerpt: >-
   This is the fourth part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
   image: /assets/images/blog/pexels-photo-4610202.original.jpg
-  description: School of Fish in Water
+  description: An underwater scene showcasing a diverse array of fish gracefully navigating through a coral reef.
 ---
 
-![RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
+![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
 
 This is the fourth part of [a blogpost](/blog/rtp-rse/) published for [International Research Software Engineering Day](https://society-rse.org/international-rse-day-13th-october-2022/) integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 
