@@ -27,10 +27,10 @@ excerpt: "
   \        "
 feature:
   image: /assets/images/blog/bryan-goff-wT-dwxXCsE8-unsplash.original.jpg
-  description: McMurdo Station, Antarctica
+  description: Three orca whales gracefully swim alongside an iceberg in the pristine water near McMurdo Station, Antarctica
 ---
 
-![RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
+![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
 
 For [International Research Software Engineering Day](https://society-rse.org/international-rse-day-13th-october-2022/) we are publishing a serialised blogpost integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 
@@ -74,17 +74,13 @@ The inclusion of additional roles as above is based on [this document](https://d
 
 [](https://doi.org/10.5281/zenodo.2559235)
 
-![RSE Careers](/assets/images/blog/rse-careers.width-1024.png)
-
-Diversity of research contribution within the RSE spectrum (Smithies 2019)
+![ A illustrative table showcasing diverse research and development classifications of RSE Careers](/assets/images/blog/rse-careers.width-1024.png "Diversity of research contribution within the RSE spectrum (Smithies 2019)")
 
 The proposed additions also support the extension of RTP contribution, in the RSE context KDL operates in, to the overall research lifecycle including design as well as maintenance phases ([Smithies and Ciula 2020](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429777028-13/humans-loop-james-smithies-arianna-ciula)).
 
 [](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429777028-13/humans-loop-james-smithies-arianna-ciula)
 
-![SDLC](/assets/images/blog/SDLC-Operational_Methods.width-1024.jpg)
-
-Ong 2022, adapted from Smithies and Ciula 2020
+![A diagram illustrating the various phases of the software development lifecycle, including design, testing, and maintenance.](/assets/images/blog/SDLC-Operational_Methods.width-1024.jpg "Software Development Lifecycle Operational Methods, Ong 2022, adapted from Smithies and Ciula 2020")
 
 As outlined recently in the contribution “[Research Themes – Autonomous Agendas for RSE Lab](https://virtual.oxfordabstracts.com/#/event/public/3101/submission/100)” presented by some of us in KDL at the RSE Society UK conference this year, RSEs operate in a “hybrid environment bridging professional services and academic research.”:
 
