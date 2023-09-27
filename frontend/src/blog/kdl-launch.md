@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: KDL Launch
 subtitle: KDL, established 2016
 tags:
   - post

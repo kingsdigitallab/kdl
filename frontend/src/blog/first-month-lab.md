@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: First month in the Lab
 subtitle: Reflections after a month at KDL
 tags:
   - post
@@ -11,8 +11,8 @@ excerpt: I took the role of analyst at King’s Digital Lab (KDL) just over a
   feel at home or because the pace and rhythm of the place goes tick tick
   tick...
 feature:
-  image:
-  description:
+  image: /assets/images/blog/blog_desk.width-1024.jpg
+  description: A desk arrangement showcasing a laptop, headphones, and a cup of coffee.
 ---
 
 I took the role of analyst at King’s Digital Lab (KDL) just over a month ago. It is difficult to judge whether time flew so quickly because I feel at home or because the pace and rhythm of the place goes tick tick tick...
@@ -40,5 +40,3 @@ In the last two years, the Lab has gained a robust definition of roles, somethin
 My fourth finding: the Lab has a common language set around the Agile methodology for project management and delivery solution. This is applied fluidly and will need to be refined but provides defined roles and workflow.
 
 My last finding is that I should get on with my work today! Come and visit the Lab; share your findings.
-
-![desk_shot](/assets/images/blog/blog_desk.width-1024.jpg)

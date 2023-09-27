@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Heritage Gazetteer of Libya
 subtitle: Heritage Gazetteer of Libya launched
 tags:
   - post

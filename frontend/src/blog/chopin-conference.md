@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Chopin Conference
 subtitle: Chopin Online Variorum Edition conference, January 2017
 tags:
   - post
