@@ -18,7 +18,7 @@ excerpt: As our new director, Arianna, mentioned in her recent blog post,
   scientific fields including the Humanities.
 feature:
   image: /assets/images/blog/sunset-boulevard-in-512-0.01.original.png
-  description: Image rendered by VQGAN-CLIP
+  description: Image of cityscape against a colorful sunset rendered by VQGAN-CLIP
 ---
 
 As our new director, Arianna, [mentioned in her recent blog post](/blog/ciula-director/), Machine Learning (ML) is one of the research themes we are keen to start prioritising. Not only because it matches strong personal interests among the solution development team who are eager to experiment with new and exciting techniques (as you would expect from a Lab) but also because, as AI research moves quickly, it continuously brings new methodological opportunities to many scientific fields including the Humanities.
