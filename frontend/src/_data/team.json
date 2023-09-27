@@ -2,7 +2,11 @@
   {
     "slug": "samantha-callaghan",
     "jobTitle": "Research Software Analyst",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/samantha-callaghan.jpg",
+      "description": "Photo of Samantha Callaghan"
+    }
   },
   {
     "slug": "paul-caton",
