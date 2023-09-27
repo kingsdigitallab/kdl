@@ -1,6 +1,6 @@
 ---
-title: Blog
-subtitle: Ghosts in the Machine
+title: Ghosts in the Machine
+subtitle:
 tags:
   - post
 authors:
@@ -11,8 +11,8 @@ excerpt: Digital ghosts, eye vibrations and narratives in physical space.  KDL
   Project Development Programme 2017, exploring immersive and interactive
   storytelling at Lighthouse in Brighton...
 feature:
-  image:
-  description:
+  image: /assets/images/blog/ghost_hunt.expanded.jpg
+  description: Collage of face parts featuring spooky ghostly figures and eerie atmosphere.
 ---
 
 Digital ghosts, eye vibrations and narratives in physical space.  KDL Developer Elliott Hall is currently participating in the [Reframed Project](http://www.lighthouse.org.uk/programme/reframed-2017?query=reframed) Development Programme 2017, exploring immersive and interactive storytelling at [Lighthouse](http://www.lighthouse.org.uk/) in Brighton...

@@ -1,6 +1,6 @@
 ---
-title: Blog
-subtitle: Trends in Linked Open Data
+title: Trends in Linked Open Data
+subtitle:
 tags:
   - post
 authors:
@@ -8,8 +8,8 @@ authors:
 date: 2017-07-25
 excerpt: Two days in Venice offered a wealth of insights into Linked Open Data practice
 feature:
-  image:
-  description:
+  image: /assets/images/blog/slide1-11-1-1024x504.jpg
+  description: A picturesque view of Venice, Italy, showcasing its iconic canals and historic architecture.
 ---
 
 Two days in Venice offered a wealth of insights into Linked Open Data practice

@@ -1,6 +1,6 @@
 ---
-title: Blog
-subtitle: Archetype Rising
+title: Archetype Rising
+subtitle:
 tags:
   - post
   - Iconography
@@ -15,7 +15,7 @@ excerpt: There have been some mysterious and intriguing noises coming out of KDL
   metaphorical, oil-stained tarpaulin...
 feature:
   image: /assets/images/blog/metropolis57fsam.original.jpg
-  description: metropolis3
+  description: a dark background with a central radiant metallic metropolis figure
 ---
 
 There have been some mysterious and intriguing noises coming out of KDL recently. The development team have been (metaphorically) hammering away to add the final touches to a digital behemoth hidden underneath an equally metaphorical, oil-stained tarpaulin...
@@ -40,6 +40,4 @@ So, beneath the tarpaulin, we are hooking up the electrodes. We’re testing the
 
 “Arise, my child! Arise [ARCHETYPE](http://archetype.ink)!”
 
-![archetype_blog_feed_2](/assets/images/blog/archetyp_blog.width-300.jpg)
-
-Arise Archetype
+![The iconic symbol of a triangle with a letter "a" in shades of purple surrounded by a lightning bolt and swirls](/assets/images/blog/archetyp_blog.width-300.jpg "Arise Archetype"){.media-small}
