@@ -1,6 +1,6 @@
 ---
-title: Blog
-subtitle: SUP and KDL collaboration goes into next phase
+title: SUP and KDL collaboration goes into next phase
+subtitle:
 tags:
   - post
 authors:
@@ -10,15 +10,15 @@ excerpt: "Stanford University Press and King's Digital Lab are pleased to
   announce our selection of the most compelling ideas that were submitted in
   this round of the call for expressions of interest. "
 feature:
-  image:
-  description:
+  image: /assets/images/blog/pexels-pok-rie-5799946.jpg
+  description: An aerial perspective capturing the mesmerizing sight of a green ocean adorned with undulating waves.
 ---
 
 [Stanford University Press](http://sup.org/) and [King's Digital Lab](https://www.kdl.kcl.ac.uk/) are pleased to announce our selection of the most compelling ideas that were submitted in this round of the call for expressions of interest.
 
-[![Links to King's Digital Lab](/assets/images/blog/kdl-heading.original.png)](//kdl.kcl.ac.uk/)
+[![Links to King's Digital Lab](/assets/images/blog/kdl-heading.original.png)](//kdl.kcl.ac.uk/){.media-small}
 
-[![Links to SUP Digital logo](/assets/images/blog/DigitalBlogHeaderRedBlackTxp.original.png)](http://sup.org/)
+[![Links to SUP Digital logo](/assets/images/blog/DigitalBlogHeaderRedBlackTxp.original.png)](http://sup.org/){.media-medium}
 
 This initiative emerged from a conversation at the Digital Humanities conference 2017, held in Montreal, between Friederike Sundaram (SUP) and James Smithies (KDL) which evolved into a [call](https://www.kdl.kcl.ac.uk/blog/call-expressions-interest-your-novel-idea-publication/) opened last November with a deadline of the 8th of January 2018.
 

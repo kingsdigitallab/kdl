@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Models of "model" a linguistic network graph
 subtitle: A modelling of "model" - a linguistic network graph
 tags:
   - post

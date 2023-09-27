@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: African Rock Art
 subtitle: A low bandwidth solution for cultural heritage web content
 tags:
   - post
@@ -14,7 +14,7 @@ excerpt: KDL help the British Museum to ensure that the natural custodians of
   cultural heritage have equal access to scholarship
 feature:
   image: /assets/images/blog/ara.original.jpg
-  description: ARA 2
+  description: Drawings on rocks capturing the essence of Africa's diverse cultural narratives.
 ---
 
 KDL help the British Museum to ensure that the natural custodians of cultural heritage have equal access to scholarship
