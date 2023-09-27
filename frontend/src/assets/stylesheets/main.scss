@@ -812,8 +812,7 @@ main.projects {
             font-size: 1.2em;
           }
           #links,
-          .funder {
-            border-bottom: 0.3em solid rgb(220, 227, 230);
+          .funder, .date {
             width: 100%;
             padding: 1em 0;
             ul {
@@ -824,15 +823,9 @@ main.projects {
               } //li
             } //ul
           } //#links
-          .funder {
+          #links, .funder {
             border-bottom: 0.3em solid rgb(220, 227, 230);
           } //#funder
-          .date {
-            ul {
-              margin: 0 0 0 -20px;
-              list-style-type: circle;
-            } //ul
-          } //.date
         } //#metatdata
 
         .post-meta {
