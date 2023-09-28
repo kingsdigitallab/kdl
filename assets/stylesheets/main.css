@@ -743,20 +743,24 @@ main.projects h2 small {
   font-size: 1.2em;
 }
 .project .kdl-container article section #metadata #links,
-.project .kdl-container article section #metadata .funder, .project .kdl-container article section #metadata .date {
+.project .kdl-container article section #metadata .funder,
+.project .kdl-container article section #metadata .date {
   width: 100%;
   padding: 1em 0;
 }
 .project .kdl-container article section #metadata #links ul,
-.project .kdl-container article section #metadata .funder ul, .project .kdl-container article section #metadata .date ul {
+.project .kdl-container article section #metadata .funder ul,
+.project .kdl-container article section #metadata .date ul {
   margin: 0 0 0 -20px;
   list-style-type: circle;
 }
 .project .kdl-container article section #metadata #links ul li,
-.project .kdl-container article section #metadata .funder ul li, .project .kdl-container article section #metadata .date ul li {
+.project .kdl-container article section #metadata .funder ul li,
+.project .kdl-container article section #metadata .date ul li {
   margin-bottom: 0.5em;
 }
-.project .kdl-container article section #metadata #links, .project .kdl-container article section #metadata .funder {
+.project .kdl-container article section #metadata #links,
+.project .kdl-container article section #metadata .funder {
   border-bottom: 0.3em solid rgb(220, 227, 230);
 }
 .project .kdl-container article section .post-meta {
