@@ -1,4 +1,5 @@
 {
+  "name": "kdl",
   "customizations": {
     "vscode": {
       "extensions": [
