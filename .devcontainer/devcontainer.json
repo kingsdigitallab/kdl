@@ -20,5 +20,5 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "npm install && npm run -w frontend dev"
+  "postCreateCommand": "npm install"
 }

@@ -10,6 +10,7 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
       {% set agent = people | filter(item.slug, 'agent.slug') | first %}
       <li>
         {% if item.feature %}<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}">{% endif %}
+        <section>
         <h3>
           {% if agent %}
             <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
@@ -17,7 +18,9 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
             {{ item.slug }}
           {% endif %}
         </h3>
-        <p>{{ item.jobTitle }}</p>
+        <h2>{{ item.jobTitle }}</h2>
+        <button>Read more</button>
+        </section>
       </li>
     {%- endfor -%}
   </ul>

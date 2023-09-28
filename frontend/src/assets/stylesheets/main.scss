@@ -8,7 +8,9 @@
 // Project Individual Page
 // People/Organisations Index Page
 // Person/Organisation Individual Page
+// Team
 // Page Pagination
+// Footer
 
 //-- Fonts --
 @import "fonts";
@@ -1116,6 +1118,43 @@ main.organisation {
     }
   } //ul
 } //main.person
+
+//-- Team --
+main.team {
+  article {
+    ul {
+      margin-left: -40px;
+      li {
+        display: flex;
+        margin-bottom: 3em;
+        img {
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          margin-right: 3%;
+        } //img
+        section {
+          width: calc(97% - 300px);
+          h3 {
+            margin-bottom: 0;
+            a {
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+                text-decoration-style: dashed;
+              }
+            }
+          }
+          h2{
+            color:$darkgray;
+            font-size:1.2em;
+            font-family: KingsBureauGrotFiveOne, sans-serif;
+          }
+        }
+      } //li
+    } //ul
+  } //article
+} //main.team
 
 //-- Page Pagination --
 nav.pagination {
