@@ -11,61 +11,109 @@
   {
     "slug": "paul-caton",
     "jobTitle": "Deputy director & Senior Research Software Analyst",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/paul-caton.jpg",
+      "description": "Photo of Paul Caton"
+    }
   },
   {
     "slug": "arianna-ciula",
     "jobTitle": "Director & Senior Research Software Analyst",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/arianna-ciula.jpg",
+      "description": "Photo of Arianna Ciula"
+    }
   },
   {
     "slug": "alessandra-esposito",
     "jobTitle": "Research Software Project Manager",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/alessandra-esposito.jpg",
+      "description": "Photo of Alessandra Esposito"
+    }
   },
   {
     "slug": "elliott-hall",
     "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/elliott-hall.jpg",
+      "description": "Photo of Elliott Hall"
+    }
   },
   {
     "slug": "neil-jakeman",
     "jobTitle": "Senior Research Software Analyst",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/neil-jakeman.jpg",
+      "description": "Photo of Neil Jakeman"
+    }
   },
   {
     "slug": "brian-maher",
     "jobTitle": "Senior Research Software Engineer & Research Software Systems Manager",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/brian-maher.jpg",
+      "description": "Photo of Brian Maher"
+    }
   },
   {
     "slug": "pam-mellen",
     "jobTitle": "Research Software Lab Manager",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/pamela-mellen.jpg",
+      "description": "Photo of Pam Mellen"
+    }
   },
   {
     "slug": "lucie-mingmei-hao",
     "jobTitle": "Research Software UI/UX Designer",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/lucie-mingmei-hao.jpg",
+      "description": "Photo of Lucie Mingmei Hao"
+    }
   },
   {
     "slug": "geoffroy-noel",
     "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/geoffroy-noel.jpg",
+      "description": "Photo of Geoffroy Noel"
+    }
   },
   {
     "slug": "tiffany-ong",
     "jobTitle": "Senior Research Software UI/UX Designer",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/tiffany-ong.jpg",
+      "description": "Photo of Tiffany Ong"
+    }
   },
   {
     "slug": "miguel-vieira",
     "jobTitle": "Principal Research Software Engineer",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/miguel-vieira.jpg",
+      "description": "Photo of Miguel Vieira"
+    }
   },
   {
     "slug": "tim-watts",
     "jobTitle": "Senior Research Software Systems Manager",
-    "team": "KDL"
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/tim-watts.jpg",
+      "description": "Photo of Tim Watts"
+    }
   }
 ]

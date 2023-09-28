@@ -3,13 +3,19 @@ layout: layouts/agent.njk
 ---
 
 {% set agent = agentInstance.agent %}
+{% set member = team | filter(agent.slug, 'slug') | first %}
 
 <section>
-  {% if agentInstance.jobTitle %}
+  {% if agentInstance.jobTitle and agentInstance.jobTitle.name %}
     <h2>{{ agentInstance.jobTitle.name }}</h2>
   {% else %}
-    {% set member = team | filter(agent.slug, 'slug') | first %}
-    {% if member %}<h2>{{ member.jobTitle }}</h2>{% endif %}
+    {% if member %}
+      <h2>{{ member.jobTitle }}</h2>
+      {% if member.feature %}
+        <img src="{{ member.feature.image }}"
+             alt="{{ member.feature.description }}">
+      {% endif %}
+    {% endif %}
   {% endif %}
   {% if agent.description %}{{ agent.description | renderMd | safe }}{% endif %}
 </section>
