@@ -812,7 +812,8 @@ main.projects {
             font-size: 1.2em;
           }
           #links,
-          .funder, .date {
+          .funder,
+          .date {
             width: 100%;
             padding: 1em 0;
             ul {
@@ -823,7 +824,8 @@ main.projects {
               } //li
             } //ul
           } //#links
-          #links, .funder {
+          #links,
+          .funder {
             border-bottom: 0.3em solid rgb(220, 227, 230);
           } //#funder
         } //#metatdata

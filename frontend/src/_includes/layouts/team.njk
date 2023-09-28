@@ -6,9 +6,10 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
 {% for team, items in team | groupby("team") %}
   {% if team != "KDL" %}<h2>{{ team }}</h2>{% endif %}
   <ul>
-    {%- for item in items -%}
+    {%- for item in items | sort(false, false, "slug") -%}
       {% set agent = people | filter(item.slug, 'agent.slug') | first %}
       <li>
+        {% if item.feature %}<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}">{% endif %}
         <h3>
           {% if agent %}
             <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
