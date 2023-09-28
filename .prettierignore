@@ -1,4 +1,5 @@
 cms/snapshots/*.yaml
 coverage
+frontend/src/_data/_*.json
 frontend/_site
 node_modules
