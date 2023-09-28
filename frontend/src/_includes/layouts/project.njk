@@ -8,7 +8,7 @@ layout: layouts/base.njk
 
 <section>
   <!-- Images -->
-  {% if obj.feature %}{{ imageMacro(obj.feature) }}{% endif %}
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
  
   <!-- Overview -->
   {% if project.description %}
@@ -30,12 +30,7 @@ layout: layouts/base.njk
             {% else %}
               {{ member.agent.name }}
             {% endif %}
-            {% if kdlTeamMember %}
-            <sup title="Current KDL team member">KDL</sup>
-             <!-- <img src="{{ assetsPath }}/icons/team.png"
-                   alt="Current KDL team member icon"
-                   title="Current KDL team member">-->
-            {% endif %}
+            {% if kdlTeamMember %}<sup title="Current KDL team member">KDL</sup>{% endif %}
             <span>{{ member.roleName.name }}{%- if member.inOrganisation -%}, {{ member.inOrganisation.agent.name }}{%- endif %}</span>
           </li>
         {% endfor %}
