@@ -531,8 +531,9 @@ main {
     }
   }
 
-  ol,ul{
-    margin-left:-20px;
+  ol,
+  ul {
+    margin-left: -20px;
     line-height: 1.5;
   }
 
@@ -997,7 +998,7 @@ main.posts {
 
       section {
         margin-left: 2em;
-        h2{
+        h2 {
           border: none;
         }
         a {
@@ -1014,7 +1015,6 @@ main.posts {
     } //article
   } //article
 } //main.posts
-
 
 //-- People/Organisations Index Page --
 main.people,
@@ -1058,7 +1058,7 @@ main.organisations {
 //-- Person Individual Page --
 main.person,
 main.organisation {
-  h1{
+  h1 {
     margin-bottom: 0;
   }
   article {
@@ -1081,33 +1081,33 @@ main.organisation {
       display: block;
       width: 100%;
       padding-left: 0;
-      h2.jobtitle{
-        border:none;
-        color:$darkergray;
+      h2.jobtitle {
+        border: none;
+        color: $darkergray;
         font-family: KingsBureauGrotFiveOne, sans-serif;
-        font-size:1.3em;
-        margin-bottom:0;
+        font-size: 1.3em;
+        margin-bottom: 0;
       }
-      .description{
-        margin-bottom:4em;
+      .description {
+        margin-bottom: 4em;
         margin-top: 2em;
       }
-      >section{
-        display:flex;
+      > section {
+        display: flex;
         //border-bottom: 0.03em solid darken($lightgray, 20%);
-        img{
-          width:300px;
-          height:300px;
+        img {
+          width: 300px;
+          height: 300px;
           object-fit: cover;
-          margin:3.2em 0 0 0;
-          order:2;
+          margin: 3.2em 0 0 0;
+          order: 2;
         }
-        .description{
-          order:1;
+        .description {
+          order: 1;
           text-align: justify;
-          padding-right:2em;
+          padding-right: 2em;
         }
-      }//>section
+      } //>section
       h2 {
         margin-top: 0.5em;
         span {
@@ -1117,6 +1117,9 @@ main.organisation {
           color: $darkgray;
         } //span
       } //h2
+      .part-of{
+        display:block;
+      }
     } //section
   } //article
   ul {
