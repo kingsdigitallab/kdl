@@ -95,18 +95,11 @@ header .site a.sitename span {
   font-size: 1.2em;
 }
 header .site a.logo {
-  width: 8em;
+  display: block;
   text-align: right;
-  float: right;
-  position: relative;
-  align-self: flex-end;
-  z-index: 1;
 }
 header .site a.logo img {
   width: 8em;
-  text-align: right;
-  position: relative;
-  display: inline-block;
 }
 header nav.main {
   z-index: 1;
@@ -116,10 +109,11 @@ header nav.main {
   height: 50px;
   padding: 0 1em;
   border-bottom: 0.3em solid lightgray;
+  margin-top: -6.5em;
 }
 header nav.main .kdl-container > ul {
   /* first-level */
-  margin: 0 2em 0 auto;
+  margin: 0 10em 0 auto;
   list-style-type: none;
   float: right;
   /** chevron icon **/
@@ -374,6 +368,9 @@ header nav.sub ul li:last-child {
   border-right: none;
 }
 
+main {
+  padding: 0 1em;
+}
 main a {
   text-decoration-style: solid;
   font-weight: 400;
@@ -890,7 +887,6 @@ main.projects h2 small {
 }
 
 main.posts {
-  padding: 0 1em;
   float: left;
   width: 100%;
 }
@@ -934,10 +930,6 @@ main.posts article article section a h2 {
   margin: 0 0 0.3em 0;
 }
 
-main.people,
-main.organisations {
-  padding: 0 1em;
-}
 main.people h2,
 main.organisations h2 {
   text-transform: uppercase;
@@ -1122,11 +1114,6 @@ main.team article ul li section h2 {
   color: #5a6369;
   font-size: 1.2em;
   font-family: KingsBureauGrotFiveOne, sans-serif;
-}
-
-main.faqs {
-  width: 100%;
-  display: flex;
 }
 
 nav.pagination {
