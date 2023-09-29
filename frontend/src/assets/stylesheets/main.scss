@@ -138,22 +138,11 @@ header {
       } // span
     } // a.sitename
     a.logo {
-      width: 8em;
+      display: block;
       text-align: right;
-      float: right;
-      position: relative;
-      align-self: flex-end;
-      z-index: 1;
-
+      //z-index: 1;
       img {
         width: 8em;
-        text-align: right;
-        //float: right;
-        position: relative;
-        display: inline-block;
-        //right: initial;
-        //margin-left:70%;
-        //top: 0;
       } //img
     } // a.logo
   } //.site
@@ -166,11 +155,12 @@ header {
       height: 50px;
       padding: 0 1em;
       border-bottom: 0.3em solid lightgray;
+      margin-top: -6.5em;
       //display:flex;
       .kdl-container {
         > ul {
           /* first-level */
-          margin: 0 2em 0 auto;
+          margin: 0 10em 0 auto;
           list-style-type: none;
           float: right;
           > li {
@@ -1190,12 +1180,6 @@ main.team {
     } //ul
   } //article
 } //main.team
-
-// Hack for pages without subnav
-main.faqs {
-  width: 100%;
-  display: flex;
-}
 
 //-- Page Pagination --
 nav.pagination {
