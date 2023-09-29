@@ -1289,3 +1289,69 @@ footer .footer-end a:hover {
   text-decoration-style: dashed;
   opacity: 1;
 }
+
+@media (max-width: 800px) {
+  header .site a.sitename {
+    font-size: 1.3em;
+    padding-top: 0.6em;
+  }
+  header .site a.logo img {
+    width: 4em;
+    margin-right: -1em;
+  }
+  header nav.main {
+    margin-top: -3.4em;
+  }
+  header nav.main .kdl-container #menu-toggle ~ ul {
+    height: 0;
+    width: 0;
+    opacity: 1;
+    display: none;
+    float: none;
+    margin-left: -66px;
+  }
+  header nav.main .kdl-container #menu-toggle:checked ~ ul {
+    height: 100%;
+    width: calc(100% + 40px);
+    opacity: 1;
+    margin-top: 0;
+    display: block;
+  }
+  header nav.main .kdl-container .kdl-menu-button-container {
+    display: flex;
+    position: absolute;
+    right: 6em;
+    top: 1.3em;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: initial;
+  }
+  header nav.main .kdl-container > ul {
+    margin-top: 50px;
+    width: 100%;
+  }
+  header nav.main .kdl-container > ul > li {
+    margin: 0;
+    width: calc(100% + 40px);
+    color: white;
+    background-color: #42494e;
+    margin-left: 10px;
+    padding: 0;
+  }
+  header nav.main .kdl-container > ul > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+  header nav.main .kdl-container > ul > li:not(:last-child) > ul {
+    margin-left: -40px;
+  }
+  header nav.main .kdl-container > ul > li:not(:last-child) > ul > li {
+    padding-left: 20px;
+  }
+  header nav.main.kdl-container > ul {
+    margin-top: 100px;
+    width: 100%;
+  }
+  header nav.sub {
+    display: none;
+  }
+}
