@@ -1117,8 +1117,8 @@ main.organisation {
           color: $darkgray;
         } //span
       } //h2
-      .part-of{
-        display:block;
+      .part-of {
+        display: block;
       }
     } //section
   } //article
@@ -1190,6 +1190,12 @@ main.team {
     } //ul
   } //article
 } //main.team
+
+// Hack for pages without subnav
+main.faqs {
+  width: 100%;
+  display: flex;
+}
 
 //-- Page Pagination --
 nav.pagination {
