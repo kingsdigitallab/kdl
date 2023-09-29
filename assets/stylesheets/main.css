@@ -81,24 +81,25 @@ header {
 }
 header .site {
   padding: 0 1em;
+  display: block;
+  text-align: right;
+  position: relative;
 }
 header .site a.sitename {
   font-family: KingsBureauGrotThreeSeven;
   font-weight: 400;
   text-decoration: none;
   color: white;
-  position: absolute;
   font-size: 1.6em;
   padding: 0.4em 0;
+  float: left;
 }
 header .site a.sitename span {
   font-size: 1.2em;
 }
 header .site a.logo {
-  display: block;
-  text-align: right;
-  position: relative;
   z-index: 1;
+  position: relative;
 }
 header .site a.logo img {
   width: 8em;
