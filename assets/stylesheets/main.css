@@ -1124,6 +1124,11 @@ main.team article ul li section h2 {
   font-family: KingsBureauGrotFiveOne, sans-serif;
 }
 
+main.faqs {
+  width: 100%;
+  display: flex;
+}
+
 nav.pagination {
   margin-top: 5em;
   border-top: 2px solid #bababa;
