@@ -125,9 +125,9 @@ header {
   width: 100%;
   .site {
     padding: 0 1em;
-  display: block;
-  text-align: right;
-  position: relative;
+    display: block;
+    text-align: right;
+    position: relative;
     a.sitename {
       font-family: KingsBureauGrotThreeSeven;
       font-weight: 400;
@@ -850,7 +850,7 @@ main.projects {
 //-- Project Individual Page --
 
 .project {
-  padding: 5em 1em;
+  padding: 5em auto;
   .kdl-container {
     display: flex;
     flex-wrap: wrap;
@@ -934,10 +934,13 @@ main.projects {
         .post-meta {
           margin-left: 5%;
         }
+        #overview {
+          border-bottom: 0.01em solid black;
+        }
         #team {
           width: 100%;
           display: block;
-          border-top: 0.01em solid;
+          border-bottom: 0.01em solid black;
           h2 {
             width: 100%;
           }
@@ -1367,17 +1370,17 @@ footer {
 } //footer
 
 @media (max-width: 800px) {
- //-- Header/Navigation --
+  //-- Header/Navigation --
   header {
-    .site{
+    .site {
       a.sitename {
-        font-size:1.3em;
+        font-size: 1.3em;
         padding-top: 0.6em;
       }
-      a.logo{
-        img{
-          width:4em;
-          margin-right:-1em;
+      a.logo {
+        img {
+          width: 4em;
+          margin-right: -1em;
         }
       }
     }
@@ -1456,4 +1459,34 @@ footer {
     } //nav.sub
   } //header
 
-}//@media (max-width: 800px) 
+  main.home{
+    .hero-content{
+      width:80%;
+      left:15%;
+      transform: translate(-10%, -10%);
+
+    }
+  }//main.home
+
+
+
+  main.project {
+    .kdl-container {
+      display: block;
+      article {
+        display: block;
+        section {
+          width: 100%;
+          margin: 0;
+          &:last-child {
+            width: 100%;
+            margin: 0;
+            #metadata{
+              margin-top:1em;
+            }//#metadata
+          }
+        } //section
+      } //article
+    }
+  } //main
+} //@media (max-width: 800px)
