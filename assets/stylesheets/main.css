@@ -919,6 +919,9 @@ main.posts article article figure img:hover {
 main.posts article article section {
   margin-left: 2em;
 }
+main.posts article article section h2 {
+  border: none;
+}
 main.posts article article section a {
   text-decoration: none;
 }
