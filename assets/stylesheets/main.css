@@ -1359,10 +1359,12 @@ footer .footer-end a:hover {
   }
   main.home .hero {
     margin: 0 0 0 -1em;
+    z-index: -1;
   }
   main.home .hero .hero-content {
     width: 80%;
     left: 15%;
+    top: 20%;
     transform: translate(-10%, -10%);
   }
   main.home h2 {
@@ -1397,5 +1399,17 @@ footer .footer-end a:hover {
   }
   main.project .kdl-container article section:last-child #metadata {
     margin-top: 1em;
+  }
+  footer .connect .kdl-container {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+  }
+  footer .connect .kdl-container ul {
+    justify-content: center;
+    margin-left: -40px;
+  }
+  footer nav.footer .kdl-container {
+    display: block;
   }
 }
