@@ -1459,16 +1459,37 @@ footer {
     } //nav.sub
   } //header
 
-  main.home{
-    .hero-content{
-      width:80%;
-      left:15%;
-      transform: translate(-10%, -10%);
-
+  main.home {
+    .hero {
+      margin: 0 0 0 -1em;
+      .hero-content {
+        width: 80%;
+        left: 15%;
+        transform: translate(-10%, -10%);
+      }
+    } //.hero
+    h2 {
+      margin: 1em 0 0 0;
     }
-  }//main.home
+    .projects,
+    .blog {
+      div {
+        flex-basis: 100%;
+      }
+    } //.projects, .blog,
 
-
+    .information > .research,
+    .information > .services {
+      display: block;
+      padding: 0.3em 1.5em 0.2em 1.5em;
+      div {
+        //flex-basis: 100%;
+        h4 {
+          padding-top: 1.3em;
+        }
+      }
+    } //.research, .services
+  } //main.home
 
   main.project {
     .kdl-container {
@@ -1481,9 +1502,9 @@ footer {
           &:last-child {
             width: 100%;
             margin: 0;
-            #metadata{
-              margin-top:1em;
-            }//#metadata
+            #metadata {
+              margin-top: 1em;
+            } //#metadata
           }
         } //section
       } //article
