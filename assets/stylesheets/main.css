@@ -97,9 +97,14 @@ header .site a.sitename span {
 header .site a.logo {
   display: block;
   text-align: right;
+  position: relative;
+  z-index: 1;
 }
 header .site a.logo img {
   width: 8em;
+  text-align: right;
+  position: relative;
+  display: inline-block;
 }
 header nav.main {
   z-index: 1;
@@ -368,9 +373,6 @@ header nav.sub ul li:last-child {
   border-right: none;
 }
 
-main {
-  padding: 0 1em;
-}
 main a {
   text-decoration-style: solid;
   font-weight: 400;
@@ -887,6 +889,7 @@ main.projects h2 small {
 }
 
 main.posts {
+  padding: 0 1em;
   float: left;
   width: 100%;
 }
@@ -930,6 +933,10 @@ main.posts article article section a h2 {
   margin: 0 0 0.3em 0;
 }
 
+main.people,
+main.organisations {
+  padding: 0 1em;
+}
 main.people h2,
 main.organisations h2 {
   text-transform: uppercase;
@@ -1114,6 +1121,11 @@ main.team article ul li section h2 {
   color: #5a6369;
   font-size: 1.2em;
   font-family: KingsBureauGrotFiveOne, sans-serif;
+}
+
+main.faqs {
+  width: 100%;
+  display: flex;
 }
 
 nav.pagination {
