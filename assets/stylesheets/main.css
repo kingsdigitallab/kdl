@@ -399,7 +399,7 @@ main h4 {
 }
 main h1 {
   font-size: 2.2em;
-  border-bottom: 2px solid #bababa;
+  border-bottom: 4px solid #bababa;
 }
 main h2 {
   font-size: 1.8em;
@@ -968,6 +968,10 @@ main.organisations ul li a:hover {
   text-decoration-style: dashed;
 }
 
+main.person h1,
+main.organisation h1 {
+  margin-bottom: 0;
+}
 main.person article,
 main.organisation article {
   line-height: 1.7;
@@ -995,6 +999,37 @@ main.organisation article section {
   display: block;
   width: 100%;
   padding-left: 0;
+}
+main.person article section h2.jobtitle,
+main.organisation article section h2.jobtitle {
+  border: none;
+  color: #3e4649;
+  font-family: KingsBureauGrotFiveOne, sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+main.person article section .description,
+main.organisation article section .description {
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+main.person article section > section,
+main.organisation article section > section {
+  display: flex;
+}
+main.person article section > section img,
+main.organisation article section > section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 3.2em 0 0 0;
+  order: 2;
+}
+main.person article section > section .description,
+main.organisation article section > section .description {
+  order: 1;
+  text-align: justify;
+  padding-right: 2em;
 }
 main.person article section h2,
 main.organisation article section h2 {
