@@ -997,6 +997,9 @@ main.posts {
 
       section {
         margin-left: 2em;
+        h2{
+          border: none;
+        }
         a {
           text-decoration: none;
           &:hover {
