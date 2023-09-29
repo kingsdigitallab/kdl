@@ -125,24 +125,29 @@ header {
   width: 100%;
   .site {
     padding: 0 1em;
+  display: block;
+  text-align: right;
+  position: relative;
     a.sitename {
       font-family: KingsBureauGrotThreeSeven;
       font-weight: 400;
       text-decoration: none;
       color: white;
-      position: absolute;
+      //position: absolute;
       font-size: 1.6em;
       padding: 0.4em 0;
+      float: left;
       span {
         font-size: 1.2em;
       } // span
     } // a.sitename
     a.logo {
-      display: block;
-      text-align: right;
-      position:relative;
+      //display: block;
+      //text-align: right;
+      //position:relative;
+      //z-index: 1;
       z-index: 1;
-
+      position: relative;
       img {
         width: 8em;
         text-align: right;
@@ -1363,3 +1368,7 @@ footer {
     }
   }
 } //footer
+
+@media (max-width: 800px) {
+
+}//@media (max-width: 800px) 
