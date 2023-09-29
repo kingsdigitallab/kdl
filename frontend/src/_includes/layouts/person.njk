@@ -5,26 +5,29 @@ layout: layouts/agent.njk
 {% set agent = agentInstance.agent %}
 {% set member = team | filter(agent.slug, 'slug') | first %}
 
-<section>
+
   {% if agentInstance.jobTitle and agentInstance.jobTitle.name %}
     <h2>{{ agentInstance.jobTitle.name }}</h2>
   {% else %}
     {% if member %}
       <h2>{{ member.jobTitle }}</h2>
+      <section>
       {% if member.feature %}
         <img src="{{ member.feature.image }}"
              alt="{{ member.feature.description }}">
       {% endif %}
     {% endif %}
+    
   {% endif %}
+  <div class="description">
   {% if agent.description %}{{ agent.description | renderMd | safe }}{% endif %}
-</section>
-
+  </div>
+  </section>
 {% set agentProjects = agent.memberOf | getAgentProjects %}
 {% set agentOrganisations = agent.memberOf | getAgentOrganisations %}
 
 {% if agentProjects.length > 0 %}
-  <section class="part-of">
+  <div class="part-of">
     <h2>Projects</h2>
     <ul>
       {% for member in agentProjects | sort(true, false, "inProject.dissolutionDate") %}
@@ -42,7 +45,7 @@ layout: layouts/agent.njk
         </li>
       {% endfor %}
     </ul>
-  </section>
+  </div>
 {% endif %}
 
 {% if agentOrganisations.length > 0 %}
