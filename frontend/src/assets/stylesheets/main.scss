@@ -9,6 +9,7 @@
 // People/Organisations Index Page
 // Person/Organisation Individual Page
 // Team
+// Hack for pages without subnav
 // Page Pagination
 // Footer
 
@@ -140,9 +141,18 @@ header {
     a.logo {
       display: block;
       text-align: right;
-      //z-index: 1;
+      position:relative;
+      z-index: 1;
+
       img {
         width: 8em;
+        text-align: right;
+        //float: right;
+        position: relative;
+        display: inline-block;
+        //right: initial;
+        //margin-left:70%;
+        //top: 0;
       } //img
     } // a.logo
   } //.site
@@ -442,7 +452,6 @@ header {
 //--Main-- (General)
 
 main {
-  padding: 0 1em;
   a {
     text-decoration-style: solid;
     font-weight: 400;
@@ -962,6 +971,7 @@ main.projects {
 
 //-- Blog Index page --
 main.posts {
+  padding: 0 1em;
   float: left;
   width: 100%;
   article {
@@ -1009,6 +1019,7 @@ main.posts {
 //-- People/Organisations Index Page --
 main.people,
 main.organisations {
+  padding: 0 1em;
   h2 {
     text-transform: uppercase;
     text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px,
@@ -1179,6 +1190,12 @@ main.team {
     } //ul
   } //article
 } //main.team
+
+// Hack for pages without subnav
+main.faqs {
+  width: 100%;
+  display: flex;
+}
 
 //-- Page Pagination --
 nav.pagination {
