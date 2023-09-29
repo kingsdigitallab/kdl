@@ -1073,20 +1073,25 @@ main.organisation {
       display: block;
       width: 100%;
       padding-left: 0;
-      h2{
+      h2.jobtitle{
         border:none;
         color:$darkergray;
         font-family: KingsBureauGrotFiveOne, sans-serif;
         font-size:1.3em;
+        margin-bottom:0;
+      }
+      .description{
+        margin-bottom:4em;
+        margin-top: 2em;
       }
       >section{
         display:flex;
-        border-bottom: 0.03em solid darken($lightgray, 20%);
+        //border-bottom: 0.03em solid darken($lightgray, 20%);
         img{
           width:300px;
           height:300px;
           object-fit: cover;
-          margin:1.2em 0 0 0;
+          margin:3.2em 0 0 0;
           order:2;
         }
         .description{
@@ -1094,7 +1099,7 @@ main.organisation {
           text-align: justify;
           padding-right:2em;
         }
-      }
+      }//>section
       h2 {
         margin-top: 0.5em;
         span {

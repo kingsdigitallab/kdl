@@ -10,7 +10,7 @@ layout: layouts/agent.njk
     <h2>{{ agentInstance.jobTitle.name }}</h2>
   {% else %}
     {% if member %}
-      <h2>{{ member.jobTitle }}</h2>
+      <h2 class="jobtitle">{{ member.jobTitle }}</h2>
       <section>
       {% if member.feature %}
         <img src="{{ member.feature.image }}"
@@ -22,7 +22,9 @@ layout: layouts/agent.njk
   <div class="description">
   {% if agent.description %}{{ agent.description | renderMd | safe }}{% endif %}
   </div>
+   {% if member %}
   </section>
+  {% endif %}
 {% set agentProjects = agent.memberOf | getAgentProjects %}
 {% set agentOrganisations = agent.memberOf | getAgentOrganisations %}
 
