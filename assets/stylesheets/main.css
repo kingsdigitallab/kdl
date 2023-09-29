@@ -445,7 +445,8 @@ main .kdl-subtitle span {
   background: linear-gradient(to left, lightcyan, #e8fce8);
   padding: 0.5em;
 }
-main ol, main ul {
+main ol,
+main ul {
   margin-left: -20px;
   line-height: 1.5;
 }
@@ -1048,6 +1049,10 @@ main.organisation article section h2 span {
   font-weight: normal;
   font-size: 0.7em;
   color: #5a6369;
+}
+main.person article section .part-of,
+main.organisation article section .part-of {
+  display: block;
 }
 main.person ul,
 main.organisation ul {
