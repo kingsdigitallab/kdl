@@ -531,6 +531,11 @@ main {
     }
   }
 
+  ol,ul{
+    margin-left:-20px;
+    line-height: 1.5;
+  }
+
   .kdl-container {
     display: flex;
     flex-wrap: wrap;
