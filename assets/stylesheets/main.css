@@ -445,6 +445,10 @@ main .kdl-subtitle span {
   background: linear-gradient(to left, lightcyan, #e8fce8);
   padding: 0.5em;
 }
+main ol, main ul {
+  margin-left: -20px;
+  line-height: 1.5;
+}
 main .kdl-container {
   display: flex;
   flex-wrap: wrap;
