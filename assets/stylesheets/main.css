@@ -373,6 +373,9 @@ header nav.sub ul li:last-child {
   border-right: none;
 }
 
+main {
+  padding: 0 1em;
+}
 main a {
   text-decoration-style: solid;
   font-weight: 400;
@@ -547,8 +550,8 @@ main .kdl-container > article > article footer {
   color: white;
   height: calc(100vh - 55px);
   position: relative;
-  width: calc(100% + 1em);
-  margin: 0 -1em 6em -1em;
+  width: calc(100% + 2em);
+  margin: 0 0 6em -1em;
 }
 .home .hero video {
   height: 100%;
@@ -889,7 +892,6 @@ main.projects h2 small {
 }
 
 main.posts {
-  padding: 0 1em;
   float: left;
   width: 100%;
 }
@@ -933,10 +935,6 @@ main.posts article article section a h2 {
   margin: 0 0 0.3em 0;
 }
 
-main.people,
-main.organisations {
-  padding: 0 1em;
-}
 main.people h2,
 main.organisations h2 {
   text-transform: uppercase;
@@ -1123,11 +1121,6 @@ main.team article ul li section h2 {
   font-family: KingsBureauGrotFiveOne, sans-serif;
 }
 
-main.faqs {
-  width: 100%;
-  display: flex;
-}
-
 nav.pagination {
   margin-top: 5em;
   border-top: 2px solid #bababa;
@@ -1241,6 +1234,9 @@ footer .connect .kdl-container ul li a img:hover {
   background: white;
   filter: invert(0);
   border: 0.125em solid white;
+}
+footer nav.footer {
+  padding: 0 1em;
 }
 footer nav.footer .kdl-container {
   display: flex;
