@@ -769,7 +769,7 @@ main.projects h2 small {
 }
 
 .project {
-  padding: 5em 1em;
+  padding: 5em auto;
 }
 .project .kdl-container {
   display: flex;
@@ -856,10 +856,13 @@ main.projects h2 small {
 .project .kdl-container article section .post-meta {
   margin-left: 5%;
 }
+.project .kdl-container article section #overview {
+  border-bottom: 0.01em solid black;
+}
 .project .kdl-container article section #team {
   width: 100%;
   display: block;
-  border-top: 0.01em solid;
+  border-bottom: 0.01em solid black;
 }
 .project .kdl-container article section #team h2 {
   width: 100%;
@@ -1353,5 +1356,46 @@ footer .footer-end a:hover {
   }
   header nav.sub {
     display: none;
+  }
+  main.home .hero {
+    margin: 0 0 0 -1em;
+  }
+  main.home .hero .hero-content {
+    width: 80%;
+    left: 15%;
+    transform: translate(-10%, -10%);
+  }
+  main.home h2 {
+    margin: 1em 0;
+  }
+  main.home .projects div,
+  main.home .blog div {
+    flex-basis: 100%;
+  }
+  main.home .information > .research,
+  main.home .information > .services {
+    display: block;
+    padding: 0.3em 1.5em 0.2em 1.5em;
+  }
+  main.home .information > .research div h4,
+  main.home .information > .services div h4 {
+    padding-top: 1.3em;
+  }
+  main.project .kdl-container {
+    display: block;
+  }
+  main.project .kdl-container article {
+    display: block;
+  }
+  main.project .kdl-container article section {
+    width: 100%;
+    margin: 0;
+  }
+  main.project .kdl-container article section:last-child {
+    width: 100%;
+    margin: 0;
+  }
+  main.project .kdl-container article section:last-child #metadata {
+    margin-top: 1em;
   }
 }
