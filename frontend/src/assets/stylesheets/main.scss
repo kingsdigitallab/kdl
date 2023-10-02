@@ -741,9 +741,9 @@ main {
       justify-content: space-between;
       margin-bottom: 4em;
       div {
-        flex-basis: calc(33.33% - 1.5em);
+        flex-basis: calc(33.33% - 0.5em);
         margin-bottom: 1.5em;
-        padding: 1.5em 1.5em 1em 1.5em;
+        padding: 1.5em 0.7em 1em 0.7em;
         background-color: lighten($lightgray, 5%);
       }
       a {
@@ -774,7 +774,12 @@ main {
     .research,
     .services {
       position: relative;
-      padding: 3em 2em 1.1em 2em;
+      padding: 2em 1.5em 0.5em 1.5em;
+      h4{
+        background: $navy;
+        color: white;
+        padding:0.3em;
+      }
       &:before {
         content: " ";
         display: block;
@@ -792,10 +797,10 @@ main {
       } //:before
       .research-block,
       .services-block {
-        flex-basis: calc(25% - 1.5em);
+        flex-basis: calc(25% - 0.5em);
         background-color: white;
         position: relative;
-        padding: 0em 1.7em 1em 1.7em;
+        padding: 0em 0.7em 0.7em 0.7em;
       }
     } //.research, .services
 
