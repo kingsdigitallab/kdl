@@ -1296,16 +1296,20 @@ footer nav.footer .kdl-container section address.postal {
 footer .footer-end {
   background-color: #3e4649;
   color: white;
-  padding: 1.25em 1em;
+  padding: 0.3em 1em;
   text-align: center;
 }
 footer .footer-end a {
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 footer .footer-end a:hover {
   text-decoration-style: dashed;
   opacity: 1;
+}
+footer .footer-end p {
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 @media (max-width: 850px) {
@@ -1415,6 +1419,9 @@ footer .footer-end a:hover {
   main.organisation article section section {
     display: block;
   }
+  footer {
+    text-align: center;
+  }
   footer .connect .kdl-container {
     display: block;
     text-align: center;
@@ -1426,5 +1433,9 @@ footer .footer-end a:hover {
   }
   footer nav.footer .kdl-container {
     display: block;
+  }
+  footer nav.footer .kdl-container h2 {
+    padding: 0.2em 0;
+    border-top: 0.13em solid rgb(139, 146, 150);
   }
 }
