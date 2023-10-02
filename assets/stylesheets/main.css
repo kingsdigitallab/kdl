@@ -462,7 +462,6 @@ main .kdl-container {
 }
 main .kdl-container h1 {
   width: 100%;
-  order: 1;
 }
 main .kdl-container aside {
   flex: 1;
@@ -1044,11 +1043,14 @@ main.organisation article section > section img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin: 3.2em 2em 0 0;
+  margin: 3.2em 0 0 0;
+  order: 2;
 }
 main.person article section > section .description,
 main.organisation article section > section .description {
   text-align: justify;
+  order: 1;
+  margin-right: 2em;
 }
 main.person article section h2,
 main.organisation article section h2 {
@@ -1408,6 +1410,10 @@ footer .footer-end a:hover {
   }
   main.project .kdl-container article section:last-child #metadata {
     margin-top: 1em;
+  }
+  main.person article section section,
+  main.organisation article section section {
+    display: block;
   }
   footer .connect .kdl-container {
     display: block;
