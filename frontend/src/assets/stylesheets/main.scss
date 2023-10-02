@@ -536,6 +536,12 @@ main {
     }
   }
 
+  .kdl-subtitle {
+    margin: 0 0 1.5em 0;
+  }
+
+
+
   ol,
   ul {
     margin-left: -20px;
@@ -624,7 +630,7 @@ main {
           color: black;
           padding: 0.3em 0 0.3em 0.5em;
           border-left: 0.25em solid #5a6369;
-          border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
+          border-image: linear-gradient(to bottom, lighten(turquoise,10%), lighten(lightgreen,30%) 0 1;
         } //footer
       }
     } //article
@@ -775,10 +781,10 @@ main {
     .services {
       position: relative;
       padding: 2em 1.5em 0.5em 1.5em;
-      h4{
+      h4 {
         background: $navy;
         color: white;
-        padding:0.3em;
+        padding: 0.3em;
       }
       &:before {
         content: " ";
@@ -1027,6 +1033,8 @@ main.posts {
     } //article
   } //article
 } //main.posts
+
+//Blog
 
 //-- People/Organisations Index Page --
 main.people,
@@ -1471,7 +1479,7 @@ footer {
       .hero-content {
         width: 80%;
         left: 15%;
-        top:20%;
+        top: 20%;
         transform: translate(-10%, -10%);
       }
     } //.hero
@@ -1518,22 +1526,21 @@ footer {
     }
   } //main
 
-  footer{
-      .connect{
-        .kdl-container{
-          display:block;
-          text-align: center;
-          padding:1em 0;
-          ul{
-            justify-content: center;
-            margin-left:-40px;
-          }
+  footer {
+    .connect {
+      .kdl-container {
+        display: block;
+        text-align: center;
+        padding: 1em 0;
+        ul {
+          justify-content: center;
+          margin-left: -40px;
         }
       }
-    nav.footer{
-      .kdl-container{
-        display:block;
-
+    }
+    nav.footer {
+      .kdl-container {
+        display: block;
       }
     }
   }
