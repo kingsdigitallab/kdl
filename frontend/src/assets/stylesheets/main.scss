@@ -1371,15 +1371,19 @@ footer {
   .footer-end {
     background-color: $darkergray;
     color: white;
-    padding: 1.25em 1em;
+    padding: 0.3em 1em;
     text-align: center;
     a {
       color: white;
-      opacity: 0.8;
+      opacity: 0.9;
       &:hover {
         text-decoration-style: dashed;
         opacity: 1;
       }
+    }
+    p{
+      font-size: 0.9em;
+      line-height:1.5;
     }
   }
 } //footer
@@ -1537,11 +1541,13 @@ main.organisation {
 
 
   footer {
+    text-align: center;
     .connect {
       .kdl-container {
         display: block;
         text-align: center;
         padding: 1em 0;
+
         ul {
           justify-content: center;
           margin-left: -40px;
@@ -1551,6 +1557,10 @@ main.organisation {
     nav.footer {
       .kdl-container {
         display: block;
+        h2{
+          padding: 0.2em 0;
+          border-top: 0.13em solid rgb(139, 146, 150);
+        }
       }
     }
   }
