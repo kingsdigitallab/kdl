@@ -553,7 +553,6 @@ main {
     flex-wrap: wrap;
     h1 {
       width: 100%;
-      order: 1;
     } //h1
     aside {
       flex: 1;
@@ -1118,10 +1117,13 @@ main.organisation {
           width: 300px;
           height: 300px;
           object-fit: cover;
-          margin: 3.2em 2em 0 0;
+          margin: 3.2em 0 0 0;
+          order:2;
         }
         .description {
           text-align: justify;
+          order:1;
+          margin-right:2em;
         }
       } //>section
       h2 {
@@ -1518,7 +1520,21 @@ footer {
         } //section
       } //article
     }
-  } //main
+  } //main.project
+
+  //-- Person Individual Page --
+main.person,
+main.organisation {
+  article{
+    section{
+  section{
+    display:block;
+  }
+}
+  }
+
+}
+
 
   footer {
     .connect {
