@@ -13,5 +13,6 @@ eleventyComputed:
   dissolutionDate: "{% if project.dissolutionDate %}{{ project.dissolutionDate }}{% else %}1970{% endif %}"
   feature:
     image: "{% if project.image %}{% getDirectusAsset project.image.id %}{% endif %}"
+    title: "{% if project.image %}{{ project.image.title }}{% endif %}"
     description: "{% if project.image %}{{ project.image.description }}{% endif %}"
 ---
