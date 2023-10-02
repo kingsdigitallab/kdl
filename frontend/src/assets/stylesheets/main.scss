@@ -1541,11 +1541,13 @@ main.organisation {
 
 
   footer {
+    text-align: center;
     .connect {
       .kdl-container {
         display: block;
         text-align: center;
         padding: 1em 0;
+
         ul {
           justify-content: center;
           margin-left: -40px;
@@ -1555,6 +1557,10 @@ main.organisation {
     nav.footer {
       .kdl-container {
         display: block;
+        h2{
+          padding: 0.2em 0;
+          border-top: 0.13em solid rgb(139, 146, 150);
+        }
       }
     }
   }
