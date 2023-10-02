@@ -448,6 +448,9 @@ main .kdl-subtitle span {
   background: linear-gradient(to left, lightcyan, #e8fce8);
   padding: 0.5em;
 }
+main .kdl-subtitle {
+  margin: 0 0 1.5em 0;
+}
 main ol,
 main ul {
   margin-left: -20px;
@@ -533,7 +536,7 @@ main .kdl-container > article > article footer {
   color: black;
   padding: 0.3em 0 0.3em 0.5em;
   border-left: 0.25em solid #5a6369;
-  border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
+  border-image: linear-gradient(to bottom, #6ce7db, white) 0 1;
 }
 
 .home .kdl-container {
@@ -640,9 +643,9 @@ main .kdl-container > article > article footer {
 .home .discover section div,
 .home .information section div,
 .home .contact section div {
-  flex-basis: calc(33.33% - 1.5em);
+  flex-basis: calc(33.33% - 0.5em);
   margin-bottom: 1.5em;
-  padding: 1.5em 1.5em 1em 1.5em;
+  padding: 1.5em 0.7em 1em 0.7em;
   background-color: #f5f7f8;
 }
 .home .discover section a,
@@ -686,7 +689,17 @@ main .kdl-container > article > article footer {
 .home .contact .research,
 .home .contact .services {
   position: relative;
-  padding: 3em 2em 1.1em 2em;
+  padding: 2em 1.5em 0.5em 1.5em;
+}
+.home .discover .research h4,
+.home .discover .services h4,
+.home .information .research h4,
+.home .information .services h4,
+.home .contact .research h4,
+.home .contact .services h4 {
+  background: #0a2d50;
+  color: white;
+  padding: 0.3em;
 }
 .home .discover .research:before,
 .home .discover .services:before,
@@ -720,10 +733,10 @@ main .kdl-container > article > article footer {
 .home .contact .research .services-block,
 .home .contact .services .research-block,
 .home .contact .services .services-block {
-  flex-basis: calc(25% - 1.5em);
+  flex-basis: calc(25% - 0.5em);
   background-color: white;
   position: relative;
-  padding: 0em 1.7em 1em 1.7em;
+  padding: 0.1em 0.7em 0.7em 0.7em;
 }
 .home .discover .services:before,
 .home .information .services:before,
@@ -1293,7 +1306,7 @@ footer .footer-end a:hover {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   header .site a.sitename {
     font-size: 1.3em;
     padding-top: 0.6em;
@@ -1377,11 +1390,7 @@ footer .footer-end a:hover {
   main.home .information > .research,
   main.home .information > .services {
     display: block;
-    padding: 0.3em 1.5em 0.2em 1.5em;
-  }
-  main.home .information > .research div h4,
-  main.home .information > .services div h4 {
-    padding-top: 1.3em;
+    padding: 1.5em 1.5em 0.2em 1.5em;
   }
   main.project .kdl-container {
     display: block;
