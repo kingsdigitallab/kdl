@@ -1371,15 +1371,19 @@ footer {
   .footer-end {
     background-color: $darkergray;
     color: white;
-    padding: 1.25em 1em;
+    padding: 0.3em 1em;
     text-align: center;
     a {
       color: white;
-      opacity: 0.8;
+      opacity: 0.9;
       &:hover {
         text-decoration-style: dashed;
         opacity: 1;
       }
+    }
+    p{
+      font-size: 0.9em;
+      line-height:1.5;
     }
   }
 } //footer
