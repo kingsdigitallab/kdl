@@ -453,6 +453,7 @@ main .kdl-subtitle {
 }
 main .sibling-pagination {
   margin-top: 5em;
+  border-top: 0.01em solid black;
 }
 main .sibling-pagination ol {
   display: flex;
@@ -896,7 +897,6 @@ main.projects h2 small {
 .project .kdl-container article section #team {
   width: 100%;
   display: block;
-  border-bottom: 0.01em solid black;
 }
 .project .kdl-container article section #team h2 {
   width: 100%;
@@ -1230,7 +1230,6 @@ nav.pagination ol li a span {
 footer {
   background: #5a6369;
   margin-top: 8em;
-  float: left;
   width: 100%;
   color: white;
 }
