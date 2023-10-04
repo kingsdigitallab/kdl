@@ -451,6 +451,28 @@ main .kdl-subtitle span {
 main .kdl-subtitle {
   margin: 0 0 1.5em 0;
 }
+main .sibling-pagination {
+  margin-top: 5em;
+}
+main .sibling-pagination ol {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: -40px;
+}
+main .sibling-pagination ol li {
+  max-width: 20em;
+}
+main .sibling-pagination ol li:last-of-type {
+  text-align: right;
+}
+main .sibling-pagination ol li a {
+  text-decoration: none;
+}
+main .sibling-pagination ol li a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
 main ol,
 main ul {
   margin-left: -20px;
@@ -905,22 +927,6 @@ main.projects h2 small {
   font-size: 0.8em;
   display: block;
   color: #5a6369;
-}
-.project .kdl-container article section .sibling-pagination {
-  margin-top: 5em;
-}
-.project .kdl-container article section .sibling-pagination ol {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  margin-left: -40px;
-}
-.project .kdl-container article section .sibling-pagination ol li a {
-  text-decoration: none;
-}
-.project .kdl-container article section .sibling-pagination ol li a:hover {
-  text-decoration: underline;
-  text-decoration-style: dashed;
 }
 
 main.posts {
