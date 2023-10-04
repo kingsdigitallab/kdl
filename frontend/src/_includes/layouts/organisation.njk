@@ -29,3 +29,20 @@ layout: layouts/agent.njk
     </ul>
   </div>
 {% endif %}
+
+<section class="single-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      {% if pagination.href.previous %}
+        <li>
+          <a href="{{ pagination.href.previous }}">{{ pagination.page.previous.agent.name }}</a>
+        </li>
+      {% endif %}
+      {% if pagination.href.next %}
+        <li>
+          <a href="{{ pagination.href.next }}">{{ pagination.page.next.agent.name }}</a>
+        </li>
+      {% endif %}
+    </ol>
+  </nav>
+</section>
