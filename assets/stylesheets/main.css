@@ -1127,6 +1127,11 @@ main.organisation ul li p {
   margin: 0;
 }
 
+main.team article p {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 0.01em solid black;
+}
 main.team article ul {
   margin-left: -40px;
 }
@@ -1318,6 +1323,9 @@ footer nav.footer .kdl-container section address.postal {
   line-height: 1.5;
   padding: 0.4em 0 0 0;
   margin: 0;
+}
+footer nav.footer .kdl-container section ion-icon {
+  font-size: 0.8em;
 }
 footer .footer-end {
   background-color: #3e4649;
