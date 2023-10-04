@@ -1,5 +1,40 @@
 [
   {
+    "title": "Activities",
+    "class": "activities",
+    "description": "Some of the ways we enable and deliver digital research.",
+    "items": [
+      {
+        "title": "Planning and analytics",
+        "items": [
+          "Defining requirements",
+          "Cost estimation",
+          "Data analysis",
+          "Modelling",
+          "Designing technical solutions"
+        ]
+      },
+      {
+        "title": "Creating and sustaining",
+        "items": [
+          "Building and maintaining digital resources",
+          "Data visualization",
+          "Digital accessibility",
+          "Archiving and sustainability"
+        ]
+      },
+      {
+        "title": "Participating, contributing, disseminating",
+        "items": [
+          "Sharing code",
+          "Professional bodies and interest groups",
+          "Publications",
+          "Outreach and training"
+        ]
+      }
+    ]
+  },
+  {
     "title": "Research areas",
     "class": "research",
     "description": "Some pathways of innovation we are exploring.",

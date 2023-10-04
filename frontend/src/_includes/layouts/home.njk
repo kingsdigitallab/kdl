@@ -74,45 +74,17 @@ layout: layouts/base.njk
         {% for item in section.items %}
           <div class="{{ section.class }}-block">
             <h4>{{ item.title }}</h4>
-            <p>{{ item.description }}</p>
+            {% if item.items %}
+              <ul>
+                {% for i in item.items %}<li>{{ i }}</li>{% endfor %}
+              </ul>
+            {% else %}
+              <p>{{ item.description }}</p>
+            {% endif %}
           </div>
         {% endfor %}
       </section>
     {% endfor %}
-
-    <h3>Services</h3>
-    <p>
-      We cultivate an inclusive, collaborative, generative and supportive research environment to help nurture the next generation of researchers, while also supporting colleagues to gain new digital skills and engage with cutting edge research.
-    </p>
-    <section class="services">
-      <div class="services-block">
-        <h4>Pre-project</h4>
-        <ul>
-          <li>Funding proposals</li>
-          <li>Consultancy</li>
-          <li>Data analysis</li>
-        </ul>
-      </div>
-      <div class="services-block">
-        <h4>Evolutionary Development</h4>
-        <ul>
-          <li>Web Development</li>
-          <li>Data modelling</li>
-          <li>Digital Accessibility</li>
-          <li>Experimental Prototypes</li>
-        </ul>
-      </div>
-      <div class="services-block">
-        <h4>Post Project</h4>
-        <ul>
-          <li>Archiving and Sustainability</li>
-          <li>Migration</li>
-          <li>Analytics analysis</li>
-          <li>Web and data hosting</li>
-          <li>Contribution to papers</li>
-        </ul>
-      </div>
-    </section>
   </section>
 
   <section class="contact">
