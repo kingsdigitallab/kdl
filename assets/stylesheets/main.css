@@ -470,6 +470,9 @@ main .sibling-pagination ol li:last-of-type {
 main .sibling-pagination ol li a {
   text-decoration: none;
 }
+main .sibling-pagination ol li a ion-icon {
+  font-size: 0.8em;
+}
 main .sibling-pagination ol li a:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
