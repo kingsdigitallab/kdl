@@ -5,12 +5,11 @@ layout: layouts/agent.njk
 {% set agent = agentInstance.agent %}
 {% set member = team | filter(agent.slug, 'slug') | first %}
 
-
-  {% if agentInstance.jobTitle and agentInstance.jobTitle.name %}
-    <h2>{{ agentInstance.jobTitle.name }}</h2>
-  {% else %}
-    {% if member %}
-      <section>
+{% if agentInstance.jobTitle and agentInstance.jobTitle.name %}
+  <h2>{{ agentInstance.jobTitle.name }}</h2>
+{% else %}
+  {% if member %}
+    <section>
       {% if member.feature %}
         <img src="{{ member.feature.image }}"
              alt="{{ member.feature.description }}">
@@ -18,14 +17,10 @@ layout: layouts/agent.njk
     {% endif %}
   {% endif %}
   <div class="description">
-    {% if member %}
-    <h2 class="jobtitle">{{ member.jobTitle }}</h2>
-    {% endif %}
-  {% if agent.description %}{{ agent.description | renderMd | safe }}{% endif %}
+    {% if member %}<h2 class="jobtitle">{{ member.jobTitle }}</h2>{% endif %}
+    {% if agent.description %}{{ agent.description | renderMd | safe }}{% endif %}
   </div>
-   {% if member %}
-  </section>
-  {% endif %}
+  {% if member %}</section>{% endif %}
 {% set agentProjects = agent.memberOf | getAgentProjects %}
 {% set agentOrganisations = agent.memberOf | getAgentOrganisations %}
 
@@ -63,3 +58,20 @@ layout: layouts/agent.njk
     </ul>
   </section>
 {% endif %}
+
+<section class="single-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      {% if pagination.href.previous %}
+        <li>
+          <a href="{{ pagination.href.previous }}">{{ pagination.page.previous.agent.name }}</a>
+        </li>
+      {% endif %}
+      {% if pagination.href.next %}
+        <li>
+          <a href="{{ pagination.href.next }}">{{ pagination.page.next.agent.name }}</a>
+        </li>
+      {% endif %}
+    </ol>
+  </nav>
+</section>

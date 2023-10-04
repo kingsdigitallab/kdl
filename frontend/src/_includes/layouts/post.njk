@@ -4,4 +4,6 @@ layout: layouts/base.njk
 
 {% from "kdl/components/article/macros.njk" import articleMacro %}
 
+[{{ pagination.href }}]
+
 {{ articleMacro(obj, collections, { addLink: false }) }}

@@ -38,24 +38,24 @@ layout: layouts/base.njk
     </div>
   {% endif %}
  
+  <div class="single-pagination">
+    <nav aria-label="pagination">
+      <ol>
+        {% if pagination.href.previous %}
+          <li>
+            <a href="{{ pagination.href.previous }}">{{ pagination.page.previous.name }}</a>
+          </li>
+        {% endif %}
+        {% if pagination.href.next %}
+          <li>
+            <a href="{{ pagination.href.next }}">{{ pagination.page.next.name }}</a>
+          </li>
+        {% endif %}
+      </ol>
+    </nav>
+  </div>
 </section>
 
-<section>
-  <nav aria-label="pagination">
-    <ol>
-      {% if pagination.href.previous %}
-        <li>
-          <a href="{{ pagination.href.previous }}">{{ pagination.page.previous.name }}</a>
-        </li>
-      {% endif %}
-      {% if pagination.href.next %}
-        <li>
-          <a href="{{ pagination.href.next }}">{{ pagination.page.next.name }}</a>
-        </li>
-      {% endif %}
-    </ol>
-  </nav>
-</section>
 
 <section>
   <!-- Information -->
