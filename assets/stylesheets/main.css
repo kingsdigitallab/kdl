@@ -705,30 +705,30 @@ main .kdl-container > article > article footer {
   margin-top: 1.7em;
 }
 .home .discover .research,
-.home .discover .services,
+.home .discover .activities,
 .home .information .research,
-.home .information .services,
+.home .information .activities,
 .home .contact .research,
-.home .contact .services {
+.home .contact .activities {
   position: relative;
   padding: 2em 1.5em 0.5em 1.5em;
 }
 .home .discover .research h4,
-.home .discover .services h4,
+.home .discover .activities h4,
 .home .information .research h4,
-.home .information .services h4,
+.home .information .activities h4,
 .home .contact .research h4,
-.home .contact .services h4 {
+.home .contact .activities h4 {
   background: #0a2d50;
   color: white;
   padding: 0.3em;
 }
 .home .discover .research:before,
-.home .discover .services:before,
+.home .discover .activities:before,
 .home .information .research:before,
-.home .information .services:before,
+.home .information .activities:before,
 .home .contact .research:before,
-.home .contact .services:before {
+.home .contact .activities:before {
   content: " ";
   display: block;
   position: absolute;
@@ -744,30 +744,30 @@ main .kdl-container > article > article footer {
   background-color: #cccccc;
 }
 .home .discover .research .research-block,
-.home .discover .research .services-block,
-.home .discover .services .research-block,
-.home .discover .services .services-block,
+.home .discover .research .activities-block,
+.home .discover .activities .research-block,
+.home .discover .activities .activities-block,
 .home .information .research .research-block,
-.home .information .research .services-block,
-.home .information .services .research-block,
-.home .information .services .services-block,
+.home .information .research .activities-block,
+.home .information .activities .research-block,
+.home .information .activities .activities-block,
 .home .contact .research .research-block,
-.home .contact .research .services-block,
-.home .contact .services .research-block,
-.home .contact .services .services-block {
+.home .contact .research .activities-block,
+.home .contact .activities .research-block,
+.home .contact .activities .activities-block {
   flex-basis: calc(25% - 0.5em);
   background-color: white;
   position: relative;
   padding: 0.1em 0.7em 0.7em 0.7em;
 }
-.home .discover .services:before,
-.home .information .services:before,
-.home .contact .services:before {
+.home .discover .activities:before,
+.home .information .activities:before,
+.home .contact .activities:before {
   background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
 }
-.home .discover .services .services-block,
-.home .information .services .services-block,
-.home .contact .services .services-block {
+.home .discover .activities .activities-block,
+.home .information .activities .activities-block,
+.home .contact .activities .activities-block {
   flex-basis: calc(33.3% - 1.5em);
 }
 .home .discover h3 {
@@ -1428,7 +1428,7 @@ footer .footer-end p {
     flex-basis: 100%;
   }
   main.home .information > .research,
-  main.home .information > .services {
+  main.home .information > .activities {
     display: block;
     padding: 1.5em 1.5em 0.2em 1.5em;
   }
