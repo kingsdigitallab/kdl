@@ -22,6 +22,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -129,9 +150,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -193,8 +211,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -250,7 +268,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -291,7 +309,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -403,9 +439,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -450,6 +483,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -561,6 +615,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -668,6 +729,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -750,7 +832,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -779,9 +879,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -824,13 +921,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -928,7 +1022,7 @@
     "agent": {
       "name": "Arianna Ciula",
       "slug": "arianna-ciula",
-      "description": "Arianna has broad experience in digital humanities research and teaching, research management, and digital research infrastructures. She holds a PhD in Manuscript and Book Studies (digital Arianna has over 15 years’ experience in collaborative Digital Humanities (DH) research, and 10 years’ experience in research management, and digital research infrastructures (inclusive of research policy strategy and implementation). She is an active member of the Research Software Engineers (RSE) and DH national and international communities; she researches and advocates for a holistic understanding of digital infrastructures and of modelling processes of cultural-historical objects and phenomena for the application of computational methods.\n\nHer personal research interests focus on modelling processes (from data modelling to design and analysis). She lectured and published on humanities computing, in particular on digital manuscript studies and editing; she has organised conferences and workshops in digital humanities, and is an active member of its international community. \n\nShe holds a PhD in Manuscript and Book Studies (digital palaeography, University of Siena), an MA in Applied Computing in the Humanities (King’s College London) and a BA Hons in Communication sciences (computational linguistics, University of Siena).\n\nShe worked at King’s in the past as Research Associate (Centre for Computing in the Humanities, 2003-2009). From 2009 to 2012, she worked as Science officer at the European Science Foundation (Humanities) where her primary responsibilities included the supervision of instruments to fund collaborative research in the humanities and the coordination of strategic activities. From 2013 she worked as Research Facilitator at the University of Roehampton for three years, where she expanded the research funding portfolio and supported research strategies across the Humanities and beyond. She was appointed Director of KDL in 2022. \n\nSee list of [publications](https://kclpure.kcl.ac.uk/portal/en/persons/arianna.ciula/publications/).",
+      "description": "Arianna has over 15 years’ experience in collaborative Digital Humanities (DH) research, and 10 years’ experience in research management, and digital research infrastructures (inclusive of research policy strategy and implementation). She is an active member of the Research Software Engineers (RSE) and DH national and international communities; she researches and advocates for a holistic understanding of digital infrastructures and of modelling processes of cultural-historical objects and phenomena for the application of computational methods.\n\nHer personal research interests focus on modelling processes (from data modelling to design and analysis). She lectured and published on humanities computing, in particular on digital manuscript studies and editing; she has organised conferences and workshops in digital humanities, and is an active member of its international community. \n\nShe holds a PhD in Manuscript and Book Studies (digital palaeography, University of Siena), an MA in Applied Computing in the Humanities (King’s College London) and a BA Hons in Communication sciences (computational linguistics, University of Siena).\n\nShe worked at King’s in the past as Research Associate (Centre for Computing in the Humanities, 2003-2009). From 2009 to 2012, she worked as Science officer at the European Science Foundation (Humanities) where her primary responsibilities included the supervision of instruments to fund collaborative research in the humanities and the coordination of strategic activities. From 2013 she worked as Research Facilitator at the University of Roehampton for three years, where she expanded the research funding portfolio and supported research strategies across the Humanities and beyond. She was appointed Director of KDL in 2022. \n\nSee list of [publications](https://kclpure.kcl.ac.uk/portal/en/persons/arianna.ciula/publications/).",
       "memberOf": [
         {
           "startDate": null,
@@ -1401,10 +1495,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -1452,8 +1546,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -1558,6 +1652,45 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Principal investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "agent": {
+      "name": "Askold Ivantchik",
+      "slug": "askold-ivantchik",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Ancient Inscriptions of the Northern Black Sea",
+            "alternateName": "IOSPE",
+            "slug": "iospe",
+            "foundingDate": "2011-01-01",
+            "dissolutionDate": "2017-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Bordeaux",
+              "slug": "university-of-bordeaux"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -1672,7 +1805,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -1763,9 +1900,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -1866,9 +2000,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -1957,6 +2088,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -2086,6 +2238,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -2177,8 +2350,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -2444,6 +2617,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -2466,7 +2660,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -2625,6 +2819,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -2719,13 +2934,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -2750,9 +2962,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -2856,9 +3065,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -2889,9 +3095,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -3020,7 +3223,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -3066,13 +3287,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -3181,8 +3399,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -3238,6 +3456,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -3271,9 +3510,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -3316,13 +3552,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -3460,10 +3693,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -3545,7 +3778,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -3638,7 +3871,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -3719,6 +3952,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -3785,8 +4025,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -3844,7 +4084,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -3995,6 +4253,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -4063,13 +4342,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -4193,6 +4469,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -4386,7 +4683,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -4564,6 +4861,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -4637,7 +4955,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -4935,7 +5264,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
@@ -5000,13 +5329,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -5120,7 +5446,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -5192,6 +5518,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
+                  }
+                }
               }
             ]
           },
@@ -5240,13 +5573,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -5493,9 +5823,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -5526,9 +5853,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -5591,10 +5915,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -5666,7 +5990,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -5705,6 +6047,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -5741,7 +6090,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -5810,7 +6159,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -5834,14 +6183,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -5864,6 +6217,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
                   }
                 }
               }
@@ -5918,7 +6278,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -5964,7 +6324,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -6072,7 +6436,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -6213,7 +6577,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -6288,6 +6670,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
                   }
                 }
               }
@@ -6400,8 +6789,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -6492,10 +6881,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -6516,14 +6905,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -6548,6 +6941,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -6566,9 +6980,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -6729,7 +7140,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -6958,14 +7380,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -6998,6 +7424,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
                   }
                 }
               }
@@ -7052,9 +7485,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -7193,7 +7623,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -7330,8 +7760,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -7366,14 +7796,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -7399,8 +7833,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -7474,7 +7908,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -7518,6 +7952,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -7588,6 +8043,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -7620,6 +8096,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -7845,7 +8342,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -8215,10 +8723,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -8449,9 +8957,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -8551,6 +9056,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -8632,7 +9144,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -8672,9 +9184,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -8740,9 +9249,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -8829,9 +9335,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -8894,7 +9397,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -9039,6 +9542,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -9153,7 +9677,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -9184,8 +9719,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -9292,13 +9827,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -9424,6 +9956,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
                   }
                 }
               }
@@ -9632,7 +10171,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -9691,13 +10248,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -9726,14 +10280,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -9797,7 +10355,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -9851,7 +10427,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -9908,13 +10484,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -9960,6 +10533,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -9982,14 +10576,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -10020,8 +10618,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -10104,9 +10702,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -10141,14 +10736,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -10178,7 +10777,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -10239,13 +10856,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -10421,6 +11035,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -10604,6 +11239,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
                   }
                 }
               }
@@ -10800,9 +11442,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -10968,6 +11607,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -11011,7 +11657,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -11203,8 +11860,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -11537,6 +12194,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -11569,14 +12247,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -11596,7 +12278,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -11709,7 +12395,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -11738,7 +12442,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -11916,14 +12620,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -12202,7 +12910,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -12312,7 +13020,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -12433,7 +13145,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -12712,7 +13424,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -12776,7 +13499,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -12809,16 +13532,16 @@
     "agent": {
       "name": "Paul Caton",
       "slug": "paul-caton",
-      "description": "Paul Caton took up his first digital humanities post - as Electronic Publications Editor at the Women Writers Project - whilst completing his Ph.D in English Literature at Brown University. He also worked as a project analyst for Brown's Scholarly Technology Group. After leaving Brown he spent two years as a Marie Curie postdoctoral fellow with the TEXTE Project at the National University of Ireland, Galway. In the autumn of 2009 he went to the University of Victoria in British Columbia to take up another postdoctoral position, with the INKE Project. He joined King's Department of Digital Humanities as a Research Associate in 2010 and then with other members of the production team helped form King's Digital Lab in 2015.\n\nDr. Caton's research centres on the representation of text by formal models and by markup languages. Related areas that also interest him include ontologies of personal relations and models of transcription.",
+      "description": "Paul Caton has worked in digital humanities  since 1997. After posts in the United States, Ireland, and Canada  he  joined King's Centre for Computing in the Humanities as a Research Associate  in 2010 and later with other members of the production team helped form  King's Digital Lab in 2015. His research interests include requirements specification and software models.",
       "memberOf": [
         {
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -12838,15 +13561,35 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": null,
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": {
-            "name": "Gazetteer of Cyprus Project",
-            "alternateName": "CYPRUS",
-            "slug": "cyprus",
+            "name": "Mapping the Medieval Countryside: The Fifteenth-Century Inquisitions Post Mortem",
+            "alternateName": "IPM",
+            "slug": "ipm",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Winchester"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
@@ -12866,7 +13609,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -12939,10 +13686,53 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inventory of Byzantine Churches on Cyprus",
+            "alternateName": "IBCC",
+            "slug": "ibcc",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -12958,7 +13748,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -12983,6 +13791,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -13002,7 +13831,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -13060,6 +13900,51 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Henry III Fine Rolls",
+            "alternateName": "",
+            "slug": "henry-iii-fine-rolls",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Canterbury Christ Church University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The National Archives"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Mao Era in Objects",
             "alternateName": "MAO",
             "slug": "mao-era-in-objects",
@@ -13084,14 +13969,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -13151,22 +14040,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "German Screen Studies Network",
-            "alternateName": "GSSN",
-            "slug": "gssn",
-            "foundingDate": "2016-01-13",
-            "dissolutionDate": "2016-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Film Studies"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -13202,6 +14076,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -13231,7 +14112,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -13260,9 +14159,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -13324,6 +14220,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -13336,7 +14253,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -13426,9 +14343,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -13470,7 +14384,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -13607,9 +14539,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
@@ -13634,7 +14563,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -13685,7 +14632,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -13753,8 +14700,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -13844,6 +14791,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
+                  }
+                }
               }
             ]
           },
@@ -13871,7 +14825,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -13986,7 +14940,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -14084,13 +15042,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -14124,10 +15079,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -14168,6 +15123,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -14222,7 +15198,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -14347,6 +15323,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -14381,6 +15378,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -14403,7 +15421,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AHRC Research Centre for the History and Analysis of Recorded Music",
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
             "foundingDate": "2004-04-01",
@@ -14458,7 +15476,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -14502,6 +15520,27 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
                   }
                 }
               }
@@ -14613,7 +15652,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -14816,10 +15866,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -14862,9 +15912,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -14889,7 +15936,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -14926,8 +15973,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -14962,14 +16009,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -14992,14 +16043,18 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Values of French",
+            "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
             "foundingDate": "2015-01-01",
             "dissolutionDate": "2021-01-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -15106,9 +16161,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -15146,8 +16198,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -15189,6 +16241,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -15218,7 +16291,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -15243,13 +16320,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -15430,6 +16504,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -15464,7 +16545,11 @@
             "dissolutionDate": "2021-02-07",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
               }
             ]
           },
@@ -15493,9 +16578,6 @@
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -15554,13 +16636,10 @@
           "inProject": {
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
-            "slug": "saw",
+            "slug": "sharing-ancient-wisdoms",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
@@ -15609,10 +16688,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -15675,9 +16754,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -15715,8 +16791,8 @@
             "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
             "alternateName": "MOI",
             "slug": "moi",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
@@ -15743,7 +16819,18 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               }
             ]
           },
@@ -15792,6 +16879,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Wiedemann Lampe"
+                  }
+                }
               }
             ]
           },
@@ -15804,10 +16898,10 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton digital edition",
+            "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
-            "foundingDate": "2022-09-01",
+            "foundingDate": "2021-09-01",
             "dissolutionDate": "2024-08-31",
             "department": [
               {
@@ -16000,7 +17094,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -16399,9 +17493,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -16448,7 +17539,25 @@
             "dissolutionDate": "2020-04-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UCL Institute of Education"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
               }
             ]
           },
@@ -16522,9 +17631,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -16564,7 +17670,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CROSSREADS",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
@@ -16636,9 +17742,6 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
@@ -16657,40 +17760,6 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "jobTitle": null,
-    "agent": {
-      "name": "Wiedemann Lampe",
-      "slug": "wiedemann-lampe",
-      "description": null,
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Renaissance Skin - Visible Skin",
-            "alternateName": "Visible Skin",
-            "slug": "visible-skin",
-            "foundingDate": "2021-01-14",
-            "dissolutionDate": "2022-01-18",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Researcher"
           }
         }
       ]
@@ -16765,6 +17834,27 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Queen Mary, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Westminster"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Open University"
+                  }
+                }
               }
             ]
           },
@@ -16831,9 +17921,6 @@
             "foundingDate": "2004-02-01",
             "dissolutionDate": null,
             "department": [
-              {
-                "organisation_id": null
-              },
               {
                 "organisation_id": {
                   "agent": {
