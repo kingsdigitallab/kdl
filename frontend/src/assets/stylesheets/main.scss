@@ -985,6 +985,24 @@ main.projects {
             } //li
           } //ul
         } //#team
+        .sibling-pagination{
+          margin-top:5em;
+          ol{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-left: -40px;
+            li{
+             a{
+              text-decoration: none;
+              &:hover{
+                text-decoration: underline;
+                text-decoration-style: dashed;
+              }
+             }
+            }
+          }
+        }
       } //>section 2nd level
     } //article
   } //.wrapper
@@ -1546,6 +1564,10 @@ footer {
         }
       }
     }
+  }
+
+  .sibling-pagination{
+    display:none;
   }
 
   footer {

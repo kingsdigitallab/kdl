@@ -38,17 +38,17 @@ layout: layouts/base.njk
     </div>
   {% endif %}
  
-  <div class="single-pagination">
+  <div class="sibling-pagination">
     <nav aria-label="pagination">
       <ol>
         {% if pagination.href.previous %}
           <li>
-            <a href="{{ pagination.href.previous }}">{{ pagination.page.previous.name }}</a>
+            <a href="{{ pagination.href.previous }}"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> {{ pagination.page.previous.name }}</a>
           </li>
         {% endif %}
         {% if pagination.href.next %}
           <li>
-            <a href="{{ pagination.href.next }}">{{ pagination.page.next.name }}</a>
+            <a href="{{ pagination.href.next }}">{{ pagination.page.next.name }} <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon></a>
           </li>
         {% endif %}
       </ol>
