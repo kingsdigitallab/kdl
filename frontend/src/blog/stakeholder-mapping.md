@@ -13,7 +13,8 @@ excerpt: We recently embarked with partners on an AHRC funded scoping exercise,
   Humanities.
 feature:
   image: /assets/images/blog/blog_banner_aX9rBsr.original.jpg
-  description: A 3D wooden box model and render of the Marconi Morse Tapper displaying the words "Complex 3D Data in Arts and Humanities", Neil Jakeman CC BY-NC.
+  title: Neil Jakeman CC BY-NC
+  description: A 3D wooden box model and render of the Marconi Morse Tapper displaying the words "Complex 3D Data in Arts and Humanities"
 ---
 
 We recently embarked with partners on an AHRC funded scoping exercise, to define the specifications of a [Complex 3D Data Repository for the Arts and Humanities](https://blogs.brighton.ac.uk/3ddataservice/).

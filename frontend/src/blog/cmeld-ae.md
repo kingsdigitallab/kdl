@@ -25,6 +25,7 @@ excerpt: This blogpost discusses and reflects on the process and findings of the
   Interface project dataset.
 feature:
   image: /assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg
+  title: © Photo by Robert Anasch on Unsplash
   description: Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.
 ---
 

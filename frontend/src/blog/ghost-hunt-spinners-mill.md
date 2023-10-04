@@ -15,6 +15,7 @@ excerpt: "Tom Bowtell of KIT Theatre and Elliott Hall of Kings Digital Lab
   for Towns’ research project wrote an account of the show on her blog."
 feature:
   image: /assets/images/blog/Leigh_Spinners_Leigh_-_geograph.org.uk_-_637989.original.png
+  title: © By Chris Allen, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=13176326
   description: Spinners Mill
 ---
 

@@ -540,8 +540,6 @@ main {
     margin: 0 0 1.5em 0;
   }
 
-
-
   ol,
   ul {
     margin-left: -20px;
@@ -629,7 +627,12 @@ main {
           color: black;
           padding: 0.3em 0 0.3em 0.5em;
           border-left: 0.25em solid #5a6369;
-          border-image: linear-gradient(to bottom, lighten(turquoise,10%), lighten(lightgreen,30%)) 0 1;
+          border-image: linear-gradient(
+              to bottom,
+              lighten(turquoise, 10%),
+              lighten(lightgreen, 30%)
+            )
+            0 1;
         } //footer
       }
     } //article
@@ -1118,12 +1121,12 @@ main.organisation {
           height: 300px;
           object-fit: cover;
           margin: 3.2em 0 0 0;
-          order:2;
+          order: 2;
         }
         .description {
           text-align: justify;
-          order:1;
-          margin-right:2em;
+          order: 1;
+          margin-right: 2em;
         }
       } //>section
       h2 {
@@ -1308,24 +1311,24 @@ footer {
           flex-direction: row;
           justify-content: left;
           text-align: center;
-          padding-left:1em;
+          padding-left: 1em;
           a {
             display: block;
-            padding:0.7em 0.5em;
-            border:0.12em solid lighten($blue, 35%);
-            border-radius:50%;
-            width:3em;
-            height:3em;
-            
-            ion-icon{
-              color:white;
-              font-size:1.4em;
+            padding: 0.7em 0.5em;
+            border: 0.12em solid lighten($blue, 35%);
+            border-radius: 50%;
+            width: 3em;
+            height: 3em;
+
+            ion-icon {
+              color: white;
+              font-size: 1.4em;
             }
-            &:hover{
-              border:2px solid white;
+            &:hover {
+              border: 2px solid white;
               background-color: white;
-              ion-icon{
-                color:black;
+              ion-icon {
+                color: black;
               }
             }
           } //a
@@ -1350,13 +1353,13 @@ footer {
           margin-left: -40px;
           li {
             list-style-type: none;
-            padding-bottom: 1em;                    
+            padding-bottom: 1em;
             a {
               color: white;
               min-width: 6em;
               display: block;
               text-decoration: none;
-                    
+
               &:hover {
                 text-decoration: underline;
               } //&:hover
@@ -1388,9 +1391,9 @@ footer {
         opacity: 1;
       }
     }
-    p{
+    p {
       font-size: 0.9em;
-      line-height:1.5;
+      line-height: 1.5;
     }
   }
 } //footer
@@ -1534,18 +1537,16 @@ footer {
   } //main.project
 
   //-- Person Individual Page --
-main.person,
-main.organisation {
-  article{
-    section{
-  section{
-    display:block;
+  main.person,
+  main.organisation {
+    article {
+      section {
+        section {
+          display: block;
+        }
+      }
+    }
   }
-}
-  }
-
-}
-
 
   footer {
     text-align: center;
@@ -1564,7 +1565,7 @@ main.organisation {
     nav.footer {
       .kdl-container {
         display: block;
-        h2{
+        h2 {
           padding: 0.2em 0;
           border-top: 0.13em solid rgb(139, 146, 150);
         }
@@ -1572,4 +1573,3 @@ main.organisation {
     }
   }
 } //@media (max-width: 800px)
-

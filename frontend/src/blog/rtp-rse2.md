@@ -12,6 +12,7 @@ excerpt: >-
   This is the second part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
   image: /assets/images/blog/pexels-adam-ernster-7767972.original.jpg
+  title: © Photo by Adam Ernster on Pexels
   description: Professional shot of an orca, up close, gliding through the ocean iceberg waters
 ---
 

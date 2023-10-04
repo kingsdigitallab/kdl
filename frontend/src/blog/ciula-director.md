@@ -12,6 +12,7 @@ excerpt: After almost exactly five years since I joined King’s Digital Lab (KD
   Smithies.
 feature:
   image: /assets/images/blog/chris-lawton-vBA-JNHAraI-unsplash.original.jpg
+  title: © Photo by Chris Lawton on Unsplash
   description: Bunting flags
 ---
 

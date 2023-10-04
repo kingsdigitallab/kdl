@@ -12,6 +12,7 @@ excerpt: Whaia e koe ki te iti kahurangi, kia tāpapa koe,he maunga
   basket, and your basket,we will feed the people
 feature:
   image: /assets/images/blog/IDH_banner.original.jpg
+  title: © Sean Pike, 2022
   description: Indigenous Digital Humanities Banner
 ---
 

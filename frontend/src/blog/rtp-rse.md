@@ -27,6 +27,7 @@ excerpt: "
   \        "
 feature:
   image: /assets/images/blog/bryan-goff-wT-dwxXCsE8-unsplash.original.jpg
+  title: © Photo by Bryan Goff on Unsplash
   description: Three orca whales gracefully swim alongside an iceberg in the pristine water near McMurdo Station, Antarctica
 ---
 

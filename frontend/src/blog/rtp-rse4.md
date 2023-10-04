@@ -12,6 +12,7 @@ excerpt: >-
   This is the fourth part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
   image: /assets/images/blog/pexels-photo-4610202.original.jpg
+  title: © Photo by Tom Fisk on Pexels
   description: An underwater scene showcasing a diverse array of fish gracefully navigating through a coral reef.
 ---
 

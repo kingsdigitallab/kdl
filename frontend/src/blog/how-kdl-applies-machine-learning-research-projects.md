@@ -18,6 +18,7 @@ excerpt: As our new director, Arianna, mentioned in her recent blog post,
   scientific fields including the Humanities.
 feature:
   image: /assets/images/blog/sunset-boulevard-in-512-0.01.original.png
+  title: © GN (generated with VQGan-CLIP)
   description: Image of cityscape against a colorful sunset rendered by VQGAN-CLIP
 ---
 
