@@ -555,6 +555,9 @@ main {
               }
              a{
               text-decoration: none;
+                           ion-icon{
+              font-size: 0.8em;
+             }
               &:hover{
                 text-decoration: underline;
                 text-decoration-style: dashed;
