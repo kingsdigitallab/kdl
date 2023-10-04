@@ -9,17 +9,17 @@ layout: layouts/base.njk
 {% set previousPost = collections.post | getPreviousCollectionItem %}
 {% set nextPost = collections.post | getNextCollectionItem %}
 
-<section class="single-pagination">
+<section class="sibling-pagination">
   <nav aria-label="pagination">
     <ol>
       {% if previousPost %}
         <li>
-          <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+          <a href="{{ previousPost.url }}"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> {{ previousPost.data.title }}</a>
         </li>
       {% endif %}
       {% if nextPost %}
         <li>
-          <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+          <a href="{{ nextPost.url }}">{{ nextPost.data.title }} <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon></a>
         </li>
       {% endif %}
     </ol>

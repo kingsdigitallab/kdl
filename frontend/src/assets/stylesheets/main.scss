@@ -540,6 +540,29 @@ main {
     margin: 0 0 1.5em 0;
   }
 
+  .sibling-pagination{
+          margin-top:5em;
+          ol{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-left: -40px;
+            li{
+              max-width:20em;
+              &:last-of-type{
+                text-align: right;
+              }
+             a{
+              text-decoration: none;
+              &:hover{
+                text-decoration: underline;
+                text-decoration-style: dashed;
+              }
+             }
+            }
+          }
+        }
+
   ol,
   ul {
     margin-left: -20px;
@@ -985,24 +1008,6 @@ main.projects {
             } //li
           } //ul
         } //#team
-        .sibling-pagination{
-          margin-top:5em;
-          ol{
-            display: flex;
-            justify-content: space-between;
-            list-style-type: none;
-            margin-left: -40px;
-            li{
-             a{
-              text-decoration: none;
-              &:hover{
-                text-decoration: underline;
-                text-decoration-style: dashed;
-              }
-             }
-            }
-          }
-        }
       } //>section 2nd level
     } //article
   } //.wrapper
