@@ -9,7 +9,7 @@ layout: layouts/base.njk
 {% set previousPost = collections.post | getPreviousCollectionItem %}
 {% set nextPost = collections.post | getNextCollectionItem %}
 
-<section class="sibling-pagination">
+<div class="sibling-pagination">
   <nav aria-label="pagination">
     <ol>
       {% if previousPost %}
@@ -24,4 +24,4 @@ layout: layouts/base.njk
       {% endif %}
     </ol>
   </nav>
-</section>
+</div>
