@@ -804,7 +804,7 @@ main {
     }
 
     .research,
-    .services {
+    .activities {
       position: relative;
       padding: 2em 1.5em 0.5em 1.5em;
       h4 {
@@ -828,22 +828,22 @@ main {
         background-color: #cccccc;
       } //:before
       .research-block,
-      .services-block {
+      .activities-block {
         flex-basis: calc(25% - 0.5em);
         background-color: white;
         position: relative;
         padding: 0.1em 0.7em 0.7em 0.7em;
       }
-    } //.research, .services
+    } //.research, .activities
 
-    .services {
+    .activities {
       &:before {
         background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
       }
-      .services-block {
+      .activities-block {
         flex-basis: calc(33.3% - 1.5em);
       }
-    } //.services-blocks
+    } //.activities-blocks
   } //.discover, .information, .contact
   .discover {
     h3 {
@@ -1542,10 +1542,10 @@ footer {
     } //.projects, .blog,
 
     .information > .research,
-    .information > .services {
+    .information > .activities {
       display: block;
       padding: 1.5em 1.5em 0.2em 1.5em;
-    } //.research, .services
+    } //.research, .activities
   } //main.home
 
   main.project {
