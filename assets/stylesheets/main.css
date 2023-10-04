@@ -906,6 +906,22 @@ main.projects h2 small {
   display: block;
   color: #5a6369;
 }
+.project .kdl-container article section .sibling-pagination {
+  margin-top: 5em;
+}
+.project .kdl-container article section .sibling-pagination ol {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: -40px;
+}
+.project .kdl-container article section .sibling-pagination ol li a {
+  text-decoration: none;
+}
+.project .kdl-container article section .sibling-pagination ol li a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
 
 main.posts {
   float: left;
@@ -1423,6 +1439,9 @@ footer .footer-end p {
   main.person article section section,
   main.organisation article section section {
     display: block;
+  }
+  .sibling-pagination {
+    display: none;
   }
   footer {
     text-align: center;
