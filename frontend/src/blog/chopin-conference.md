@@ -13,6 +13,7 @@ excerpt: KDL balance the tensions inherent when digital solutions are applied t
   analogue problems.
 feature:
   image: /assets/images/blog/ocve_hero.original.jpg
+  title:
   description: ocve hero
 ---
 

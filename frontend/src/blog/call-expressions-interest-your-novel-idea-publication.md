@@ -12,6 +12,7 @@ excerpt: Stanford University Press (SUP) and King’s Digital Lab (KDL, King’s
   scholarship.
 feature:
   image: /assets/images/blog/pexels-fotografia-eles-dois-12518241.jpg
+  title:
   description: Black envelopes neatly arranged and secured with twine on a polished wooden table.
 ---
 

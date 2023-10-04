@@ -12,6 +12,7 @@ excerpt: I took the role of analyst at King’s Digital Lab (KDL) just over a
   tick...
 feature:
   image: /assets/images/blog/blog_desk.width-1024.jpg
+  title:
   description: A desk arrangement showcasing a laptop, headphones, and a cup of coffee.
 ---
 

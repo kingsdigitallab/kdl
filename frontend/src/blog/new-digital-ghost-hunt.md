@@ -9,6 +9,7 @@ date: 2019-02-13
 excerpt: After a successful scratch performance, the project begins a new life
 feature:
   image: /assets/images/blog/BAC-24-web.original.jpg
+  title:
   description: BAC Michael
 ---
 

@@ -9,6 +9,7 @@ date: 2019-10-30
 excerpt: ""
 feature:
   image: /assets/images/blog/Viz_UTGKaWw.original.jpg
+  title: © Adapted from a visualisation on the DRaL page
   description: Example visualisation
 ---
 

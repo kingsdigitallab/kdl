@@ -12,6 +12,7 @@ excerpt: Digital ghosts, eye vibrations and narratives in physical space.  KDL
   storytelling at Lighthouse in Brighton...
 feature:
   image: /assets/images/blog/ghost_hunt.expanded.jpg
+  title:
   description: Collage of face parts featuring spooky ghostly figures and eerie atmosphere.
 ---
 

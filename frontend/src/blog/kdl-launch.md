@@ -15,6 +15,7 @@ excerpt: King’s Digital Lab continues a proud tradition of digital humanities 
   background of rapid innovation and change.
 feature:
   image: /assets/images/blog/blog_hero_mq.original.jpg
+  title:
   description: kdl blog launch hero mq
 ---
 

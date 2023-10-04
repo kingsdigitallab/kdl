@@ -16,6 +16,7 @@ excerpt: How to address pragmatically the substantial challenge of curating and
   breath…
 feature:
   image: /assets/images/blog/exposing-legacy-datasets.original.jpg
+  title: © Image composite from Unsplash - Steven Wright and Ula Kuźma
   description: exposing-datasets
 ---
 

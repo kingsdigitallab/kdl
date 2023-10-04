@@ -9,6 +9,7 @@ date: 2020-04-23
 excerpt: ""
 feature:
   image: /assets/images/blog/legacy_data_blog.original.jpg
+  title: © Photo by Janko Ferlic from Pexels
   description: legacy data blog
 ---
 

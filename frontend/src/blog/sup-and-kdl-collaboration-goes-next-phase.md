@@ -11,6 +11,7 @@ excerpt: "Stanford University Press and King's Digital Lab are pleased to
   this round of the call for expressions of interest. "
 feature:
   image: /assets/images/blog/pexels-pok-rie-5799946.jpg
+  title:
   description: An aerial perspective capturing the mesmerizing sight of a green ocean adorned with undulating waves.
 ---
 

@@ -16,6 +16,7 @@ excerpt: >-
   KDL joined the board from day one to help shape the College’s digital accessibility policy and help scope the work that needed to be done to make every platform as accessible as possible.
 feature:
   image: /assets/images/blog/liane-metzler-v3bWNXeInQA-unsplash-small.original.jpg
+  title: © Liane Metzler on Unsplash
   description: Liane Metzler Unsplash - White stairs
 ---
 

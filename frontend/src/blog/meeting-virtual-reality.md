@@ -16,6 +16,7 @@ excerpt: |-
   what might change in the workplace post COVID-19.
 feature:
   image: /assets/images/blog/banner_vr.original.jpg
+  title:
   description: banner_vr
 ---
 

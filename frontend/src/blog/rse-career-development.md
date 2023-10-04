@@ -9,6 +9,7 @@ date: 2019-02-07
 excerpt: ""
 feature:
   image: /assets/images/blog/cr-benjamin-davies-260884-unsplash_J22jBOc.original.jpg
+  title: © Photo by Benjamin Davies on Unsplash
   description: Photo by Benjamin Davies on Unsplash
 ---
 

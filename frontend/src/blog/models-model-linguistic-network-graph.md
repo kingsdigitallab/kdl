@@ -16,6 +16,7 @@ excerpt: Modelling is a concept that is central to DH, though its various
   insights for our KDL Postdoctoral Research Associate Chris Pak ...
 feature:
   image: /assets/images/blog/graph.original.jpg
+  title: © Neil Jakeman
   description: Network Graph
 ---
 

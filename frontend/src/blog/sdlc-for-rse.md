@@ -12,6 +12,7 @@ excerpt: "At its inception in 2015, King’s Digital Lab became the de facto
   spanning decades of experimentation... "
 feature:
   image: /assets/images/blog/SDLC_blog_banner.original.jpg
+  title: © King's Digital Lab, Background image fauxels @ Pexels
   description: SDLC_blog_banner_v2
 ---
 

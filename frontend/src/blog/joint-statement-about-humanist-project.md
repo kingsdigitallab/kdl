@@ -9,6 +9,7 @@ date: 2020-08-17
 excerpt: ""
 feature:
   image: /assets/images/blog/pexels-tara-winstead-8386123.jpg
+  title:
   description: Photo scattered white puzzle pieces on a pastel blue and green background
 ---
 

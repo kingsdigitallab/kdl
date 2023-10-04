@@ -9,6 +9,7 @@ date: 2019-09-26
 excerpt: ""
 feature:
   image: /assets/images/blog/IMG_20190702_145840736.original.jpg
+  title: © Picture credit Pascal Flohr.
   description: KDL-MaDIH1
 ---
 

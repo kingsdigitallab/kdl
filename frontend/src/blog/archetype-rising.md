@@ -15,6 +15,7 @@ excerpt: There have been some mysterious and intriguing noises coming out of KDL
   metaphorical, oil-stained tarpaulin...
 feature:
   image: /assets/images/blog/metropolis57fsam.original.jpg
+  title:
   description: a dark background with a central radiant metallic metropolis figure
 ---
 

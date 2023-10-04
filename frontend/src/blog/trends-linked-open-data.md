@@ -9,6 +9,7 @@ date: 2017-07-25
 excerpt: Two days in Venice offered a wealth of insights into Linked Open Data practice
 feature:
   image: /assets/images/blog/slide1-11-1-1024x504.jpg
+  title:
   description: A picturesque view of Venice, Italy, showcasing its iconic canals and historic architecture.
 ---
 

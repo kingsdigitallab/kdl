@@ -9,6 +9,7 @@ date: 2018-06-15
 excerpt: This is a guest post by Valentina Gettatelli
 feature:
   image: /assets/images/blog/annotation.original.png
+  title: © Valentina Gettatelli, KDL & BnF
   description: VG_annotation
 ---
 
