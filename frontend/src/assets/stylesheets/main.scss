@@ -542,6 +542,7 @@ main {
 
   .sibling-pagination{
           margin-top:5em;
+          border-top:0.01em solid black;
           ol{
             display: flex;
             justify-content: space-between;
@@ -976,7 +977,7 @@ main.projects {
         #team {
           width: 100%;
           display: block;
-          border-bottom: 0.01em solid black;
+          //border-bottom: 0.01em solid black;
           h2 {
             width: 100%;
           }
@@ -1311,7 +1312,7 @@ nav.pagination {
 footer {
   background: $darkgray;
   margin-top: 8em;
-  float: left;
+  //float: left;
   width: 100%;
   color: white;
   .connect {
