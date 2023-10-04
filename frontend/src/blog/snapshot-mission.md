@@ -15,6 +15,7 @@ excerpt: This blogpost aims to present the Mission and Activities document
   and Humanities (King’s College London) senior management in 2022.
 feature:
   image: /assets/images/blog/background_shane-rounce-DNkoNXQti3c-unsplash.original.png
+  title: © Photo by Shane Rounce on Unsplash
   description: A group of people holding hands on top of a tree
 ---
 

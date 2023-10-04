@@ -9,6 +9,7 @@ date: 2023-06-23
 excerpt: "Room is Sad appears at the London Design Biennale until June 25th "
 feature:
   image: /assets/images/blog/RoomIsSad_opening_2_cropped.original.jpg
+  title:
   description: A desk with lamp and plant on top, in a room are bathed in purple light.
 ---
 
