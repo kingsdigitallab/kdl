@@ -1234,22 +1234,27 @@ footer .connect .kdl-container ul {
 footer .connect .kdl-container ul li {
   flex-direction: row;
   justify-content: left;
+  text-align: center;
+  padding-left: 1em;
 }
 footer .connect .kdl-container ul li a {
-  min-width: 4em;
   display: block;
-}
-footer .connect .kdl-container ul li a img {
-  width: 3em;
-  border: 0.125em solid rgba(0, 0, 0, 0.4);
-  padding: 0.7em;
-  filter: invert(100%);
+  padding: 0.65em 0.5em;
+  border: 0.12em solid #97b0ca;
   border-radius: 50%;
+  width: 3em;
+  height: 3em;
 }
-footer .connect .kdl-container ul li a img:hover {
-  background: white;
-  filter: invert(0);
-  border: 0.125em solid white;
+footer .connect .kdl-container ul li a ion-icon {
+  color: white;
+  font-size: 1.4em;
+}
+footer .connect .kdl-container ul li a:hover {
+  border: 2px solid white;
+  background-color: white;
+}
+footer .connect .kdl-container ul li a:hover ion-icon {
+  color: black;
 }
 footer nav.footer {
   padding: 0 1em;
