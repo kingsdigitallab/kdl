@@ -12,9 +12,9 @@ excerpt: >-
 
   This is the third installment of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
-  image: /assets/images/blog/this-is-the-image-filename.jpg
+  image: /assets/images/blog/pexels-tom-swinnen-2347462.original.jpg
   title: © Photo by Tom Swinnen on Pexels
-  description: This is the figcaption and/or attribution
+  description: Two dolphins swimming gracefully in the vast ocean gliding through the water.
 ---
 
 ![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
