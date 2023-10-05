@@ -722,8 +722,6 @@ main .kdl-container > article > article footer {
 .home .information .activities h4,
 .home .contact .research h4,
 .home .contact .activities h4 {
-  background: #0a2d50;
-  color: white;
   padding: 0.3em;
 }
 .home .discover .research:before,
