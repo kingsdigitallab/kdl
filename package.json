@@ -53,13 +53,13 @@
   ],
   "release-it": {
     "git": {
-      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/main/templates/keepachangelog.hbs"
+      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template compact"
     },
     "github": {
       "release": false
     },
     "hooks": {
-      "after:bump": "npx auto-changelog --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/main/templates/keepachangelog.hbs"
+      "after:bump": "npx auto-changelog --commit-limit false --unreleased --template compact"
     },
     "npm": {
       "publish": false
