@@ -59,7 +59,7 @@
       "release": false
     },
     "hooks": {
-      "after:bump": "npx auto-changelog -p"
+      "after:bump": "npx auto-changelog --package --commit-limit false --unreleased --template compact"
     },
     "npm": {
       "publish": false
