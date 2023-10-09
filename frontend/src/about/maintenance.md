@@ -30,7 +30,7 @@ _We can offer development services for websites that have been designed by third
 
 ## KDL Maintained
 
-Websites listed as "maintained by KDL" are currently hosted on our servers and are automatically monitored for performance issues and potential problems. In the majority of instances, we will be notified very quickly of any issues with any of our sites, but if something slips through the net, we will respond quickly to notifications from web site users. Problems can be reported by using this [form.](/report-issue/)
+Websites listed as "maintained by KDL" are currently hosted on our servers and are automatically monitored for performance issues and potential problems. In the majority of instances, we will be notified very quickly of any issues with any of our sites, but if something slips through the net, we will respond quickly to notifications from web site users. Problems can be reported by [contacting us](/contact-us/).
 
 Due to the complexity of some of our sites, there may occasionally be dependencies on several servers.
 
@@ -38,4 +38,4 @@ All sites that state in the footer that they are "maintained by KDL" are covered
 
 Whilst all of our sites are tested and delivered as fully operational according to the agreed project requirements, changes in browser architecture or changes to third party APIs are beyond our control and may occasionally require modification of code to ensure continuous service and full functionality. Such "break-fix" actions are also covered in Service Level Agreements.
 
-This is a brief summary of our services and you can read more on our [What we do](/what-we-do/) pages.
+This is a brief summary of our services and you can read more on our [About](/about/) pages.
