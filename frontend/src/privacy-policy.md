@@ -25,15 +25,15 @@ email: [kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk)
 
 ## 1 How do we collect information?
 
-We will obtain personal information from you when you enquire about our activities or report a problem with a service that we maintain through using an online [form](https://www.kdl.kcl.ac.uk/contact-us/) or through direct contact via an e-mail or conventional mail or otherwise provide us with personal information. We may also receive information about you from third parties, for example from a friend who wants to tell you about our website.
+We will obtain personal information from you when you enquire about our activities or report a problem with a service that we maintain through using our online [forms](/contact-us/) or through direct contact via an e-mail or conventional mail or otherwise provide us with personal information. We may also receive information about you from third parties, for example from a friend who wants to tell you about our website.
 
 ## 2 What information do we collect?
 
-The types of information collected might include names, e-mail address, institutional postal address, telephone number and your research interests. Via third-parties, for instance Google, we will have limited access to see IP addresses from which our website has been accessed (see Cookies, below).
+The types of information collected might include names, e-mail address, institutional postal address, telephone number and your research interests. Via third-parties, we will have limited access to see IP addresses from which our website has been accessed (see Cookies, below).
 
 ## 3 How do we use this information?
 
-We will use your personal information to provide you with the services, products or information you have requested and for administration purposes (e.g. College reporting activities). We may need to share your information with our service providers, associated organisations and agents for these purposes.
+We will use your personal information to provide you with the services, products or information you have requested and for administration purposes. We may need to share your information with our service providers, associated organisations and agents for these purposes.
 
 KDL may use your personal data to resolve technical issues you encounter, to respond to your requests for assistance, and to repair and improve our service.
 
@@ -43,13 +43,7 @@ In the case of research projects we will retain correspondence indefinitely, as 
 
 ## 5 Do we use 'Cookies'?
 
-Cookies are text files, which identify a user's computer to our server. Cookies in themselves do not identify the individual user, just the computer used. The KDL website uses cookies for collecting user information.
-
-The KDL website uses persistent cookies - these are used to track returning visitors. They expire after 12 months and enable us to compare website traffic from month to month. To see more about our cookies - visit the detailed [cookie use page](/cookie-use/).
-
-This website uses Google analytics to help us understand our web traffic. This does not permit storage of an individual's personal data, but will recognise repeated website visits from the same internet address. KDL's policy is to retain this information for a period of 5 years to effectively monitor website traffic and website impact and outreach.
-
-You can reject cookies. Most browsers allow you to refuse cookies - consult the help section of the browser toolbar. Information on controlling cookies or rejecting cookies is available from several web sites, e.g. [http://www.aboutcookies.org](http://www.aboutcookies.org)
+Cookies are text files, which identify a user's computer to our server. Cookies in themselves do not identify the individual user, just the computer used. The KDL website does not use cookies for collecting user information.
 
 ## 6 How do we protect personal information?
 
@@ -59,9 +53,9 @@ We also take appropriate measures to ensure that the information disclosed to us
 
 We may store some of your information with external service providers.
 
-To ensure we provide the best user experience we may use the services of external providers for project management tools and workflow. We use ActiveCollab to track project progress and record tasks and issues. ActiveCollab’s security measures can be found here: [https://activecollab.com/security](https://activecollab.com/security)
+To ensure we provide the best user experience we may use the services of external providers for project management tools and workflow. We use ClickUp to track project progress and record tasks and issues. ClickUp's security measures can be found here: https://clickup.com/security](https://clickup.com/security)
 
-Some personal information may also be stored securely using Google's Google Drive service. Their Privacy Policy can be viewed here: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+Some personal information may also be stored securely using Microsoft's Sharepoint service. Their Privacy Policy can be viewed here: [https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/gdpr-compliancy-with-onedrive-and-sharepoint/ba-p/191126](https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/gdpr-compliancy-with-onedrive-and-sharepoint/ba-p/191126)
 
 We may also need to disclose your information if required to do so by law.
 
@@ -69,11 +63,11 @@ We may also need to disclose your information if required to do so by law.
 
 By providing us with your personal data, including sensitive personal data such as on your health, you consent to the collection and use of any information you provide in accordance with the above purposes and this privacy statement.
 
-If you wish to withdraw consent for your data to be stored as described above, please contact us at the e-mail address: kdl-info@kcl.ac.uk, and we will take action to remove your details from our storage and from third-party storage if applicable. Please note that once requested, this may take up to 28 days to action fully and we cannot change cached search results that appear in search engines such as Google, Bing or Yahoo etc.
+If you wish to withdraw consent for your data to be stored as described above, please contact us at the e-mail address: [kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk), and we will take action to remove your details from our storage and from third-party storage if applicable. Please note that once requested, this may take up to 28 days to action fully and we cannot change cached search results that appear in search engines such as Google, Bing or Yahoo etc.
 
 ## 9 Right of access
 
-You have the right to ask for a copy of the information we hold about you (for which we may charge a small fee) and to have any inaccuracies in your information corrected.
+You have the right to ask for a copy of the information we hold about you and to have any inaccuracies in your information corrected.
 
 ## 10 Changes
 
