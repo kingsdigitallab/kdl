@@ -6,4 +6,4 @@ eleventyNavigation:
   order: 9
 ---
 
-This is the search page, to change the content edit the file at `/src/search.md`.
+Type one or more keywords in the box and view the search results below.
