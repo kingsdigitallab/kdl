@@ -278,7 +278,7 @@ I've primarily worked on integrating the Archiving and Sustainability project wi
 
 ### Tiffany Ong
 
-#### Senion Research Software UI/UX Designer
+#### Senior Research Software UI/UX Designer
 
 I worked on the design of a simple html structure and neutral styling for the decommissioned sites template. I also worked on the templates for the footer, privacy and cookie policy for sites under SLA, following the current KDL style.
 
