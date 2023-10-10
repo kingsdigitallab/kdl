@@ -6,4 +6,4 @@ eleventyNavigation:
   order: 9
 ---
 
-Type one or more keywords in the box and view the search results below.
+Type one or more keywords in the text box and view the search results below.
