@@ -146,8 +146,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -160,6 +160,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -247,7 +254,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -269,7 +284,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -435,8 +450,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -449,6 +464,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -535,11 +557,20 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's College London",
+              "slug": "kings-college-london"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -1078,7 +1109,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -1427,7 +1466,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -1754,7 +1797,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -2184,7 +2231,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -2409,7 +2464,11 @@
             "dissolutionDate": "2022-11-04",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -2959,8 +3018,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -2973,6 +3032,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -2994,7 +3060,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -3045,7 +3115,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
+                  }
+                }
               }
             ]
           },
@@ -4565,7 +4639,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": {
             "agent": {
@@ -4596,7 +4678,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": {
             "agent": {
@@ -4627,7 +4717,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": {
             "agent": {
@@ -4660,7 +4758,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -4783,7 +4885,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -4805,22 +4911,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Infrastructures Along the New Silk Road: A Mixed-methods Exploration of China's Digital Investments in Its Borderland Regions",
-            "alternateName": "DIGISILK",
-            "slug": "digital-silk-road",
-            "foundingDate": "2020-03-01",
-            "dissolutionDate": "2025-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
@@ -4911,7 +5002,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -5008,7 +5103,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -5143,7 +5246,11 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -5163,7 +5270,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
+                  }
+                }
               }
             ]
           },
@@ -5970,7 +6081,11 @@
             "dissolutionDate": "2017-12-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -6160,7 +6275,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -6255,7 +6370,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -6279,7 +6398,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -6358,7 +6477,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -6437,7 +6560,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -6729,7 +6852,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -6749,7 +6876,18 @@
             "dissolutionDate": "2022-12-15",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Praline"
+                  }
+                }
               }
             ]
           },
@@ -6817,7 +6955,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
+                  }
+                }
               }
             ]
           },
@@ -6830,7 +6972,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "UI/UX Design and Software Development: A troubled love story of integration - SSI Fellowship Application 2022​",
+            "name": "UI/UX Design and Software Development: A troubled love story of integration",
             "alternateName": "",
             "slug": "ui-ux-design-and-software-development",
             "foundingDate": "2021-01-16",
@@ -6977,8 +7119,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -6991,6 +7133,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -7541,7 +7690,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -7909,7 +8062,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -8250,23 +8403,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -8622,11 +8767,20 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's College London",
+              "slug": "kings-college-london"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -8800,7 +8954,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -8896,11 +9054,20 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's College London",
+              "slug": "kings-college-london"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -9097,7 +9264,11 @@
             "dissolutionDate": "2022-11-04",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -9145,7 +9316,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -9459,7 +9630,11 @@
             "dissolutionDate": "2017-12-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -10335,7 +10510,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -10698,8 +10877,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -10712,6 +10891,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -11534,7 +11720,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -12069,22 +12259,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Infrastructures Along the New Silk Road: A Mixed-methods Exploration of China's Digital Investments in Its Borderland Regions",
-            "alternateName": "DIGISILK",
-            "slug": "digital-silk-road",
-            "foundingDate": "2020-03-01",
-            "dissolutionDate": "2025-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -12234,7 +12409,11 @@
             "dissolutionDate": "2022-11-04",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -12431,7 +12610,15 @@
             "slug": "madih",
             "foundingDate": "2019-02-01",
             "dissolutionDate": "2021-02-28",
-            "department": []
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
           },
           "inOrganisation": null,
           "roleName": {
@@ -12661,7 +12848,18 @@
             "dissolutionDate": "2022-12-15",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Praline"
+                  }
+                }
               }
             ]
           },
@@ -12712,7 +12910,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -12897,7 +13099,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
+                  }
+                }
               }
             ]
           },
@@ -12911,7 +13117,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -12988,22 +13194,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Infrastructures Along the New Silk Road: A Mixed-methods Exploration of China's Digital Investments in Its Borderland Regions",
-            "alternateName": "DIGISILK",
-            "slug": "digital-silk-road",
-            "foundingDate": "2020-03-01",
-            "dissolutionDate": "2025-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -13457,29 +13648,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Inscriptions of Roman Cyrenaica",
-            "alternateName": "IRCYR",
-            "slug": "ircyr",
-            "foundingDate": "2020-01-01",
-            "dissolutionDate": "2020-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -13500,7 +13669,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -13532,7 +13701,7 @@
     "agent": {
       "name": "Paul Caton",
       "slug": "paul-caton",
-      "description": "Paul Caton has worked in digital humanities  since 1997. After posts in the United States, Ireland, and Canada  he  joined King's Centre for Computing in the Humanities as a Research Associate  in 2010 and later with other members of the production team helped form  King's Digital Lab in 2015. His research interests include requirements specification and software models.",
+      "description": "Paul Caton has worked in digital humanities since 1997. After posts in the United States, Ireland, and Canada, he joined King's Centre for Computing in the Humanities as a Research Associate in 2010 and later, with other members of the production team, helped form  King's Digital Lab in 2015. His research interests include requirements specification and software models.",
       "memberOf": [
         {
           "startDate": null,
@@ -13708,8 +13877,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -13722,6 +13891,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -14684,7 +14860,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -14964,7 +15144,11 @@
             "dissolutionDate": "2017-12-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -15175,7 +15359,11 @@
             "dissolutionDate": "2014-12-31",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -15477,7 +15665,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -15905,11 +16093,35 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Ancient Inscriptions of the Northern Black Sea",
+            "alternateName": "IOSPE",
+            "slug": "iospe",
+            "foundingDate": "2011-01-01",
+            "dissolutionDate": "2017-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -15922,6 +16134,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -15937,7 +16156,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -16157,8 +16376,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -16171,6 +16390,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -16402,7 +16628,11 @@
             "dissolutionDate": "2017-12-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -16575,8 +16805,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -16589,6 +16819,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -16665,7 +16902,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
+                  }
+                }
               }
             ]
           },
@@ -16734,7 +16975,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's College London"
+                  }
+                }
               }
             ]
           },
@@ -16750,8 +16995,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -16764,6 +17009,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
@@ -17095,7 +17347,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -17671,7 +17923,7 @@
           "endDate": null,
           "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "crossreads",
+            "alternateName": "Crossreads",
             "slug": "crossreads",
             "foundingDate": "2020-10-01",
             "dissolutionDate": "2025-09-30",
@@ -17738,8 +17990,8 @@
             "name": "Inventory of Byzantine Churches on Cyprus",
             "alternateName": "IBCC",
             "slug": "ibcc",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2012-09-01",
+            "dissolutionDate": "2016-01-31",
             "department": [
               {
                 "organisation_id": {
@@ -17752,6 +18004,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cyprus"
                   }
                 }
               }
