@@ -6,7 +6,7 @@ tags:
 authors:
   - Elliott Hall
 date: 2023-06-23
-excerpt: "Room is Sad appears at the London Design Biennale until June 25th "
+excerpt: "Room is Sad is an immersive experience that uses AI and the Internet of Things (IoT) to tell the story of a smart room that isn’t feeling quite itself.  It's a humorous, accessible way to engage both an academic and general audience on questions of identity, privacy, and intelligence."
 feature:
   image: /assets/images/blog/RoomIsSad_opening_2_cropped.original.jpg
   title:
