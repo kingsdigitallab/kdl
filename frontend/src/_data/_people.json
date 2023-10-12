@@ -243,7 +243,7 @@
     "agent": {
       "name": "Alessandra Esposito",
       "slug": "alessandra-esposito",
-      "description": "Alessandra is responsible for high-level project management of internally and externally funded projects, liaising between the Solution Development Team (SDT) and project partners, as well as working closely with the Director and Lab Manager to ensure the efficient running of the Lab.\n\nAfter obtaining a PhD in Classics from King’s College London, she has since worked on humanities research projects including the AHRC/Newton funded project MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan at King’s Digital Lab and the Infrastructure for Digital Arts and Humanities (IDAH) project at the University of Oxford. As an archaeologist, her research interests lie in management and process improvements of digitisation strategies of museums and archaeological fieldwork archives.",
+      "description": "Alessandra is responsible for high-level project management of internally and externally funded projects, liaising between the Solution Development Team (SDT) and project partners, as well as working closely with the Director and Lab Manager to ensure the efficient running of the Lab.\n\nAfter obtaining a PhD in Classics from King’s College London, she has since worked on humanities research projects including the AHRC/Newton funded project MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan at King’s Digital Lab and the Infrastructure for Digital Arts and Humanities (IDAH) project at the University of Oxford. As an archaeologist, her research interests lie in management and process improvements of digitisation strategies of museums and archaeological fieldwork archives.\n\n---\n\nIn addition to more extensive engagement with the projects listed below, Alessandra's work as a project manager is integral to all of KDL's active projects. She has been involved with all projects developed during her time as a project manager at KDL.",
       "memberOf": [
         {
           "startDate": null,
@@ -2227,7 +2227,7 @@
     "agent": {
       "name": "Brian Maher",
       "slug": "brian-maher",
-      "description": "After completing his MSc in Bioinformatics at KCL, Brian joined the\nDepartment of Digital Humanities in 2013 as a Research Developer\nworking on two projects - “The Art of Making” and “The Making of\nCharlemagne’s Europe”.\n\nBrian's main research interests are rather split, starting with\nHeuristic algorithms – attempting to solve problems which are\nimpractical (or impossible) to solve by normal means. He is also\ninterested in data analysis and modelling, including visualising data\nin fun and informative ways. He has previously taught classes in Data\nStructures and the Foundations of Computing – a module which teaches the underpinnings of modern computer systems.\n\nHe has experience developing for iOS, Mac and the web, and is highly\ninterested in the advantages of cloud computing in modern web systems. His time working at Apple also taught him the huge advantages brought by mobile computing, and his web development environment is now almost entirely based around an iPad – moving away from the traditional “laptop on desk” way of working. He believes that bringing software development away from the days of complicated editing environments not only increases productivity, but also encourages more people to think about developing software, rather than just using it.\n\nAway from computing, Brian is a keen guitarist, enjoying both playing\nand collecting guitars. He also has a passion for Italian cars – no\nmatter how unreliable they always turn out to be!",
+      "description": "After completing his MSc in Bioinformatics at KCL, Brian joined the\nDepartment of Digital Humanities in 2013 as a Research Developer\nworking on two projects - “The Art of Making” and “The Making of\nCharlemagne’s Europe”.\n\nBrian's main research interests are rather split, starting with\nHeuristic algorithms – attempting to solve problems which are\nimpractical (or impossible) to solve by normal means. He is also\ninterested in data analysis and modelling, including visualising data\nin fun and informative ways. He has previously taught classes in Data\nStructures and the Foundations of Computing – a module which teaches the underpinnings of modern computer systems.\n\nHe has experience developing for iOS, Mac and the web, and is highly\ninterested in the advantages of cloud computing in modern web systems. His time working at Apple also taught him the huge advantages brought by mobile computing, and his web development environment is now almost entirely based around an iPad – moving away from the traditional “laptop on desk” way of working. He believes that bringing software development away from the days of complicated editing environments not only increases productivity, but also encourages more people to think about developing software, rather than just using it.\n\nAway from computing, Brian is a keen guitarist, enjoying both playing\nand collecting guitars. He also has a passion for Italian cars – no\nmatter how unreliable they always turn out to be!\n\n---\n\nIn addition to more extensive engagement with the projects listed below, Brian's work as a systems administrator underpins KDL's full estate of digital research projects. The systems administration team manages the infrastructure which supports all of KDL's digital resources, past and present. He has been involved with all projects developed and maintained during his time at KDL.",
       "memberOf": [
         {
           "startDate": null,
@@ -2260,7 +2260,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -4502,7 +4502,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -4621,123 +4621,6 @@
             "agent": {
               "name": "Duke University",
               "slug": "duke-university"
-            }
-          },
-          "roleName": {
-            "name": "Researcher"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "jobTitle": null,
-    "agent": {
-      "name": "Dr Fadi Bala'awi",
-      "slug": "dr-fadi-balaawi",
-      "description": null,
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": {
-            "agent": {
-              "name": "Hashemite University",
-              "slug": "hashemite-university"
-            }
-          },
-          "roleName": {
-            "name": "Researcher"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "jobTitle": null,
-    "agent": {
-      "name": "Dr Sahar Idwan",
-      "slug": "dr-sahar-idwan",
-      "description": null,
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": {
-            "agent": {
-              "name": "Hashemite University",
-              "slug": "hashemite-university"
-            }
-          },
-          "roleName": {
-            "name": "Researcher"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "jobTitle": null,
-    "agent": {
-      "name": "Dr Shaher er Rababeh",
-      "slug": "dr-shaher-er-rababeh",
-      "description": null,
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": {
-            "agent": {
-              "name": "Hashemite University",
-              "slug": "hashemite-university"
             }
           },
           "roleName": {
@@ -5345,7 +5228,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -5673,6 +5556,45 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Fadi Bala'awi",
+      "slug": "dr-fadi-balaawi",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Hashemite University",
+              "slug": "hashemite-university"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
           }
         }
       ]
@@ -6824,7 +6746,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -7879,7 +7801,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -9086,7 +9008,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -10196,7 +10118,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -10575,7 +10497,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -10843,7 +10765,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -11981,7 +11903,7 @@
             "name": "Digital Prosopography of the Roman Republic",
             "alternateName": "DPRR",
             "slug": "dprr",
-            "foundingDate": null,
+            "foundingDate": "2013-10-01",
             "dissolutionDate": null,
             "department": [
               {
@@ -13657,18 +13579,8 @@
     "agent": {
       "name": "Pam Mellen",
       "slug": "pam-mellen",
-      "description": "Pamela Mellen oversees the Lab's business functions and is deeply involved in managing the Lab's strategic and continuous improvement goals. She also manages key elements of KDL projects, coordinating between the KDL development team and our range of external partners. \n\nShe has worked at King's since 2012, where she turned an existing background in general project management and administration into into a more in-depth understanding of research management before moving across to the newly formed Digital Lab in 2016. \n\nShe has an MA in Victorian Media and Culture from Royal Holloway, University of London and a BA in Theatre and English and Creative Writing from the George Washington University, as well as a Practitioner qualification from the Association for Project Management. She is interested in process improvement and change management.",
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": null,
-          "inOrganisation": null,
-          "roleName": {
-            "name": "RSE team member"
-          }
-        }
-      ]
+      "description": "Pamela Mellen oversees the Lab's business functions and is deeply involved in managing the Lab's strategic and continuous improvement goals. She also manages key elements of KDL projects, coordinating between the KDL development team and our range of external partners. \n\nShe has worked at King's since 2012, where she turned an existing background in general project management and administration into into a more in-depth understanding of research management before moving across to the newly formed Digital Lab in 2016. \n\nShe has an MA in Victorian Media and Culture from Royal Holloway, University of London and a BA in Theatre and English and Creative Writing from the George Washington University, as well as a Practitioner qualification from the Association for Project Management. She is interested in process improvement and change management.\n\n---\n\nPam's work as a lab manager (and previously project manager) is integral to all of KDL's active projects. She has been involved with all projects developed and maintained during her time at KDL.",
+      "memberOf": []
     }
   },
   {
@@ -15839,6 +15751,45 @@
   {
     "jobTitle": null,
     "agent": {
+      "name": "Sahar Idwan",
+      "slug": "dr-sahar-idwan",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Hashemite University",
+              "slug": "hashemite-university"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
       "name": "Sally Barnden",
       "slug": "sally-barnden",
       "description": null,
@@ -16050,6 +16001,45 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Shaher er Rababeh",
+      "slug": "dr-shaher-er-rababeh",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Hashemite University",
+              "slug": "hashemite-university"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -17589,7 +17579,7 @@
     "agent": {
       "name": "Tim Watts",
       "slug": "tim-watts",
-      "description": "Tim Watts has worked for 20 years with computers and the last 10 as a Linux Systems Manager. He has worked previously as Systems Manager for the Computing Support Group at Imperial College London in the Department of Computing. He has also worked for Astraguard Ltd and Raster Vision Ltd. Tim loves Linux and Perl and is a firm believer that open source software benefits mankind.",
+      "description": "Tim Watts has worked for 20 years with computers and the last 10 as a Linux Systems Manager. He has worked previously as Systems Manager for the Computing Support Group at Imperial College London in the Department of Computing. He has also worked for Astraguard Ltd and Raster Vision Ltd. Tim loves Linux and Perl and is a firm believer that open source software benefits mankind.\n\n---\n\nIn addition to more extensive engagement with the projects listed below, Tim's work as a systems administrator underpins KDL's full estate of digital research projects. The systems administration team manages the infrastructure which supports all of KDL's digital resources, past and present. He has been involved with all projects developed and maintained during his time at KDL.",
       "memberOf": [
         {
           "startDate": null,
@@ -17783,7 +17773,7 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "Ancient World Mapping Centre",
+              "name": "Ancient World Mapping Centre, University of North Carolina",
               "slug": "ancient-world-mapping-centre"
             }
           },
@@ -17877,52 +17867,6 @@
             "agent": {
               "name": "Highlands School Enfield",
               "slug": "highlands-school-enfield"
-            }
-          },
-          "roleName": {
-            "name": "Researcher"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "jobTitle": null,
-    "agent": {
-      "name": "University of North Carolina",
-      "slug": "university-of-north-carolina",
-      "description": null,
-      "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Inscriptions of Aphrodisias",
-            "alternateName": "InsAph",
-            "slug": "inscriptions-of-aphrodisias",
-            "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
             }
           },
           "roleName": {

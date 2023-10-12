@@ -113,7 +113,7 @@
   },
   {
     "cmsDateCreated": "2022-10-25T13:34:08.429Z",
-    "cmsDateUpdated": null,
+    "cmsDateUpdated": "2023-10-12T09:57:13.173Z",
     "cmsSort": null,
     "cmsStatus": "draft",
     "dissolutionDate": null,
@@ -122,11 +122,11 @@
     "agent": {
       "alternateName": null,
       "cmsDateCreated": "2022-10-25T13:34:08.395Z",
-      "cmsDateUpdated": null,
+      "cmsDateUpdated": "2023-10-12T09:57:13.028Z",
       "cmsSort": null,
       "description": null,
       "id": "85d9cd1c-96f7-442a-aab5-9148d02121d0",
-      "name": "Ancient World Mapping Centre",
+      "name": "Ancient World Mapping Centre, University of North Carolina",
       "slug": "ancient-world-mapping-centre",
       "url": [],
       "memberOf": []

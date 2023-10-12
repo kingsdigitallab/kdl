@@ -1,4 +1,5 @@
 const fs = require("fs/promises");
+const https = require("https");
 
 module.exports = {
   async loadData(
@@ -31,5 +32,39 @@ module.exports = {
           })
           .catch((err) => console.error(err));
       });
+  },
+  async downloadImage(directus, image) {
+    if (!image.id) {
+      return Promise.resolve();
+    }
+
+    const fileUrl = `${directus.url}assets/${image.id}`;
+    const filePath = `./public/assets/images/projects/${image.filename_download}`;
+
+    return new Promise((resolve, reject) => {
+      https.get(fileUrl, (response) => {
+        let data = Buffer.from([]);
+
+        response
+          .on("data", (chunk) => {
+            data = Buffer.concat([data, chunk]);
+          })
+          .on("end", () => {
+            if (!data) {
+              reject(new Error(`No data received for ${fileUrl}`));
+            }
+            fs.writeFile(filePath, data, (err) => {
+              if (err) {
+                reject(err);
+              } else {
+                resolve(filePath);
+              }
+            });
+          })
+          .on("error", (err) => {
+            reject(err);
+          });
+      });
+    });
   },
 };
