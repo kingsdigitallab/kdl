@@ -17,5 +17,10 @@
   </p>
 {% endif %}
 {% if project.foundingDate %}
-  <p>{{ project.foundingDate | asProjectDate }}–{{ project.dissolutionDate | asProjectDate }}</p>
+  <p>
+    {{ project.foundingDate | asProjectDate }}–
+    {%- if project.dissolutionDate and project.dissolutionDate != "1970-01-01" %}
+      {{- project.dissolutionDate | asProjectDate }}
+    {% endif %}
+  </p>
 {% endif %}
