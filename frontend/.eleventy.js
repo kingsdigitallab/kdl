@@ -52,10 +52,28 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addGlobalData("directus", getDirectus);
   eleventyConfig.addCollection("projectsByDate", function (collectionApi) {
-    return [...collectionApi.getFilteredByTag("projects")].sort(
-      (a, b) =>
-        new Date(b.data.dissolutionDate) - new Date(a.data.dissolutionDate)
-    );
+    return [...collectionApi.getFilteredByTag("projects")].sort((a, b) => {
+      const dateDescending = (field, a, b) => {
+        if (a.data[field] && b.data[field]) {
+          return new Date(b.data[field]) - new Date(a.data[field]);
+        } else if (a.data[field]) {
+          return -1;
+        } else if (b.data[field]) {
+          return 1;
+        }
+
+        return 0;
+      };
+
+      const compareDissolution = dateDescending("dissolutionDate", a, b);
+      const compareFounding = dateDescending("foundingDate", a, b);
+
+      return (
+        compareDissolution ||
+        compareFounding ||
+        a.data.title.localeCompare(b.data.title)
+      );
+    });
   });
 
   eleventyConfig.addFilter("toLocaleDate", kdlFilters.toLocaleDate);
