@@ -1130,7 +1130,7 @@ main.organisation ul li p {
   margin: 0;
 }
 
-main.team article section {
+main.team article > section {
   border-bottom: 0.01em solid black;
   margin-bottom: 5em;
   padding-bottom: 2em;
