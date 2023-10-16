@@ -1130,10 +1130,10 @@ main.organisation ul li p {
   margin: 0;
 }
 
-main.team article > section {
-  border-bottom: 0.01em solid black;
-  margin-bottom: 5em;
+main.team article p {
+  margin-bottom: 3em;
   padding-bottom: 2em;
+  border-bottom: 0.01em solid black;
 }
 main.team article ul {
   margin-left: -40px;
