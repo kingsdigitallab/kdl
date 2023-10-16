@@ -5,10 +5,22 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
 
 {% for team, items in team | groupby("team") %}
   {% if team != "KDL" %}<h2>{{ team }}</h2>{% endif %}
+<section>
   <p>King’s Digital Lab is home to an approachable team experienced in leading and collaborating in several Digital Humanities projects, from small starting grants to multi-million project bids.
 Combining different personal backgrounds, both commercial and academic, we are at the fore front of exploring research avenues incorporating emerging technologies and new and, often, challenging ideas and directions with our project partners. 
-Located in the heart of London, KDL is housed in the Viriginia Woolf Building, close to the Department of Digital Humanities (DDH) and the main Strand campus of King’s College London.
+Located in the heart of London, KDL is housed in the Viriginia Woolf Building, close to the Department of Digital Humanities (DDH) and the main Strand campus of King’s College London.</p>
+
+
+ 
+<figure><img src="/assets/images/resources/team-structure.jpg" alt="a diagram of team structure divided into 2 sections and broken down into roles"><figcaption>Team structure of King's Digital Lab </figcaption></figure>
+<p>
+ The KDL team includes 13 Research Software Engineers (RSE) currently equivalent to 12.5 FTE and a postdoc. Staff are divided into two broad functions, “Lab Support” (LS) who focus on administrative, management and planning functions and the “Solution Development Team” (SDT) who focus on projects and infrastructure.
 </p>
+
+
+</section>
+
+
   <ul>
     {%- for item in items | sort(false, false, "slug") -%}
       {% set agent = people | filter(item.slug, 'agent.slug') | first %}

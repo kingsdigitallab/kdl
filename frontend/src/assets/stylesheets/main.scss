@@ -1206,10 +1206,12 @@ main.organisation {
 //-- Team --
 main.team {
   article {
+    section{
+            border-bottom: 0.01em solid black;
     p {
       margin-bottom: 3em;
       padding-bottom: 2em;
-      border-bottom: 0.01em solid black;
+    }
     }
     ul {
       margin-left: -40px;
