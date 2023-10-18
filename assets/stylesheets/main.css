@@ -741,7 +741,7 @@ main .kdl-container > article > article footer {
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  background-image: url("https://images.pexels.com/photos/17485819/pexels-photo-17485819/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-ways-in-which-ai-can-solve-important-problems-it-was-created-by-vincent-schwenk-as-part-of-the-visualis.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("/assets/images/general/research.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -767,7 +767,7 @@ main .kdl-container > article > article footer {
 .home .discover .activities:before,
 .home .information .activities:before,
 .home .contact .activities:before {
-  background-image: url("https://images.pexels.com/photos/17485710/pexels-photo-17485710/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington.png?auto=compress&cs=tinysrgb&w=1200&lazy=load");
+  background-image: url("/assets/images/general/activities.jpg");
 }
 .home .discover .activities .activities-block,
 .home .information .activities .activities-block,
