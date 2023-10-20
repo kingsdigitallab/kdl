@@ -696,9 +696,8 @@ main {
     text-underline-position: under;
     position: relative;
     text-align: center; 
-}
 
-  h2.underline-with-shadow-discover::after {
+  &::after {
     content: "";
     position: absolute;
     width: 80px; 
@@ -709,8 +708,9 @@ main {
     background-color: rgba(0, 0, 0, 1); /* black underline color */
     box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
     display: block;
-    
+
   }
+}
 
   h2.underline-with-shadow-information {
     font-size: 3em; 
@@ -718,9 +718,8 @@ main {
     text-underline-position: under;
     position: relative;
     text-align: center; 
-  }
 
-  h2.underline-with-shadow-information::after {
+  &::after {
     content: "";
     position: absolute;
     width: 135px; 
@@ -731,6 +730,7 @@ main {
     background-color: rgba(0, 0, 0, 1); 
     box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
     display: block;
+    }
   }
 
   h2.underline-with-shadow-interested {
@@ -739,9 +739,8 @@ main {
     text-underline-position: under;
     position: relative;
     text-align: center; 
-}
 
-  h2.underline-with-shadow-interested::after {
+  &::after {
     content: "";
     position: absolute;
     width: 320px; 
@@ -752,8 +751,9 @@ main {
     background-color: rgba(0, 0, 0, 1); 
     box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
     display: block;
+    }
   }
-
+  
   .hero {
     background-color: $navy;
     background-image: linear-gradient(black, rgba(10, 45, 80,0.9));
