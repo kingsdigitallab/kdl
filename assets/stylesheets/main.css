@@ -576,6 +576,69 @@ main .kdl-container > article > article footer {
   text-align: center;
   text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
   font-size: 3em;
+  /* text-decoration: underline;
+  text-underline-offset: 30px;
+  text-decoration-color: rgba(10, 189, 240, 0.25); /* change the color of the underline */
+}
+.home h2.underline-with-shadow-discover {
+  font-size: 3em;
+  text-decoration: none;
+  text-underline-position: under;
+  position: relative;
+  text-align: center;
+}
+.home h2.underline-with-shadow-discover::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 5px; /* fixed height of the underline */
+  bottom: -30px;
+  left: 50%; /* fixed horizontal position */
+  margin-left: -40px; /* to center the underline horizontally */
+  background-color: rgb(0, 0, 0); /* black underline color */
+  box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  display: block;
+  display: block;
+}
+.home h2.underline-with-shadow-information {
+  font-size: 3em;
+  text-decoration: none;
+  text-underline-position: under;
+  position: relative;
+  text-align: center;
+}
+.home h2.underline-with-shadow-information::after {
+  content: "";
+  position: absolute;
+  width: 135px;
+  height: 5px;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -67.5px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  display: block;
+  display: block;
+}
+.home h2.underline-with-shadow-interested {
+  font-size: 3em;
+  text-decoration: none;
+  text-underline-position: under;
+  position: relative;
+  text-align: center;
+}
+.home h2.underline-with-shadow-interested::after {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 5px;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -160px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
+  display: block;
+  display: block;
 }
 .home .hero {
   background-color: #0a2d50;
