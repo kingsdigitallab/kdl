@@ -678,81 +678,27 @@ main {
     padding: 0 2em;
   }
 
-   h2 {
-    margin: 3em 0 2em 0;
+  h2 {
+    font-size: 3em; 
+    text-decoration: none;
+    text-underline-position: under;
+    position: relative;
     text-align: center;
-    /* text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px,
-      rgba(254, 1, 1, 0.25) -5px -5px 0px; */
-    font-size: 3em;
-    /* text-decoration: underline;
-    text-underline-offset: 30px;
-    text-decoration-color: rgba(10, 189, 240, 0.25); /* change the color of the underline */
+    margin-bottom: 100px; /* to add extra spaces after h2 */
 
-  }
-
-  h2.underline-with-shadow-discover {
-    font-size: 3em; 
-    text-decoration: none;
-    text-underline-position: under;
-    position: relative;
-    text-align: center; 
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 80px; 
-    height: 5px; /* fixed height of the underline */
-    bottom: -30px; 
-    left: 50%; /* fixed horizontal position */
-    margin-left: -40px; /* to center the underline horizontally */
-    background-color: rgba(0, 0, 0, 1); /* black underline color */
-    box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
-    display: block;
-
-  }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 80px; 
+        height: 5px; /* to fix height of the underline */
+        bottom: -30px; 
+        left: 50%; /* to fix horizontal position */
+        margin-left: -40px; /* to center the underline horizontally */
+        background-color: rgba(0, 0, 0, 1); /* black underline color, cannot remove */
+        box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
+        display: block;
+    }
 }
-
-  h2.underline-with-shadow-information {
-    font-size: 3em; 
-    text-decoration: none;
-    text-underline-position: under;
-    position: relative;
-    text-align: center; 
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 135px; 
-    height: 5px; 
-    bottom: -30px; 
-    left: 50%; 
-    margin-left: -67.5px; 
-    background-color: rgba(0, 0, 0, 1); 
-    box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
-    display: block;
-    }
-  }
-
-  h2.underline-with-shadow-interested {
-    font-size: 3em; 
-    text-decoration: none;
-    text-underline-position: under;
-    position: relative;
-    text-align: center; 
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 320px; 
-    height: 5px; 
-    bottom: -30px; 
-    left: 50%; 
-    margin-left: -160px; 
-    background-color: rgba(0, 0, 0, 1); 
-    box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
-    display: block;
-    }
-  }
   
   .hero {
     background-color: $navy;
