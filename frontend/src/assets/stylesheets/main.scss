@@ -520,8 +520,8 @@ main {
   .kdl-member {
     sup {
       font-family: KingsBureauGrotThreeSeven;
-      text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px,
-        rgba(254, 1, 1, 0.25) -2px -2px 0px;
+      /* text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px,
+        rgba(254, 1, 1, 0.25) -2px -2px 0px; */
       font-size: 0.7em;
     }
   } //.kdl-member
@@ -679,13 +679,27 @@ main {
   }
 
   h2 {
-    margin: 3em 0 2em 0;
+    font-size: 3em; 
+    text-decoration: none;
+    text-underline-position: under;
+    position: relative;
     text-align: center;
-    text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px,
-      rgba(254, 1, 1, 0.25) -5px -5px 0px;
-    font-size: 3em;
-  }
+    margin-bottom: 100px; /* to add extra spaces after h2 */
 
+    &::after {
+        content: "";
+        position: absolute;
+        width: 80px; 
+        height: 5px; /* to fix height of the underline */
+        bottom: -30px; 
+        left: 50%; /* to fix horizontal position */
+        margin-left: -40px; /* to center the underline horizontally */
+        background-color: rgba(0, 0, 0, 1); /* black underline color, cannot remove */
+        box-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px; display: block; 
+        display: block;
+    }
+}
+  
   .hero {
     background-color: $navy;
     background-image: linear-gradient(black, rgba(10, 45, 80,0.9));
