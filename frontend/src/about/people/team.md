@@ -14,4 +14,4 @@ Located in the heart of London, KDL is housed in the Viriginia Woolf Building, c
 
 ![A diagram of team structure divided into 2 sections and broken down into roles](/assets/images/resources/team-structure.jpg "Team structure of King's Digital Lab")
 
-The KDL team includes 13 Research Software Engineers (RSE) currently equivalent to 12.5 FTE and a postdoc. Staff are divided into two broad functions, “Lab Support” (LS) who focus on administrative, management and planning functions and the “Solution Development Team” (SDT) who focus on projects and infrastructure.
+The KDL team includes 13 Research Software (RS) roles currently equivalent to 13 FTE. Staff are divided into two broad functions, “Lab Support” (LS) who focus on administrative, management and planning functions and the “Solution Development Team” (SDT) who focus on projects and infrastructure.

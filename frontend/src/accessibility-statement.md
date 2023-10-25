@@ -44,4 +44,4 @@ King's Digital Lab assessed the accessibility of King's Digital Lab website by t
 
 ## Date
 
-This statement was created on 25 October 2023 using the W3C Accessibility Statement Generator Tool.
+This statement was created on 25 October 2023 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/generator/).

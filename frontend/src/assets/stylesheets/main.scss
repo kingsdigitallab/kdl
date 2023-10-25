@@ -1545,16 +1545,16 @@ footer {
     } //nav.sub
   } //header
 
-  main{
-    .kdl-container{
-    article{
-      flex: auto;
-    }//article
-    aside{
-      margin:0;
-    }//aside
-  }//.kdl-container
-  }//main
+  main {
+    .kdl-container {
+      article {
+        flex: auto;
+      } //article
+      aside {
+        margin: 0;
+      } //aside
+    } //.kdl-container
+  } //main
 
   main.home {
     .hero {
@@ -1604,16 +1604,7 @@ footer {
     }
   } //main.project
 
-  main.post{
-    aside{
-      display:none;
-    }
-    footer{
-      text-align: left;
-    }
-  }
 
-//-- Blog Index Page --
   main.posts{
     article{
       article{
@@ -1625,7 +1616,6 @@ footer {
       }//article
     }//article
   }//main.posts
-
 main.team{
   article{
     display: block;
@@ -1641,15 +1631,15 @@ main.team{
   }//article
 }//main.team
 
-//-- People Orgs Index Page --
+
   main.people, 
   main.organisations{
     article {
-      ul{
+      ul {
         columns: 1;
       }
-    }//article
-  }//main.people, main.organisations 
+    } //article
+  } //main.people, main.organisations
 
   //-- Person Org Individual Page --
   main.person,
