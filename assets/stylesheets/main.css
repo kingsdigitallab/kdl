@@ -1434,6 +1434,7 @@ footer .footer-end p {
   }
   main .kdl-container aside {
     margin: 0;
+    display: none;
   }
   main.home .hero {
     margin: 0 0 0 -1em;
@@ -1481,11 +1482,9 @@ footer .footer-end p {
     margin-left: 0;
     margin-bottom: 4em;
   }
-  main.post aside {
-    display: none;
-  }
   main.post footer {
     text-align: left;
+    margin-top: 3em;
   }
   main.team article {
     display: block;
