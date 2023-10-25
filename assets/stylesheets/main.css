@@ -1493,6 +1493,10 @@ footer .footer-end p {
   main.team article ul li section {
     width: 100%;
   }
+  main.people article ul,
+  main.organisations article ul {
+    columns: 1;
+  }
   main.person article section section,
   main.organisation article section section {
     display: block;
