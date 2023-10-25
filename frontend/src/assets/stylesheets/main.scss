@@ -529,7 +529,6 @@ main {
   .subtitle,
   .kdl-subtitle {
     margin-top: 2em;
-    line-height: 1.3;
     span {
       background: linear-gradient(to left, lightcyan, lighten(lightgreen, 20%));
       padding: 0.5em;
@@ -1546,6 +1545,17 @@ footer {
     } //nav.sub
   } //header
 
+  main{
+    .kdl-container{
+    article{
+      flex: auto;
+    }//article
+    aside{
+      margin:0;
+    }//aside
+  }//.kdl-container
+  }//main
+
   main.home {
     .hero {
       margin: 0 0 0 -1em;
@@ -1594,7 +1604,44 @@ footer {
     }
   } //main.project
 
-  //-- Person Individual Page --
+
+  main.posts{
+    article{
+      article{
+        display:block;
+        section{
+          margin-left:0;
+          margin-bottom: 4em;
+        }
+      }//article
+    }//article
+  }//main.posts
+main.team{
+  article{
+    display: block;
+    ul{
+      text-align: center;
+      li{
+        display: block;
+        section{
+          width:100%;
+        }//section
+      }//li
+    }//ul
+  }//article
+}//main.team
+
+
+  main.people, 
+  main.organisations{
+    article {
+      ul{
+        columns: 1;
+      }
+    }//article
+  }//main.people, main.organisations 
+
+  //-- Person Org Individual Page --
   main.person,
   main.organisation {
     article {

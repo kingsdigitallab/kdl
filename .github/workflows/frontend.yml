@@ -43,6 +43,7 @@ jobs:
           file_pattern: "_*.json frontend/public/assets/images/projects/*.*"
 
       - name: Deploy to GitHub pages
+        if: github.ref == 'refs/heads/develop'
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./frontend/_site
