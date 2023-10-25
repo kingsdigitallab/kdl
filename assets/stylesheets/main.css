@@ -442,7 +442,6 @@ main .kdl-member sup {
 main .subtitle,
 main .kdl-subtitle {
   margin-top: 2em;
-  line-height: 1.3;
 }
 main .subtitle span,
 main .kdl-subtitle span {
@@ -1474,6 +1473,13 @@ footer .footer-end p {
   }
   main.project .kdl-container article section:last-child #metadata {
     margin-top: 1em;
+  }
+  main.posts article article {
+    display: block;
+  }
+  main.posts article article section {
+    margin-left: 0;
+    margin-bottom: 4em;
   }
   main.person article section section,
   main.organisation article section section {
