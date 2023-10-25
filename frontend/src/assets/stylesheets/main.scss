@@ -1546,6 +1546,17 @@ footer {
     } //nav.sub
   } //header
 
+  main{
+    .kdl-container{
+    article{
+      flex: auto;
+    }//article
+    aside{
+      margin:0;
+    }//aside
+  }//.kdl-container
+  }//main
+
   main.home {
     .hero {
       margin: 0 0 0 -1em;
