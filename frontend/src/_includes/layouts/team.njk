@@ -27,9 +27,6 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
             {% endif %}
           </h3>
           <h2>{{ item.jobTitle }}</h2>
-          <!--<a href="{% route item.slug, 'People' %}">
-            <button>Read more</button>
-          </a>-->
         </section>
       </li>
     {%- endfor -%}
