@@ -1430,6 +1430,12 @@ footer .footer-end p {
   header nav.sub {
     display: none;
   }
+  main .kdl-container article {
+    flex: auto;
+  }
+  main .kdl-container aside {
+    margin: 0;
+  }
   main.home .hero {
     margin: 0 0 0 -1em;
     z-index: -1;
