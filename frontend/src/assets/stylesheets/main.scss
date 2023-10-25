@@ -1584,6 +1584,7 @@ footer {
     } //.research, .activities
   } //main.home
 
+  //-- Project Individual Page --
   main.project {
     .kdl-container {
       display: block;
@@ -1604,36 +1605,47 @@ footer {
     }
   } //main.project
 
-
-  main.posts{
-    article{
-      article{
-        display:block;
-        section{
-          margin-left:0;
+//-- Blog Index Page --
+  main.posts {
+    article {
+      article {
+        display: block;
+        section {
+          margin-left: 0;
           margin-bottom: 4em;
         }
-      }//article
-    }//article
-  }//main.posts
-main.team{
-  article{
-    display: block;
-    ul{
-      text-align: center;
-      li{
-        display: block;
-        section{
-          width:100%;
-        }//section
-      }//li
-    }//ul
-  }//article
-}//main.team
+      } //article
+    } //article
+  } //main.posts
 
+//-- Blog Individual Page --
+  main.post {
+      aside{
+        display:none;
+      }//aside
+      footer{
+        text-align: left;
+      }//footer
+  } //main.post
 
-  main.people, 
-  main.organisations{
+  main.team {
+    article {
+      display: block;
+      ul {
+        text-align: center;
+        li {
+          display: block;
+          section {
+            width: 100%;
+          } //section
+        } //li
+      } //ul
+    } //article
+  } //main.team
+
+  //-- People Orgs Index Page --
+  main.people,
+  main.organisations {
     article {
       ul {
         columns: 1;
