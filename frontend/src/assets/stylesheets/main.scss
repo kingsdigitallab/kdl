@@ -1616,7 +1616,20 @@ footer {
       }//article
     }//article
   }//main.posts
-
+main.team{
+  article{
+    display: block;
+    ul{
+      text-align: center;
+      li{
+        display: block;
+        section{
+          width:100%;
+        }//section
+      }//li
+    }//ul
+  }//article
+}//main.team
   //-- Person Individual Page --
   main.person,
   main.organisation {
