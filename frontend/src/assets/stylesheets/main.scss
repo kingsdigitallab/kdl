@@ -1552,6 +1552,7 @@ footer {
       } //article
       aside {
         margin: 0;
+        display:none;
       } //aside
     } //.kdl-container
   } //main
@@ -1620,11 +1621,9 @@ footer {
 
 //-- Blog Individual Page --
   main.post {
-      aside{
-        display:none;
-      }//aside
       footer{
         text-align: left;
+        margin-top: 3em;
       }//footer
   } //main.post
 
