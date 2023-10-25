@@ -85,7 +85,10 @@ header .site {
   text-align: right;
   position: relative;
 }
-header .site a.sitename {
+header .site .kdl-container {
+  display: flex;
+}
+header .site .kdl-container a.sitename {
   font-family: KingsBureauGrotThreeSeven;
   font-weight: 400;
   text-decoration: none;
@@ -94,14 +97,15 @@ header .site a.sitename {
   padding: 0.4em 0;
   float: left;
 }
-header .site a.sitename span {
+header .site .kdl-container a.sitename span {
   font-size: 1.2em;
 }
-header .site a.logo {
+header .site .kdl-container a.logo {
   z-index: 1;
   position: relative;
+  margin-left: auto;
 }
-header .site a.logo img {
+header .site .kdl-container a.logo img {
   width: 8em;
   text-align: right;
   position: relative;
@@ -1366,11 +1370,11 @@ footer .footer-end p {
 }
 
 @media (max-width: 850px) {
-  header .site a.sitename {
+  header .site .kdl-container a.sitename {
     font-size: 1.3em;
     padding-top: 0.6em;
   }
-  header .site a.logo img {
+  header .site .kdl-container a.logo img {
     width: 4em;
     margin-right: -1em;
   }
