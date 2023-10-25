@@ -174,7 +174,6 @@ header {
       padding: 0 1em;
       border-bottom: 0.3em solid lightgray;
       margin-top: -6.5em;
-      //display:flex;
       .kdl-container {
         > ul {
           /* first-level */
@@ -1490,7 +1489,6 @@ footer {
             display: none;
             float: none;
             margin-left: -66px;
-            @include transition(all 600ms ease-in-out); 
           } //~ ul
           &:checked {
             ~ ul {
@@ -1499,7 +1497,6 @@ footer {
               opacity: 1;
               margin-top: 3.1em;
               display: block;
-              @include transition(all 600ms ease-in-out); 
             } //~ ul
           } //&:checked
         } //#menu-toggle
@@ -1516,6 +1513,7 @@ footer {
         > ul {
           margin-top: 50px;
           width: 100%;
+          @include transition(all 800ms ease-in);
           > li {
             margin: 0;
             width: calc(100% + 165px);
@@ -1538,7 +1536,6 @@ footer {
     } //nav.main
     nav {
       &.main.kdl-container {
-      
         > ul {
           //position: absolute;
           //top: 0;
@@ -1567,31 +1564,33 @@ footer {
   } //main
 
   main.home {
-    .hero {
-      margin: 0 0 0 -1em;
-      z-index: -1;
-      .hero-content {
-        width: 80%;
-        left: 15%;
-        top: 20%;
-        transform: translate(-10%, -10%);
+    .kdl-container {
+      padding:0;
+          }//.kdl-container 
+      .hero {
+        margin: 0 0 0 -1em;
+        z-index: -1;
+        .hero-content {
+          width: 90%;
+          top: 40%;
+        }
+      } //.hero
+      h2 {
+        margin: 1em 0 2em 0;
       }
-    } //.hero
-    h2 {
-      margin: 1em 0;
-    }
-    .projects,
-    .blog {
-      div {
-        flex-basis: 100%;
-      }
-    } //.projects, .blog,
+      .projects,
+      .blog {
+        div {
+          flex-basis: 100%;
+        }
+      } //.projects, .blog,
 
-    .information > .research,
-    .information > .activities {
-      display: block;
-      padding: 1.5em 1.5em 0.2em 1.5em;
-    } //.research, .activities
+      .information > .research,
+      .information > .activities {
+        display: block;
+        padding: 1.5em 1.5em 0.2em 1.5em;
+      } //.research, .activities
+
   } //main.home
 
   //-- Project Individual Page --
