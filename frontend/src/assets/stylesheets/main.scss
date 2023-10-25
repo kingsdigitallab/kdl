@@ -1481,6 +1481,7 @@ footer {
     nav.main {
       margin-top: -3.4em;
       .kdl-container {
+          display: flex;
         #menu-toggle {
           ~ ul {
             height: 0;
@@ -1489,16 +1490,16 @@ footer {
             display: none;
             float: none;
             margin-left: -66px;
-            //transition: width 100ms cubic-bezier(0.23, 1, 0.32, 1);
+            @include transition(all 600ms ease-in-out); 
           } //~ ul
           &:checked {
             ~ ul {
               height: 100%;
               width: calc(100% + 40px);
               opacity: 1;
-              margin-top: 0;
+              margin-top: 3.1em;
               display: block;
-              //transition: width 100ms cubic-bezier(0.23, 1, 0.32, 1);
+              @include transition(all 600ms ease-in-out); 
             } //~ ul
           } //&:checked
         } //#menu-toggle
@@ -1517,7 +1518,7 @@ footer {
           width: 100%;
           > li {
             margin: 0;
-            width: calc(100% + 40px);
+            width: calc(100% + 165px);
             color: white;
             background-color: darken($darkgray, 10%);
             margin-left: 10px;
@@ -1537,6 +1538,7 @@ footer {
     } //nav.main
     nav {
       &.main.kdl-container {
+      
         > ul {
           //position: absolute;
           //top: 0;
