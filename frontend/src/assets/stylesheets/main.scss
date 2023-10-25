@@ -529,7 +529,6 @@ main {
   .subtitle,
   .kdl-subtitle {
     margin-top: 2em;
-    line-height: 1.3;
     span {
       background: linear-gradient(to left, lightcyan, lighten(lightgreen, 20%));
       padding: 0.5em;
@@ -1604,6 +1603,19 @@ footer {
       } //article
     }
   } //main.project
+
+
+  main.posts{
+    article{
+      article{
+        display:block;
+        section{
+          margin-left:0;
+          margin-bottom: 4em;
+        }
+      }//article
+    }//article
+  }//main.posts
 
   //-- Person Individual Page --
   main.person,
