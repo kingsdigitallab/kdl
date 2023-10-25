@@ -1630,7 +1630,18 @@ main.team{
     }//ul
   }//article
 }//main.team
-  //-- Person Individual Page --
+
+
+  main.people, 
+  main.organisations{
+    article {
+      ul{
+        columns: 1;
+      }
+    }//article
+  }//main.people, main.organisations 
+
+  //-- Person Org Individual Page --
   main.person,
   main.organisation {
     article {
