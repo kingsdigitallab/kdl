@@ -128,37 +128,41 @@ header {
     display: block;
     text-align: right;
     position: relative;
-    a.sitename {
-      font-family: KingsBureauGrotThreeSeven;
-      font-weight: 400;
-      text-decoration: none;
-      color: white;
-      //position: absolute;
-      font-size: 1.6em;
-      padding: 0.4em 0;
-      float: left;
-      span {
-        font-size: 1.2em;
-      } // span
-    } // a.sitename
-    a.logo {
-      //display: block;
-      //text-align: right;
-      //position:relative;
-      //z-index: 1;
-      z-index: 1;
-      position: relative;
-      img {
-        width: 8em;
-        text-align: right;
-        //float: right;
+    .kdl-container{
+      display:flex;
+      a.sitename {
+        font-family: KingsBureauGrotThreeSeven;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+        //position: absolute;
+        font-size: 1.6em;
+        padding: 0.4em 0;
+        float: left;
+        span {
+          font-size: 1.2em;
+        } // span
+      } // a.sitename
+      a.logo {
+        //display: block;
+        //text-align: right;
+        //position:relative;
+        //z-index: 1;
+        z-index: 1;
         position: relative;
-        display: inline-block;
-        //right: initial;
-        //margin-left:70%;
-        //top: 0;
-      } //img
-    } // a.logo
+        margin-left: auto;
+        img {
+          width: 8em;
+          text-align: right;
+          //float: right;
+          position: relative;
+          display: inline-block;
+          //right: initial;
+          //margin-left:70%;
+          //top: 0;
+        } //img
+      } // a.logo
+    }//.kdl-container 
   } //.site
   nav {
     &.main {
@@ -1459,6 +1463,7 @@ footer {
   //-- Header/Navigation --
   header {
     .site {
+      .kdl-container{
       a.sitename {
         font-size: 1.3em;
         padding-top: 0.6em;
@@ -1469,6 +1474,7 @@ footer {
           margin-right: -1em;
         }
       }
+    }
     }
 
     nav.main {
