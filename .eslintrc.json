@@ -5,6 +5,7 @@
     "jest": true
   },
   "extends": ["eslint:recommended", "prettier"],
+  "ignorePatterns": ["frontend/public/sla-acpp"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "requireConfigFile": false
