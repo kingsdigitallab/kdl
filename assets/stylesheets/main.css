@@ -1481,6 +1481,12 @@ footer .footer-end p {
     margin-left: 0;
     margin-bottom: 4em;
   }
+  main.post aside {
+    display: none;
+  }
+  main.post footer {
+    text-align: left;
+  }
   main.team article {
     display: block;
   }
