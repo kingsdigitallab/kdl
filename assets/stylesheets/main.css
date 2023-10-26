@@ -987,9 +987,6 @@ main.posts article article figure img:hover {
 main.posts article article section {
   margin-left: 2em;
 }
-main.posts article article section h2 {
-  border: none;
-}
 main.posts article article section a {
   text-decoration: none;
 }
@@ -999,6 +996,13 @@ main.posts article article section a:hover {
 }
 main.posts article article section a h2 {
   margin: 0 0 0.3em 0;
+  border: none;
+}
+main.posts article article section span.author {
+  text-decoration: underline;
+}
+main.posts article article section span.author:hover {
+  text-decoration-style: dashed;
 }
 
 main.people h2,
