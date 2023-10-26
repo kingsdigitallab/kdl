@@ -79,6 +79,7 @@ section {
 header {
   width: 100%;
   position: relative;
+  z-index: 1;
 }
 header .site {
   padding: 0 1em;
@@ -92,6 +93,7 @@ header .site {
 header .site .kdl-container {
   display: flex;
   height: 50px;
+  justify-content: space-between;
 }
 header .site .kdl-container a.sitename {
   font-family: KingsBureauGrotThreeSeven;
@@ -104,11 +106,6 @@ header .site .kdl-container a.sitename {
 }
 header .site .kdl-container a.sitename span {
   font-size: 1.2em;
-}
-header .site .kdl-container a.logo {
-  z-index: 1;
-  position: relative;
-  margin-left: auto;
 }
 header .site .kdl-container a.logo img {
   width: 8em;
