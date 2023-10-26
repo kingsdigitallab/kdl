@@ -123,13 +123,18 @@ section {
 
 header {
   width: 100%;
+  position: relative;
   .site {
     padding: 0 1em;
     display: block;
     text-align: right;
     position: relative;
+    height:3em;
+    background: $darkgray;
+    border-bottom: 0.3em solid lightgray;
     .kdl-container{
       display:flex;
+      height:50px;
       a.sitename {
         font-family: KingsBureauGrotThreeSeven;
         font-weight: 400;
@@ -170,10 +175,9 @@ header {
       background: $darkgray;
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       color: white;
-      height: 50px;
       padding: 0 1em;
       border-bottom: 0.3em solid lightgray;
-      margin-top: -6.5em;
+      margin-top: -3.2em;
       .kdl-container {
         > ul {
           /* first-level */
@@ -399,6 +403,7 @@ header {
     background: rgb(230, 235, 237);
     padding: 0.5em 1em;
     border-bottom: 0.7em solid rgb(10, 45, 80);
+    margin-top: 2.7em;
     ol {
       list-style-type: none;
       margin-left: -40px;
@@ -1497,7 +1502,7 @@ footer {
               height: 100%;
               width: calc(100% + 40px);
               opacity: 1;
-              margin-top: 3.1em;
+              margin-top: 3.4em;
               display: block;
             } //~ ul
           } //&:checked
@@ -1549,7 +1554,8 @@ footer {
       }
     } //.nav.main
     nav.sub {
-      display: none;
+      opacity: 0;
+      height: 2em;
     } //nav.sub
   } //header
 
