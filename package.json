@@ -44,8 +44,8 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.js": "prettier. --check --write && eslint **/src **/tests",
-    "*.{json,md,yaml}": "prettier . --check --write"
+    "*.js": "npm run format",
+    "*.{json,md,scss,yaml}": "npm run prettier:fix"
   },
   "workspaces": [
     "frontend",
