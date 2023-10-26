@@ -80,6 +80,7 @@ header {
   width: 100%;
   position: relative;
   z-index: 1;
+  margin-bottom: 4em;
 }
 header .site {
   padding: 0 1em;
@@ -324,6 +325,7 @@ header nav.sub {
   padding: 0.5em 1em;
   border-bottom: 0.7em solid rgb(10, 45, 80);
   margin-top: 2.7em;
+  margin-bottom: -3em;
 }
 header nav.sub ol {
   list-style-type: none;
@@ -495,6 +497,7 @@ main #search {
 main .kdl-container {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 main .kdl-container h1 {
   width: 100%;
