@@ -11,11 +11,11 @@ This is an accessibility statement from King's Digital Lab.
 King's Digital Lab takes the following measures to ensure accessibility of King's Digital Lab website:
 
 - Include commitment to accessibility as part of our values;
-- The King's Digital Lab team regularly tests its online services and systems to ensure they meet accessibility requirements when covered by a Service Level Agreement. We aim to comply with Web Content Accessibility Guidelines (WCAG) 2.1 AA at minimum when feasible.
+- The King's Digital Lab team regularly tests its online services and systems to ensure they meet accessibility requirements. We aim to comply with Web Content Accessibility Guidelines (WCAG) 2.1 AA at minimum when feasible.
 
 ## Conformance status
 
-The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. King's Digital Lab website is fully conformant with WCAG 2.1 level AA. Fully conformant means that the content fully conforms to the accessibility standard without any exceptions.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. King's Digital Lab website is fully conformant with WCAG 2.1 level AA. Fully conformant means that the content fully conforms to the accessibility standard without any exceptions.
 
 ## Feedback
 
