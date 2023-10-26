@@ -927,10 +927,11 @@ main.projects h2 small {
   width: 100%;
 }
 .project .kdl-container article section #team ul {
-  margin-left: -40px;
+  margin-left: 0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 .project .kdl-container article section #team ul h2 {
   font-size: 1.2em;
@@ -940,6 +941,7 @@ main.projects h2 small {
   flex: 0 0 50%;
   margin-bottom: 1em;
   font-size: 1.1em;
+  margin-left: -40px;
 }
 .project .kdl-container article section #team ul li a {
   text-decoration: none;
