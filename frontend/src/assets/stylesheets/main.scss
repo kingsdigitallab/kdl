@@ -1686,7 +1686,7 @@ footer {
 
         ul {
           justify-content: center;
-          margin-left: -40px;
+          margin-left: calc(-40px - 1em);
         }
       }
     }
