@@ -39,7 +39,7 @@ These technologies are relied upon for conformance with the accessibility standa
 
 King's Digital Lab assessed the accessibility of King's Digital Lab website by the following approaches:
 
-- Self-evaluation
+- Self-evaluation using [Webval](https://github.com/kingsdigitallab/webval), a web application that uses [Pa11y](https://pa11y.org/),[HTML_CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/) and [Axe accessibility tools](https://www.deque.com/axe/) to report and validate accessibility
 - [Evaluation report](https://kingsdigitallab.github.io/webval/docs/?project=kdlweb&levels=%7CA%7CAA%7C&resolutions=open&depth=issue&tab=issues&tagSlug=manual.htmlcs&issueId=&isOffline=false)
 
 ## Date
