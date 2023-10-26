@@ -1012,10 +1012,11 @@ main.projects {
             width: 100%;
           }
           ul {
-            margin-left: -40px;
+            margin-left: 0;
             display: flex;
             flex-wrap: wrap;
             width: 100%;
+            justify-content: space-between;
             h2 {
               font-size: 1.2em;
             }
@@ -1024,6 +1025,7 @@ main.projects {
               flex: 0 0 50%;
               margin-bottom: 1em;
               font-size: 1.1em;
+              margin-left: -40px;
               a {
                 text-decoration: none;
                 &:hover {
