@@ -128,37 +128,41 @@ header {
     display: block;
     text-align: right;
     position: relative;
-    a.sitename {
-      font-family: KingsBureauGrotThreeSeven;
-      font-weight: 400;
-      text-decoration: none;
-      color: white;
-      //position: absolute;
-      font-size: 1.6em;
-      padding: 0.4em 0;
-      float: left;
-      span {
-        font-size: 1.2em;
-      } // span
-    } // a.sitename
-    a.logo {
-      //display: block;
-      //text-align: right;
-      //position:relative;
-      //z-index: 1;
-      z-index: 1;
-      position: relative;
-      img {
-        width: 8em;
-        text-align: right;
-        //float: right;
+    .kdl-container{
+      display:flex;
+      a.sitename {
+        font-family: KingsBureauGrotThreeSeven;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+        //position: absolute;
+        font-size: 1.6em;
+        padding: 0.4em 0;
+        float: left;
+        span {
+          font-size: 1.2em;
+        } // span
+      } // a.sitename
+      a.logo {
+        //display: block;
+        //text-align: right;
+        //position:relative;
+        //z-index: 1;
+        z-index: 1;
         position: relative;
-        display: inline-block;
-        //right: initial;
-        //margin-left:70%;
-        //top: 0;
-      } //img
-    } // a.logo
+        margin-left: auto;
+        img {
+          width: 8em;
+          text-align: right;
+          //float: right;
+          position: relative;
+          display: inline-block;
+          //right: initial;
+          //margin-left:70%;
+          //top: 0;
+        } //img
+      } // a.logo
+    }//.kdl-container 
   } //.site
   nav {
     &.main {
@@ -170,7 +174,6 @@ header {
       padding: 0 1em;
       border-bottom: 0.3em solid lightgray;
       margin-top: -6.5em;
-      //display:flex;
       .kdl-container {
         > ul {
           /* first-level */
@@ -361,6 +364,7 @@ header {
         height: 2px;
         width: 30px;
         transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        z-index: 1;
       }
 
       .kdl-menu-button {
@@ -1459,6 +1463,7 @@ footer {
   //-- Header/Navigation --
   header {
     .site {
+      .kdl-container{
       a.sitename {
         font-size: 1.3em;
         padding-top: 0.6em;
@@ -1470,10 +1475,12 @@ footer {
         }
       }
     }
+    }
 
     nav.main {
       margin-top: -3.4em;
       .kdl-container {
+          display: flex;
         #menu-toggle {
           ~ ul {
             height: 0;
@@ -1482,16 +1489,14 @@ footer {
             display: none;
             float: none;
             margin-left: -66px;
-            //transition: width 100ms cubic-bezier(0.23, 1, 0.32, 1);
           } //~ ul
           &:checked {
             ~ ul {
               height: 100%;
               width: calc(100% + 40px);
               opacity: 1;
-              margin-top: 0;
+              margin-top: 3.1em;
               display: block;
-              //transition: width 100ms cubic-bezier(0.23, 1, 0.32, 1);
             } //~ ul
           } //&:checked
         } //#menu-toggle
@@ -1508,9 +1513,10 @@ footer {
         > ul {
           margin-top: 50px;
           width: 100%;
+          @include transition(all 800ms ease-in);
           > li {
             margin: 0;
-            width: calc(100% + 40px);
+            width: calc(100% + 165px);
             color: white;
             background-color: darken($darkgray, 10%);
             margin-left: 10px;
@@ -1552,38 +1558,42 @@ footer {
       } //article
       aside {
         margin: 0;
+        display:none;
       } //aside
     } //.kdl-container
   } //main
 
   main.home {
-    .hero {
-      margin: 0 0 0 -1em;
-      z-index: -1;
-      .hero-content {
-        width: 80%;
-        left: 15%;
-        top: 20%;
-        transform: translate(-10%, -10%);
+    .kdl-container {
+      padding:0;
+          }//.kdl-container 
+      .hero {
+        margin: 0 0 0 -1em;
+        z-index: -1;
+        .hero-content {
+          width: 90%;
+          top: 40%;
+        }
+      } //.hero
+      h2 {
+        margin: 1em 0 2em 0;
       }
-    } //.hero
-    h2 {
-      margin: 1em 0;
-    }
-    .projects,
-    .blog {
-      div {
-        flex-basis: 100%;
-      }
-    } //.projects, .blog,
+      .projects,
+      .blog {
+        div {
+          flex-basis: 100%;
+        }
+      } //.projects, .blog,
 
-    .information > .research,
-    .information > .activities {
-      display: block;
-      padding: 1.5em 1.5em 0.2em 1.5em;
-    } //.research, .activities
+      .information > .research,
+      .information > .activities {
+        display: block;
+        padding: 1.5em 1.5em 0.2em 1.5em;
+      } //.research, .activities
+
   } //main.home
 
+  //-- Project Individual Page --
   main.project {
     .kdl-container {
       display: block;
@@ -1604,6 +1614,7 @@ footer {
     }
   } //main.project
 
+//-- Blog Index Page --
   main.posts {
     article {
       article {
@@ -1615,6 +1626,15 @@ footer {
       } //article
     } //article
   } //main.posts
+
+//-- Blog Individual Page --
+  main.post {
+      footer{
+        text-align: left;
+        margin-top: 3em;
+      }//footer
+  } //main.post
+
   main.team {
     article {
       display: block;
@@ -1630,6 +1650,7 @@ footer {
     } //article
   } //main.team
 
+  //-- People Orgs Index Page --
   main.people,
   main.organisations {
     article {
