@@ -124,6 +124,7 @@ section {
 header {
   width: 100%;
   position: relative;
+  z-index: 1;
   .site {
     padding: 0 1em;
     display: block;
@@ -135,12 +136,12 @@ header {
     .kdl-container{
       display:flex;
       height:50px;
+      justify-content: space-between;
       a.sitename {
         font-family: KingsBureauGrotThreeSeven;
         font-weight: 400;
         text-decoration: none;
         color: white;
-        //position: absolute;
         font-size: 1.6em;
         padding: 0.4em 0;
         float: left;
@@ -149,22 +150,11 @@ header {
         } // span
       } // a.sitename
       a.logo {
-        //display: block;
-        //text-align: right;
-        //position:relative;
-        //z-index: 1;
-        z-index: 1;
-        position: relative;
-        margin-left: auto;
         img {
           width: 8em;
           text-align: right;
-          //float: right;
           position: relative;
           display: inline-block;
-          //right: initial;
-          //margin-left:70%;
-          //top: 0;
         } //img
       } // a.logo
     }//.kdl-container 
@@ -1078,9 +1068,6 @@ main.posts {
 
       section {
         margin-left: 2em;
-        h2 {
-          border: none;
-        }
         a {
           text-decoration: none;
           &:hover {
@@ -1089,8 +1076,15 @@ main.posts {
           }
           h2 {
             margin: 0 0 0.3em 0;
+            border:none;
           } //h2
         } //a
+        span.author{
+          text-decoration: underline;
+          &:hover{
+            text-decoration-style: dashed;
+          }//&:hover
+        }//span.author
       } //section
     } //article
   } //article
