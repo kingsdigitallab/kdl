@@ -1279,9 +1279,9 @@ nav.pagination {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
-    padding: 1em 25vw;
+    justify-content: center;
     margin-top: 3em;
+    margin-left: -40px;
     li {
       border: none;
       flex: 1;
