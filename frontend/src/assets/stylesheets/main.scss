@@ -1068,9 +1068,6 @@ main.posts {
 
       section {
         margin-left: 2em;
-        h2 {
-          border: none;
-        }
         a {
           text-decoration: none;
           &:hover {
@@ -1079,8 +1076,15 @@ main.posts {
           }
           h2 {
             margin: 0 0 0.3em 0;
+            border:none;
           } //h2
         } //a
+        span.author{
+          text-decoration: underline;
+          &:hover{
+            text-decoration-style: dashed;
+          }//&:hover
+        }//span.author
       } //section
     } //article
   } //article
