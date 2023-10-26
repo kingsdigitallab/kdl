@@ -1534,13 +1534,13 @@ footer .footer-end p {
   }
   footer .connect .kdl-container ul {
     justify-content: center;
-    margin-left: -40px;
+    margin-left: calc(-40px - 1em);
   }
   footer nav.footer .kdl-container {
     display: block;
   }
   footer nav.footer .kdl-container h2 {
     padding: 0.2em 0;
-    border-top: 0.13em solid rgb(139, 146, 150);
+    border-bottom: 0.05em solid rgb(139, 146, 150);
   }
 }
