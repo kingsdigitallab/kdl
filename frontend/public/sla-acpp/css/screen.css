@@ -1,0 +1,226 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/** Importing King's Fonts **/
+/** King's Bureau Grotesque **/
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThrSevenItal.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: italic;
+}
+
+/** King's Caslon **/
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslon.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonItalic.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBoldItalic.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Colours */
+/* line 16, ../sass/screen.scss */
+.cookies-box {
+  background: rgba(63, 70, 74, 0.95);
+  bottom: 0;
+  color: #fefefe;
+  margin: 0;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  text-shadow: none;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* line 29, ../sass/screen.scss */
+.cookies-box.hide {
+  display: none;
+  transition: 1s ease-in-out;
+}
+
+/* line 34, ../sass/screen.scss */
+.cookies-box.large {
+  height: 99%;
+  transition: 1s ease-in-out;
+  z-index: 1000;
+}
+
+/* line 40, ../sass/screen.scss */
+.cookies-box .close:before {
+  content: 'Close ';
+}
+
+/* line 48, ../sass/screen.scss */
+.cookies-box iframe {
+  border: none;
+  height: 85%;
+  max-height: 85%;
+  max-width: 1024px;
+  transition: 1s ease-in-out;
+  width: 95%;
+}
+
+/* line 56, ../sass/screen.scss */
+.cookies-box iframe.hide {
+  display: none;
+  transition: 1s ease-in-out;
+}
+
+/* line 62, ../sass/screen.scss */
+.cookies-box p {
+  margin: 1rem;
+  line-height: 1;
+  color: #fff !important;
+}
+
+/* line 66, ../sass/screen.scss */
+.cookies-box p a {
+    background-color: transparent !important;
+    border: none;
+    color: #fff !important;
+    float: none;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 0;
+    opacity: 0.8;
+    padding: 0;
+}
+
+/* line 74, ../sass/screen.scss */
+.cookies-box p a:hover,
+.cookies-box p a:focus {
+  color: #00b9e1 !important;
+  opacity: 1;
+}
+
+/* line 81, ../sass/screen.scss */
+.cookies-box button {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+  color: #000 !important;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  margin: 0;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+/* line 90, ../sass/screen.scss */
+.cookies-box button:hover,
+.cookies-box button:focus {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+/* line 97, ../sass/screen.scss */
+.privacy-policy {
+  background: #fefefe;
+  color: #5a6469;
+  font-family: 'KingsCaslon', serif;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+/* line 104, ../sass/screen.scss */
+.privacy-policy a {
+  background-color: transparent;
+  color: #0049d2;
+  text-decoration: none;
+}
+
+/* line 109, ../sass/screen.scss */
+.privacy-policy a:hover,
+.privacy-policy a:focus {
+  opacity:0.7;
+  text-decoration:underline;
+}
+
+/* line 115, ../sass/screen.scss */
+.privacy-policy h2 {
+  font-family: 'KingsBureauGrot', sans-serif;
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 3rem 0 0.5rem 0;
+}
+
+/* line 123, ../sass/screen.scss */
+.sla {
+  background: #5a6469;
+  color: #fff !important;
+  padding: 0.5rem 0 !important;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  text-shadow:none;
+}
+
+/* line 131, ../sass/screen.scss */
+.sla a {
+  text-decoration: underline;
+  font-style: italic !important;
+  color: #fff !important;
+  opacity:0.8;
+  font-weight: normal !important;
+  display: inline-block;
+}
+
+/* line 135, ../sass/screen.scss */
+.sla a:hover,
+.sla a:focus {
+  color: #00b9e1 !important;
+  opacity:1;
+}
+
+/* line 141, ../sass/screen.scss */
+.sla p {
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  /* line 148, ../sass/screen.scss */
+  .privacy-policy {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+  }
+
+  /* line 151, ../sass/screen.scss */
+  .privacy-policy h2 {
+    font-size: 1.5rem;
+  }
+}
