@@ -8,9 +8,9 @@ authors:
 date: 2023-11-06
 excerpt: "The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is proud to announce it has renewed a Cooperating Partnership agreement with King’s College London in the United Kingdom. "
 feature:
-  image:
+  image: /assets/images/blog/dariah-kcl-logos.png
   title:
-  description:
+  description: Dual logos of DARIAH logo at the top and KCL logo at the bottom
 draft: true
 ---
 
