@@ -20,7 +20,7 @@ The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is p
 >
 > Barbara McGillivray (Lecturer in Digital Humanities and Cultural Computation, DDH)
 
-DARIAH is a European Research Infrastructure Consortium (ERIC) whose mission is to empower research communities with digital methods to create, connect and share knowledge about culture and society. In addition to having 22 member states, DARIAH has also established a network of cooperating partners in non-member countries.
+[DARIAH](https://www.dariah.eu/) is a European Research Infrastructure Consortium (ERIC) whose mission is to empower research communities with digital methods to create, connect and share knowledge about culture and society. In addition to having 22 member states, DARIAH has also established a network of cooperating partners in non-member countries.
 
 “The renewal of our Cooperating Partnership with King’s College London is a key part of our overall strategy to bring DARIAH to the United Kingdom,” said Edward Gray, DARIAH’s Officer for National Coordination. “KCL has a longstanding history with DARIAH, and their strong DH experience and multitude of expertise and tools will be a valuable addition to our ecosystem. This partnership should tie KCL, and the UK, even closer to the European DARIAH network.”
 
@@ -46,4 +46,4 @@ KDL will support DARIAH Cooperating Research Activities by adding resources, lik
 
 Beyond existing working groups, KDL and DDH are assessing appetite for two new Working Groups, one on Equity, Diversity and Inclusion (EDI) - with a focus on social justice and inclusive practices in DH through collaborations, including involvement of indigenous communities, and one on RSE to leverage on the development of RSE communities of practice of within DARIAH, [DH Tech](https://dh-tech.github.io/) ADHO SIG and the [RSE CIG of the UK Ireland DH Association](https://digitalhumanities-uk-ie.org/community-interest-groups/research-software-engineering/).
 
-For more information on the Cooperating Partners membership in DARIAH, their role, tasks and benefits, have a look at our detailed post [here](https://www.dariah.eu/2021/01/28/dariah-cooperating-partners-establishing-a-new-basis-for-collaboration/).
+For more information on the Cooperating Partners membership in DARIAH, their role, tasks and benefits, have a look at the DARIAH detailed post [here](https://www.dariah.eu/2021/01/28/dariah-cooperating-partners-establishing-a-new-basis-for-collaboration/).
