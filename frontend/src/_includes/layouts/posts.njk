@@ -25,8 +25,15 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
 
       {% if post.data.authors %}
         by
-        {% for person in post.data.collections.people | filter(post.data.authors, "data.id") %}
-          {{- authorMacro(person) -}}
+        {% for name in post.data.authors %}
+          {% set person = collections.people | filter(name, "data.name") %}
+          {% if person and person.length > 0 %}
+            {{- authorMacro(person[0]) -}}
+          {% else %}
+            {% set data = { name: name } %}
+            {% set person = {data: data} %}
+            {{- authorMacro(person) -}}
+          {% endif %}
           {%- if not loop.last -%},
           {% endif -%}
         {% endfor %}
