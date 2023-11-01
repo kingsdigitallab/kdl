@@ -20,7 +20,7 @@ The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is p
 >
 > Barbara McGillivray (Lecturer in Digital Humanities and Cultural Computation, DDH)
 >
-> “I am delighted to support this partnership agreement with DARIAH, which will strengthen connections with our fellow European partners and foster greater opportunities for innovation in digital humanities across a vibrant international research community with invaluable experience in developing open science across the arts and humanities.”
+> “I am delighted to support this partnership agreement with DARIAH, which will strengthen connections with our fellow European partners and foster greater opportunities for innovation in digital humanities across a vibrant international research community with invaluable experience in developing open science across the arts and humanities..”
 >
 > Paul Spence, Reader in Digital Humanities at King’s College London
 
