@@ -10,7 +10,7 @@
   "author": "King's Digital Lab",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/kingsdigitallab/kdl/issues"
+    "url": "https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1"
   },
   "scripts": {
     "compose": "trap 'echo Stopped; exit 0' SIGINT; docker-compose",
@@ -44,8 +44,11 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.js": "npm run format",
-    "*.{json,md,scss,yaml}": "npm run prettier:fix"
+    "*.js": [
+      "prettier --write",
+      "eslint **/src **/tests"
+    ],
+    "*.{css,json,md,scss,yaml}": "prettier --write"
   },
   "workspaces": [
     "frontend",
