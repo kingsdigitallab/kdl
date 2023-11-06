@@ -4,9 +4,9 @@ subtitle: Reflections on my Erasmus Traineeship
 tags:
   - post
 authors:
-  - Guest
+  - Valentina Gettatelli
 date: 2018-06-15
-excerpt: This is a guest post by Valentina Gettatelli
+excerpt: ""
 feature:
   image: /assets/images/blog/annotation.original.png
   title: © Valentina Gettatelli, KDL & BnF
