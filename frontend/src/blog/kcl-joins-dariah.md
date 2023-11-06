@@ -8,9 +8,10 @@ authors:
 date: 2023-11-06
 excerpt: "The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is proud to announce it has renewed a Cooperating Partnership agreement with King’s College London in the United Kingdom. "
 feature:
-  image: /assets/images/blog/dariah-kcl-logos.png
-  title:
-  description: Dual logos of DARIAH logo at the top and KCL logo at the bottom
+  image: /assets/images/blog/puzzle_pieces.jpg
+  title: © Photo by Diva Plavalaguna on Pexels
+  description: Close up photo of people holding puzzle pieces
+
 draft: false
 ---
 
@@ -22,7 +23,7 @@ The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is p
 >
 > “I am delighted to support this partnership agreement with DARIAH, which will strengthen connections with our fellow European partners and foster greater opportunities for innovation in digital humanities across a vibrant international research community with invaluable experience in developing open science across the arts and humanities.”
 >
-> Paul Spence, Reader in Digital Humanities at King’s College London
+> Paul Spence (Reader in Digital Humanities, DDH)
 
 [DARIAH](https://www.dariah.eu/) is a European Research Infrastructure Consortium (ERIC) whose mission is to empower research communities with digital methods to create, connect and share knowledge about culture and society. In addition to having 22 member states, DARIAH has also established a network of cooperating partners in non-member countries.
 
@@ -31,6 +32,7 @@ The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is p
 King's College London (KCL) has a distinguished reputation in the Arts and Humanities and a long tradition of research in the Digital Humanities (DH), going back to the early 1970s with a strong focus on research infrastructures (including the set-up of a central [eResearch function](https://docs.er.kcl.ac.uk/)). King's is one of the few places in the world where students at all levels, including PhD, can pursue a wide range of interdisciplinary study involving the application of computing methods and tools in the arts and humanities. This is manifested in two complementary units in the Faculty of Arts and Humanities.
 
 The [Department of Digital Humanities (DDH)](https://www.kcl.ac.uk/ddh) concentrates on research and academic teaching in the wider domain of DH and it is the largest department of its kind anywhere. The [King's Digital Lab (KDL)](https://kdl.kcl.ac.uk/), currently a research facility, has the broader remit to increase digital research capability in all arts, humanities and cultural heritage disciplines. The goal of establishing KDL in 2015 was to balance a commitment to intellectual quality and high-quality teaching with high intensity technical development, underpinned by industry-standard approaches to research software engineering (RSE), infrastructure management, and research data management.
+![Dual logos of DARIAH logo at the top and KCL logo at the bottom.](/assets/images/blog/dariah-kcl-logos.png "DARIAH - KCL logos")
 
 ## Research and Teaching Strengths of KCL
 
