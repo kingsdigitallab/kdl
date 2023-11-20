@@ -14,7 +14,7 @@ module.exports = {
   author: "King's Digital Lab",
   twitter: "kingsdigitallab",
   feature: {
-    image: "https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg",
+    image: `${paths.images}/kings-logo-red.svg`,
     description: "King's College London logo in red",
   },
   // SEO plugin options
