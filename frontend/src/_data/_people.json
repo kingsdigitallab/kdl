@@ -261,6 +261,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -375,6 +403,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -685,6 +720,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -1116,6 +1158,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -1366,6 +1436,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -1861,7 +1938,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2245,6 +2322,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -2261,7 +2366,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -3677,6 +3782,13 @@
                     "name": "FAH Department of English"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -4394,6 +4506,13 @@
                     "name": "University of Oxford"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -4503,7 +4622,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -5000,6 +5119,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -5229,7 +5376,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -5582,6 +5729,34 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
                   }
                 }
               }
@@ -5979,11 +6154,11 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Distant Reading across Languages",
-            "alternateName": "DRaL",
-            "slug": "dral",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2019-12-31",
+            "name": "Archetype",
+            "alternateName": null,
+            "slug": "archetype",
+            "foundingDate": "2017-10-01",
+            "dissolutionDate": "2021-02-07",
             "department": [
               {
                 "organisation_id": {
@@ -6374,7 +6549,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -6747,7 +6922,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -6908,7 +7083,11 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -7557,6 +7736,56 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Henry III Fine Rolls",
+            "alternateName": "",
+            "slug": "henry-iii-fine-rolls",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Canterbury Christ Church University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The National Archives"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's College London",
+              "slug": "kings-college-london"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Inscriptions of Aphrodisias",
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
@@ -7802,7 +8031,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -8339,6 +8568,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -8512,6 +8769,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -8738,6 +9002,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -9009,7 +9280,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -9907,6 +10178,13 @@
                     "name": "University of Oxford"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -10119,7 +10397,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -10328,6 +10606,13 @@
                     "name": "FAH Department of English"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -10498,7 +10783,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -10766,7 +11051,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -11528,6 +11813,13 @@
                     "name": "FAH Department of English"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -11904,7 +12196,7 @@
             "alternateName": "DPRR",
             "slug": "dprr",
             "foundingDate": "2013-10-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2017-05-01",
             "department": [
               {
                 "organisation_id": {
@@ -12177,6 +12469,13 @@
                     "name": "FAH Department of English"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -12388,7 +12687,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -12551,6 +12850,34 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
                   }
                 }
               }
@@ -13149,7 +13476,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -13463,6 +13790,13 @@
                     "name": "University of Oxford"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -13706,7 +14040,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -14057,6 +14391,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -15048,7 +15389,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -15771,6 +16112,34 @@
                     "name": "King's Digital Lab"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
               }
             ]
           },
@@ -16029,6 +16398,34 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
                   }
                 }
               }
@@ -16523,7 +16920,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -16781,7 +17178,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -17188,6 +17585,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -17858,6 +18262,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
