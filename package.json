@@ -46,7 +46,7 @@
   "lint-staged": {
     "*.js": [
       "prettier --write",
-      "eslint **/src **/tests"
+      "eslint etl/src etl/tests frontend/src"
     ],
     "*.{css,json,md,scss,yaml}": "prettier --write"
   },
