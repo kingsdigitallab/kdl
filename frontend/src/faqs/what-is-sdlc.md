@@ -5,7 +5,7 @@ tags:
   - faq
 ---
 
-KDL's Software Devlopment Lifecycle (SDLC) is.....
+KDL's Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software. in detail, the SDLC methodology focuses on the following project phases of software development with more detailed steps within those phases.
 
 ### Project Phases
 

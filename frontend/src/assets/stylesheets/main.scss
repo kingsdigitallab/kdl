@@ -1309,16 +1309,20 @@ main.faqs {
     > article {
       > article:first-of-type {
         // Only for first article (SDLC diagram)
+        margin-bottom: 3em;
+        > h3 {
+          width: 100%;
+          text-align: center;
+          font-size: 1.2em;
+          margin-top: 2.5em;
+        }
         ol {
           display: flex;
           flex-wrap: wrap;
           align-items: center;
           justify-content: center;
-          margin: 3em 0 4em -40px;
-          h3 {
-            width: 100%;
-            text-align: center;
-          }
+          margin: 1em 0 4em -40px;
+
           li {
             min-width: 10em;
             text-align: center;
@@ -1329,7 +1333,7 @@ main.faqs {
             &:before {
               @include prefix(border-radius, 50%);
               background-color: white;
-              border: 2px solid $blue;
+              border: 2px solid $navy;
               content: "";
               height: 15px;
               position: absolute;
@@ -1341,19 +1345,19 @@ main.faqs {
               //arrow
               content: "➝";
               position: absolute;
-              top: -15%;
+              top: -50%;
               left: 100%;
               color: $darkgray;
               font-size: 2em;
             } //&:after
-            &:nth-child(3) {
+            &:nth-child(2) {
               &:before {
-                border: 4px solid $blue;
+                border: 4px solid $navy;
               } //&:before
             } //&:nth-child(3)
-            &:nth-child(4) {
+            &:nth-child(3) {
               &:before {
-                border: 8px solid $blue;
+                border: 8px solid $navy;
               } //&:before
               &:after {
                 display: none;
@@ -1387,7 +1391,7 @@ main.faqs {
                 //dot
                 @include prefix(border-radius, 50%);
                 background-color: white;
-                border: 2px solid $blue;
+                border: 2px solid $navy;
                 content: "";
                 height: 15px;
                 position: absolute;
@@ -1413,18 +1417,18 @@ main.faqs {
               } //p
               &:before {
                 //first curve line
-                border: 3px solid $blue;
+                border: 3px solid $navy;
                 border-left: 0;
                 border-radius: 0 100% 100% 0;
-                width: 100%;
-                padding-bottom: 90%;
+                width: 15.5vw;
+                padding-bottom: 13.8vw;
               } //&:before
               &:after {
                 //arrow
                 content: "▸";
                 position: absolute;
                 top: 47%;
-                left: 95.5%;
+                left: calc(14.7vw);
                 @include transform(rotate(90deg));
               } //&:after
             } //&:nth-child(3)
@@ -1457,7 +1461,7 @@ main.faqs {
               h3 {
                 &:before {
                   //dot
-                  border: 4px solid $blue;
+                  border: 4px solid $navy;
                 } //&:before
               } //h3
             } //&:nth-child(5)
@@ -1466,14 +1470,14 @@ main.faqs {
               &:before {
                 //evo dev circle
                 margin-left: -100%;
-                border: 3px solid $blue;
+                border: 3px solid $navy;
                 border-left: 0;
                 border-radius: 50%;
                 border-right: 0;
                 margin-bottom: -3px;
-                margin-left: -43%;
-                width: 90%;
-                padding-bottom: 90%;
+                margin-left: -6.6vw;
+                width: 13.8vw;
+                padding-bottom: 13.8vw;
               } //&:before
               &:after {
                 //arrow
@@ -1481,12 +1485,12 @@ main.faqs {
                 content: "▸";
                 top: 48%;
                 @include transform(rotate(90deg));
-                left: 53.5%;
+                left: calc(100% - 7.1vw);
               } //&:after
               h3 {
                 &:before {
                   //dot
-                  border: 4px solid $blue;
+                  border: 4px solid $navy;
                 } //&:before
               } //h3
             } //&:nth-child(6)
@@ -1495,7 +1499,7 @@ main.faqs {
               h3 {
                 &:before {
                   //dot
-                  border: 4px solid $blue;
+                  border: 4px solid $navy;
                 } //&:before
               } //h3
             } //&:nth-child(7)
@@ -1503,7 +1507,7 @@ main.faqs {
               h3 {
                 &:before {
                   //dot
-                  border: 8px solid $blue;
+                  border: 8px solid $navy;
                 } //&:before
               } //h3
             } //&:nth-child(8)
@@ -1511,7 +1515,7 @@ main.faqs {
               h3 {
                 &:before {
                   //dot
-                  border: 8px solid $blue;
+                  border: 8px solid $navy;
                 } //&:before
               } //h3
               &:before,
@@ -1521,7 +1525,7 @@ main.faqs {
             } //&:nth-child(9)
             &:before {
               //line
-              border-top: 3px solid #0a2d50;
+              border-top: 3px solid $navy;
               padding-bottom: 100%;
               position: absolute;
               top: 0;
@@ -1538,7 +1542,7 @@ main.faqs {
             } //&:after
 
             a {
-              background: $blue;
+              background: $navy;
               position: relative;
               border: 0;
               color: white;
@@ -1550,7 +1554,7 @@ main.faqs {
               cursor: pointer;
               text-decoration: none;
               &:hover {
-                background: lighten($blue, 10%);
+                background: lighten($navy, 10%);
               }
             } //button
           } //li
@@ -1748,6 +1752,122 @@ footer {
     }
   }
 } //footer
+
+@media screen and (max-width: 1200px) {
+  main.faqs {
+    article {
+      > article {
+        > article:first-of-type {
+          > h3 {
+            margin-bottom: 2em;
+          } //h3
+          ol {
+            display: block;
+            text-align: center;
+            margin-bottom: 1em;
+            li {
+              height: 5em;
+              &:after {
+                @include transform(rotate(90deg));
+                top: 25%;
+                left: calc(50% - 0.45em);
+              } //&:after
+            } //li
+          } //ol
+          ul {
+            width: calc(100% - 3em);
+            margin: 0 0 0 3em;
+            li {
+              display: block;
+              float: left;
+              width: 100%;
+              height: initial;
+              padding-bottom: 1em;
+
+              h3 {
+                margin-top: -0.4em;
+                margin-bottom: 0;
+                &:before {
+                  //dot
+                  margin-left: -2.2em;
+                  top: 0.2em;
+                } //&:before
+              } //h3
+              p {
+                width: 100%;
+                padding: 0;
+                margin-top: 0;
+              } //p
+              &:nth-child(3) {
+                &:before {
+                  border: none;
+                } //&:before
+              } //&:nth-child(3)
+              &:nth-child(4) {
+                margin: 0;
+                &:before {
+                } //&:before
+              } //&:nth-child(4)
+
+              &:nth-child(1),
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8) {
+                margin-left: 0;
+                &:before {
+                  //line
+                  border-top: none;
+                  border-bottom: none;
+                  border-left: 3px solid $blue;
+                  padding-bottom: 0;
+                  position: absolute;
+                  margin-left: -2em;
+                  top: 0;
+                  height: 100%;
+                  display: block;
+                  border-radius: 0;
+                } //&:before
+                &:after {
+                  //arrow
+                  content: "▸";
+                  position: absolute;
+                  top: 48%;
+                  left: -1.69em;
+                  @include transform(rotate(90deg));
+                  margin-left: 0;
+                  display: none;
+                } //&:after
+              } //nth-child(all)
+              &:nth-child(6) {
+                //evo dev
+                p {
+                  &:before {
+                    @include prefix(border-radius, 50%);
+                    border-top: 3px solid $blue;
+                    border-bottom: 3px solid $blue;
+                    content: "";
+                    //padding: 0 10em 0 10em;
+                    position: absolute;
+                    top: calc(3px + 8%);
+                    height: 84%;
+                    aspect-ratio: 1 / 1;
+                    left: calc(-2em);
+                    opacity: 0.05;
+                    z-index: -1;
+                  } //&:before
+                }
+              } // &:nth-child(6)
+            } //li
+          } //ul
+        } //> article
+      } //> article
+    } //> article:first-of-type
+  } //main.faqs
+} //@media screen and (max-width: 1200px)
 
 @media (max-width: 850px) {
   //-- Header/Navigation --
