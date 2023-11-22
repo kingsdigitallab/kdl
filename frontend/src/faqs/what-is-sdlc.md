@@ -37,7 +37,7 @@ KDL's Software Development Life Cycle (SDLC) refers to a methodology with clearl
 
   Once funding is confirmed, we’ll plan how to work together and what to focus on first.
 
-- ### Initial Contact
+- ### Evolutionary Development
 
   The actual development. Dividing the project into increments, we decide at the end of each which requirements we'll focus on in the next increment.
 
@@ -55,4 +55,4 @@ KDL's Software Development Life Cycle (SDLC) refers to a methodology with clearl
 
   We plan and cost for a period of hosting and maintenance from the start.
 
-  [ARCHIVING AND SUSTAINABILITY APPROACH](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/#sla-with-kdl)
+  [ARCHIVING AND SUSTAINABILITY APPROACH](/about/archiving-and-sustainability/#sla-with-kdl)
