@@ -1378,7 +1378,7 @@ main.faqs {
             margin: 0;
             position: relative;
             width: 30%;
-            height: 14vw;
+            height: 13.9vw;
             h3 {
               color: black;
               line-height: 1.5rem;
@@ -1418,7 +1418,7 @@ main.faqs {
               } //p
               &:before {
                 //first curve line
-                border: 3px solid $navy;
+                border: 2px solid $navy;
                 border-left: 0;
                 border-radius: 0 100% 100% 0;
                 width: 15.5vw;
@@ -1471,7 +1471,7 @@ main.faqs {
               &:before {
                 //evo dev circle
                 margin-left: -100%;
-                border: 3px solid $navy;
+                border: 2px solid $navy;
                 border-left: 0;
                 border-radius: 50%;
                 border-right: 0;
@@ -1526,10 +1526,11 @@ main.faqs {
             } //&:nth-child(9)
             &:before {
               //line
-              border-top: 3px solid $navy;
+              border-top: 2px solid $navy;
               padding-bottom: 100%;
               position: absolute;
               top: 0;
+              opacity: 0.7;
             } //&:before
             &:after {
               //arrow
