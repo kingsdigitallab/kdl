@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** Importing King's Fonts **/
 /** King's Bureau Grotesque **/
 @font-face {
@@ -43,6 +44,13 @@
   font-weight: bold;
   font-style: italic;
 }
+main.faqs article > article > article:first-of-type ul li:after, main.faqs article > article > article:first-of-type ul li:before {
+  content: "";
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
 :root {
   --pagefind-ui-background: white;
   --pagefind-ui-border: #5a6369;
@@ -1199,6 +1207,258 @@ main.team article ul li section h2 {
   font-family: KingsBureauGrotFiveOne, sans-serif;
 }
 
+main.faqs {
+  line-height: 1.5em;
+  font-size: 0.9em;
+  color: black;
+}
+main.faqs *,
+main.faqs *:before,
+main.faqs *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+main.faqs article {
+  float: left;
+  display: block;
+  width: 100%;
+}
+main.faqs article > article > article:first-of-type {
+  margin-bottom: 1.5em;
+}
+main.faqs article > article > article:first-of-type > h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 2.5em;
+}
+main.faqs article > article > article:first-of-type ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 4em -40px;
+}
+main.faqs article > article > article:first-of-type ol li {
+  min-width: 10em;
+  text-align: center;
+  margin: 2%;
+  position: relative;
+  list-style-type: none;
+}
+main.faqs article > article > article:first-of-type ol li:before {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #0a2d50;
+  content: "";
+  height: 15px;
+  position: absolute;
+  top: -1.3em;
+  width: 15px;
+  left: calc(50% - 7px);
+}
+main.faqs article > article > article:first-of-type ol li:after {
+  content: "➝";
+  position: absolute;
+  top: -50%;
+  left: 100%;
+  color: #5a6369;
+  font-size: 2em;
+}
+main.faqs article > article > article:first-of-type ol li:nth-child(2):before {
+  border: 4px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ol li:nth-child(3):before {
+  border: 8px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ol li:nth-child(3):after {
+  display: none;
+}
+main.faqs article > article > article:first-of-type ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+main.faqs article > article > article:first-of-type ul li {
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 30%;
+  height: 14vw;
+}
+main.faqs article > article > article:first-of-type ul li h3 {
+  color: black;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  font-size: 1.1em;
+}
+main.faqs article > article > article:first-of-type ul li h3:before {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #0a2d50;
+  content: "";
+  height: 15px;
+  position: absolute;
+  top: -1.3em;
+  width: 15px;
+}
+main.faqs article > article > article:first-of-type ul li p {
+  padding-right: 10%;
+  width: 95%;
+  font-size: 0.9em;
+}
+main.faqs article > article > article:first-of-type ul li p em {
+  font-size: 0.9em;
+  line-height: 0.5;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(1) {
+  margin-left: 10%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(3) p {
+  width: 80%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(3):before {
+  border: 3px solid #0a2d50;
+  border-left: 0;
+  border-radius: 0 100% 100% 0;
+  width: 15.5vw;
+  padding-bottom: 13.8vw;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(3):after {
+  content: "▸";
+  position: absolute;
+  top: 47%;
+  left: 14.7vw;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(4) {
+  float: right;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(4) p {
+  width: 100%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(4):before {
+  margin-left: -100%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(4):after {
+  margin-left: -100%;
+  content: "▸";
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(5) {
+  float: right;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(5):before {
+  margin-left: -100%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(5):after {
+  margin-left: -100%;
+  content: "▸";
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(5) h3:before {
+  border: 4px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(6) {
+  float: right;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(6):before {
+  margin-left: -100%;
+  border: 3px solid #0a2d50;
+  border-left: 0;
+  border-radius: 50%;
+  border-right: 0;
+  margin-bottom: -3px;
+  margin-left: -6.6vw;
+  width: 13.8vw;
+  padding-bottom: 13.8vw;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(6):after {
+  margin-left: -100%;
+  content: "▸";
+  top: 48%;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: calc(100% - 7.1vw);
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(6) h3:before {
+  border: 4px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(7) {
+  margin-left: 10%;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(7) h3:before {
+  border: 4px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(8) h3:before {
+  border: 8px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(9) h3:before {
+  border: 8px solid #0a2d50;
+}
+main.faqs article > article > article:first-of-type ul li:nth-child(9):before, main.faqs article > article > article:first-of-type ul li:nth-child(9):after {
+  display: none;
+}
+main.faqs article > article > article:first-of-type ul li:before {
+  border-top: 3px solid #0a2d50;
+  padding-bottom: 100%;
+  position: absolute;
+  top: 0;
+}
+main.faqs article > article > article:first-of-type ul li:after {
+  content: "▸";
+  left: 50%;
+  position: absolute;
+  top: -15px;
+  width: 19px;
+  font-size: 1.5em;
+  color: #5a6369;
+}
+main.faqs article > article > article:first-of-type ul li a {
+  background: #0a2d50;
+  position: relative;
+  border: 0;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+main.faqs article > article > article:first-of-type ul li a:hover {
+  background: #10477d;
+}
+
 nav.pagination {
   margin-top: 5em;
   border-top: 2px solid #bababa;
@@ -1382,6 +1642,102 @@ footer .footer-end p {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 1200px) {
+  main.faqs article > article > article:first-of-type > h3 {
+    margin-bottom: 2em;
+  }
+  main.faqs article > article > article:first-of-type ol {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  main.faqs article > article > article:first-of-type ol li {
+    height: 5em;
+  }
+  main.faqs article > article > article:first-of-type ol li:after {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 25%;
+    left: calc(50% - 0.45em);
+  }
+  main.faqs article > article > article:first-of-type ul {
+    width: calc(100% - 3em);
+    margin: 0 0 0 3em;
+  }
+  main.faqs article > article > article:first-of-type ul li {
+    display: block;
+    float: left;
+    width: 100%;
+    height: initial;
+    padding-bottom: 1em;
+  }
+  main.faqs article > article > article:first-of-type ul li h3 {
+    margin-top: -0.4em;
+    margin-bottom: 0;
+  }
+  main.faqs article > article > article:first-of-type ul li h3:before {
+    margin-left: -2.2em;
+    top: 0.2em;
+  }
+  main.faqs article > article > article:first-of-type ul li p {
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(3):before {
+    border: none;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(4) {
+    margin: 0;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(1), main.faqs article > article > article:first-of-type ul li:nth-child(2), main.faqs article > article > article:first-of-type ul li:nth-child(3), main.faqs article > article > article:first-of-type ul li:nth-child(4), main.faqs article > article > article:first-of-type ul li:nth-child(5), main.faqs article > article > article:first-of-type ul li:nth-child(6), main.faqs article > article > article:first-of-type ul li:nth-child(7), main.faqs article > article > article:first-of-type ul li:nth-child(8) {
+    margin-left: 0;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(1):before, main.faqs article > article > article:first-of-type ul li:nth-child(2):before, main.faqs article > article > article:first-of-type ul li:nth-child(3):before, main.faqs article > article > article:first-of-type ul li:nth-child(4):before, main.faqs article > article > article:first-of-type ul li:nth-child(5):before, main.faqs article > article > article:first-of-type ul li:nth-child(6):before, main.faqs article > article > article:first-of-type ul li:nth-child(7):before, main.faqs article > article > article:first-of-type ul li:nth-child(8):before {
+    border-top: none;
+    border-bottom: none;
+    border-left: 3px solid #3b5773;
+    padding-bottom: 0;
+    position: absolute;
+    margin-left: -2em;
+    top: 0;
+    height: 100%;
+    display: block;
+    border-radius: 0;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(1):after, main.faqs article > article > article:first-of-type ul li:nth-child(2):after, main.faqs article > article > article:first-of-type ul li:nth-child(3):after, main.faqs article > article > article:first-of-type ul li:nth-child(4):after, main.faqs article > article > article:first-of-type ul li:nth-child(5):after, main.faqs article > article > article:first-of-type ul li:nth-child(6):after, main.faqs article > article > article:first-of-type ul li:nth-child(7):after, main.faqs article > article > article:first-of-type ul li:nth-child(8):after {
+    content: "▸";
+    position: absolute;
+    top: 48%;
+    left: -1.69em;
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: 0;
+    display: none;
+  }
+  main.faqs article > article > article:first-of-type ul li:nth-child(6) p:before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border-top: 3px solid #3b5773;
+    border-bottom: 3px solid #3b5773;
+    content: "";
+    position: absolute;
+    top: calc(3px + 8%);
+    height: 84%;
+    aspect-ratio: 1/1;
+    left: -2em;
+    opacity: 0.05;
+    z-index: -1;
+  }
+}
 @media (max-width: 850px) {
   header .site .kdl-container a.sitename {
     font-size: 1.3em;
