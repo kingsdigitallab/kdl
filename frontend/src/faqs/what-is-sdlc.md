@@ -1,5 +1,5 @@
 ---
-title: What is KDL's Software Devlopment Lifecycle?
+title: What is KDL's Software Development Lifecycle?
 order: 0
 tags:
   - faq
