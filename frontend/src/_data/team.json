@@ -54,15 +54,6 @@
     }
   },
   {
-    "slug": "brian-maher",
-    "jobTitle": "Senior Research Software Engineer & Research Software Systems Manager",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/brian-maher.jpg",
-      "description": "Photo of Brian Maher"
-    }
-  },
-  {
     "slug": "pam-mellen",
     "jobTitle": "Research Software Lab Manager",
     "team": "KDL",
@@ -157,7 +148,7 @@
     "jobTitle": "Former Research Software Project Manager",
     "team": "Former Staff",
     "feature": {
-      "image": "/assets/images/people/shalen-fu.jpg",
+      "image": "/assets/images/people/shalen-fu.png",
       "description": "Photo of Shalen Fu"
     }
   },
@@ -231,6 +222,15 @@
     "feature": {
       "image": "/assets/images/people/carina-westling.jpg",
       "description": "Photo of Carina Westling"
+    }
+  },
+  {
+    "slug": "brian-maher",
+    "jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
+    "team": "Former Staff",
+    "feature": {
+      "image": "/assets/images/people/brian-maher.jpg",
+      "description": "Photo of Brian Maher"
     }
   }
 ]
