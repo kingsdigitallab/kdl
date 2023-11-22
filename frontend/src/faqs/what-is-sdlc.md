@@ -17,7 +17,7 @@ KDL's Software Development Life Cycle (SDLC) refers to a methodology with clearl
 
   Tell us as much as you can about your project idea, even if it’s at an early stage.
 
-  [EMAIL US](mailto:kdl-info@kcl.ac.uk?Subject=Enquiry)
+  [CONTACT US](/contact-us/)
 
 - ### Internal Assessment
 
