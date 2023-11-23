@@ -3574,6 +3574,15 @@
   {
     "jobTitle": null,
     "agent": {
+      "name": "Chris Pak",
+      "slug": "chris-pak",
+      "description": null,
+      "memberOf": []
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
       "name": "Christopher Bannister",
       "slug": "christopher-bannister",
       "description": null,
@@ -5838,6 +5847,15 @@
           }
         }
       ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Florence du Pré",
+      "slug": "florence-du-pre",
+      "description": null,
+      "memberOf": []
     }
   },
   {
@@ -10075,6 +10093,40 @@
           },
           "roleName": {
             "name": "Co-investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Katherine Bode",
+      "slug": "katherine-bode",
+      "description": "Katherine Bode is Associate Professor of Literary and Textual Studies at the Australian National University and an Australian Research Council Future Fellow from 2018 to 2022. Her research focuses on using large-scale datasets and digital methods to enable new perspectives on Australian literature and literature in Australia. \n\nShe has published widely on Australian and digital literary history including as the author or editor of books such as: Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture(2009), Reading by Numbers: Recalibrating the Literary Field (2012), Advancing Digital Humanities: Research, Methods, Theories (2014), and most recently,A World of Fiction: Digital Collections and the Future of Literary History (2018).",
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Critical Modelling of Extensive Literary Data",
+            "alternateName": "Critical Modelling",
+            "slug": "critical-modelling",
+            "foundingDate": "2020-01-01",
+            "dissolutionDate": "2023-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Australia National University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Principal investigator"
           }
         }
       ]
@@ -16445,6 +16497,25 @@
     }
   },
   {
+    "jobTitle": null,
+    "agent": {
+      "name": "Shalen Fu",
+      "slug": "shalen-fu",
+      "description": "Shalen worked at KDL from 2022-2023, managing the Lab’s project portfolio and ensuring continuous improvement of the Lab’s project delivery processes.\n\nJoining KDL while a PhD researcher in Digital Humanities at King’s College London, her research interest lies in impact assessment (IA), digital strategy, digitisation, and audience engagement in the heritage sector. Her PhD investigates how best to assess the impact of digital museum resources in China. Fascinated by new ways of engaging with heritage, Shalen has participated in various digital projects, including the Courtauld Institute of Art’s HLF Digitisation Project and The Watercolor World. As an IA professional and digitisation academic, she has helped develop the Europeana Impact Playbook Phase III.",
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": null,
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
     "agent": {
       "name": "Sharon Howard",
@@ -18282,6 +18353,40 @@
           },
           "roleName": {
             "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Urszula Pawlicka-Deger",
+      "slug": "urszula-pawlicka-deger",
+      "description": "Urszula was a Marie Curie Research Fellow at King’s Digital Lab. Prior to this position, she was a postdoctoral researcher at Aalto University, a Fulbright scholar at Washington State University Vancouver, and a fellow at Stony Brook University, King’s College London, and the University of Birmingham. She is a member of the Critical Infrastructure Studies collective and on the Executive Board of Global Outlook::Digital Humanities, a Special Interest Group of ADHO. She is an editor of the Digital Humanities Quarterly special issue “Lab and Slack. Situated Research Practices in Digital Humanities” (2020, 14.3), and a book collection of Digital Humanities and Laboratories (under contract with Routledge).\n\nAs part of MSCA research project, she conducted an ethnography of digital humanities laboratories to investigate social practices and the entanglement of infrastructure and technology in knowledge creation. She is interested in knowledge production studies, critical infrastructure studies, critical digital humanities, and the intersections between Digital Humanities and Science and Technology Studies.\n\nSee her MSCA project website ([dhinfra.org](https://dhinfra.org/)) and personal website ([pawlickadeger.com](https://pawlickadeger.com/)) for more information about her work and publications.",
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
+            "alternateName": "Marie Curie Fellowship: DHLab",
+            "slug": "marie-curie-fellowship-dhlab",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2023-03-17",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Principal investigator"
           }
         }
       ]
