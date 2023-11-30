@@ -1101,37 +1101,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Taming the Complexity of the Law",
+            "alternateName": "TCL",
+            "slug": "taming-the-complexity-of-the-law",
+            "foundingDate": "2018-04-01",
+            "dissolutionDate": "2018-11-30",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
@@ -6626,16 +6605,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Critical Modelling of Extensive Literary Data",
-            "alternateName": "Critical Modelling",
-            "slug": "critical-modelling",
-            "foundingDate": "2020-01-01",
-            "dissolutionDate": "2023-06-30",
+            "name": "Taming the Complexity of the Law",
+            "alternateName": "TCL",
+            "slug": "taming-the-complexity-of-the-law",
+            "foundingDate": "2018-04-01",
+            "dissolutionDate": "2018-11-30",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The Australia National University"
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
@@ -12044,37 +12023,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "The Community of the Realm in Scotland, 1249-1424",
-            "alternateName": "COTR",
-            "slug": "cotr",
-            "foundingDate": "2017-08-01",
-            "dissolutionDate": "2021-12-31",
+            "name": "Taming the Complexity of the Law",
+            "alternateName": "TCL",
+            "slug": "taming-the-complexity-of-the-law",
+            "foundingDate": "2018-04-01",
+            "dissolutionDate": "2018-11-30",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Glasgow"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Edinburgh"
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
