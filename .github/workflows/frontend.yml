@@ -41,7 +41,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci(frontend): update data"
-          file_pattern: "_*.json frontend/public/assets/images/projects/*.*"
+          file_pattern: "frontend/src/_data/*.json frontend/public/assets/images/projects/*.*"
 
       - name: Deploy to GitHub pages
         if: github.ref == 'refs/heads/develop'
