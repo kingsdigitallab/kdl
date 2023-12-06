@@ -810,8 +810,8 @@ main {
     display: none;
   }
 
+  .explore,
   .discover,
-  .information,
   .contact {
     section {
       display: flex;
@@ -888,8 +888,8 @@ main {
         flex-basis: calc(33.3% - 1.5em);
       }
     } //.activities-blocks
-  } //.discover, .information, .contact
-  .discover {
+  } //.explore, .discover, .contact
+  .explore {
     h3 {
       float: left;
     }

@@ -14,7 +14,7 @@ layout: layouts/base.njk
     </a>
   </div>
   <a class="scroll"
-     href="#discover"
+     href="#explore"
      aria-label="Scroll down for mode content">
     <ion-icon name="chevron-down-outline" aria-label="Outlined chevron icon pointing down"></ion-icon>
   </a>
@@ -25,8 +25,8 @@ layout: layouts/base.njk
 </section>
 
 <div class="kdl-container">
-  <section id="discover" class="discover">
-    <h2 >Discover</h2>
+  <section id="explore" class="explore">
+    <h2>Explore</h2>
 
     <h3>Featured projects</h3>
     <a class="browse" href="/projects/">Browse all projects</a>
@@ -64,8 +64,8 @@ layout: layouts/base.njk
     </section>
   </section>
 
-  <section class="information">
-    <h2 >Information</h2>
+  <section class="discover">
+    <h2>Discover</h2>
 
     {% for section in home %}
       <h3>{{ section.title }}</h3>
