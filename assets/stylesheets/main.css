@@ -694,77 +694,77 @@ main .kdl-container > article > article footer {
 .home figcaption {
   display: none;
 }
+.home .explore section,
 .home .discover section,
-.home .information section,
 .home .contact section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 4em;
 }
+.home .explore section div,
 .home .discover section div,
-.home .information section div,
 .home .contact section div {
   flex-basis: calc(33.33% - 0.5em);
   margin-bottom: 1.5em;
   padding: 1.5em 0.7em 1em 0.7em;
   background-color: #f5f7f8;
 }
+.home .explore section a,
 .home .discover section a,
-.home .information section a,
 .home .contact section a {
   text-decoration: none;
 }
+.home .explore section a:hover,
 .home .discover section a:hover,
-.home .information section a:hover,
 .home .contact section a:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
 }
+.home .explore figure,
 .home .discover figure,
-.home .information figure,
 .home .contact figure {
   margin: 0;
 }
+.home .explore figure img,
 .home .discover figure img,
-.home .information figure img,
 .home .contact figure img {
   width: 100%;
   height: 15em;
   object-fit: cover;
 }
+.home .explore a,
 .home .discover a,
-.home .information a,
 .home .contact a {
   line-height: 1.5;
 }
+.home .explore a.browse,
 .home .discover a.browse,
-.home .information a.browse,
 .home .contact a.browse {
   float: right;
   margin-top: 1.7em;
 }
+.home .explore .research,
+.home .explore .activities,
 .home .discover .research,
 .home .discover .activities,
-.home .information .research,
-.home .information .activities,
 .home .contact .research,
 .home .contact .activities {
   position: relative;
   padding: 2em 1.5em 0.5em 1.5em;
 }
+.home .explore .research h4,
+.home .explore .activities h4,
 .home .discover .research h4,
 .home .discover .activities h4,
-.home .information .research h4,
-.home .information .activities h4,
 .home .contact .research h4,
 .home .contact .activities h4 {
   padding: 0.3em;
 }
+.home .explore .research:before,
+.home .explore .activities:before,
 .home .discover .research:before,
 .home .discover .activities:before,
-.home .information .research:before,
-.home .information .activities:before,
 .home .contact .research:before,
 .home .contact .activities:before {
   content: " ";
@@ -781,14 +781,14 @@ main .kdl-container > article > article footer {
   background-size: cover;
   background-color: #cccccc;
 }
+.home .explore .research .research-block,
+.home .explore .research .activities-block,
+.home .explore .activities .research-block,
+.home .explore .activities .activities-block,
 .home .discover .research .research-block,
 .home .discover .research .activities-block,
 .home .discover .activities .research-block,
 .home .discover .activities .activities-block,
-.home .information .research .research-block,
-.home .information .research .activities-block,
-.home .information .activities .research-block,
-.home .information .activities .activities-block,
 .home .contact .research .research-block,
 .home .contact .research .activities-block,
 .home .contact .activities .research-block,
@@ -798,17 +798,17 @@ main .kdl-container > article > article footer {
   position: relative;
   padding: 0.1em 0.7em 0.7em 0.7em;
 }
+.home .explore .activities:before,
 .home .discover .activities:before,
-.home .information .activities:before,
 .home .contact .activities:before {
   background-image: url("/assets/images/general/activities.jpg");
 }
+.home .explore .activities .activities-block,
 .home .discover .activities .activities-block,
-.home .information .activities .activities-block,
 .home .contact .activities .activities-block {
   flex-basis: calc(33.3% - 1.5em);
 }
-.home .discover h3 {
+.home .explore h3 {
   float: left;
 }
 .home .contact {
