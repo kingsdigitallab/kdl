@@ -400,11 +400,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -594,7 +590,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -602,8 +598,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "King's College London",
-              "slug": "kings-college-london"
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
             }
           },
           "roleName": {
@@ -620,6 +616,35 @@
       "slug": "alice-taylor",
       "description": null,
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -717,11 +742,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -1074,11 +1095,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -1412,11 +1429,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -1531,7 +1544,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -1862,7 +1875,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -2531,11 +2544,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -2557,7 +2566,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -2884,11 +2893,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -2930,11 +2935,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -3153,7 +3154,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -3765,11 +3766,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -3813,11 +3810,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -4174,6 +4167,35 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Glasgow",
+              "slug": "university-of-glasgow"
+            }
+          },
+          "roleName": {
+            "name": "Principal investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
                   }
                 }
               }
@@ -4757,7 +4779,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -4884,7 +4906,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -5001,7 +5023,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -5023,11 +5045,7 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -5047,11 +5065,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -5915,11 +5929,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -6184,7 +6194,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -6473,7 +6483,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -6580,7 +6590,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -6955,7 +6965,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -7008,11 +7018,7 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -7370,11 +7376,7 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -7394,11 +7396,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -7771,8 +7769,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "King's College London",
-              "slug": "kings-college-london"
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
             }
           },
           "roleName": {
@@ -7847,7 +7845,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -8670,11 +8668,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -8959,7 +8953,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -8967,8 +8961,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "King's College London",
-              "slug": "kings-college-london"
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
             }
           },
           "roleName": {
@@ -9153,7 +9147,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -9253,7 +9247,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -9261,12 +9255,41 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "King's College London",
-              "slug": "kings-college-london"
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
             }
           },
           "roleName": {
             "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
           }
         },
         {
@@ -9463,7 +9486,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -9829,7 +9852,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -10049,11 +10072,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -10170,11 +10189,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -10332,11 +10347,7 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -10632,11 +10643,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -10757,7 +10764,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -11333,11 +11340,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -11839,11 +11842,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -11974,7 +11973,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -12078,11 +12077,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -12474,11 +12469,7 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -12649,7 +12640,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -12795,11 +12786,7 @@
             "dissolutionDate": null,
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -12971,11 +12958,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -13185,7 +13168,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -13895,11 +13878,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -14009,16 +13988,65 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Alice Thornton's Books",
-            "alternateName": "AT",
-            "slug": "at",
-            "foundingDate": "2021-09-01",
-            "dissolutionDate": "2024-08-31",
+            "name": "Illustrating Impact",
+            "alternateName": null,
+            "slug": "illustrating-impact",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2018-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Edinburgh"
+                    "name": "Department of International Development"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Policy Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Entrepreneurship Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Health School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Time Partners Ltd"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Alter Equity"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "GO Lab, Oxford University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
                   }
                 }
               }
@@ -14026,7 +14054,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Co-investigator"
           }
         },
         {
@@ -14309,11 +14337,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -15000,11 +15024,7 @@
                 }
               },
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               }
             ]
           },
@@ -15171,7 +15191,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -15455,7 +15475,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -15670,7 +15690,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -16216,11 +16236,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
@@ -16288,8 +16304,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "King's College London",
-              "slug": "kings-college-london"
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
             }
           },
           "roleName": {
@@ -17092,7 +17108,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -17439,7 +17455,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's College London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -17533,11 +17549,7 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
+                "organisation_id": null
               },
               {
                 "organisation_id": {
