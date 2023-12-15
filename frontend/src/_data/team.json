@@ -232,5 +232,14 @@
       "image": "/assets/images/people/brian-maher.jpg",
       "description": "Photo of Brian Maher"
     }
+  },
+  {
+    "slug": "ginestra-ferraro",
+    "jobTitle": "Former Senior Research Software UI/UX Designer",
+    "team": "Former Staff",
+    "feature": {
+      "image": "/assets/images/people/ginestra-ferraro.jpg",
+      "description": "Photo of Ginestra Ferraro"
+    }
   }
 ]
