@@ -376,7 +376,7 @@
   },
   {
     "cmsDateCreated": "2023-12-13T10:30:13.063Z",
-    "cmsDateUpdated": null,
+    "cmsDateUpdated": "2023-12-18T13:08:28.599Z",
     "cmsSort": null,
     "cmsStatus": "published",
     "dissolutionDate": null,
@@ -394,7 +394,70 @@
       "url": [],
       "memberOf": []
     },
-    "parentOrganisation": null,
+    "parentOrganisation": {
+      "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+      "cmsDateUpdated": "2023-12-18T13:08:28.544Z",
+      "cmsSort": null,
+      "cmsStatus": "draft",
+      "dissolutionDate": null,
+      "foundingDate": null,
+      "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+      "agent": {
+        "alternateName": null,
+        "cmsDateCreated": "2023-10-03T11:10:25.147Z",
+        "cmsDateUpdated": null,
+        "cmsSort": null,
+        "description": null,
+        "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+        "name": "Faculty of Social Science & Public Policy",
+        "slug": "faculty-of-social-science-and-public-policy",
+        "url": [],
+        "memberOf": []
+      },
+      "parentOrganisation": null,
+      "subOrganisation": [
+        {
+          "cmsDateCreated": "2023-12-13T10:30:13.063Z",
+          "cmsDateUpdated": "2023-12-18T13:08:28.599Z",
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-12-13T10:30:12.837Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "96716cd0-b752-4322-8887-84f03e0e3e09",
+            "name": "Department of International Development",
+            "slug": "department-of-international-development",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2023-12-18T13:08:28.544Z",
+            "cmsSort": null,
+            "cmsStatus": "draft",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "a808e448-da5a-4446-a5db-dbfd000305dc"
+            ]
+          },
+          "subOrganisation": []
+        }
+      ]
+    },
     "subOrganisation": []
   },
   {
@@ -2161,7 +2224,7 @@
   },
   {
     "cmsDateCreated": "2023-10-03T11:10:25.301Z",
-    "cmsDateUpdated": "2023-12-18T13:03:42.696Z",
+    "cmsDateUpdated": "2023-12-18T13:08:28.544Z",
     "cmsSort": null,
     "cmsStatus": "draft",
     "dissolutionDate": null,
@@ -2180,7 +2243,70 @@
       "memberOf": []
     },
     "parentOrganisation": null,
-    "subOrganisation": []
+    "subOrganisation": [
+      {
+        "cmsDateCreated": "2023-12-13T10:30:13.063Z",
+        "cmsDateUpdated": "2023-12-18T13:08:28.599Z",
+        "cmsSort": null,
+        "cmsStatus": "published",
+        "dissolutionDate": null,
+        "foundingDate": null,
+        "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+        "agent": {
+          "alternateName": null,
+          "cmsDateCreated": "2023-12-13T10:30:12.837Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "description": null,
+          "id": "96716cd0-b752-4322-8887-84f03e0e3e09",
+          "name": "Department of International Development",
+          "slug": "department-of-international-development",
+          "url": [],
+          "memberOf": []
+        },
+        "parentOrganisation": {
+          "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+          "cmsDateUpdated": "2023-12-18T13:08:28.544Z",
+          "cmsSort": null,
+          "cmsStatus": "draft",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-10-03T11:10:25.147Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "name": "Faculty of Social Science & Public Policy",
+            "slug": "faculty-of-social-science-and-public-policy",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": null,
+          "subOrganisation": [
+            {
+              "agent": "96716cd0-b752-4322-8887-84f03e0e3e09",
+              "cmsDateCreated": "2023-12-13T10:30:13.063Z",
+              "cmsDateUpdated": "2023-12-18T13:08:28.599Z",
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
+            }
+          ]
+        },
+        "subOrganisation": []
+      }
+    ]
   },
   {
     "cmsDateCreated": "2023-09-18T14:16:07.461Z",
