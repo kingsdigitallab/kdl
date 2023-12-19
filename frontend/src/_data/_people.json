@@ -16654,16 +16654,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
-            "alternateName": "Crossreads",
-            "slug": "crossreads",
-            "foundingDate": "2020-10-01",
-            "dissolutionDate": "2025-09-30",
+            "name": "Inscriptions of Roman Cyrenaica",
+            "alternateName": "IRCYR",
+            "slug": "ircyr",
+            "foundingDate": "2020-01-01",
+            "dissolutionDate": "2020-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Oxford"
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
