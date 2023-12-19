@@ -7791,6 +7791,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2023-12-19T14:35:51.601Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "d29432dd-8bc5-4e07-b2e5-52b32e107f70",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2023-12-19T14:35:51.371Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "ba9519ca-b5d0-4e3f-a4aa-2102b9091512",
+      "name": "The Dickson Poon School of Law",
+      "slug": "the-dickson-poon-school-of-law",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-18T16:07:55.739Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

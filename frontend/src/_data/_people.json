@@ -1130,6 +1130,13 @@
                     "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
+                  }
+                }
               }
             ]
           },
@@ -6627,6 +6634,13 @@
                     "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
+                  }
+                }
               }
             ]
           },
@@ -11998,16 +12012,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Critical Modelling of Extensive Literary Data",
-            "alternateName": "Critical Modelling",
-            "slug": "critical-modelling",
-            "foundingDate": "2020-01-01",
-            "dissolutionDate": "2023-06-30",
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The Australia National University"
+                    "name": "University of Glasgow"
                   }
                 }
               }
@@ -12032,6 +12046,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
                   }
                 }
               }
