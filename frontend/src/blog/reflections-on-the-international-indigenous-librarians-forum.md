@@ -9,7 +9,7 @@ date: 2023-12-18
 excerpt: A colleague asked, “What was it like attending a conference based in Hawaii compared to the usual other locations?” 
 feature:
   image: /assets/images/blog/Loi-kalo-taro-resized.jpg
-  title: © Samantha Callaghan, 2023
+  title: A Loʻi, a kalo/taro garden. © Samantha Callaghan, 2023
   description: A Loʻi, kalo/taro garden on the grounds of the Kamakakūokalani Center for Hawaiian Studies at University of Hawaii at Manoa.
 draft: true
 ---
