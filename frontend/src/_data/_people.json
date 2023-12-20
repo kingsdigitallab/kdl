@@ -2793,6 +2793,13 @@
                     "name": "KIT Theatre"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -5276,6 +5283,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "KIT Theatre"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
@@ -11761,6 +11775,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "KIT Theatre"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
@@ -18478,6 +18499,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "KIT Theatre"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
