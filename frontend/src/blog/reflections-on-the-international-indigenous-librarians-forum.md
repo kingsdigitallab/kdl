@@ -14,10 +14,8 @@ feature:
 draft: false
 ---
 
-# Reflections on the International Indigenous Librarians’ Forum: Ea – Indigenous Agency and Abundance (Honolulu, November 2023)
-
 A colleague asked, “What was it like attending a conference based in Hawaii compared to the usual other locations?” which is a useful question to answer. The International Indigenous Librarians' Forum (IILF), which has been going since 1999 is hosted by a different country usually every two years, but this was the first time Hawaiʻi has hosted and it was the largest yet. I’ve attended four IILFs so far, two in Aotearoa New Zealand, and two in the US – one on the Lummi reservation in Washington State, and
-[this one](https://event.fourwaves.com/iilfhawaii/pages) in Hawaiʻi. Attending IILF in Hawaiʻi meant many more
+[this one](https://event.fourwaves.com/iilfhawaii/pages) in Hawaiʻi. Hosting IILF in Hawaiʻi meant many more
 [Kānaka Maoli](https://en.wikipedia.org/wiki/Native_Hawaiians) could attend than any of the forums I’d previously been to and it meant that the conference was grounded in their language, practices and protocols.
 
 This isn’t to mean that the beauty of the islands wasn’t an attraction to attendees – it certainly was – but what it meant for a number of us was an invitation to step foot on the lands of our
@@ -37,7 +35,7 @@ Tuesday, and each subsequent conference day, opened with a prayer. These are oft
 [whakapapa](https://maoridictionary.co.nz/word/9727) research as strength. The panelists talked about how learning our histories cannot be a privilege – it is a necessity for us to be able to be in a place of thriving. Other points covered included: exercising sovereignty as an expression of identity; finding your people; holding your boundaries; and the importance of learning to say no (and also yes). Speakers advised allies to listen, make space, and to learn on their own rather than placing that labour on Indigenous colleagues.
 
 The first of the parallel sessions I attended was ‘Indigenous Presence: Grounding Place in Academic Libraries.’ This paper was given by Ashley Edwards (Métis, Scottish, and Dutch) and Rachel Chong (Métis and mixed European), both presenting their experiences of developing Indigenous spaces at two academic libraries – both on lands belonging to other first nation groups. Both speakers highlight the importance of inclusion of material that speaks to different literacies including: visual, in terms of design, pattern, art, colour; oral literacy; and relationship-based literacy, an example given was tea and
-[bannock](https://en.wikipedia.org/wiki/Bannock_(Indigenous_American_food) sessions. The speakers noted that they were careful to identify their positionality as being not from the lands where they work. I was tangentially involved in something similar whilst working at Victoria University of Wellington Libraries and it was really interesting to hear of other approaches. As my work now is almost entirely in the digital sphere I am always interested to learn of what occurs in physical spaces and as a weaver I love to see how visual literacies are incorporated.
+[bannock](<https://en.wikipedia.org/wiki/Bannock_(Indigenous_American_food)>) sessions. The speakers noted that they were careful to identify their positionality as being not from the lands where they work. I was tangentially involved in something similar whilst working at Victoria University of Wellington Libraries and it was really interesting to hear of other approaches. As my work now is almost entirely in the digital sphere I am always interested to learn of what occurs in physical spaces and as a weaver I love to see how visual literacies are incorporated.
 
 ![Rangihuria McDonald presents a slide on Te Aurei, the University of Waikato's commitment to anti-racism.](/assets/images/blog/Ko_te_tangata.jpg "Te Aurei slide presented by Rangihurihia McDonald. © Samantha Callaghan, 2023"){.media-medium}
 
