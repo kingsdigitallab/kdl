@@ -224,7 +224,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -1137,6 +1144,20 @@
                     "name": "The Dickson Poon School of Law"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -1468,6 +1489,13 @@
                     "name": "The Australia National University"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -1657,6 +1685,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -1678,7 +1713,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2522,7 +2564,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -3587,7 +3636,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -4241,7 +4297,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -5072,12 +5135,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -5422,6 +5489,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
@@ -6641,6 +6715,20 @@
                     "name": "The Dickson Poon School of Law"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -7013,6 +7101,13 @@
                     "name": "Praline"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
@@ -7054,7 +7149,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -7410,12 +7512,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -8086,7 +8192,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -8159,7 +8272,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -8553,6 +8673,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -8629,6 +8756,13 @@
                     "name": "University of Melbourne"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
@@ -8682,12 +8816,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -10086,12 +10224,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -10133,6 +10275,13 @@
                     "name": "The Australia National University"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -10164,7 +10313,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -11069,7 +11225,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -12055,6 +12218,20 @@
                     "name": "The Dickson Poon School of Law"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
               }
             ]
           },
@@ -12098,12 +12275,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -12303,7 +12484,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -12562,6 +12750,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
@@ -13137,6 +13332,13 @@
                     "name": "Praline"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
@@ -13550,6 +13752,13 @@
                     "name": "University of Melbourne"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
@@ -13899,12 +14108,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -14358,12 +14571,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -15236,7 +15453,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -16257,12 +16481,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -16704,7 +16932,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -16936,7 +17171,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -17555,7 +17797,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of London"
+                    "name": "School of Advanced Studies, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -17577,12 +17826,16 @@
             "dissolutionDate": "2022-08-01",
             "department": [
               {
-                "organisation_id": null
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -18409,6 +18662,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }

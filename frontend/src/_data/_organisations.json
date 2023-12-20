@@ -7597,6 +7597,92 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2023-12-20T10:47:53.556Z",
+    "cmsDateUpdated": "2023-12-20T10:48:51.941Z",
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "b7e1439c-fd34-454a-900a-408981a623c3",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2023-12-20T10:47:53.327Z",
+      "cmsDateUpdated": "2023-12-20T10:48:51.768Z",
+      "cmsSort": null,
+      "description": null,
+      "id": "ee48a108-db16-49a3-9217-cedcbcb404df",
+      "name": "School of Advanced Studies, University of London",
+      "slug": "school-of-advanced-studies",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": {
+      "cmsDateCreated": "2022-10-25T13:33:57.836Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "cmsStatus": "draft",
+      "dissolutionDate": null,
+      "foundingDate": null,
+      "id": "a550c14f-c16d-4336-9a67-e3a48be7fe8a",
+      "agent": {
+        "alternateName": null,
+        "cmsDateCreated": "2022-10-25T13:33:57.803Z",
+        "cmsDateUpdated": null,
+        "cmsSort": null,
+        "description": null,
+        "id": "c560f8ad-c7f5-4973-b5c9-f02ff9930103",
+        "name": "University of London",
+        "slug": "university-of-london",
+        "url": [],
+        "memberOf": []
+      },
+      "parentOrganisation": null,
+      "subOrganisation": [
+        {
+          "cmsDateCreated": "2023-12-20T10:47:53.556Z",
+          "cmsDateUpdated": "2023-12-20T10:48:51.941Z",
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "b7e1439c-fd34-454a-900a-408981a623c3",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-12-20T10:47:53.327Z",
+            "cmsDateUpdated": "2023-12-20T10:48:51.768Z",
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "description": null,
+            "id": "ee48a108-db16-49a3-9217-cedcbcb404df",
+            "name": "School of Advanced Studies, University of London",
+            "slug": "school-of-advanced-studies",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "c560f8ad-c7f5-4973-b5c9-f02ff9930103",
+            "cmsDateCreated": "2022-10-25T13:33:57.836Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsStatus": "draft",
+            "cmsUserCreated": "762edb4c-6966-477e-879e-71a1af875b5b",
+            "cmsUserUpdated": null,
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "a550c14f-c16d-4336-9a67-e3a48be7fe8a",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "b7e1439c-fd34-454a-900a-408981a623c3"
+            ]
+          },
+          "subOrganisation": []
+        }
+      ]
+    },
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:10.498Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -8304,7 +8390,70 @@
       "memberOf": []
     },
     "parentOrganisation": null,
-    "subOrganisation": []
+    "subOrganisation": [
+      {
+        "cmsDateCreated": "2023-12-20T10:47:53.556Z",
+        "cmsDateUpdated": "2023-12-20T10:48:51.941Z",
+        "cmsSort": null,
+        "cmsStatus": "published",
+        "dissolutionDate": null,
+        "foundingDate": null,
+        "id": "b7e1439c-fd34-454a-900a-408981a623c3",
+        "agent": {
+          "alternateName": null,
+          "cmsDateCreated": "2023-12-20T10:47:53.327Z",
+          "cmsDateUpdated": "2023-12-20T10:48:51.768Z",
+          "cmsSort": null,
+          "description": null,
+          "id": "ee48a108-db16-49a3-9217-cedcbcb404df",
+          "name": "School of Advanced Studies, University of London",
+          "slug": "school-of-advanced-studies",
+          "url": [],
+          "memberOf": []
+        },
+        "parentOrganisation": {
+          "cmsDateCreated": "2022-10-25T13:33:57.836Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "cmsStatus": "draft",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "a550c14f-c16d-4336-9a67-e3a48be7fe8a",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2022-10-25T13:33:57.803Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "762edb4c-6966-477e-879e-71a1af875b5b",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "c560f8ad-c7f5-4973-b5c9-f02ff9930103",
+            "name": "University of London",
+            "slug": "university-of-london",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": null,
+          "subOrganisation": [
+            {
+              "agent": "ee48a108-db16-49a3-9217-cedcbcb404df",
+              "cmsDateCreated": "2023-12-20T10:47:53.556Z",
+              "cmsDateUpdated": "2023-12-20T10:48:51.941Z",
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "b7e1439c-fd34-454a-900a-408981a623c3",
+              "parentOrganisation": "a550c14f-c16d-4336-9a67-e3a48be7fe8a",
+              "subOrganisation": []
+            }
+          ]
+        },
+        "subOrganisation": []
+      }
+    ]
   },
   {
     "cmsDateCreated": "2023-04-11T12:41:36.125Z",
