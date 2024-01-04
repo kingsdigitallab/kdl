@@ -612,12 +612,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
           }
@@ -658,12 +653,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Co-investigator"
           }
@@ -9282,12 +9272,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -9554,12 +9539,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -9590,12 +9570,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Co-investigator"
           }
@@ -11826,12 +11801,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Co-investigator"
           }
@@ -16941,12 +16911,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "DDH test",
-              "slug": "ddh-test"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
