@@ -414,20 +414,22 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          },
           "roleName": {
-            "name": "Principal investigator"
+            "name": "Co-investigator"
           }
         }
       ]
@@ -612,8 +614,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -658,8 +660,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -741,12 +743,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -1110,7 +1109,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -1151,14 +1150,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -1460,12 +1459,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -2348,14 +2344,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2569,7 +2565,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2589,15 +2585,7 @@
             "slug": "digital-cultures-of-covid19",
             "foundingDate": "2020-03-26",
             "dissolutionDate": "2022-11-04",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
-              }
-            ]
+            "department": []
           },
           "inOrganisation": null,
           "roleName": {
@@ -2929,7 +2917,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2975,7 +2963,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -3835,12 +3823,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -3848,7 +3833,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "Principal investigator"
+            "name": "Co-investigator"
           }
         }
       ]
@@ -3881,7 +3866,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -5126,7 +5111,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -5157,7 +5142,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -5535,7 +5520,7 @@
           "endDate": null,
           "inProject": {
             "name": "Tangible Inclusive Block-Based Language for Widening Access to Programming",
-            "alternateName": "TIBBIL",
+            "alternateName": "TIBBL",
             "slug": "tangible-programming",
             "foundingDate": "2022-11-10",
             "dissolutionDate": "2023-07-31",
@@ -6081,7 +6066,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -6348,7 +6333,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -7216,7 +7201,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -7349,6 +7334,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Ego Media: Life Writing and Online Affordances",
+            "alternateName": "EgoMedia",
+            "slug": "egomedia",
+            "foundingDate": "2018-01-07",
+            "dissolutionDate": "2023-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
@@ -7599,7 +7608,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -7630,7 +7639,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -7998,8 +8007,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
             }
           },
           "roleName": {
@@ -8786,14 +8795,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -8987,7 +8996,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -9275,8 +9284,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -9547,8 +9556,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -9583,8 +9592,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -9781,17 +9790,14 @@
             "slug": "digital-cultures-of-covid19",
             "foundingDate": "2020-03-26",
             "dissolutionDate": "2022-11-04",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
-              }
-            ]
+            "department": []
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -10151,13 +10157,18 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of History"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -10387,7 +10398,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -10515,7 +10526,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -10684,7 +10695,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -10989,12 +11000,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -11716,7 +11724,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -11805,22 +11813,27 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "DDH test",
+              "slug": "ddh-test"
+            }
+          },
           "roleName": {
-            "name": "Researcher"
+            "name": "Co-investigator"
           }
         }
       ]
@@ -12275,12 +12288,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -12447,14 +12457,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -12554,7 +12564,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -12933,12 +12943,9 @@
             "dissolutionDate": "2023-06-30",
             "department": [
               {
-                "organisation_id": null
-              },
-              {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -13114,15 +13121,7 @@
             "slug": "digital-cultures-of-covid19",
             "foundingDate": "2020-03-26",
             "dissolutionDate": "2022-11-04",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
-                  }
-                }
-              }
-            ]
+            "department": []
           },
           "inOrganisation": null,
           "roleName": {
@@ -13266,7 +13265,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -13442,7 +13441,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -14386,7 +14385,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -14516,14 +14515,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -14814,7 +14813,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -15526,7 +15525,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -15986,13 +15985,18 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of History"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -16302,6 +16306,59 @@
     }
   },
   {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Rebecca Sykes",
+      "slug": "rebecca-sykes",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Birkbeck, University of London",
+              "slug": "birkbeck"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Rebecca Taite",
@@ -16527,6 +16584,59 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Robyn Jakeman",
+      "slug": "robyn-jakeman",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Birkbeck, University of London",
+              "slug": "birkbeck"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -16770,7 +16880,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -16833,8 +16943,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "DDH test",
+              "slug": "ddh-test"
             }
           },
           "roleName": {
@@ -17665,7 +17775,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -18112,14 +18222,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "University of Leeds"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -18150,7 +18260,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
