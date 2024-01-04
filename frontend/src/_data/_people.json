@@ -646,6 +646,13 @@
                     "name": "University of Glasgow"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -1128,37 +1135,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "Birkbeck, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
+                    "name": "University of Leeds"
                   }
                 }
               }
@@ -1887,23 +1887,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Clergy of the Church of England Database Project",
-            "alternateName": "CCED",
-            "slug": "cced",
-            "foundingDate": "1999-10-01",
-            "dissolutionDate": "2009-10-01",
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Kent"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Durham University"
+                    "name": "University of Glasgow"
                   }
                 }
               },
@@ -2339,44 +2332,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "Birkbeck, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Council for British Research in the Levant"
+                    "name": "FAH Department of English"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Jordan Open Source Association"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Oxford"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Hashemite University"
+                    "name": "University of Leeds"
                   }
                 }
               }
@@ -3373,16 +3352,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Medieval Francophone Literature Outside France",
-            "alternateName": "MFLC",
-            "slug": "medieval-francophone-literature-outside-france",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Languages, Literatures and Cultures"
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -4261,6 +4247,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -9525,6 +9518,13 @@
                     "name": "University of Glasgow"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -11944,7 +11944,29 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
           "inOrganisation": {
             "agent": {
               "name": "University of Glasgow",
@@ -12308,16 +12330,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
-            "alternateName": "PoMS",
-            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
-            "foundingDate": "2007-08-01",
-            "dissolutionDate": "2010-12-31",
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Glasgow"
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
                   }
                 }
               }
@@ -13446,30 +13482,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Layers of Vision",
-            "alternateName": null,
-            "slug": "layers-of-vision",
-            "foundingDate": "2022-10-01",
-            "dissolutionDate": "2022-12-15",
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Business School"
+                    "name": "University of Glasgow"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Praline"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH King's Culture"
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -14360,71 +14389,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Illustrating Impact",
-            "alternateName": null,
-            "slug": "illustrating-impact",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2018-07-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The Policy Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Entrepreneurship Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Health School"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Time Partners Ltd"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Alter Equity"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "GO Lab, Oxford University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Business School"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Co-investigator"
@@ -14433,7 +14398,36 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -18001,23 +17995,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
-            "alternateName": "MOI",
-            "slug": "moi",
-            "foundingDate": "2013-10-01",
-            "dissolutionDate": "2017-09-30",
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "School of Advanced Studies, University of London"
+                    "name": "Birkbeck, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
                   }
                 }
               }
