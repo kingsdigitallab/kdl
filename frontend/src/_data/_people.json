@@ -8762,6 +8762,59 @@
   {
     "jobTitle": null,
     "agent": {
+      "name": "James Mussel",
+      "slug": "james-mussel",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Leeds",
+              "slug": "university-of-leeds"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
       "name": "James Smithies",
       "slug": "james-smithies",
       "description": "James Smithies was Director of King’s Digital Lab (KDL) from 2015-September 2021. He was previously Senior Lecturer in Digital Humanities and Associate Director of the UC CEISMIC Digital Archive at the University of Canterbury, New Zealand. He has worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. In 2017 he published a monograph for Palgrave Macmillan titled [Digital Humanities and the Digital Modern](https://link.springer.com/book/10.1057/978-1-137-49944-8).\n\nJames is interested in applied and theoretical digital humanities, including big data analysis, minimal computing, digital archives, modelling and virtual worlds. He has subsidiary interests in critical and media theory, and postphenomenology. His historical work focuses on the history of ideas, technology (including but not limited to computing), and literature.\n\nSee his [personal website](https://www.jamessmithies.org/) for more information about his work.",
@@ -11720,6 +11773,54 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Mark Turner",
+      "slug": "mark-turner",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
           }
         }
       ]
