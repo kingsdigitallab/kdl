@@ -5535,7 +5535,7 @@
           "endDate": null,
           "inProject": {
             "name": "Tangible Inclusive Block-Based Language for Widening Access to Programming",
-            "alternateName": "TIBBIL",
+            "alternateName": "TIBBL",
             "slug": "tangible-programming",
             "foundingDate": "2022-11-10",
             "dissolutionDate": "2023-07-31",
@@ -7998,8 +7998,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "FAH Department of English",
-              "slug": "fah-department-of-english"
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
             }
           },
           "roleName": {
@@ -8754,6 +8754,59 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "James Mussel",
+      "slug": "james-mussel",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Leeds",
+              "slug": "university-of-leeds"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
           }
         }
       ]
@@ -11720,6 +11773,59 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Mark Turner",
+      "slug": "mark-turner",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
           }
         }
       ]
@@ -16201,6 +16307,59 @@
     }
   },
   {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Rebecca Sykes",
+      "slug": "rebecca-sykes",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Birkbeck, University of London",
+              "slug": "birkbeck"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Rebecca Taite",
@@ -16426,6 +16585,59 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Robyn Jakeman",
+      "slug": "robyn-jakeman",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Birkbeck, University of London",
+              "slug": "birkbeck"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
