@@ -1150,6 +1150,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
               }
             ]
           },
@@ -2342,6 +2349,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -7774,7 +7788,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "Researcher"
+            "name": "RSE team member"
           }
         },
         {
@@ -8793,6 +8807,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -11798,10 +11819,22 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
           "roleName": {
             "name": "Co-investigator"
           }
@@ -12435,6 +12468,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -14495,6 +14535,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
               }
             ]
           },
@@ -16312,6 +16359,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
               }
             ]
           },
@@ -16596,6 +16650,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -18195,6 +18256,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
