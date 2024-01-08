@@ -33,9 +33,7 @@ layout: layouts/base.njk
     <section class="projects">
       {% for project in projects | featuredProjects %}
         <div class="project">
-          {% set image %}
-            {% getDirectusAsset project.image.id %}
-          {% endset %}
+          {% set image = ["/assets/images/projects/", project.image.filename_download] | join %}
           {{- imageMacro({image: image, description: project.image.description }) -}}
           <h4>
             <a href="{% route project.slug, 'Projects' %}">{{ project.name }}</a>
@@ -88,7 +86,7 @@ layout: layouts/base.njk
   </section>
 
   <section class="contact">
-    <h2 >Interested in working with us?</h2>
+    <h2>Interested in working with us?</h2>
     <a href="/contact-us/">
       <button>Contact us</button>
     </a>
