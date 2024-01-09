@@ -144,7 +144,7 @@ module.exports = (eleventyConfig) => {
     "featuredProjects",
     function (projects, status = "Active", number = 3) {
       return projects
-        .filter((project) => project.creativeWorkStatus.name === status)
+        .filter((project) => project.creativeWorkStatus?.name === status)
         .filter((project) => project.image)
         .filter(
           (project) => project.description && project.description.length > 0

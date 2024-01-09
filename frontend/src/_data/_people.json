@@ -5082,16 +5082,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Prosopography of the Byzantine World",
-            "alternateName": "PBW",
-            "slug": "pbw",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "AI and Story Telling",
+            "alternateName": null,
+            "slug": "ai-and-story-telling",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Classics"
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
               }
@@ -8843,23 +8850,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
-            "alternateName": "Marie Curie Fellowship: DHLab",
-            "slug": "marie-curie-fellowship-dhlab",
-            "foundingDate": "2020-10-01",
-            "dissolutionDate": "2023-03-17",
+            "name": "AI and Story Telling",
+            "alternateName": null,
+            "slug": "ai-and-story-telling",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "King's Digital Lab"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
               }
@@ -8867,7 +8874,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "Researcher"
+            "name": "Principal investigator"
           }
         },
         {
