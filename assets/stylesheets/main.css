@@ -1836,8 +1836,8 @@ footer .footer-end p {
   main.home .blog div {
     flex-basis: 100%;
   }
-  main.home .information > .research,
-  main.home .information > .activities {
+  main.home .discover > .research,
+  main.home .discover > .activities {
     display: block;
     padding: 1.5em 1.5em 0.2em 1.5em;
   }
