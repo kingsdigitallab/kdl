@@ -1124,34 +1124,43 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "REF 2021 impact data analysis",
-            "alternateName": null,
-            "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL Research Management & Innovation Directorate"
+                    "name": "Birkbeck, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "King's Digital Lab",
-              "slug": "kdl"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Research Software Analyst"
           }
@@ -1953,30 +1962,6 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Designer"
           }
         },
         {
@@ -4029,48 +4014,43 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
+            "alternateName": "CHARM",
+            "slug": "charm",
+            "foundingDate": "2004-04-01",
+            "dissolutionDate": "2009-03-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "University of Cambridge"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of Music"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Canterbury Christ Church University"
+                    "name": "Royal Holloway, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The National Archives"
+                    "name": "University of Sheffield"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "FAH Department of Digital Humanities",
-              "slug": "ddh"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -6307,34 +6287,22 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "REF 2021 impact data analysis",
-            "alternateName": null,
-            "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL Research Management & Innovation Directorate"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "University of Edinburgh"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "King's Digital Lab",
-              "slug": "kdl"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -6648,30 +6616,6 @@
           "roleName": {
             "name": "RSE team member"
           }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Engineer"
-          }
         }
       ]
     }
@@ -6687,48 +6631,22 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
+            "name": "Prosopography of the Byzantine World",
+            "alternateName": "PBW",
+            "slug": "pbw",
             "foundingDate": null,
             "dissolutionDate": null,
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
+                    "name": "FAH Department of Classics"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "FAH Department of Digital Humanities",
-              "slug": "ddh"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -6782,30 +6700,6 @@
       "slug": "giancarlo-buomprisco",
       "description": null,
       "memberOf": [
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Engineer"
-          }
-        },
         {
           "startDate": null,
           "endDate": null,
@@ -9548,49 +9442,8 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": {
-            "agent": {
-              "name": "FAH Department of Digital Humanities",
-              "slug": "ddh"
-            }
-          },
+          "inProject": null,
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -12598,34 +12451,43 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "REF 2021 impact data analysis",
-            "alternateName": null,
-            "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL Research Management & Innovation Directorate"
+                    "name": "Birkbeck, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "King's Digital Lab",
-              "slug": "kdl"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -13220,30 +13082,6 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Engineer"
           }
         },
         {
@@ -14075,30 +13913,6 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Engineer"
           }
         },
         {
@@ -15307,30 +15121,6 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Analyst"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -16263,30 +16053,6 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Principal investigator"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
             "name": "Archetype",
             "alternateName": null,
             "slug": "archetype",
@@ -16855,48 +16621,43 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
+            "alternateName": "CHARM",
+            "slug": "charm",
+            "foundingDate": "2004-04-01",
+            "dissolutionDate": "2009-03-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "University of Cambridge"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of Music"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Canterbury Christ Church University"
+                    "name": "Royal Holloway, University of London"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The National Archives"
+                    "name": "University of Sheffield"
                   }
                 }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "FAH Department of Digital Humanities",
-              "slug": "ddh"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -17901,16 +17662,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "A Publishing and Communication History of the Ministry of Information, 1939-45",
+            "alternateName": "MOI",
+            "slug": "moi",
+            "foundingDate": "2013-10-01",
+            "dissolutionDate": "2017-09-30",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "School of Advanced Studies, University of London"
                   }
                 }
               },
@@ -17920,29 +17681,10 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
-                  }
-                }
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "FAH Department of Digital Humanities",
-              "slug": "ddh"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -18034,30 +17776,6 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Research Software Engineer"
           }
         }
       ]
@@ -18310,30 +18028,6 @@
             "slug": "archetype",
             "foundingDate": "2017-10-01",
             "dissolutionDate": "2021-02-07",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "Researcher"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-            "alternateName": "DigiPal",
-            "slug": "digipal",
-            "foundingDate": "2010-10-01",
-            "dissolutionDate": "2014-09-30",
             "department": [
               {
                 "organisation_id": {
