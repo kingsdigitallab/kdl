@@ -26,7 +26,11 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
     "test": "npm run test --workspaces --if-present",
-    "release": "release-it"
+    "release": "release-it",
+    "frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
+    "frontend:dev": "npm run -w frontend dev",
+    "cy": "cypress open",
+    "cy:run": "cypress run"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
@@ -34,6 +38,7 @@
     "djlint": "^1.19.4",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.15.1",
     "lint-staged": "^15.0.2",
     "prettier": "^2.6.2",
     "prettier-plugin-sort-imports": "^1.7.0",
@@ -53,7 +58,8 @@
   "workspaces": [
     "frontend",
     "cms",
-    "etl"
+    "etl",
+    "owl"
   ],
   "release-it": {
     "git": {
