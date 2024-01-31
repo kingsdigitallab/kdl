@@ -1,4 +1,4 @@
-describe("Test the projects page", () => {
+describe("Test a project page", () => {
   it("Visits, gets and asserts", () => {
     cy.visit("/projects/crossreads/");
 
