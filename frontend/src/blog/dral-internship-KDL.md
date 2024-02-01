@@ -1,6 +1,6 @@
 ---
-title: First Published on the Department of Digital Humanities Blog 14 September 2019
-subtitle: Internship in the Distant Reading across Languages (DRaL) project
+title: Internship in the Distant Reading across Languages (DRaL) project
+subtitle: First Published on the Department of Digital Humanities Blog 14 September 2019
 tags:
   - post
 authors:
