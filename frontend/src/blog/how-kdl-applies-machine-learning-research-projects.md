@@ -32,7 +32,7 @@ Illustrated below are different facets of AI applied to a variety of projects I 
 
 ### [Early English Laws](https://earlyenglishlaws.ac.uk/laws/texts/iii-cn/relationships/) (2009-2011, AHRC, PI: Jane Winters)
 
-![](https://kdl.kcl.ac.uk/assets/images/blog/out-001.width-500.jpg) ![](https://raw.githubusercontent.com/kingsdigitallab/eel/main/doc/evolution.gif)
+![](https://kdl.kcl.ac.uk/assets/images/blog/out-001.width-500.jpg) ![A gif shows a network-like structure consisting of nodes that are labeled with numbers, with a dynamic caption at the buttom indicates the change of the generation.](https://raw.githubusercontent.com/kingsdigitallab/eel/main/doc/evolution.gif)
 
 Context: Our research partners requested a web visualisation of the dependency graph among early English legal texts (10th to 13th century) where a node represents a text and an edge indicates textual borrowing. Each law code has its own graph centred around it (Cnut’s Winchester code or I–II Cn, in the screenshots above). When a graph gets more crowded, arranging the nodes into an elegant and readable layout is tricky. At the time I didn’t manage to design (or find) a good layout algorithm for our specific needs.
 
