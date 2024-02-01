@@ -32,11 +32,17 @@ jobs:
           echo BUILD_DRAFTS=true >> frontend/.env
           echo DIRECTUS_URL=${{ secrets.DIRECTUS_URL }} >> frontend/.env
 
-      - name: Install dependencies and build
+      - name: Install dependencies
         run: |
           npm ci -w frontend
           # force getting data from the CMS
           rm frontend/src/_data/_*.json
+
+      - name: Test frontend
+        run: npm run frontend:test
+
+      - name: Build frontend
+        run: |
           npm run build -w frontend -- --pathprefix 'kdl'
           npm run index -w frontend
 

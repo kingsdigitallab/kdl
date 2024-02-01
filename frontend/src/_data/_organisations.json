@@ -5770,6 +5770,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-01-30T13:31:40.160Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "87f5e543-c428-45e3-ac38-97e00a8d5a12",
+    "agent": {
+      "alternateName": "RMID",
+      "cmsDateCreated": "2024-01-30T13:31:39.982Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "74912071-68d2-4538-8613-d26d6764b571",
+      "name": "KCL Research Management & Innovation Directorate",
+      "slug": "kcl-research-management-and-innovation-directorate",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-10-05T09:46:06.996Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

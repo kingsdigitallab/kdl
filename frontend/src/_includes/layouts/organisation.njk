@@ -35,12 +35,17 @@ layout: layouts/agent.njk
     <ol>
       {% if pagination.href.previous %}
         <li>
-          <a href="{{ pagination.href.previous }}"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> {{ pagination.page.previous.agent.name }}</a>
+          <a href="{{ pagination.href.previous }}">
+            <ion-icon name="chevron-back-sharp" aria-label="previous organisation"></ion-icon>
+            {{- pagination.page.previous.agent.name -}}
+          </a>
         </li>
       {% endif %}
       {% if pagination.href.next %}
         <li>
-          <a href="{{ pagination.href.next }}">{{ pagination.page.next.agent.name }} <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon></a>
+          <a href="{{ pagination.href.next }}">{{ pagination.page.next.agent.name -}}
+            <ion-icon name="chevron-forward-sharp" aria-label="next organisation"></ion-icon>
+          </a>
         </li>
       {% endif %}
     </ol>
