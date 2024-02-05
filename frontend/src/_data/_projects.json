@@ -10440,6 +10440,12 @@
           "name": "Github URL",
           "url": "https://github.com/kingsdigitallab/refida/"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Poster",
+          "url": "https://github.com/kingsdigitallab/refida/blob/main/docs/RSEconf2022.jpg"
+        }
       }
     ],
     "department": [
