@@ -8996,7 +8996,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "7f1eb576-baa3-4f7c-aa48-06d3cb7a029a",
+      "storage": "local",
+      "filename_disk": "7f1eb576-baa3-4f7c-aa48-06d3cb7a029a.jpeg",
+      "filename_download": "nanotoms",
+      "title": "Nanotoms",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+      "uploaded_on": "2024-02-05T10:12:05.082Z",
+      "modified_by": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+      "modified_on": "2024-02-05T12:47:45.533Z",
+      "charset": null,
+      "filesize": "227048",
+      "width": 2644,
+      "height": 1818,
+      "duration": null,
+      "embed": null,
+      "description": "Light decorations in a dark area",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
