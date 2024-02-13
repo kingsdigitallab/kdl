@@ -7911,7 +7911,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "1efc4657-3d65-4470-8a4f-e8bda39838e2",
+      "storage": "local",
+      "filename_disk": "1efc4657-3d65-4470-8a4f-e8bda39838e2.png",
+      "filename_download": "Mao_Era_in_Objects_picture_grid.png",
+      "title": "Mao Era in Objects Picture Grid",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-02-13T13:23:26.528Z",
+      "modified_by": null,
+      "modified_on": "2024-02-13T13:23:27.771Z",
+      "charset": null,
+      "filesize": "2231625",
+      "width": 1263,
+      "height": 853,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
