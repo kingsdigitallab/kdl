@@ -5569,7 +5569,16 @@
       "tags": null,
       "metadata": {}
     },
-    "funder": [],
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "KCL",
+          "id": "5b4a2a86-df70-4efa-a7f1-7e17c4252d5d",
+          "name": "King's College London",
+          "slug": "kings-college-london"
+        }
+      }
+    ],
     "keywords": [],
     "url": [],
     "department": [
