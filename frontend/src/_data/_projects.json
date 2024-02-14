@@ -6794,7 +6794,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "416d3eae-95ac-495f-8d66-0bc9b01fef21",
+      "storage": "local",
+      "filename_disk": "416d3eae-95ac-495f-8d66-0bc9b01fef21.png",
+      "filename_download": "Language_Acts_research_strands.png",
+      "title": "Language Acts Research Strands",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-02-14T09:34:19.618Z",
+      "modified_by": null,
+      "modified_on": "2024-02-14T09:34:19.900Z",
+      "charset": null,
+      "filesize": "181892",
+      "width": 1505,
+      "height": 862,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
