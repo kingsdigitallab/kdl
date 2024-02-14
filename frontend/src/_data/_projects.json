@@ -10790,7 +10790,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "5f433421-a4ec-452d-93ab-0c546b21562d",
+      "storage": "local",
+      "filename_disk": "5f433421-a4ec-452d-93ab-0c546b21562d.png",
+      "filename_download": "Renskin_four_homepage_theme_images.png",
+      "title": "Renskin - Four Homepage Theme Images",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-02-14T16:32:05.844Z",
+      "modified_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "modified_on": "2024-02-14T16:32:39.361Z",
+      "charset": null,
+      "filesize": "1974599",
+      "width": 1200,
+      "height": 827,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
