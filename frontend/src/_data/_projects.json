@@ -69,19 +69,6 @@
     "member": [
       {
         "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "031208b2-71d6-4baa-abc1-8fad898b9efe",
           "name": " Emily Bailey",
           "slug": "emily-bailey"
@@ -9342,19 +9329,6 @@
     "member": [
       {
         "agent": {
-          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
-          "name": "Brian Maher",
-          "slug": "brian-maher"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"
@@ -9555,6 +9529,45 @@
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
         },
         "roleName": {
           "name": "RSE team member",
@@ -10623,19 +10636,6 @@
       }
     ],
     "member": [
-      {
-        "agent": {
-          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
-          "name": "Tiffany Ong",
-          "slug": "tiffany-ong"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
       {
         "agent": {
           "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
