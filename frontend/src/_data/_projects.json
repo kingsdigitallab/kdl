@@ -239,6 +239,19 @@
     "member": [
       {
         "agent": {
+          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
+          "name": "Paul Caton",
+          "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "01b37659-ba2b-484c-89c4-8f96846b20d2",
           "name": "Suzanne Trill",
           "slug": "suzanne-trill"
@@ -525,19 +538,6 @@
         },
         "roleName": {
           "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "8685add6-4c9f-4b0f-898d-3f28f3382176",
-          "name": "Simona Stoyanova",
-          "slug": "simona-stoyanova"
-        },
-        "roleName": {
-          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -2406,6 +2406,19 @@
         },
         "roleName": {
           "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "8685add6-4c9f-4b0f-898d-3f28f3382176",
+          "name": "Simona Stoyanova",
+          "slug": "simona-stoyanova"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -5681,19 +5694,6 @@
     "member": [
       {
         "agent": {
-          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
-          "name": "Tiffany Ong",
-          "slug": "tiffany-ong"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "d4ec5f39-e0fd-4c44-90cb-5f02978ab4f7",
           "name": "Fanny\tPicard",
           "slug": "fanny-picard"
@@ -8556,19 +8556,6 @@
     "member": [
       {
         "agent": {
-          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
-          "name": "Paul Caton",
-          "slug": "paul-caton"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "d4b0f1fa-1410-4e95-83da-9937fe4158bb",
           "name": "Paul Spence",
           "slug": "paul-spence"
@@ -10614,6 +10601,19 @@
       }
     ],
     "member": [
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
       {
         "agent": {
           "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
@@ -13276,6 +13276,19 @@
     "member": [
       {
         "agent": {
+          "id": "59fa2690-9bbf-4958-b3df-5ad564d56289",
+          "name": "Chris Lewis",
+          "slug": "chris-lewis"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "df5b4f07-e5b9-4f0b-886c-6f39008ae69f",
           "name": "Julia Crick",
           "slug": "julia-crick"
@@ -13302,9 +13315,35 @@
       },
       {
         "agent": {
+          "id": "601a9467-11fd-491d-ac2a-d2adfa9c0f53",
+          "name": "Francisco Álvarez López",
+          "slug": "francisco-alvarez-lopez"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "6bd5e4c6-94d6-41e7-bdb7-0d70e8230a7c",
           "name": "Stephen Baxter",
           "slug": "stephen-baxter"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6a480d84-4afb-4d28-9007-68de48c0518f",
+          "name": "Frank Thorn",
+          "slug": "frank-thorn"
         },
         "roleName": {
           "name": "Researcher",
