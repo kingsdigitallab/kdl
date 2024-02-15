@@ -10091,7 +10091,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "877ca883-f7e4-4326-af42-138c7d126a81",
+      "storage": "local",
+      "filename_disk": "877ca883-f7e4-4326-af42-138c7d126a81.png",
+      "filename_download": "PBW_factoid_prosopography_data_model.png",
+      "title": "PBW Factoid Prosopography Data Model",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-02-15T17:17:56.513Z",
+      "modified_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "modified_on": "2024-02-15T17:18:28.142Z",
+      "charset": null,
+      "filesize": "302567",
+      "width": 1400,
+      "height": 795,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
