@@ -8955,29 +8955,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "AI and Story Telling",
-            "alternateName": null,
-            "slug": "ai-and-story-telling",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2019-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
@@ -9070,16 +9048,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
-            "alternateName": "Room to Breath",
-            "slug": "re-mixing-de-humanisation",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2019-07-01",
+            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
+            "alternateName": "Marie Curie Fellowship: DHLab",
+            "slug": "marie-curie-fellowship-dhlab",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2023-03-17",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
@@ -14476,7 +14461,7 @@
             "alternateName": null,
             "slug": "illustrating-impact",
             "foundingDate": "2018-01-01",
-            "dissolutionDate": "2018-07-31",
+            "dissolutionDate": "2019-08-31",
             "department": [
               {
                 "organisation_id": {
@@ -14789,23 +14774,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Mapping the Medieval Countryside: The Fifteenth-Century Inquisitions Post Mortem",
-            "alternateName": "IPM",
-            "slug": "ipm",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Winchester"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "University of Edinburgh"
                   }
                 }
               }
@@ -14927,7 +14905,7 @@
             "alternateName": null,
             "slug": "illustrating-impact",
             "foundingDate": "2018-01-01",
-            "dissolutionDate": "2018-07-31",
+            "dissolutionDate": "2019-08-31",
             "department": [
               {
                 "organisation_id": {
@@ -17559,16 +17537,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Ancient Inscriptions of the Northern Black Sea",
-            "alternateName": "IOSPE",
-            "slug": "iospe",
-            "foundingDate": "2011-01-01",
-            "dissolutionDate": "2017-04-30",
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
+            "alternateName": "Crossreads",
+            "slug": "crossreads",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2025-09-30",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Classics"
+                    "name": "University of Oxford"
                   }
                 }
               }
@@ -18622,65 +18600,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Illustrating Impact",
+            "name": "REF 2021 impact data analysis",
             "alternateName": null,
-            "slug": "illustrating-impact",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2018-07-31",
+            "slug": "refida",
+            "foundingDate": null,
+            "dissolutionDate": null,
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
+                    "name": "KCL Research Management & Innovation Directorate"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The Policy Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Entrepreneurship Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Health School"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Time Partners Ltd"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Alter Equity"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "GO Lab, Oxford University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Business School"
+                    "name": "King's Digital Lab"
                   }
                 }
               }
