@@ -69,19 +69,6 @@
     "member": [
       {
         "agent": {
-          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
-          "name": "James Smithies",
-          "slug": "james-smithies"
-        },
-        "roleName": {
-          "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
           "name": "Elliott Hall",
           "slug": "elliott-hall"
@@ -2732,6 +2719,19 @@
         },
         "roleName": {
           "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -9221,7 +9221,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "aae5d81a-772b-4130-afb2-e7705d99c038",
+      "storage": "local",
+      "filename_disk": "aae5d81a-772b-4130-afb2-e7705d99c038.jpg",
+      "filename_download": "NCSE--the six-bar-graphs-for-facsimile.jpg",
+      "title": "A collection of six bar graphs for the journals from Facsimile section",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-02-15T10:57:43.951Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-02-15T10:59:52.944Z",
+      "charset": null,
+      "filesize": "96713",
+      "width": 1942,
+      "height": 1024,
+      "duration": null,
+      "embed": null,
+      "description": "A collection of six bar graphs for six historical periodicals, illustrating the publishing trends and output volume of each periodical.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10742,19 +10764,6 @@
         },
         "roleName": {
           "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
-          "name": "James Smithies",
-          "slug": "james-smithies"
-        },
-        "roleName": {
-          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

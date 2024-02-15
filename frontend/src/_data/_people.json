@@ -8955,29 +8955,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "AI and Story Telling",
-            "alternateName": null,
-            "slug": "ai-and-story-telling",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2019-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
@@ -9070,16 +9048,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
-            "alternateName": "Room to Breath",
-            "slug": "re-mixing-de-humanisation",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2019-07-01",
+            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
+            "alternateName": "Marie Curie Fellowship: DHLab",
+            "slug": "marie-curie-fellowship-dhlab",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2023-03-17",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
