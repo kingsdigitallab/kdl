@@ -9,7 +9,7 @@ date: 2020-11-18
 excerpt: ""
 feature:
   image: /assets/images/blog/book_network.original.jpg
-  description: ursula_blog_feed
+  description: Multiple open books spread out with neon-coloured lines and bright glitch effect
 ---
 
 _'You doubt what I wrote? Let me show you.' The very rare and obstinate dissenter who has not been convinced by the scientific text, and who has not found other ways to get rid of the author, is led from the text into the place where the text is said to come from._ (B. Latour, Science in Action, 1987).

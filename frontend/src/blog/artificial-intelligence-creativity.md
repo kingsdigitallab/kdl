@@ -12,7 +12,7 @@ excerpt: ""
 feature:
   image: /assets/images/blog/franck-v-U3sOwViXhkY-unsplash.original.jpg
   title: © Photo by Franck V. on Unsplash
-  description: AI_music
+  description: A robot arm playing music on the keyboard
 ---
 
 It is a truth universally acknowledged that a conference attendee with the keys to the corporate _Twitter_ account will be in need of Wi-Fi. In the splendid setting of the Assembly Rooms, I was unable to keep the feed _fed_. This was the cause of some frustration until I adopted a more stoic perspective and concentrated instead on the substance of the discussions**,** rather than trying to reduce them to pithy soundbites in a vainglorious attempt to win over the coveted _Followers_.

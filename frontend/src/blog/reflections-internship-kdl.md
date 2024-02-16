@@ -10,7 +10,7 @@ excerpt: ""
 feature:
   image: /assets/images/blog/legacy_data_blog.original.jpg
   title: © Photo by Janko Ferlic from Pexels
-  description: legacy data blog
+  description: Library shelves filled with books on the left side, with a red LED light wall on the right
 ---
 
 > Art challenges technology and technology inspires art
@@ -23,7 +23,7 @@ The quotation above neatly describes the delicate relationship between  two dom
 
 Being a student of the [Digital Humanities MA at King’s College London](https://www.kcl.ac.uk/study/postgraduate/taught-courses/digital-humanities-ma) allows me to get a sense of the potential for knowledge production within this field. The opportunity to work at King’s Digital Lab (KDL) has helped me put what I’ve learned into practice. Introduced by [Professor Oreglia](https://www.kcl.ac.uk/people/dr-elisa-oreglia) to the internship module, the postgraduate internship in the DDH-KDL legacy data project was set up to explore new ways of exposing project research to a wider audience within and outside academia. By doing so, we hope to improve the research potential of past collective projects and strengthen ongoing efforts to justify investment in their long-term sustainability. During my internship, I have been lucky to have [Paul Spence](https://www.kcl.ac.uk/people/paul-spence) (Senior Lecturer at the Department of Digital Humanities) and Dr. [Arianna Ciula](https://www.kdl.kcl.ac.uk/who-we-are/dr-arianna-ciula/) (Deputy Director & Senior Research Software Analyst) as my supervisors who provided me with care and support throughout.
 
-![ipm home](/assets/images/blog/Screenshot_2020-04-23_at_09.08.42.width-1024.png){.media-medium}
+![Screenshot of the homepage of a website titled 'Mapping the Medieval Countryside'](/assets/images/blog/Screenshot_2020-04-23_at_09.08.42.width-1024.png){.media-medium}
 
 The IPM homepage
 

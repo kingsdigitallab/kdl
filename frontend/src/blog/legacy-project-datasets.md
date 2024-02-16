@@ -17,7 +17,7 @@ excerpt: How to address pragmatically the substantial challenge of curating and
 feature:
   image: /assets/images/blog/exposing-legacy-datasets.original.jpg
   title: © Image composite from Unsplash - Steven Wright and Ula Kuźma
-  description: exposing-datasets
+  description: A hand holding a magnifying glass over the red letters shows as 'Exposing Legacy Datasets', over a background of numerous white drawers
 ---
 
 How to address pragmatically the substantial challenge of curating and archiving a rich estate of over 100 legacy projects without funding? Deep breath…

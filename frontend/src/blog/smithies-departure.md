@@ -16,7 +16,7 @@ excerpt: I’ll be leaving King’s Digital Lab (KDL) this month, after 6 wonder
 feature:
   image: /assets/images/blog/torsten-dederichs-t5IN6vx0cLs-unsplash_830h.original.jpg
   title: © Torsten Dederichs on Unsplash
-  description: torsten-dederichs-t5IN6vx0cLs-unsplash_830h.jpg
+  description: Four penguins jumping above the ocean with splashes of water around them
 ---
 
 I’ll be leaving King’s Digital Lab (KDL) this month, after 6 wonderful years, for a new role as Professor of Digital Humanities in King’s Department of Digital Humanities (DDH). Although merely a move over to the other half of Digital Humanities at King’s, and a return to a department I used to hold a fractional appointment in, it represents a significant milestone in my career. I’m grateful to the many people who have supported me to this point, in New Zealand, Australia, Jordan, and the United States, as well as the UK.

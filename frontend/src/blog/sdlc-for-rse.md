@@ -11,7 +11,7 @@ excerpt: "At its inception in 2015, King’s Digital Lab became the de facto cus
 feature:
   image: /assets/images/blog/SDLC_blog_banner.original.jpg
   title: © King's Digital Lab, Background image fauxels @ Pexels
-  description: SDLC_blog_banner_v2
+  description: A workflow diagram depicting Software Development Lifecycle for Research Software Engineering, from inception to completion
 ---
 
 At its inception in 2015, King’s Digital Lab became the de facto custodian of a rich legacy of Digital Humanities (DH) research projects spanning decades of experimentation...
