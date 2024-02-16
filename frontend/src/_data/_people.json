@@ -2340,37 +2340,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Nineteenth-Century Serials Edition",
-            "alternateName": "NCSE",
-            "slug": "nineteenth-century-serials-edition",
-            "foundingDate": "2017-08-01",
-            "dissolutionDate": "2021-07-31",
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Birkbeck, University of London"
+                    "name": "University of Glasgow"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Leeds"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of English"
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -5102,23 +5088,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "AI and Story Telling",
-            "alternateName": null,
-            "slug": "ai-and-story-telling",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2019-12-31",
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "University of Glasgow"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -18600,23 +18586,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "REF 2021 impact data analysis",
-            "alternateName": null,
-            "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL Research Management & Innovation Directorate"
+                    "name": "University of Glasgow"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
+                    "name": "FAH Department of History"
                   }
                 }
               }
