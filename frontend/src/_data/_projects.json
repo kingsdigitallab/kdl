@@ -69,19 +69,6 @@
     "member": [
       {
         "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "031208b2-71d6-4baa-abc1-8fad898b9efe",
           "name": " Emily Bailey",
           "slug": "emily-bailey"
@@ -1699,21 +1686,21 @@
       }
     },
     "image": {
-      "id": "c066b3be-8a42-4913-a90d-2fa50d94eca6",
+      "id": "51a59acd-c2c5-47c9-bf4d-ef7b68542dbe",
       "storage": "local",
-      "filename_disk": "c066b3be-8a42-4913-a90d-2fa50d94eca6.jpg",
-      "filename_download": "CCED_data_display.jpg",
-      "title": "CCED Data Display",
-      "type": "image/jpeg",
+      "filename_disk": "51a59acd-c2c5-47c9-bf4d-ef7b68542dbe.png",
+      "filename_download": "CCED_record_screenshot.png",
+      "title": "CCED record display",
+      "type": "image/png",
       "folder": null,
       "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
-      "uploaded_on": "2024-02-15T14:58:07.015Z",
+      "uploaded_on": "2024-02-15T16:59:57.240Z",
       "modified_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
-      "modified_on": "2024-02-15T14:58:34.796Z",
+      "modified_on": "2024-02-15T17:00:31.911Z",
       "charset": null,
-      "filesize": "390607",
-      "width": 1300,
-      "height": 843,
+      "filesize": "150423",
+      "width": 1179,
+      "height": 760,
       "duration": null,
       "embed": null,
       "description": null,
@@ -4850,7 +4837,7 @@
   {
     "alternateName": "",
     "cmsStatus": "published",
-    "description": "",
+    "description": " A fine in the reign of King of England Henry III (1216–1272) was an agreement to pay the king a sum of money for a specified concession. There is a fine roll for each of Henry III's fifty-six regnal years. Recording offers of money to the king for a multiplicity of concessions and favours, they are of the first importance for the study of political, governmental, legal, social, and economic history.\n\nThe Henry III Fine Rolls Project, which was funded by the Arts and Humanities Research Council between April 2005 and December 2011, makes the rolls available on the website in a summarised and translated form. The site also provides extensive indexes of people, places, and subjects related to the rolls, as well as high resolution images of the originals. ",
     "dissolutionDate": null,
     "foundingDate": null,
     "id": "41a8f58e-8f99-4e97-b1a7-532af02ea683",
@@ -9342,19 +9329,6 @@
     "member": [
       {
         "agent": {
-          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
-          "name": "Brian Maher",
-          "slug": "brian-maher"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"
@@ -9555,6 +9529,45 @@
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
         },
         "roleName": {
           "name": "RSE team member",
@@ -10078,7 +10091,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "877ca883-f7e4-4326-af42-138c7d126a81",
+      "storage": "local",
+      "filename_disk": "877ca883-f7e4-4326-af42-138c7d126a81.png",
+      "filename_download": "PBW_factoid_prosopography_data_model.png",
+      "title": "PBW Factoid Prosopography Data Model",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-02-15T17:17:56.513Z",
+      "modified_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "modified_on": "2024-02-15T17:18:28.142Z",
+      "charset": null,
+      "filesize": "302567",
+      "width": 1400,
+      "height": 795,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10623,19 +10658,6 @@
       }
     ],
     "member": [
-      {
-        "agent": {
-          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
-          "name": "Tiffany Ong",
-          "slug": "tiffany-ong"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
       {
         "agent": {
           "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
