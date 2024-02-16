@@ -10,7 +10,7 @@ excerpt: ""
 feature:
   image: /assets/images/blog/REF_blog_Damien_Tupinier_Unsplash.original.jpg
   title: © Adapted from photo by Damien TUPINIER on Unsplash
-  description: Adapted from photo by Damien TUPINIER on Unsplash
+  description: Bees crawling over the honeycomb, with highlighted comb's cell lines
 ---
 
 Download the King’s Digital Lab Checklist for Digital Outputs Assessment in the REF [here](http://doi.org/10.5281/zenodo.3361580).

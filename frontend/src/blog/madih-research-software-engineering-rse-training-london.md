@@ -10,7 +10,7 @@ excerpt: ""
 feature:
   image: /assets/images/blog/IMG_20190702_145840736.original.jpg
   title: © Picture credit Pascal Flohr.
-  description: KDL-MaDIH1
+  description: Three men in a meeting room, with one man receiving an award from another man while the man on the left watches with a smile
 ---
 
 ###

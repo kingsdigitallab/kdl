@@ -14,7 +14,7 @@ excerpt: KDL balance the tensions inherent when digital solutions are applied t
 feature:
   image: /assets/images/blog/ocve_hero.original.jpg
   title:
-  description: ocve hero
+  description: The portrait of composer Frédéric Chopin against a background of his own piano music notation
 ---
 
 KDL balance the tensions inherent when digital solutions are applied to analogue problems.

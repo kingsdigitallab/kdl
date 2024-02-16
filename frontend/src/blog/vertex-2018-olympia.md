@@ -10,7 +10,7 @@ excerpt: ""
 feature:
   image: /assets/images/blog/digi_emily.width-1024.jpg
   title:
-  description:
+  description: A split image comparing two models of a woman's head, with a wireframe model on the left and a photorealistic 3D rendering of the model on the right
 ---
 
 [Vertex 2018](http://www.vertexconf.com/) at Olympia a few weeks ago wasn’t an entirely typical event for King’s Digital Lab to be attending. It’s a commercial event, bringing together an array of big names in the fields of 3D art, games and the CGI industry with an eager audience looking for guidance, practical workshops and career advice on how to enter this hugely competitive industry. The number of universities exhibiting their courses made it clear that there was a large appetite for formal training.
