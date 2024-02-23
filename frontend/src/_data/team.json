@@ -108,6 +108,33 @@
     }
   },
   {
+    "slug": "patrick-ffrench",
+    "jobTitle": "Professor Patrick Ffrench",
+    "team": "Departmental Affiliates",
+    "feature": {
+      "image": "/assets/images/people/patrick-ffrench.jpg",
+      "description": "Photo of Professor Patrick Ffrench"
+    }
+  },
+  {
+    "slug": "virginia-crisp",
+    "jobTitle": "Dr Virginia Crisp",
+    "team": "Departmental Affiliates",
+    "feature": {
+      "image": "/assets/images/people/virginia-crisp.jpg",
+      "description": "Photo of Dr Virginia Crisp"
+    }
+  },
+  {
+    "slug": "rebecca-levitan",
+    "jobTitle": "Dr Rebecca Levitan",
+    "team": "Departmental Affiliates",
+    "feature": {
+      "image": "/assets/images/people/rebecca-levitan.jpg",
+      "description": "Photo of Dr Rebecca Levitan"
+    }
+  },
+  {
     "slug": "john-bradley",
     "jobTitle": "Honorary Research Fellow",
     "team": "Research Fellows",
