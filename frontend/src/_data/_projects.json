@@ -6221,6 +6221,12 @@
           "name": "Repository: kingsdigitallab/ircyr-efes",
           "url": "https://github.com/kingsdigitallab/ircyr-efes"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: data",
+          "url": "https://doi.org/10.18742/c.6002275.v1"
+        }
       }
     ],
     "department": [
