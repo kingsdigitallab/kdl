@@ -8,7 +8,12 @@
     "id": "6e7dbd61-e884-4af3-a0d8-25fd49453cd4",
     "name": "AI and Story Telling",
     "slug": "ai-and-story-telling",
-    "creativeWorkStatus": null,
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
     "image": {
       "id": "49d390e7-0d3c-44f8-b713-4fe960298fa3",
       "storage": "local",
@@ -34,7 +39,14 @@
     },
     "funder": [],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Article URL",
+          "url": "https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -69,6 +81,19 @@
     "member": [
       {
         "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "031208b2-71d6-4baa-abc1-8fad898b9efe",
           "name": " Emily Bailey",
           "slug": "emily-bailey"
@@ -101,6 +126,19 @@
         },
         "roleName": {
           "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -1460,19 +1498,6 @@
         },
         "roleName": {
           "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
-          "name": "James Smithies",
-          "slug": "james-smithies"
-        },
-        "roleName": {
-          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -3976,19 +4001,6 @@
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
         },
         "roleName": {
           "name": "RSE team member",
@@ -9615,19 +9627,6 @@
       },
       {
         "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
           "name": "Brian Maher",
           "slug": "brian-maher"
@@ -11875,35 +11874,15 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
+            "id": "ebc885a6-81c2-4736-9183-10fd295a49af",
+            "name": "FAH Department of English",
+            "slug": "fah-department-of-english"
           },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
+          "parentOrganisation": null
         }
       }
     ],
     "member": [
-      {
-        "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
       {
         "agent": {
           "id": "7d16e0b6-31f9-49b9-ba47-cca8f76eb4c8",
@@ -12059,18 +12038,11 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
+            "id": "ebc885a6-81c2-4736-9183-10fd295a49af",
+            "name": "FAH Department of English",
+            "slug": "fah-department-of-english"
           },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
+          "parentOrganisation": null
         }
       }
     ],
@@ -13179,24 +13151,6 @@
             "id": "a0e2c4ef-4bc8-4d5c-9a62-df02c4e52492",
             "name": "FAH Department of History",
             "slug": "fah-department-of-history"
-          },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
-        }
-      },
-      {
-        "organisation_id": {
-          "agent": {
-            "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
           },
           "parentOrganisation": {
             "agent": {
