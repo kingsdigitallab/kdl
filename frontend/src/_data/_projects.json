@@ -5357,6 +5357,76 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "2afe8d12-42b7-4eb1-8143-59a82f541571",
+    "name": "Henslowe-Alleyn website",
+    "slug": "henslowe-alleyn-website",
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "51e34008-4224-4cf2-b32d-1717840c032b",
+          "name": "Mark Fitch Fund",
+          "slug": "mark-fitch-fund"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "91293298-1807-4d7c-9db4-3a5cff4904aa",
+            "name": "University of Reading",
+            "slug": "university-of-reading"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
+          "name": "Paul Caton",
+          "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "ec78aff8-05be-4ddc-8612-83c7aacab8d5",
+          "name": "Grace Ioppolo",
+          "slug": "grace-ioppolo"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "HGL",
     "cmsStatus": "published",
     "description": "The aim of the Gazetteer is to record, and to provide with Unique Identifiers, locations and monuments within modern Libya which are of significance to the history of the area up to 1950; we are offering as many variant names as possible, together with geodata from various sources.",
@@ -5722,19 +5792,6 @@
         },
         "roleName": {
           "name": "Co-investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
-          "name": "Paul Caton",
-          "slug": "paul-caton"
-        },
-        "roleName": {
-          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10607,13 +10664,35 @@
     "alternateName": null,
     "cmsStatus": "published",
     "description": "The REF 2021 Impact Data Analysis was a small project, between King's Digital Lab (KDL) and colleagues in the King's College London (KCL) Research Management & Innovation Directorate (RMID), to support the analysis of the college's [REF 2021](https://results2021.ref.ac.uk/) impact case studies and environment statements.\n\nThe data used during the development of this project includes 153 impact case studies and environment statements, in PDF (5-10 pages of text each), which follow [standard templates](https://www.ref.ac.uk/publications-and-reports/guidance-on-submissions-201901/) but are expressed with heterogeneous descriptions and language.\n\nThe project was set up to help RMID and research impact leads to address the questions:\n-\tWhat are the main types of impact KCL has delivered? Which pathways have been used to deliver those impacts?\n-\tWho are our key partners and beneficiaries of our impacts?\n-\tWhere are they - local (London), national or global?\n-\tIs there a correlation between discipline and types of impact or pathways to impact used?\n-\tWhat are the areas identified as strengths, areas for development and future plans?\n",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "dissolutionDate": "2022-12-31",
+    "foundingDate": "2022-01-01",
     "id": "c0b6c6f1-9a20-44b2-9737-a0710a4b5cc1",
     "name": "REF 2021 impact data analysis",
     "slug": "refida",
     "creativeWorkStatus": null,
-    "image": null,
+    "image": {
+      "id": "4576ce97-d755-4134-8bb1-891faa21a985",
+      "storage": "local",
+      "filename_disk": "4576ce97-d755-4134-8bb1-891faa21a985.jpg",
+      "filename_download": "REF_2021--presentation-slide.jpg",
+      "title": "Research Excellence Framework 2021 Impact Data Analysis",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-02-27T12:37:47.706Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-02-27T12:38:46.798Z",
+      "charset": null,
+      "filesize": "475792",
+      "width": 1920,
+      "height": 824,
+      "duration": null,
+      "embed": null,
+      "description": "A visual representation of a data processing workflow, with a Venn diagram on the left and an interactive dashboard on the right",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {

@@ -7405,6 +7405,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-02-27T12:26:51.378Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "23d72d17-6a52-43d2-b563-2d5a8c6011ca",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-02-27T12:26:51.135Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "91293298-1807-4d7c-9db4-3a5cff4904aa",
+      "name": "University of Reading",
+      "slug": "university-of-reading",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:07.792Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
