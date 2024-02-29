@@ -2609,9 +2609,35 @@
       },
       {
         "agent": {
+          "id": "78713c2c-720d-44d6-b6b0-b739de444f85",
+          "name": "Stephen Clift",
+          "slug": "stephen-clift"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "f515c55f-b3dd-4338-9841-db1a966e45d3",
           "name": "Dave O'Brien",
           "slug": "dave-o-brien"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "870da8d0-aea2-4292-8935-4df7a4bb87c3",
+          "name": "Beatriz Garcia",
+          "slug": "beatriz-garcia"
         },
         "roleName": {
           "name": "Researcher",
@@ -2654,6 +2680,32 @@
         },
         "roleName": {
           "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "5117409b-fc16-4d21-bbbe-4a2b9e299c50",
+          "name": "Ben Walmsley",
+          "slug": "ben-walmsley"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "adeae59a-11d4-4b44-a64e-4117b9663359",
+          "name": "Tak Wing Chan",
+          "slug": "tak-wing-chan"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

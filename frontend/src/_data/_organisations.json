@@ -7240,6 +7240,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-02-29T11:07:29.418Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "7bde3d59-5677-4383-89f3-2d311ca34246",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-02-29T11:07:29.232Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "4dcf4a1c-432c-4b0b-8e3f-439d2f801c7a",
+      "name": "University of Liverpool",
+      "slug": "university-of-liverpool",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:33:57.836Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
