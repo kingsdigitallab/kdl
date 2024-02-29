@@ -6908,6 +6908,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-02-29T11:03:35.494Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "0fbc9b88-a5b6-47e5-af34-d976adee43a3",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-02-29T11:03:35.298Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9089e224-0240-43bb-9185-dd038d4ea7fa",
+      "name": "University of Aberdeen",
+      "slug": "university-of-aberdeen",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-10-02T15:52:14.180Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

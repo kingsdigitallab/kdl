@@ -1042,16 +1042,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
-            "alternateName": "Room to Breath",
-            "slug": "re-mixing-de-humanisation",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2019-07-01",
+            "name": "CultureCase",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2017-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -1153,44 +1153,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
+            "name": "CultureCase",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2017-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Council for British Research in the Levant"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Jordan Open Source Association"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Oxford"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Hashemite University"
+                    "name": "FAH King's Culture"
                   }
                 }
               }

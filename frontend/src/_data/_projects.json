@@ -2539,6 +2539,142 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2017-12-31",
+    "foundingDate": "2017-01-01",
+    "id": "bd515450-96a2-4718-82d7-af61b85cd2bc",
+    "name": "CultureCase",
+    "slug": "culture-case",
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+          "name": "FAH King's Culture",
+          "slug": "fah-king-s-culture"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://culturecase.org/"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+            "name": "FAH King's Culture",
+            "slug": "fah-king-s-culture"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f515c55f-b3dd-4338-9841-db1a966e45d3",
+          "name": "Dave O'Brien",
+          "slug": "dave-o-brien"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "23186598-00c8-47f5-ba6a-056bc1d6db58",
+          "name": "James Doeser",
+          "slug": "james-doeser"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "c5244f71-d67f-4934-b4b1-92400aa7fa3e",
+          "name": "Elizabeth Sklar",
+          "slug": "elizabeth-sklar"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
+          "name": "Anna Reading",
+          "slug": "anna-reading"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "b55d889f-3714-40b1-8185-6a51648af11a",
+          "name": "Eleonora Belfiore",
+          "slug": "eleonora-belfiore"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "",
     "cmsStatus": "published",
     "description": "The project explores “public datafication” and public “data worlds”, including comparative analyses of different ways of making public data (quantification and datafication of issues in the public sector) and different ways of making data public (forms and formats of public participation). It convened an international and interdisciplinary group of researchers to explore digital methods and approaches for studying data portals as online devices, including the development of a proof-of-concept toolkit – the “Data Portal Explorer” – for use in research, teaching and associated public interventions. \n\nKDL set up the Data Portal Explorer which is a Python library, and command line tool, to harvest data from CKAN data repositories, using the ckanapi library.",
@@ -8399,19 +8535,6 @@
       },
       {
         "agent": {
-          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
-          "name": "Arianna Ciula",
-          "slug": "arianna-ciula"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "75f560b0-8f59-4479-9b13-5409bdaa7dac",
           "name": "Alessandra Esposito",
           "slug": "alessandra-esposito"
@@ -10879,19 +11002,6 @@
         },
         "roleName": {
           "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
-          "name": "Anna Reading",
-          "slug": "anna-reading"
-        },
-        "roleName": {
-          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
