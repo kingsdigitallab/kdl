@@ -135,6 +135,15 @@
     }
   },
   {
+    "slug": "stuart-dunn",
+    "jobTitle": "Digital Humanities Affiliate",
+    "team": "Departmental Affiliates",
+    "feature": {
+      "image": "/assets/images/people/stuart-dunn.jpg",
+      "description": "Photo of Professor Stuart Dunn"
+    }
+  },
+  {
     "slug": "john-bradley",
     "jobTitle": "Honorary Research Fellow",
     "team": "Research Fellows",
@@ -159,6 +168,15 @@
     "feature": {
       "image": "/assets/images/people/ginestra-ferraro.jpg",
       "description": "Photo of Ginestra Ferraro"
+    }
+  },
+  {
+    "slug": "harold-short",
+    "jobTitle": "Honorary Research Fellow",
+    "team": "Research Fellows",
+    "feature": {
+      "image": "/assets/images/people/harold-short.jpg",
+      "description": "Photo of Professor Harold Short"
     }
   },
   {
