@@ -110,7 +110,7 @@
   {
     "slug": "patrick-ffrench",
     "jobTitle": "Languages, Literatures and Cultures Affiliate",
-    "team": "Departmental Affiliates",
+    "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/patrick-ffrench.jpg",
       "description": "Photo of Professor Patrick Ffrench"
@@ -119,7 +119,7 @@
   {
     "slug": "virginia-crisp",
     "jobTitle": "Culture, Media & Creative Industries Affiliate",
-    "team": "Departmental Affiliates",
+    "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/virginia-crisp.jpg",
       "description": "Photo of Dr Virginia Crisp"
@@ -128,7 +128,7 @@
   {
     "slug": "rebecca-levitan",
     "jobTitle": "Classics Affiliate",
-    "team": "Departmental Affiliates",
+    "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/rebecca-levitan.jpg",
       "description": "Photo of Dr Rebecca Levitan"
@@ -137,7 +137,7 @@
   {
     "slug": "stuart-dunn",
     "jobTitle": "Digital Humanities Affiliate",
-    "team": "Departmental Affiliates",
+    "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/stuart-dunn.jpg",
       "description": "Photo of Professor Stuart Dunn"
@@ -146,7 +146,7 @@
   {
     "slug": "john-bradley",
     "jobTitle": "Honorary Research Fellow",
-    "team": "Research Fellows",
+    "team": "Research fellows",
     "feature": {
       "image": "/assets/images/people/john-bradley.jpg",
       "description": "Photo of John Bradley"
@@ -155,7 +155,7 @@
   {
     "slug": "katherine-bode",
     "jobTitle": "Visiting Research Fellow",
-    "team": "Research Fellows",
+    "team": "Research fellows",
     "feature": {
       "image": "/assets/images/people/katherine-bode.jpg",
       "description": "Photo of Katherine Bode"
@@ -164,7 +164,7 @@
   {
     "slug": "ginestra-ferraro",
     "jobTitle": "Visiting Research Fellow",
-    "team": "Research Fellows",
+    "team": "Research fellows",
     "feature": {
       "image": "/assets/images/people/ginestra-ferraro.jpg",
       "description": "Photo of Ginestra Ferraro"
@@ -173,7 +173,7 @@
   {
     "slug": "harold-short",
     "jobTitle": "Honorary Research Fellow",
-    "team": "Research Fellows",
+    "team": "Research fellows",
     "feature": {
       "image": "/assets/images/people/harold-short.jpg",
       "description": "Photo of Professor Harold Short"
@@ -182,7 +182,7 @@
   {
     "slug": "luis-figueira",
     "jobTitle": "Former Software Developer",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/luis-figueira.jpg",
       "description": "Photo of Luis Figueira"
@@ -191,7 +191,7 @@
   {
     "slug": "shalen-fu",
     "jobTitle": "Former Research Software Project Manager",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/shalen-fu.png",
       "description": "Photo of Shalen Fu"
@@ -200,7 +200,7 @@
   {
     "slug": "olga-loboda",
     "jobTitle": "Former Research Software UI/UX Designer",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/olga-loboda.jpg",
       "description": "Photo of Olga Loboda"
@@ -209,7 +209,7 @@
   {
     "slug": "chris-pak",
     "jobTitle": "Former Postdoctoral Research Associate",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/chris-pak.jpg",
       "description": "Photo of Chris Pak"
@@ -218,7 +218,7 @@
   {
     "slug": "florence-du-pre",
     "jobTitle": "Former Research Software Project Manager",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/florence-du-pre.jpg",
       "description": "Photo of Florence du Pré"
@@ -227,7 +227,7 @@
   {
     "slug": "urszula-pawlicka-deger",
     "jobTitle": "Former Marie Curie Research Fellow",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/urszula-pawlicka-deger.jpg",
       "description": "Photo of Dr. Urszula Pawlicka-Deger"
@@ -236,7 +236,7 @@
   {
     "slug": "natasha-romanova",
     "jobTitle": "Former Digital Methods Lead",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/natasha-romanova.jpg",
       "description": "Photo of Dr. Natasha Romanova"
@@ -245,7 +245,7 @@
   {
     "slug": "priyal-shah",
     "jobTitle": "Former UI/UX Designer",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/priyal-shah.jpg",
       "description": "Photo of Priyal Shah"
@@ -254,7 +254,7 @@
   {
     "slug": "james-smithies",
     "jobTitle": "Former Lab Director",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/james-smithies.jpg",
       "description": "Photo of Dr. James Smithies"
@@ -263,7 +263,7 @@
   {
     "slug": "carina-westling",
     "jobTitle": "Former Project Manager and Visiting Research Fellow",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/carina-westling.jpg",
       "description": "Photo of Carina Westling"
@@ -272,7 +272,7 @@
   {
     "slug": "brian-maher",
     "jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/brian-maher.jpg",
       "description": "Photo of Brian Maher"
@@ -281,7 +281,7 @@
   {
     "slug": "ginestra-ferraro",
     "jobTitle": "Former Senior Research Software UI/UX Designer",
-    "team": "Former Staff",
+    "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/ginestra-ferraro.jpg",
       "description": "Photo of Ginestra Ferraro"
