@@ -694,13 +694,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -1049,16 +1042,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
-            "alternateName": "Room to Breath",
-            "slug": "re-mixing-de-humanisation",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2019-07-01",
+            "name": "CultureCase",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2017-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Culture, Media & Creative Industries"
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -1127,8 +1120,8 @@
             "name": "REF 2021 impact data analysis",
             "alternateName": null,
             "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2022-01-01",
+            "dissolutionDate": "2022-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -1160,44 +1153,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Mapping Digital Cultural Heritage in Jordan",
-            "alternateName": "MaDiH (مديح)",
-            "slug": "madih",
-            "foundingDate": "2019-02-01",
-            "dissolutionDate": "2021-02-28",
+            "name": "CultureCase",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2017-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Council for British Research in the Levant"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Jordan Open Source Association"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Oxford"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Hashemite University"
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -4191,13 +4156,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -5088,23 +5046,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
-            "alternateName": "PoMS",
-            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
-            "foundingDate": "2007-08-01",
-            "dissolutionDate": "2010-12-31",
+            "name": "AI and Story Telling",
+            "alternateName": null,
+            "slug": "ai-and-story-telling",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Glasgow"
+                    "name": "King's Digital Lab"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of History"
+                    "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
               }
@@ -5118,22 +5076,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Shakespeare400",
-            "alternateName": "SHAK400",
-            "slug": "shak",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -5159,7 +5102,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -5311,29 +5254,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Farm-level Interdisciplinary Approaches to Endemic Livestock Disease",
-            "alternateName": "FIELD",
-            "slug": "field",
-            "foundingDate": "2018-09-01",
-            "dissolutionDate": "2023-08-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Lincoln"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
@@ -6296,8 +6217,8 @@
             "name": "REF 2021 impact data analysis",
             "alternateName": null,
             "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2022-01-01",
+            "dissolutionDate": "2022-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -6432,13 +6353,6 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               },
@@ -7180,13 +7094,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -7304,7 +7211,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -7711,7 +7618,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -7742,7 +7649,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -9003,23 +8910,23 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Australian Cultural Data Engine",
-            "alternateName": "ACD-Engine",
-            "slug": "acd-engine",
-            "foundingDate": "2022-07-01",
-            "dissolutionDate": "2023-06-30",
+            "name": "AI and Story Telling",
+            "alternateName": null,
+            "slug": "ai-and-story-telling",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "University of Melbourne"
+                    "name": "King's Digital Lab"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
               }
@@ -9091,7 +8998,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -9869,13 +9776,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -10519,7 +10419,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -10816,7 +10716,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -12246,13 +12146,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -12572,8 +12465,8 @@
             "name": "REF 2021 impact data analysis",
             "alternateName": null,
             "slug": "refida",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2022-01-01",
+            "dissolutionDate": "2022-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12690,7 +12583,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -13415,7 +13308,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -14601,7 +14494,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -14887,65 +14780,16 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Illustrating Impact",
+            "name": "Henslowe-Alleyn website",
             "alternateName": null,
-            "slug": "illustrating-impact",
-            "foundingDate": "2018-01-01",
-            "dissolutionDate": "2019-08-31",
+            "slug": "henslowe-alleyn-website",
+            "foundingDate": null,
+            "dissolutionDate": null,
             "department": [
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The Policy Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Entrepreneurship Institute"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Health School"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Time Partners Ltd"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Alter Equity"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "GO Lab, Oxford University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Business School"
+                    "name": "University of Reading"
                   }
                 }
               }
@@ -15064,7 +14908,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -15322,13 +15166,6 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               },
@@ -17198,7 +17035,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }
@@ -18232,13 +18069,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "University of Edinburgh"
                   }
                 }
@@ -18633,7 +18463,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "FAH Department of Digital Humanities"
+                    "name": "FAH Department of English"
                   }
                 }
               }

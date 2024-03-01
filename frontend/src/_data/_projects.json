@@ -8,7 +8,12 @@
     "id": "6e7dbd61-e884-4af3-a0d8-25fd49453cd4",
     "name": "AI and Story Telling",
     "slug": "ai-and-story-telling",
-    "creativeWorkStatus": null,
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
     "image": {
       "id": "49d390e7-0d3c-44f8-b713-4fe960298fa3",
       "storage": "local",
@@ -34,7 +39,14 @@
     },
     "funder": [],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Article URL",
+          "url": "https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -69,6 +81,19 @@
     "member": [
       {
         "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "031208b2-71d6-4baa-abc1-8fad898b9efe",
           "name": " Emily Bailey",
           "slug": "emily-bailey"
@@ -101,6 +126,19 @@
         },
         "roleName": {
           "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -1467,19 +1505,6 @@
       },
       {
         "agent": {
-          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
-          "name": "James Smithies",
-          "slug": "james-smithies"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
@@ -2503,6 +2528,194 @@
           "id": "b3133b87-b9e2-4477-b62b-a7c54c036fff",
           "name": "Robert Crellin",
           "slug": "robert-crellin"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2017-12-31",
+    "foundingDate": "2017-01-01",
+    "id": "bd515450-96a2-4718-82d7-af61b85cd2bc",
+    "name": "CultureCase",
+    "slug": "culture-case",
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+          "name": "FAH King's Culture",
+          "slug": "fah-king-s-culture"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://culturecase.org/"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+            "name": "FAH King's Culture",
+            "slug": "fah-king-s-culture"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "78713c2c-720d-44d6-b6b0-b739de444f85",
+          "name": "Stephen Clift",
+          "slug": "stephen-clift"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f515c55f-b3dd-4338-9841-db1a966e45d3",
+          "name": "Dave O'Brien",
+          "slug": "dave-o-brien"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "870da8d0-aea2-4292-8935-4df7a4bb87c3",
+          "name": "Beatriz Garcia",
+          "slug": "beatriz-garcia"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "23186598-00c8-47f5-ba6a-056bc1d6db58",
+          "name": "James Doeser",
+          "slug": "james-doeser"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "c5244f71-d67f-4934-b4b1-92400aa7fa3e",
+          "name": "Elizabeth Sklar",
+          "slug": "elizabeth-sklar"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
+          "name": "Anna Reading",
+          "slug": "anna-reading"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "5117409b-fc16-4d21-bbbe-4a2b9e299c50",
+          "name": "Ben Walmsley",
+          "slug": "ben-walmsley"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "adeae59a-11d4-4b44-a64e-4117b9663359",
+          "name": "Tak Wing Chan",
+          "slug": "tak-wing-chan"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "b55d889f-3714-40b1-8185-6a51648af11a",
+          "name": "Eleonora Belfiore",
+          "slug": "eleonora-belfiore"
         },
         "roleName": {
           "name": "Researcher",
@@ -3986,19 +4199,6 @@
       },
       {
         "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "8f92eade-690d-49cf-9899-4307a10cce43",
           "name": "Nick Hanley",
           "slug": "nick-hanley"
@@ -5357,6 +5557,76 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "2afe8d12-42b7-4eb1-8143-59a82f541571",
+    "name": "Henslowe-Alleyn website",
+    "slug": "henslowe-alleyn-website",
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "51e34008-4224-4cf2-b32d-1717840c032b",
+          "name": "Mark Fitch Fund",
+          "slug": "mark-fitch-fund"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "91293298-1807-4d7c-9db4-3a5cff4904aa",
+            "name": "University of Reading",
+            "slug": "university-of-reading"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
+          "name": "Paul Caton",
+          "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "ec78aff8-05be-4ddc-8612-83c7aacab8d5",
+          "name": "Grace Ioppolo",
+          "slug": "grace-ioppolo"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "HGL",
     "cmsStatus": "published",
     "description": "The aim of the Gazetteer is to record, and to provide with Unique Identifiers, locations and monuments within modern Libya which are of significance to the history of the area up to 1950; we are offering as many variant names as possible, together with geodata from various sources.",
@@ -5722,19 +5992,6 @@
         },
         "roleName": {
           "name": "Co-investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
-          "name": "Paul Caton",
-          "slug": "paul-caton"
-        },
-        "roleName": {
-          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -6220,6 +6477,12 @@
         "linkrole_id": {
           "name": "Repository: kingsdigitallab/ircyr-efes",
           "url": "https://github.com/kingsdigitallab/ircyr-efes"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: data",
+          "url": "https://doi.org/10.18742/c.6002275.v1"
         }
       }
     ],
@@ -8324,19 +8587,6 @@
       },
       {
         "agent": {
-          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
-          "name": "Arianna Ciula",
-          "slug": "arianna-ciula"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "75f560b0-8f59-4479-9b13-5409bdaa7dac",
           "name": "Alessandra Esposito",
           "slug": "alessandra-esposito"
@@ -9552,19 +9802,6 @@
       },
       {
         "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
           "name": "Brian Maher",
           "slug": "brian-maher"
@@ -10601,13 +10838,35 @@
     "alternateName": null,
     "cmsStatus": "published",
     "description": "The REF 2021 Impact Data Analysis was a small project, between King's Digital Lab (KDL) and colleagues in the King's College London (KCL) Research Management & Innovation Directorate (RMID), to support the analysis of the college's [REF 2021](https://results2021.ref.ac.uk/) impact case studies and environment statements.\n\nThe data used during the development of this project includes 153 impact case studies and environment statements, in PDF (5-10 pages of text each), which follow [standard templates](https://www.ref.ac.uk/publications-and-reports/guidance-on-submissions-201901/) but are expressed with heterogeneous descriptions and language.\n\nThe project was set up to help RMID and research impact leads to address the questions:\n-\tWhat are the main types of impact KCL has delivered? Which pathways have been used to deliver those impacts?\n-\tWho are our key partners and beneficiaries of our impacts?\n-\tWhere are they - local (London), national or global?\n-\tIs there a correlation between discipline and types of impact or pathways to impact used?\n-\tWhat are the areas identified as strengths, areas for development and future plans?\n",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "dissolutionDate": "2022-12-31",
+    "foundingDate": "2022-01-01",
     "id": "c0b6c6f1-9a20-44b2-9737-a0710a4b5cc1",
     "name": "REF 2021 impact data analysis",
     "slug": "refida",
     "creativeWorkStatus": null,
-    "image": null,
+    "image": {
+      "id": "4576ce97-d755-4134-8bb1-891faa21a985",
+      "storage": "local",
+      "filename_disk": "4576ce97-d755-4134-8bb1-891faa21a985.jpg",
+      "filename_download": "REF_2021--presentation-slide.jpg",
+      "title": "Research Excellence Framework 2021 Impact Data Analysis",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-02-27T12:37:47.706Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-02-27T12:38:46.798Z",
+      "charset": null,
+      "filesize": "475792",
+      "width": 1920,
+      "height": 824,
+      "duration": null,
+      "embed": null,
+      "description": "A visual representation of a data processing workflow, with a Venn diagram on the left and an interactive dashboard on the right",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10795,19 +11054,6 @@
         },
         "roleName": {
           "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
-          "name": "Anna Reading",
-          "slug": "anna-reading"
-        },
-        "roleName": {
-          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -11790,35 +12036,15 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
+            "id": "ebc885a6-81c2-4736-9183-10fd295a49af",
+            "name": "FAH Department of English",
+            "slug": "fah-department-of-english"
           },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
+          "parentOrganisation": null
         }
       }
     ],
     "member": [
-      {
-        "agent": {
-          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
-          "name": "Elliott Hall",
-          "slug": "elliott-hall"
-        },
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
       {
         "agent": {
           "id": "7d16e0b6-31f9-49b9-ba47-cca8f76eb4c8",
@@ -11974,18 +12200,11 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
+            "id": "ebc885a6-81c2-4736-9183-10fd295a49af",
+            "name": "FAH Department of English",
+            "slug": "fah-department-of-english"
           },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
+          "parentOrganisation": null
         }
       }
     ],
@@ -13094,24 +13313,6 @@
             "id": "a0e2c4ef-4bc8-4d5c-9a62-df02c4e52492",
             "name": "FAH Department of History",
             "slug": "fah-department-of-history"
-          },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": "FAH",
-              "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
-              "slug": "faculty-of-arts-and-humanities"
-            }
-          }
-        }
-      },
-      {
-        "organisation_id": {
-          "agent": {
-            "alternateName": null,
-            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
-            "name": "FAH Department of Digital Humanities",
-            "slug": "ddh"
           },
           "parentOrganisation": {
             "agent": {
