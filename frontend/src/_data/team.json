@@ -180,6 +180,15 @@
     }
   },
   {
+    "slug": "charlotte-roueché",
+    "jobTitle": "Honorary Research Fellow",
+    "team": "Research fellows",
+    "feature": {
+      "image": "/assets/images/people/charlotte-roueché.jpg",
+      "description": "Photo of Professor Charlotte Roueché"
+    }
+  },
+  {
     "slug": "luis-figueira",
     "jobTitle": "Former Software Developer",
     "team": "Former staff",
