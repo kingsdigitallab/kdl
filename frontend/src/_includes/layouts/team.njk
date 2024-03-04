@@ -8,29 +8,29 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
 </section>
 
 {% for team, items in team | groupby("team") %}
-  <section id="{{ team | slugify }}">
-    {% if team == "KDL" %}
-      <h2>Current {{ team }} team members</h2>
-    {% else %}
-      <h2>{{ team }}</h2>
-    {% endif %}
-    <ul>
-      {%- for item in items | sort(false, false, "slug") -%}
-        {% set agent = people | filter(item.slug, 'agent.slug') | first %}
-        <li id="{{ item.slug }}">
-          {% if item.feature %}<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}">{% endif %}
-          <section>
-            <h3>
-              {% if agent %}
-                <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
-              {% else %}
-                {{ item.slug }}
-              {% endif %}
-            </h3>
-            <h2>{{ item.jobTitle }}</h2>
-          </section>
-        </li>
-      {%- endfor -%}
-    </ul>
-  </section>
+<section id="{{ team | slugify }}">
+  {% if team == "KDL" %}
+  <h2>Current {{ team }} team members</h2>
+  {% else %}
+  <h2>{{ team }}</h2>
+  {% endif %}
+  <ul>
+    {%- for item in items | sort(false, false, "slug") -%}
+    {% set agent = people | filter(item.slug, 'agent.slug') | first %}
+    <li id="{{ item.slug }}">
+      {% if item.feature %}<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}">{% endif %}
+      <section>
+        <h3>
+          {% if agent %}
+          <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
+          {% else %}
+          {{ item.name }}
+          {% endif %}
+        </h3>
+        <h2>{{ item.jobTitle }}</h2>
+      </section>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
 {%- endfor -%}
