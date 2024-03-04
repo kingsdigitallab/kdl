@@ -23,6 +23,8 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
         <h3>
           {% if agent %}
           <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
+          {% elif item.feature.url %}
+          <a href="{{ item.feature.url }}">{{ item.name }}</a>
           {% else %}
           {{ item.name }}
           {% endif %}

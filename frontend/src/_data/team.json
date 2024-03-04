@@ -114,7 +114,8 @@
     "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/patrick-ffrench.jpg",
-      "description": "Photo of Professor Patrick Ffrench"
+      "description": "Photo of Professor Patrick Ffrench",
+      "url": "https://www.kcl.ac.uk/people/patrick-ffrench"
     }
   },
   {
@@ -124,7 +125,8 @@
     "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/virginia-crisp.jpg",
-      "description": "Photo of Dr Virginia Crisp"
+      "description": "Photo of Dr Virginia Crisp",
+      "url": "https://www.kcl.ac.uk/people/virginia-crisp"
     }
   },
   {
@@ -134,7 +136,8 @@
     "team": "Departmental affiliates",
     "feature": {
       "image": "/assets/images/people/rebecca-levitan.jpg",
-      "description": "Photo of Dr Rebecca Levitan"
+      "description": "Photo of Dr Rebecca Levitan",
+      "url": "https://www.kcl.ac.uk/people/rebecca-levitan"
     }
   },
   {
@@ -189,7 +192,8 @@
     "team": "Research fellows",
     "feature": {
       "image": "/assets/images/people/charlotte-roueché.jpg",
-      "description": "Photo of Professor Charlotte Roueché"
+      "description": "Photo of Professor Charlotte Roueché",
+      "url": "https://www.kcl.ac.uk/people/professor-charlotte-roueche"
     }
   },
   {
