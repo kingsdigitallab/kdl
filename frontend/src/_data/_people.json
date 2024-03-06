@@ -14783,8 +14783,8 @@
             "name": "Henslowe-Alleyn website",
             "alternateName": null,
             "slug": "henslowe-alleyn-website",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2004-01-01",
+            "dissolutionDate": "2022-08-31",
             "department": [
               {
                 "organisation_id": {
