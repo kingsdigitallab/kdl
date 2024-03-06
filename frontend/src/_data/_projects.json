@@ -5622,6 +5622,19 @@
     "member": [
       {
         "agent": {
+          "id": "deeae2dc-bbc7-42c6-88a0-9a087cba076b",
+          "name": "Olga Loboda",
+          "slug": "olga-loboda"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
           "name": "Tiffany Ong",
           "slug": "tiffany-ong"
@@ -5651,6 +5664,19 @@
           "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
           "name": "Brian Maher",
           "slug": "brian-maher"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dc0fb205-6188-4a77-9d3f-729c94ed63fe",
+          "name": "Paul Vetch",
+          "slug": "paul-vetch"
         },
         "roleName": {
           "name": "RSE team member",
