@@ -5635,6 +5635,19 @@
       },
       {
         "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "ec78aff8-05be-4ddc-8612-83c7aacab8d5",
           "name": "Grace Ioppolo",
           "slug": "grace-ioppolo"
