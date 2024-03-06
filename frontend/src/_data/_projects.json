@@ -5635,6 +5635,19 @@
       },
       {
         "agent": {
+          "id": "0b346346-7e06-4686-99c0-64d87d69e8a4",
+          "name": "David Cooper",
+          "slug": "david-cooper"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
           "name": "Tiffany Ong",
           "slug": "tiffany-ong"
