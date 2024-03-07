@@ -5626,6 +5626,22 @@
           "name": "The Thriplow Charitable Trust",
           "slug": "the-thriplow-charitable-trust"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "aca07583-dd9b-4ea6-8ddc-37785c7a07cf",
+          "name": "The Pilgrim Trust",
+          "slug": "the-pilgrim-trust"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "b066b9bf-c536-44ee-a28e-71c35ccfecd2",
+          "name": "The Huntington",
+          "slug": "the-huntington"
+        }
       }
     ],
     "keywords": [],
