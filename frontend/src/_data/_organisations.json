@@ -6757,6 +6757,118 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-03-07T12:42:32.713Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": "1892-07-25",
+    "id": "80a77d59-1b72-4d97-9e9f-405692a5d79b",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-03-07T12:40:46.559Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "5a4b52da-c65d-4a60-a85b-ce28126c2a79",
+      "name": "The Bibliographical Society",
+      "slug": "the-bibliographical-society",
+      "url": [
+        {
+          "id": 30,
+          "agent_id": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-03-07T12:40:46.559Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "5a4b52da-c65d-4a60-a85b-ce28126c2a79",
+            "name": "The Bibliographical Society",
+            "slug": "the-bibliographical-society",
+            "url": [
+              30
+            ],
+            "memberOf": []
+          },
+          "linkrole_id": {
+            "cmsDateCreated": "2024-03-07T12:40:46.564Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsStatus": "draft",
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "endDate": null,
+            "id": "6f002119-49ac-4543-b8f1-10766c77be18",
+            "name": "Organization URL",
+            "startDate": null,
+            "url": "https://bibsoc.org.uk/"
+          }
+        }
+      ],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2024-03-07T12:55:45.065Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": "1904-10-18",
+    "id": "2d31689b-5f8a-4bb0-af6d-3abe8b9e057c",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-03-07T12:54:41.429Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "e68d81a7-c484-47c8-b2ba-8d4d0eead7db",
+      "name": "The Bibliographical Society of America",
+      "slug": "the-bibliographical-society-of-america",
+      "url": [
+        {
+          "id": 31,
+          "agent_id": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-03-07T12:54:41.429Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "e68d81a7-c484-47c8-b2ba-8d4d0eead7db",
+            "name": "The Bibliographical Society of America",
+            "slug": "the-bibliographical-society-of-america",
+            "url": [
+              31
+            ],
+            "memberOf": []
+          },
+          "linkrole_id": {
+            "cmsDateCreated": "2024-03-07T12:54:41.436Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsStatus": "draft",
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "endDate": null,
+            "id": "8c31e21f-cc4a-44c1-8363-b74ab88b447f",
+            "name": "Organization URL",
+            "startDate": null,
+            "url": "https://bibsocamer.org/"
+          }
+        }
+      ],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-18T16:32:35.298Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

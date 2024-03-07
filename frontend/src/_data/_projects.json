@@ -5658,6 +5658,22 @@
           "name": "University of Reading",
           "slug": "university-of-reading"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "5a4b52da-c65d-4a60-a85b-ce28126c2a79",
+          "name": "The Bibliographical Society",
+          "slug": "the-bibliographical-society"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "e68d81a7-c484-47c8-b2ba-8d4d0eead7db",
+          "name": "The Bibliographical Society of America",
+          "slug": "the-bibliographical-society-of-america"
+        }
       }
     ],
     "keywords": [],
