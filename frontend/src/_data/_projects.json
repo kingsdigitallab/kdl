@@ -5618,6 +5618,14 @@
           "name": "British Academy",
           "slug": "british-academy"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "8d26502c-1012-4fa3-95a6-20918bd41aa9",
+          "name": "The Thriplow Charitable Trust",
+          "slug": "the-thriplow-charitable-trust"
+        }
       }
     ],
     "keywords": [],
