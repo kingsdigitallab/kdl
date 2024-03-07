@@ -5602,6 +5602,22 @@
           "name": "Mark Fitch Fund",
           "slug": "mark-fitch-fund"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "d5151b99-e995-43ea-a125-aaffa9abd237",
+          "name": "Leverhulme Trust",
+          "slug": "leverhulme-trust"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "b25263e6-6b47-4847-a3e5-83766cb34baa",
+          "name": "British Academy",
+          "slug": "british-academy"
+        }
       }
     ],
     "keywords": [],
