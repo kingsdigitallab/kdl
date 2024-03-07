@@ -1041,22 +1041,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "CultureCase",
-            "alternateName": null,
-            "slug": "culture-case",
-            "foundingDate": "2017-01-01",
-            "dissolutionDate": "2017-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH King's Culture"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
@@ -1153,11 +1138,11 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CultureCase",
+            "name": "CultureCase: putting research to work",
             "alternateName": null,
             "slug": "culture-case",
-            "foundingDate": "2017-01-01",
-            "dissolutionDate": "2017-12-31",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
             "department": [
               {
                 "organisation_id": {
@@ -6532,6 +6517,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -18779,6 +18788,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
                   }
                 }
               }

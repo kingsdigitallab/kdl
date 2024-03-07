@@ -2540,12 +2540,12 @@
   },
   {
     "alternateName": null,
-    "cmsStatus": "draft",
-    "description": null,
-    "dissolutionDate": "2017-12-31",
-    "foundingDate": "2017-01-01",
+    "cmsStatus": "published",
+    "description": "The CultureCase site is a legacy site, developed by a different design and development team. It is designed as a research resource for academic studies centred in the Arts and Culture sector. It contains synopses and reviews of current culture-related research articles, curated by academic and research staff affiliated with the King’s Culture Institute. CultureCase contains links to the articles it reviews, but it does not currently maintain an archive of those articles.\n\nIn liaison with the editorial team at King's Culture coordinated by James Doeser, KDL team migrated and converted the Content Management System from Wordpress to Wagtail, replaced the backend (Django framework) and continues to provide server infrastructure for web hosting. The original plan was for the project environment to integrate data processing and the site to publish associated visualisations produced by students in Informatics at King's College London. However this part of the collaboration did not materialise.\n\nThe frontend was only tweaked by KDL, who also undertook an accessibility assessment in 2022 as part of its Service Level Agreement.",
+    "dissolutionDate": "2019-01-07",
+    "foundingDate": "2018-01-08",
     "id": "bd515450-96a2-4718-82d7-af61b85cd2bc",
-    "name": "CultureCase",
+    "name": "CultureCase: putting research to work",
     "slug": "culture-case",
     "creativeWorkStatus": {
       "name": "Post-project",
@@ -2570,6 +2570,12 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "https://culturecase.org/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: ",
+          "url": "https://github.com/kingsdigitallab/culturecase-django/"
         }
       }
     ],
@@ -2609,9 +2615,22 @@
       },
       {
         "agent": {
-          "id": "78713c2c-720d-44d6-b6b0-b739de444f85",
-          "name": "Stephen Clift",
-          "slug": "stephen-clift"
+          "id": "1e74177f-3c3c-4644-b661-01f602654338",
+          "name": "Dan Walker",
+          "slug": "dan-walker"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "cf22a43e-a43c-4698-9d9a-b4eff3fc9ac9",
+          "name": "Alexandra Talbott",
+          "slug": "alexandra-talbott"
         },
         "roleName": {
           "name": "Researcher",
@@ -2622,9 +2641,9 @@
       },
       {
         "agent": {
-          "id": "f515c55f-b3dd-4338-9841-db1a966e45d3",
-          "name": "Dave O'Brien",
-          "slug": "dave-o-brien"
+          "id": "87f2b1ed-4f74-44ef-8ab6-749d13459262",
+          "name": "Jansen Chipp",
+          "slug": "jansen-chipp"
         },
         "roleName": {
           "name": "Researcher",
@@ -2635,9 +2654,9 @@
       },
       {
         "agent": {
-          "id": "870da8d0-aea2-4292-8935-4df7a4bb87c3",
-          "name": "Beatriz Garcia",
-          "slug": "beatriz-garcia"
+          "id": "09556691-e9c4-4346-bfe2-23651aef536d",
+          "name": "Kai Essers",
+          "slug": "kai-essers"
         },
         "roleName": {
           "name": "Researcher",
@@ -2661,64 +2680,51 @@
       },
       {
         "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "c5244f71-d67f-4934-b4b1-92400aa7fa3e",
           "name": "Elizabeth Sklar",
           "slug": "elizabeth-sklar"
         },
         "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "98a66315-d630-4c94-b93b-a41f480f6852",
+          "name": "Ruth Hogarth",
+          "slug": "ruth-hogarth"
+        },
+        "roleName": {
           "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
-          "name": "Anna Reading",
-          "slug": "anna-reading"
-        },
-        "roleName": {
-          "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "5117409b-fc16-4d21-bbbe-4a2b9e299c50",
-          "name": "Ben Walmsley",
-          "slug": "ben-walmsley"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "adeae59a-11d4-4b44-a64e-4117b9663359",
-          "name": "Tak Wing Chan",
-          "slug": "tak-wing-chan"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "b55d889f-3714-40b1-8185-6a51648af11a",
-          "name": "Eleonora Belfiore",
-          "slug": "eleonora-belfiore"
-        },
-        "roleName": {
-          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
