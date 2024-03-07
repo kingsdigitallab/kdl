@@ -5540,6 +5540,62 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-03-07T09:15:45.597Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": "1932-04-23",
+    "id": "15d8aaea-474b-4635-ae23-64f949662583",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-03-07T09:13:39.921Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "28912505-e9e5-4e55-a9a9-5b7c35917e66",
+      "name": "Folger Shakespeare Library",
+      "slug": "folger-shakespeare-library",
+      "url": [
+        {
+          "id": 29,
+          "agent_id": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-03-07T09:13:39.921Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "28912505-e9e5-4e55-a9a9-5b7c35917e66",
+            "name": "Folger Shakespeare Library",
+            "slug": "folger-shakespeare-library",
+            "url": [
+              29
+            ],
+            "memberOf": []
+          },
+          "linkrole_id": {
+            "cmsDateCreated": "2024-03-07T09:13:39.927Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsStatus": "draft",
+            "cmsUserCreated": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+            "cmsUserUpdated": null,
+            "endDate": null,
+            "id": "c151a960-612c-4523-a36f-36f515ef6c8c",
+            "name": "Organization URL",
+            "startDate": null,
+            "url": "https://www.folger.edu/"
+          }
+        }
+      ],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:10.297Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

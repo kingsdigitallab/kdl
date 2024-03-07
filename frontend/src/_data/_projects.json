@@ -5642,6 +5642,22 @@
           "name": "The Huntington",
           "slug": "the-huntington"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "28912505-e9e5-4e55-a9a9-5b7c35917e66",
+          "name": "Folger Shakespeare Library",
+          "slug": "folger-shakespeare-library"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "91293298-1807-4d7c-9db4-3a5cff4904aa",
+          "name": "University of Reading",
+          "slug": "university-of-reading"
+        }
       }
     ],
     "keywords": [],
