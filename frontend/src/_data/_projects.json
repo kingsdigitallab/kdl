@@ -5041,6 +5041,167 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2024-09-30",
+    "foundingDate": "2023-04-01",
+    "id": "ec85d37c-456a-473b-8bea-193720c5e183",
+    "name": "Glow3",
+    "slug": "glow",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "AHRC",
+          "id": "6f51b75e-4d42-41f1-9231-639f922ecd39",
+          "name": "Arts and Humanities Research Council",
+          "slug": "ahrc"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://www.kcl.ac.uk/research/glow3"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "CMCI",
+            "id": "14ea4bef-08f3-4c9d-a46d-05f5550062d5",
+            "name": "FAH Department of Culture, Media & Creative Industries",
+            "slug": "fah-department-of-culture-media-and-creative-industries"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+            "name": "FAH King's Culture",
+            "slug": "fah-king-s-culture"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c58d8566-08d8-41b8-82da-8d768adf7a1c",
+            "name": "King's Global Institute for Women’s Leadership",
+            "slug": "king-s-global-institute-for-women-s-leadership"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "FAH",
+            "id": "f471d028-1bea-4504-9428-5dec831ef635",
+            "name": "Faculty of Arts and Humanities",
+            "slug": "faculty-of-arts-and-humanities"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "DFI",
+            "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
+            "name": "Digital Futures Institute",
+            "slug": "digital-futures-institute"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1f20514f-317a-45c5-ab22-ebf469e5f99d",
+          "name": " Sarah Atkinson",
+          "slug": "sarah-atkinson"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "053d5850-04e6-4865-be04-8cae2719b58b",
+          "name": "Yarli Allison",
+          "slug": "yarli-allison"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "",
     "cmsStatus": "published",
     "description": " A fine in the reign of King of England Henry III (1216–1272) was an agreement to pay the king a sum of money for a specified concession. There is a fine roll for each of Henry III's fifty-six regnal years. Recording offers of money to the king for a multiplicity of concessions and favours, they are of the first importance for the study of political, governmental, legal, social, and economic history.\n\nThe Henry III Fine Rolls Project, which was funded by the Arts and Humanities Research Council between April 2005 and December 2011, makes the rolls available on the website in a summarised and translated form. The site also provides extensive indexes of people, places, and subjects related to the rolls, as well as high resolution images of the originals. ",

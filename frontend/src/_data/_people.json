@@ -5085,6 +5085,63 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Glow3",
+            "alternateName": null,
+            "slug": "glow",
+            "foundingDate": "2023-04-01",
+            "dissolutionDate": "2024-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Global Institute for Women’s Leadership"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -14095,6 +14152,63 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Glow3",
+            "alternateName": null,
+            "slug": "glow",
+            "foundingDate": "2023-04-01",
+            "dissolutionDate": "2024-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Global Institute for Women’s Leadership"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
