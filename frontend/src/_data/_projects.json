@@ -5073,6 +5073,12 @@
           "name": "Project URL",
           "url": "https://www.kcl.ac.uk/research/glow3"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Digital Futures Institute Article",
+          "url": "https://www.kcl.ac.uk/professor-sarah-atkinson-womens-seminal-contributions-in-creative-tech-are-often-hidden"
+        }
       }
     ],
     "department": [
@@ -5162,12 +5168,38 @@
       },
       {
         "agent": {
+          "id": "348c7a5d-b61b-41cc-bf39-0d11b7e5827f",
+          "name": "Lisa Jamhoury",
+          "slug": "lisa-jamhoury"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "1f20514f-317a-45c5-ab22-ebf469e5f99d",
           "name": " Sarah Atkinson",
           "slug": "sarah-atkinson"
         },
         "roleName": {
           "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "0e9c307b-bb9e-42bf-8d6f-dc6f2ed39cd4",
+          "name": "Violeta Ayala",
+          "slug": "violeta-ayala"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -5183,6 +5215,19 @@
           "name": "Research Software Analyst",
           "inDefinedTermSet": {
             "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "18ca30c5-d7b9-478f-b848-4217ef3d94b2",
+          "name": "Rebecca Smith",
+          "slug": "rebecca-smith"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
           }
         }
       },
