@@ -1041,22 +1041,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "CultureCase",
-            "alternateName": null,
-            "slug": "culture-case",
-            "foundingDate": "2017-01-01",
-            "dissolutionDate": "2017-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH King's Culture"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
@@ -1153,11 +1138,11 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "CultureCase",
+            "name": "CultureCase: putting research to work",
             "alternateName": null,
             "slug": "culture-case",
-            "foundingDate": "2017-01-01",
-            "dissolutionDate": "2017-12-31",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
             "department": [
               {
                 "organisation_id": {
@@ -2505,6 +2490,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Henslowe-Alleyn Digitisation Project",
+            "alternateName": null,
+            "slug": "henslowe-alleyn-website",
+            "foundingDate": "2004-09-01",
+            "dissolutionDate": "2022-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Reading"
                   }
                 }
               }
@@ -5076,6 +5085,63 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Glow3",
+            "alternateName": null,
+            "slug": "glow",
+            "foundingDate": "2023-04-01",
+            "dissolutionDate": "2024-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Global Institute for Women’s Leadership"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -6508,6 +6574,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -14068,6 +14158,63 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Glow3",
+            "alternateName": null,
+            "slug": "glow",
+            "foundingDate": "2023-04-01",
+            "dissolutionDate": "2024-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Global Institute for Women’s Leadership"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Australian Cultural Data Engine",
             "alternateName": "ACD-Engine",
             "slug": "acd-engine",
@@ -14332,6 +14479,30 @@
       "slug": "olga-loboda",
       "description": "With a background in digital humanities and front-end development, Olga joined King’s Digital Lab as a UX/UI Designer from 2019 to 2021.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Henslowe-Alleyn Digitisation Project",
+            "alternateName": null,
+            "slug": "henslowe-alleyn-website",
+            "foundingDate": "2004-09-01",
+            "dissolutionDate": "2022-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Reading"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -14780,11 +14951,11 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Henslowe-Alleyn website",
+            "name": "Henslowe-Alleyn Digitisation Project",
             "alternateName": null,
             "slug": "henslowe-alleyn-website",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2004-09-01",
+            "dissolutionDate": "2022-08-31",
             "department": [
               {
                 "organisation_id": {
@@ -15738,6 +15909,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Henslowe-Alleyn Digitisation Project",
+            "alternateName": null,
+            "slug": "henslowe-alleyn-website",
+            "foundingDate": "2004-09-01",
+            "dissolutionDate": "2022-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Reading"
                   }
                 }
               }
@@ -18478,6 +18673,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Henslowe-Alleyn Digitisation Project",
+            "alternateName": null,
+            "slug": "henslowe-alleyn-website",
+            "foundingDate": "2004-09-01",
+            "dissolutionDate": "2022-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Reading"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Brightening the Covenant Chain",
             "alternateName": "BCC",
             "slug": "bcc",
@@ -18683,6 +18902,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
                   }
                 }
               }

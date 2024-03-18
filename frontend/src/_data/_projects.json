@@ -2540,12 +2540,12 @@
   },
   {
     "alternateName": null,
-    "cmsStatus": "draft",
-    "description": null,
-    "dissolutionDate": "2017-12-31",
-    "foundingDate": "2017-01-01",
+    "cmsStatus": "published",
+    "description": "The CultureCase site is a legacy site, developed by a different design and development team. It is designed as a research resource for academic studies centred in the Arts and Culture sector. It contains synopses and reviews of current culture-related research articles, curated by academic and research staff affiliated with the King’s Culture Institute. CultureCase contains links to the articles it reviews, but it does not currently maintain an archive of those articles.\n\nIn liaison with the editorial team at King's Culture coordinated by James Doeser, KDL team migrated and converted the Content Management System from Wordpress to Wagtail, replaced the backend (Django framework) and continues to provide server infrastructure for web hosting. The original plan was for the project environment to integrate data processing and the site to publish associated visualisations produced by students in Informatics at King's College London. However this part of the collaboration did not materialise.\n\nThe frontend was only tweaked by KDL, who also undertook an accessibility assessment in 2022 as part of its Service Level Agreement.",
+    "dissolutionDate": "2019-01-07",
+    "foundingDate": "2018-01-08",
     "id": "bd515450-96a2-4718-82d7-af61b85cd2bc",
-    "name": "CultureCase",
+    "name": "CultureCase: putting research to work",
     "slug": "culture-case",
     "creativeWorkStatus": {
       "name": "Post-project",
@@ -2570,6 +2570,12 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "https://culturecase.org/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: https://github.com/kingsdigitallab/culturecase-django/",
+          "url": "https://github.com/kingsdigitallab/culturecase-django/"
         }
       }
     ],
@@ -2609,9 +2615,22 @@
       },
       {
         "agent": {
-          "id": "78713c2c-720d-44d6-b6b0-b739de444f85",
-          "name": "Stephen Clift",
-          "slug": "stephen-clift"
+          "id": "1e74177f-3c3c-4644-b661-01f602654338",
+          "name": "Dan Walker",
+          "slug": "dan-walker"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "cf22a43e-a43c-4698-9d9a-b4eff3fc9ac9",
+          "name": "Alexandra Talbott",
+          "slug": "alexandra-talbott"
         },
         "roleName": {
           "name": "Researcher",
@@ -2622,9 +2641,9 @@
       },
       {
         "agent": {
-          "id": "f515c55f-b3dd-4338-9841-db1a966e45d3",
-          "name": "Dave O'Brien",
-          "slug": "dave-o-brien"
+          "id": "87f2b1ed-4f74-44ef-8ab6-749d13459262",
+          "name": "Jansen Chipp",
+          "slug": "jansen-chipp"
         },
         "roleName": {
           "name": "Researcher",
@@ -2635,9 +2654,9 @@
       },
       {
         "agent": {
-          "id": "870da8d0-aea2-4292-8935-4df7a4bb87c3",
-          "name": "Beatriz Garcia",
-          "slug": "beatriz-garcia"
+          "id": "09556691-e9c4-4346-bfe2-23651aef536d",
+          "name": "Kai Essers",
+          "slug": "kai-essers"
         },
         "roleName": {
           "name": "Researcher",
@@ -2661,64 +2680,51 @@
       },
       {
         "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "c5244f71-d67f-4934-b4b1-92400aa7fa3e",
           "name": "Elizabeth Sklar",
           "slug": "elizabeth-sklar"
         },
         "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "98a66315-d630-4c94-b93b-a41f480f6852",
+          "name": "Ruth Hogarth",
+          "slug": "ruth-hogarth"
+        },
+        "roleName": {
           "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
-          "name": "Anna Reading",
-          "slug": "anna-reading"
-        },
-        "roleName": {
-          "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "5117409b-fc16-4d21-bbbe-4a2b9e299c50",
-          "name": "Ben Walmsley",
-          "slug": "ben-walmsley"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "adeae59a-11d4-4b44-a64e-4117b9663359",
-          "name": "Tak Wing Chan",
-          "slug": "tak-wing-chan"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "b55d889f-3714-40b1-8185-6a51648af11a",
-          "name": "Eleonora Belfiore",
-          "slug": "eleonora-belfiore"
-        },
-        "roleName": {
-          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -5035,6 +5041,212 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2024-09-30",
+    "foundingDate": "2023-04-01",
+    "id": "ec85d37c-456a-473b-8bea-193720c5e183",
+    "name": "Glow3",
+    "slug": "glow",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "AHRC",
+          "id": "6f51b75e-4d42-41f1-9231-639f922ecd39",
+          "name": "Arts and Humanities Research Council",
+          "slug": "ahrc"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://www.kcl.ac.uk/research/glow3"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Digital Futures Institute Article",
+          "url": "https://www.kcl.ac.uk/professor-sarah-atkinson-womens-seminal-contributions-in-creative-tech-are-often-hidden"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "CMCI",
+            "id": "14ea4bef-08f3-4c9d-a46d-05f5550062d5",
+            "name": "FAH Department of Culture, Media & Creative Industries",
+            "slug": "fah-department-of-culture-media-and-creative-industries"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0c160380-4416-4d19-922a-3327f1343cd6",
+            "name": "FAH King's Culture",
+            "slug": "fah-king-s-culture"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c58d8566-08d8-41b8-82da-8d768adf7a1c",
+            "name": "King's Global Institute for Women’s Leadership",
+            "slug": "king-s-global-institute-for-women-s-leadership"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "FAH",
+            "id": "f471d028-1bea-4504-9428-5dec831ef635",
+            "name": "Faculty of Arts and Humanities",
+            "slug": "faculty-of-arts-and-humanities"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "DFI",
+            "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
+            "name": "Digital Futures Institute",
+            "slug": "digital-futures-institute"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "348c7a5d-b61b-41cc-bf39-0d11b7e5827f",
+          "name": "Lisa Jamhoury",
+          "slug": "lisa-jamhoury"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1f20514f-317a-45c5-ab22-ebf469e5f99d",
+          "name": " Sarah Atkinson",
+          "slug": "sarah-atkinson"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "0e9c307b-bb9e-42bf-8d6f-dc6f2ed39cd4",
+          "name": "Violeta Ayala",
+          "slug": "violeta-ayala"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "18ca30c5-d7b9-478f-b848-4217ef3d94b2",
+          "name": "Rebecca Smith",
+          "slug": "rebecca-smith"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "053d5850-04e6-4865-be04-8cae2719b58b",
+          "name": "Yarli Allison",
+          "slug": "yarli-allison"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "",
     "cmsStatus": "published",
     "description": " A fine in the reign of King of England Henry III (1216–1272) was an agreement to pay the king a sum of money for a specified concession. There is a fine roll for each of Henry III's fifty-six regnal years. Recording offers of money to the king for a multiplicity of concessions and favours, they are of the first importance for the study of political, governmental, legal, social, and economic history.\n\nThe Henry III Fine Rolls Project, which was funded by the Arts and Humanities Research Council between April 2005 and December 2011, makes the rolls available on the website in a summarised and translated form. The site also provides extensive indexes of people, places, and subjects related to the rolls, as well as high resolution images of the originals. ",
@@ -5558,12 +5770,12 @@
   },
   {
     "alternateName": null,
-    "cmsStatus": "draft",
-    "description": null,
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "cmsStatus": "published",
+    "description": "The Henslowe-Alleyn website provides virtual access to a uniquely important archive of manuscript material relating to the professional theatre and dramatic performance in early modern England, the age of Shakespeare, Marlowe, and Jonson. Users can see high-resolution images of each manuscript and can download in PDF form transcripts of some of the most important documents. A collection of essays helps explain and contextualize the material.",
+    "dissolutionDate": "2022-08-31",
+    "foundingDate": "2004-09-01",
     "id": "2afe8d12-42b7-4eb1-8143-59a82f541571",
-    "name": "Henslowe-Alleyn website",
+    "name": "Henslowe-Alleyn Digitisation Project",
     "slug": "henslowe-alleyn-website",
     "creativeWorkStatus": {
       "name": "Post-project",
@@ -5571,7 +5783,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "a7136ed9-2b9b-464c-abac-a475914d236b",
+      "storage": "local",
+      "filename_disk": "a7136ed9-2b9b-464c-abac-a475914d236b.png",
+      "filename_download": "Screenshot 2024-03-06 at 15.08.20.png",
+      "title": "Website display of a manuscript promptbook.",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "uploaded_on": "2024-03-06T15:12:22.246Z",
+      "modified_by": "d6936336-94a2-47ee-aa5d-cf7c62ff3409",
+      "modified_on": "2024-03-06T15:20:28.179Z",
+      "charset": null,
+      "filesize": "1590559",
+      "width": 1285,
+      "height": 888,
+      "duration": null,
+      "embed": null,
+      "description": "Website image display of a manuscript prompt book detailing what is meant to happen in different scenes.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -5579,6 +5813,78 @@
           "id": "51e34008-4224-4cf2-b32d-1717840c032b",
           "name": "Mark Fitch Fund",
           "slug": "mark-fitch-fund"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "d5151b99-e995-43ea-a125-aaffa9abd237",
+          "name": "Leverhulme Trust",
+          "slug": "leverhulme-trust"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "b25263e6-6b47-4847-a3e5-83766cb34baa",
+          "name": "British Academy",
+          "slug": "british-academy"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "8d26502c-1012-4fa3-95a6-20918bd41aa9",
+          "name": "The Thriplow Charitable Trust",
+          "slug": "the-thriplow-charitable-trust"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "aca07583-dd9b-4ea6-8ddc-37785c7a07cf",
+          "name": "The Pilgrim Trust",
+          "slug": "the-pilgrim-trust"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "b066b9bf-c536-44ee-a28e-71c35ccfecd2",
+          "name": "The Huntington",
+          "slug": "the-huntington"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "28912505-e9e5-4e55-a9a9-5b7c35917e66",
+          "name": "Folger Shakespeare Library",
+          "slug": "folger-shakespeare-library"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "91293298-1807-4d7c-9db4-3a5cff4904aa",
+          "name": "University of Reading",
+          "slug": "university-of-reading"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "5a4b52da-c65d-4a60-a85b-ce28126c2a79",
+          "name": "The Bibliographical Society",
+          "slug": "the-bibliographical-society"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "e68d81a7-c484-47c8-b2ba-8d4d0eead7db",
+          "name": "The Bibliographical Society of America",
+          "slug": "the-bibliographical-society-of-america"
         }
       }
     ],
@@ -5600,9 +5906,74 @@
     "member": [
       {
         "agent": {
+          "id": "deeae2dc-bbc7-42c6-88a0-9a087cba076b",
+          "name": "Olga Loboda",
+          "slug": "olga-loboda"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "0b346346-7e06-4686-99c0-64d87d69e8a4",
+          "name": "David Cooper",
+          "slug": "david-cooper"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dc0fb205-6188-4a77-9d3f-729c94ed63fe",
+          "name": "Paul Vetch",
+          "slug": "paul-vetch"
         },
         "roleName": {
           "name": "RSE team member",
@@ -10406,6 +10777,12 @@
           "name": "Repository: kingsdigitallab/pbw-django",
           "url": "https://github.com/kingsdigitallab/pbw-django"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Medieval Academy of America’s Database of Medieval Digital Resources Entry URL",
+          "url": "https://mdr-maa.org/resource/prosopography-of-the-byzantine-world/"
+        }
       }
     ],
     "department": [
@@ -13291,6 +13668,12 @@
         "linkrole_id": {
           "name": "UKRI URL",
           "url": "https://gtr.ukri.org/projects?ref=AH%2FP013759%2F1"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Medieval Academy of America’s Database of Medieval Digital Resources Entry URL",
+          "url": "https://mdr-maa.org/resource/the-community-of-the-realm-in-scotland-1249-1424/"
         }
       }
     ],
