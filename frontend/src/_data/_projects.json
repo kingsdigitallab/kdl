@@ -246,6 +246,12 @@
           "name": "UKRI URL",
           "url": "https://gtr.ukri.org/projects?ref=AH%2FV012738%2F1"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/alice-thornton",
+          "url": "https://github.com/kingsdigitallab/alice-thornton "
+        }
       }
     ],
     "department": [
