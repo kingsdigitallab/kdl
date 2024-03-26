@@ -2559,7 +2559,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "08e42730-5dcc-4c25-9a78-8c4af74c0996",
+      "storage": "local",
+      "filename_disk": "08e42730-5dcc-4c25-9a78-8c4af74c0996.png",
+      "filename_download": "CultureCase_screenshot--of--homepage.png",
+      "title": "Screenshot of CultureCase homepage",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-03-26T12:30:19.358Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-03-26T12:31:10.495Z",
+      "charset": null,
+      "filesize": "472574",
+      "width": 1070,
+      "height": 926,
+      "duration": null,
+      "embed": null,
+      "description": "Screenshot of CultureCase homepage featuring the header, a article titled 'Using digital platforms for deeper and richer engagement with arts audiences' and the footer credits 'King's Culture' with a KCL logo.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
