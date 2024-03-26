@@ -51,20 +51,16 @@ We are also interested in options such as providing projects as virtual machines
 Institutions that support SLAs for projects hosted and maintained by KDL are included in brackets, below. FAH stands for Faculty of Arts & Humanities at King’s College London.
 
 - [AHRC Research Centre for the History and Analysis of Recorded Music](http://www.charm.kcl.ac.uk) (FAH)
-- [Applying AI to Storytelling](https://aiandstorytelling.com/) (FAH)
 - [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) (FAH)
 - [Atlantic Europe in the Metal Ages](http://www.aemap.ac.uk/en/) (University of Wales)
-- [British Printed Images to 1700](http://bpi1700.cch.kcl.ac.uk/index.html) (FAH)
 - [Cambridge Edition of the Works of Ben Jonson](http://universitypublishingonline.org/cambridge/benjonson/) (Cambridge University)
-- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/) (University of Reading)
 - [Clergy of the Church of England Database](http://theclergydatabase.org.uk/) (FAH)
 - [The Community of the Realm in Scotland, 1249-1424](https://cotr.ac.uk/) (AHRC)
 - [CultureCase](https://culturecase.org/) (Cultural Institute, King’s College London)
 - [DigiPal](http://www.digipal.eu/) (FAH)
-- [Digital Ghost Hunt](https://digitalghosthunt.com/) (FAH, University of Sussex)
 - [Digitising the Prosopography of the Roman Republic](http://romanrepublic.ac.uk/) (FAH)
-- [Distant Reading Across Languages](https://dral.kdl.kcl.ac.uk/) (FAH)
 - [Exon Domesday](https://www.exondomesday.ac.uk/) (FAH)
+- [Farm-level Interdisciplinary Approaches to Endemic Livestock Disease](https://field-wt.co.uk/) (Wellcome Trust)
 - [Henry III Fine Rolls Project](http://www.finerollshenry3.org.uk/) ([dataset](https://doi.org/10.18742/jrd0-pt32)) (FAH)
 - [Henslowe-Alleyn](http://www.henslowe-alleyn.org.uk/) (University of Reading)
 - [Heritage Gazetteer of Cyprus](http://www.cyprusgazetteer.org/) (FAH)
@@ -73,9 +69,8 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html) (Royal Holloway, University of London)
 - [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29)) (FAH)
 - [Inscriptiones antiquae Orae Septentrionalis Ponti Euxini](http://iospe.kcl.ac.uk/index.html) (FAH)
-- [Inscriptions of Aphrodisias: ALA (2004) + IAph (2007)](http://www.insaph.kcl.ac.uk/ala2004/) (FAH)
-- [Inscriptions of Roman Cyrenaica](https://ircyr2020.inslib.kcl.ac.uk/en/) (FAH)
-- [Inscriptions of Roman Tripolitania](http://inslib.kcl.ac.uk/irt2009/) (British Academy)
+- [Inscriptions of Roman Cyrenaica (2021)](https://irt2021.inslib.kcl.ac.uk/en/) (FAH)
+- [Inscriptions of Roman Tripolitania](http://inslib.kcl.ac.uk/irt2009/)
 - [Inventory of Byzantine Churches](http://ibcc.dighum.kcl.ac.uk/) (FAH)
 - [Jane Austen's Fiction Manuscripts](http://www.janeausten.ac.uk/) (FAH; Oxford University)
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
@@ -86,17 +81,14 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
 - [Ministry of Information](http://www.moidigital.ac.uk/) (AHRC)
 - [Models of Authority](https://www.modelsofauthority.ac.uk/) (FAH)
-- [Mozart and Material Culture](https://mmc.kdl.kcl.ac.uk/) (FAH)
 - [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
 - [Online Chopin](http://chopinonline.ac.uk/) (FAH)
 - [People of Medieval Scotland](http://www.poms.ac.uk) ([dataset](https://doi.org/10.18742/pszz-m429)) (AHRC)
-- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk) (FAH; University of Oxford)
 - [Prosopography of the Byzantine World](http://pbw2016.kdl.kcl.ac.uk) (British Academy)
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
-- [Renaissance Skin](https://renaissanceskin.ac.uk/) (Wellcome Trust)
 - [Schenker Documents Online](http://www.schenkerdocumentsonline.org/index.html) ([dataset](https://doi.org/10.18742/x2pz-ez09)) (University of Southampton)
-- [Scrambled Messages](http://www.scrambledmessages.ac.uk/) (FAH)
 - [Sensing Place](https://sensingplace.org/) (HEI Fund)
+- [Shakespeare Holdings in the Royal Collection](https://sharc.kcl.ac.uk/) (AHRC)
 - [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) (FAH)
 - [The Values of French](https://tvof.ac.uk/) ([dataset](https://doi.org/10.6084/m9.figshare.c.4873335.v3)) (FAH)
 
@@ -111,9 +103,12 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [Cultural Exchange in a Time of Global Conflict Sourcebook](http://sourcebook.cegcproject.eu/)
 - [Current Epigraphy](https://currentepigraphy.org/)
 - [Digital Classicist](https://www.digitalclassicist.org/)
+- [Early English Laws](https://earlyenglishlaws.ac.uk/)
 - [Early Modern London Theatres](https://emlot.library.utoronto.ca/)
+- [Ego-Media](https://egomedia.supdigital.org/)
 - [Electronic Sawyer](http://www.esawyer.org.uk/)
 - Fortune Theatre Records (eREED) - migrated to be archived at the University of Toronto
+- [Gascon Rolls](http://gasconrolls.org/) ([dataset](https://doi.org/10.18742/v61x-b369))
 - [German Screen Studies](http://www.germanscreenstudies.eu/)
 - [Golden Pages for Musicologists](https://goldenpages.jpehs.co.uk/)
 - [Gough Map of Britain](http://www.goughmap.org/)
@@ -127,6 +122,8 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [Modern Languages Open/Online](https://www.modernlanguagesopen.org/)
 - [Museum of Writing](https://www.museumofwriting.org/)
 - NumiPal
+- [Pliny project](https://www.kcl.ac.uk/research/pliny-project)
+- [Production and Reading of Music Sources](http://www.proms.ac.uk/)
 - [Public Monuments and Sculptures Association](https://www.pmsa.org.uk/)
 - Relics & Selves (scripts and image metadata catalogue only; not full site) migrated to NYU Libraries
 - The Sanskrit Knowledge-Systems Project was migrated prior to KDL establishment and is now hosted at Columbia University: [http://www.columbia.edu/itc/mealac/pollock/sks/](http://www.columbia.edu/itc/mealac/pollock/sks/) (KDL also holds basic archival copy)
@@ -140,11 +137,10 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ### Migration in progress
 
-- [Early English Laws](https://earlyenglishlaws.ac.uk/)
-- Ego-Media
-- [Gascon Rolls](http://gasconrolls.org/) ([dataset](https://doi.org/10.18742/v61x-b369))
+- [British Printed Images to 1700](http://bpi1700.cch.kcl.ac.uk/index.html)
+- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
 - [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
-- [Production and Reading of Music Sources](http://www.proms.ac.uk/)
+- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
 
 ## Projects converted to static sites
 
@@ -153,11 +149,13 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [3D Visualisation in the Arts Network](http://3dvisa.cch.kcl.ac.uk/)
 - [Anglo-Saxon Charters](http://www.aschart.kcl.ac.uk/index.html)
 - [Anglo-Saxon Cluster](http://www.ascluster.org/index.html)
+- [Applying AI to Storytelling](https://aiandstorytelling.com/)
 - [Body and Mask in Ancient Theatre Space](http://www.kvl.cch.kcl.ac.uk/masks/index.html)
 - [Breaking of Britain: Cross Border Society and Scottish Independence 1216-1314](http://www.breakingofbritain.ac.uk/)
 - [City Witness](http://www.medievalswansea.ac.uk/)
 - [Computers, Literature and Philology (CLiP) conference 2006](http://www.cch.kcl.ac.uk/clip2006/)
 - [Cultures of the Lusophone Black Atlantic](http://www.clba.kcl.ac.uk/)
+- [Digital Ghost Hunt](https://digitalghosthunt.com/)
 - [Digital Humanities 2010](http://dh2010.cch.kcl.ac.uk/)
 - [Discover Medieval Chester](http://discover.medievalchester.ac.uk/)
 - [The Durham Liber Vitae Project](http://www.dlv.org.uk/)
@@ -167,6 +165,7 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Girls and Digital Culture: Transnational Reflections on Girlhood 2012](https://girlsanddigitalculture.cch.kcl.ac.uk/)
 - [Historic Weather](http://historicweather.cerch.kcl.ac.uk/)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
+- [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
 - [London Charter](http://www.londoncharter.org/)
 - [The Making Space Project](http://www.kvl.cch.kcl.ac.uk/makingspace/)
@@ -177,11 +176,19 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Out of the Wings](http://www.outofthewings.org/index.html) ([dataset](https://doi.org/10.18742/j9tb-1734))
 - [Pompey Project](http://www.pompey.cch.kcl.ac.uk/)
 - [Prosopography of the Byzantine Empire](http://pbe.dighum.kcl.ac.uk/)
+- [Scrambled Messages](http://www.scrambledmessages.ac.uk/)
 - [Shakespeare400](https://shakespeare400.kcl.ac.uk/)
 - [The Skenographia Project](http://www.skenographia.cch.kcl.ac.uk/index.html)
 - [Standards for Networking Ancient Prosopographies](https://snapdrgn.net/)
 - [Supporting Productive Queries for Research](http://spqr.cerch.kcl.ac.uk/)
 - Theatron was developed in HTML and VRML, a now defunct standard for Virtual Reality which no longer has supported plugins for any modern browsers. Content has been converted to static where possible: [Theatron 2](http://www.kvl.cch.kcl.ac.uk/THEATRON/) and [Theatron 3](http://www.theatron3.cch.kcl.ac.uk/)
+
+### Conversion to static in progress
+
+- [Distant Reading Across Languages](https://dral.kdl.kcl.ac.uk/)
+- [Inscriptions of Aphrodisias: ALA (2004) + IAph (2007)](http://www.insaph.kcl.ac.uk/ala2004/)
+- [Mozart and Material Culture](https://mmc.kdl.kcl.ac.uk/)
+- [Renaissance Skin](https://renaissanceskin.ac.uk/)
 
 ## Minimally archived projects
 
@@ -194,6 +201,7 @@ Minimally archived projects are no longer accessible. We maintain their original
 - Principal Investigator unknown;
 - Project was migrated at some time in the past but KDL retained a copy; or,
 - Intention is for project to migrate but there are no current resources to be able to do so at recipient institution.
+
 - [Archetype](http://archetype.ink)
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
@@ -240,7 +248,7 @@ Responsibility for KDL's archiving and sustainability strategy rests with its Di
 - Paul Caton and Brian Maher discuss how KDL approached managing our backlog of now-unfunded legacy software in [After the grant](https://www.youtube.com/watch?v=h3bKDlZoTgU), paper presented at the [Sixth Annual Conference for Research Software Engineering](https://rsecon2022.society-rse.org/), Newcastle Upon Tyne, September 2022.
 - Smithies, J., Sichani, A.M., & Westling, C. (2017). [Preserving 30 years of Digital Humanities Work: The Experience of King’s College London Digital Lab](http://jamessmithies.org/blog/2017/06/23/preserving-30-years-digital-humanities-work-experience-kings-digital-lab/). Presented at the DPASSH: Digital Preservation for Social Sciences and Humanities, University of Sussex.
 - Smithies, J., P. Caton, G. Ferraro, L. Figueira, E. Hall, N. Jakeman, P. Mellen, A.M. Sicani, M. Vieira, T. Watts, Carina Westling. (2017). Mechanizing the Humanities? King’s Digital Lab as Critical Experiment. Presented at the DH2017, McGill University, Montreal.
-- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). *Digital Humanities Quarterly* 13.1 (2019).
+- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). _Digital Humanities Quarterly_ 13.1 (2019).
 
 ## The team
 
