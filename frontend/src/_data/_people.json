@@ -14068,6 +14068,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Musical Lives",
+            "alternateName": null,
+            "slug": "musical-lives",
+            "foundingDate": "2023-09-01",
+            "dissolutionDate": "2026-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Music"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Medieval Francophone Literature Outside France",
             "alternateName": "MFLC",
             "slug": "medieval-francophone-literature-outside-france",

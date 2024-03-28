@@ -9766,6 +9766,78 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": null,
+    "dissolutionDate": "2026-11-30",
+    "foundingDate": "2023-09-01",
+    "id": "cb891d85-be35-4e44-ad2d-02bbcfbc4d31",
+    "name": "Musical Lives",
+    "slug": "musical-lives",
+    "creativeWorkStatus": null,
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
+          "name": "European Research Council",
+          "slug": "erc"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "ced4248d-8999-40fb-9fbd-72eaa465f59b",
+            "name": "FAH Department of Music",
+            "slug": "fah-department-of-music"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "9b75e41f-6746-4609-a2d1-4a0e5f92f6a0",
+          "name": "Emma Dillon",
+          "slug": "emma-dillon"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "Nanotoms",
     "cmsStatus": "published",
     "description": "The Nanotoms project will prototype tools for exposing  multimedia digital assets representing objects and texts in a way that includes narrative metadata (both provided by a research team and algorithmically generated), which in turn will allow more creative, experimental, accessible, multi-modal expressions of the data, linking to the future published volumes and potentially to other mixed digital and physical interfaces in the future. ",
