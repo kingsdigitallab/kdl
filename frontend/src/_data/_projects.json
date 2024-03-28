@@ -2307,7 +2307,7 @@
     "alternateName": "Crossreads",
     "cmsStatus": "published",
     "description": "KDL contribution to the development of the custom digital environment supporting the palaeographic analysis of the CROSSREADS corpus of Sicilian inscriptions. CROSSREADS is a ERC-funded project led by Pr Jonathan Prag. For more information on Crossreads please check [the main website](https://crossreads.web.ox.ac.uk/about) and the [ERC project record](https://cordis.europa.eu/project/id/885040).",
-    "dissolutionDate": "2025-09-30",
+    "dissolutionDate": "2026-09-30",
     "foundingDate": "2020-10-01",
     "id": "7db69793-9c65-4440-bb4e-6520e6940661",
     "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
@@ -2422,6 +2422,19 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "70c434a7-8a1b-4533-b2e0-47c14d48c4f1",
+          "name": "Ryan Heuser",
+          "slug": "ryan-heuser"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
