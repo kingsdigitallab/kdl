@@ -137,7 +137,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ### Migration in progress
 
-- [British Printed Images to 1700](http://bpi1700.cch.kcl.ac.uk/index.html)
+- [British Printed Images to 1700](https://bpi1700.org.uk/)
 - [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
 - [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
 - [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
