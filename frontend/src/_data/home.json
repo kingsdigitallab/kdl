@@ -1,60 +1,94 @@
-[
-  {
-    "title": "Activities",
-    "class": "activities",
-    "description": "Some of the ways we enable and deliver digital research.",
-    "items": [
-      {
-        "title": "Planning and analysis",
-        "items": [
-          "Defining requirements",
-          "Cost estimation",
-          "Data analysis",
-          "Modelling",
-          "Designing technical solutions"
-        ]
-      },
-      {
-        "title": "Creating and sustaining",
-        "items": [
-          "Building and maintaining digital resources",
-          "Data visualization",
-          "Digital accessibility",
-          "Archiving and sustainability"
-        ]
-      },
-      {
-        "title": "Participating, contributing, disseminating",
-        "items": [
-          "Sharing code",
-          "Professional bodies and interest groups",
-          "Publications",
-          "Outreach and training"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Research areas",
-    "class": "research",
-    "description": "Some pathways of innovation we are exploring.",
-    "items": [
-      {
-        "title": "Digital creativity",
-        "description": "Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions."
-      },
-      {
-        "title": "Indigenous Digital Humanities",
-        "description": "Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources."
-      },
-      {
-        "title": "Machine learning and AI",
-        "description": "Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research."
-      },
-      {
-        "title": "Data visualisation",
-        "description": "Organizing data with form, structure and shape to help users understand the story it has to tell."
-      }
-    ]
-  }
-]
+{
+  "discover": [
+    {
+      "title": "Activities",
+      "class": "activities",
+      "description": "Some of the ways we enable and deliver digital research.",
+      "items": [
+        {
+          "title": "Planning and analysis",
+          "items": [
+            "Defining requirements",
+            "Cost estimation",
+            "Data analysis",
+            "Modelling",
+            "Designing technical solutions"
+          ]
+        },
+        {
+          "title": "Creating and sustaining",
+          "items": [
+            "Building and maintaining digital resources",
+            "Data visualization",
+            "Digital accessibility",
+            "Archiving and sustainability"
+          ]
+        },
+        {
+          "title": "Participating, contributing, disseminating",
+          "items": [
+            "Sharing code",
+            "Professional bodies and interest groups",
+            "Publications",
+            "Outreach and training"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research areas",
+      "class": "research",
+      "description": "Some pathways of innovation we are exploring.",
+      "items": [
+        {
+          "title": "Digital creativity",
+          "description": "Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions."
+        },
+        {
+          "title": "Indigenous Digital Humanities",
+          "description": "Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources."
+        },
+        {
+          "title": "Machine learning and AI",
+          "description": "Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research."
+        },
+        {
+          "title": "Data visualisation",
+          "description": "Organizing data with form, structure and shape to help users understand the story it has to tell."
+        }
+      ]
+    }
+  ],
+  "communities": [
+    {
+      "title": "Digital Futures Institute",
+      "url": "https://www.kcl.ac.uk/digital-futures",
+      "image": "/assets/images/general/dfi.png",
+      "description": "Living well with technology."
+    },
+    {
+      "title": "King's Institute for Artificial Intelligence",
+      "url": "https://www.kcl.ac.uk/digital-futures",
+      "image": "/assets/images/general/dfi.png",
+      "description": "Living well with technology."
+    },
+    {
+      "title": "UK/Ireland Digital Humanities Association",
+      "url": "https://www.kcl.ac.uk/digital-futures",
+      "image": "/assets/images/general/dfi.png",
+      "description": "Living well with technology."
+    },
+    {
+      "title": "RSE Society",
+      "url": "https://www.kcl.ac.uk/digital-futures",
+      "image": "/assets/images/general/dfi.png",
+      "description": "Living well with technology."
+    },
+    {
+      "title": "DARIAH",
+      "url": "https://www.kcl.ac.uk/digital-futures",
+      "image": "/assets/images/general/dfi.png",
+      "description": "Living well with technology."
+    }
+  ]
+}

@@ -63,7 +63,7 @@ layout: layouts/base.njk
   <section class="discover">
     <h2>Discover</h2>
 
-    {% for section in home %}
+    {% for section in home.discover %}
       <h3>{{ section.title }}</h3>
       <p>{{ section.description }}</p>
       <section class="{{ section.class }}">
@@ -81,6 +81,22 @@ layout: layouts/base.njk
         {% endfor %}
       </section>
     {% endfor %}
+  </section>
+
+  <section id="communities" class="explore">
+    <h2>Communities</h2>
+
+    <section class="projects">
+      {% for item in home.communities %}
+        <div class="project">
+          {{- imageMacro({image: item.image, description: item.description }) -}}
+          <h4>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </h4>
+          <p>{{ item.description }}</p>
+        </div>
+      {% endfor %}
+    </section>
   </section>
 
   <section class="contact">
