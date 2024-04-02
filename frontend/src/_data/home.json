@@ -63,32 +63,32 @@
     {
       "title": "Digital Futures Institute",
       "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi.png",
+      "image": "/assets/images/general/dfi-logo.png",
       "description": "Living well with technology."
     },
     {
       "title": "King's Institute for Artificial Intelligence",
-      "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi.png",
-      "description": "Living well with technology."
+      "url": "https://www.kcl.ac.uk/ai",
+      "image": "/assets/images/general/kcl-ai-logo.png",
+      "description": "Supporting and promoting work in artificial intelligence (AI) across King's College London."
     },
     {
       "title": "UK/Ireland Digital Humanities Association",
-      "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi.png",
-      "description": "Living well with technology."
+      "url": "https://digitalhumanities-uk-ie.org/",
+      "image": "/assets/images/general/uk-ie-association-logo.png",
+      "description": "Bringing together researchers, practitioners and organisations from both UK and Ireland."
     },
     {
       "title": "RSE Society",
-      "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi.png",
-      "description": "Living well with technology."
+      "url": "https://society-rse.org/",
+      "image": "/assets/images/general/society-rse-logo.png",
+      "description": "Establishing a research environment that recognises the vital role of software in research."
     },
     {
       "title": "DARIAH",
-      "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi.png",
-      "description": "Living well with technology."
+      "url": "https://www.dariah.eu/",
+      "image": "/assets/images/general/dariah-logo.png",
+      "description": "Enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
     }
   ]
 }
