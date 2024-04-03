@@ -1,6 +1,6 @@
 ---
 title: Empowering Artistic Innovation
-subtitle: : Inside GLoW3's Collaborative Journey with Creative Technology
+subtitle: Inside GLoW3's Collaborative Journey with Creative Technology
 tags:
   - post
 authors:
