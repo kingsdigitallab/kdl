@@ -108,6 +108,15 @@
     }
   },
   {
+    "slug": "ryan-heuser",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/ryan-heuser.jpg",
+      "description": "Photo of Ryan Heuser"
+    }
+  },
+  {
     "slug": "patrick-ffrench",
     "name": "Patrick ffrench",
     "jobTitle": "Languages, Literatures and Cultures Affiliate",
