@@ -64,13 +64,13 @@
       "title": "Digital Futures Institute",
       "url": "https://www.kcl.ac.uk/digital-futures",
       "image": "/assets/images/general/dfi-logo.png",
-      "description": "Living well with technology."
+      "description": "Living well with technology by bringing together expertise from across all disciplines at King’s College London."
     },
     {
       "title": "King's Institute for Artificial Intelligence",
       "url": "https://www.kcl.ac.uk/ai",
       "image": "/assets/images/general/kcl-ai-logo.png",
-      "description": "Supporting and promoting work in artificial intelligence (AI) across King's College London."
+      "description": "Supporting and promoting work in artificial intelligence (AI) across King’s College London."
     },
     {
       "title": "UK/Ireland Digital Humanities Association",
@@ -79,7 +79,7 @@
       "description": "Bringing together researchers, practitioners and organisations from both UK and Ireland."
     },
     {
-      "title": "RSE Society",
+      "title": "RSE Society UK",
       "url": "https://society-rse.org/",
       "image": "/assets/images/general/society-rse-logo.png",
       "description": "Establishing a research environment that recognises the vital role of software in research."
@@ -88,7 +88,7 @@
       "title": "DARIAH",
       "url": "https://www.dariah.eu/",
       "image": "/assets/images/general/dariah-logo.png",
-      "description": "Enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
+      "description": "Pan-European infrastructure enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
     }
   ]
 }
