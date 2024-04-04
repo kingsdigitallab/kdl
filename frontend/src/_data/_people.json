@@ -6471,6 +6471,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Distant Reading across Languages",
+            "alternateName": "DRaL",
+            "slug": "dral",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
@@ -7341,6 +7365,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Distant Reading across Languages",
+            "alternateName": "DRaL",
+            "slug": "dral",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
