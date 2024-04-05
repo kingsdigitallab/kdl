@@ -1092,7 +1092,7 @@
     }
   },
   {
-    "jobTitle": null,
+    "jobTitle": "48abbe32-441b-40ae-9094-b5d4058ae38e",
     "agent": {
       "name": "Arianna Ciula",
       "slug": "arianna-ciula",
@@ -1155,7 +1155,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1200,7 +1200,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1224,7 +1224,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1338,7 +1338,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1383,7 +1383,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1407,7 +1407,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1438,7 +1438,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1507,7 +1507,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1531,7 +1531,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1555,7 +1555,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1586,7 +1586,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1641,7 +1641,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -1672,7 +1672,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         }
       ]
@@ -6471,6 +6471,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Distant Reading across Languages",
+            "alternateName": "DRaL",
+            "slug": "dral",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "The AHRC Research Centre for the History and Analysis of Recorded Music",
             "alternateName": "CHARM",
             "slug": "charm",
@@ -7341,6 +7365,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Distant Reading across Languages",
+            "alternateName": "DRaL",
+            "slug": "dral",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
@@ -17155,6 +17203,45 @@
           },
           "roleName": {
             "name": "Co-investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "agent": {
+      "name": "Ryan Heuser",
+      "slug": "ryan-heuser",
+      "description": "Ryan is a literary historian and computational humanist with fifteen years of experience in researching and teaching in the digital humanities (DH). His research and pedagogy span topics from the history and theory of DH to its methodological groundings in data science and visualization, natural language processing, network theory, machine learning, and large language models. His work leverages computational methods developed within computer science, computational linguistics, and subfields of DH often called ‘cultural analytics’ or ‘computational humanities’, in order to provide new digital perspectives on language, art, and culture at scales ranging from the close to the distant. Ryan’s own research focuses on computational approaches to prosody and rhythm, literary and intellectual history, and the history and impact of artificial intelligence on language. Some of his latest work on computational intellectual history appears in a new book from Cambridge University Press, Explorations in the Digital History of Ideas, published November 2023 (ed. Peter de Bolla).\n\nPrior to his appointment in King’s Digital Lab, Ryan was Research Software Engineer in the Center for Digital Humanities at Princeton University as well as a part-time Lecturer in its English department. As an RSE at Princeton, Ryan acted as a collaborative researcher and lead engineer on a variety of DH projects, including a key year-long project visualizing ‘geographies of taste’ in the borrowing records of the historic Parisian Shakespeare and Co bookstore and lending library. \n\nRyan’s doctoral training is in eighteenth-century British literature; he completed his dissertation in 2019 in Stanford University’s English department. At Stanford, he was a founding member and Associate Research Director of the Stanford Literary Lab, where he led the computational development and experimental design of five of its leading publications. From 2019 to 2022, he was Junior Research Fellow in King’s College, Cambridge, where he supervised students in English literature and Practical Criticism within King’s College; taught a workshop in the Center for Digital Humanities (‘Automating the Bechdel Test: Computing Gender Bias across Media’); and helped to review and establish its new MPhil program in Digital Humanities.",
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
+            "alternateName": "Crossreads",
+            "slug": "crossreads",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2026-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         }
       ]

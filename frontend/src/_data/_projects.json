@@ -785,9 +785,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -1036,9 +1036,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -1959,9 +1959,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -2295,9 +2295,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -2648,9 +2648,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -3026,9 +3026,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -3709,6 +3709,19 @@
       },
       {
         "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "cf6e9d99-6bf3-47a3-aa64-04da04a62de1",
           "name": "Gabriele Salciute-Civiliene",
           "slug": "gabriele-salciute-civiliene"
@@ -3722,14 +3735,27 @@
       },
       {
         "agent": {
+          "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
+          "name": "Ginestra Ferraro",
+          "slug": "ginestra-ferraro"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
           "name": "Arianna Ciula",
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -3885,9 +3911,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -4037,9 +4063,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -4724,9 +4750,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -7172,9 +7198,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -11011,9 +11037,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -11206,9 +11232,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
