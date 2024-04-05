@@ -9,7 +9,7 @@ describe("Test the home page", () => {
 
     cy.contains("Featured projects");
     cy.contains("Browse all projects");
-    cy.get("div.project").should("have.length", 3);
+    cy.get("div.project").should("have.length", 8);
 
     cy.get(".blog").scrollIntoView();
     cy.contains("Latest blog posts");
