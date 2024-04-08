@@ -11,7 +11,7 @@ feature:
   image: /assets/images/blog/glow-3-banner.webp
   title:
   description: GLoW3
-draft: true
+draft: false
 
 ---
 
