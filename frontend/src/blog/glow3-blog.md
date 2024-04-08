@@ -35,14 +35,13 @@ Our challenge was to adapt our working practices to suit the unique needs of art
 
 ![3D modelling and animation](/assets/images/blog/glow3_monkey_model.gif "One of the novel requirements of GLoW3"){.media-large}
 
-
 We interpreted our creative technologist roles to be a blend of private tutor, personal assistant, sounding board, and apprentice. Expanding on this analogy, we offered, and received in turn - 
 - technical instruction where it was needed, often researching new technologies and experimenting to the point where we felt confident in offering sound guidance
 - occasionally taking on some of the responsibility of manifesting the artists’ respective visions – perhaps through coding or 3D modelling
 - on-site testing for the artists who were remotely located
 - learning from the artists’ creative processes and the technical and artisanal skills they brought
 - consolidating prototype work to make it operate at scale and on different platforms
-- 
+
 In some ways our existing [management approach](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) for research projects could be mapped directly onto artistic projects, but the priorities might be very different. With Agile, development priorities are central to the allocation of resources. Typically, we prioritise requirements as “Must Have”, “Should Have”, “Could Have”, and “Won’t Have” (the MoSCoW system). This is just one way of expressing a Minimum Viable Research Product in terms of the relative importance of all other requirements, from “essential” to “very useful” to “merely cosmetic”. Sometimes the outputs can’t be evaluated as adequate until they are produced and placed in their display context. It is therefore feasible that the outputs produced within the constraints of a budget never match the artistic ideal. How would this sit with the artist potentially left isolated with a partial work that they lack the technical skills or resources to complete? We suggest that intellectual and creative progress has been achieved in this scenario, even if some aspirations were out of reach; both the artist and the technologist have come to understand more about each other’s practice and can collaborate more effectively in the future. The digital research agenda has still been advanced. 
 
 ## Making adjustments
