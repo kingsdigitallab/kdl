@@ -2432,9 +2432,9 @@
           "slug": "ryan-heuser"
         },
         "roleName": {
-          "name": "Research Software Engineer",
+          "name": "RSE team member",
           "inDefinedTermSet": {
-            "name": "Team roles"
+            "name": "Project roles"
           }
         }
       },
@@ -2492,6 +2492,19 @@
       },
       {
         "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "6f9ec2c6-7d45-4df3-b1f2-d418e87994b5",
           "name": "Valentina Mignosa",
           "slug": "valentina-mignosa"
@@ -2524,6 +2537,19 @@
         },
         "roleName": {
           "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
+        },
+        "roleName": {
+          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
