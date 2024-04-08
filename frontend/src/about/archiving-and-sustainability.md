@@ -268,7 +268,7 @@ As the lists above witness, not only the scale of the archiving process is subst
 
 [Read more](/about/people/arianna-ciula/ "Read more about Arianna Ciula")
 
-### Brian Maher
+### Brian Maher (2017-2023)
 
 #### Senior Research Software Engineer and Systems Administrator
 
@@ -292,7 +292,7 @@ I worked on the design of a simple html structure and neutral styling for the de
 
 [Read more](/about/people/tiffany-ong/ "Read more about Tiffany Ong")
 
-### Toby Pitts
+### Toby Pitts (2018)
 
 #### Student Intern - Archiving and Sustainability Assistant
 
@@ -334,7 +334,7 @@ As part of our infrastructure renewal, I incorporated some cost effective additi
 
 ### Carina Westling
 
-#### Project Manager (2016-17)
+#### Project Manager (2016-2017)
 
 I worked with James Smithies and the wider team at KDL to structure and define the problem space of the Archiving and Sustainability project at KDL, and devise a strategy for negotiating onward solutions for ca. 100 legacy projects inherited from the Department of Digital Humanities. Understanding and costing the resources involved in the ongoing maintenance of digital research projects was a big part of this work, and contributed to the development of KDL Software Development Lifecycle processes.
 
