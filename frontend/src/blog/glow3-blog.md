@@ -5,6 +5,7 @@ tags:
   - post
 authors:
   - Neil Jakeman
+  - Elliott Hall
 date: 2024-04-08
 excerpt: Experimental digital research is difficult for independent artists to do in terms of finance and skills on their own, but they are exactly the type of people that will move the use of digital tools forward from interesting tech demos to tools of storytelling.
 feature:
