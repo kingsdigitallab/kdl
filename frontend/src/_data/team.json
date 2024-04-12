@@ -159,6 +159,15 @@
     }
   },
   {
+    "slug": "simon-tanner",
+    "jobTitle": "Digital Humanities Affiliate",
+    "team": "Departmental affiliates",
+    "feature": {
+      "image": "/assets/images/people/simon-tanner.jpg",
+      "description": "Photo of Professor Simon Tanner"
+    }
+  },
+  {
     "slug": "john-bradley",
     "jobTitle": "Honorary Research Fellow",
     "team": "Research fellows",
