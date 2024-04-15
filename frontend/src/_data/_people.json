@@ -15320,6 +15320,79 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Illustrating Impact",
+            "alternateName": null,
+            "slug": "illustrating-impact",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Department of International Development"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Policy Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Entrepreneurship Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Health School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Time Partners Ltd"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Alter Equity"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "GO Lab, Oxford University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
@@ -18896,6 +18969,79 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Illustrating Impact",
+            "alternateName": null,
+            "slug": "illustrating-impact",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Department of International Development"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Policy Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Entrepreneurship Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Health School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Time Partners Ltd"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Alter Equity"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "GO Lab, Oxford University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
@@ -18961,6 +19107,37 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "REF 2021 impact data analysis",
+            "alternateName": null,
+            "slug": "refida",
+            "foundingDate": "2022-01-01",
+            "dissolutionDate": "2022-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL Research Management & Innovation Directorate"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
