@@ -1623,6 +1623,19 @@
       },
       {
         "agent": {
+          "id": "d0dc4153-b392-460f-86ca-693ced626630",
+          "name": "Lucie Mingmei Hao",
+          "slug": "lucie-mingmei-hao"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"
