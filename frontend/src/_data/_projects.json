@@ -11217,6 +11217,12 @@
           "name": "Article",
           "url": "https://arxiv.org/abs/2110.09349"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Network visualisations",
+          "url": "https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations"
+        }
       }
     ],
     "department": [
