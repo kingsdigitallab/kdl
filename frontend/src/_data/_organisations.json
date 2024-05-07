@@ -5928,6 +5928,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2023-12-13T10:30:13.583Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2023-12-13T10:30:13.429Z",
+      "cmsDateUpdated": "2024-05-07T15:21:00.653Z",
+      "cmsSort": null,
+      "description": null,
+      "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
+      "name": "KCL The Policy Institute",
+      "slug": "the-policy-institute",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-10-05T09:46:06.996Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -7146,29 +7169,6 @@
           }
         }
       ],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
-    "cmsDateCreated": "2023-12-13T10:30:13.583Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "published",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2023-12-13T10:30:13.429Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
-      "name": "The Policy Institute",
-      "slug": "the-policy-institute",
-      "url": [],
       "memberOf": []
     },
     "parentOrganisation": null,
