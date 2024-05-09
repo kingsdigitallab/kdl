@@ -76,6 +76,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "e24c6731-2405-4bb2-9c20-5c15779a6178",
+            "name": "To Play For",
+            "slug": "to-play-for"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -1623,6 +1634,19 @@
       },
       {
         "agent": {
+          "id": "d0dc4153-b392-460f-86ca-693ced626630",
+          "name": "Lucie Mingmei Hao",
+          "slug": "lucie-mingmei-hao"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"
@@ -2306,7 +2330,7 @@
   {
     "alternateName": "Crossreads",
     "cmsStatus": "published",
-    "description": "KDL contribution to the development of the custom digital environment supporting the palaeographic analysis of the CROSSREADS corpus of Sicilian inscriptions. CROSSREADS is a ERC-funded project led by Pr Jonathan Prag. For more information on Crossreads please check [the main website](https://crossreads.web.ox.ac.uk/about) and the [ERC project record](https://cordis.europa.eu/project/id/885040).",
+    "description": "KDL contribution to the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions. \nCROSSREADS is a ERC-funded project led by Pr Jonathan Prag. For more information on Crossreads please check [the main website](https://crossreads.web.ox.ac.uk/about) and the [ERC project record](https://cordis.europa.eu/project/id/885040).\n",
     "dissolutionDate": "2026-09-30",
     "foundingDate": "2020-10-01",
     "id": "7db69793-9c65-4440-bb4e-6520e6940661",
@@ -2534,6 +2558,19 @@
           "id": "25d3ab9a-14a1-46f4-b6cb-e6d1aa902662",
           "name": "Paolo Mazzoleni",
           "slug": "paolo-mazzoleni"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "34d8c610-06ed-4dcf-98b2-03d9bfe371a2",
+          "name": "Victoria Fendel",
+          "slug": "victoria-fendel"
         },
         "roleName": {
           "name": "Researcher",
@@ -6355,7 +6392,7 @@
           "agent": {
             "alternateName": null,
             "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
-            "name": "The Policy Institute",
+            "name": "KCL The Policy Institute",
             "slug": "the-policy-institute"
           },
           "parentOrganisation": null
@@ -6470,6 +6507,19 @@
       },
       {
         "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "11422f09-ad5d-4374-a37b-3713232f3186",
           "name": "Stefan\tAllesch-Taylor",
           "slug": "stefan-allesch-taylor"
@@ -6515,6 +6565,19 @@
         },
         "roleName": {
           "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
+          "name": "Paul Caton",
+          "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -11097,7 +11160,7 @@
     "alternateName": "Radical Translations",
     "cmsStatus": "published",
     "description": "Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815) is a collaboration between King’s Digital Lab\n(KDL) and the Departments of French and Comparative Literature at King’s College London, the University of Milan-Bicocca, funded by the Arts and Humanities Research Council (UK), 2019-23. The project’s main objectives are\nto (i) provide a comparative study of the translation and circulation of democratic and free-thinking texts across Italy, France and Britain during the French Revolution and Napoleonic era; (ii) enhance public and academic awareness of the role of translation as an integral element of the revolutionary project; (iii) investigate how translation makes it possible for radical works to be ‘living texts’ that continually move forward into new communities, new places, new times. \n\nKDL worked with partners to define high level requirements\nat pre-project stage. This entailed the design and development of the overall technical solution for the project inclusive of a public website to make accessible relevant bibliographic and biographical data and within it, amongst other functionalities, five national timelines covering the three linguistic areas of the project (French, English and Italian) that showcase co-occurrences of macro-events relevant to both the history of radicalism as well as translation.",
-    "dissolutionDate": "2023-09-23",
+    "dissolutionDate": "2024-03-22",
     "foundingDate": "2019-08-01",
     "id": "48d15f7f-3e09-4dc6-8dae-9b0f56847235",
     "name": "Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)  ",
@@ -11177,6 +11240,12 @@
         "linkrole_id": {
           "name": "Article",
           "url": "https://arxiv.org/abs/2110.09349"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Network visualisations",
+          "url": "https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations"
         }
       }
     ],
@@ -11491,6 +11560,19 @@
             "name": "Project roles"
           }
         }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
       }
     ]
   },
@@ -11539,6 +11621,17 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "947ba10f-6850-4d1c-b7a7-bfd50157a58c",
+            "name": "Migration Museum",
+            "slug": "migration-museum"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -12961,6 +13054,28 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "78f290de-add1-4964-90b9-85f219729c06",
+            "name": "Newman Institute Uppsala",
+            "slug": "newman-institute-uppsala"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "77da49b7-c962-40a9-842b-6fe08a62c5fd",
+            "name": "University of Vienna",
+            "slug": "university-of-vienna"
+          },
+          "parentOrganisation": null
         }
       }
     ],

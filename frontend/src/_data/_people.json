@@ -123,6 +123,13 @@
                     "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
               }
             ]
           },
@@ -1020,6 +1027,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -1318,7 +1339,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -2277,7 +2298,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -3135,6 +3156,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -3509,6 +3544,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -3797,6 +3846,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -3971,7 +4034,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -4620,6 +4683,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -5096,6 +5173,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "To Play For"
                   }
                 }
               }
@@ -5645,6 +5729,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -5710,7 +5808,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -5961,6 +6059,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
                   }
                 }
               }
@@ -6965,7 +7077,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -8880,7 +8992,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -8927,6 +9039,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
                   }
                 }
               }
@@ -9089,6 +9208,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "To Play For"
                   }
                 }
               }
@@ -10794,6 +10920,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -11021,6 +11161,13 @@
                     "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
               }
             ]
           },
@@ -11099,6 +11246,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
                   }
                 }
               }
@@ -11229,6 +11383,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -11285,7 +11453,32 @@
       "name": "Lucie Mingmei Hao",
       "slug": "lucie-mingmei-hao",
       "description": "Lucie joined KDL in August 2023 as a designer. She has an interdisciplinary background with expertise in academic research, human-computer interaction, frontend and web technologies, UI/UX. She is keen to draw connections between both digital media and innovative technologies. she also has practical experience in industry-focused media projects. \n\nShe was at the School of Medicine, Trinity College Dublin, Ireland before joining KDL and had hands-on experience working on web and online technologies. She has also previously worked at iBreve, an Irish-German digital health startup, where she was responsible for Innovation Management & R&D. During her time there she worked on TRUSTMEDICOS, a project funded by EU Horizon 2020. \n\nShe is passionate about creative design, digital health technologies, data visualization, AI, as well as the intersection of digital humanities and culture.\n\nShe holds a Master of Science in Interactive Digital Media in the School of Computer Science and Statistics from Trinity College Dublin, and a BA (Hons) in Film and Television Production in the School of Informatics and Creative Arts from Dundalk Institute of Technology. ",
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Brightening the Covenant Chain",
+            "alternateName": "BCC",
+            "slug": "bcc",
+            "foundingDate": "2021-02-01",
+            "dissolutionDate": "2024-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Hull"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        }
+      ]
     }
   },
   {
@@ -11474,6 +11667,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
                   }
                 }
               }
@@ -11867,6 +12074,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
                   }
                 }
               }
@@ -13398,7 +13619,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -13980,6 +14201,13 @@
                     "name": "FAH Department of Culture, Media & Creative Industries"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
               }
             ]
           },
@@ -14365,7 +14593,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -14551,7 +14779,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -14628,7 +14856,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "The Policy Institute"
+                    "name": "KCL The Policy Institute"
                   }
                 }
               },
@@ -15306,6 +15534,79 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Illustrating Impact",
+            "alternateName": null,
+            "slug": "illustrating-impact",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Department of International Development"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL The Policy Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Entrepreneurship Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Health School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Time Partners Ltd"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Alter Equity"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "GO Lab, Oxford University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
                   }
                 }
               }
@@ -16523,6 +16824,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -17169,7 +17484,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -17503,7 +17818,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
@@ -18035,7 +18350,7 @@
     "agent": {
       "name": "Simon Tanner",
       "slug": "simon-tanner",
-      "description": "Simon Tanner has over 20 years’ experience working  with major cultural institutions across the world to assist them to transform their collections and online presence. Simon is Professor of Digital Cultural Heritage in the Department of Digital Humanities and also founded the Digital Futures Academy that has had participants from over 40 countries and run in the UK, Australia and Africa. \n\nHis personal research interests encompass digitisation, openGLAM, measuring impact and assessing value in the digital domain. He has an excellent record of delivering digitisation programmes and strategic change management for many museums, national libraries and archives; including the British Library, Europeana, digitising the Dead Sea Scrolls,  and other special collections.\n\nLink to his research page [here](Link to his research page.).",
+      "description": "[Biography](https://www.kcl.ac.uk/people/professor-simon-tanner)",
       "memberOf": [
         {
           "startDate": null,
@@ -18231,6 +18546,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
                   }
                 }
               }
@@ -18584,6 +18913,20 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newman Institute Uppsala"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Vienna"
+                  }
+                }
               }
             ]
           },
@@ -18896,6 +19239,79 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Illustrating Impact",
+            "alternateName": null,
+            "slug": "illustrating-impact",
+            "foundingDate": "2018-01-01",
+            "dissolutionDate": "2019-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Department of International Development"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL The Policy Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Entrepreneurship Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Health School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Time Partners Ltd"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Alter Equity"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "GO Lab, Oxford University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Alice Thornton's Books",
             "alternateName": "AT",
             "slug": "at",
@@ -18961,6 +19377,37 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "REF 2021 impact data analysis",
+            "alternateName": null,
+            "slug": "refida",
+            "foundingDate": "2022-01-01",
+            "dissolutionDate": "2022-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL Research Management & Innovation Directorate"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
                   }
                 }
               }
@@ -19136,7 +19583,7 @@
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
             "foundingDate": "2019-08-01",
-            "dissolutionDate": "2023-09-23",
+            "dissolutionDate": "2024-03-22",
             "department": [
               {
                 "organisation_id": {
