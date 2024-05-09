@@ -84,10 +84,10 @@ layout: layouts/base.njk
   </section>
 
   <section class="communities">
-    <h2>Communities</h2>
-
+    <h2>{{ home.communities.title }}</h2>
+    <p>{{ home.communities.description }}</p>
     <section class="projects">
-      {% for item in home.communities %}
+      {% for item in home.communities.items %}
         <div class="project">
           {{- imageMacro({image: item.image, description: item.description }) -}}
           <h4>
