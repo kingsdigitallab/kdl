@@ -812,7 +812,8 @@ main {
 
   .explore,
   .discover,
-  .contact {
+  .contact,
+  .communities {
     section {
       display: flex;
       flex-wrap: wrap;
@@ -893,7 +894,22 @@ main {
     h3 {
       float: left;
     }
-  } //disover
+  } //explore
+  .communities {
+    figure {
+      background: white;
+      text-align: center;
+      height: 12em;
+      img {
+        width: 100%;
+        max-width: 15em;
+        height: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
   .contact {
     text-align: center;
   }
@@ -1805,8 +1821,6 @@ footer {
               } //&:nth-child(3)
               &:nth-child(4) {
                 margin: 0;
-                &:before {
-                } //&:before
               } //&:nth-child(4)
 
               &:nth-child(1),

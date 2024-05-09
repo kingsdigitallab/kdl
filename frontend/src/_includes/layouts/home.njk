@@ -25,7 +25,7 @@ layout: layouts/base.njk
 </section>
 
 <div class="kdl-container">
-  <section id="explore" class="explore">
+  <section class="explore">
     <h2>Explore</h2>
 
     <h3>Featured projects</h3>
@@ -83,11 +83,11 @@ layout: layouts/base.njk
     {% endfor %}
   </section>
 
-  <section id="communities" class="explore">
-    <h2>Communities</h2>
-
+  <section class="communities">
+    <h2>{{ home.communities.title }}</h2>
+    <p>{{ home.communities.description }}</p>
     <section class="projects">
-      {% for item in home.communities %}
+      {% for item in home.communities.items %}
         <div class="project">
           {{- imageMacro({image: item.image, description: item.description }) -}}
           <h4>

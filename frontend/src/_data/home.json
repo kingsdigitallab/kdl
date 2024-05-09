@@ -59,36 +59,48 @@
       ]
     }
   ],
-  "communities": [
-    {
-      "title": "Digital Futures Institute",
-      "url": "https://www.kcl.ac.uk/digital-futures",
-      "image": "/assets/images/general/dfi-logo.png",
-      "description": "Living well with technology by bringing together expertise from across all disciplines at King’s College London."
-    },
-    {
-      "title": "King\u2019s Institute for Artificial Intelligence",
-      "url": "https://www.kcl.ac.uk/ai",
-      "image": "/assets/images/general/kcl-ai-institute-logo.png",
-      "description": "Supporting and promoting work in artificial intelligence (AI) across King’s College London."
-    },
-    {
-      "title": "UK-Ireland Digital Humanities Association",
-      "url": "https://digitalhumanities-uk-ie.org/",
-      "image": "/assets/images/general/uk-ie-dha-logo.png",
-      "description": "Bringing together researchers, practitioners and organisations from both UK and Ireland."
-    },
-    {
-      "title": "RSE Society UK",
-      "url": "https://society-rse.org/",
-      "image": "/assets/images/general/society-rse-logo.png",
-      "description": "Establishing a research environment that recognises the vital role of software in research."
-    },
-    {
-      "title": "DARIAH",
-      "url": "https://www.dariah.eu/",
-      "image": "/assets/images/general/dariah-logo.png",
-      "description": "Pan-European infrastructure enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
-    }
-  ]
+  "communities": {
+    "title": "Communities",
+    "description": "Organizations and groups we have formal attachment to via active contribution, affiliation or sponsorship as description of the communities space.",
+    "items": [
+      {
+        "title": "Digital Futures Institute",
+        "url": "https://www.kcl.ac.uk/digital-futures",
+        "image": "/assets/images/general/dfi-logo.png",
+        "description": "King’s College London Institute bringing together expertise from across all disciplines aiming at living well with technology."
+      },
+      {
+        "title": "King\u2019s Institute for Artificial Intelligence",
+        "url": "https://www.kcl.ac.uk/ai",
+        "image": "/assets/images/general/kcl-ai-institute-logo.png",
+        "description": "King’s College London Institute supporting and promoting work in artificial intelligence (AI) across the College."
+      },
+      {
+        "title": "RSE Society UK",
+        "url": "https://society-rse.org/",
+        "image": "/assets/images/general/society-rse-logo.png",
+        "description": "UK professional society establishing a research environment that recognises the vital role of software in research."
+      },
+
+      {
+        "title": "UK-Ireland Digital Humanities Association",
+        "url": "https://digitalhumanities-uk-ie.org/",
+        "image": "/assets/images/general/uk-ie-dha-logo.png",
+        "description": "UK and Ireland professional association bringing together digital humanities researchers, practitioners and organisations."
+      },
+
+      {
+        "title": "Digital Research Infrastructure for the Arts and Humanities",
+        "url": "https://www.dariah.eu/",
+        "image": "/assets/images/general/dariah-logo.png",
+        "description": "Pan-European infrastructure enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
+      },
+      {
+        "title": "TEI",
+        "url": "https://tei-c.org/",
+        "image": "/assets/images/general/tei-logo.png",
+        "description": "International consortium developing and maintaining a standard for the representation of texts in digital form."
+      }
+    ]
+  }
 }
