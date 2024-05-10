@@ -240,7 +240,7 @@ Minimally archived projects are no longer accessible. We maintain their original
 - [Visual History of War Refugees/Spanish Civil War](https://github.com/kingsdigitallab/scw-django)
 - wikiCerch
 
-## Governance
+## Governance and processes
 
 Responsibility for KDL's archiving and sustainability strategy rests with its Director, in consultation with the Faculty of Arts & Humanities, King's College London, via the overseeing role of the SLA committee which meets annually. For further information see:
 
@@ -249,6 +249,8 @@ Responsibility for KDL's archiving and sustainability strategy rests with its Di
 - Smithies, J., Sichani, A.M., & Westling, C. (2017). [Preserving 30 years of Digital Humanities Work: The Experience of King’s College London Digital Lab](http://jamessmithies.org/blog/2017/06/23/preserving-30-years-digital-humanities-work-experience-kings-digital-lab/). Presented at the DPASSH: Digital Preservation for Social Sciences and Humanities, University of Sussex.
 - Smithies, J., P. Caton, G. Ferraro, L. Figueira, E. Hall, N. Jakeman, P. Mellen, A.M. Sicani, M. Vieira, T. Watts, Carina Westling. (2017). Mechanizing the Humanities? King’s Digital Lab as Critical Experiment. Presented at the DH2017, McGill University, Montreal.
 - Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). _Digital Humanities Quarterly_ 13.1 (2019).
+
+For more information and reflections on our archiving and sustainability processes watch Arianna Ciula present as part of the '[DH broken - Between experimentation and degradation panel discussion](https://www.sas.ac.uk/podcasts/reframing-failure-dh-broken-between-experimentation-and-degradation), 25 January 2023' ([Reframing Failure Seminar series, 2022-23](https://www.sas.ac.uk/digital-humanities/events/past-events/reframing-failure)).
 
 ## The team
 
