@@ -8188,29 +8188,6 @@
     "subOrganisation": []
   },
   {
-    "cmsDateCreated": "2022-10-25T13:34:09.075Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "70fc52c7-aa91-48b4-abba-6b3037f8ff83",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2022-10-25T13:34:09.036Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "35d38efb-d3b8-4f0b-9f39-ffd4c5631899",
-      "name": "Vienna Ines Dallaji ",
-      "slug": "vienna-ines-dallaji",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2024-03-11T10:21:18.727Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
