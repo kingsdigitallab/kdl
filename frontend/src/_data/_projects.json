@@ -14988,6 +14988,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "7ad555cb-f2ac-477b-9808-2fdbe49bc9ad",
+            "name": "Heidelberg Academy of Sciences and Humanities",
+            "slug": "heidelberg-academy-of-sciences-and-humanities"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [

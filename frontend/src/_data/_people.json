@@ -5748,8 +5748,8 @@
           },
           "inOrganisation": {
             "agent": {
-              "name": "Vienna Ines Dallaji ",
-              "slug": "vienna-ines-dallaji"
+              "name": "University of Vienna",
+              "slug": "university-of-vienna"
             }
           },
           "roleName": {
@@ -6736,6 +6736,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -7684,6 +7691,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -8166,6 +8180,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -8641,6 +8662,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
                   }
                 }
               }
@@ -11431,6 +11459,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -11777,6 +11812,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -11949,6 +11991,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
                   }
                 }
               }
@@ -13570,6 +13619,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -13993,6 +14049,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
                   }
                 }
               }
@@ -15631,6 +15694,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
                   }
                 }
               }
@@ -18175,6 +18245,13 @@
                     "name": "FAH Department of Languages, Literatures and Cultures"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
+                  }
+                }
               }
             ]
           },
@@ -18207,6 +18284,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg Academy of Sciences and Humanities"
                   }
                 }
               }
