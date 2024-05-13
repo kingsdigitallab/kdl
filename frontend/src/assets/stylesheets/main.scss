@@ -1209,13 +1209,13 @@ main.organisation {
           width: 300px;
           height: 300px;
           object-fit: cover;
-          margin: 3.2em 0 0 0;
+          margin: 3.2em 0 0 2em;
           order: 2;
         }
         .description {
           text-align: justify;
           order: 1;
-          margin-right: 2em;
+          margin-right: auto;
         }
       } //>section
       h2 {
