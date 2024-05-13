@@ -1,0 +1,42 @@
+{# {% extends "layouts/base.njk" %} #}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/assets/reveal/reveal.css" />
+  <link rel="stylesheet" href="/assets/reveal/theme/solarized.css" />
+{% endblock stylesheets %}
+
+{% block header %}
+{% endblock header %}
+
+{% block main %}
+  <main>
+    <div class="reveal">
+      <div class="slides">{{ content | safe }}</div>
+    </div>
+  </main>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}
+
+{% block bodyEnd %}
+  <script src="/assets/reveal/reveal.js"></script>
+  <script src="/assets/reveal/plugin/highlight/highlight.js"></script>
+  <script src="/assets/reveal/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+    {% if slide.auto %}
+      autoSlide: {{ slide.auto }},
+    {% endif %}
+      controls: true,
+      embedded: true,
+      hash: true,
+      history: true,
+      loop: {{ slide.loop }},
+      progress: true,
+      slideNumber: false,
+      transition: 'fade',
+      plugins: [ RevealHighlight, RevealNotes ]
+    });
+  </script>
+{% endblock bodyEnd %}

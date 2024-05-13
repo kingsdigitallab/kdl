@@ -7,7 +7,7 @@ const markdownItAttrs = require("markdown-it-attrs");
 const pluginSEO = require("eleventy-plugin-seo");
 const pluginTOC = require("eleventy-plugin-toc");
 const { Directus } = require("@directus/sdk");
-const markdownIt = require("markdown-it")();
+const markdownIt = require("markdown-it");
 const { DateTime } = require("luxon");
 const Nunjucks = require("nunjucks");
 const path = require("node:path");
@@ -31,6 +31,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setTemplateFormats(["html", "njk", "md"]);
   eleventyConfig.addPassthroughCopy({
     [`${kdlComponentsPath}/kdl/assets`]: "/assets",
+    "../node_modules/reveal.js/dist": "assets/reveal/",
+    "../node_modules/reveal.js/plugin": "assets/reveal/plugin",
     public: "/",
   });
 
@@ -41,7 +43,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.setLibrary(
     "md",
-    markdownIt
+    markdownIt({ html: true })
       .use(markdownItAnchor)
       .use(markdownItAttrs)
       .use(markdownItImplicitFigures, {
@@ -221,6 +223,10 @@ module.exports = (eleventyConfig) => {
     }
 
     return url;
+  });
+
+  eleventyConfig.addPairedShortcode("slide", function (content) {
+    return `<section class="slide" data-auto-animate>${content}</section>`;
   });
 
   // https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy

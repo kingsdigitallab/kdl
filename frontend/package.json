@@ -26,6 +26,7 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-image-figures": "^2.1.1",
     "nunjucks": "^3.2.3",
+    "reveal.js": "^5.1.0",
     "sass": "^1.54.3",
     "start-server-and-test": "^2.0.3"
   },
