@@ -62,15 +62,7 @@
       "description": "Photo of Pam Mellen"
     }
   },
-  {
-    "slug": "lucie-mingmei-hao",
-    "jobTitle": "Research Software UI/UX Designer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/lucie-mingmei-hao.jpg",
-      "description": "Photo of Lucie Mingmei Hao"
-    }
-  },
+
   {
     "slug": "geoffroy-noel",
     "jobTitle": "Senior Research Software Engineer",
@@ -211,6 +203,15 @@
     "feature": {
       "image": "/assets/images/people/charlotte-roueché.jpg",
       "description": "Photo of Professor Charlotte Roueché"
+    }
+  },
+  {
+    "slug": "lucie-mingmei-hao",
+    "jobTitle": "Research Software UI/UX Designer",
+    "team": "Former staff",
+    "feature": {
+      "image": "/assets/images/people/lucie-mingmei-hao.jpg",
+      "description": "Photo of Lucie Mingmei Hao"
     }
   },
   {
