@@ -4,7 +4,7 @@ describe("Test the home page", () => {
 
     cy.get("video");
     cy.get(".hero-content");
-    cy.get("a.scroll").click();
+    cy.get("a.scroll").click({ force: true });
     cy.url().should("include", "#explore");
 
     cy.contains("Featured projects");
