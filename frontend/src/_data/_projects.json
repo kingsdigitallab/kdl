@@ -13616,6 +13616,124 @@
     ]
   },
   {
+    "alternateName": "STEP-UP",
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2027-12-31",
+    "foundingDate": "2024-01-01",
+    "id": "5eae2c83-361e-487a-99a4-ea3d5fe01ea2",
+    "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+    "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "EPSRC",
+          "id": "8bd31850-3f8e-4779-a41a-290faee7973a",
+          "name": "Engineering and Physical Sciences Research Council",
+          "slug": "engineering-and-physical-sciences-research-council"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "a5c2297e-7e17-4c68-8184-9789ed3bb745",
+            "name": "University College London",
+            "slug": "ucl"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "eb187302-6387-49ad-87b8-b3e00da59951",
+            "name": "Imperial College London",
+            "slug": "imperial-college-london"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "08181898-5865-4dd1-8059-31edfd46ea2e",
+            "name": "KCL eResearch",
+            "slug": "kcl-e-research"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "96303433-6fb6-4c79-ae0f-c3bb74242350",
+          "name": "Jeremy Cohen",
+          "slug": "jeremy-cohen"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "857c8fd2-e3b2-40b7-9a43-81cc2365479a",
+          "name": "James Graham",
+          "slug": "james-graham"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "TCL",
     "cmsStatus": "published",
     "description": "Supported by the King's Together Multi & Interdisciplinary Research Scheme, the project 'Taming the complexity of the law: modelling and visualization of dynamically interacting legal systems' (April-November 2018) aimed at exploring the complexity of the legal system from a unique range of perspectives, from user interface design to network analysis, from legal expertise to geography and informatics. King's Digital Lab involvement entailed close collaboration with the Department of Mathematics and The Dickson Poon School of Law.\n\nA project research assistant was hired to experiment with extracting information from one specific legal act selected as representative sample. The Housing Act 1980  was selected as input source in its XML format which follows the Crown Legislation Markup Language (CLML) schema and is provided publicly by The National Archive [www.legislation.gov.uk]([www.legislation.gov.uk]) site. This act attracted interest and has high social resonance since it created shorthold assured tenancies which now dominate the rented housing market. KDL reviewed and optimised the workflow so as to feed nodes, interactions and attributes into the network visualization. The main aim of the network is to visualise information about quantity and location of changes (amendments, modifications and citations) in the act using its 2002 historical variant as reference.",

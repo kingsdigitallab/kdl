@@ -5905,6 +5905,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-05-24T11:45:52.702Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "80d6505c-6ebd-4502-8202-59defa259c4b",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:45:52.447Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "eb187302-6387-49ad-87b8-b3e00da59951",
+      "name": "Imperial College London",
+      "slug": "imperial-college-london",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-19T14:48:34.047Z",
     "cmsDateUpdated": "2023-11-06T13:36:16.833Z",
     "cmsSort": null,
@@ -5921,6 +5944,29 @@
       "id": "132619ae-4132-49b2-9c57-e4a687c84d31",
       "name": "Jordan Open Source Association",
       "slug": "jordan-open-source-association",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2024-05-24T11:49:25.720Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "df3ed723-ddbc-4d23-b4e4-f4e8577248f4",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:49:25.378Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "08181898-5865-4dd1-8059-31edfd46ea2e",
+      "name": "KCL eResearch",
+      "slug": "kcl-e-research",
       "url": [],
       "memberOf": []
     },

@@ -1228,6 +1228,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "État Civil",
             "alternateName": "",
             "slug": "etat-civil",
@@ -19502,6 +19545,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
