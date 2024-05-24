@@ -1726,6 +1726,71 @@
     ]
   },
   {
+    "alternateName": "BPI 1700",
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2025-07-31",
+    "foundingDate": "2023-08-01",
+    "id": "c66c20f0-9fb6-4f40-b2d7-6a98413438c0",
+    "name": "British Printed Images to 1700: Integrating Visual Sources into Historical Practice",
+    "slug": "british-printed-images-to-1700-integrating-visual-sources-into-historical-practice",
+    "creativeWorkStatus": null,
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "AHRC",
+          "id": "6f51b75e-4d42-41f1-9231-639f922ecd39",
+          "name": "Arts and Humanities Research Council",
+          "slug": "ahrc"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "7d480579-3c32-497d-8d74-800f64eea039",
+            "name": "Newcastle University",
+            "slug": "newcastle-university"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
+          "name": "Paul Caton",
+          "slug": "paul-caton"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e17e97b8-ef5b-4276-a26d-cd3177018335",
+          "name": "Adam Morton",
+          "slug": "adam-morton"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "CCED",
     "cmsStatus": "published",
     "description": "The project for the Clergy of the Church of England Database started in 1999 with the involvement of the technical team at the at the time Centre for Computing in the Humanities in 2000; its objective was to construct a relational database containing the careers of all clergymen of the Church of England between 1540 and 1835. The Database fills a major gap in researchers' knowledge of one of the most important professions in early modern England and Wales. The database was strongly primary source based and developed a representation of a structure for the administrative documents it processes with John Bradley (currently Honorary Research fellow at KDL) as technical lead. The project is in need of a rebuild so while KDL continues to host and maintain it, some editing functionalities are not active at present.",
