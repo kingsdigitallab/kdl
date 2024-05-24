@@ -7643,6 +7643,124 @@
     ]
   },
   {
+    "alternateName": "iREAL",
+    "cmsStatus": "draft",
+    "description": null,
+    "dissolutionDate": "2024-10-31",
+    "foundingDate": "2024-02-01",
+    "id": "2a9cbb1b-66b4-4a75-a431-c26de1e5ec64",
+    "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+    "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": "AHRC",
+          "id": "6f51b75e-4d42-41f1-9231-639f922ecd39",
+          "name": "Arts and Humanities Research Council",
+          "slug": "ahrc"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "aaf8666a-0c25-4365-ba58-8a391598fc40",
+            "name": "University of Glasgow",
+            "slug": "university-of-glasgow"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "40415ba3-9ca5-40bb-93d4-659440a565b5",
+            "name": "Digital Preservation Coalition",
+            "slug": "digital-preservation-coalition"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "40eaf5e9-99d2-46e4-b2d9-e3aab0b42558",
+            "name": "University of Technology Sydney",
+            "slug": "university-of-technology-sydney"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fb88829e-67ce-48b8-9de4-9361b08b3185",
+          "name": "Paul Gooding",
+          "slug": "paul-gooding"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f4e84ba1-b77f-44ba-856b-adf356d20aef",
+          "name": "Samantha Callaghan",
+          "slug": "samantha-callaghan"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": null,
     "cmsStatus": "draft",
     "description": null,

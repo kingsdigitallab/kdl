@@ -540,6 +540,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-05-24T11:35:07.537Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "9819b1ad-e5e9-4fd7-bc16-40ea836be536",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:35:07.263Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "40415ba3-9ca5-40bb-93d4-659440a565b5",
+      "name": "Digital Preservation Coalition",
+      "slug": "digital-preservation-coalition",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:07.189Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -8043,6 +8066,29 @@
       "id": "98b2c705-7f61-44e7-bc26-20a7428b79b5",
       "name": "University of Sussex",
       "slug": "university-of-sussex",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2024-05-24T11:35:08.462Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "b439a347-6cc9-463d-8bfa-30e09da94be7",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:35:08.214Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "40eaf5e9-99d2-46e4-b2d9-e3aab0b42558",
+      "name": "University of Technology Sydney",
+      "slug": "university-of-technology-sydney",
       "url": [],
       "memberOf": []
     },

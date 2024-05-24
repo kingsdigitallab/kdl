@@ -12923,6 +12923,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "REF 2021 impact data analysis",
             "alternateName": null,
             "slug": "refida",
@@ -17842,6 +17885,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "A Partnership for Conserving and Promoting Sudanese Cultural and Documentary Heritage",
             "alternateName": "Sudan Memory",
             "slug": "sudan-memory",
@@ -19325,6 +19411,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
