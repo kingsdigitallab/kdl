@@ -4066,12 +4066,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -12485,12 +12480,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -16747,12 +16737,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -16995,12 +16980,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -20152,12 +20132,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }

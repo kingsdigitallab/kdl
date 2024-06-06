@@ -8234,29 +8234,6 @@
     "subOrganisation": []
   },
   {
-    "cmsDateCreated": "2022-10-25T13:34:06.819Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "8b4a0384-c6ae-459c-9afa-7a9692f6c146",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2022-10-25T13:34:06.783Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "9ab25702-43f8-4388-a8c9-321c77cc5450",
-      "name": "Unknown organisation",
-      "slug": "unknown-organisation",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2022-10-25T13:34:08.922Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
