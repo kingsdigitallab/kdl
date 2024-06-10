@@ -540,6 +540,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-05-24T11:35:07.537Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "9819b1ad-e5e9-4fd7-bc16-40ea836be536",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:35:07.263Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "40415ba3-9ca5-40bb-93d4-659440a565b5",
+      "name": "Digital Preservation Coalition",
+      "slug": "digital-preservation-coalition",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:07.189Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -5882,6 +5905,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-05-24T11:45:52.702Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "80d6505c-6ebd-4502-8202-59defa259c4b",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:45:52.447Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "eb187302-6387-49ad-87b8-b3e00da59951",
+      "name": "Imperial College London",
+      "slug": "imperial-college-london",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-19T14:48:34.047Z",
     "cmsDateUpdated": "2023-11-06T13:36:16.833Z",
     "cmsSort": null,
@@ -5898,6 +5944,29 @@
       "id": "132619ae-4132-49b2-9c57-e4a687c84d31",
       "name": "Jordan Open Source Association",
       "slug": "jordan-open-source-association",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2024-05-24T11:49:25.720Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "df3ed723-ddbc-4d23-b4e4-f4e8577248f4",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:49:25.378Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "08181898-5865-4dd1-8059-31edfd46ea2e",
+      "name": "KCL eResearch",
+      "slug": "kcl-e-research",
       "url": [],
       "memberOf": []
     },
@@ -8050,6 +8119,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-05-24T11:35:08.462Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "b439a347-6cc9-463d-8bfa-30e09da94be7",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-05-24T11:35:08.214Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "40eaf5e9-99d2-46e4-b2d9-e3aab0b42558",
+      "name": "University of Technology Sydney",
+      "slug": "university-of-technology-sydney",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:07.254Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -8135,29 +8227,6 @@
       "id": "7b11c617-0b5b-4e7e-8074-172330837312",
       "name": "University of Winchester",
       "slug": "university-of-winchester",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
-    "cmsDateCreated": "2022-10-25T13:34:06.819Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "8b4a0384-c6ae-459c-9afa-7a9692f6c146",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2022-10-25T13:34:06.783Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "9ab25702-43f8-4388-a8c9-321c77cc5450",
-      "name": "Unknown organisation",
-      "slug": "unknown-organisation",
       "url": [],
       "memberOf": []
     },
