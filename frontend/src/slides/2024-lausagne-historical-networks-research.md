@@ -107,7 +107,7 @@ Dr. Arianna Ciula | Miguel Vieira
 
 {% slide %}
 
-## Thank you!
+## Thank you & Questions?
 
 ### Resources
 
