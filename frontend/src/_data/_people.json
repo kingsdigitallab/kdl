@@ -313,7 +313,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -1228,6 +1233,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "État Civil",
             "alternateName": "",
             "slug": "etat-civil",
@@ -1296,36 +1344,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Profile of a Doomed Elite: The Structure of English Landed Society in 1066/Prosopography of Anglo-Saxon England",
-            "alternateName": "PDE/PASE",
-            "slug": "pde-pase",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Cambridge"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Research Software Analyst"
@@ -4052,12 +4071,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -11493,6 +11507,35 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "King's Past",
+            "alternateName": null,
+            "slug": "king-s-past",
+            "foundingDate": "2023-06-30",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Brightening the Covenant Chain",
             "alternateName": "BCC",
             "slug": "bcc",
@@ -12442,12 +12485,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -12890,6 +12928,78 @@
       "slug": "miguel-vieira",
       "description": "Miguel Vieira has worked in the digital humanities domain since 2006, when he took responsibility for the re-design of the XML development strategy at the then Centre for Computing in the Humanities at King's College London, though before that he was already developing software for libraries and archives.\n\nHe has expertise in designing, developing, and deploying web based projects, analysing and modelling humanities and unstructured data, natural language processing, machine learning, and systems administration.\n\nHe holds a degree in Engineering and Computer Sciences from the Universidade de Coimbra, and a BSc in Informatics and Systems Engineering from the Instituto Superior de Engenharia de Coimbra, Portugal.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "King's Past",
+            "alternateName": null,
+            "slug": "king-s-past",
+            "foundingDate": "2023-06-30",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -15108,7 +15218,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -15310,6 +15425,35 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "British Printed Images to 1700: Integrating Visual Sources into Historical Practice",
+            "alternateName": "BPI 1700",
+            "slug": "british-printed-images-to-1700-integrating-visual-sources-into-historical-practice",
+            "foundingDate": "2023-08-01",
+            "dissolutionDate": "2025-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newcastle University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -16603,12 +16747,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -16851,12 +16990,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -17784,6 +17918,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "A Partnership for Conserving and Promoting Sudanese Cultural and Documentary Heritage",
             "alternateName": "Sudan Memory",
             "slug": "sudan-memory",
@@ -17823,6 +18000,35 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "King's Past",
+            "alternateName": null,
+            "slug": "king-s-past",
+            "foundingDate": "2023-06-30",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -19244,6 +19450,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Henslowe-Alleyn Digitisation Project",
             "alternateName": null,
             "slug": "henslowe-alleyn-website",
@@ -19286,6 +19535,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
@@ -19850,12 +20142,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Unknown organisation",
-              "slug": "unknown-organisation"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -19896,7 +20183,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -19927,7 +20219,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
