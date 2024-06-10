@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe }}
+
+{% for presentation in collections.slides %}
+  <article>
+    <h2>
+      <a href="{{ presentation.url }}">{{ presentation.data.title }}</a>
+    </h2>
+    {% if presentation.data.event %}
+      <p>
+        {% if presentation.data.event.url %}
+          <a href="{{ presentation.data.event.url }}">{{ presentation.data.event.title }}</a>
+        {% else %}
+          {{ presentation.data.event.title }}
+        {% endif %}
+      </p>
+    {% endif %}
+  </article>
+{% endfor %}

@@ -1,23 +1,17 @@
-{# {% extends "layouts/base.njk" %} #}
+{% extends "layouts/base.njk" %}
 
 {% block stylesheets %}
+  <link rel="stylesheet" href="/assets/stylesheets/main.css" />
   <link rel="stylesheet" href="/assets/reveal/reveal.css" />
-  <link rel="stylesheet" href="/assets/reveal/theme/solarized.css" />
+  <link rel="stylesheet"
+        href="/assets/stylesheets/slides/{{ slide.theme or 'light' }}.css" />
 {% endblock stylesheets %}
 
-{% block header %}
-{% endblock header %}
-
 {% block main %}
-  <main>
-    <div class="reveal">
-      <div class="slides">{{ content | safe }}</div>
-    </div>
+  <main class="reveal">
+    <div class="slides">{{ content | safe }}</div>
   </main>
 {% endblock main %}
-
-{% block footer %}
-{% endblock footer %}
 
 {% block bodyEnd %}
   <script src="/assets/reveal/reveal.js"></script>
