@@ -1566,6 +1566,10 @@ nav.pagination ol li a span {
   font-family: "KingsCaslon", serif;
 }
 
+main.reveal + footer {
+  margin-top: 2em;
+}
+
 footer {
   background: #5a6369;
   margin-top: 8em;
