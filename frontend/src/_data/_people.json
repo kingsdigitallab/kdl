@@ -313,7 +313,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -15213,7 +15218,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -20173,7 +20183,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -20204,7 +20219,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
