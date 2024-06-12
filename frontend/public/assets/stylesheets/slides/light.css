@@ -232,7 +232,6 @@ section.has-dark-background h6 {
 
 .reveal code {
   font-family: var(--r-code-font);
-  font-size: 0.8em;
   text-transform: none;
   tab-size: 2;
 }
