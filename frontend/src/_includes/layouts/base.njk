@@ -47,11 +47,14 @@
     -}}
   {% endif %}
 {% endblock headerEnd %}
- 
+
 {% block content %}
   {% if navKey != "Home" %}<div class="kdl-container">{% endif %}
     {% if navKey != "Home" %}<h1>{{ title | safe }}</h1>{% endif %}
 
+    {% if page.fileSlug == 'faqs' %}
+      {% set tocTags = ["h2"] %}
+    {% endif %}
     {% include "partials/toc.njk" %}
 
     <article>{{ content | safe }}</article>
