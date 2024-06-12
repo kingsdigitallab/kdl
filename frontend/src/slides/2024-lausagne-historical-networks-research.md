@@ -12,7 +12,7 @@ slide:
 
 ## Radical Translators
 
-### (Britain, France and Italy, 1789-1815)
+### (Britain, France and Italy, 1789–1815)
 
 ### Through the Lens of a Network Visualization
 
@@ -28,7 +28,7 @@ Dr. Arianna Ciula | Miguel Vieira
 
 ## Introduction
 
-- The Radical Translations (RT) project (2019-2023)
+- The Radical Translations (RT) project (2019–2023)
 - Aimed to unravel the complex relationships of radical ideas during the 18th and 19th centuries
 - Employed data models based on BIBFRAME and FOAF
 
@@ -38,11 +38,9 @@ Dr. Arianna Ciula | Miguel Vieira
 
 ## Dataset Overview
 
-- 1505 agents (214 organizations, 1291 persons)
-- 237 events
-- 1691 bibliographical resources (947 translations, 610 source texts, 255 paratexts)
-- Extensive use of controlled vocabularies (FAST, Wikidata, VIAF, GeoNames, EDTF)
-- Project-specific classification schemes
+- **`1,505`** agents (`214` organizations, `1,291` persons)
+- **`237`** events
+- **`1,691`** bibliographical resources (`947` translations, `610` source texts, `255` paratexts)
 
 {% endslide %}
 
@@ -50,18 +48,30 @@ Dr. Arianna Ciula | Miguel Vieira
 
 ## Data Model
 
+![Data model](/assets/images/slides/radicaltranslations-models.png)
+
+<aside class="notes">
+
 - Captures translation practices (integral, partial, abridged, etc.)
 - Includes biographical information about translators (roles, attributes, relationships)
+- Extensive use of controlled vocabularies (FAST, Wikidata, VIAF, GeoNames, EDTF)
+- Project-specific classification schemes
+</aside>
 
 {% endslide %}
 
 {% slide %}
 
-## Network Visualization
+## Network Visualisation
+
+![Network visualisation](/assets/images/slides/radicaltranslations-knows-network.svg)
+
+<aside class="notes">
 
 - Implemented on Observable platform: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
 - Represents people (authors, translators, publishers) and organizations
 - Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)
+</aside>
 
 {% endslide %}
 
