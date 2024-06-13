@@ -14819,6 +14819,24 @@
           "name": "UKRI URL",
           "url": "https://gtr.ukri.org/projects?ref=AH%2FR009279%2F1"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Blogpost (1)",
+          "url": "https://kdl.kcl.ac.uk/blog/digital-ghost-hunt/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Blogpost (2)",
+          "url": "https://kdl.kcl.ac.uk/blog/new-digital-ghost-hunt/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Blogpost (3)",
+          "url": "https://kdl.kcl.ac.uk/blog/ghost-hunt-spinners-mill/"
+        }
       }
     ],
     "department": [
