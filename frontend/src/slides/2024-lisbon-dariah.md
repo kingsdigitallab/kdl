@@ -49,6 +49,7 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 {% slide %}
 
 ## Evolutionary Development
+
 ### Active development phase
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
@@ -91,7 +92,9 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 {% slide %}
 
 ## Timebox Planning
-Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox:
+
+Timebox: fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox:
+
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
 1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
