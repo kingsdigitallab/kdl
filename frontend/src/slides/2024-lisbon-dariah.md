@@ -53,8 +53,8 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
-- Deliverables and high level requiremenmt (pre-project phase) are reviewed and divided into increments
-- At at the end of each increment, we decide which requirements we'll focus on in the next one
+- Deliverables and high level requiremenmt (pre-project phase) reviewed and divided into increments
+- At at the end of each increment, what to focus next is decided
 
 {% endslide %}
 
@@ -91,7 +91,7 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 {% slide %}
 
 ## Timebox Planning
-Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox, the whole Solution Development Team:
+Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox:
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
 1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
