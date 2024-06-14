@@ -136,7 +136,8 @@ Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks
 
 ## Project Review
 
-Examples from projects
+### Examples from projects
+![Status of project requirements](/assets/images/slides/project-requirements.png)
 
 {% endslide %}
 
