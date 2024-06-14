@@ -17,7 +17,7 @@ draft: true
 
 ### Through the Lens of a Network Visualization
 
-Dr. Arianna Ciula | Miguel Vieira
+Dr Arianna Ciula | Miguel Vieira
 
 #### King's Digital Lab, King's College London
 
@@ -57,6 +57,7 @@ Dr. Arianna Ciula | Miguel Vieira
 - Includes biographical information about translators (roles, attributes, relationships)
 - Extensive use of controlled vocabularies (FAST, Wikidata, VIAF, GeoNames, EDTF)
 - Project-specific classification schemes
+
 </aside>
 
 {% endslide %}
@@ -72,6 +73,7 @@ Dr. Arianna Ciula | Miguel Vieira
 - Implemented on Observable platform: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
 - Represents people (authors, translators, publishers) and organizations
 - Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)
+
 </aside>
 
 {% endslide %}
