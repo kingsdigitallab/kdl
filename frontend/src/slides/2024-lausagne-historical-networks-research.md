@@ -6,6 +6,7 @@ event:
 tags: slides
 slide:
   loop: true
+draft: true
 ---
 
 {% slide %}
