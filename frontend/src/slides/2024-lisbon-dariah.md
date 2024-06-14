@@ -9,6 +9,8 @@ tags:
 slide:
   loop: true
   theme: dark
+  slideNumber: true
+draft: false
 ---
 
 {% slide %}
@@ -17,7 +19,7 @@ slide:
 
 ### King's Digital Lab, King's College London
 
-Dr. Arianna Ciula | Pamela Mellen | Miguel Vieira
+Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 [`kdl.kcl.ac.uk`](https://kdl.kcl.ac.uk)
 
@@ -25,7 +27,20 @@ Dr. Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 {% slide %}
 
-### Software Development Lifecycle
+## RSE Lab
+
+- Established **`2015`**, in Faculty of Arts & Humanities
+- **`13`** Team members
+- Collaborators: Researchers and Research Orgs
+- Services and/or co-lead research
+- **`50%`** Annual cost recovery model
+- Research areas: Digital Creativity, AI/ML, Indigenous DH, Data Viz (aspiration)
+
+{% endslide %}
+
+{% slide %}
+
+## KDL's SDLC
 
 ![SDLC diagram](/assets/images/slides/sdlc.png)
 
@@ -33,15 +48,9 @@ Dr. Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 {% slide %}
 
-### Software Development Lifecycle
-
-![SDLC diagram focused on evolutionary develoment](/assets/images/slides/sdlc-evodev-focus.jpg)
-
-{% endslide %}
-
-{% slide %}
-
 ## Evolutionary Development
+
+![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
 The actual development. Dividing the project into increments, we decide at the end of each which requirements we'll focus on in the next increment.
 
@@ -88,7 +97,7 @@ A timebox is a fixed period of time allocated for completing a set of tasks in. 
 ## Timebox Planning
 
 1. Review previous timebox
-1. Plan current timebox based on current project priorities
+1. Plan current timebox based on current projects' priorities
 1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
 1. Workload review
 
@@ -113,7 +122,7 @@ A timebox is a fixed period of time allocated for completing a set of tasks in. 
 ### Plan current timebox
 
 - High-level priorities set during meeting
-- Task level are done by individual project teams
+- Task level planning is done by project sub-teams at internal review meetings
 
 {% endslide %}
 
@@ -143,18 +152,6 @@ Examples from projects
 - Custom dashboards
 - GitHub
 - Slack
-
-{% endslide %}
-
-{% slide %}
-
-## Benefits
-
-{% endslide %}
-
-{% slide %}
-
-## Challenges
 
 {% endslide %}
 
