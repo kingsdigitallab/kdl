@@ -49,12 +49,12 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 {% slide %}
 
 ## Evolutionary Development
+### Active development phase
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
-This is the active development phase. 
-- Deliverables and high level requiremenmt defined at pre-project phase are reviewed and divided into increments
-- At at the end of each increment, we decide which requirements we'll focus on in the next increment
+- Deliverables and high level requiremenmt (pre-project phase) are reviewed and divided into increments
+- At at the end of each increment, we decide which requirements we'll focus on in the next one
 
 {% endslide %}
 
