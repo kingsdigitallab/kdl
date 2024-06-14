@@ -29,10 +29,10 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 ## RSE Lab
 
-- Established **`2015`**, in Faculty of Arts & Humanities
+- Established **`2015`**, in Arts & Humanities Faculty, King's College London UK
 - **`13`** Team members
 - Collaborators: Researchers and Research Orgs
-- Services and/or co-lead research
+- Research services and/or (co-)lead research
 - **`50%`** Annual cost recovery model
 - Research areas: Digital Creativity, AI/ML, Indigenous DH, Data Viz (aspiration)
 
@@ -52,13 +52,17 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
-The actual development. Dividing the project into increments, we decide at the end of each which requirements we'll focus on in the next increment.
+This is the active development phase. 
+- Deliverables and high level requiremenmt defined at pre-project phase are reviewed and divided into increments
+- At at the end of each increment, we decide which requirements we'll focus on in the next increment
 
 {% endslide %}
 
 {% slide %}
 
 ## Evolutionary Development
+
+### Active projects
 
 ![Projects in evolutionary development](/assets/images/slides/evodev-projects.png)
 
@@ -95,7 +99,7 @@ A timebox is a fixed period of time allocated for completing a set of tasks in. 
 {% slide %}
 
 ## Timebox Planning
-
+Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox, the whole Solution Development Team:
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
 1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
