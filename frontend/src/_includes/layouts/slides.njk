@@ -19,16 +19,14 @@
   <script src="/assets/reveal/plugin/notes/notes.js"></script>
   <script>
     Reveal.initialize({
-    {% if slide.auto %}
-      autoSlide: {{ slide.auto }},
-    {% endif %}
+      autoSlide: {{ slide.auto || false }},
       controls: true,
       embedded: true,
       hash: true,
       history: true,
-      loop: {{ slide.loop }},
+      loop: {{ slide.loop or false }},
       progress: true,
-      slideNumber: {{ slide.slideNumber }},
+      slideNumber: {{ slide.slideNumber or false}},
       transition: 'fade',
       plugins: [ RevealHighlight, RevealNotes ]
     });
