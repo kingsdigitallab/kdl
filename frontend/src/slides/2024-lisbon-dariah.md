@@ -91,14 +91,6 @@ This is the active development phase.
 {% slide %}
 
 ## Timebox Planning
-
-A timebox is a fixed period of time allocated for completing a set of tasks in. In which the team must work to deliver a _product_ increment or hit a milestone.
-
-{% endslide %}
-
-{% slide %}
-
-## Timebox Planning
 Timebox = fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox, the whole Solution Development Team:
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
