@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>Static First Development Approach | King&apos;s Digital Lab</title>
+
+<meta name="description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE)...">
+<meta name="robots" content="index,follow">
+<meta name="author" content="King's Digital Lab">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/slides/2024-london-static-first/">
+
+<meta property="og:title" content="Static First Development Approach | King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/slides/2024-london-static-first/">
+<meta property="og:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE)...">
+<meta property="og:image" content="https://kdl.kcl.ac.ukundefined">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/slides/2024-london-static-first/">
+<meta name="twitter:title" content="Static First Development Approach | King&apos;s Digital Lab">
+<meta name="twitter:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE)...">
+<meta name="twitter:image" content="https://kdl.kcl.ac.ukundefined">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+  <link rel="stylesheet" href="/kdl/assets/stylesheets/main.css">
+  <link rel="stylesheet" href="/kdl/assets/reveal/reveal.css">
+  <link rel="stylesheet" href="/kdl/assets/stylesheets/slides/light.css">
+
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+
+      </header>
+    
+
+    
+  <main class="reveal">
+    <div class="slides"><section class="slide" data-auto-animate="">
+<h2 id="static-first-development-approach" tabindex="-1">Static First Development Approach</h2>
+<h3 id="king's-digital-lab%2C-king's-college-london" tabindex="-1">King's Digital Lab, King's College London</h3>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="introduction" tabindex="-1">Introduction</h2>
+<ul>
+<li>Traditional web development often relies on complex, resource-intensive stacks (e.g., Django)</li>
+<li>Moving towards a more sustainable, low-resource approach using static site generators (SSGs)</li>
+<li>Benefits: improved performance, security, scalability, and reduced hosting costs</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="the-static-first-development-approach" tabindex="-1">The Static First Development Approach</h2>
+<ul>
+<li>A modular, flexible approach for building websites and web applications</li>
+<li>Follows a technical stack with at most 3 components:
+<ol>
+<li>Static Site Generator (SSG) as the base</li>
+<li>Flat File CMS (optional)</li>
+<li>Headless CMS (optional, for more complex projects)</li>
+</ol>
+</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="component-1%3A-static-site-generator-(ssg)" tabindex="-1">Component 1: Static Site Generator (SSG)</h2>
+<ul>
+<li>Generates static HTML, CSS, and JavaScript files from templates and data sources</li>
+<li>Examples: <strong><a href="https://www.11ty.dev">11ty</a></strong>, <a href="https://gohugo.io">Hugo</a>,
+<a href="https://nextjs.org">Next.js</a>, <strong><a href="https://kit.svelte.dev">SveteKit</a></strong> (static export)</li>
+<li>Benefits: fast performance, secure, scalable, and easy to host</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="component-2%3A-flat-file-cms-(optional)" tabindex="-1">Component 2: Flat File CMS (optional)</h2>
+<ul>
+<li>Provides a user-friendly interface for managing content in flat files (e.g., Markdown)</li>
+<li>Examples: <strong><a href="https://frontmatter.codes">Front Matter</a></strong>, <a href="https://decapcms.org/">Decap CMS</a></li>
+<li>Suitable for smaller, content-driven projects</li></ul></section>
+
+
+<section class="slide" data-auto-animate="">
+<h2 id="component-3%3A-headless-cms-(optional)" tabindex="-1">Component 3: Headless CMS (optional)</h2>
+<ul>
+<li>Decoupled content management system, serving content via APIs/data exports</li>
+<li>Examples: <strong><a href="https://directus.io">Directus</a></strong>, <strong><a href="https://pocketbase.io">Pocketbase</a></strong></li>
+<li>Suitable for projects that require advanced content modeling and dynamic content delivery</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="using-standard-data-models" tabindex="-1">Using Standard Data Models</h2>
+<ul>
+<li>Adopt standard data models based on schema.org</li>
+<li>Facilitates content portability and interoperability</li>
+<li>Aligns with semantic web principles</li>
+<li>Examples: Article, Event, Person, etc.</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="the-stack-migration-process" tabindex="-1">The Stack Migration Process</h2>
+<ul>
+<li>Previously used a Django-based stack (monolithic)</li>
+<li>Recently introduced Docker for improved containerization and scalability</li>
+<li>Now moving towards a static first approach for sustainability reasons</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="benefits-of-the-static-first-approach" tabindex="-1">Benefits of the Static First Approach</h2>
+<ul>
+<li>Improved performance and scalability</li>
+<li>Enhanced security (reduced attack surface)</li>
+<li>Lower hosting and maintenance costs</li>
+<li>Better developer experience (simpler tooling, faster build times)</li>
+<li>Easier deployment and content updates</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="challenges-and-considerations" tabindex="-1">Challenges and Considerations</h2>
+<ul>
+<li>Limited real-time interactivity (can be mitigated with JS frameworks)</li>
+<li>Potential content modeling limitations (depends on CMS choice)</li>
+<li>Learning curve for new tooling and workflows</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<ul>
+<li>The static first approach offers a sustainable, low-resource solution</li>
+<li>Modular stack allows flexibility and scalability</li>
+<li>Suitable for a wide range of projects, from simple websites to complex web applications</li>
+<li>Embracing the JAMstack (JavaScript, APIs, and Markup) architecture</li>
+</ul>
+</section>
+</div>
+  </main>
+
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> Report a problem</a>
+        </li>
+        <li>
+          <address>
+            <a href="mailto:kdl-info@kcl.ac.uk"><ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+          </address>
+        </li>
+        <li>
+          <address class="postal">
+            King's College London
+            <br>
+            Room VWB 2.50,
+            <br>
+            Virginia Woolf Building
+            <br>
+            22 Kingsway
+            <br>
+            London WC2B 6LE
+          </address>
+        </li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<section class="footer-end">
+  <div class="kdl-container">
+    <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+  </div>
+</section>
+
+
+  </footer>
+
+
+    
+  <script src="/kdl/assets/reveal/reveal.js"></script>
+  <script src="/kdl/assets/reveal/plugin/highlight/highlight.js"></script>
+  <script src="/kdl/assets/reveal/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      autoSlide: false,
+      controls: true,
+      embedded: true,
+      hash: true,
+      history: true,
+      loop: true,
+      progress: true,
+      slideNumber: true,
+      transition: 'fade',
+      plugins: [ RevealHighlight, RevealNotes ]
+    });
+  </script>
+
+  </body>
+</html>
