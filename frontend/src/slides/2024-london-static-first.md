@@ -34,11 +34,15 @@ draft: false
 
 ## The Static First Development Approach
 
+![Static first components](/assets/images/slides/static-first-components.png)
+
+<aside class="notes">
 - A modular, flexible approach for building websites and web applications
 - Follows a technical stack with at most 3 components:
   1. Static Site Generator (SSG) as the base
   2. Flat File CMS (optional)
   3. Headless CMS (optional, for more complex projects)
+</aside>
 
 {% endslide %}
 
