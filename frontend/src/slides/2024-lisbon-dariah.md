@@ -30,7 +30,7 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 ## RSE Lab
 
 - Established **`2015`**, in Arts & Humanities Faculty, King's College London UK
-- **`13`** Team members
+- [**`13`** Team members](https://kdl.kcl.ac.uk/about/team/)
 - Collaborators: Researchers and Research Orgs
 - Research services and/or (co-)lead research
 - **`50%`** Annual cost recovery model
