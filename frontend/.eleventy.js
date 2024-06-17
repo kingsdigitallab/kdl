@@ -225,9 +225,12 @@ module.exports = (eleventyConfig) => {
     return url;
   });
 
-  eleventyConfig.addPairedShortcode("slide", function (content) {
-    return `<section class="slide" data-auto-animate>${content}</section>`;
-  });
+  eleventyConfig.addPairedShortcode(
+    "slide",
+    function (content, options = ["data-auto-animate"]) {
+      return `<section class="slide" ${options.join(" ")}>${content}</section>`;
+    }
+  );
 
   // https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
   eleventyConfig.addTemplateFormats("scss");
