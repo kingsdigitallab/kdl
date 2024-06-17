@@ -155,14 +155,6 @@ Timebox: fixed period of time (2 weeks) allocated for completing a set of tasks 
 
 {% slide %}
 
-## Project Review
-
-![Project review record - increment 2](/assets/images/slides/project-review-record-increment-2.png)
-
-{% endslide %}
-
-{% slide %}
-
 ## Thank You & Questions?
 
 [`kdl-info@kcl.ac.uk`](mailto:kdl-info@kcl.ac.uk)
