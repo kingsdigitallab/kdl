@@ -47,7 +47,7 @@ draft: false
 ## Component 1: Static Site Generator (SSG)
 
 - Generates static HTML, CSS, and JavaScript files from templates and data sources
-- Examples: **[11ty](https://www.11ty.dev)**, [Hugo](https://gohugo.io),
+- Examples: **[11ty](https://www.11ty.dev)**, [Jekyll](https://jekyllrb.com),
   [Next.js](https://nextjs.org), **[SveteKit](https://kit.svelte.dev)** (static export)
 - Benefits: fast performance, secure, scalable, and easy to host
 
@@ -60,7 +60,8 @@ draft: false
 - Provides a user-friendly interface for managing content in flat files (e.g., Markdown)
 - Examples: **[Front Matter](https://frontmatter.codes)**, [Decap CMS](https://decapcms.org/)
 - Suitable for smaller, content-driven projects
-  {% endslide %}
+
+{% endslide %}
 
 {% slide %}
 
@@ -122,6 +123,6 @@ draft: false
 - The static first approach offers a sustainable, low-resource solution
 - Modular stack allows flexibility and scalability
 - Suitable for a wide range of projects, from simple websites to complex web applications
-- Embracing the JAMstack (JavaScript, APIs, and Markup) architecture
+- Using the JAMstack (JavaScript, APIs, and Markup) architecture
 
 {% endslide %}
