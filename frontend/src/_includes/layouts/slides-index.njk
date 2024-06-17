@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe }}
+
+{% for presentation in collections.slides|sort(false, false, "data.title") %}
+  <article>
+    <h2>
+      <a href="{{ presentation.url }}">{{ presentation.data.title }}</a>
+      <small>
+        <a href="{{ presentation.url }}?print-pdf">Print</a>
+      </small>
+    </h2>
+    {% if presentation.data.event %}
+      <p>
+        {% if presentation.data.event.url %}
+          <a href="{{ presentation.data.event.url }}">{{ presentation.data.event.title }}</a>
+        {% else %}
+          {{ presentation.data.event.title }}
+        {% endif %}
+      </p>
+    {% endif %}
+  </article>
+{% endfor %}

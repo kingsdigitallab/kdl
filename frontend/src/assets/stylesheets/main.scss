@@ -1659,9 +1659,14 @@ nav.pagination {
 } //nav.pagination
 
 //-- Footer --
+main.reveal + footer {
+  margin-top: 2em;
+}
+
 footer {
   background: $darkgray;
   margin-top: 8em;
+
   //float: left;
   width: 100%;
   color: white;

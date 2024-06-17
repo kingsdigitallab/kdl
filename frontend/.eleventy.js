@@ -123,10 +123,10 @@ module.exports = (eleventyConfig) => {
     return DateTime.fromISO(dateObj).get("year");
   });
 
-  eleventyConfig.addFilter("asToc", (content) => {
+  eleventyConfig.addFilter("asToc", (content, tags = ["h2", "h3", "h4"]) => {
     const tocFilter = eleventyConfig.getFilter("toc");
 
-    const toc = tocFilter(content);
+    const toc = tocFilter(content, { tags });
     if (toc) {
       const items = toc.split("<li>");
 
@@ -225,9 +225,12 @@ module.exports = (eleventyConfig) => {
     return url;
   });
 
-  eleventyConfig.addPairedShortcode("slide", function (content) {
-    return `<section class="slide" data-auto-animate>${content}</section>`;
-  });
+  eleventyConfig.addPairedShortcode(
+    "slide",
+    function (content, options = ["data-auto-animate"]) {
+      return `<section class="slide" ${options.join(" ")}>${content}</section>`;
+    }
+  );
 
   // https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
   eleventyConfig.addTemplateFormats("scss");
