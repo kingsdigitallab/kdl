@@ -1,8 +1,8 @@
 ---
 title: Static First Development Approach
 event:
-  title: Static First Development Approach
-  url: https://annualevent.dariah.eu/
+  title: Internal Event
+  url:
 tags:
   - slides
 slide:
