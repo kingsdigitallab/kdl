@@ -4,7 +4,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{% for presentation in collections.slides %}
+{% for presentation in collections.slides|sort(false, false, "data.title") %}
   <article>
     <h2>
       <a href="{{ presentation.url }}">{{ presentation.data.title }}</a>
