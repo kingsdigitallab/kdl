@@ -45,7 +45,8 @@ section.has-dark-background h6 {
   --r-code-font: monospace;
   --r-link-color: var(--midnight-blue);
   --r-link-color-dark: #082440;
-  --r-link-color-hover: var(--yellow);
+  --r-link-color-hover: var(--midnight-blue);
+  --r-link-color-hover-border: var(--yellow);
   --r-selection-background-color: var(--midnight-blue);
   --r-selection-color: var(--pearl-grey);
   --r-overlay-element-bg-color: 0, 0, 0;
@@ -321,7 +322,7 @@ section.has-dark-background h6 {
 .reveal a:hover {
   color: var(--r-link-color-hover);
   text-shadow: none;
-  border: none;
+  border-bottom: 0.5rem solid var(--r-link-color-hover-border);
 }
 
 .reveal .roll span:after {
