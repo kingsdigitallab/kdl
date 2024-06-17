@@ -91,22 +91,11 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 {% slide %}
 
-## Other Methods and Tools
-
-- Figma
-- GitHub/Gitlab
-- Miro
-- Slack
-
-{% endslide %}
-
-{% slide %}
-
 ## Timebox Planning
 
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
-1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
+   - [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
 1. Workload review
 
 <aside class="notes">
