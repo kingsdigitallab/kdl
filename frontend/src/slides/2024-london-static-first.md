@@ -44,12 +44,20 @@ draft: false
 
 {% slide %}
 
-## Component 1: Static Site Generator (SSG)
+## Component 1: Static Site Generator
 
 - Generates static HTML, CSS, and JavaScript files from templates and data sources
 - Examples: **[11ty](https://www.11ty.dev)**, [Jekyll](https://jekyllrb.com),
-  [Next.js](https://nextjs.org), **[SveteKit](https://kit.svelte.dev)** (static export)
+  [Next.js](https://nextjs.org), **[SvelteKit](https://kit.svelte.dev)** (static export)
 - Benefits: fast performance, secure, scalable, and easy to host
+
+{% endslide %}
+
+{% slide %}
+
+## Component 1: Static Site Generator
+
+![Static first project structure](/assets/images/slides/static-structure.png)
 
 {% endslide %}
 
@@ -65,11 +73,27 @@ draft: false
 
 {% slide %}
 
+## Component 2: Flat File CMS (optional)
+
+![Front matter CMS](/assets/images/slides/frontmatter.png)
+
+{% endslide %}
+
+{% slide %}
+
 ## Component 3: Headless CMS (optional)
 
 - Decoupled content management system, serving content via APIs/data exports
 - Examples: **[Directus](https://directus.io)**, **[Pocketbase](https://pocketbase.io)**
 - Suitable for projects that require advanced content modeling and dynamic content delivery
+
+{% endslide %}
+
+{% slide %}
+
+## Component 3: Headless CMS (optional)
+
+![Directus CMS](/assets/images/slides/directus.png)
 
 {% endslide %}
 
@@ -123,6 +147,6 @@ draft: false
 - The static first approach offers a sustainable, low-resource solution
 - Modular stack allows flexibility and scalability
 - Suitable for a wide range of projects, from simple websites to complex web applications
-- Using the JAMstack (JavaScript, APIs, and Markup) architecture
+- Based on the [JAMstack](https://jamstack.org) (JavaScript, APIs, and Markup) architecture
 
 {% endslide %}
