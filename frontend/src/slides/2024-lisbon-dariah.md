@@ -54,7 +54,7 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
-- Deliverables and high level requiremenmt (pre-project phase) reviewed and divided into increments
+- Deliverables and high level requirement (pre-project phase) reviewed and divided into increments
 - At at the end of each increment, what to focus next is decided
 
 {% endslide %}
@@ -91,14 +91,27 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 {% slide %}
 
-## Timebox Planning
+## Other Methods and Tools
 
-Timebox: fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone. At the start of each timebox:
+- Figma
+- GitHub/Gitlab
+- Miro
+- Slack
+
+{% endslide %}
+
+{% slide %}
+
+## Timebox Planning
 
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
 1. [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
 1. Workload review
+
+<aside class="notes">
+Timebox: fixed period of time (2 weeks) allocated for completing a set of tasks across projects to deliver an increment or hit a milestone.
+</aside>
 
 {% endslide %}
 
@@ -156,17 +169,6 @@ Timebox: fixed period of time (2 weeks) allocated for completing a set of tasks 
 ## Project Review
 
 ![Project review record - increment 2](/assets/images/slides/project-review-record-increment-2.png)
-
-{% endslide %}
-
-{% slide %}
-
-## Methods and Tools
-
-- ClickUp
-- Custom dashboards
-- GitHub
-- Slack
 
 {% endslide %}
 
