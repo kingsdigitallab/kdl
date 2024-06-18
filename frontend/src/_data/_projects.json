@@ -8777,6 +8777,12 @@
           "name": "UKRI URL",
           "url": "https://gtr.ukri.org/projects?ref=AH%2FS01179X%2F1"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Language of Mechanisation data paper",
+          "url": "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195"
+        }
       }
     ],
     "department": [
