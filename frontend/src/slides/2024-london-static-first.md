@@ -28,6 +28,26 @@ draft: false
 - Moving towards a more sustainable, low-resource approach using static site generators (SSGs)
 - Benefits: improved performance, security, scalability, and reduced hosting costs
 
+<aside class="notes">
+Emphasize the sustainability and performance benefits of the static/archival first approach, especially in comparison to traditional monolithic stacks like Django.
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## The Static First Development Approach
+
+- A modular, flexible approach for building websites and web applications
+- Follows a technical stack with at most 3 components:
+  1. Static Site Generator (SSG) as the base
+  2. Flat File CMS (optional)
+  3. Headless CMS (optional, for more complex projects)
+
+<aside class="notes">
+Highlight the modular nature of the proposed stack, allowing for different combinations based on project complexity and requirements.
+</aside>
+
 {% endslide %}
 
 {% slide %}
@@ -37,11 +57,8 @@ draft: false
 ![Static first components](/assets/images/slides/static-first-components.png)
 
 <aside class="notes">
-- A modular, flexible approach for building websites and web applications
-- Follows a technical stack with at most 3 components:
-  1. Static Site Generator (SSG) as the base
-  2. Flat File CMS (optional)
-  3. Headless CMS (optional, for more complex projects)
+The static first components mapped into the Divine Comedy of web development at
+KDL.
 </aside>
 
 {% endslide %}
@@ -54,6 +71,10 @@ draft: false
 - Examples: **[11ty](https://www.11ty.dev)**, [Jekyll](https://jekyllrb.com),
   [Next.js](https://nextjs.org), **[SvelteKit](https://kit.svelte.dev)** (static export)
 - Benefits: fast performance, secure, scalable, and easy to host
+
+<aside class="notes">
+Briefly explain each component (SSG, Flat File CMS, Headless CMS) and provide examples of popular tools.
+</aside>
 
 {% endslide %}
 
@@ -105,10 +126,15 @@ draft: false
 
 ## Using Standard Data Models
 
-- Adopt standard data models based on schema.org
-- Facilitates content portability and interoperability
+- Adopt standard data models based on [schema.org](https://schema.org/)
+- Enables content portability and interoperability
 - Aligns with semantic web principles
 - Examples: Article, Event, Person, etc.
+
+<aside class="notes">
+Discuss the adoption of standard data models based on schema.org for content
+portability, interoperability, and alignment with semantic web principles. 
+</aside>
 
 {% endslide %}
 
@@ -119,6 +145,11 @@ draft: false
 - Previously used a Django-based stack (monolithic)
 - Recently introduced Docker for improved containerization and scalability
 - Now moving towards a static first approach for sustainability reasons
+
+<aside class="notes">
+Discuss the migration process from the previous Django-based stack, including 
+the recent introduction of Docker for containerization.
+</aside>
 
 {% endslide %}
 
@@ -132,6 +163,11 @@ draft: false
 - Better developer experience (simpler tooling, faster build times)
 - Easier deployment and content updates
 
+<aside class="notes">
+Outline the key benefits of the static/archival first approach, such as improved
+performance, security, scalability, and reduced hosting costs.
+</aside>
+
 {% endslide %}
 
 {% slide %}
@@ -141,6 +177,11 @@ draft: false
 - Limited real-time interactivity (can be mitigated with JS frameworks)
 - Potential content modeling limitations (depends on CMS choice)
 - Learning curve for new tooling and workflows
+
+<aside class="notes">
+Address potential challenges and considerations, such as limited real-time 
+interactivity, content modeling limitations, learning curves.
+</aside>
 
 {% endslide %}
 
@@ -152,5 +193,11 @@ draft: false
 - Modular stack allows flexibility and scalability
 - Suitable for a wide range of projects, from simple websites to complex web applications
 - Based on the [JAMstack](https://jamstack.org) (JavaScript, APIs, and Markup) architecture
+
+<aside class="notes">
+Mention the alignment with the JAMstack (JavaScript, APIs, and Markup)
+architecture, which is popular for its scalability and performance
+characteristics.
+</aside>
 
 {% endslide %}
