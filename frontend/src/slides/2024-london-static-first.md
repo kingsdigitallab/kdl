@@ -29,7 +29,11 @@ draft: false
 - Benefits: improved performance, security, scalability, and reduced hosting costs
 
 <aside class="notes">
-Emphasize the sustainability and performance benefits of the static/archival first approach, especially in comparison to traditional monolithic stacks like Django.
+To start I would like to emphasize the sustainability and performance benefits of
+the static/archival first approach, especially in comparison to our previous
+monolithic stacks like Django. Other benefits include improved performance,
+security, and reduce hosting costs. These benefits are mainly because in the end
+all that we are hosting is HTML/CSS/JavaScript files.
 </aside>
 
 {% endslide %}
@@ -45,7 +49,8 @@ Emphasize the sustainability and performance benefits of the static/archival fir
   3. Headless CMS (optional, for more complex projects)
 
 <aside class="notes">
-Highlight the modular nature of the proposed stack, allowing for different combinations based on project complexity and requirements.
+It's a modular stack, that allows for different
+combinations based on project complexity and requirements.
 </aside>
 
 {% endslide %}
@@ -132,8 +137,9 @@ Briefly explain each component (SSG, Flat File CMS, Headless CMS) and provide ex
 - Examples: Article, Event, Person, etc.
 
 <aside class="notes">
-Discuss the adoption of standard data models based on schema.org for content
-portability, interoperability, and alignment with semantic web principles. 
+In parallel with the static first approach we also started a more general
+adoption of standard data models based on schema.org for content
+portability, interoperability, and alignment with semantic web principles.
 </aside>
 
 {% endslide %}
@@ -165,7 +171,8 @@ the recent introduction of Docker for containerization.
 
 <aside class="notes">
 Outline the key benefits of the static/archival first approach, such as improved
-performance, security, scalability, and reduced hosting costs.
+performance, security, scalability, and reduced hosting costs, again this is
+because we are mostly just hosting HTML files.
 </aside>
 
 {% endslide %}
@@ -179,7 +186,7 @@ performance, security, scalability, and reduced hosting costs.
 - Learning curve for new tooling and workflows
 
 <aside class="notes">
-Address potential challenges and considerations, such as limited real-time 
+Address potential challenges and considerations, such as limited real-time
 interactivity, content modeling limitations, learning curves.
 </aside>
 

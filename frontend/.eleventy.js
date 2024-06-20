@@ -200,7 +200,17 @@ module.exports = (eleventyConfig) => {
   );
 
   eleventyConfig.addFilter("getAgentOrganisations", (memberOf) =>
-    memberOf.filter((role) => role.inOrganisation)
+    Object.values(
+      memberOf
+        .filter((role) => role.inOrganisation)
+        .reduce((acc, role) => {
+          if (!acc[role.inOrganisation.agent]) {
+            acc[role.inOrganisation.agent] = role;
+          }
+
+          return acc;
+        }, {})
+    )
   );
 
   eleventyConfig.addShortcode("getDirectusAsset", (id) => {
