@@ -7816,6 +7816,19 @@
             "name": "Project roles"
           }
         }
+      },
+      {
+        "agent": {
+          "id": "5484f177-d3d5-400f-95c4-0b6cb8127e8f",
+          "name": "Robin Wright",
+          "slug": "robin-wright"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
       }
     ]
   },
