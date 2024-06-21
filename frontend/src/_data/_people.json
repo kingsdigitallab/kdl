@@ -19797,6 +19797,35 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "King's Past",
+            "alternateName": null,
+            "slug": "king-s-past",
+            "foundingDate": "2023-06-30",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {

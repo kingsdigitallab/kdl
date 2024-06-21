@@ -7763,7 +7763,7 @@
   {
     "alternateName": null,
     "cmsStatus": "draft",
-    "description": null,
+    "description": "The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2023-06-30",
     "id": "ce748bcf-423f-4ead-a181-b8d810a4ba3a",
@@ -7905,6 +7905,32 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "3065782e-a9de-4af3-884e-06bd8f20b36d",
+          "name": "Jonah Miller",
+          "slug": "jonah-miller"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
