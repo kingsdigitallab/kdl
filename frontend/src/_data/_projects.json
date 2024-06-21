@@ -7644,13 +7644,13 @@
   },
   {
     "alternateName": "iREAL",
-    "cmsStatus": "draft",
-    "description": null,
+    "cmsStatus": "published",
+    "description": "iREAL looks to develop a model for responsible AI systems assessment and development in libraries seeking to include knowledge from Indigenous communities, specifically Aboriginal and Torres Strait Islander communities in Australia. The project will address the need for clear guidance on responsible AI systems assessment and development that embeds Indigenous rights and perspectives into the principles of \"respect for human autonomy, prevention of harm, fairness and explicability\" that are the ethical basis of trustworthy AI (High Level Expert Group on Artificial Intelligence, 2019). iREAL will apply this knowledge to create an actionable, pragmatic and scalable model for source community engagement in the assessment and development of AI systems via the requirements elicitation process. \n\nSamantha Callaghan is a Co-Lead for the project while the KDL SDT team will produce a web-based dashboard to allow for workshop participants working in sub-teams to explore raw data critically, undertake data extraction and apply a machine learning model to the data. The SDT team will also have the opportunity to take part in project workshops.",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2024-02-01",
     "id": "2a9cbb1b-66b4-4a75-a431-c26de1e5ec64",
     "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
-    "slug": "i-real-inclusive-requirements-elicitation-for-ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges",
+    "slug": "ireal",
     "creativeWorkStatus": {
       "name": "Active",
       "inDefinedTermSet": {
@@ -7669,7 +7669,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://www.kcl.ac.uk/research/ireal"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -7755,6 +7762,19 @@
           "name": "Research Software Designer",
           "inDefinedTermSet": {
             "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "19234dbe-7ca9-4805-81ea-6ae2df419496",
+          "name": "Abdenour Bouich",
+          "slug": "abdenour-bouich"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
           }
         }
       }
