@@ -7767,9 +7767,48 @@
       },
       {
         "agent": {
+          "id": "dce5642b-4e3d-4033-b86f-f2c11903d8d2",
+          "name": "Kirsten Thorpe",
+          "slug": "kirsten-thorpe"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "19234dbe-7ca9-4805-81ea-6ae2df419496",
           "name": "Abdenour Bouich",
           "slug": "abdenour-bouich"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4614a747-f675-4c54-b7f8-1a28c588528f",
+          "name": "Rosie Spooner",
+          "slug": "rosie-spooner"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "cacc2085-0655-4df3-868c-bcd2e8ea4a9e",
+          "name": "Lauren Booker",
+          "slug": "lauren-booker"
         },
         "roleName": {
           "name": "Researcher",
