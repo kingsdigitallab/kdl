@@ -7672,7 +7672,7 @@
     "url": [
       {
         "linkrole_id": {
-          "name": "Project URL",
+          "name": "Faculty Page",
           "url": "https://www.kcl.ac.uk/research/ireal"
         }
       }
@@ -13819,9 +13819,9 @@
           "slug": "arianna-ciula"
         },
         "roleName": {
-          "name": "Research Software Analyst",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
-            "name": "Team roles"
+            "name": "Project roles"
           }
         }
       },
@@ -13975,7 +13975,7 @@
           "slug": "james-graham"
         },
         "roleName": {
-          "name": "Partner",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
