@@ -6237,6 +6237,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-06-24T08:30:51.001Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "fd7038eb-2465-45f3-9529-e94f442cc2af",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-06-24T08:30:50.688Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "1efaa409-7bd2-4247-ae91-0c4dc4877530",
+      "name": "London School of Hygiene and Tropical Medicine",
+      "slug": "london-school-of-hygiene-and-tropical-medicine",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:09.425Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

@@ -1249,14 +1249,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Imperial College London"
+                    "name": "KCL eResearch"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL eResearch"
+                    "name": "Imperial College London"
                   }
                 }
               }
@@ -15196,6 +15196,44 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up-a-strategic-t-echnical-platform-for-university-technical-professionals",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Lab Manager"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Inscriptions of Roman Cyrenaica",
             "alternateName": "IRCYR",
             "slug": "ircyr",
@@ -19557,14 +19595,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Imperial College London"
+                    "name": "KCL eResearch"
                   }
                 }
               },
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "KCL eResearch"
+                    "name": "Imperial College London"
                   }
                 }
               }

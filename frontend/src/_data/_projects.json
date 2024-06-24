@@ -13721,8 +13721,8 @@
   },
   {
     "alternateName": "STEP-UP",
-    "cmsStatus": "draft",
-    "description": null,
+    "cmsStatus": "published",
+    "description": "The STEP-UP platform is a project to develop and support digital Research Technical Professionals (RTPs) and their ecosystem.\n\n'Digital infrastructure' – enabling computational modelling, processing of larger datasets, creation of advanced research facilities, sharing results openly – is the foundation of an increasing number of research domains, beyond those where computation and big datasets have been central for some time.\n\nSTEP-UP starting point is that a trained, motivated 'people infrastructure' of expert technical talent – such as research software engineers, research data professionals and systems administrators – along with the career opportunities to support them, is critical to meet new and increasing demands on institutional and national research digital infrastructures.\n\nSTEP-UP project team have extensive experience in supporting research software engineers through the Research Software London (RSLondon) community. Building on this experience to support and train digital RTPs across software development, data management and processing, and computational infrastructure domains, four institutions have pooled their complementary expertise to to create a support ecosystem beyond what any institution alone could, and that many others across the UK will benefit from. \n\nValuing staff which are in high demand, e.g. in tech startups and other industry roles, is critical to STEP-UP together with well-defined career path, and mechanisms for recognition within research project teams and institutions. Existing role structures within research organisations frequently create unhelpful barriers between researchers and technical staff. These structures also sustain an outdated view of academic versus technical accomplishment.\n\nThe STEP-UP platform will address these challenges in research technical careers and recognition head-on. The platform will provide short-term funding to develop a robust model for sharing technical talent within and across institutions, and for increasing awareness of its importance with researchers and institutional governance.",
     "dissolutionDate": "2027-12-31",
     "foundingDate": "2024-01-01",
     "id": "5eae2c83-361e-487a-99a4-ea3d5fe01ea2",
@@ -13734,7 +13734,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "de4dff3f-94b7-4898-ace6-f745d4a30f23",
+      "storage": "local",
+      "filename_disk": "de4dff3f-94b7-4898-ace6-f745d4a30f23.jpg",
+      "filename_download": "step-up--diagram.jpg",
+      "title": "Project diagram with work-packages of activities. King's Digital Lab and STEP-UP project team 2024.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
+      "uploaded_on": "2024-06-24T08:45:31.899Z",
+      "modified_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
+      "modified_on": "2024-06-24T08:50:44.350Z",
+      "charset": null,
+      "filesize": "535975",
+      "width": 3500,
+      "height": 1440,
+      "duration": null,
+      "embed": null,
+      "description": "This diagram presents the 5 STEP-UP platform work-packages associated to research data, software and computing infrastructure roles.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -13746,7 +13768,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Faculty page:",
+          "url": "https://www.kcl.ac.uk/research/step-up-a-strategic-technical-platform-for-university-technical-professionals"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -13763,9 +13792,9 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "eb187302-6387-49ad-87b8-b3e00da59951",
-            "name": "Imperial College London",
-            "slug": "imperial-college-london"
+            "id": "08181898-5865-4dd1-8059-31edfd46ea2e",
+            "name": "KCL eResearch",
+            "slug": "kcl-e-research"
           },
           "parentOrganisation": null
         }
@@ -13774,9 +13803,9 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "08181898-5865-4dd1-8059-31edfd46ea2e",
-            "name": "KCL eResearch",
-            "slug": "kcl-e-research"
+            "id": "eb187302-6387-49ad-87b8-b3e00da59951",
+            "name": "Imperial College London",
+            "slug": "imperial-college-london"
           },
           "parentOrganisation": null
         }
@@ -13798,6 +13827,45 @@
       },
       {
         "agent": {
+          "id": "b92083bc-7950-4f04-bb82-adbae75f27be",
+          "name": "James Wilson",
+          "slug": "james-wilson"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "13dcaba3-3cb5-44df-be19-b8178b2d9a2c",
+          "name": "Pam Mellen",
+          "slug": "pam-mellen"
+        },
+        "roleName": {
+          "name": "Research Software Lab Manager",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "58987c3e-352f-4532-a74f-88975339bc93",
+          "name": "Shane Warren",
+          "slug": "shane-warren"
+        },
+        "roleName": {
+          "name": "Research Software Project Manager",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
           "name": "Tiffany Ong",
           "slug": "tiffany-ong"
@@ -13811,12 +13879,90 @@
       },
       {
         "agent": {
+          "id": "9ef843a8-933d-4894-8609-6ac149afd507",
+          "name": "Michael Bearpark",
+          "slug": "michael-bearpark"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "96303433-6fb6-4c79-ae0f-c3bb74242350",
           "name": "Jeremy Cohen",
           "slug": "jeremy-cohen"
         },
         "roleName": {
           "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "90e6aaf9-22b1-4918-bd81-d9d4e28fe5ed",
+          "name": "Joshua Lambert",
+          "slug": "joshua-lambert"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "5950d299-552e-4ed0-9473-bdb87b452fd7",
+          "name": "Tamas Kiss",
+          "slug": "tamas-kiss"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "99bda4ac-35dd-4355-97b5-990c397f3d8d",
+          "name": "Jay Deslauriers",
+          "slug": "jay-deslauriers"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4cd9d199-a748-41cf-bd80-d56c9f45ebd6",
+          "name": "Prateek Gupta",
+          "slug": "prateek-gupta"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1bcf0980-9ab3-44d7-9e8a-c2b3e1627644",
+          "name": "Samantha Ahern",
+          "slug": "samantha-ahern"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
