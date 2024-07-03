@@ -1,11 +1,12 @@
 ---
-title: "The Radical Translations: Visualizing Networks of Revolutionary Culture (1789-1815)"
+title: "The Radical Translations: Visualising Networks of Revolutionary Culture (1789-1815)"
 event:
   title: The Historical Network Research Conference (HNR2024)
   url: https://historicalnetworkresearch.github.io/lausanne/
 tags: slides
 slide:
   loop: true
+  slideNumber: true
 draft: true
 ---
 
@@ -15,7 +16,7 @@ draft: true
 
 ### (Britain, France and Italy, 1789–1815)
 
-### Through the Lens of a Network Visualization
+### Through the Lens of a Network Visualisation
 
 Dr Arianna Ciula | Miguel Vieira
 
@@ -32,6 +33,7 @@ Dr Arianna Ciula | Miguel Vieira
 - The Radical Translations (RT) project (2019–2023)
 - Aimed to unravel the complex relationships of radical ideas during the 18th and 19th centuries
 - Employed data models based on BIBFRAME and FOAF
+- Experimental work
 
 {% endslide %}
 
@@ -71,6 +73,7 @@ Dr Arianna Ciula | Miguel Vieira
 <aside class="notes">
 
 - Implemented on Observable platform: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
+- Data manually exported from the project database
 - Represents people (authors, translators, publishers) and organizations
 - Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)
 
@@ -93,15 +96,15 @@ Dr Arianna Ciula | Miguel Vieira
 ## Network Insights
 
 - Offers visual traces to test hypotheses about people's movements and life stories
-- Especially valuable when biographical information is missing or too complex to visualize directly
+- Especially valuable when biographical information is missing or too complex to visualise directly
 
 {% endslide %}
 
 {% slide %}
 
-## Research Framework
+## Research Process
 
-- Integrates graph networks into the research framework
+- Integrates graph networks into the research process
 - Enables exploration of translators' networks, collaboration patterns, influence dynamics
 - Provides insights into the contextual landscape of radical activities during the period
 - Helps test hypotheses about identity when biographical data is incomplete or needs different digital tools
@@ -112,9 +115,9 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Conclusion
 
-- Network visualizations reveal intricate connections shaping history
-- Expanded dimensions of inquiry within the RT project
-- Powerful tool for hypothesis verification
+- Network visualisations reveal intricate connections shaping history
+- Expanded dimensions of interpretation within the RT project
+- Insightful tool for hypothesis verification
 
 {% endslide %}
 
