@@ -144,7 +144,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ## Projects converted to static sites
 
-Projects converted to static sites remain on KDL infrastructure, but no longer offer search or other dynamic functionality. These are hosted for free by KDL, although we cannot promise to fix issues that appear that are outside our control, such as updates to browsers by external vendors.
+Projects converted to static sites remain on KDL infrastructure, but no longer offer dynamic functionality. Where no funding is available, the King's Faculty of Arts and Humanities provides support so the sites remain hosted by KDL at no further cost. Due to the nature of these sites, we cannot promise to fix issues that appear that are outside our control, such as updates to browsers by external vendors.
 
 - [3D Visualisation in the Arts Network](http://3dvisa.cch.kcl.ac.uk/)
 - [Anglo-Saxon Charters](http://www.aschart.kcl.ac.uk/index.html)
@@ -248,7 +248,7 @@ Responsibility for KDL's archiving and sustainability strategy rests with its Di
 - Paul Caton and Brian Maher discuss how KDL approached managing our backlog of now-unfunded legacy software in [After the grant](https://www.youtube.com/watch?v=h3bKDlZoTgU), paper presented at the [Sixth Annual Conference for Research Software Engineering](https://rsecon2022.society-rse.org/), Newcastle Upon Tyne, September 2022.
 - Smithies, J., Sichani, A.M., & Westling, C. (2017). [Preserving 30 years of Digital Humanities Work: The Experience of King’s College London Digital Lab](http://jamessmithies.org/blog/2017/06/23/preserving-30-years-digital-humanities-work-experience-kings-digital-lab/). Presented at the DPASSH: Digital Preservation for Social Sciences and Humanities, University of Sussex.
 - Smithies, J., P. Caton, G. Ferraro, L. Figueira, E. Hall, N. Jakeman, P. Mellen, A.M. Sicani, M. Vieira, T. Watts, Carina Westling. (2017). Mechanizing the Humanities? King’s Digital Lab as Critical Experiment. Presented at the DH2017, McGill University, Montreal.
-- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). _Digital Humanities Quarterly_ 13.1 (2019).
+- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). *Digital Humanities Quarterly* 13.1 (2019).
 
 For more information and reflections on our archiving and sustainability processes watch Arianna Ciula present as part of the '[DH broken - Between experimentation and degradation panel discussion](https://www.sas.ac.uk/podcasts/reframing-failure-dh-broken-between-experimentation-and-degradation), 25 January 2023' ([Reframing Failure Seminar series, 2022-23](https://www.sas.ac.uk/digital-humanities/events/past-events/reframing-failure)).
 
