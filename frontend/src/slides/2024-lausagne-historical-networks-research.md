@@ -51,7 +51,7 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Data Model
 
-![Data model](/assets/images/slides/radicaltranslations-models.png)
+[![Data model](/assets/images/slides/radicaltranslations-models.png)](https://radical-translations.readthedocs.io/en/latest/technical-overview.html#data-model)
 
 <aside class="notes">
 
