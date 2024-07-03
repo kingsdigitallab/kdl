@@ -33,7 +33,7 @@ Dr Arianna Ciula | Miguel Vieira
 - The Radical Translations (RT) project (2019–2023)
 - Aimed to unravel the complex relationships of radical ideas during the 18th and 19th centuries
 - Employed data models based on BIBFRAME and FOAF
-- Experimental work
+- Experimental work around network visualisations
 
 {% endslide %}
 
