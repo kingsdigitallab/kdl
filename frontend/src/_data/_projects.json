@@ -6206,7 +6206,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "900d94d5-b959-417c-bfd5-ef6e61dc3b1b",
+      "storage": "local",
+      "filename_disk": "900d94d5-b959-417c-bfd5-ef6e61dc3b1b.jpg",
+      "filename_download": "hgl-banner.jpg",
+      "title": "Arch of Tiberius in Leptis Magna, Lybia",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:57:20.065Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:05:16.041Z",
+      "charset": null,
+      "filesize": "175004",
+      "width": 1484,
+      "height": 562,
+      "duration": null,
+      "embed": null,
+      "description": "Ancient ruins of the city of Leptis Magna in Lybia",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -9058,7 +9080,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "c1aecff4-5eaf-4505-8635-e06f2c9ab4be",
+      "storage": "local",
+      "filename_disk": "c1aecff4-5eaf-4505-8635-e06f2c9ab4be.jpg",
+      "filename_download": "charlemagnes-europe.jpg",
+      "title": "Image of Charlemagne with project map in the background.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:52:42.611Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:55:03.547Z",
+      "charset": null,
+      "filesize": "230432",
+      "width": 1305,
+      "height": 450,
+      "duration": null,
+      "embed": null,
+      "description": "Two man approaching Charlemagne's throne superimposed to an image of the project's map",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10969,7 +11013,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "3512aa94-e284-47de-8115-2aaa170be649",
+      "storage": "local",
+      "filename_disk": "3512aa94-e284-47de-8115-2aaa170be649.jpg",
+      "filename_download": "pde-map.jpg",
+      "title": "Screenshot of project map filters",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:48:01.320Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:51:14.041Z",
+      "charset": null,
+      "filesize": "316076",
+      "width": 1500,
+      "height": 773,
+      "duration": null,
+      "embed": null,
+      "description": "Artistic rendering of people gathered together looking at map filters",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -12681,7 +12747,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "c76dd54f-774c-404b-8109-68948d4d62a6",
+      "storage": "local",
+      "filename_disk": "c76dd54f-774c-404b-8109-68948d4d62a6.jpg",
+      "filename_download": "scoping-3D-data-services.jpg",
+      "title": "3D images of a telegraph",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:39:07.861Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:46:33.560Z",
+      "charset": null,
+      "filesize": "126403",
+      "width": 1500,
+      "height": 803,
+      "duration": null,
+      "embed": null,
+      "description": "Four different views of a telegraph rendered in 3D",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
