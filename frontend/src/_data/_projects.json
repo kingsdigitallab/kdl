@@ -1083,7 +1083,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "7062ed39-8b4f-4c8d-a9a8-d77ddef315d3",
+      "storage": "local",
+      "filename_disk": "7062ed39-8b4f-4c8d-a9a8-d77ddef315d3.jpg",
+      "filename_download": "archetype-screenshot.jpg",
+      "title": "Screenshot from project website.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:21:44.499Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:23:08.502Z",
+      "charset": null,
+      "filesize": "102160",
+      "width": 1553,
+      "height": 600,
+      "duration": null,
+      "embed": null,
+      "description": "A computer screen displaying handwritten text.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -3282,7 +3304,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "b26867f0-10b4-4223-ad2a-07152803493b",
+      "storage": "local",
+      "filename_disk": "b26867f0-10b4-4223-ad2a-07152803493b.jpeg",
+      "filename_download": "dprr-fasti.jpeg",
+      "title": "Detail from the Fasti Antiates, Palazzo Massimo alle Terme, Rome. Photo by Juliana Bastos Marques (CC BY-SA 3.0). ",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:19:26.214Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:20:18.246Z",
+      "charset": null,
+      "filesize": "675756",
+      "width": 1700,
+      "height": 680,
+      "duration": null,
+      "embed": null,
+      "description": "Detailed close-up of stone with ancient inscriptions",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -4485,7 +4529,40 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "38a29963-b21d-487d-a7e9-b4aa210e9d82",
+      "storage": "local",
+      "filename_disk": "38a29963-b21d-487d-a7e9-b4aa210e9d82.jpeg",
+      "filename_download": "hgc-ruin.jpeg",
+      "title": "Close-up of the arches in the church of Agios Mamas in the village of Agios Sozomenos, Cyprus",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:06:32.247Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:12:10.708Z",
+      "charset": null,
+      "filesize": "1459635",
+      "width": 2400,
+      "height": 960,
+      "duration": null,
+      "embed": null,
+      "description": "Historic site with ancient stone walls and arches",
+      "location": null,
+      "tags": null,
+      "metadata": {
+        "ifd0": {
+          "Make": "NIKON CORPORATION",
+          "Model": "NIKON D80"
+        },
+        "exif": {
+          "FNumber": 10,
+          "ExposureTime": 0.00625,
+          "FocalLength": 18,
+          "ISO": 200
+        }
+      }
+    },
     "funder": [
       {
         "agent_id": {
@@ -5242,7 +5319,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "e2c40d25-8e72-48cc-9115-d7171b060fc4",
+      "storage": "local",
+      "filename_disk": "e2c40d25-8e72-48cc-9115-d7171b060fc4.jpg",
+      "filename_download": "glow-angel-lisa-jamhoury.jpg",
+      "title": "Angel sculpture by Lisa Jamhoury.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:24:36.839Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:26:01.892Z",
+      "charset": null,
+      "filesize": "132072",
+      "width": 1500,
+      "height": 844,
+      "duration": null,
+      "embed": null,
+      "description": "Angel statue casting shadow on ground.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
