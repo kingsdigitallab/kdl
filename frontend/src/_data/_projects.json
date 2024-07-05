@@ -7968,7 +7968,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "8a9d0805-6ae6-41f5-ada1-fed167758beb",
+      "storage": "local",
+      "filename_disk": "8a9d0805-6ae6-41f5-ada1-fed167758beb.jpg",
+      "filename_download": "Kings_Past--King's_College,_Strand,_London._Engraving_by_J._C._Carter._Wellcome_V0013842.jpg",
+      "title": "King's College, Strand, London. Engraving by J. C. Carter. Wellcome Collection (V0013842).",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:41:47.067Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T10:22:40.004Z",
+      "charset": null,
+      "filesize": "474701",
+      "width": 3044,
+      "height": 2240,
+      "duration": null,
+      "embed": null,
+      "description": "Historic drawing of King's College, Strand, London.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
