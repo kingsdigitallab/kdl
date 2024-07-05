@@ -2422,7 +2422,7 @@
   {
     "alternateName": "Crossreads",
     "cmsStatus": "published",
-    "description": "KDL contribution to the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions. \nCROSSREADS is a ERC-funded project led by Pr Jonathan Prag. For more information on Crossreads please check [the main website](https://crossreads.web.ox.ac.uk/about) and the [ERC project record](https://cordis.europa.eu/project/id/885040).\n",
+    "description": "KDL contribution focuses on the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions. \n",
     "dissolutionDate": "2026-09-30",
     "foundingDate": "2020-10-01",
     "id": "7db69793-9c65-4440-bb4e-6520e6940661",
@@ -13276,7 +13276,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "cee17bb9-9772-4fef-8767-53377e7f31d3",
+      "storage": "local",
+      "filename_disk": "cee17bb9-9772-4fef-8767-53377e7f31d3.jpg",
+      "filename_download": "shakespeare-400.jpg",
+      "title": "Romeo and Juliet book",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:32:40.743Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:40:21.412Z",
+      "charset": null,
+      "filesize": "336727",
+      "width": 1500,
+      "height": 824,
+      "duration": null,
+      "embed": null,
+      "description": "Book of Romeo and Juliet set next to an iced coffee",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
