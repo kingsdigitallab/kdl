@@ -169,30 +169,42 @@
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="network-visualisation" tabindex="-1">Network Visualisation</h2>
-<figure><img src="/kdl/assets/images/slides/radicaltranslations-knows-network.svg" alt="Network visualisation"></figure>
+<div class="r-stack">
+  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-knows-network.svg" height="600">
+  <img class="fragment current-visible" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-published-network.svg" height="600">
+  <img class="fragment" src="/kdl/assets/images/slides/radicaltranslations-translated-network.svg" height="600">
+</div>
 <aside class="notes">
 <ul>
 <li>Implemented on Observable platform: <a href="http://tiny.cc/ixiiyz"><code>tiny.cc/ixiiyz</code></a></li>
 <li>Data manually exported from the project database</li>
-<li>Represents people (authors, translators, publishers) and organizations</li>
-<li>Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)</li>
+<li>Represents people (authors, translators, publishers) and organisations</li>
+<li>Edges signify various relationships (location, editorial, interpersonal, organisational, publication, translation)</li>
+<li>It is also possible to filter the network by person</li>
 </ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="network-insights" tabindex="-1">Network Insights</h2>
-<ul>
-<li>Abstracts complex personal trajectories into nodes and edges</li>
-<li>Highlights potential gaps, omissions, and biases in the data</li>
-<li>Reveals connections of &quot;political solidarity&quot; across borders</li>
-</ul>
-</section>
-<section class="slide" data-auto-animate="">
-<h2 id="network-insights-1" tabindex="-1">Network Insights</h2>
-<ul>
-<li>Offers visual traces to test hypotheses about people's movements and life stories</li>
-<li>Especially valuable when biographical information is missing or too complex to visualise directly</li>
-</ul>
+<div class="r-stack">
+  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-thomas-paine.svg" height="600">
+  <img class="fragment current-visible" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-knows-network.svg" height="600">
+  <img class="fragment current-visible" src="/kdl/assets/images/slides/radicaltranslations-basedin-translated-network.svg" height="600">
+  <img class="fragment" src="/kdl/assets/images/slides/radicaltranslations-anonymous-network.svg" height="600">
+</div>
+<aside class="notes">
+- Abstracts complex personal trajectories into nodes and edges
+  - A zoomed-in view of a single node (representing Thomas Payne) with multiple
+  edges connecting to various other nodes, showing different types of relationships.
+- Highlights potential gaps, omissions, and biases in the data
+  - A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
+- Reveals connections of "political solidarity" across borders
+  - A snapshot showing nodes representing agents and the places they were based
+  in connected by translations relationships, illustrating cross-border relationships.
+- Offers visual traces to test hypotheses about people's movements and life stories
+- Especially valuable when biographical information is missing or too complex to visualise directly
+  - A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
+</aside>
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="research-process" tabindex="-1">Research Process</h2>
