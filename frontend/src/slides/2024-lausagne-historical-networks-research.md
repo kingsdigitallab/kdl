@@ -68,14 +68,33 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Visualisation
 
-![Network visualisation](/assets/images/slides/radicaltranslations-knows-network.svg)
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network.svg"
+    height="600"
+  />
+  <img
+    class="fragment current-visible"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-published-network.svg"
+    height="600"
+  />
+  <img
+    class="fragment"
+    src="/assets/images/slides/radicaltranslations-translated-network.svg"
+    height="600"
+  />
+</div>
 
 <aside class="notes">
 
 - Implemented on Observable platform: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
 - Data manually exported from the project database
-- Represents people (authors, translators, publishers) and organizations
-- Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)
+- Represents people (authors, translators, publishers) and organisations
+- Edges signify various relationships (location, editorial, interpersonal, organisational, publication, translation)
+- It is also possible to filter the network by person
 
 </aside>
 
@@ -85,18 +104,44 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Insights
 
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-thomas-paine.svg"
+    height="600"
+  />
+  <img
+    class="fragment current-visible"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network.svg"
+    height="600"
+  />
+  <img
+    class="fragment current-visible"
+    src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
+    height="600"
+  />
+  <img
+    class="fragment"
+    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
+    height="600"
+  />
+</div>
+
+<aside class="notes">
 - Abstracts complex personal trajectories into nodes and edges
+  - A zoomed-in view of a single node (representing Thomas Payne) with multiple
+  edges connecting to various other nodes, showing different types of relationships.
 - Highlights potential gaps, omissions, and biases in the data
+  - A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
 - Reveals connections of "political solidarity" across borders
-
-{% endslide %}
-
-{% slide %}
-
-## Network Insights
-
+  - A snapshot showing nodes representing agents and the places they were based
+  in connected by translations relationships, illustrating cross-border relationships.
 - Offers visual traces to test hypotheses about people's movements and life stories
 - Especially valuable when biographical information is missing or too complex to visualise directly
+  - A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
+</aside>
 
 {% endslide %}
 
