@@ -1083,7 +1083,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "7062ed39-8b4f-4c8d-a9a8-d77ddef315d3",
+      "storage": "local",
+      "filename_disk": "7062ed39-8b4f-4c8d-a9a8-d77ddef315d3.jpg",
+      "filename_download": "archetype-screenshot.jpg",
+      "title": "Screenshot from project website.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:21:44.499Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:23:08.502Z",
+      "charset": null,
+      "filesize": "102160",
+      "width": 1553,
+      "height": 600,
+      "duration": null,
+      "embed": null,
+      "description": "A computer screen displaying handwritten text.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -2400,7 +2422,7 @@
   {
     "alternateName": "Crossreads",
     "cmsStatus": "published",
-    "description": "KDL contribution to the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions. \nCROSSREADS is a ERC-funded project led by Pr Jonathan Prag. For more information on Crossreads please check [the main website](https://crossreads.web.ox.ac.uk/about) and the [ERC project record](https://cordis.europa.eu/project/id/885040).\n",
+    "description": "KDL contribution focuses on the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions. \n",
     "dissolutionDate": "2026-09-30",
     "foundingDate": "2020-10-01",
     "id": "7db69793-9c65-4440-bb4e-6520e6940661",
@@ -3282,7 +3304,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "b26867f0-10b4-4223-ad2a-07152803493b",
+      "storage": "local",
+      "filename_disk": "b26867f0-10b4-4223-ad2a-07152803493b.jpeg",
+      "filename_download": "dprr-fasti.jpeg",
+      "title": "Detail from the Fasti Antiates, Palazzo Massimo alle Terme, Rome. Photo by Juliana Bastos Marques (CC BY-SA 3.0). ",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:19:26.214Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:20:18.246Z",
+      "charset": null,
+      "filesize": "675756",
+      "width": 1700,
+      "height": 680,
+      "duration": null,
+      "embed": null,
+      "description": "Detailed close-up of stone with ancient inscriptions",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -4485,7 +4529,40 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "38a29963-b21d-487d-a7e9-b4aa210e9d82",
+      "storage": "local",
+      "filename_disk": "38a29963-b21d-487d-a7e9-b4aa210e9d82.jpeg",
+      "filename_download": "hgc-ruin.jpeg",
+      "title": "Close-up of the arches in the church of Agios Mamas in the village of Agios Sozomenos, Cyprus",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:06:32.247Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:12:10.708Z",
+      "charset": null,
+      "filesize": "1459635",
+      "width": 2400,
+      "height": 960,
+      "duration": null,
+      "embed": null,
+      "description": "Historic site with ancient stone walls and arches",
+      "location": null,
+      "tags": null,
+      "metadata": {
+        "ifd0": {
+          "Make": "NIKON CORPORATION",
+          "Model": "NIKON D80"
+        },
+        "exif": {
+          "FNumber": 10,
+          "ExposureTime": 0.00625,
+          "FocalLength": 18,
+          "ISO": 200
+        }
+      }
+    },
     "funder": [
       {
         "agent_id": {
@@ -5242,7 +5319,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "e2c40d25-8e72-48cc-9115-d7171b060fc4",
+      "storage": "local",
+      "filename_disk": "e2c40d25-8e72-48cc-9115-d7171b060fc4.jpg",
+      "filename_download": "glow-angel-lisa-jamhoury.jpg",
+      "title": "Angel sculpture by Lisa Jamhoury.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:24:36.839Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:26:01.892Z",
+      "charset": null,
+      "filesize": "132072",
+      "width": 1500,
+      "height": 844,
+      "duration": null,
+      "embed": null,
+      "description": "Angel statue casting shadow on ground.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -6206,7 +6305,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "900d94d5-b959-417c-bfd5-ef6e61dc3b1b",
+      "storage": "local",
+      "filename_disk": "900d94d5-b959-417c-bfd5-ef6e61dc3b1b.jpg",
+      "filename_download": "hgl-banner.jpg",
+      "title": "Arch of Tiberius in Leptis Magna, Lybia",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:57:20.065Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:05:16.041Z",
+      "charset": null,
+      "filesize": "175004",
+      "width": 1484,
+      "height": 562,
+      "duration": null,
+      "embed": null,
+      "description": "Ancient ruins of the city of Leptis Magna in Lybia",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -7847,7 +7968,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "8a9d0805-6ae6-41f5-ada1-fed167758beb",
+      "storage": "local",
+      "filename_disk": "8a9d0805-6ae6-41f5-ada1-fed167758beb.jpg",
+      "filename_download": "Kings_Past--King's_College,_Strand,_London._Engraving_by_J._C._Carter._Wellcome_V0013842.jpg",
+      "title": "King's College, Strand, London. Engraving by J. C. Carter. Wellcome Collection (V0013842).",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:41:47.067Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T10:22:40.004Z",
+      "charset": null,
+      "filesize": "474701",
+      "width": 3044,
+      "height": 2240,
+      "duration": null,
+      "embed": null,
+      "description": "Historic drawing of King's College, Strand, London.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -9058,7 +9201,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "c1aecff4-5eaf-4505-8635-e06f2c9ab4be",
+      "storage": "local",
+      "filename_disk": "c1aecff4-5eaf-4505-8635-e06f2c9ab4be.jpg",
+      "filename_download": "charlemagnes-europe.jpg",
+      "title": "Image of Charlemagne with project map in the background.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:52:42.611Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:55:03.547Z",
+      "charset": null,
+      "filesize": "230432",
+      "width": 1305,
+      "height": 450,
+      "duration": null,
+      "embed": null,
+      "description": "Two man approaching Charlemagne's throne superimposed to an image of the project's map",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10969,7 +11134,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "3512aa94-e284-47de-8115-2aaa170be649",
+      "storage": "local",
+      "filename_disk": "3512aa94-e284-47de-8115-2aaa170be649.jpg",
+      "filename_download": "pde-map.jpg",
+      "title": "Screenshot of project map filters",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:48:01.320Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:51:14.041Z",
+      "charset": null,
+      "filesize": "316076",
+      "width": 1500,
+      "height": 773,
+      "duration": null,
+      "embed": null,
+      "description": "Artistic rendering of people gathered together looking at map filters",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -12681,7 +12868,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "c76dd54f-774c-404b-8109-68948d4d62a6",
+      "storage": "local",
+      "filename_disk": "c76dd54f-774c-404b-8109-68948d4d62a6.jpg",
+      "filename_download": "scoping-3D-data-services.jpg",
+      "title": "3D images of a telegraph",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T07:39:07.861Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T07:46:33.560Z",
+      "charset": null,
+      "filesize": "126403",
+      "width": 1500,
+      "height": 803,
+      "duration": null,
+      "embed": null,
+      "description": "Four different views of a telegraph rendered in 3D",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -13089,7 +13298,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "cee17bb9-9772-4fef-8767-53377e7f31d3",
+      "storage": "local",
+      "filename_disk": "cee17bb9-9772-4fef-8767-53377e7f31d3.jpg",
+      "filename_download": "shakespeare-400.jpg",
+      "title": "Romeo and Juliet book",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-07-05T08:32:40.743Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-07-05T08:40:21.412Z",
+      "charset": null,
+      "filesize": "336727",
+      "width": 1500,
+      "height": 824,
+      "duration": null,
+      "embed": null,
+      "description": "Book of Romeo and Juliet set next to an iced coffee",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
