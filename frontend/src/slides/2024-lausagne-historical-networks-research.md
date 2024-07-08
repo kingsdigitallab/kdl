@@ -104,43 +104,80 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Insights
 
+### Abstracts complex personal trajectories
+
+<img src="/assets/images/slides/radicaltranslations-thomas-paine.svg" height="500" />
+
+<aside class="notes">
+- Abstracts complex personal trajectories into nodes and edges
+- A zoomed-in view of a single node (representing Thomas Paine) with multiple
+  edges connecting to various other nodes, showing different types of relationships.
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Network Insights
+
+### Highlights gaps, omissions, and issues
+
 <div class="r-stack">
   <img
     class="fragment fade-out"
     data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-thomas-paine.svg"
-    height="600"
-  />
-  <img
-    class="fragment current-visible"
-    data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-knows-network.svg"
-    height="600"
-  />
-  <img
-    class="fragment current-visible"
-    src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
-    height="600"
+    src="/assets/images/slides/radicaltranslations-knows-network-before.svg"
+    height="500"
   />
   <img
     class="fragment"
-    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
-    height="600"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network.svg"
+    height="500"
   />
 </div>
 
 <aside class="notes">
-- Abstracts complex personal trajectories into nodes and edges
-  - A zoomed-in view of a single node (representing Thomas Payne) with multiple
-  edges connecting to various other nodes, showing different types of relationships.
 - Highlights potential gaps, omissions, and biases in the data
-  - A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
-- Reveals connections of "political solidarity" across borders
-  - A snapshot showing nodes representing agents and the places they were based
+- A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Network Insights
+
+### Reveals connections across borders
+
+<img
+    src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
+    height="500"
+  />
+
+<aside class="notes">
+- Reveals connections of _political solidarity_ across borders
+- A snapshot showing nodes representing agents and the places they were based
   in connected by translations relationships, illustrating cross-border relationships.
-- Offers visual traces to test hypotheses about people's movements and life stories
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Network Insights
+
+### Highlight missing biographical information
+
+<img
+    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
+    height="500"
+  />
+
+<aside class="notes">
+- Highlight missing biographical information
 - Especially valuable when biographical information is missing or too complex to visualise directly
-  - A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
+- A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
 </aside>
 
 {% endslide %}
