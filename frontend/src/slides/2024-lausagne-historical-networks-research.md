@@ -127,7 +127,7 @@ Dr Arianna Ciula | Miguel Vieira
   <img
     class="fragment"
     data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-knows-network.svg"
+    src="/assets/images/slides/radicaltranslations-knows-network-after.svg"
     height="500"
   />
 </div>
@@ -181,10 +181,27 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Research Process
 
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-research-countries.svg"
+    height="500"
+  />
+  <img
+    class="fragment"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network-annotated.svg"
+    height="500"
+  />
+</div>
+
+<aside class="notes">
 - Integrates graph networks into the research process
 - Enables exploration of translators' networks, collaboration patterns, influence dynamics
 - Provides insights into the contextual landscape of radical activities during the period
 - Helps test hypotheses about identity when biographical data is incomplete or needs different digital tools
+</aside>
 
 {% endslide %}
 
