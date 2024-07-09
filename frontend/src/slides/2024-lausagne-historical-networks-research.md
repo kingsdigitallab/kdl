@@ -76,14 +76,9 @@ Dr Arianna Ciula | Miguel Vieira
     height="600"
   />
   <img
-    class="fragment current-visible"
-    data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-published-network.svg"
-    height="600"
-  />
-  <img
     class="fragment"
-    src="/assets/images/slides/radicaltranslations-translated-network.svg"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-network-interface.png"
     height="600"
   />
 </div>
