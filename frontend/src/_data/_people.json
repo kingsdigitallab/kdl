@@ -1577,22 +1577,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Prosopography of the Byzantine World",
-            "alternateName": "PBW",
-            "slug": "pbw",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Research Software Analyst"
@@ -5552,6 +5537,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Prosopography of the Byzantine World",
+            "alternateName": "PBW",
+            "slug": "pbw",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Language of Landscape",
             "alternateName": "Langscape",
             "slug": "langscape",
@@ -7088,6 +7097,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Prosopography of the Byzantine World",
+            "alternateName": "PBW",
+            "slug": "pbw",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
@@ -13564,6 +13597,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Prosopography of the Byzantine World",
+            "alternateName": "PBW",
+            "slug": "pbw",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         },
         {

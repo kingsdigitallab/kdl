@@ -5356,7 +5356,7 @@
     "url": [
       {
         "linkrole_id": {
-          "name": "Project URL",
+          "name": "Faculty Project Page URL",
           "url": "https://www.kcl.ac.uk/research/glow3"
         }
       },
@@ -11678,6 +11678,19 @@
     "member": [
       {
         "agent": {
+          "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
+          "name": "Ginestra Ferraro",
+          "slug": "ginestra-ferraro"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "1ff39f3b-6779-4a1c-985f-9af092a13fb7",
           "name": "Beatriz Caballero",
           "slug": "beatriz-caballero"
@@ -11756,12 +11769,25 @@
       },
       {
         "agent": {
-          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
-          "name": "Arianna Ciula",
-          "slug": "arianna-ciula"
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "Research Software Analyst",
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
             "name": "Team roles"
           }
@@ -14008,7 +14034,7 @@
     "url": [
       {
         "linkrole_id": {
-          "name": "Faculty page",
+          "name": "Faculty Project Page URL",
           "url": "https://www.kcl.ac.uk/research/step-up-a-strategic-technical-platform-for-university-technical-professionals"
         }
       }
@@ -14439,7 +14465,7 @@
   {
     "alternateName": "TIBBL",
     "cmsStatus": "published",
-    "description": "The TIBBL: Tangible Inclusive Block-Based Language for Widening Access to Programming project seeks to develop an inexpensive, open-source tangible programming toolkit that is inclusive of people with visual impairments. A proof of concept for the tool by KDL in 2022 has been developed utilising computer vision via the TopCodes JavaScript library. A full prototype of the tool will be developed through an iterative co-design process in partnership with a group of students with mixed visual abilities and their computing teacher.",
+    "description": "The TIBBL: Tangible Inclusive Block-Based Language for Widening Access to Programming project sought to develop an inexpensive, open-source, tangible programming toolkit inclusive of people with visual impairments. A proof of concept for the tool was developed by KDL in 2022 utilising computer vision via the TopCodes JavaScript library. A full prototype of the tool was then developed through an iterative co-design process in partnership with a group of students with mixed visual abilities and their computing teacher.",
     "dissolutionDate": "2023-07-31",
     "foundingDate": "2022-11-10",
     "id": "7642f924-3374-4bfc-9773-c18352998dd8",
