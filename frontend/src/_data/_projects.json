@@ -7793,8 +7793,14 @@
     "url": [
       {
         "linkrole_id": {
-          "name": "Faculty Page",
+          "name": "Faculty Project Page URL",
           "url": "https://www.kcl.ac.uk/research/ireal"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://irealrai.org/"
         }
       }
     ],
