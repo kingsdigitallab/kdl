@@ -175,11 +175,20 @@
 </div>
 <aside class="notes">
 <ul>
-<li>Implemented on Observable platform: <a href="http://tiny.cc/ixiiyz"><code>tiny.cc/ixiiyz</code></a></li>
-<li>Data manually exported from the project database</li>
-<li>Represents people (authors, translators, publishers) and organisations</li>
-<li>Edges signify various relationships (location, editorial, interpersonal, organisational, publication, translation)</li>
-<li>It is also possible to filter the network by person</li>
+<li>Network implemented on Observable platform: <a href="http://tiny.cc/ixiiyz"><code>tiny.cc/ixiiyz</code></a> using the <a href="https://d3js.org"><code>d3</code></a> library for data visualisation</li>
+<li>Data exported from the project database and converted to a network format</li>
+<li>Nodes represent people (authors, translators, publishers), organisations, and
+places</li>
+<li>The edges signify various relationships (location, editorial, interpersonal, organisational, publication, translation)</li>
+<li>Some of the relationships inferred from other connections, not directly defined
+in the database</li>
+<li>Interactive features:
+<ul>
+<li>Filter network data by people and organisation</li>
+<li>Select different types of relationships to display</li>
+<li>Ability to explore and manipulate the network dynamically</li>
+</ul>
+</li>
 </ul>
 </aside>
 </section>
@@ -188,9 +197,17 @@
 <h3 id="abstracts-complex-personal-trajectories" tabindex="-1">Abstracts complex personal trajectories</h3>
 <img src="/kdl/assets/images/slides/radicaltranslations-thomas-paine.svg" height="500">
 <aside class="notes">
-- Abstracts complex personal trajectories into nodes and edges
-- A zoomed-in view of a single node (representing Thomas Paine) with multiple
-  edges connecting to various other nodes, showing different types of relationships.
+<ul>
+<li>Simplifies intricate life paths into nodes and edges</li>
+<li>Example: Thomas Paine
+<ul>
+<li>Zoomed-in view of Paine's node</li>
+<li>Multiple edges connect to various other people, organisations and places</li>
+<li>Edges represent different types of relationships</li>
+<li>Illustrates the complexity of an individual's connections and influence.</li>
+</ul>
+</li>
+</ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
@@ -201,9 +218,25 @@
   <img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-knows-network-after.svg" height="500">
 </div>
 <aside class="notes">
-- Highlights potential gaps, omissions, and biases in the data
-- A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
-- For example the isolation of the highlighted kite shape with 4 individuals revealed a gap in the data which was addressed by connecting it to the network, but also revealed the self-referential nature of a group of radicals based in Genoa.
+<ul>
+<li>Highlights potential gaps, omissions, and biases in the data</li>
+<li>Wide view of the network reveals:
+<ul>
+<li>Areas of high connectivity</li>
+<li>Contrasting sparse areas</li>
+<li>Potential geographical or temporal biases</li>
+</ul>
+</li>
+<li>Example: Isolated 'kite' shape
+<ul>
+<li>Group of four individuals initially disconnected</li>
+<li>Revealed a gap in the data</li>
+<li>Connection to the main network addressed the gap</li>
+<li>Also uncovered a self-referential group of radicals in Genoa</li>
+</ul>
+</li>
+<li>Demonstrates how visualisation can expose data limitations and lead to new insights</li>
+</ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
@@ -211,9 +244,24 @@
 <h3 id="reveals-connections-across-borders" tabindex="-1">Reveals connections across borders</h3>
 <p><img src="/kdl/assets/images/slides/radicaltranslations-basedin-translated-network.svg" height="500"></p>
 <aside class="notes">
-- Reveals connections of _political solidarity_ across borders
-- A snapshot showing nodes representing agents and the places they were based
-  in connected by translations relationships, illustrating cross-border relationships.
+<ul>
+<li>Reveals connections across borders</li>
+<li>Network example illustrates:
+<ul>
+<li>Nodes representing agents (individuals and organisations) and places</li>
+<li>Edges indicating translation relationships</li>
+<li>Large nodes for Paris and London, surrounded by numerous connections</li>
+</ul>
+</li>
+<li>Key insights:
+<ul>
+<li>Visualises the flow of radical texts across national boundaries</li>
+<li>Highlights Paris and London as central hubs in the radical translation network</li>
+<li>Reveals extensive cross-border relationships centred on these major cities</li>
+</ul>
+</li>
+<li>Emphasises the international nature of the translations</li>
+</ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
@@ -221,9 +269,35 @@
 <h3 id="highlight-missing-biographical-information" tabindex="-1">Highlight missing biographical information</h3>
 <p><img src="/kdl/assets/images/slides/radicaltranslations-anonymous-network.svg" height="500"></p>
 <aside class="notes">
-- Highlight missing biographical information
-- Especially valuable when biographical information is missing or too complex to visualise directly
-- A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
+<ul>
+<li>Highlight missing biographical information</li>
+<li>Valuable when biographical data is:
+<ul>
+<li>Missing</li>
+<li>Incomplete</li>
+<li>Too complex to visualise directly</li>
+</ul>
+</li>
+<li>Example:
+<ul>
+<li>Focus on nodes representing anonymous persons</li>
+<li>Shows connections to known entities</li>
+<li>Demonstrates how network analysis can help:
+<ul>
+<li>Infer information about unknown individuals</li>
+<li>Provide context through associative relationships</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Benefits:
+<ul>
+<li>Helps fill gaps in historical records</li>
+<li>Offers insights into social and professional circles</li>
+<li>Allows for hypothesis generation about anonymous agents' identities and roles</li>
+</ul>
+</li>
+</ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
@@ -233,11 +307,42 @@
   <img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-knows-network-annotated.svg" height="500">
 </div>
 <aside class="notes">
-- Integrates graph networks into the research process
-- Enables exploration of translators' networks, collaboration patterns, influence dynamics
-- For example the researchers focused on influence dynamics by examining in more details what appeared to be the bridge radical figures between Italian and French contexts
-- Provides insights into the contextual landscape of radical activities during the period
-- Helps test hypotheses about identity when biographical data is incomplete or needs different digital tools
+<ul>
+<li>Enables exploration of:
+<ul>
+<li>Translators' networks</li>
+<li>Collaboration patterns</li>
+<li>Influence dynamics</li>
+</ul>
+</li>
+<li>Example: Influence dynamics
+<ul>
+<li>Researchers examined potential bridge figures</li>
+<li>Focus on connections between Italian and French contexts</li>
+<li>Identified key individuals facilitating cross-cultural exchange</li>
+</ul>
+</li>
+<li>Provides insights into:
+<ul>
+<li>Contextual landscape of radical activities</li>
+<li>Geographical and temporal distribution of translation efforts</li>
+</ul>
+</li>
+<li>Hypothesis testing:
+<ul>
+<li>Assists when biographical data is incomplete</li>
+<li>Complements other digital tools</li>
+<li>Allows for inference of identities and roles based on network position</li>
+</ul>
+</li>
+<li>Benefits:
+<ul>
+<li>Reveals hidden connections and patterns</li>
+<li>Supports data-driven research narratives</li>
+<li>Enhances understanding of the radical translation ecosystem</li>
+</ul>
+</li>
+</ul>
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
