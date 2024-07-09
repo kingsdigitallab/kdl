@@ -135,6 +135,7 @@ Dr Arianna Ciula | Miguel Vieira
 <aside class="notes">
 - Highlights potential gaps, omissions, and biases in the data
 - A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
+- For example the isolation of the highlighted kite shape with 4 individuals revealed a gap in the data which was addressed by connecting it to the network, but also revealed the self-referential nature of a group of radicals based in Genoa.
 </aside>
 
 {% endslide %}
@@ -199,6 +200,7 @@ Dr Arianna Ciula | Miguel Vieira
 <aside class="notes">
 - Integrates graph networks into the research process
 - Enables exploration of translators' networks, collaboration patterns, influence dynamics
+- For example the researchers focused on influence dynamics by examining in more details what appeared to be the bridge radical figures between Italian and French contexts
 - Provides insights into the contextual landscape of radical activities during the period
 - Helps test hypotheses about identity when biographical data is incomplete or needs different digital tools
 </aside>
