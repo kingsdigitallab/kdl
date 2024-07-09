@@ -1,11 +1,12 @@
 ---
-title: "The Radical Translations: Visualizing Networks of Revolutionary Culture (1789-1815)"
+title: "The Radical Translations: Visualising Networks of Revolutionary Culture (1789-1815)"
 event:
   title: The Historical Network Research Conference (HNR2024)
   url: https://historicalnetworkresearch.github.io/lausanne/
 tags: slides
 slide:
   loop: true
+  slideNumber: true
 draft: true
 ---
 
@@ -15,7 +16,7 @@ draft: true
 
 ### (Britain, France and Italy, 1789–1815)
 
-### Through the Lens of a Network Visualization
+### Through the Lens of a Network Visualisation
 
 Dr Arianna Ciula | Miguel Vieira
 
@@ -32,6 +33,7 @@ Dr Arianna Ciula | Miguel Vieira
 - The Radical Translations (RT) project (2019–2023)
 - Aimed to unravel the complex relationships of radical ideas during the 18th and 19th centuries
 - Employed data models based on BIBFRAME and FOAF
+- Experimental work around network visualisations
 
 {% endslide %}
 
@@ -49,7 +51,7 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Data Model
 
-![Data model](/assets/images/slides/radicaltranslations-models.png)
+[![Data model](/assets/images/slides/radicaltranslations-models.png)](https://radical-translations.readthedocs.io/en/latest/technical-overview.html#data-model)
 
 <aside class="notes">
 
@@ -66,13 +68,28 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Visualisation
 
-![Network visualisation](/assets/images/slides/radicaltranslations-knows-network.svg)
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network.svg"
+    height="600"
+  />
+  <img
+    class="fragment"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-network-interface.png"
+    height="600"
+  />
+</div>
 
 <aside class="notes">
 
 - Implemented on Observable platform: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
-- Represents people (authors, translators, publishers) and organizations
-- Edges signify various relationships (location, editorial, interpersonal, organizational, publication, translation)
+- Data manually exported from the project database
+- Represents people (authors, translators, publishers) and organisations
+- Edges signify various relationships (location, editorial, interpersonal, organisational, publication, translation)
+- It is also possible to filter the network by person
 
 </aside>
 
@@ -82,9 +99,15 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Insights
 
+### Abstracts complex personal trajectories
+
+<img src="/assets/images/slides/radicaltranslations-thomas-paine.svg" height="500" />
+
+<aside class="notes">
 - Abstracts complex personal trajectories into nodes and edges
-- Highlights potential gaps, omissions, and biases in the data
-- Reveals connections of "political solidarity" across borders
+- A zoomed-in view of a single node (representing Thomas Paine) with multiple
+  edges connecting to various other nodes, showing different types of relationships.
+</aside>
 
 {% endslide %}
 
@@ -92,19 +115,95 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Network Insights
 
-- Offers visual traces to test hypotheses about people's movements and life stories
-- Especially valuable when biographical information is missing or too complex to visualize directly
+### Highlights gaps, omissions, and issues
+
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network-before.svg"
+    height="500"
+  />
+  <img
+    class="fragment"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network-after.svg"
+    height="500"
+  />
+</div>
+
+<aside class="notes">
+- Highlights potential gaps, omissions, and biases in the data
+- A wider view of the network showing areas of high connectivity contrasted with sparse areas, potentially highlighting geographical or temporal biases in the data.
+- For example the isolation of the highlighted kite shape with 4 individuals revealed a gap in the data which was addressed by connecting it to the network, but also revealed the self-referential nature of a group of radicals based in Genoa.
+</aside>
 
 {% endslide %}
 
 {% slide %}
 
-## Research Framework
+## Network Insights
 
-- Integrates graph networks into the research framework
+### Reveals connections across borders
+
+<img
+    src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
+    height="500"
+  />
+
+<aside class="notes">
+- Reveals connections of _political solidarity_ across borders
+- A snapshot showing nodes representing agents and the places they were based
+  in connected by translations relationships, illustrating cross-border relationships.
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Network Insights
+
+### Highlight missing biographical information
+
+<img
+    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
+    height="500"
+  />
+
+<aside class="notes">
+- Highlight missing biographical information
+- Especially valuable when biographical information is missing or too complex to visualise directly
+- A snapshot focusing on an anonymous persons, showing how its connections to known entities may help infer information about the unknown individual.
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Research Process
+
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-research-countries.svg"
+    height="500"
+  />
+  <img
+    class="fragment"
+    data-fragment-index="0"
+    src="/assets/images/slides/radicaltranslations-knows-network-annotated.svg"
+    height="500"
+  />
+</div>
+
+<aside class="notes">
+- Integrates graph networks into the research process
 - Enables exploration of translators' networks, collaboration patterns, influence dynamics
+- For example the researchers focused on influence dynamics by examining in more details what appeared to be the bridge radical figures between Italian and French contexts
 - Provides insights into the contextual landscape of radical activities during the period
 - Helps test hypotheses about identity when biographical data is incomplete or needs different digital tools
+</aside>
 
 {% endslide %}
 
@@ -112,9 +211,9 @@ Dr Arianna Ciula | Miguel Vieira
 
 ## Conclusion
 
-- Network visualizations reveal intricate connections shaping history
-- Expanded dimensions of inquiry within the RT project
-- Powerful tool for hypothesis verification
+- Network visualisations reveal intricate connections shaping history
+- Expanded dimensions of interpretation within the RT project
+- Insightful tool for hypothesis verification
 
 {% endslide %}
 
@@ -127,6 +226,7 @@ Dr Arianna Ciula | Miguel Vieira
 - RT project: [`radicaltranslations.org`](https://radicaltranslations.org)
 - RT technical overview: [`tiny.cc/cziiyz`](http://tiny.cc/cziiyz)
 - Network visualisation: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
+- Mucignat, Perovic: [`doi.org/10.61147/des.9`](https://doi.org/10.61147/des.9)
 
 ### Contact
 
