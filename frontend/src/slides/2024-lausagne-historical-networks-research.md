@@ -212,6 +212,7 @@ Dr Arianna Ciula | Miguel Vieira
 - RT project: [`radicaltranslations.org`](https://radicaltranslations.org)
 - RT technical overview: [`tiny.cc/cziiyz`](http://tiny.cc/cziiyz)
 - Network visualisation: [`tiny.cc/ixiiyz`](http://tiny.cc/ixiiyz)
+- Mucignat, Perovic: [`doi.org/10.61147/des.9`](https://doi.org/10.61147/des.9)
 
 ### Contact
 
