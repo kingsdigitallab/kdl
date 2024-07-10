@@ -24,9 +24,9 @@ As well as working with people and groups within Faculty (and King's as a whole)
 
 The Lab's progenitors at King's were the Centre for Computing in the Humanities and the Department of Digital Humanities, and KDL continues to be actively involved in the digital humanities (DH) world through dissemination of research, contributions to conferences and networks and participation in groups such as [UK Ireland Digital Humanities Association](https://digitalhumanities-uk-ie.org/). We are also increasingly engaged with groups such as [RSE Society UK](https://society-rse.org/) and see numerous benefits in bringing the DH and RSE worlds together.
 
-## Research interests
+## Research areas
 
-The rapid and widespread changes in 'the digital' constantly open up new areas of interest for the Lab. Team members are currently exploring a variety of pathways which include Digital Creativity (see for example [Digital Ghost Hunt](https://digitalghosthunt.com/) project, [Room is Sad](/blog/room-sad/) blogpost), AI and Machine Learning (see for example [Critical Modelling of Extensive Literary Data](/blog/cmeld-ae/) blogpost), and Indigenous Digital Humanities (see [this blogpost](/blog/indigenous-digital-humanities-research-theme-under-development/) on that emerging research theme).
+The rapid and widespread changes in 'the digital' constantly open up new areas of interest for the Lab. Team members are currently exploring a variety of pathways which include Digital Creativity (see for example [Digital Ghost Hunt](https://digitalghosthunt.com/) project, [Room is Sad](/blog/room-sad/) blogpost), AI and Machine Learning (see for example [Critical Modelling of Extensive Literary Data](/blog/cmeld-ae/) blogpost), and Indigenous Digital Humanities (see [this blogpost](/blog/indigenous-digital-humanities-research-theme-under-development/) on that emerging research area).
 
 ## Interested in working with KDL?
 
