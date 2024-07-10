@@ -189,6 +189,7 @@ Dr Arianna Ciula | Miguel Vieira
 
 {% endslide %}
 
+<!--
 {% slide %}
 
 ## Network Insights
@@ -221,6 +222,7 @@ Dr Arianna Ciula | Miguel Vieira
 </aside>
 
 {% endslide %}
+-->
 
 {% slide %}
 
