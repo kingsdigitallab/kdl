@@ -7,7 +7,7 @@ tags: slides
 slide:
   loop: true
   slideNumber: true
-draft: true
+draft: false
 ---
 
 {% slide %}
