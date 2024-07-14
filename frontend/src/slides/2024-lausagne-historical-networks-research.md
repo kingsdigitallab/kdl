@@ -18,7 +18,7 @@ draft: false
 
 ### Through the Lens of a Network Visualisation
 
-Dr Arianna Ciula | Miguel Vieira
+Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 
 #### King's Digital Lab, King's College London
 
@@ -184,6 +184,10 @@ Dr Arianna Ciula | Miguel Vieira
   - Highlights Paris and London as central hubs in the radical translation network
   - Reveals extensive cross-border relationships centred on these major cities
 - Emphasises the international nature of the translations
+- Other benefits of networks:
+  - Helps fill gaps in historical records
+  - Offers insights into social and professional circles
+  - Allows for hypothesis generation about anonymous agents' identities and roles
 
 </aside>
 
