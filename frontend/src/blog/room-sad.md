@@ -1,6 +1,6 @@
 ---
 title: Room is Sad
-subtitle: Room is Sad is appearing at the London Design Biennale until June 25h.
+subtitle: Room is Sad is appearing at the London Design Biennale until June 25th.
 tags:
   - post
 authors:
