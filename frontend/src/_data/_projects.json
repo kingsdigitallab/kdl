@@ -14423,6 +14423,19 @@
       },
       {
         "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "6f8a8281-76a2-4b2e-861c-e88b8dbe5b7b",
           "name": "Pierpaolo Vivo",
           "slug": "pierpaolo-vivo"
