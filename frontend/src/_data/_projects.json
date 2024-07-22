@@ -6586,7 +6586,14 @@
             "name": "KCL The Policy Institute",
             "slug": "the-policy-institute"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          }
         }
       },
       {
