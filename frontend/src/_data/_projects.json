@@ -501,9 +501,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -592,9 +592,9 @@
           "slug": "paul-caton"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
