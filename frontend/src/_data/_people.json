@@ -14526,6 +14526,35 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "SSPP Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Farm-level Interdisciplinary Approaches to Endemic Livestock Disease",
             "alternateName": "FIELD",
             "slug": "field",

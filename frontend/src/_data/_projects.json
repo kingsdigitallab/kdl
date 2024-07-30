@@ -13990,6 +13990,83 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": null,
+    "dissolutionDate": "2025-02-28",
+    "foundingDate": "2024-01-01",
+    "id": "32d2919d-765c-44cf-9e62-f814e79c2f81",
+    "name": "Social Dynamics of People's War",
+    "slug": "social-dynamics-of-people-s-war",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "217a3f99-409d-43ac-a48d-7aa974b3800c",
+          "name": "National Army Museum",
+          "slug": "national-army-museum"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+            "name": "SSPP Defense Studies",
+            "slug": "sspp-defense-studies"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          }
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "34478b23-ef1f-48dc-854d-6319576450e8",
+          "name": "Jonathan Fennell",
+          "slug": "jonathan-fennell"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "STEP-UP",
     "cmsStatus": "published",
     "description": "The STEP-UP platform is a project to develop and support digital Research Technical Professionals (RTPs) and their ecosystem.\n\n'Digital infrastructure' – enabling computational modelling, processing of larger datasets, creation of advanced research facilities, sharing results openly – is the foundation of an increasing number of research domains, beyond those where computation and big datasets have been central for some time.\n\nSTEP-UP starting point is that a trained, motivated 'people infrastructure' of expert technical talent – such as research software engineers, research data professionals and systems administrators – along with the career opportunities to support them, is critical to meet new and increasing demands on institutional and national research digital infrastructures.\n\nSTEP-UP project team have extensive experience in supporting research software engineers through the Research Software London (RSLondon) community. Building on this experience to support and train digital RTPs across software development, data management and processing, and computational infrastructure domains, four institutions have pooled their complementary expertise to to create a support ecosystem beyond what any institution alone could, and that many others across the UK will benefit from. \n\nValuing staff which are in high demand, e.g. in tech startups and other industry roles, is critical to STEP-UP together with well-defined career path, and mechanisms for recognition within research project teams and institutions. Existing role structures within research organisations frequently create unhelpful barriers between researchers and technical staff. These structures also sustain an outdated view of academic versus technical accomplishment.\n\nThe STEP-UP platform will address these challenges in research technical careers and recognition head-on. The platform will provide short-term funding to develop a robust model for sharing technical talent within and across institutions, and for increasing awareness of its importance with researchers and institutional governance.",

@@ -452,7 +452,8 @@
             "parentOrganisation": null,
             "subOrganisation": [
               "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
-              "a808e448-da5a-4446-a5db-dbfd000305dc"
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
             ]
           },
           "subOrganisation": []
@@ -493,7 +494,50 @@
             "parentOrganisation": null,
             "subOrganisation": [
               "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
-              "a808e448-da5a-4446-a5db-dbfd000305dc"
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
+            ]
+          },
+          "subOrganisation": []
+        },
+        {
+          "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "db909577-9736-4284-847d-b211b9aff9ec",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-07-30T08:14:43.480Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+            "name": "SSPP Defense Studies",
+            "slug": "sspp-defense-studies",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+            "cmsSort": null,
+            "cmsStatus": "published",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
             ]
           },
           "subOrganisation": []
@@ -2171,6 +2215,20 @@
               "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
               "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
               "subOrganisation": []
+            },
+            {
+              "agent": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+              "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+              "cmsDateUpdated": null,
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": null,
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "db909577-9736-4284-847d-b211b9aff9ec",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
             }
           ]
         },
@@ -2245,6 +2303,110 @@
               "dissolutionDate": null,
               "foundingDate": null,
               "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
+            },
+            {
+              "agent": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+              "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+              "cmsDateUpdated": null,
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": null,
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "db909577-9736-4284-847d-b211b9aff9ec",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
+            }
+          ]
+        },
+        "subOrganisation": []
+      },
+      {
+        "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+        "cmsDateUpdated": null,
+        "cmsSort": null,
+        "cmsStatus": "published",
+        "dissolutionDate": null,
+        "foundingDate": null,
+        "id": "db909577-9736-4284-847d-b211b9aff9ec",
+        "agent": {
+          "alternateName": null,
+          "cmsDateCreated": "2024-07-30T08:14:43.480Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "description": null,
+          "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+          "name": "SSPP Defense Studies",
+          "slug": "sspp-defense-studies",
+          "url": [],
+          "memberOf": []
+        },
+        "parentOrganisation": {
+          "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+          "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-10-03T11:10:25.147Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "name": "Faculty of Social Science & Public Policy",
+            "slug": "faculty-of-social-science-and-public-policy",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": null,
+          "subOrganisation": [
+            {
+              "agent": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
+              "cmsDateCreated": "2023-12-13T10:30:13.583Z",
+              "cmsDateUpdated": "2024-07-22T08:29:02.575Z",
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
+            },
+            {
+              "agent": "96716cd0-b752-4322-8887-84f03e0e3e09",
+              "cmsDateCreated": "2023-12-13T10:30:13.063Z",
+              "cmsDateUpdated": "2024-07-26T10:58:32.249Z",
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
+              "subOrganisation": []
+            },
+            {
+              "agent": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+              "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+              "cmsDateUpdated": null,
+              "cmsSort": null,
+              "cmsStatus": "published",
+              "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+              "cmsUserUpdated": null,
+              "dissolutionDate": null,
+              "foundingDate": null,
+              "id": "db909577-9736-4284-847d-b211b9aff9ec",
               "parentOrganisation": "9f021683-02ea-40eb-b45e-3d130e90748d",
               "subOrganisation": []
             }
@@ -6206,7 +6368,8 @@
             "parentOrganisation": null,
             "subOrganisation": [
               "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
-              "a808e448-da5a-4446-a5db-dbfd000305dc"
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
             ]
           },
           "subOrganisation": []
@@ -6247,7 +6410,50 @@
             "parentOrganisation": null,
             "subOrganisation": [
               "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
-              "a808e448-da5a-4446-a5db-dbfd000305dc"
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
+            ]
+          },
+          "subOrganisation": []
+        },
+        {
+          "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "db909577-9736-4284-847d-b211b9aff9ec",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-07-30T08:14:43.480Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+            "name": "SSPP Defense Studies",
+            "slug": "sspp-defense-studies",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+            "cmsSort": null,
+            "cmsStatus": "published",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
             ]
           },
           "subOrganisation": []
@@ -7060,6 +7266,178 @@
       "memberOf": []
     },
     "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "db909577-9736-4284-847d-b211b9aff9ec",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-07-30T08:14:43.480Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+      "name": "SSPP Defense Studies",
+      "slug": "sspp-defense-studies",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": {
+      "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+      "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+      "cmsSort": null,
+      "cmsStatus": "published",
+      "dissolutionDate": null,
+      "foundingDate": null,
+      "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+      "agent": {
+        "alternateName": null,
+        "cmsDateCreated": "2023-10-03T11:10:25.147Z",
+        "cmsDateUpdated": null,
+        "cmsSort": null,
+        "description": null,
+        "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+        "name": "Faculty of Social Science & Public Policy",
+        "slug": "faculty-of-social-science-and-public-policy",
+        "url": [],
+        "memberOf": []
+      },
+      "parentOrganisation": null,
+      "subOrganisation": [
+        {
+          "cmsDateCreated": "2023-12-13T10:30:13.583Z",
+          "cmsDateUpdated": "2024-07-22T08:29:02.575Z",
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-12-13T10:30:13.429Z",
+            "cmsDateUpdated": "2024-05-07T15:21:00.653Z",
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "description": null,
+            "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
+            "name": "KCL The Policy Institute",
+            "slug": "the-policy-institute",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+            "cmsSort": null,
+            "cmsStatus": "published",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
+            ]
+          },
+          "subOrganisation": []
+        },
+        {
+          "cmsDateCreated": "2023-12-13T10:30:13.063Z",
+          "cmsDateUpdated": "2024-07-26T10:58:32.249Z",
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "a808e448-da5a-4446-a5db-dbfd000305dc",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2023-12-13T10:30:12.837Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "96716cd0-b752-4322-8887-84f03e0e3e09",
+            "name": "Department of International Development",
+            "slug": "department-of-international-development",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+            "cmsSort": null,
+            "cmsStatus": "published",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
+            ]
+          },
+          "subOrganisation": []
+        },
+        {
+          "cmsDateCreated": "2024-07-30T08:14:43.745Z",
+          "cmsDateUpdated": null,
+          "cmsSort": null,
+          "cmsStatus": "published",
+          "dissolutionDate": null,
+          "foundingDate": null,
+          "id": "db909577-9736-4284-847d-b211b9aff9ec",
+          "agent": {
+            "alternateName": null,
+            "cmsDateCreated": "2024-07-30T08:14:43.480Z",
+            "cmsDateUpdated": null,
+            "cmsSort": null,
+            "cmsUserCreated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "cmsUserUpdated": null,
+            "description": null,
+            "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+            "name": "SSPP Defense Studies",
+            "slug": "sspp-defense-studies",
+            "url": [],
+            "memberOf": []
+          },
+          "parentOrganisation": {
+            "agent": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "cmsDateCreated": "2023-10-03T11:10:25.301Z",
+            "cmsDateUpdated": "2024-07-26T10:58:31.897Z",
+            "cmsSort": null,
+            "cmsStatus": "published",
+            "cmsUserCreated": "b7229096-92fc-4a2f-a9a9-6a5396927b0e",
+            "cmsUserUpdated": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+            "dissolutionDate": null,
+            "foundingDate": null,
+            "id": "9f021683-02ea-40eb-b45e-3d130e90748d",
+            "parentOrganisation": null,
+            "subOrganisation": [
+              "1bce4239-4b6c-4d0a-9749-9a13ebe092f4",
+              "a808e448-da5a-4446-a5db-dbfd000305dc",
+              "db909577-9736-4284-847d-b211b9aff9ec"
+            ]
+          },
+          "subOrganisation": []
+        }
+      ]
+    },
     "subOrganisation": []
   },
   {
