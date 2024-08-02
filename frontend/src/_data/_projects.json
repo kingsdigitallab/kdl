@@ -3163,6 +3163,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "5e575d5c-b69a-4fb9-af8c-11b7e0f7f9c7",
+            "name": "Aalto University",
+            "slug": "aalto-university"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
