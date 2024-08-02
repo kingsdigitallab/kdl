@@ -894,6 +894,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "f9b8210d-e643-4d73-b650-88589efa6bea",
+            "name": "Leeds Beckett University",
+            "slug": "leeds-beckett-university"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -2213,6 +2224,17 @@
             "id": "61927240-fda7-4b6b-87a6-6f39533bc367",
             "name": "The National Gallery",
             "slug": "national-gallery"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "a88f9ca5-f2c7-4ed7-ad3a-f155d7472239",
+            "name": "Goldsmiths, University of London",
+            "slug": "goldsmiths"
           },
           "parentOrganisation": null
         }
@@ -4359,6 +4381,17 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "67a59b2e-58ea-4295-ba73-71daa360e273",
+            "name": "Leeds Trinity University",
+            "slug": "leeds-trinity-university"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -6929,6 +6962,28 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c0474a0a-6687-4fe3-a6d2-d097b48592b2",
+            "name": "Heidelberg University",
+            "slug": "heidelberg-university"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0840a1d6-d09a-417f-94f7-fdfdffd9cac3",
+            "name": "New York University",
+            "slug": "nyu"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -9514,6 +9569,17 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "d5b1c017-ad8d-4c0c-80ca-73bc5eda2f67",
+            "name": "Highlands School Enfield",
+            "slug": "highlands-school-enfield"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -12992,6 +13058,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "e476d9ca-e480-4882-b2af-3e0b66ca3895",
+            "name": "Duke University",
+            "slug": "duke-university"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -15635,6 +15712,17 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "70b3fe6e-12ad-4abf-bacf-55a515a2417f",
+            "name": "Newnham College",
+            "slug": "newnham-college"
+          },
+          "parentOrganisation": null
         }
       }
     ],

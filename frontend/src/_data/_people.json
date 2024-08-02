@@ -84,6 +84,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
+                  }
+                }
               }
             ]
           },
@@ -246,6 +253,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -784,6 +798,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
+                  }
+                }
               }
             ]
           },
@@ -984,6 +1005,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
@@ -1761,6 +1796,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -2118,6 +2160,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -2215,6 +2271,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
@@ -2586,6 +2656,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -2710,6 +2787,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
                   }
                 }
               }
@@ -3381,6 +3465,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -3403,6 +3501,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newnham College"
                   }
                 }
               }
@@ -3679,6 +3784,13 @@
                     "name": "The National Gallery"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
+                  }
+                }
               }
             ]
           },
@@ -3732,6 +3844,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -3847,6 +3966,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
@@ -4395,6 +4528,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -4681,6 +4821,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
+                  }
+                }
               }
             ]
           },
@@ -4920,6 +5067,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
                   }
                 }
               }
@@ -5423,6 +5577,13 @@
                     "name": "The National Gallery"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
+                  }
+                }
               }
             ]
           },
@@ -5654,6 +5815,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -6404,6 +6572,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -6426,6 +6608,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newnham College"
                   }
                 }
               }
@@ -6661,6 +6850,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -7277,6 +7473,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
+                  }
+                }
               }
             ]
           },
@@ -7306,6 +7509,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -7592,6 +7802,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -8090,6 +8307,13 @@
                     "name": "The National Gallery"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
+                  }
+                }
               }
             ]
           },
@@ -8435,6 +8659,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -8717,6 +8955,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -8802,6 +9047,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -9502,6 +9754,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
+                  }
+                }
               }
             ]
           },
@@ -9728,6 +9987,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
                   }
                 }
               }
@@ -10100,6 +10366,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -10132,6 +10412,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "The National Gallery"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
                   }
                 }
               }
@@ -10315,6 +10602,13 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newnham College"
+                  }
+                }
               }
             ]
           },
@@ -10385,6 +10679,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
@@ -10470,6 +10778,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
@@ -10738,6 +11060,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
+                  }
+                }
               }
             ]
           },
@@ -10782,6 +11111,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
                   }
                 }
               }
@@ -10917,6 +11253,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -10997,6 +11340,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
                   }
                 }
               }
@@ -11206,6 +11556,13 @@
                     "name": "The National Gallery"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
+                  }
+                }
               }
             ]
           },
@@ -11327,6 +11684,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -11981,6 +12345,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
+                  }
+                }
               }
             ]
           },
@@ -12208,6 +12579,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
                   }
                 }
               }
@@ -12898,6 +13276,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -13277,6 +13669,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
+                  }
+                }
               }
             ]
           },
@@ -13391,6 +13790,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -14392,6 +14798,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
+                  }
+                }
               }
             ]
           },
@@ -14445,6 +14858,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "The National Gallery"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goldsmiths, University of London"
                   }
                 }
               }
@@ -14567,6 +14987,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -15006,6 +15433,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -15907,6 +16341,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
+                  }
+                }
               }
             ]
           },
@@ -16423,6 +16864,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -16617,6 +17072,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newnham College"
                   }
                 }
               }
@@ -16817,6 +17279,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -17903,6 +18372,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
+                  }
+                }
               }
             ]
           },
@@ -18569,6 +19045,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Beckett University"
                   }
                 }
               }
@@ -19890,6 +20373,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
+                  }
+                }
               }
             ]
           },
@@ -20012,6 +20502,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Leeds Trinity University"
                   }
                 }
               }
@@ -20450,6 +20947,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
+                  }
+                }
               }
             ]
           },
@@ -20549,6 +21053,20 @@
                     "name": "FAH Department of Classics"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
+                  }
+                }
               }
             ]
           },
@@ -20646,6 +21164,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Highlands School Enfield"
                   }
                 }
               }
@@ -20848,6 +21373,13 @@
                     "name": "FAH Department of Digital Humanities"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Duke University"
+                  }
+                }
               }
             ]
           },
@@ -20992,6 +21524,20 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Heidelberg University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "New York University"
                   }
                 }
               }
