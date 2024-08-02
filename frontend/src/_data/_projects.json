@@ -2521,6 +2521,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "b0ea4e3c-49b3-4598-8afb-d775a8a9f0f6",
+            "name": "University of Catania",
+            "slug": "university-of-catania"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -15898,6 +15909,17 @@
             "id": "68b43c2d-b3d4-4c94-9a87-701086ce11c8",
             "name": "University of Edinburgh",
             "slug": "university-of-edinburgh"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "cf3639b1-aa69-4008-87d8-d26e87aa6760",
+            "name": "Queen's University Belfast",
+            "slug": "queens-university-belfast"
           },
           "parentOrganisation": null
         }
