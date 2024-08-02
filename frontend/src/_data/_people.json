@@ -11842,12 +11842,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Uppsala",
-              "slug": "uppsala"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -14535,7 +14530,7 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "SSPP Defense Studies"
+                    "name": "Defense Studies"
                   }
                 }
               }
@@ -17214,12 +17209,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Uppsala",
-              "slug": "uppsala"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }

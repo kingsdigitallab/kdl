@@ -4011,7 +4011,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -10811,7 +10818,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -13394,7 +13408,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -13558,7 +13579,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -14023,8 +14051,8 @@
           "agent": {
             "alternateName": null,
             "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
-            "name": "SSPP Defense Studies",
-            "slug": "sspp-defense-studies"
+            "name": "Defense Studies",
+            "slug": "defense-studies"
           },
           "parentOrganisation": {
             "agent": {
