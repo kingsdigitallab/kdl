@@ -905,6 +905,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c560f8ad-c7f5-4973-b5c9-f02ff9930103",
+            "name": "University of London",
+            "slug": "university-of-london"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -9592,6 +9603,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "dcad7d66-fa01-4f1b-af54-629b1be19181",
+            "name": "Yale University",
+            "slug": "yale"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -13077,6 +13099,17 @@
             "id": "e476d9ca-e480-4882-b2af-3e0b66ca3895",
             "name": "Duke University",
             "slug": "duke-university"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "2a708087-9a4c-4be4-b5d1-fc3272c7d7b3",
+            "name": "University of the West of England",
+            "slug": "university-of-the-west-of-england"
           },
           "parentOrganisation": null
         }
