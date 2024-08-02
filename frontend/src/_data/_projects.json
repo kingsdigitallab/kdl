@@ -16234,6 +16234,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "1848bd67-fa14-4a63-a1f5-ef4a8d8c3e08",
+            "name": "University of Florence",
+            "slug": "university-of-florence"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
