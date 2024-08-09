@@ -244,7 +244,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      1
+    ],
     "url": [
       {
         "linkrole_id": {
