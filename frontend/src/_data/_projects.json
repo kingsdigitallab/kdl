@@ -38,7 +38,10 @@
       "metadata": {}
     },
     "funder": [],
-    "keywords": [],
+    "keywords": [
+      5,
+      6
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -244,7 +247,10 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      1,
+      2
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -464,7 +470,10 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      3,
+      4
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -501,9 +510,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -592,9 +601,9 @@
           "slug": "paul-caton"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -674,7 +683,11 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      7,
+      8,
+      9
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -893,6 +906,28 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "f9b8210d-e643-4d73-b650-88589efa6bea",
+            "name": "Leeds Beckett University",
+            "slug": "leeds-beckett-university"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c560f8ad-c7f5-4973-b5c9-f02ff9930103",
+            "name": "University of London",
+            "slug": "university-of-london"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -1132,7 +1167,12 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      10,
+      11,
+      12,
+      13
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -1379,7 +1419,10 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      14,
+      15
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -1482,7 +1525,11 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      16,
+      17,
+      18
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -1605,7 +1652,10 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      19,
+      20
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -2216,6 +2266,17 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "a88f9ca5-f2c7-4ed7-ad3a-f155d7472239",
+            "name": "Goldsmiths, University of London",
+            "slug": "goldsmiths"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -2496,6 +2557,17 @@
             "id": "add54b9c-51b9-4bb6-8261-0e5bb2aea126",
             "name": "University of Oxford",
             "slug": "university-of-oxford"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "b0ea4e3c-49b3-4598-8afb-d775a8a9f0f6",
+            "name": "University of Catania",
+            "slug": "university-of-catania"
           },
           "parentOrganisation": null
         }
@@ -3116,6 +3188,17 @@
             "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
             "name": "King's Digital Lab",
             "slug": "kdl"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "5e575d5c-b69a-4fb9-af8c-11b7e0f7f9c7",
+            "name": "Aalto University",
+            "slug": "aalto-university"
           },
           "parentOrganisation": null
         }
@@ -4011,7 +4094,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -4352,6 +4442,17 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "67a59b2e-58ea-4295-ba73-71daa360e273",
+            "name": "Leeds Trinity University",
+            "slug": "leeds-trinity-university"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -6586,7 +6687,14 @@
             "name": "KCL The Policy Institute",
             "slug": "the-policy-institute"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          }
         }
       },
       {
@@ -6915,6 +7023,28 @@
               "slug": "faculty-of-arts-and-humanities"
             }
           }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "c0474a0a-6687-4fe3-a6d2-d097b48592b2",
+            "name": "Heidelberg University",
+            "slug": "heidelberg-university"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "0840a1d6-d09a-417f-94f7-fdfdffd9cac3",
+            "name": "New York University",
+            "slug": "nyu"
+          },
+          "parentOrganisation": null
         }
       }
     ],
@@ -7500,7 +7630,7 @@
       {
         "agent": {
           "id": "22dc841f-e776-4907-b510-bb48ee0973a7",
-          "name": "Eleonora Litta",
+          "name": "Eleonora Litta Modignani Picozzi",
           "slug": "eleonora-litta"
         },
         "roleName": {
@@ -9501,6 +9631,28 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "d5b1c017-ad8d-4c0c-80ca-73bc5eda2f67",
+            "name": "Highlands School Enfield",
+            "slug": "highlands-school-enfield"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "dcad7d66-fa01-4f1b-af54-629b1be19181",
+            "name": "Yale University",
+            "slug": "yale"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -10804,7 +10956,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -11850,20 +12009,20 @@
       "storage": "local",
       "filename_disk": "d2e37839-0934-4458-bd1c-98b3c6c52c16.jpg",
       "filename_download": "Radical_Translations--timeline-screenshot_resized.jpg",
-      "title": null,
+      "title": "1783 to 1807 timelines from France, Ireland, Italy, United Kingdom, and other countries, showing events, source texts & translations.",
       "type": "image/jpeg",
       "folder": null,
       "uploaded_by": "460ce929-5d4f-4847-bcd0-8780a149c6e9",
       "uploaded_on": "2023-04-17T14:56:37.378Z",
       "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
-      "modified_on": "2023-10-03T10:54:23.277Z",
+      "modified_on": "2024-07-19T11:59:08.964Z",
       "charset": null,
       "filesize": "356002",
       "width": 1342,
       "height": 800,
       "duration": null,
       "embed": null,
-      "description": "1783 to 1807 timelines from France, Ireland, Italy, United Kingdom, and other countries, showing events, source texts & translations.",
+      "description": "Illustration of a graph showing timelines of activities",
       "location": null,
       "tags": null,
       "metadata": {}
@@ -11962,9 +12121,9 @@
           "slug": "ginestra-ferraro"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12079,9 +12238,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12092,9 +12251,9 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12971,6 +13130,28 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "e476d9ca-e480-4882-b2af-3e0b66ca3895",
+            "name": "Duke University",
+            "slug": "duke-university"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "2a708087-9a4c-4be4-b5d1-fc3272c7d7b3",
+            "name": "University of the West of England",
+            "slug": "university-of-the-west-of-england"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -13387,7 +13568,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -13551,7 +13739,14 @@
             "name": "FAH Department of English",
             "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
@@ -13975,6 +14170,83 @@
         },
         "roleName": {
           "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": null,
+    "dissolutionDate": "2025-02-28",
+    "foundingDate": "2024-01-01",
+    "id": "32d2919d-765c-44cf-9e62-f814e79c2f81",
+    "name": "Social Dynamics of People's War",
+    "slug": "social-dynamics-of-people-s-war",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "217a3f99-409d-43ac-a48d-7aa974b3800c",
+          "name": "National Army Museum",
+          "slug": "national-army-museum"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
+            "name": "Defense Studies",
+            "slug": "defense-studies"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          }
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "34478b23-ef1f-48dc-854d-6319576450e8",
+          "name": "Jonathan Fennell",
+          "slug": "jonathan-fennell"
+        },
+        "roleName": {
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -14418,6 +14690,19 @@
           "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -15511,6 +15796,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "70b3fe6e-12ad-4abf-bacf-55a515a2417f",
+            "name": "Newnham College",
+            "slug": "newnham-college"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -15685,6 +15981,17 @@
             "id": "68b43c2d-b3d4-4c94-9a87-701086ce11c8",
             "name": "University of Edinburgh",
             "slug": "university-of-edinburgh"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "cf3639b1-aa69-4008-87d8-d26e87aa6760",
+            "name": "Queen's University Belfast",
+            "slug": "queens-university-belfast"
           },
           "parentOrganisation": null
         }
@@ -15996,6 +16303,17 @@
             "id": "7ad555cb-f2ac-477b-9808-2fdbe49bc9ad",
             "name": "Heidelberg Academy of Sciences and Humanities",
             "slug": "heidelberg-academy-of-sciences-and-humanities"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "1848bd67-fa14-4a63-a1f5-ef4a8d8c3e08",
+            "name": "University of Florence",
+            "slug": "university-of-florence"
           },
           "parentOrganisation": null
         }
