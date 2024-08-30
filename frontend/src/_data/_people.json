@@ -1559,6 +1559,42 @@
           }
         },
         {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "DARIAH-DESIR",
+            "alternateName": null,
+            "slug": "dariah-desir",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
           "startDate": "2020-01-01",
           "endDate": "2023-06-30",
           "inProject": {
@@ -9837,6 +9873,42 @@
           "roleName": {
             "name": "Researcher"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "DARIAH-DESIR",
+            "alternateName": null,
+            "slug": "dariah-desir",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
+          }
         }
       ]
     }
@@ -14988,6 +15060,42 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "DARIAH-DESIR",
+            "alternateName": null,
+            "slug": "dariah-desir",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "The Values of French Language and Literature in the European Middle Ages",
             "alternateName": "TVOF",
             "slug": "tvof",
@@ -15568,6 +15676,42 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "DARIAH-DESIR",
+            "alternateName": null,
+            "slug": "dariah-desir",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -19341,6 +19485,42 @@
       "slug": "simona-stoyanova",
       "description": null,
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "DARIAH-DESIR",
+            "alternateName": null,
+            "slug": "dariah-desir",
+            "foundingDate": "2017-01-01",
+            "dissolutionDate": "2019-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,

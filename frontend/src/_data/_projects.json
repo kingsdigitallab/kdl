@@ -2988,6 +2988,181 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": "Europe has a long and rich tradition as a centre for the Arts & Humanities. However, the digital transformation poses challenges to the Arts & Humanities research landscape all over the world. Responding to these challenges, the Digital Research Infrastructure for Arts & Humanities (DARIAH) was launched as a pan-European network and research infrastructure. After expansion and consolidation, which involved DARIAH’s inscription on the ESFRI roadmap, DARIAH became a European Research Infrastructure Consortium (ERIC) in August 2014. The DESIR project - DARIAH ERIC Sustainability Refined - sets out to strengthen the sustainability of DARIAH and firmly establish it as a long-term leader and partner within Arts & Humanities communities.\n\nKing’s Digital Lab, along with the University of Glasgow, are leading in the development of strategies for European  research engagement in the next decade and beyond. We have been working closely with domestic initiatives and engaging with other institutions and UK DARIAH cooperating partners to promote an agenda of continued European collaboration, and to secure a new level of advocacy for the Digital Humanities.\n\nWe have been seeking consensus from across the UK Arts & Humanities digital research community through a series of workshops, to identify the most suitable models for close UK-European collaboration in the wake of Brexit.\n",
+    "dissolutionDate": "2019-12-31",
+    "foundingDate": "2017-01-01",
+    "id": "d85308d7-dead-4d33-a676-6457643c0788",
+    "name": "DARIAH-DESIR",
+    "slug": "dariah-desir",
+    "creativeWorkStatus": {
+      "name": "Maintained",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": {
+      "id": "a3b7eaef-7f50-49cb-8810-7a0aefd0e388",
+      "storage": "local",
+      "filename_disk": "a3b7eaef-7f50-49cb-8810-7a0aefd0e388.jpg",
+      "filename_download": "desir_banner.original.jpg",
+      "title": "Desir Project Banner",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-08-30T09:46:32.927Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-08-30T09:56:37.557Z",
+      "charset": null,
+      "filesize": "138757",
+      "width": 2378,
+      "height": 964,
+      "duration": null,
+      "embed": null,
+      "description": "Desir project logo over a Union Jack flag background",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "1211fc85-37a1-4fab-b9d1-7613e93685ca",
+          "name": "European Commission",
+          "slug": "european-commission"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://www.dariah.eu/activities/projects-and-affiliations/desir/"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "aaf8666a-0c25-4365-ba58-8a391598fc40",
+            "name": "University of Glasgow",
+            "slug": "university-of-glasgow"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "KDL",
+            "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
+            "name": "King's Digital Lab",
+            "slug": "kdl"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "8685add6-4c9f-4b0f-898d-3f28f3382176",
+          "name": "Simona Stoyanova",
+          "slug": "simona-stoyanova"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e0ddf82c-ab1a-4721-bf94-e12a80a157bb",
+          "name": "Natasha Romanova",
+          "slug": "natasha-romanova"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "9179e734-f753-47a0-a317-e4b34629a5cd",
+          "name": "Lorna Hughes",
+          "slug": "lorna-hughes"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f8c37d1a-e81f-49b2-b641-bc57993c6f7e",
+          "name": "Agiatis Benardou",
+          "slug": "agiatis-benardou"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "",
     "cmsStatus": "published",
     "description": "The project explores “public datafication” and public “data worlds”, including comparative analyses of different ways of making public data (quantification and datafication of issues in the public sector) and different ways of making data public (forms and formats of public participation). It convened an international and interdisciplinary group of researchers to explore digital methods and approaches for studying data portals as online devices, including the development of a proof-of-concept toolkit – the “Data Portal Explorer” – for use in research, teaching and associated public interventions. \n\nKDL set up the Data Portal Explorer which is a Python library, and command line tool, to harvest data from CKAN data repositories, using the ckanapi library.",
