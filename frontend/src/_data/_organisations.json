@@ -9275,29 +9275,6 @@
     "subOrganisation": []
   },
   {
-    "cmsDateCreated": "2023-10-02T15:52:14.180Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": "1441-06-07",
-    "id": "cd801851-befb-421f-b2ea-37876c72f6b8",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2023-10-02T15:49:22.555Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "0b00d23e-b4c3-4109-be44-e4a67c829573",
-      "name": "University of Bordeaux",
-      "slug": "university-of-bordeaux",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2022-10-25T13:33:57.381Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -9577,29 +9554,6 @@
       "id": "1c831a48-e5ca-48c3-9784-b7431938a13d",
       "name": "University of Lincoln",
       "slug": "lincoln",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
-    "cmsDateCreated": "2024-02-29T11:07:29.418Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "published",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "7bde3d59-5677-4383-89f3-2d311ca34246",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2024-02-29T11:07:29.232Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "4dcf4a1c-432c-4b0b-8e3f-439d2f801c7a",
-      "name": "University of Liverpool",
-      "slug": "university-of-liverpool",
       "url": [],
       "memberOf": []
     },
