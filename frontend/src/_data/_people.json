@@ -3004,12 +3004,24 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         }
       ]
@@ -3272,6 +3284,73 @@
           },
           "roleName": {
             "name": "Principal investigator"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "agent": {
+      "name": "Carol Palmer",
+      "slug": "carol-palmer",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Council for British Research in the Levant",
+              "slug": "council-for-british-research-in-the-levant"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
           }
         }
       ]
@@ -4404,10 +4483,22 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Music",
+              "slug": "fah-department-of-music"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -9179,12 +9270,24 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
-            "name": "Researcher"
+            "name": "Co-investigator"
           }
         },
         {
@@ -16047,7 +16150,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "Research Software Analyst"
           }
@@ -16715,12 +16823,24 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
@@ -16939,6 +17059,73 @@
           },
           "roleName": {
             "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "agent": {
+      "name": "Pascal Flohr",
+      "slug": "pascal-flohr",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Oxford",
+              "slug": "university-of-oxford"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
           }
         }
       ]
@@ -17585,12 +17772,24 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -20102,6 +20301,73 @@
     }
   },
   {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Shatha Mubaideen",
+      "slug": "shatha-mubaideen",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Council for British Research in the Levant",
+              "slug": "council-for-british-research-in-the-levant"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Simona Stoyanova",
@@ -22031,12 +22297,24 @@
                     "name": "FAH Department of Music"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         }
       ]
