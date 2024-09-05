@@ -9586,6 +9586,24 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
+            "name": "FAH Department of Digital Humanities",
+            "slug": "ddh"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
       }
     ],
     "member": [
@@ -9596,9 +9614,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -9648,9 +9666,9 @@
           "slug": "luis-figueira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -9661,9 +9679,9 @@
           "slug": "ginestra-ferraro"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -9687,7 +9705,7 @@
           "slug": "janet-nelson"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -9700,7 +9718,7 @@
           "slug": "john-bradley"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -9828,9 +9846,33 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "name": "Faculty of Social Science & Public Policy",
+            "slug": "faculty-of-social-science-and-public-policy"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
+      {
+        "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
       {
         "agent": {
           "id": "f35c48e9-2b82-4254-aea7-ca1c3bffdb49",
@@ -9838,7 +9880,7 @@
           "slug": "denise-ho"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -9851,9 +9893,9 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -9864,9 +9906,9 @@
           "slug": "paul-caton"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -9890,9 +9932,22 @@
           "slug": "tom-hurst"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "918fc2f6-2313-4838-93c5-64ce3ba4f7b5",
+          "name": "Jamie Norrish",
+          "slug": "jamie-norrish"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -9919,6 +9974,19 @@
           "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "deeae2dc-bbc7-42c6-88a0-9a087cba076b",
+          "name": "Olga Loboda",
+          "slug": "olga-loboda"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       }
@@ -10079,7 +10147,7 @@
           "slug": "alessandra-esposito"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10131,18 +10199,9 @@
           "slug": "elliott-hall"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": null,
-        "roleName": {
-          "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -10153,7 +10212,7 @@
           "slug": "dr-shaher-er-rababeh"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10179,7 +10238,7 @@
           "slug": "dr-fadi-balaawi"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10192,9 +10251,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -10205,7 +10264,7 @@
           "slug": "dr-sahar-idwan"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10307,7 +10366,7 @@
           "slug": "paul-spence"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10359,9 +10418,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -10372,7 +10431,7 @@
           "slug": "charlotte-tupman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -10411,9 +10470,9 @@
           "slug": "tim-watts"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Systems Administrator",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -10424,9 +10483,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -10524,6 +10583,46 @@
             "id": "b043f757-e264-4cd8-98ef-fa0a1c899215",
             "name": "FAH Department of Languages, Literatures and Cultures",
             "slug": "fah-department-of-languages-literatures-and-cultures"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "2f8b41b0-178a-4ce5-90fd-ebd5ab739b22",
+            "name": "University of Cambridge",
+            "slug": "cambridge"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "a5c2297e-7e17-4c68-8184-9789ed3bb745",
+            "name": "University College London",
+            "slug": "ucl"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
+            "name": "FAH Department of Digital Humanities",
+            "slug": "ddh"
           },
           "parentOrganisation": {
             "agent": {
