@@ -10129,19 +10129,6 @@
     "member": [
       {
         "agent": {
-          "id": "7769822f-d038-413c-97e9-f254cf5469c0",
-          "name": "Issa Mahasneh",
-          "slug": "issa-mahasneh"
-        },
-        "roleName": {
-          "name": "Partner",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "75f560b0-8f59-4479-9b13-5409bdaa7dac",
           "name": "Alessandra Esposito",
           "slug": "alessandra-esposito"
@@ -10223,6 +10210,19 @@
           "id": "8464e98e-6fdb-49c5-9190-811c04b5bbc9",
           "name": "Pascal Flohr",
           "slug": "pascal-flohr"
+        },
+        "roleName": {
+          "name": "Partner",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "c8b109eb-5e16-4e3a-a671-878ca3c672f8",
+          "name": "Issa Mahasneh",
+          "slug": "issa-mahasneh"
         },
         "roleName": {
           "name": "Partner",
@@ -11014,7 +11014,7 @@
     "member": [
       {
         "agent": {
-          "id": "9b75e41f-6746-4609-a2d1-4a0e5f92f6a0",
+          "id": "2bc98ab1-72d6-47e3-8142-1adb7dd133e5",
           "name": "Emma Dillon",
           "slug": "emma-dillon"
         },
@@ -11285,22 +11285,35 @@
           "slug": "paul-caton"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
       {
         "agent": {
-          "id": "bb19af0b-ba55-467b-8d1b-325849ae157c",
-          "name": "Laurel Brake",
-          "slug": "laurel-brake"
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
         },
         "roleName": {
-          "name": "Principal investigator",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -11332,6 +11345,19 @@
       },
       {
         "agent": {
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "0fa60fc1-3fe4-4772-a09d-684ea1fab650",
           "name": "James Mussel",
           "slug": "james-mussel"
@@ -11340,6 +11366,32 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "bacdce90-434f-4a51-bd2e-9707512c6fa1",
+          "name": "Laurel Brake",
+          "slug": "laurel-brake"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -11472,6 +11524,24 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
+            "name": "FAH Department of Digital Humanities",
+            "slug": "ddh"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
       }
     ],
     "member": [
@@ -11482,9 +11552,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -11495,9 +11565,9 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -11508,9 +11578,9 @@
           "slug": "brian-maher"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -11560,7 +11630,7 @@
           "slug": "matthew-hammond"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

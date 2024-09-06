@@ -709,10 +709,22 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Co-investigator"
           }
@@ -1703,6 +1715,56 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Clergy of the Church of England Database Project",
             "alternateName": "CCED",
             "slug": "cced",
@@ -2066,6 +2128,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -2586,12 +2655,74 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -3814,10 +3945,22 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -4824,6 +4967,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
@@ -6438,6 +6588,45 @@
           },
           "roleName": {
             "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Emma Dillon",
+      "slug": "emma-dillon",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Musical Lives",
+            "alternateName": null,
+            "slug": "musical-lives",
+            "foundingDate": "2023-09-01",
+            "dissolutionDate": "2026-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Music"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Music",
+              "slug": "fah-department-of-music"
+            }
+          },
+          "roleName": {
+            "name": "Principal investigator"
           }
         }
       ]
@@ -9984,6 +10173,73 @@
     }
   },
   {
+    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "agent": {
+      "name": "Issa Mahasneh",
+      "slug": "issa-mahasneh",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Jordan Open Source Association",
+              "slug": "jordan-open-source-association"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Jacob McGuinn",
@@ -11106,10 +11362,22 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Co-investigator"
           }
@@ -12349,6 +12617,66 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Laurel Brake",
+      "slug": "laurel-brake",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Birkbeck, University of London",
+              "slug": "birkbeck"
+            }
+          },
+          "roleName": {
+            "name": "Principal investigator"
           }
         }
       ]
@@ -13947,6 +14275,13 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
@@ -13957,7 +14292,7 @@
             }
           },
           "roleName": {
-            "name": "Researcher"
+            "name": "Co-investigator"
           }
         },
         {
@@ -14879,6 +15214,56 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Narrative Atoms and Open Scholarship Experiences",
             "alternateName": "Nanotoms",
             "slug": "nanotoms-and-open-scholarship-experiences",
@@ -15713,12 +16098,24 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -17187,9 +17584,14 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -21592,12 +21994,24 @@
                     "name": "FAH Department of History"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
@@ -21720,6 +22134,56 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Nineteenth-Century Serials Edition",
+            "alternateName": "NCSE",
+            "slug": "nineteenth-century-serials-edition",
+            "foundingDate": "2017-08-01",
+            "dissolutionDate": "2021-07-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Birkbeck, University of London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Leeds"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
           }
         },
         {
