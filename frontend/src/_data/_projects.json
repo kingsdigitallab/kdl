@@ -13115,7 +13115,20 @@
           "slug": "paul-caton"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "fd15810e-41da-4468-81c5-af275f7369ae",
+          "name": "Juliet Claxton",
+          "slug": "juliet-claxton"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -13128,9 +13141,9 @@
           "slug": "ginestra-ferraro"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -13141,9 +13154,9 @@
           "slug": "geoffroy-noel"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -13154,9 +13167,9 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -13165,6 +13178,32 @@
           "id": "d50a5768-a44b-40d9-b76c-c8fed90876cf",
           "name": "Hannah Murphy",
           "slug": "hannah-murphy"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "908488b6-5dfa-4a2a-8a68-1b7d7e8a3b5c",
+          "name": "Paolo Savoia",
+          "slug": "paolo-savoia"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "05045ccd-7a0c-4d9a-af03-e9948642d07d",
+          "name": "Kathleen Walker-Meikle",
+          "slug": "kathleen-walker-meikle"
         },
         "roleName": {
           "name": "Researcher",
@@ -13180,9 +13219,9 @@
           "slug": "brian-maher"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
