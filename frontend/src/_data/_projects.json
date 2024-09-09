@@ -11781,6 +11781,19 @@
     "member": [
       {
         "agent": {
+          "id": "13dcaba3-3cb5-44df-be19-b8178b2d9a2c",
+          "name": "Pam Mellen",
+          "slug": "pam-mellen"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "ab192ce8-4889-4e0f-894d-e8fd792a49fd",
           "name": "Alex Burghart",
           "slug": "alex-burghart"
@@ -12015,12 +12028,38 @@
       },
       {
         "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "b23f1bfc-b12d-4302-8efe-bc8c874203ea",
           "name": "Natasha Hodgson",
           "slug": "natasha-hodgson"
         },
         "roleName": {
           "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -12243,9 +12282,9 @@
       },
       {
         "agent": {
-          "id": "33603226-ef38-4f70-be46-39a60974fad8",
-          "name": "Eleonora Picozzi",
-          "slug": "eleonora-picozzi"
+          "id": "22dc841f-e776-4907-b510-bb48ee0973a7",
+          "name": "Eleonora Litta Modignani Picozzi",
+          "slug": "eleonora-litta"
         },
         "roleName": {
           "name": "RSE team member",
@@ -12338,15 +12377,6 @@
           "name": "Michael Jeffreys",
           "slug": "michael-jeffreys"
         },
-        "roleName": {
-          "name": "Principal investigator",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": null,
         "roleName": {
           "name": "Principal investigator",
           "inDefinedTermSet": {
@@ -12661,7 +12691,12 @@
     "id": "c0b6c6f1-9a20-44b2-9737-a0710a4b5cc1",
     "name": "REF 2021 impact data analysis",
     "slug": "refida",
-    "creativeWorkStatus": null,
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
     "image": {
       "id": "4576ce97-d755-4134-8bb1-891faa21a985",
       "storage": "local",
@@ -12742,9 +12777,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12768,9 +12803,9 @@
           "slug": "geoffroy-noel"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12781,9 +12816,9 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -12853,6 +12888,24 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "a0e2c4ef-4bc8-4d5c-9a62-df02c4e52492",
+            "name": "FAH Department of History",
+            "slug": "fah-department-of-history"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
       }
     ],
     "member": [
@@ -12889,9 +12942,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -12903,6 +12956,19 @@
         },
         "roleName": {
           "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
+          "name": "Anna Reading",
+          "slug": "anna-reading"
+        },
+        "roleName": {
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

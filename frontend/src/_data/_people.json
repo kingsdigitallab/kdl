@@ -137,6 +137,13 @@
                     "name": "Migration Museum"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -522,7 +529,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -1158,6 +1170,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
+            "alternateName": "Room to Breath",
+            "slug": "re-mixing-de-humanisation",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2019-07-01",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Culture, Media & Creative Industries",
+              "slug": "fah-department-of-culture-media-and-creative-industries"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
           }
         }
       ]
@@ -2164,7 +2219,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -2283,7 +2343,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -2617,7 +2682,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -3198,7 +3268,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -3762,7 +3837,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -5228,7 +5308,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -5816,30 +5901,6 @@
                 "organisation_id": {
                   "agent": {
                     "name": "The National Archives"
-                  }
-                }
-              }
-            ]
-          },
-          "inOrganisation": null,
-          "roleName": {
-            "name": "RSE team member"
-          }
-        },
-        {
-          "startDate": null,
-          "endDate": null,
-          "inProject": {
-            "name": "Prosopography of the Byzantine World",
-            "alternateName": "PBW",
-            "slug": "pbw",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
                   }
                 }
               }
@@ -7344,7 +7405,7 @@
             }
           },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -9189,7 +9250,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -9498,7 +9564,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -10272,7 +10343,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -10310,10 +10386,22 @@
                     "name": "Migration Museum"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -10488,6 +10576,49 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Profile of a Doomed Elite: The Structure of English Landed Society in 1066/Prosopography of Anglo-Saxon England",
+            "alternateName": "PDE/PASE",
+            "slug": "pde-pase",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cambridge"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -11222,7 +11353,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -12054,7 +12190,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -12825,6 +12966,13 @@
                     "name": "Migration Museum"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
@@ -12917,6 +13065,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Migration Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -14081,7 +14236,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -14633,7 +14793,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Oxford",
+              "slug": "university-of-oxford"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -14753,7 +14918,7 @@
             }
           },
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -16315,12 +16480,19 @@
                     "name": "Migration Museum"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -16620,6 +16792,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Profile of a Doomed Elite: The Structure of English Landed Society in 1066/Prosopography of Anglo-Saxon England",
+            "alternateName": "PDE/PASE",
+            "slug": "pde-pase",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cambridge"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Archetype",
             "alternateName": null,
             "slug": "archetype",
@@ -16833,7 +17048,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -17047,7 +17267,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -17338,6 +17563,49 @@
       "slug": "pam-mellen",
       "description": "Pamela Mellen oversees the Lab's business functions and is deeply involved in managing the Lab's strategic and continuous improvement goals. She also manages key elements of KDL projects, coordinating between the KDL development team and our range of external partners. \n\nShe has worked at King's since 2012, where she turned an existing background in general project management and administration into into a more in-depth understanding of research management before moving across to the newly formed Digital Lab in 2016. \n\nShe has an MA in Victorian Media and Culture from Royal Holloway, University of London and a BA in Theatre and English and Creative Writing from the George Washington University, as well as a Practitioner qualification from the Association for Project Management. She is interested in process improvement and change management.\n\n---\n\nPam's work as a lab manager (and previously project manager) is integral to all of KDL's active projects. She has been involved with all projects developed and maintained during her time at KDL.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Profile of a Doomed Elite: The Structure of English Landed Society in 1066/Prosopography of Anglo-Saxon England",
+            "alternateName": "PDE/PASE",
+            "slug": "pde-pase",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Cambridge"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -19008,7 +19276,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -19250,7 +19523,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -20115,7 +20393,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Co-investigator"
           }
@@ -20535,7 +20818,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Languages, Literatures and Cultures",
+              "slug": "fah-department-of-languages-literatures-and-cultures"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -21495,7 +21783,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -21918,7 +22211,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -22466,7 +22764,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
@@ -22824,7 +23122,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
