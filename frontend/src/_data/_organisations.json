@@ -7890,6 +7890,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-09-10T15:43:27.203Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "bfe88676-adee-4c7c-acef-6d03b6bea26a",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-09-10T15:43:26.926Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "bfa8280c-fc1e-4d8a-a7cb-2a5e3c294cb4",
+      "name": "King’s College London Archives",
+      "slug": "king-s-college-london-archives",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-05-09T16:01:39.648Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

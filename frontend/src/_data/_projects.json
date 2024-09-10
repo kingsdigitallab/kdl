@@ -14010,8 +14010,8 @@
     "alternateName": "SHAK400",
     "cmsStatus": "published",
     "description": "Shakespeare400 brought together a consortium of leading cultural, creative and educational institutions in and around London, to create a season of events throughout 2016, that celebrated four hundred years of Shakespeare. The season included theatre, music, opera, dance, ballet and exhibitions as well as educational and widening-participation events, that demonstrated the ongoing vibrancy of Shakespeare’s creative influence in national and global culture.  The season was coordinated by the London Shakespeare Centre and the Cultural Institute at King's College London. This website, hosted by King’s College London, serves as an archive and record of all the activities that took place throughout 2016, across the Shakespeare400 partner organisations.",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "dissolutionDate": "2016-12-31",
+    "foundingDate": "2016-01-01",
     "id": "030d0776-1e61-4b60-bf20-4d373f91718a",
     "name": "Shakespeare400",
     "slug": "shak",
@@ -14136,9 +14136,9 @@
           "slug": "miguel-vieira"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }

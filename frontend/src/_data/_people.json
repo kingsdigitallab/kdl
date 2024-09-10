@@ -1251,7 +1251,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -3595,7 +3600,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -4675,7 +4685,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -7168,7 +7183,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "King’s College London Archives",
+              "slug": "king-s-college-london-archives"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -8564,8 +8584,8 @@
             "name": "Shakespeare400",
             "alternateName": "SHAK400",
             "slug": "shak",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2016-01-01",
+            "dissolutionDate": "2016-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -9049,8 +9069,8 @@
             "name": "Shakespeare400",
             "alternateName": "SHAK400",
             "slug": "shak",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2016-01-01",
+            "dissolutionDate": "2016-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -9061,7 +9081,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -12665,7 +12690,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "Maughan Library, King's College London",
+              "slug": "maughan-library-king-s-college-london"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -12862,8 +12892,8 @@
             "name": "Shakespeare400",
             "alternateName": "SHAK400",
             "slug": "shak",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2016-01-01",
+            "dissolutionDate": "2016-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12874,7 +12904,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of English",
+              "slug": "fah-department-of-english"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -14216,7 +14251,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "University College London",
+              "slug": "ucl"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -15995,8 +16035,8 @@
             "name": "Shakespeare400",
             "alternateName": "SHAK400",
             "slug": "shak",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2016-01-01",
+            "dissolutionDate": "2016-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -16009,7 +16049,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
