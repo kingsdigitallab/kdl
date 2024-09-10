@@ -3186,7 +3186,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -6863,10 +6863,22 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Principal investigator"
           }
@@ -7791,12 +7803,19 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -8247,7 +8266,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
@@ -9377,10 +9396,22 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -12271,6 +12302,45 @@
   {
     "jobTitle": null,
     "agent": {
+      "name": "Juliet Claxton",
+      "slug": "juliet-claxton",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Renaissance Skin",
+            "alternateName": "RENSKIN",
+            "slug": "renskin",
+            "foundingDate": "2017-05-23",
+            "dissolutionDate": "2017-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
       "name": "Karen Sayer",
       "slug": "karen-sayer",
       "description": null,
@@ -12516,6 +12586,45 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Kathleen Walker-Meikle",
+      "slug": "kathleen-walker-meikle",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Renaissance Skin",
+            "alternateName": "RENSKIN",
+            "slug": "renskin",
+            "foundingDate": "2017-05-23",
+            "dissolutionDate": "2017-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -12863,10 +12972,22 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH King's Culture",
+              "slug": "fah-king-s-culture"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -14004,7 +14125,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -16402,7 +16528,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -17740,6 +17866,45 @@
     }
   },
   {
+    "jobTitle": null,
+    "agent": {
+      "name": "Paolo Savoia",
+      "slug": "paolo-savoia",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Renaissance Skin",
+            "alternateName": "RENSKIN",
+            "slug": "renskin",
+            "foundingDate": "2017-05-23",
+            "dissolutionDate": "2017-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of History",
+              "slug": "fah-department-of-history"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
     "agent": {
       "name": "Pascal Flohr",
@@ -18020,12 +18185,19 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -19420,6 +19592,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Wiedemann Lampe"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
                   }
                 }
               }
@@ -22570,12 +22749,19 @@
                     "name": "Wiedemann Lampe"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
