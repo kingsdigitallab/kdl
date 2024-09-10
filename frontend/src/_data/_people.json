@@ -17906,6 +17906,73 @@
     }
   },
   {
+    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "agent": {
+      "name": "Pascal Flohr",
+      "slug": "pascal-flohr",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Mapping Digital Cultural Heritage in Jordan",
+            "alternateName": "MaDiH (مديح)",
+            "slug": "madih",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2021-02-28",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Council for British Research in the Levant"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Jordan Open Source Association"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Hashemite University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Oxford",
+              "slug": "university-of-oxford"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Paolo Savoia",
