@@ -72,10 +72,12 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 
 ## System Architecture
 
-1. **Data collection**: NSW Aboriginal school records (1876-1979)
+![Architecture diagram](https://www.mermaidchart.com/raw/1e322484-df83-4b42-9e2c-f8b042a42231?theme=light&version=v0.1&format=svg)
+
+1. **School records**: NSW Aboriginal school records (1876-1979)
 1. **Data preparation**: Conversion to JSON and Markdown
 1. **Data extraction**: AI/ML models for metadata extraction
-1. **Dashboard**: SvelteKit frontend
+1. **Dashboard**: Frontend to explore processed data
 
 <aside class="notes">
 
