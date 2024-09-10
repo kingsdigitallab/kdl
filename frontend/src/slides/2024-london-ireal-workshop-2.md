@@ -19,7 +19,7 @@ draft: false
 
 ### AI in Libraries to Support Respectful Management of Indigenous Knowledges
 
-Sam Callaghan | ...
+Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 
 {% endslide %}
 
@@ -64,7 +64,7 @@ Sam Callaghan | ...
 
 ## MoSCoW Prioritisation
 
-<img src="/assets/images/slides/moscow.png" width="644" height="500" alt="MoSCow prioritisation diagram" title="MoSCoW prioritisation" />
+<img src="/assets/images/slides/moscow.png" height="500" alt="MoSCow prioritisation diagram" title="MoSCoW prioritisation" style="width: unset;" />
 
 {% endslide %}
 
