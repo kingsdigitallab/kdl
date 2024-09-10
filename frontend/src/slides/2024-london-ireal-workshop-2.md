@@ -28,7 +28,7 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 ## Context for Requirements Elicitation
 
 - iREAL: Indigenous data considerations
-- User research (to be addressed later)
+- User research (to be re-integrated)
 - Workshop dashboard constraints
   - Models and data
 - Today's focus:
@@ -133,7 +133,7 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 
 1. **NER**: SpanMarker model
 1. **Geocoding**: Custom transformer
-1. **Keywords**: Mistral 7B LLM: Top 5 keywords per text chunk
+1. **Keywords**: LLM (Mistral 7B) with custom prompt for 5 keywords per text chunk
 1. **Topics**: LLM with custom prompt for overarching themes
 
 <aside class="notes">
@@ -170,6 +170,6 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 
 ## Thank you
 
-[`kdl-info@kcl.ac.uk`](mailto:kdl-info@kcl.ac.uk)
+[`samantha.callaghan@kcl.ac.uk`](mailto:samantha.callaghan@kcl.ac.uk)
 
 {% endslide %}
