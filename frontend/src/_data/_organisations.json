@@ -8074,6 +8074,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-09-10T15:38:16.175Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "83307b6b-0aea-4e5e-938e-2c3392ec17ac",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-09-10T15:38:15.879Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "6009fd5b-1bff-48b3-a000-928037f7a660",
+      "name": "Maughan Library, King's College London",
+      "slug": "maughan-library-king-s-college-london",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:09.425Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
