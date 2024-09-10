@@ -133,16 +133,16 @@
     <div class="slides"><section class="slide" data-auto-animate="">
 <h2 id="inclusive-requirements-elicitation" tabindex="-1">Inclusive Requirements Elicitation</h2>
 <h3 id="ai-in-libraries-to-support-respectful-management-of-indigenous-knowledges" tabindex="-1">AI in Libraries to Support Respectful Management of Indigenous Knowledges</h3>
-<p>Sam Callaghan | ...</p>
+<p>Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira</p>
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="context-for-requirements-elicitation" tabindex="-1">Context for Requirements Elicitation</h2>
 <ul>
 <li>iREAL: Indigenous data considerations</li>
-<li>User Definitions (to be addressed later)</li>
+<li>User research (to be addressed later)</li>
 <li>Workshop dashboard constraints
 <ul>
-<li>Sensitivities (e.g., disease data, synthetic data)</li>
+<li>Models and data</li>
 </ul>
 </li>
 <li>Today's focus:
@@ -177,7 +177,100 @@
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="moscow-prioritisation-1" tabindex="-1">MoSCoW Prioritisation</h2>
-<img src="/kdl/assets/images/slides/moscow.png" width="644" height="500" alt="MoSCow prioritisation diagram" title="MoSCoW prioritisation">
+<img src="/kdl/assets/images/slides/moscow.png" height="500" alt="MoSCow prioritisation diagram" title="MoSCoW prioritisation" style="width: unset;">
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="system-architecture" tabindex="-1">System Architecture</h2>
+<ol>
+<li><strong>Data collection</strong>: NSW Aboriginal school records (1876-1979)</li>
+<li><strong>Data preparation</strong>: Conversion to JSON and Markdown</li>
+<li><strong>Data extraction</strong>: AI/ML models for metadata extraction</li>
+<li><strong>Dashboard</strong>: SvelteKit frontend</li>
+</ol>
+<aside class="notes">
+<ul>
+<li>This slide provides an overview of our entire system.</li>
+<li>Data collection: We're working with historical records spanning over a century,
+giving us a rich dataset to explore.</li>
+<li>Data preparation: This crucial step prepares the raw data for analysis, making
+it easier for our systems to work with.</li>
+<li>Data extraction: We use AI and ML models to automatically identify and collect
+important information from the documents.</li>
+<li>Dashboard: This is where you'll be able to explore the information we've
+gathered, designed to be easy to use.</li>
+<li>Our key technologies include AI for identifying important details, tools to
+put historical places on a map, and advanced systems that can understand the
+main themes and topics in the documents.</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="data-preparation" tabindex="-1">Data Preparation</h2>
+<ol>
+<li>
+<p>Original documents converted to:</p>
+<ul>
+<li>JSON (for data extraction)</li>
+<li>Markdown (for frontend rendering)</li>
+</ul>
+</li>
+<li>
+<p>Each record divided into smaller, manageable sections</p>
+</li>
+<li>
+<p>Each section is processed for data extraction</p>
+</li>
+</ol>
+<aside class="notes">
+<ul>
+<li>This slide explains how we prepare the historical documents for analysis.</li>
+<li>We start by converting the original documents into formats that computers can
+easily work with. Think of it like translating the documents into a language
+our systems understand.</li>
+<li>Next, we divide long documents into smaller sections. This is similar to how
+a book is divided into chapters.</li>
+<li>Imagine trying to quickly find information in a 500-page book versus a 20-page
+chapter. The smaller sections make it easier and faster for our system to work
+with the information.</li>
+<li>This approach helps us process the information more quickly, get more accurate
+results, and makes it easier to show you the most relevant information when
+you're using the dashboard.</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="data-extraction" tabindex="-1">Data Extraction</h2>
+<ol>
+<li><strong>NER</strong>: SpanMarker model</li>
+<li><strong>Geocoding</strong>: Custom transformer</li>
+<li><strong>Keywords</strong>: Mistral 7B LLM: Top 5 keywords per text chunk</li>
+<li><strong>Topics</strong>: LLM with custom prompt for overarching themes</li>
+</ol>
+<aside class="notes">
+<ul>
+<li>This slide covers how we use AI to extract meaningful information from the
+prepared documents.</li>
+<li>We use models recognize and pick out important details like names of people,
+places, and organisations, as well as significant dates and events.</li>
+<li>We also use large language models to identify the main themes and topics of
+each document.</li>
+<li>The extracted place names are matched against an authority list of NSW places.
+This list provides us with the exact geographical coordinates, allowing us to
+show these places on maps.</li>
+<li>All of this extracted information is what populates the dashboard you'll be
+using to explore the historical records.</li>
+<li>This process turns raw historical documents into a rich, interactive resource
+for research and discovery.</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="links" tabindex="-1">Links</h2>
+<ul>
+<li><a href="https://i-real.vercel.app">Dashboard</a></li>
+<li><a href="https://miro.com/app/board/uXjVKrW8_Kw=/">Miro board</a></li>
+<li><a href="https://github.com/kingsdigitallab/iREAL">GitHub repository (private for now)</a></li>
+</ul>
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="thank-you" tabindex="-1">Thank you</h2>
