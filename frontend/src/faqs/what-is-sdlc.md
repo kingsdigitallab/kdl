@@ -5,7 +5,6 @@ tags:
   - faq
 ---
 
-
 KDL follows a methodology with clearly defined processes for creating high-quality software. This Software Development Life Cycle (SDLC) comprises three main phases of a project's life: Pre-project, Active, and Maintained. Each main phase typically contains a number of steps. The diagram below gives an overview of the main phases and the steps within them, and other sections in this FAQ give more detailed information about individual steps.
 
 ### Project phases
