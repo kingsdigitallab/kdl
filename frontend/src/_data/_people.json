@@ -1214,6 +1214,42 @@
           "roleName": {
             "name": "Co-investigator"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Culture, Media & Creative Industries",
+              "slug": "fah-department-of-culture-media-and-creative-industries"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
+          }
         }
       ]
     }
@@ -1321,6 +1357,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
@@ -7799,12 +7842,19 @@
                     "name": "FAH King's Culture"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -23164,12 +23214,19 @@
                     "name": "FAH King's Culture"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {

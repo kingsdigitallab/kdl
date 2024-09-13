@@ -2852,6 +2852,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "4f092d62-8292-4884-907b-bc294ce013fc",
+            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -2940,9 +2951,9 @@
           "slug": "geoffroy-noel"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -2966,7 +2977,20 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
+          "name": "Anna Reading",
+          "slug": "anna-reading"
+        },
+        "roleName": {
+          "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
