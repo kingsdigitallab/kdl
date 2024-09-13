@@ -135,29 +135,6 @@
     "subOrganisation": []
   },
   {
-    "cmsDateCreated": "2022-10-25T13:34:08.429Z",
-    "cmsDateUpdated": "2023-10-12T09:57:13.173Z",
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "12b377b8-e9eb-4b7b-ac52-2f64bdb52c74",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2022-10-25T13:34:08.395Z",
-      "cmsDateUpdated": "2023-10-12T09:57:13.028Z",
-      "cmsSort": null,
-      "description": null,
-      "id": "85d9cd1c-96f7-442a-aab5-9148d02121d0",
-      "name": "Ancient World Mapping Centre, University of North Carolina",
-      "slug": "ancient-world-mapping-centre",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2022-10-25T13:34:09.582Z",
     "cmsDateUpdated": null,
     "cmsSort": null,

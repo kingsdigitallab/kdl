@@ -5712,6 +5712,24 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "VIP Studio",
+            "id": "f5e871ee-7000-4855-87ce-3c68aa5726cd",
+            "name": "Virtual and Immersive Production Studio",
+            "slug": "virtual-and-immersive-production-studio"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "9f14bbed-38e8-4e3e-8009-0dd567fba38a",
+              "name": "University of Nottingham",
+              "slug": "university-of-nottingham"
+            }
+          }
+        }
       }
     ],
     "member": [

@@ -6101,6 +6101,13 @@
                     "name": "Digital Futures Institute"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Virtual and Immersive Production Studio"
+                  }
+                }
               }
             ]
           },
@@ -17144,6 +17151,13 @@
                     "name": "Digital Futures Institute"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Virtual and Immersive Production Studio"
+                  }
+                }
               }
             ]
           },
@@ -23671,12 +23685,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Ancient World Mapping Centre, University of North Carolina",
-              "slug": "ancient-world-mapping-centre"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
