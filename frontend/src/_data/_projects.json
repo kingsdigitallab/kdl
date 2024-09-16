@@ -16737,7 +16737,7 @@
   {
     "alternateName": "TVOF",
     "cmsStatus": "published",
-    "description": "TVOF's  overall research interest was the role of French as a supralocal, transnational language, particularly in Western Europe and the Eastern Mediterranean, during a crucial period, 1100-1450. The team approached this topic through the creation of a digital edition of a complex and widely disseminated textual tradition vital to medieval understandings of European history and identity, the Histoire ancienne jusqu’à César. KDL created interfaces to display alignments of content segments across the edition, and collaborated with colleagues from Dictionnaire étymologique de l’ancien français (DEAF) in building a workflow which assisted the project scholars to lemmatise the encoded text.",
+    "description": "TVOF's  overall research interest was the role of French as a supralocal, transnational language, particularly in Western Europe and the Eastern Mediterranean, during a crucial period, 1100-1450. The team approached this topic through the creation of a digital edition of a complex and widely disseminated textual tradition vital to medieval understandings of European history and identity, the *Histoire ancienne jusqu’à César*. KDL created interfaces to display alignments of content segments across the edition, and collaborated with colleagues from *Dictionnaire étymologique de l’ancien français* (DEAF) in building a workflow which assisted the project scholars to lemmatise the encoded text.",
     "dissolutionDate": "2021-01-31",
     "foundingDate": "2015-01-01",
     "id": "e1079e09-94cc-45c6-8818-b9f0685eb57a",
@@ -16888,8 +16888,8 @@
       {
         "agent": {
           "id": "449e98bf-9777-4c63-aded-be9e76687fbe",
-          "name": "Simone Venture",
-          "slug": "simone-venture"
+          "name": "Simone Ventura",
+          "slug": "simone-ventura"
         },
         "roleName": {
           "name": "Researcher",
