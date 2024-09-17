@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: baseUrl,
   title: "King's Digital Lab",
   description:
-    "King’s Digital Lab (KDL) is a Research Software Engineering (RSE)...",
+    "King’s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King’s College London",
   url: "https://kdl.kcl.ac.uk",
   author: "King's Digital Lab",
   twitter: "kingsdigitallab",
