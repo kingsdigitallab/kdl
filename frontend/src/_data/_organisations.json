@@ -844,6 +844,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-09-20T15:20:54.700Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "59a3ca80-8f7c-4615-b41b-c0ff5c1f6da9",
+    "agent": {
+      "alternateName": "EPSRC",
+      "cmsDateCreated": "2024-09-20T15:20:54.302Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "822b4de2-6d7e-45be-9d18-6673265ab7ee",
+      "name": "Engineering and Physical Sciences Research Council",
+      "slug": "engineering-and-physical-sciences-research-council",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-12-13T10:30:14.413Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
