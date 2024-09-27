@@ -15719,6 +15719,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "African Rock Art",
+            "alternateName": null,
+            "slug": "african-rock-art",
+            "foundingDate": "2018-01-02",
+            "dissolutionDate": "2023-01-02",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The British Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Trust for African Rock Art"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Language of Landscape",
             "alternateName": "Langscape",
             "slug": "langscape",
@@ -16718,6 +16749,37 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "African Rock Art",
+            "alternateName": null,
+            "slug": "african-rock-art",
+            "foundingDate": "2018-01-02",
+            "dissolutionDate": "2023-01-02",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The British Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Trust for African Rock Art"
                   }
                 }
               }
