@@ -2,6 +2,130 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
+    "description": "This project was the result of a partnership between the BM and the Trust for African Rock Art (TARA), made possible with funding from Arcadia Fund. It sought to curate the around 23,000 images, originally from TARA, and provide valuable context to the diversity of rock art forms found across the African continent to ensure global open access to this extensive collection.\nMore information on the project and KDL contribution can be found in the blogpost linked on this page.",
+    "dissolutionDate": "2023-01-02",
+    "foundingDate": "2018-01-02",
+    "id": "a9d9e4e9-7dcd-4cef-99a1-f617818cdc14",
+    "name": "African Rock Art",
+    "slug": "african-rock-art",
+    "creativeWorkStatus": {
+      "name": "Maintained",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": {
+      "id": "ae674187-3561-46fc-a9c4-18c736770f3a",
+      "storage": "local",
+      "filename_disk": "ae674187-3561-46fc-a9c4-18c736770f3a.jpg",
+      "filename_download": "ara.original.jpg",
+      "title": "African Rock Art Project Banner",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-09-27T11:01:42.686Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-09-27T11:04:42.878Z",
+      "charset": null,
+      "filesize": "463998",
+      "width": 2244,
+      "height": 1045,
+      "duration": null,
+      "embed": null,
+      "description": "Juxtaposed images of African rock art. ",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "8dfb0a02-f9bd-47cd-8d0d-c4f22c5fcbff",
+          "name": "The British Museum",
+          "slug": "the-british-museum"
+        }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "4401e329-6efb-4e50-8aa8-a9ae7de5cf3c",
+          "name": "Arcadia",
+          "slug": "arcadia"
+        }
+      }
+    ],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://africanrockart.britishmuseum.org/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Blogpost URL",
+          "url": "https://kdl.kcl.ac.uk/blog/african-rock-art/"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "8dfb0a02-f9bd-47cd-8d0d-c4f22c5fcbff",
+            "name": "The British Museum",
+            "slug": "the-british-museum"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "TARA",
+            "id": "bd152414-089e-45d9-841b-c53c3cb555d4",
+            "name": "Trust for African Rock Art",
+            "slug": "trust-for-african-rock-art"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
+          "name": "Neil Jakeman",
+          "slug": "neil-jakeman"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "alternateName": null,
+    "cmsStatus": "published",
     "description": "An exciting fusion of creative writing and artificial intelligence to help writers create new forms of dynamic, interactive stories. It specifically aimed to understand what the impact of artificially-intelligent memory is on storytelling and narrative structure, and how to transfer the resulting research into industry.\n\nAn article based on this project, \"[Applied Digital Humanities and the Creative Industries in the United Kingdom](https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html)\" By Smithies, Atkinson, and Hall, is now available in Issue 16.2 of Digital Humanities Quarterly\n\nOur work centred around embedding a DH Research Software Engineer (RSE) within a creative industry SME as a connection point between industry and academia. The aim was to facilitate a traffic in ideas and methods between the Creative Industries, RSEs and academics, and to overcome cultural and institutional barriers that often inhibit collaboration. It also sought to study the challenge of developing career pathways and skills for RSEs to work effectively with industry. This work was led by James Smithies as PI, with Elliott Hall as Co-I who would embed within the SME. \n\nThe initial shape of the collaboration was designed for Elliott Hall to have a facilitation role during the production of the project's showcase demo. He was to use his skills as a writer, RSE and developer to enhance the collaboration between To Play For and Parabolic Theatre, aiding in adapting their immersive show \"For King and Country\" into a Unity-based game that would use Charisma for character interaction.\n\nHowever, his role changed significantly as the project progressed. Owen Kingston of Parabolic Theatre was unable to be the head writer on the project as intended due to scheduling conflicts, Elliott Hall took over primary writing duties as well as technical facilitation as a tester for the Charisma system.\n\nAs the project evolved, changing priorities and deadlines led Elliott Hall to take on a more creative role, becoming the primary writer, as well as designing new logical structures inside Charisma to adapt its workflow for use as a plugin inside Unity, while working with Emily Bailey and Oscar Lindström of To Play For on the demo's gameflow.\n\nAs a result of this change in responsibilities, he identified issues as a writer that he then helped solve as a developer.  As an example, in order to better test the narratives he was creating, he developed a tool to automatically run a set of player responses, effectively creating a unit test for the story.  He then used this tool as a writer to edit and refine the narrative paths inside the AI-driven system.\n\nThe project created two showcase demos using Charisma and Unity to refine the Charisma platform: For King & Country and The Kraken Wakes.\n\nIn 2018, To Play For and Parabolic Theatre partnered to create a Unity game based on Parabolic's immersive theatre show For King and Country. This collaboration became the first test case for the AI & Storytelling project. The audience - which forms a rump parliament in the show - was replaced by AI characters created in the Charisma system. The project experimented with the role of memory in persistent storytelling by creating AI characters that interacted with the player, mis/remember what they'd said; lie and remember when they were lied to.\n\nElliott continued in these roles when the project's focus moved to a new demo, an adaptation of John Wyndham's The Kraken Wakes. The structures developed during the first demo were then applied and refined, with the addition of written scripts to create a dynamic combination between the Natural Language Processor of the Charisma system and shot video of actors playing the AI character roles.\n\nThe project also held three workshops to build relationships with the creative industries and test their ongoing work.  The first workshop was held with writers and narrative designers from across the creative industries to interrogate the role of memory in interactive storytelling. This work helped form the foundation of the narrative experiments in the project prototypes.  The second was an intensive playtest of an early alpha build of King & Country held with a cross-section of participants to look at interactivity, empathy, and the role of conscious and unconscious bias in the design of the AI characters in the game. The third and final workshop  built on insights gained through the project to explore models of RSE collaboration with the creative industries. It brought together leading RSEs with creative industry professionals and academics to define requirements and explore potential collaborative models. A brief keynote provocation was given by Dr Paul Meller, Associate Director of Programmes at the Arts and Humanities Research Council (AHRC) and Senior Responsible Owner for the Creative Industries Cluster Programme.\n\nThe knowledge gained from the demo creation and workshops was distilled into a series of conference papers and journal articles.  Papers on the work were given at DH 2019 in Utrecht by Elliott Hall and James Smithies, and the 4S conference in New Orleans by James Smithies.  Two forthcoming journal articles - 'AI Authorship – from evangelism to pragmatism' by Sarah Atkinson, and ‘Applying AI to Storytelling: Applied Methods in University - Technology Sector Collaboration’ by James Smithies, Elliott Hall, and Sarah Atkinson - are currently being produced.",
     "dissolutionDate": "2019-12-31",
     "foundingDate": "2018-01-01",
@@ -40,7 +164,8 @@
     "funder": [],
     "keywords": [
       5,
-      6
+      6,
+      29
     ],
     "url": [
       {
@@ -686,7 +811,8 @@
     "keywords": [
       7,
       8,
-      9
+      9,
+      22
     ],
     "url": [
       {
@@ -1654,7 +1780,8 @@
     ],
     "keywords": [
       19,
-      20
+      20,
+      21
     ],
     "url": [
       {
@@ -2425,7 +2552,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      33
+    ],
     "url": [],
     "department": [
       {
@@ -2852,6 +2981,17 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "4f092d62-8292-4884-907b-bc294ce013fc",
+            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
     "member": [
@@ -2940,9 +3080,9 @@
           "slug": "geoffroy-noel"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       },
@@ -2966,7 +3106,20 @@
           "slug": "tiffany-ong"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "6e3e2b76-43b8-4ef3-b73d-786f1ea979ba",
+          "name": "Anna Reading",
+          "slug": "anna-reading"
+        },
+        "roleName": {
+          "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -5127,7 +5280,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      24
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -5628,7 +5783,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      26
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -5711,6 +5868,24 @@
             "slug": "digital-futures-institute"
           },
           "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "VIP Studio",
+            "id": "f5e871ee-7000-4855-87ce-3c68aa5726cd",
+            "name": "Virtual and Immersive Production Studio",
+            "slug": "virtual-and-immersive-production-studio"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": null,
+              "id": "9f14bbed-38e8-4e3e-8009-0dd567fba38a",
+              "name": "University of Nottingham",
+              "slug": "university-of-nottingham"
+            }
+          }
         }
       }
     ],
@@ -8094,7 +8269,10 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      25,
+      30
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -8320,7 +8498,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      23
+    ],
     "url": [],
     "department": [
       {
@@ -9304,7 +9484,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      31
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -11088,7 +11270,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      35
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -12447,7 +12631,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      34
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -12730,7 +12916,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      32
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -12850,7 +13038,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      28
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -14806,7 +14996,7 @@
       {
         "agent_id": {
           "alternateName": "EPSRC",
-          "id": "8bd31850-3f8e-4779-a41a-290faee7973a",
+          "id": "822b4de2-6d7e-45be-9d18-6673265ab7ee",
           "name": "Engineering and Physical Sciences Research Council",
           "slug": "engineering-and-physical-sciences-research-council"
         }
@@ -16102,7 +16292,9 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      27
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -16695,7 +16887,7 @@
   {
     "alternateName": "TVOF",
     "cmsStatus": "published",
-    "description": "TVOF's  overall research interest was the role of French as a supralocal, transnational language, particularly in Western Europe and the Eastern Mediterranean, during a crucial period, 1100-1450. The team approached this topic through the creation of a digital edition of a complex and widely disseminated textual tradition vital to medieval understandings of European history and identity, the Histoire ancienne jusqu’à César. KDL created interfaces to display alignments of content segments across the edition, and collaborated with colleagues from Dictionnaire étymologique de l’ancien français (DEAF) in building a workflow which assisted the project scholars to lemmatise the encoded text.",
+    "description": "TVOF's  overall research interest was the role of French as a supralocal, transnational language, particularly in Western Europe and the Eastern Mediterranean, during a crucial period, 1100-1450. The team approached this topic through the creation of a digital edition of a complex and widely disseminated textual tradition vital to medieval understandings of European history and identity, the *Histoire ancienne jusqu’à César*. KDL created interfaces to display alignments of content segments across the edition, and collaborated with colleagues from *Dictionnaire étymologique de l’ancien français* (DEAF) in building a workflow which assisted the project scholars to lemmatise the encoded text.",
     "dissolutionDate": "2021-01-31",
     "foundingDate": "2015-01-01",
     "id": "e1079e09-94cc-45c6-8818-b9f0685eb57a",
@@ -16846,8 +17038,8 @@
       {
         "agent": {
           "id": "449e98bf-9777-4c63-aded-be9e76687fbe",
-          "name": "Simone Venture",
-          "slug": "simone-venture"
+          "name": "Simone Ventura",
+          "slug": "simone-ventura"
         },
         "roleName": {
           "name": "Researcher",

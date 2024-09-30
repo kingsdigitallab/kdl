@@ -1214,6 +1214,42 @@
           "roleName": {
             "name": "Co-investigator"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "CultureCase: putting research to work",
+            "alternateName": null,
+            "slug": "culture-case",
+            "foundingDate": "2018-01-08",
+            "dissolutionDate": "2019-01-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Culture, Media & Creative Industries",
+              "slug": "fah-department-of-culture-media-and-creative-industries"
+            }
+          },
+          "roleName": {
+            "name": "Partner"
+          }
         }
       ]
     }
@@ -1321,6 +1357,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH King's Culture"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
                   }
                 }
               }
@@ -6101,6 +6144,13 @@
                     "name": "Digital Futures Institute"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Virtual and Immersive Production Studio"
+                  }
+                }
               }
             ]
           },
@@ -7792,12 +7842,19 @@
                     "name": "FAH King's Culture"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -15662,6 +15719,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "African Rock Art",
+            "alternateName": null,
+            "slug": "african-rock-art",
+            "foundingDate": "2018-01-02",
+            "dissolutionDate": "2023-01-02",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The British Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Trust for African Rock Art"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Language of Landscape",
             "alternateName": "Langscape",
             "slug": "langscape",
@@ -16675,6 +16763,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "African Rock Art",
+            "alternateName": null,
+            "slug": "african-rock-art",
+            "foundingDate": "2018-01-02",
+            "dissolutionDate": "2023-01-02",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The British Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Trust for African Rock Art"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Mapping the Medieval Countryside: The Fifteenth-Century Inquisitions Post Mortem",
             "alternateName": "IPM",
             "slug": "ipm",
@@ -17142,6 +17261,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Digital Futures Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Virtual and Immersive Production Studio"
                   }
                 }
               }
@@ -21505,8 +21631,8 @@
   {
     "jobTitle": null,
     "agent": {
-      "name": "Simone Venture",
-      "slug": "simone-venture",
+      "name": "Simone Ventura",
+      "slug": "simone-ventura",
       "description": null,
       "memberOf": [
         {
@@ -23150,12 +23276,19 @@
                     "name": "FAH King's Culture"
                   }
                 }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
               }
             ]
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Designer"
           }
         },
         {
@@ -23671,12 +23804,7 @@
               }
             ]
           },
-          "inOrganisation": {
-            "agent": {
-              "name": "Ancient World Mapping Centre, University of North Carolina",
-              "slug": "ancient-world-mapping-centre"
-            }
-          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
