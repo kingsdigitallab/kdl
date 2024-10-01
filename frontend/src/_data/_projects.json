@@ -6232,6 +6232,19 @@
       },
       {
         "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "09ee67f0-9b01-4af1-850b-dd023c917c91",
           "name": "Aidan Lawes",
           "slug": "aidan-lawes"
