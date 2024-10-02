@@ -5738,7 +5738,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n",
+    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n\nFor more information on the project, its development, the artists and their work,  read the blog on KDL's website by Neil Jakeman and Elliott Hall: [Empowering artistic innovation](https://kdl.kcl.ac.uk/blog/glow3-blog/)\n",
     "dissolutionDate": "2024-09-30",
     "foundingDate": "2023-04-01",
     "id": "ec85d37c-456a-473b-8bea-193720c5e183",
@@ -5797,6 +5797,12 @@
         "linkrole_id": {
           "name": "Digital Futures Institute Article",
           "url": "https://www.kcl.ac.uk/professor-sarah-atkinson-womens-seminal-contributions-in-creative-tech-are-often-hidden"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "KDL Blog post on GLOW3 and empowering artistic innovation by Neil Jakeman and Elliott Hall",
+          "url": "https://kdl.kcl.ac.uk/blog/glow3-blog/"
         }
       }
     ],
