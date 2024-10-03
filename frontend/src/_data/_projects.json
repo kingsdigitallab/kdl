@@ -5738,7 +5738,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n",
+    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n\nFor more information on the project, its development, the artists and their work,  read the blog on KDL's website by Neil Jakeman and Elliott Hall: [Empowering artistic innovation](https://kdl.kcl.ac.uk/blog/glow3-blog/)\n",
     "dissolutionDate": "2024-09-30",
     "foundingDate": "2023-04-01",
     "id": "ec85d37c-456a-473b-8bea-193720c5e183",
@@ -5797,6 +5797,12 @@
         "linkrole_id": {
           "name": "Digital Futures Institute Article",
           "url": "https://www.kcl.ac.uk/professor-sarah-atkinson-womens-seminal-contributions-in-creative-tech-are-often-hidden"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "KDL Blog post on GLOW3 and empowering artistic innovation by Neil Jakeman and Elliott Hall",
+          "url": "https://kdl.kcl.ac.uk/blog/glow3-blog/"
         }
       }
     ],
@@ -6227,6 +6233,19 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -16239,7 +16258,7 @@
   {
     "alternateName": "DGH",
     "cmsStatus": "published",
-    "description": "Digital Ghost Hunt is a mixture of coding education, Augmented Reality and live performance in an immersive storytelling experience.\nElliott Hall served as Creative Technologist on the project, leading development on the AR and IoT devices as well as co-writing the show with Tom Bowtell.  DGH was designed to test a model of Digital Creativity co-creation with the Creative Industries, and was incubated in the lab's 10% personal research program.\n",
+    "description": "Digital Ghost Hunt is a mixture of coding education, Augmented Reality and live performance in an immersive storytelling experience.\nElliott Hall served as Creative Technologist on the project, leading development on the AR and IoT devices as well as co-writing the show with Tom Bowtell.  DGH was designed to test a model of Digital Creativity co-creation with the Creative Industries, and was incubated in the lab's 10% personal research program.\n\nFor more information, see the [project website](https://digitalghosthunt.com).",
     "dissolutionDate": "2019-11-01",
     "foundingDate": "2018-02-01",
     "id": "00622a92-14f3-4737-a848-f1b5aa0aaec8",

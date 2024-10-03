@@ -27,10 +27,10 @@ Here is Primary Investigator Mary Krell and and Elliott Hall speaking about the 
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-![Louisa](/assets/images/blog/BAC-Kit_Theatre-32-web.width-300.jpg)
+![Louisa](/assets/images/blog/BAC-Kit_Theatre-32-web.jpg)
 
-![BAC](/assets/images/blog/BAC-Kit_Theatre-4-web.width-300.jpg)
+![BAC](/assets/images/blog/BAC-Kit_Theatre-4-web.jpg)
 
-![Hemi siren](/assets/images/blog/BAC-Kit_Theatre-53-web.width-300.jpg)
+![Hemi siren](/assets/images/blog/BAC-Kit_Theatre-53-web.jpg)
 
-![Louisa 2](/assets/images/blog/BAC-Kit_Theatre-11-web.width-300.jpg)
+![Louisa 2](/assets/images/blog/BAC-Kit_Theatre-11-web.jpg)
