@@ -100,12 +100,12 @@
     }
   },
   {
-    "slug": "ryan-heuser",
-    "jobTitle": "Senior Research Software Engineer",
+    "slug": "zihao-lu",
+    "jobTitle": "Research Software UI/UX Designer",
     "team": "KDL",
     "feature": {
-      "image": "/assets/images/people/ryan-heuser.jpg",
-      "description": "Photo of Ryan Heuser"
+      "image": "/assets/images/people/zihao-lu.jpg",
+      "description": "Photo of Zihao Lu"
     }
   },
   {
@@ -320,6 +320,15 @@
     "feature": {
       "image": "/assets/images/people/ginestra-ferraro.jpg",
       "description": "Photo of Ginestra Ferraro"
+    }
+  },
+  {
+    "slug": "ryan-heuser",
+    "jobTitle": "Former Senior Research Software Engineer",
+    "team": "Former staff",
+    "feature": {
+      "image": "/assets/images/people/ryan-heuser.jpg",
+      "description": "Photo of Ryan Heuser"
     }
   }
 ]
