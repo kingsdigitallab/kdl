@@ -1011,7 +1011,8 @@ main.projects {
           }
           #links,
           .funder,
-          .date {
+          .date,
+          .keywords {
             width: 100%;
             padding: 1em 0;
             ul {
@@ -1023,7 +1024,8 @@ main.projects {
             } //ul
           } //#links
           #links,
-          .funder {
+          .funder,
+          div.date {
             border-bottom: 0.3em solid rgb(220, 227, 230);
           } //#funder
         } //#metatdata

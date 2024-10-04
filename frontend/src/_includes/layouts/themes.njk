@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | renderMd | safe }}
+
+{% for theme in collections.theme | sort(false, false, "data.title") %}
+  <article>
+    <a href="{{ theme.data.page.url }}">
+      {{ theme.data.title }}
+    </a>
+  </article>
+{% endfor %}

@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+---
+
+{% from "kdl/components/image/macros.njk" import imageMacro %}
+
+{% set assetsPath = config.paths.assets %}
+
+<section>
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
+
+  <div id="overview">
+    <p>{{ content | safe }}</p>
+  </div>
+
+  {% set themeProjects = projects | getThemeProjects(obj.tags) %}
+  {% if themeProjects.length > 0 %}
+    <div class="projects">
+      <h2>Projects</h2>
+      <ul>
+        {% for project in themeProjects %}
+          <li>
+            {% if project.image %}
+                {% set feature = {
+                image: "/assets/images/projects/" + project.image.filename_download,
+                title: project.image.title,
+                description: project.image.description
+                } %}
+                {{ imageMacro(feature) }}
+            {% endif %}
+            <a href="{% route project.slug, 'Projects' %}">
+              {% set level = 3 %}
+              {% set project = project %}
+              {% set showTitle = true %}
+              {%- include "partials/project.njk" -%}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</section>

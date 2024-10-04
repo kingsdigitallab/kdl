@@ -163,9 +163,21 @@
     },
     "funder": [],
     "keywords": [
-      5,
-      6,
-      29
+      {
+        "definedterm_id": {
+          "name": "Media"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Computational text analysis"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -373,8 +385,16 @@
       }
     ],
     "keywords": [
-      1,
-      2
+      {
+        "definedterm_id": {
+          "name": "Languages and Literature"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      }
     ],
     "url": [
       {
@@ -596,8 +616,16 @@
       }
     ],
     "keywords": [
-      3,
-      4
+      {
+        "definedterm_id": {
+          "name": "Classics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Corpus construction"
+        }
+      }
     ],
     "url": [
       {
@@ -809,10 +837,26 @@
       }
     ],
     "keywords": [
-      7,
-      8,
-      9,
-      22
+      {
+        "definedterm_id": {
+          "name": "Library and Information Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital collection"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digitization"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -1294,10 +1338,26 @@
       }
     ],
     "keywords": [
-      10,
-      11,
-      12,
-      13
+      {
+        "definedterm_id": {
+          "name": "Linguistics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital reading/viewing environment"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital tool creation"
+        }
+      }
     ],
     "url": [
       {
@@ -1546,8 +1606,16 @@
       }
     ],
     "keywords": [
-      14,
-      15
+      {
+        "definedterm_id": {
+          "name": "Classics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digitization"
+        }
+      }
     ],
     "url": [
       {
@@ -1652,9 +1720,21 @@
       }
     ],
     "keywords": [
-      16,
-      17,
-      18
+      {
+        "definedterm_id": {
+          "name": "Cultural and Museum Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Webcrawling/webscraping"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital mapping"
+        }
+      }
     ],
     "url": [
       {
@@ -1779,9 +1859,21 @@
       }
     ],
     "keywords": [
-      19,
-      20,
-      21
+      {
+        "definedterm_id": {
+          "name": "History"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital mapping"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -2553,7 +2645,11 @@
       }
     ],
     "keywords": [
-      33
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [],
     "department": [
@@ -5281,7 +5377,11 @@
       }
     ],
     "keywords": [
-      24
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -5738,7 +5838,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n\nFor more information on the project, its development, the artists and their work,  read the blog on KDL's website by Neil Jakeman and Elliott Hall: [Empowering artistic innovation](https://kdl.kcl.ac.uk/blog/glow3-blog/)\n",
+    "description": "GLoW3 was a project and exhibition celebrating and highlighting the contributions of women, trans and non-binary innovators in emerging media. A recurring feature of the many professional stories in this space is the extent to which groundbreaking work is freely appropriated when a commercial potential is identified, leaving innovators feeling disenfranchised, marginalised, and obscuring the instrumental roles they have played during formative periods of technological change.  Launched on March 11, 2024 in Bush House Arcade, the GLoW3 exhibition showcased both new artworks and legacy pieces which map key points in the history of digital immersive media over the last four decades. The exhibition was complemented by events and panels during its run and was been organised and curated by Professor Sarah Atkinson as part of a fellowship award.\n\nWe were pleased to support this initiative in several ways, most directly through working as *Creative Technologists* for the four artist residencies funded through the project, supporting them in work with real time engines, WebXR (A-Frame,) Augmented Reality (AR,) and 3D modelling. We have an active Digital Creativity research theme in the Lab and the chance to flex our creative muscles in the service of an important project like GLoW3 was a wonderful opportunity.\n\nSome of the 3D and animation work we participated on can be found in this [Sketchfab collection](https://skfb.ly/oUSJF).\n\nFor more information on the project, its development, the artists and their work,  read the blog on KDL's website by Neil Jakeman and Elliott Hall: [Empowering artistic innovation](https://kdl.kcl.ac.uk/blog/glow3-blog/)\n",
     "dissolutionDate": "2024-09-30",
     "foundingDate": "2023-04-01",
     "id": "ec85d37c-456a-473b-8bea-193720c5e183",
@@ -5784,7 +5884,11 @@
       }
     ],
     "keywords": [
-      26
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -8289,8 +8393,16 @@
       }
     ],
     "keywords": [
-      25,
-      30
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Machine learning"
+        }
+      }
     ],
     "url": [
       {
@@ -8518,7 +8630,11 @@
       }
     ],
     "keywords": [
-      23
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [],
     "department": [
@@ -9504,7 +9620,11 @@
       }
     ],
     "keywords": [
-      31
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -11290,7 +11410,11 @@
       }
     ],
     "keywords": [
-      35
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -12651,7 +12775,11 @@
       }
     ],
     "keywords": [
-      34
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -12936,7 +13064,11 @@
       }
     ],
     "keywords": [
-      32
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -13058,7 +13190,11 @@
       }
     ],
     "keywords": [
-      28
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -16312,7 +16448,11 @@
       }
     ],
     "keywords": [
-      27
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
