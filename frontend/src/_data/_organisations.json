@@ -8097,29 +8097,6 @@
     "subOrganisation": []
   },
   {
-    "cmsDateCreated": "2024-06-24T08:30:51.001Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "published",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "fd7038eb-2465-45f3-9529-e94f442cc2af",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2024-06-24T08:30:50.688Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "1efaa409-7bd2-4247-ae91-0c4dc4877530",
-      "name": "London School of Hygiene and Tropical Medicine",
-      "slug": "london-school-of-hygiene-and-tropical-medicine",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2024-09-10T15:38:16.175Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -9360,29 +9337,6 @@
       "id": "a5c2297e-7e17-4c68-8184-9789ed3bb745",
       "name": "University College London",
       "slug": "ucl",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
-    "cmsDateCreated": "2024-02-29T11:03:35.494Z",
-    "cmsDateUpdated": null,
-    "cmsSort": null,
-    "cmsStatus": "published",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "0fbc9b88-a5b6-47e5-af34-d976adee43a3",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2024-02-29T11:03:35.298Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "9089e224-0240-43bb-9185-dd038d4ea7fa",
-      "name": "University of Aberdeen",
-      "slug": "university-of-aberdeen",
       "url": [],
       "memberOf": []
     },
