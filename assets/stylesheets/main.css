@@ -2019,6 +2019,9 @@ footer .footer-end p {
     margin-left: 0;
     margin-bottom: 4em;
   }
+  main.posts article article figure img {
+    max-width: 100%;
+  }
   main.post footer {
     text-align: left;
     margin-top: 3em;
