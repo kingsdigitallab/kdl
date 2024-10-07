@@ -2047,10 +2047,27 @@ footer .footer-end p {
   main.organisation article section section {
     display: block;
   }
-  main.themes .discover > .research,
-  main.themes .discover > .activities {
+  main.themes .discover > .research {
     display: block;
     padding: 1.5em 1.5em 0.2em 1.5em;
+  }
+  main.theme .projects ul li {
+    display: block;
+  }
+  main.theme .projects ul li figure {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  main.theme .projects ul li figure img {
+    max-width: 100%;
+  }
+  main.theme .projects ul li a {
+    display: block;
+    margin-left: 0;
+  }
+  main.theme .projects ul li a h3 {
+    display: block;
   }
   .sibling-pagination {
     display: none;
