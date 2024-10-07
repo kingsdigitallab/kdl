@@ -10,6 +10,8 @@
 // Person/Organisation Individual Page
 // Team
 // FAQs
+// Themes page
+// Theme page
 // Page Pagination
 // Footer
 
@@ -1590,6 +1592,7 @@ main.faqs {
   } //> article:first-of-type
 } //main.faqs
 
+//-- Themes Page --
 main.themes {
   .discover {
     section {
@@ -1655,7 +1658,62 @@ main.themes {
       }
     } //.research, .activities
   } // .discover
-}
+} // main.themes
+
+//-- Theme Page --
+main.theme {
+  .projects {
+    ul {
+      margin-left: -40px;
+      li {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1em;
+        figure {
+          width: 50%;
+          margin: 0;
+          figcaption {
+            display: none;
+          } //figcaption
+          img {
+            height: auto;
+            max-width: 45em;
+            object-fit: contain;
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+          } //img
+        } //figure
+        a {
+          margin-left: 2em;
+          width: 100%;
+          text-decoration: none;
+          padding: 1em 1.5em 1em 0.5em;
+          border-top: 0.2em solid transparent;
+          &:hover {
+            background: lighten(lightgray, 15%);
+            border-top: 0.2em solid lighten($navy, 17%);
+          }
+          h3 {
+            margin: 0;
+            display: inline-block;
+            small {
+              color: $darkgray;
+              font-family: KingsCaslon, serif;
+              font-size: 0.7em;
+              display: inline-block;
+              margin-left: 0.3em;
+            } //small
+          } //h3
+          p {
+            color: black;
+            margin: 0.2em 0;
+          } //p
+        } //a
+      } //li
+    } //ul
+  } //.projects
+} //main.theme
 
 //-- Page Pagination --
 nav.pagination {
