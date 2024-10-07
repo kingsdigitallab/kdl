@@ -854,9 +854,6 @@ main {
     .activities {
       position: relative;
       padding: 2em 1.5em 0.5em 1.5em;
-      h4 {
-        padding: 0.3em;
-      }
       &:before {
         content: " ";
         display: block;
@@ -878,15 +875,20 @@ main {
         background-color: white;
         position: relative;
         padding: 0.1em 0.7em 0.7em 0.7em;
+        padding: 0.1em 1em 0.7em 1em;
       }
     } //.research, .activities
 
     .activities {
+      h4 {
+        padding: 0.3em;
+      }
       &:before {
         background-image: url("/assets/images/general/activities.jpg");
       }
       .activities-block {
         flex-basis: calc(33.3% - 1.5em);
+        padding: 0.1em 0.7em 0.7em 0.7em;
       }
     } //.activities-blocks
   } //.explore, .discover, .contact
@@ -1588,6 +1590,73 @@ main.faqs {
   } //> article:first-of-type
 } //main.faqs
 
+main.themes {
+  .discover {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 4em;
+      div {
+        flex-basis: calc(33.33% - 0.5em);
+        margin-bottom: 1.5em;
+        padding: 1.5em 0.7em 1em 0.7em;
+        background-color: lighten($lightgray, 5%);
+      }
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-style: dashed;
+        }
+      }
+    } //section
+
+    figure {
+      margin: 0;
+      img {
+        width: 100%;
+        height: 15em;
+        object-fit: cover;
+      }
+    }
+    a {
+      line-height: 1.5;
+      &.browse {
+        float: right;
+        margin-top: 1.7em;
+      } //browse
+    }
+
+    .research {
+      position: relative;
+      padding: 2em 1.5em 0.5em 1.5em;
+
+      &:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        background-image: url("/assets/images/general/research.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        background-color: #cccccc;
+      } //:before
+      .research-block {
+        flex-basis: calc(50% - 0.5em);
+        background-color: white;
+        position: relative;
+        padding: 0.1em 1em 0.7em 1em;
+      }
+    } //.research, .activities
+  } // .discover
+}
+
 //-- Page Pagination --
 nav.pagination {
   margin-top: 5em;
@@ -2110,6 +2179,14 @@ footer {
     }
   }
 
+  main.themes {
+    .discover > .research,
+    .discover > .activities {
+      display: block;
+      padding: 1.5em 1.5em 0.2em 1.5em;
+    } //.research, .activities
+  }
+
   .sibling-pagination {
     display: none;
   }
@@ -2138,4 +2215,4 @@ footer {
       }
     }
   }
-} //@media (max-width: 800px)
+} //@media (max-width: 1000px)
