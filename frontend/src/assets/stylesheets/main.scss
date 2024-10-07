@@ -2240,13 +2240,39 @@ footer {
     }
   }
 
+  //-- Themes page --/
   main.themes {
-    .discover > .research,
-    .discover > .activities {
+    .discover > .research {
       display: block;
       padding: 1.5em 1.5em 0.2em 1.5em;
     } //.research, .activities
   }
+
+  //-- Theme Page --
+  main.theme {
+    .projects {
+      ul {
+        li {
+          display: block;
+          figure {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 1em;
+            img {
+              max-width: 100%;
+            } //img
+          } //figure
+          a {
+            display: block;
+            margin-left: 0;
+            h3 {
+              display: block;
+            }
+          }
+        } //li
+      } //ul
+    } //.projects
+  } //main.theme
 
   .sibling-pagination {
     display: none;
