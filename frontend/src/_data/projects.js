@@ -22,7 +22,7 @@ module.exports = async ({ directus }) => {
       "funder.agent_id.id",
       "funder.agent_id.name",
       "funder.agent_id.slug",
-      "keywords",
+      "keywords.definedterm_id.name",
       "url.linkrole_id.name",
       "url.linkrole_id.url",
       "department.organisation_id.agent.alternateName",
