@@ -13046,7 +13046,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "f4d55028-cbd4-43be-adf1-0214bc753354",
+      "storage": "local",
+      "filename_disk": "f4d55028-cbd4-43be-adf1-0214bc753354.jpg",
+      "filename_download": "room_to_breathe.jpg",
+      "title": null,
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "uploaded_on": "2024-10-09T13:11:51.451Z",
+      "modified_by": "30beb0ec-f0b2-4ab4-9164-019b0692481e",
+      "modified_on": "2024-10-09T13:16:23.337Z",
+      "charset": null,
+      "filesize": "118248",
+      "width": 1920,
+      "height": 1080,
+      "duration": null,
+      "embed": null,
+      "description": "Postcards on a table. The name of the project is overimposed",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
