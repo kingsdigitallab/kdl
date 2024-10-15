@@ -37,7 +37,8 @@ layout: layouts/base.njk
       </ul>
     </div>
   {% endif %}
- 
+
+  
   <div class="sibling-pagination">
     <nav aria-label="pagination">
       <ol>
@@ -104,5 +105,17 @@ layout: layouts/base.njk
         {% endif %}
       </ul>
     </div>
+
+    <!-- Keywords -->
+  {% if project.keywords and project.keywords.length > 0 %}
+    <div class="keywords">
+      <h3>Keywords</h3>
+      <ul>
+        {% for keyword in project.keywords %}
+          <li>{{ keyword.definedterm_id.name }}</li>
+        {% endfor %}
+      </ul>
+      </div>
+    {% endif %}
   </div>
 </section>

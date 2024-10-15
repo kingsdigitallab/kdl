@@ -163,9 +163,21 @@
     },
     "funder": [],
     "keywords": [
-      5,
-      6,
-      29
+      {
+        "definedterm_id": {
+          "name": "Media"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Computational text analysis"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -373,8 +385,16 @@
       }
     ],
     "keywords": [
-      1,
-      2
+      {
+        "definedterm_id": {
+          "name": "Languages and Literature"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      }
     ],
     "url": [
       {
@@ -596,8 +616,16 @@
       }
     ],
     "keywords": [
-      3,
-      4
+      {
+        "definedterm_id": {
+          "name": "Classics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Corpus construction"
+        }
+      }
     ],
     "url": [
       {
@@ -809,10 +837,26 @@
       }
     ],
     "keywords": [
-      7,
-      8,
-      9,
-      22
+      {
+        "definedterm_id": {
+          "name": "Library and Information Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital collection"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digitization"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -1294,10 +1338,26 @@
       }
     ],
     "keywords": [
-      10,
-      11,
-      12,
-      13
+      {
+        "definedterm_id": {
+          "name": "Linguistics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital reading/viewing environment"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital tool creation"
+        }
+      }
     ],
     "url": [
       {
@@ -1546,8 +1606,16 @@
       }
     ],
     "keywords": [
-      14,
-      15
+      {
+        "definedterm_id": {
+          "name": "Classics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digitization"
+        }
+      }
     ],
     "url": [
       {
@@ -1652,9 +1720,21 @@
       }
     ],
     "keywords": [
-      16,
-      17,
-      18
+      {
+        "definedterm_id": {
+          "name": "Cultural and Museum Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Webcrawling/webscraping"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital mapping"
+        }
+      }
     ],
     "url": [
       {
@@ -1779,9 +1859,21 @@
       }
     ],
     "keywords": [
-      19,
-      20,
-      21
+      {
+        "definedterm_id": {
+          "name": "History"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital mapping"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -2553,7 +2645,11 @@
       }
     ],
     "keywords": [
-      33
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [],
     "department": [
@@ -5281,7 +5377,11 @@
       }
     ],
     "keywords": [
-      24
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [
       {
@@ -5784,7 +5884,11 @@
       }
     ],
     "keywords": [
-      26
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -8289,8 +8393,16 @@
       }
     ],
     "keywords": [
-      25,
-      30
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Machine learning"
+        }
+      }
     ],
     "url": [
       {
@@ -8518,7 +8630,11 @@
       }
     ],
     "keywords": [
-      23
+      {
+        "definedterm_id": {
+          "name": "Indigenous Digital Humanities"
+        }
+      }
     ],
     "url": [],
     "department": [
@@ -9504,7 +9620,11 @@
       }
     ],
     "keywords": [
-      31
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -11290,7 +11410,11 @@
       }
     ],
     "keywords": [
-      35
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -12651,7 +12775,11 @@
       }
     ],
     "keywords": [
-      34
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -12936,7 +13064,11 @@
       }
     ],
     "keywords": [
-      32
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
     ],
     "url": [
       {
@@ -13080,7 +13212,11 @@
       }
     ],
     "keywords": [
-      28
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {
@@ -16336,7 +16472,11 @@
       }
     ],
     "keywords": [
-      27
+      {
+        "definedterm_id": {
+          "name": "Digital Creativity"
+        }
+      }
     ],
     "url": [
       {

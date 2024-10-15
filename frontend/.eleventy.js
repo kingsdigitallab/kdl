@@ -213,6 +213,19 @@ module.exports = (eleventyConfig) => {
     )
   );
 
+  eleventyConfig.addFilter(
+    "getThemeProjects",
+    function (projects, keywords = []) {
+      return projects
+        .filter((project) =>
+          project.keywords?.some((keyword) =>
+            keywords.includes(keyword.definedterm_id.name)
+          )
+        )
+        .sort((project) => project.name);
+    }
+  );
+
   eleventyConfig.addShortcode("getDirectusAsset", (id) => {
     if (!id) return null;
     return `${process.env.DIRECTUS_URL}/assets/${id}`;
@@ -237,8 +250,10 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPairedShortcode(
     "slide",
-    function (content, options = ["data-auto-animate"]) {
-      return `<section class="slide" ${options.join(" ")}>${content}</section>`;
+    function (content, options = "data-auto-animate") {
+      return `<section class="slide" ${options.split(
+        ","
+      )}>${content}</section>`;
     }
   );
 

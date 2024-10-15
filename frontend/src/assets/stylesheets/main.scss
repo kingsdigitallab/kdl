@@ -10,6 +10,8 @@
 // Person/Organisation Individual Page
 // Team
 // FAQs
+// Themes page
+// Theme page
 // Page Pagination
 // Footer
 
@@ -854,9 +856,6 @@ main {
     .activities {
       position: relative;
       padding: 2em 1.5em 0.5em 1.5em;
-      h4 {
-        padding: 0.3em;
-      }
       &:before {
         content: " ";
         display: block;
@@ -878,15 +877,20 @@ main {
         background-color: white;
         position: relative;
         padding: 0.1em 0.7em 0.7em 0.7em;
+        padding: 0.1em 1em 0.7em 1em;
       }
     } //.research, .activities
 
     .activities {
+      h4 {
+        padding: 0.3em;
+      }
       &:before {
         background-image: url("/assets/images/general/activities.jpg");
       }
       .activities-block {
         flex-basis: calc(33.3% - 1.5em);
+        padding: 0.1em 0.7em 0.7em 0.7em;
       }
     } //.activities-blocks
   } //.explore, .discover, .contact
@@ -1011,7 +1015,8 @@ main.projects {
           }
           #links,
           .funder,
-          .date {
+          .date,
+          .keywords {
             width: 100%;
             padding: 1em 0;
             ul {
@@ -1023,7 +1028,8 @@ main.projects {
             } //ul
           } //#links
           #links,
-          .funder {
+          .funder,
+          div.date {
             border-bottom: 0.3em solid rgb(220, 227, 230);
           } //#funder
         } //#metatdata
@@ -1586,6 +1592,129 @@ main.faqs {
   } //> article:first-of-type
 } //main.faqs
 
+//-- Themes Page --
+main.themes {
+  .discover {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 4em;
+      div {
+        flex-basis: calc(33.33% - 0.5em);
+        margin-bottom: 1.5em;
+        padding: 1.5em 0.7em 1em 0.7em;
+        background-color: lighten($lightgray, 5%);
+      }
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-style: dashed;
+        }
+      }
+    } //section
+
+    figure {
+      margin: 0;
+      img {
+        width: 100%;
+        height: 15em;
+        object-fit: cover;
+      }
+    }
+    a {
+      line-height: 1.5;
+      &.browse {
+        float: right;
+        margin-top: 1.7em;
+      } //browse
+    }
+
+    .research {
+      position: relative;
+      padding: 2em 1.5em 0.5em 1.5em;
+
+      &:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        background-image: url("/assets/images/general/research.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        background-color: #cccccc;
+      } //:before
+      .research-block {
+        flex-basis: calc(50% - 0.5em);
+        background-color: white;
+        position: relative;
+        padding: 0.1em 1em 0.7em 1em;
+      }
+    } //.research, .activities
+  } // .discover
+} // main.themes
+
+//-- Theme Page --
+main.theme {
+  .projects {
+    ul {
+      margin-left: -40px;
+      li {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1em;
+        figure {
+          width: 50%;
+          margin: 0;
+          figcaption {
+            display: none;
+          } //figcaption
+          img {
+            height: auto;
+            max-width: 45em;
+            object-fit: contain;
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+          } //img
+        } //figure
+        a {
+          margin-left: 2em;
+          width: 100%;
+          text-decoration: none;
+          padding: 1em 1.5em 1em 0.5em;
+          border-top: 0.2em solid transparent;
+          &:hover {
+            background: lighten(lightgray, 15%);
+            border-top: 0.2em solid lighten($navy, 17%);
+          }
+          h3 {
+            margin: 0;
+            display: inline-block;
+            small {
+              color: $darkgray;
+              font-family: KingsCaslon, serif;
+              font-size: 0.7em;
+              display: inline-block;
+              margin-left: 0.3em;
+            } //small
+          } //h3
+          p {
+            color: black;
+            margin: 0.2em 0;
+          } //p
+        } //a
+      } //li
+    } //ul
+  } //.projects
+} //main.theme
+
 //-- Page Pagination --
 nav.pagination {
   margin-top: 5em;
@@ -2058,6 +2187,9 @@ footer {
           margin-left: 0;
           margin-bottom: 4em;
         }
+        figure img {
+          max-width: 100%;
+        } //figure img
       } //article
     } //article
   } //main.posts
@@ -2108,6 +2240,40 @@ footer {
     }
   }
 
+  //-- Themes page --/
+  main.themes {
+    .discover > .research {
+      display: block;
+      padding: 1.5em 1.5em 0.2em 1.5em;
+    } //.research, .activities
+  }
+
+  //-- Theme Page --
+  main.theme {
+    .projects {
+      ul {
+        li {
+          display: block;
+          figure {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 1em;
+            img {
+              max-width: 100%;
+            } //img
+          } //figure
+          a {
+            display: block;
+            margin-left: 0;
+            h3 {
+              display: block;
+            }
+          }
+        } //li
+      } //ul
+    } //.projects
+  } //main.theme
+
   .sibling-pagination {
     display: none;
   }
@@ -2136,4 +2302,4 @@ footer {
       }
     }
   }
-} //@media (max-width: 800px)
+} //@media (max-width: 1000px)
