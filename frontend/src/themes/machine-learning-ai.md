@@ -9,9 +9,9 @@ excerpt: >
   across critical, analytical, and practical RSE-driven research.
 feature:
   image: /assets/images/themes/unsplash-butterfly-ai.jpg
-  title: A computer circuit board with a brain on it, by Steve Johnson on Unsplash
+  title: 'A colorful butterfly resting on a branch. Credit: Nidia Dias for Visualising AI.'
   description: >
-    A computer circuit board with a brain-like pattern on a blue background.
+    An rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
 ---
 
 The Artificial Intelligence/Machine Learning research theme focuses on creating
