@@ -8,7 +8,7 @@ excerpt: >
   software development lifecycle, fostering innovation and knowledge sharing
   across critical, analytical, and practical RSE-driven research.
 feature:
-  image: /assets/images/themes/machine-learning-ai.jpg
+  image: /assets/images/themes/unsplash-butterfly-ai.jpg
   title: A computer circuit board with a brain on it, by Steve Johnson on Unsplash
   description: >
     A computer circuit board with a brain-like pattern on a blue background.
@@ -22,3 +22,4 @@ leveraging past experiences and emerging best practices to guide project scoping
 planning, and execution, formalising and sharing AI/ML knowledge and guidance
 internally and globally, innovating new computational methods and software tools
 for AI/ML research.
+
