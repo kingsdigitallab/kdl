@@ -11,7 +11,7 @@ feature:
   image: /assets/images/themes/unsplash-butterfly-ai.jpg
   title: 'A colorful butterfly resting on a branch. Credit: Nidia Dias for Visualising AI.'
   description: >
-    An rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
+    A rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
 ---
 
 The Artificial Intelligence/Machine Learning research theme focuses on creating
