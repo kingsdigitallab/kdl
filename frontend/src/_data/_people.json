@@ -1960,6 +1960,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Distant Reading across Languages",
             "alternateName": "DRaL",
             "slug": "dral",
@@ -2834,6 +2858,30 @@
               "slug": "kdl"
             }
           },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Research Software Engineer"
           }
@@ -3802,6 +3850,35 @@
       "slug": "charlotte-roueche",
       "description": "Honorary Research Fellow - [Biography](https://www.kcl.ac.uk/people/professor-charlotte-roueche)",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
+            }
+          },
+          "roleName": {
+            "name": "Principal investigator"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -7189,7 +7266,32 @@
       "name": "Florence du Pré",
       "slug": "florence-du-pre",
       "description": null,
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Project Manager"
+          }
+        }
+      ]
     }
   },
   {
@@ -7427,6 +7529,35 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
           }
         },
         {
@@ -8443,6 +8574,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
                   }
                 }
               }
@@ -12093,6 +12248,45 @@
             "agent": {
               "name": "Newnham College",
               "slug": "newnham-college"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Joyce Reynolds",
+      "slug": "joyce-reynolds",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
             }
           },
           "roleName": {
@@ -15897,6 +16091,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Mapping the Medieval Countryside: The Fifteenth-Century Inquisitions Post Mortem",
             "alternateName": "IPM",
             "slug": "ipm",
@@ -16825,6 +17043,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Trust for African Rock Art"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
                   }
                 }
               }
@@ -18025,6 +18267,30 @@
           },
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Lab Manager"
           }
         }
       ]
@@ -23682,6 +23948,30 @@
               "slug": "kdl"
             }
           },
+          "roleName": {
+            "name": "Research Software Systems Administrator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Research Software Systems Administrator"
           }
