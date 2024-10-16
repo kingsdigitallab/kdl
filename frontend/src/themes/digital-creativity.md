@@ -4,12 +4,12 @@ tags:
   - theme
   - Digital Creativity
 excerpt: >
-  The Digital Creativity research theme brings together Analysts and Research
+  The Digital Creativity Research Theme brings together Analysts and Research
   Software Engineers in KDL to create immersive, Mixed Reality (MR) experiences
   with partners in the Creative Industries, Higher Education, and GLAM sectors.
 ---
 
-The Digital Creativity research theme brings together Analysts and Research
+The Digital Creativity Research Theme brings together Analysts and Research
 Software Engineers in KDL to create immersive, Mixed Reality (MR) experiences
 with partners in the Creative Industries, Higher Education, and GLAM sectors.
 Its objective is to develop the Lab’s creative and XR capacity to collaborate

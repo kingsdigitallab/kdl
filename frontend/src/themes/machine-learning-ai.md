@@ -4,7 +4,7 @@ tags:
   - theme
   - Machine Learning and AI
 excerpt: >
-  The AI/ML research theme aims to integrate AI and ML throughout the
+  The AI/ML Research Theme aims to integrate AI and ML throughout the
   software development lifecycle, fostering innovation and knowledge sharing
   across critical, analytical, and practical RSE-driven research.
 feature:
@@ -14,7 +14,7 @@ feature:
     A computer circuit board with a brain-like pattern on a blue background.
 ---
 
-The Artificial Intelligence/Machine Learning research theme focuses on creating
+The Artificial Intelligence/Machine Learning Research Theme focuses on creating
 a virtual cycle within KDL’s Software Development Lifecycle (SDLC) around ML and
 AI that goes beyond single projects solutions across the triangle of critical,
 analytical and practical RSE-driven research. Its primary objectives include
