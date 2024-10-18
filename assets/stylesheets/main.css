@@ -1499,62 +1499,46 @@ main.faqs article > article > article:first-of-type ul li a:hover {
   background: #10477d;
 }
 
-main.themes .discover section {
+main.themes section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 4em;
 }
-main.themes .discover section div {
-  flex-basis: calc(33.33% - 0.5em);
+main.themes section .research-block {
+  flex-basis: calc(50% - 0.5em);
   margin-bottom: 1.5em;
-  padding: 1.5em 0.7em 1em 0.7em;
+  padding: 1.5em 1.2em 1em 1.2em;
   background-color: #f5f7f8;
 }
-main.themes .discover section a {
-  text-decoration: none;
+main.themes section .research-block h4 {
+  margin: 0 0 0.5em 0;
 }
-main.themes .discover section a:hover {
+main.themes section a {
+  text-decoration: none;
+  line-height: 1.5;
+  cursor: pointer;
+}
+main.themes section a:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
 }
-main.themes .discover figure {
-  margin: 0;
-}
-main.themes .discover figure img {
+main.themes section img {
   width: 100%;
-  height: 15em;
+  height: 20em;
   object-fit: cover;
 }
-main.themes .discover a {
-  line-height: 1.5;
+main.themes section img:hover {
+  filter: grayscale(100%);
+  transition: transform 1s, filter 0.5s ease-in-out;
 }
-main.themes .discover a.browse {
-  float: right;
-  margin-top: 1.7em;
-}
-main.themes .discover .research {
+main.themes section .research {
   position: relative;
-  padding: 2em 1.5em 0.5em 1.5em;
+  padding: 2em 0;
 }
-main.themes .discover .research:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  background-image: url("/assets/images/general/research.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  background-color: #cccccc;
-}
-main.themes .discover .research .research-block {
+main.themes section .research .research-block {
   flex-basis: calc(50% - 0.5em);
-  background-color: white;
+  background-color: #f5f7f8;
   position: relative;
   padding: 0.1em 1em 0.7em 1em;
 }
@@ -1581,6 +1565,10 @@ main.theme .projects ul li figure img {
   display: inline-block;
   vertical-align: top;
   width: 100%;
+}
+main.theme .projects ul li figure img:hover {
+  filter: grayscale(100%);
+  transition: transform 1s, filter 0.5s ease-in-out;
 }
 main.theme .projects ul li a {
   margin-left: 2em;
@@ -2047,9 +2035,11 @@ footer .footer-end p {
   main.organisation article section section {
     display: block;
   }
-  main.themes .discover > .research {
+  main.themes .research {
     display: block;
-    padding: 1.5em 1.5em 0.2em 1.5em;
+  }
+  main.themes .research .research-block {
+    padding: 1.1em 0.7em 1em 0.7em;
   }
   main.theme .projects ul li {
     display: block;
