@@ -4,44 +4,20 @@ layout: layouts/base.njk
 
 {{ content | renderMd | safe }}
 
+    <section class="research">
 {% for theme in collections.theme | sort(false, false, "data.title") %}
-  <article>
-    <a href="{{ theme.data.page.url }}">
-      {{ theme.data.title }}
-    </a>
-  </article>
+ 
+       <div class="research-block">
+        <a href="{{ theme.data.page.url }}">
+          <h4>{{ theme.data.title }}</h4>
+        </a>
+        <a href="{{ theme.data.page.url }}">
+        <img src="/assets/images/general/placeholder-blur1.jpg" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
+        </a>
+        <p>
+        {{ theme.data.excerpt }}
+        </p>
+      </div>
 {% endfor %}
-
-<section class="discover">
-  <section class="research">
-          
-            <div class="research-block">
-              <h4>Digital creativity</h4>
-              
-                <p>Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions.</p>
-              
-            </div>
-          
-            <div class="research-block">
-              <h4>Indigenous Digital Humanities</h4>
-              
-                <p>Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources.</p>
-              
-            </div>
-          
-            <div class="research-block">
-              <h4>Machine learning and AI</h4>
-              
-                <p>Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research.</p>
-              
-            </div>
-          
-            <div class="research-block">
-              <h4>Data visualisation</h4>
-              
-                <p>Organizing data with form, structure and shape to help users understand the story it has to tell.</p>
-              
-            </div>
-          
-        </section>
     </section>
+

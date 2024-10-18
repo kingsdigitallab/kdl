@@ -1594,65 +1594,46 @@ main.faqs {
 
 //-- Themes Page --
 main.themes {
-  .discover {
-    section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-bottom: 4em;
-      div {
-        flex-basis: calc(33.33% - 0.5em);
-        margin-bottom: 1.5em;
-        padding: 1.5em 0.7em 1em 0.7em;
-        background-color: lighten($lightgray, 5%);
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4em;
+    .research-block {
+      h4 {
+        margin: 0 0 0.5em 0;
       }
-      a {
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-          text-decoration-style: dashed;
-        }
+      flex-basis: calc(50% - 0.5em);
+      margin-bottom: 1.5em;
+      padding: 1.5em 1.2em 1em 1.2em;
+      background-color: lighten($lightgray, 5%);
+    }
+    a {
+      text-decoration: none;
+      line-height: 1.5;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-style: dashed;
       }
     } //section
 
-    figure {
-      margin: 0;
-      img {
-        width: 100%;
-        height: 15em;
-        object-fit: cover;
+    img {
+      width: 100%;
+      height: 20em;
+      object-fit: cover;
+      &:hover {
+        filter: grayscale(100%);
+        transition: transform 1s, filter 0.5s ease-in-out;
       }
-    }
-    a {
-      line-height: 1.5;
-      &.browse {
-        float: right;
-        margin-top: 1.7em;
-      } //browse
     }
 
     .research {
       position: relative;
-      padding: 2em 1.5em 0.5em 1.5em;
-
-      &:before {
-        content: " ";
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.4;
-        background-image: url("/assets/images/general/research.jpg");
-        background-repeat: no-repeat;
-        background-position: 50% 0;
-        background-size: cover;
-        background-color: #cccccc;
-      } //:before
+      padding: 2em 0;
       .research-block {
         flex-basis: calc(50% - 0.5em);
-        background-color: white;
+        background-color: lighten($lightgray, 5%);
         position: relative;
         padding: 0.1em 1em 0.7em 1em;
       }
@@ -1682,6 +1663,10 @@ main.theme {
             display: inline-block;
             vertical-align: top;
             width: 100%;
+            &:hover {
+              filter: grayscale(100%);
+              transition: transform 1s, filter 0.5s ease-in-out;
+            }
           } //img
         } //figure
         a {
@@ -2242,9 +2227,11 @@ footer {
 
   //-- Themes page --/
   main.themes {
-    .discover > .research {
+    .research {
       display: block;
-      padding: 1.5em 1.5em 0.2em 1.5em;
+      .research-block {
+        padding: 1.1em 0.7em 1em 0.7em;
+      }
     } //.research, .activities
   }
 
