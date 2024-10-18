@@ -185,6 +185,12 @@
           "name": "Article URL",
           "url": "https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://aiandstorytelling.com/"
+        }
       }
     ],
     "department": [
@@ -15931,7 +15937,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://tibbl.netlify.app/"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
