@@ -5,17 +5,18 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
 
 {% from "kdl/components/person/macros.njk" import authorMacro %}
 {% from "kdl/components/time/macros.njk" import timeMacro %}
-
+<ul class="list">
 {%- for post in posts -%}
-  <article>
+  <li>
     {% if post.data.feature.image %}
+    <figure>
       <a href="{{ post.url }}">
-        <figure class="kdl-image">
-          <img src="{{ post.data.feature.image }}"
-               alt="{{ post.data.feature.description }}">
-          <figcaption>{{ post.feature.description }}</figcaption>
-        </figure>
+        <img src="{{ post.data.feature.image }}"
+              alt="{{ post.data.feature.description }}">
       </a>
+      <figcaption>{{ post.feature.description }}</figcaption>
+    </figure>
+      
     {% endif %}
 
     <section>
@@ -48,8 +49,9 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
  
       <p>{{ post.data.excerpt }}</p>
     </section>
-  </article>
+    </li>
 {%- endfor -%}
+</ul>
 
 {% set label = "Posts" %}
 {% include "partials/pagination.njk" %}

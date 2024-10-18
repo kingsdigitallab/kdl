@@ -4,14 +4,27 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 ---
 
 {{ content | renderMd | safe }}
-
+<ul class="list">
 {%- for item in paginatedProjects -%}
   {% set project = item.data.project %}
+<li>
+  <figure>
+    <a href="{{ item.data.page.url }}">
+      <img src="{{ item.data.feature.image }}" alt="{{ item.data.feature.description }}">
+        {% else %}
+      <img src="/assets/images/general/placeholder-blur1.jpg" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
+    </a>
+    <figcaption>{{ item.feature.description }}</figcaption>
+  </figure>
+
+  <section>
   <a href="{{ item.data.page.url }}">
     {% set showTitle = true %}
     {%- include "partials/project.njk" -%}
   </a>
+  </section>
+  </li>
 {%- endfor -%}
-
+</ul>
 {% set label = "Projects" %}
 {% include "partials/pagination.njk" %}

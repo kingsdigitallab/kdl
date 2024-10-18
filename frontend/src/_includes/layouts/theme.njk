@@ -15,28 +15,30 @@ layout: layouts/base.njk
 
   {% set themeProjects = projects | getThemeProjects(obj.tags) %}
   {% if themeProjects.length > 0 %}
-    <div class="projects">
       <h2>Projects</h2>
-      <ul>
+      <ul class="list">
         {% for project in themeProjects %}
           <li>
             {% if project.image %}
+              <a href="{% route project.slug, 'Projects' %}">
                 {% set feature = {
                 image: "/assets/images/projects/" + project.image.filename_download,
                 title: project.image.title,
                 description: project.image.description
                 } %}
                 {{ imageMacro(feature) }}
+              </a>
             {% endif %}
+            <section>
             <a href="{% route project.slug, 'Projects' %}">
               {% set level = 3 %}
               {% set project = project %}
               {% set showTitle = true %}
               {%- include "partials/project.njk" -%}
             </a>
+            </section>
           </li>
         {% endfor %}
       </ul>
-    </div>
   {% endif %}
 </section>
