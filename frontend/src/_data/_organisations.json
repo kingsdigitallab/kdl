@@ -7616,6 +7616,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2024-10-16T10:44:42.298Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "published",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "43768148-0234-47ef-aa5b-371f7936ad35",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2024-10-16T10:44:41.999Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "794eff41-0538-4ad8-8f9c-c1c2b3b77923",
+      "name": "JISC",
+      "slug": "jisc",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-19T14:48:34.047Z",
     "cmsDateUpdated": "2023-11-06T13:36:16.833Z",
     "cmsSort": null,
