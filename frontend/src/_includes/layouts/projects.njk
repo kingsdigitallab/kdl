@@ -8,14 +8,16 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 {%- for item in paginatedProjects -%}
   {% set project = item.data.project %}
 <li>
+  <a href="{{ item.data.page.url }}">
   <figure>
-    <a href="{{ item.data.page.url }}">
+    {%- if (postImage) -%}
       <img src="{{ item.data.feature.image }}" alt="{{ item.data.feature.description }}">
-        {% else %}
-      <img src="/assets/images/general/placeholder-blur1.jpg" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
-    </a>
+      {%- else -%}
+      <img src="https://img.freepik.com/free-vector/green-blue-gradient-blur-background_53876-105432.jpg?size=626&ext=jpg&ga=GA1.1.1983263632.1729360215&semt=ais_hybrid" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
+      {%- endif -%}
     <figcaption>{{ item.feature.description }}</figcaption>
   </figure>
+   </a>
 
   <section>
   <a href="{{ item.data.page.url }}">
