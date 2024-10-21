@@ -9458,6 +9458,35 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Classics",
+              "slug": "fah-department-of-classics"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Clergy of the Church of England Database Project",
             "alternateName": "CCED",
             "slug": "cced",
@@ -12264,6 +12293,35 @@
       "slug": "joyce-reynolds",
       "description": null,
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Cambridge",
+              "slug": "cambridge"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -24099,6 +24157,35 @@
       "slug": "tom-elliott",
       "description": null,
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "New York University",
+              "slug": "nyu"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
