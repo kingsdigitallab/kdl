@@ -7,6 +7,11 @@ excerpt: >
   The Digital Creativity Research Theme brings together Analysts and Research
   Software Engineers in KDL to create immersive, Mixed Reality (MR) experiences
   with partners in the Creative Industries, Higher Education, and GLAM sectors.
+feature:
+  image: /assets/images/themes/digital-creativity.jpg
+  title:
+  description: >
+    Hands of various skin tones interact with a dynamic, swirling mass of orange and black particles, symbolizing the collaborative and creative process in digital environments.
 ---
 
 The Digital Creativity Research Theme brings together Analysts and Research
