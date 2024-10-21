@@ -185,6 +185,12 @@
           "name": "Article URL",
           "url": "https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://aiandstorytelling.com/"
+        }
       }
     ],
     "department": [
@@ -8143,7 +8149,7 @@
   },
   {
     "alternateName": "IRT",
-    "cmsStatus": "draft",
+    "cmsStatus": "published",
     "description": null,
     "dissolutionDate": null,
     "foundingDate": "2009-01-01",
@@ -8212,6 +8218,12 @@
           "name": "Project URL 2009",
           "url": "https://inslib.kcl.ac.uk/irt2009/"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/ircyr-efes",
+          "url": "https://github.com/kingsdigitallab/ircyr-efes"
+        }
       }
     ],
     "department": [
@@ -8235,6 +8247,19 @@
       }
     ],
     "member": [
+      {
+        "agent": {
+          "id": "4beea643-c5e2-42c2-818d-61a253f4d6d7",
+          "name": "Hafed Walda",
+          "slug": "hafed-walda"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
       {
         "agent": {
           "id": "0a9cfdea-b9e4-466c-9239-6b70c55dc1d8",
@@ -8289,6 +8314,19 @@
       },
       {
         "agent": {
+          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
+          "name": "Joyce Reynolds",
+          "slug": "joyce-reynolds"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
           "name": "Ginestra Ferraro",
           "slug": "ginestra-ferraro"
@@ -8297,6 +8335,19 @@
           "name": "Research Software Designer",
           "inDefinedTermSet": {
             "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "5e123bce-20a2-44b7-9600-19a8753f0c01",
+          "name": "Tom Elliott",
+          "slug": "tom-elliott"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
           }
         }
       },
@@ -8388,6 +8439,19 @@
           "name": "Research Software Systems Administrator",
           "inDefinedTermSet": {
             "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "99ec6f71-5216-475d-81bc-e424952ca1cb",
+          "name": "Caroline Barron",
+          "slug": "caroline-barron"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
           }
         }
       }
@@ -15931,7 +15995,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://tibbl.netlify.app/"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
