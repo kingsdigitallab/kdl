@@ -12,7 +12,10 @@ layout: layouts/base.njk
           <h4>{{ theme.data.title }}</h4>
         </a>
         <a href="{{ theme.data.page.url }}">
-        <img src="/assets/images/general/placeholder-blur1.jpg" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
+          {% if theme.feature and theme.feature.image %}{{ imageMacro(theme.feature) }}
+          {% else %}
+          <img src="/assets/images/general/placeholder-blur1.jpg" alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
+          {% endif %}
         </a>
         <p>
         {{ theme.data.excerpt }}
