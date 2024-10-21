@@ -8,7 +8,7 @@ excerpt: >
   software development lifecycle, fostering innovation and knowledge sharing
   across critical, analytical, and practical RSE-driven research.
 feature:
-  image: /assets/images/themes/unsplash-butterfly-ai.jpg
+  image: /assets/images/themes/unsplash-ai-butterfly.jpg
   title: "A colorful butterfly resting on a branch. Credit: Nidia Dias for Visualising AI."
   description: >
     A rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
