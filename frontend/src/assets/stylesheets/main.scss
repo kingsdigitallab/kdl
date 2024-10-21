@@ -2098,6 +2098,22 @@ footer {
     } //.research, .activities
   } //main.home
 
+  //List of Projects
+  ul.list {
+    li {
+      display: block;
+      figure img {
+        max-width: 100%;
+      } //figure img
+      section {
+        margin-left: 0;
+        a h2 {
+          margin: 0.5em 0 0.3em 0;
+        }
+      }
+    } //li
+  } //ul.list
+
   //-- Project Individual Page --
   main.project {
     .kdl-container {
@@ -2120,20 +2136,6 @@ footer {
   } //main.project
 
   //-- Blog Index Page --
-  main.posts {
-    article {
-      article {
-        display: block;
-        section {
-          margin-left: 0;
-          margin-bottom: 4em;
-        }
-        figure img {
-          max-width: 100%;
-        } //figure img
-      } //article
-    } //article
-  } //main.posts
 
   //-- Blog Individual Page --
   main.post {
