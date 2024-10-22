@@ -5,28 +5,28 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 
 {{ content | renderMd | safe }}
 <ul class="list">
-{%- for item in paginatedProjects -%}
-  {% set project = item.data.project %}
-<li>
-  <a href="{{ item.data.page.url }}">
-  <figure>
-    {%- if (item.data.feature.image) -%}
-      <img src="{{ item.data.feature.image }}" alt="{{ item.data.feature.description }}">
-      {%- else -%}
-      <img src="/assets/images/general/placeholder-blur2.jpg" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik" />
-      {%- endif -%}
-    <figcaption>{{ item.feature.description }}</figcaption>
-  </figure>
-   </a>
+  {%- for item in paginatedProjects -%}
+    {% set project = item.data.project %}
+    <li>
+      <a href="{{ item.data.page.url }}">
+        <figure>
+          {%- if (item.data.feature.image) -%}
+            <img src="{{ item.data.feature.image }}" alt="{{ item.data.feature.description }}">
+          {%- else -%}
+            <img src="/assets/images/general/placeholder-blur2.jpg" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik"/>
+          {%- endif -%}
+          <figcaption>{{ item.feature.description }}</figcaption>
+        </figure>
+      </a>
 
-  <section>
-  <a href="{{ item.data.page.url }}">
-    {% set showTitle = true %}
-    {%- include "partials/project.njk" -%}
-  </a>
-  </section>
-  </li>
-{%- endfor -%}
+      <section>
+        <a href="{{ item.data.page.url }}">
+          {% set showTitle = true %}
+          {%- include "partials/project.njk" -%}
+        </a>
+      </section>
+    </li>
+  {%- endfor -%}
 </ul>
 {% set label = "Projects" %}
 {% include "partials/pagination.njk" %}
