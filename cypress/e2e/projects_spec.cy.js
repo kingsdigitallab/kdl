@@ -4,8 +4,8 @@ describe("Test the projects page", () => {
 
     cy.contains("Projects");
 
-    cy.get("article > a").should("have.length", 25);
-    cy.get("article > a")
+    cy.get(".projects ul > li > a").should("have.length", 25);
+    cy.get(".projects ul > li > section > a")
       .first()
       .within(($a) => {
         cy.get($a).should("have.attr", "href").should("not.be.empty");
