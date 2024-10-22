@@ -978,7 +978,7 @@ ul.list {
 }
 ul.list li {
   display: flex;
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 ul.list li figure {
   width: auto;
@@ -992,6 +992,8 @@ ul.list li figure img {
   width: 100%;
   margin: 0 auto;
   transition: transform 1s, filter 0.5s ease-in-out;
+  object-fit: cover;
+  height: 250px;
 }
 ul.list li figure img:hover {
   filter: grayscale(100%);
