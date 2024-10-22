@@ -395,13 +395,12 @@ main {
   padding: 0 1em;
 }
 main a {
-  text-decoration-style: solid;
   font-weight: 400;
   color: #0e3f70;
   cursor: pointer;
+  text-decoration: none;
 }
 main a:hover {
-  text-decoration-style: dashed;
   color: #14589d;
 }
 main p {
@@ -455,18 +454,6 @@ main .kdl-member sup {
   /* text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px,
     rgba(254, 1, 1, 0.25) -2px -2px 0px; */
   font-size: 0.7em;
-}
-main .subtitle,
-main .kdl-subtitle {
-  margin-top: 2em;
-}
-main .subtitle span,
-main .kdl-subtitle span {
-  background: linear-gradient(to left, lightcyan, #e8fce8);
-  padding: 0.5em;
-}
-main .kdl-subtitle {
-  margin: 0 0 1.5em 0;
 }
 main .sibling-pagination {
   margin-top: 5em;
@@ -846,30 +833,8 @@ main .kdl-container > article > article footer {
   text-align: center;
 }
 
-main.projects article > a {
-  display: block;
-  padding: 1em 1.5em 1em 0.5em;
-  text-decoration: none;
-  border-left: 0.2em solid #e6ebed;
-}
-main.projects article > a:hover {
-  background: #f9f9f9;
-  border-left: 0.2em solid #14589d;
-}
-main.projects article > a p {
-  color: black;
-  margin: 0.2em 0;
-}
-main.projects h2 {
-  margin: 0;
-  display: inline-block;
-}
-main.projects h2 small {
-  color: #5a6369;
-  font-family: KingsCaslon, serif;
-  font-size: 0.7em;
-  display: inline-block;
-  margin-left: 0.3em;
+main.projects ul.list li section p {
+  margin: 0.2em 0 0 0;
 }
 
 .project {
@@ -1004,51 +969,93 @@ main.projects h2 small {
   color: #5a6369;
 }
 
-main.posts {
-  width: 100%;
+.blog ul.list li section p {
+  margin-top: 1em;
 }
-main.posts article {
-  display: block;
+
+ul.list {
+  margin-left: -40px;
 }
-main.posts article article {
-  width: 100%;
+ul.list li {
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
-main.posts article article figure {
-  width: 100%;
-  margin: 0;
+ul.list li figure {
+  width: auto;
 }
-main.posts article article figure img {
+ul.list li figure img {
   height: auto;
   max-width: 45em;
   object-fit: contain;
   display: inline-block;
   vertical-align: top;
+  width: 100%;
+  margin: 0 auto;
   transition: transform 1s, filter 0.5s ease-in-out;
 }
-main.posts article article figure img:hover {
+ul.list li figure img:hover {
   filter: grayscale(100%);
 }
-main.posts article article section {
-  margin-left: 2em;
+ul.list li figure figcaption {
+  display: none;
 }
-main.posts article article section a {
+ul.list li section {
+  margin-left: 2em;
+  width: 100%;
+}
+ul.list li section a h2 {
+  margin: 0 0 0.3em 0;
+  text-decoration: none;
+  line-height: 1.3;
+}
+ul.list li section a h2 small {
+  color: #5a6369;
+  font-family: KingsCaslon, serif;
+  font-size: 0.7em;
+  margin-left: 0.3em;
+}
+ul.list li section a h2:hover {
+  text-decoration: underline;
+}
+ul.list li section a h2:hover small {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+ul.list li section a h3 {
+  margin: 0;
+}
+ul.list li section a h3 small {
+  color: #5a6369;
+  font-family: KingsCaslon, serif;
+  font-size: 0.7em;
+  margin-left: 0.3em;
+}
+ul.list li section a h3:hover {
+  text-decoration: underline;
+}
+ul.list li section a h3:hover small {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+ul.list li section p {
+  color: black;
+}
+ul.list li section p:hover {
   text-decoration: none;
 }
-main.posts article article section a:hover {
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-main.posts article article section a h2 {
-  margin: 0 0 0.3em 0;
-  border: none;
-}
-main.posts article article section span.author {
+ul.list li section .author a {
   text-decoration: underline;
 }
-main.posts article article section span.author:hover {
-  text-decoration-style: dashed;
+ul.list li section .subtitle {
+  margin-top: 1em;
+}
+ul.list li section .subtitle span {
+  background: linear-gradient(to left, lightcyan, #e8fce8);
+  padding: 0.5em;
+}
+
+main.posts {
+  width: 100%;
 }
 
 main.people h2,
@@ -1086,7 +1093,6 @@ main.organisations ul li a {
 main.people ul li a:hover,
 main.organisations ul li a:hover {
   text-decoration: underline;
-  text-decoration-style: dashed;
 }
 
 main.person h1,
@@ -1113,7 +1119,6 @@ main.organisation article a {
 main.person article a:hover,
 main.organisation article a:hover {
   text-decoration: underline;
-  text-decoration-style: dashed;
 }
 main.person article section,
 main.organisation article section {
@@ -1239,7 +1244,6 @@ main.team article ul li section h3 a {
 }
 main.team article ul li section h3 a:hover {
   text-decoration: underline;
-  text-decoration-style: dashed;
 }
 main.team article ul li section h2 {
   color: #5a6369;
@@ -1521,7 +1525,6 @@ main.themes section a {
 }
 main.themes section a:hover {
   text-decoration: underline;
-  text-decoration-style: dashed;
 }
 main.themes section img {
   width: 100%;
@@ -1541,60 +1544,6 @@ main.themes section .research .research-block {
   background-color: #f5f7f8;
   position: relative;
   padding: 0.1em 1em 0.7em 1em;
-}
-
-main.theme .projects ul {
-  margin-left: -40px;
-}
-main.theme .projects ul li {
-  width: 100%;
-  display: flex;
-  margin-bottom: 1em;
-}
-main.theme .projects ul li figure {
-  width: 50%;
-  margin: 0;
-}
-main.theme .projects ul li figure figcaption {
-  display: none;
-}
-main.theme .projects ul li figure img {
-  height: auto;
-  max-width: 45em;
-  object-fit: contain;
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  transition: transform 1s, filter 0.5s ease-in-out;
-}
-main.theme .projects ul li figure img:hover {
-  filter: grayscale(100%);
-}
-main.theme .projects ul li a {
-  margin-left: 2em;
-  width: 100%;
-  text-decoration: none;
-  padding: 1em 1.5em 1em 0.5em;
-  border-top: 0.2em solid transparent;
-}
-main.theme .projects ul li a:hover {
-  background: #f9f9f9;
-  border-top: 0.2em solid #14589d;
-}
-main.theme .projects ul li a h3 {
-  margin: 0;
-  display: inline-block;
-}
-main.theme .projects ul li a h3 small {
-  color: #5a6369;
-  font-family: KingsCaslon, serif;
-  font-size: 0.7em;
-  display: inline-block;
-  margin-left: 0.3em;
-}
-main.theme .projects ul li a p {
-  color: black;
-  margin: 0.2em 0;
 }
 
 nav.pagination {
@@ -1983,6 +1932,18 @@ footer .footer-end p {
     display: block;
     padding: 1.5em 1.5em 0.2em 1.5em;
   }
+  ul.list li {
+    display: block;
+  }
+  ul.list li figure img {
+    max-width: 100%;
+  }
+  ul.list li section {
+    margin-left: 0;
+  }
+  ul.list li section a h2 {
+    margin: 0.5em 0 0.3em 0;
+  }
   main.project .kdl-container {
     display: block;
   }
@@ -1999,16 +1960,6 @@ footer .footer-end p {
   }
   main.project .kdl-container article section:last-child #metadata {
     margin-top: 1em;
-  }
-  main.posts article article {
-    display: block;
-  }
-  main.posts article article section {
-    margin-left: 0;
-    margin-bottom: 4em;
-  }
-  main.posts article article figure img {
-    max-width: 100%;
   }
   main.post footer {
     text-align: left;
@@ -2040,24 +1991,6 @@ footer .footer-end p {
   }
   main.themes .research .research-block {
     padding: 1.1em 0.7em 1em 0.7em;
-  }
-  main.theme .projects ul li {
-    display: block;
-  }
-  main.theme .projects ul li figure {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 1em;
-  }
-  main.theme .projects ul li figure img {
-    max-width: 100%;
-  }
-  main.theme .projects ul li a {
-    display: block;
-    margin-left: 0;
-  }
-  main.theme .projects ul li a h3 {
-    display: block;
   }
   .sibling-pagination {
     display: none;
