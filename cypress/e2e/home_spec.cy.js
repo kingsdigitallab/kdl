@@ -19,7 +19,7 @@ describe("Test the home page", () => {
     cy.get(".discover").scrollIntoView();
     cy.contains("Activities");
     cy.get("div.activities-block").should("have.length", 3);
-    cy.contains("Research areas");
+    cy.contains("Research Themes");
     cy.get("div.research-block").should("have.length", 4);
 
     cy.get(".contact").scrollIntoView();
