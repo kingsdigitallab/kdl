@@ -4335,7 +4335,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -4494,7 +4500,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -4698,7 +4710,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -9940,6 +9958,11 @@
         "definedterm_id": {
           "name": "Machine Learning and AI"
         }
+      },
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
       }
     ],
     "url": [
@@ -11845,7 +11868,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -13095,6 +13124,11 @@
         "definedterm_id": {
           "name": "Machine Learning and AI"
         }
+      },
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
       }
     ],
     "url": [
@@ -13383,6 +13417,11 @@
       {
         "definedterm_id": {
           "name": "Machine Learning and AI"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
         }
       }
     ],
@@ -15765,7 +15804,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -16385,7 +16430,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
