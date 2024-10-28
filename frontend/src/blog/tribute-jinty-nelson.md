@@ -2,6 +2,7 @@
 title: Tribute to Professor Dame Janet (Jinty) Nelson
 subtitle: DBE FRHistS FBA 1942-2024
 tags:
+  - post
   - tribute
   - Dame Janet (Jinty) Nelson
   - The Making of Charlesmagne's Europe
@@ -12,7 +13,7 @@ authors:
 date: 2024-10-28
 excerpt: Obituary of Professor Dame Janet Nelson
 feature:
-  image: /assets/image/blog/Jinty_Nelson.png
+  image: /assets/images/blog/Jinty_Nelson.png
   title: Image John Deehan for the Royal Historical Society
   description: Professor Dame Janet Nelson, 2019. Image John Deehan for the Royal Historical Society
 ---
