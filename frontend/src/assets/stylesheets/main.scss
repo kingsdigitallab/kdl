@@ -1063,11 +1063,10 @@ ul.list {
       width: auto;
       img {
         height: auto;
-        max-width: 45em;
+        width: 400px;
         object-fit: contain;
         display: inline-block;
         vertical-align: top;
-        width: 100%;
         margin: 0 auto;
         transition: transform 1s, filter 0.5s ease-in-out;
         object-fit: cover;
@@ -2106,7 +2105,7 @@ footer {
     li {
       display: block;
       figure img {
-        max-width: 100%;
+        width: 100%;
       } //figure img
       section {
         margin-left: 0;
