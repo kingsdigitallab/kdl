@@ -985,11 +985,10 @@ ul.list li figure {
 }
 ul.list li figure img {
   height: auto;
-  max-width: 45em;
+  width: 400px;
   object-fit: contain;
   display: inline-block;
   vertical-align: top;
-  width: 100%;
   margin: 0 auto;
   transition: transform 1s, filter 0.5s ease-in-out;
   object-fit: cover;
@@ -1938,7 +1937,7 @@ footer .footer-end p {
     display: block;
   }
   ul.list li figure img {
-    max-width: 100%;
+    width: 100%;
   }
   ul.list li section {
     margin-left: 0;
