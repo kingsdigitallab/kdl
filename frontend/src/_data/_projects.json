@@ -8715,7 +8715,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "8267a045-5f72-4193-a116-5b2dc0a6f265",
+      "storage": "local",
+      "filename_disk": "8267a045-5f72-4193-a116-5b2dc0a6f265.jpg",
+      "filename_download": "iReal Main Image.jpg",
+      "title": "I Real Main Image",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2024-11-04T13:29:39.600Z",
+      "modified_by": null,
+      "modified_on": "2024-11-04T13:29:39.933Z",
+      "charset": null,
+      "filesize": "256113",
+      "width": 1200,
+      "height": 875,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
