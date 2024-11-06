@@ -5,9 +5,7 @@ tags:
   - theme
   - Indigenous Digital Humanities
 excerpt: >
-  The Indigenous Digital Humanities Research Theme highlights the additional
-  challenges of how to ethically work with Indigenous peoples and material in
-  Digital Humanities research.
+  The Indigenous Digital Humanities Research Theme highlights the challenges of how to ethically work with Indigenous peoples and material in Digital Humanities research.
 feature:
   image: /assets/images/themes/indie.jpg
   title:

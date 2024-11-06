@@ -21,7 +21,12 @@ with partners in the Creative Industries, Higher Education, and GLAM sectors.
 Its objective is to develop the Lab’s creative and XR capacity to collaborate
 on research projects with academic partners, primarily in the Arts & Humanities.
 
-Future areas of the interest for the theme will focus on immersive experiences with real time engines, Virtual Production, and the creation of immersive and multi-media experiences which foster engagement, drive research impact and promote knowledge sharing. KDL is interested in exploring all applications of these technologies and in working to understand how they can be used to enrich our shared research goals.
+Future areas of interest for the theme will focus on immersive experiences with
+real time engines, Virtual Production, and the creation of immersive and
+multi-media experiences which foster engagement, drive research impact and
+promote knowledge sharing. KDL is interested in exploring all applications of
+these technologies and in working to understand how they can be used to enrich
+our shared research goals.
 
 Some technologies used in this theme:
 
