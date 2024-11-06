@@ -1,5 +1,6 @@
 ---
 title: Machine Learning and AI
+permalink: projects/research-themes/machine-learning-ai/
 tags:
   - theme
   - Machine Learning and AI

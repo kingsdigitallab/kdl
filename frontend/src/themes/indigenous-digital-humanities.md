@@ -1,5 +1,6 @@
 ---
 title: Indigenous Digital Humanities
+permalink: projects/research-themes/indigenous-digital-humanities/
 tags:
   - theme
   - Indigenous Digital Humanities

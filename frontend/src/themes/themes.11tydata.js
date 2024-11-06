@@ -1,4 +1,4 @@
 module.exports = {
   layout: "layouts/theme.njk",
-  // navKey: "Themes",
+  navKey: "Research Themes",
 };

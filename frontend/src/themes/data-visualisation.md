@@ -1,5 +1,6 @@
 ---
 title: Data Visualisation
+permalink: projects/research-themes/data-visualisation/
 tags:
   - theme
   - Data Visualisation

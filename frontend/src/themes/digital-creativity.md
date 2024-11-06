@@ -1,5 +1,6 @@
 ---
 title: Digital Creativity
+permalink: projects/research-themes/digital-creativity/
 tags:
   - theme
   - Digital Creativity
