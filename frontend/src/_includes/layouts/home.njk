@@ -69,10 +69,18 @@ layout: layouts/base.njk
       <section class="{{ section.class }}">
         {% for item in section.items %}
           <div class="{{ section.class }}-block">
-            <h4>{{ item.title }}</h4>
+            <h4>
+              {%- if item.url %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              {%- else %}
+                {{ item.title }}
+              {% endif %}
+            </h4>
             {% if item.items %}
               <ul>
-                {% for i in item.items %}<li>{{ i }}</li>{% endfor %}
+                {% for i in item.items %}
+                  <li>{{ i }}</li>
+                {% endfor %}
               </ul>
             {% else %}
               <p>{{ item.description }}</p>

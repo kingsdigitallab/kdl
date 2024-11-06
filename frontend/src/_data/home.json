@@ -42,18 +42,22 @@
       "items": [
         {
           "title": "Digital creativity",
+          "url": "projects/research-themes/digital-creativity",
           "description": "Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions."
         },
         {
           "title": "Indigenous Digital Humanities",
+          "url": "projects/research-themes/indigenous-digital-humanities",
           "description": "Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources."
         },
         {
           "title": "Machine learning and AI",
+          "url": "projects/research-themes/machine-learning-ai",
           "description": "Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research."
         },
         {
           "title": "Data visualisation",
+          "url": "projects/research-themes/data-visualisation",
           "description": "Organizing data with form, structure and shape to help users understand the story it has to tell."
         }
       ]
