@@ -15781,6 +15781,19 @@
             "name": "Project roles"
           }
         }
+      },
+      {
+        "agent": {
+          "id": "390aeabc-49d9-4605-8e8b-f237a5f837bf",
+          "name": "Zihao Lu",
+          "slug": "zihao-lu"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
       }
     ]
   },

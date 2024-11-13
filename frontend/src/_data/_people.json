@@ -24750,7 +24750,46 @@
       "name": "Zihao Lu",
       "slug": "zihao-lu",
       "description": "Zihao is a multidisciplinary designer and experimental artist whose work delves deeply into the intersections of space, race, and the boundaries that separate and connect people. With a keen ability to observe his surroundings, social dynamics, and human nature, Zihao critically reflects on these elements and expresses his insights through a wide range of media, including experimental film, performance, narrative art, photography, architecture, installation, and choreography.\n\nHis practice is driven by a relentless pursuit of deconstructing and reconstructing ideas, pushing the limits of his self-perception and professional disciplines. Each project becomes a bold exploration, challenging the conventional boundaries of identity, interaction, and form.\n",
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
+            "alternateName": "STEP-UP",
+            "slug": "step-up",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2027-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Imperial College London"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        }
+      ]
     }
   }
 ]
