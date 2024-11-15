@@ -1,0 +1,5 @@
+loglevel: "warn"
+paths:
+  - source: "/"
+    maptype: "proxy"
+    target: "http://cms:8055/"
