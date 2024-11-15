@@ -30,19 +30,19 @@ services:
       - kdl
     restart: unless-stopped
 
-  etl:
-    build:
-      context: ..
-      dockerfile: docker/production/etl/Dockerfile
-    env_file:
-      - ./.envs/.etl
-    volumes:
-      - ../volumes/etl_data:/srv/app/data
-    depends_on:
-      - cms
-      - database
-    networks:
-      - kdl
+  # etl:
+  #   build:
+  #     context: ..
+  #     dockerfile: docker/production/etl/Dockerfile
+  #   env_file:
+  #     - ./.envs/.etl
+  #   volumes:
+  #     - ../volumes/etl_data:/srv/app/data
+  #   depends_on:
+  #     - cms
+  #     - database
+  #   networks:
+  #     - kdl
 
   database:
     image: postgis/postgis:14-master
