@@ -69,12 +69,18 @@ typings/
 dist
 
 # Project specific ignores
-.envs/*
-!.envs/*.example
+
+.envs*
 .volumes
+
+docker-compose.override.yaml
+
+compose/.envs/*
+!compose/.envs/*.example
 cms/database/*
 cms/uploads/*
 etl/data
 etl/storage
 frontend/_site
-docker-compose.override.yaml
+volumes/*
+!volumes/proxy

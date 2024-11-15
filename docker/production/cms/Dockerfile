@@ -1,4 +1,4 @@
-FROM node:16-slim as build
+FROM node:16-slim AS build
 
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
@@ -11,7 +11,7 @@ RUN npm ci && npm cache clean --force
 
 COPY ./cms /srv/build/
 
-FROM node:16-slim as production
+FROM node:16-slim AS production
 
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}

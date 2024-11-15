@@ -1,0 +1,78 @@
+name: kdl
+
+services:
+  proxy:
+    image: gitlab.kdl.kcl.ac.uk:5050/docker-images/core/kdl-apache-proxy
+    volumes:
+      - ../volumes/proxy/pathmap.yml:/maps/pathmap.yaml:ro
+    ports:
+      - "80:80"
+    networks:
+      - kdl
+    restart: unless-stopped
+
+  cms:
+    build:
+      context: ..
+      dockerfile: docker/production/cms/Dockerfile
+    env_file:
+      - ./.envs/.cms
+    volumes:
+      - ../volumes/cms_uploads:/directus/uploads
+    ports:
+      - 8055:8055
+    depends_on:
+      database:
+        condition: service_healthy
+      cache:
+        condition: service_healthy
+    networks:
+      - kdl
+    restart: unless-stopped
+
+  etl:
+    build:
+      context: ..
+      dockerfile: docker/production/etl/Dockerfile
+    env_file:
+      - ./.envs/.etl
+    volumes:
+      - ../volumes/etl_data:/srv/app/data
+    depends_on:
+      - cms
+      - database
+    networks:
+      - kdl
+
+  database:
+    image: postgis/postgis:14-master
+    env_file:
+      - ./.envs/.database
+    volumes:
+      - ../volumes/postgres_data:/var/lib/postgresql/data
+      - ../volumes/postgres_backups:/backups
+    expose:
+      - 5432
+    networks:
+      - kdl
+    healthcheck:
+      test: ["CMD", "pg_isready", "-d", "backend", "-U", "TcPkwSdjRHxM96lKwf4="]
+      interval: 1s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  cache:
+    image: redis:6
+    networks:
+      - kdl
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
+    restart: unless-stopped
+
+networks:
+  kdl:

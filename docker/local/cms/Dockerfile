@@ -1,4 +1,4 @@
-FROM node:lts-slim as build
+FROM node:lts-slim AS build
 
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
@@ -9,7 +9,7 @@ COPY ./cms/package.json ./cms/package-lock.json /srv/build/
 
 RUN npm install && npm cache clean --force
 
-FROM node:lts-slim as local
+FROM node:lts-slim AS local
 
 RUN \
   apt-get update && apt-get install -y \
