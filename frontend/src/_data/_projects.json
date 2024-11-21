@@ -8903,6 +8903,19 @@
       },
       {
         "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "cacc2085-0655-4df3-868c-bcd2e8ea4a9e",
           "name": "Lauren Booker",
           "slug": "lauren-booker"
