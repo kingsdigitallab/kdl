@@ -2,6 +2,7 @@
 title: KDL Infrastructure Migration - Temporary Site Turnoffs
 subtitle:
 tags:
+  - post
   - sustainability
   - migration
   - hosting
