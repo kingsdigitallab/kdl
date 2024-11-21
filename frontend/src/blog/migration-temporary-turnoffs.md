@@ -15,6 +15,7 @@ feature:
   image: /assets/images/blog/Aerial.View.Flamingos.jpg
   title: Photo by Esra Bürçün 
   description: Aerial View of Flamingos on Dried Lake
+draft: false
 ---
 
 Due to an infrastructure migration and upgrade KDL must temporarily shut down a few of the sites we host from Monday, 2 December. We’re coming to the end of a major project to move to new server infrastructure. This modernisation will improve how we host sites, making our digital estate more stable and increasing long-term sustainability.
