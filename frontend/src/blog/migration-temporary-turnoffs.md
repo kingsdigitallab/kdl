@@ -2,11 +2,11 @@
 title: KDL Infrastructure Migration - Temporary Site Turnoffs
 subtitle:
 tags:
+  - post
   - sustainability
   - migration
   - hosting
   - SLA
-  - projects
 authors:
   - Pamela Mellen
 date: 2024-11-21
