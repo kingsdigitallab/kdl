@@ -66,8 +66,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Heritage Gazetteer of Cyprus](http://www.cyprusgazetteer.org/) (FAH)
 - [Heritage Gazetteer of Libya](http://slsgazetteer.org/) (FAH)
 - [Historical Pageants](http://www.historicalpageants.ac.uk/) (FAH/AHRC)
-- [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html) (Royal Holloway, University of London)
-- [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29)) (FAH)
 - [Inscriptiones antiquae Orae Septentrionalis Ponti Euxini](http://iospe.kcl.ac.uk/index.html) (FAH)
 - [Inscriptions of Roman Cyrenaica (2021)](https://irt2021.inslib.kcl.ac.uk/en/) (FAH)
 - [Inscriptions of Roman Tripolitania](http://inslib.kcl.ac.uk/irt2009/)
@@ -87,7 +85,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Prosopography of the Byzantine World](http://pbw2016.kdl.kcl.ac.uk) (British Academy)
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
 - [Schenker Documents Online](http://www.schenkerdocumentsonline.org/index.html) ([dataset](https://doi.org/10.18742/x2pz-ez09)) (University of Southampton)
-- [Sensing Place](https://sensingplace.org/) (HEI Fund)
 - [Shakespeare Holdings in the Royal Collection](https://sharc.kcl.ac.uk/) (AHRC)
 - [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) (FAH)
 - [The Values of French](https://tvof.ac.uk/) ([dataset](https://doi.org/10.6084/m9.figshare.c.4873335.v3)) (FAH)
@@ -137,10 +134,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ### Migration in progress
 
-- [British Printed Images to 1700](https://bpi1700.org.uk/)
-- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
-- [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
-- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
+- [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html)
 
 ## Projects converted to static sites
 
@@ -152,19 +146,25 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Applying AI to Storytelling](https://aiandstorytelling.com/)
 - [Body and Mask in Ancient Theatre Space](http://www.kvl.cch.kcl.ac.uk/masks/index.html)
 - [Breaking of Britain: Cross Border Society and Scottish Independence 1216-1314](http://www.breakingofbritain.ac.uk/)
+- [British Printed Images to 1700](https://bpi1700.org.uk/)
+- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
 - [City Witness](http://www.medievalswansea.ac.uk/)
 - [Computers, Literature and Philology (CLiP) conference 2006](http://www.cch.kcl.ac.uk/clip2006/)
 - [Cultures of the Lusophone Black Atlantic](http://www.clba.kcl.ac.uk/)
 - [Digital Ghost Hunt](https://digitalghosthunt.com/)
 - [Digital Humanities 2010](http://dh2010.cch.kcl.ac.uk/)
 - [Discover Medieval Chester](http://discover.medievalchester.ac.uk/)
+- [Distant Reading Across Languages](https://dral.kdl.kcl.ac.uk/)
 - [The Durham Liber Vitae Project](http://www.dlv.org.uk/)
 - [Early Modern Spain](http://ems.kcl.ac.uk/)
 - [La Entretenida](http://entretenida.outofthewings.org/index.html)
 - [Epidoc Aphrodisias](http://www.epapp.kcl.ac.uk/)
 - [Girls and Digital Culture: Transnational Reflections on Girlhood 2012](https://girlsanddigitalculture.cch.kcl.ac.uk/)
 - [Historic Weather](http://historicweather.cerch.kcl.ac.uk/)
+- [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
+- [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29))
+- [Inscriptions of Aphrodisias: ALA (2004) + IAph (2007)](http://www.insaph.kcl.ac.uk/ala2004/)
 - [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
 - [London Charter](http://www.londoncharter.org/)
@@ -172,10 +172,13 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Mapping Digital Heritage in Jordan blogsite](https://madih-jordan.org/index.html)
 - [Mapping Medieval Chester](http://medievalchester.ac.uk/)
 - [Methods Network](http://www.methodsnetwork.ac.uk/)
+- [Mozart and Material Culture](https://mmc.kdl.kcl.ac.uk/)
 - [Museum of Writing blogsite](http://blog.museumofwriting.org/)
 - [Out of the Wings](http://www.outofthewings.org/index.html) ([dataset](https://doi.org/10.18742/j9tb-1734))
 - [Pompey Project](http://www.pompey.cch.kcl.ac.uk/)
+- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
 - [Prosopography of the Byzantine Empire](http://pbe.dighum.kcl.ac.uk/)
+- [Renaissance Skin](https://renaissanceskin.ac.uk/)
 - [Scrambled Messages](http://www.scrambledmessages.ac.uk/)
 - [Shakespeare400](https://shakespeare400.kcl.ac.uk/)
 - [The Skenographia Project](http://www.skenographia.cch.kcl.ac.uk/index.html)
@@ -185,10 +188,7 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 
 ### Conversion to static in progress
 
-- [Distant Reading Across Languages](https://dral.kdl.kcl.ac.uk/)
-- [Inscriptions of Aphrodisias: ALA (2004) + IAph (2007)](http://www.insaph.kcl.ac.uk/ala2004/)
-- [Mozart and Material Culture](https://mmc.kdl.kcl.ac.uk/)
-- [Renaissance Skin](https://renaissanceskin.ac.uk/)
+- [Sensing Place](https://sensingplace.org/)
 
 ## Minimally archived projects
 
