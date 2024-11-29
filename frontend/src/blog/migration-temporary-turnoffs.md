@@ -22,7 +22,7 @@ UPDATE 29 November 2024:
 
 The migration is nearing completion and we have been able to reduce the number of sites impacted. We can confirm that we will need to temporarily turn off the dynamic versions of the following sites. However, we have been able to set up static snapshots in the interim. The functionality of these is more limited - for example, search functions will not work. They will, however, allow users to access significant portions of these sites while we work on getting the full versions restored: 
 
-- [Language of Landscape](http://www.langscape.org.uk/index.html)
+- [Language of Landscape](http://www.langscape.org.uk.html)
 - [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk/)
 - [Medieval Francophone Literature Outside France](https://medievalfrancophone.ac.uk/)
 - [Sharing Ancient Wisdoms](https://ancientwisdoms.ac.uk/)
