@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## KDL's pragmatic approach to managing 100 Digital Humanities projects, and more
 
-Archiving and sustainability is integral to KDL’s Software Development Life Cycle (SDLC). Discussions about archiving and forward planning inform our pre-project phases and determine release and post-project phases. When and how archiving and sustainability considerations are introduced and discussed with partners depends on the scope, size and type of project, but are typically discussed and evaluated in early conversations, as part of  our preliminary feasibility assessment.
+Archiving and sustainability is integral to KDL’s Software Development Life Cycle (SDLC). Discussions about archiving and forward planning inform our pre-project phases and determine release and post-project phases. When and how archiving and sustainability considerations are introduced and discussed with partners depends on the scope, size and type of project, but are typically discussed and evaluated in early conversations, as part of our preliminary feasibility assessment.
 
 Part of those discussions focus on what KDL can offer with respect to data hosting and maintenance, explaining what a Service Level Agreement (SLA) with KDL entails (what it includes and indicative costs). If the partner is a colleague within the same University (King’s College London) and if the research data component of the project is substantial -- as opposed to, for example, an experimental project where tests on the data are deemed ephemeral -- options for data management with the University Library Services King's Open Research Data System ([KORDS](https://www.kcl.ac.uk/researchsupport/managing/preserve)) are also discussed. Subject repositories or other external research infrastructures connected to relevant data management might also be taken into consideration at this stage. The KDL feasibility document includes a section titled Forward Planning Definition which, amongst other things, describes the hosting and infrastructure SLA along with archiving and sustainability and research data management options.
 
@@ -34,7 +34,7 @@ Ideally projects were placed on an SLA to ensure ongoing hosting and maintenance
 
 1. ### Static conversion
 
-   Conversion of project website to a static website. This is offered as a free service for suitable projects. It can be a very cost effective solution, and maintains public access to legacy projects and datasets that are no longer updated but continue to have value for the PI and research community.
+   Conversion of project website to a static website. This is offered as a free service for suitable projects. It can be a very cost effective solution and maintains public access to legacy projects and datasets that are no longer updated but continue to have value for the PI and research community.
 
 1. ### Datasets deposit
 
@@ -57,7 +57,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Clergy of the Church of England Database](http://theclergydatabase.org.uk/) (FAH)
 - [The Community of the Realm in Scotland, 1249-1424](https://cotr.ac.uk/) (AHRC)
 - [CultureCase](https://culturecase.org/) (Cultural Institute, King’s College London)
-- [DigiPal](http://www.digipal.eu/) (FAH)
 - [Digitising the Prosopography of the Roman Republic](http://romanrepublic.ac.uk/) (FAH)
 - [Exon Domesday](https://www.exondomesday.ac.uk/) (FAH)
 - [Farm-level Interdisciplinary Approaches to Endemic Livestock Disease](https://field-wt.co.uk/) (Wellcome Trust)
@@ -68,7 +67,7 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Historical Pageants](http://www.historicalpageants.ac.uk/) (FAH/AHRC)
 - [Inscriptiones antiquae Orae Septentrionalis Ponti Euxini](http://iospe.kcl.ac.uk/index.html) (FAH)
 - [Inscriptions of Roman Cyrenaica (2021)](https://irt2021.inslib.kcl.ac.uk/en/) (FAH)
-- [Inscriptions of Roman Tripolitania](http://inslib.kcl.ac.uk/irt2009/)
+- [Inscriptions of Roman Tripolitania (2021)](https://irt2021.inslib.kcl.ac.uk/en/) [dataset](https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275) (FAH)
 - [Inventory of Byzantine Churches](http://ibcc.dighum.kcl.ac.uk/) (FAH)
 - [Jane Austen's Fiction Manuscripts](http://www.janeausten.ac.uk/) (FAH; Oxford University)
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
@@ -80,7 +79,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Ministry of Information](http://www.moidigital.ac.uk/) (AHRC)
 - [Models of Authority](https://www.modelsofauthority.ac.uk/) (FAH)
 - [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
-- [Online Chopin](http://chopinonline.ac.uk/) (FAH)
 - [People of Medieval Scotland](http://www.poms.ac.uk) ([dataset](https://doi.org/10.18742/pszz-m429)) (AHRC)
 - [Prosopography of the Byzantine World](http://pbw2016.kdl.kcl.ac.uk) (British Academy)
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
@@ -94,6 +92,8 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 If researchers wanted to maintain dynamic functionality for their projects but were unable or uninterested in financially supporting a Service Level Agreement with KDL then we sometimes helped them to migrate their projects to other institutional or commercial infrastructure. King’s College London academics with relatively straightforward and current (in that they are still actively updated), websites were offered the opportunity to migrate to KCL ITS infrastructure where appropriate. We are always sad to see projects leave KDL, but view migration as a positive outcome: the long-term interests of the project should always come first.
 
 - [AHRC Crowd Sourcing Study Report](https://www.kcl.ac.uk/research/archive/arts/croud-sourcing-study/index.aspx)
+- [British Printed Images to 1700](https://bpi1700.org.uk/)
+- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
 - [Corpus of Romanesque Sculpture in Britain and Ireland](https://www.crsbi.ac.uk/)
 - [Corpus Vitrearum Medii Aevi of Great Britain](http://www.cvma.ac.uk/)
 - [Cultural Exchange in a Time of Global Conflict: Colonials, Neutrals and Belligerents during the First World War](https://cegcproject.eu/)
@@ -121,6 +121,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - NumiPal
 - [Pliny project](https://www.kcl.ac.uk/research/pliny-project)
 - [Production and Reading of Music Sources](http://www.proms.ac.uk/)
+- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
 - [Public Monuments and Sculptures Association](https://www.pmsa.org.uk/)
 - Relics & Selves (scripts and image metadata catalogue only; not full site) migrated to NYU Libraries
 - The Sanskrit Knowledge-Systems Project was migrated prior to KDL establishment and is now hosted at Columbia University: [http://www.columbia.edu/itc/mealac/pollock/sks/](http://www.columbia.edu/itc/mealac/pollock/sks/) (KDL also holds basic archival copy)
@@ -134,11 +135,13 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ### Migration in progress
 
+- [DigiPal](http://www.digipal.eu/)
 - [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html)
+- [Online Chopin](http://chopinonline.ac.uk/)
 
 ## Projects converted to static sites
 
-Projects converted to static sites remain on KDL infrastructure, but no longer offer dynamic functionality. Where no funding is available, the King's Faculty of Arts and Humanities provides support so the sites remain hosted by KDL at no further cost. Due to the nature of these sites, we cannot promise to fix issues that appear that are outside our control, such as updates to browsers by external vendors.
+Projects converted to static sites remain on KDL infrastructure but no longer offer dynamic functionality. Where no funding is available, the King's Faculty of Arts and Humanities provides support so the sites remain hosted by KDL at no further cost. Due to the nature of these sites, we cannot promise to fix issues that appear that are outside our control, such as updates to browsers by external vendors.
 
 - [3D Visualisation in the Arts Network](http://3dvisa.cch.kcl.ac.uk/)
 - [Anglo-Saxon Charters](http://www.aschart.kcl.ac.uk/index.html)
@@ -146,8 +149,6 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Applying AI to Storytelling](https://aiandstorytelling.com/)
 - [Body and Mask in Ancient Theatre Space](http://www.kvl.cch.kcl.ac.uk/masks/index.html)
 - [Breaking of Britain: Cross Border Society and Scottish Independence 1216-1314](http://www.breakingofbritain.ac.uk/)
-- [British Printed Images to 1700](https://bpi1700.org.uk/)
-- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
 - [City Witness](http://www.medievalswansea.ac.uk/)
 - [Computers, Literature and Philology (CLiP) conference 2006](http://www.cch.kcl.ac.uk/clip2006/)
 - [Cultures of the Lusophone Black Atlantic](http://www.clba.kcl.ac.uk/)
@@ -164,7 +165,7 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
 - [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29))
-- [Inscriptions of Aphrodisias: ALA (2004) + IAph (2007)](http://www.insaph.kcl.ac.uk/ala2004/)
+- [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/insaph/iaph2007/)
 - [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
 - [London Charter](http://www.londoncharter.org/)
@@ -176,7 +177,6 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 - [Museum of Writing blogsite](http://blog.museumofwriting.org/)
 - [Out of the Wings](http://www.outofthewings.org/index.html) ([dataset](https://doi.org/10.18742/j9tb-1734))
 - [Pompey Project](http://www.pompey.cch.kcl.ac.uk/)
-- [Profile of a Doomed Elite](http://domesday.pase.ac.uk/) + [PASE](http://pase.ac.uk)
 - [Prosopography of the Byzantine Empire](http://pbe.dighum.kcl.ac.uk/)
 - [Renaissance Skin](https://renaissanceskin.ac.uk/)
 - [Scrambled Messages](http://www.scrambledmessages.ac.uk/)
@@ -192,7 +192,7 @@ Projects converted to static sites remain on KDL infrastructure, but no longer o
 
 ## Minimally archived projects
 
-Minimally archived projects are no longer accessible. We maintain their original URL if it is under our control, and content files and data are archived for a minimum of two years on KDL’s infrastructure (we have had to limit this to two years for practical purposes but aim to keep data longer when feasible). We provide a static placeholder page for historic purposes, with basic information about the project and (where possible) screenshots and links to web archive snapshots. The reasons why a project would be archived in this fashion are diverse:
+Minimally archived projects are no longer accessible. We maintain their original URL if it is under our control, and content files and data are archived for a minimum of two years on KDL’s infrastructure (we have had to limit this to two years for practical purposes but aim to keep data longer when feasible). We provide a static placeholder page for historic purposes, with basic informaton about the project and (where possible) screenshots and links to web archive snapshots. The reasons why a project would be archived in this fashion are diverse:
 
 - The project had reached end-of-life;
 - There was no interest in funding or seeking funding to maintain website;
@@ -202,6 +202,7 @@ Minimally archived projects are no longer accessible. We maintain their original
 - Project was migrated at some time in the past but KDL retained a copy; or,
 - Intention is for project to migrate but there are no current resources to be able to do so at recipient institution.
 
+The list of projects which have been minimally archived:
 - [Archetype](http://archetype.ink)
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
