@@ -7110,7 +7110,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "The project partners were interested in the possibility of having an online resource which would  presents company data relating to various measures of social impact, and that would also facilitate public comments on / contributions to that data.  As an initial exploration of the concept KDL modelled the desired functionality and principal interactions and on the basis of those models created static mockup HTML pages which mimiced one of the principal user journeys that the resource would enable. These mockups were produced to support subsequent funding applications and were not published.",
+    "description": "The project partners were interested in the possibility of having an online resource which would  presents company data relating to various measures of social impact, and that would also facilitate public comments on / contributions to that data.  As an initial exploration of the concept KDL modelled the desired functionality and principal interactions and on the basis of those models created static mockup HTML pages which mimiced one of the principal user journeys that the resource would enable. These mockups were produced to support subsequent funding applications and were not published. See a prototype non-functional demo (not a publicly released) [here](https://chimp.kdl.kcl.ac.uk/index.html)",
     "dissolutionDate": "2019-08-31",
     "foundingDate": "2018-01-01",
     "id": "f5a7e040-eb75-4eac-9bd5-d20d09d104ad",
@@ -13115,13 +13115,13 @@
     "alternateName": "Radical Translations",
     "cmsStatus": "published",
     "description": "Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815) is a collaboration between King’s Digital Lab\n(KDL) and the Departments of French and Comparative Literature at King’s College London, the University of Milan-Bicocca, funded by the Arts and Humanities Research Council (UK), 2019-23. The project’s main objectives are\nto (i) provide a comparative study of the translation and circulation of democratic and free-thinking texts across Italy, France and Britain during the French Revolution and Napoleonic era; (ii) enhance public and academic awareness of the role of translation as an integral element of the revolutionary project; (iii) investigate how translation makes it possible for radical works to be ‘living texts’ that continually move forward into new communities, new places, new times. \n\nKDL worked with partners to define high level requirements\nat pre-project stage. This entailed the design and development of the overall technical solution for the project inclusive of a public website to make accessible relevant bibliographic and biographical data and within it, amongst other functionalities, five national timelines covering the three linguistic areas of the project (French, English and Italian) that showcase co-occurrences of macro-events relevant to both the history of radicalism as well as translation.",
-    "dissolutionDate": "2024-03-22",
+    "dissolutionDate": "2023-03-22",
     "foundingDate": "2019-08-01",
     "id": "48d15f7f-3e09-4dc6-8dae-9b0f56847235",
     "name": "Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)  ",
     "slug": "radical-translations",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
