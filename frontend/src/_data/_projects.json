@@ -11598,19 +11598,6 @@
       },
       {
         "agent": {
-          "id": "deeae2dc-bbc7-42c6-88a0-9a087cba076b",
-          "name": "Olga Loboda",
-          "slug": "olga-loboda"
-        },
-        "roleName": {
-          "name": "Research Software Designer",
-          "inDefinedTermSet": {
-            "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
           "name": "Paul Caton",
           "slug": "paul-caton"

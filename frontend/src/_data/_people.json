@@ -18122,29 +18122,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Mozart and Material Culture",
-            "alternateName": "MOZARTMC",
-            "slug": "mozartmc",
-            "foundingDate": "2017-02-02",
-            "dissolutionDate": "2019-03-06",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Music"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "King's Digital Lab",
