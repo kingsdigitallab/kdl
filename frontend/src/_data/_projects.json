@@ -8934,6 +8934,19 @@
       },
       {
         "agent": {
+          "id": "75f560b0-8f59-4479-9b13-5409bdaa7dac",
+          "name": "Alessandra Esposito",
+          "slug": "alessandra-esposito"
+        },
+        "roleName": {
+          "name": "Research Software Project Manager",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "5484f177-d3d5-400f-95c4-0b6cb8127e8f",
           "name": "Robin Wright",
           "slug": "robin-wright"
