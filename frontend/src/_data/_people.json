@@ -13893,7 +13893,7 @@
     "agent": {
       "name": "Lucie Mingmei Hao",
       "slug": "lucie-mingmei-hao",
-      "description": "Lucie joined KDL in August 2023 as a designer. She has an interdisciplinary background with expertise in academic research, human-computer interaction, frontend and web technologies, UI/UX. She is keen to draw connections between both digital media and innovative technologies. she also has practical experience in industry-focused media projects. \n\nShe was at the School of Medicine, Trinity College Dublin, Ireland before joining KDL and had hands-on experience working on web and online technologies. She has also previously worked at iBreve, an Irish-German digital health startup, where she was responsible for Innovation Management & R&D. During her time there she worked on TRUSTMEDICOS, a project funded by EU Horizon 2020. \n\nShe is passionate about creative design, digital health technologies, data visualization, AI, as well as the intersection of digital humanities and culture.\n\nShe holds a Master of Science in Interactive Digital Media in the School of Computer Science and Statistics from Trinity College Dublin, and a BA (Hons) in Film and Television Production in the School of Informatics and Creative Arts from Dundalk Institute of Technology. ",
+      "description": "Lucie was a designer at KDL from August 2023-March 2024. She has an interdisciplinary background with expertise in academic research, human-computer interaction, frontend and web technologies, UI/UX. She is keen to draw connections between both digital media and innovative technologies. she also has practical experience in industry-focused media projects. \n\nShe was at the School of Medicine, Trinity College Dublin, Ireland before joining KDL and had hands-on experience working on web and online technologies. She has also previously worked at iBreve, an Irish-German digital health startup, where she was responsible for Innovation Management & R&D. During her time there she worked on TRUSTMEDICOS, a project funded by EU Horizon 2020. \n\nShe is passionate about creative design, digital health technologies, data visualization, AI, as well as the intersection of digital humanities and culture.\n\nShe holds a Master of Science in Interactive Digital Media in the School of Computer Science and Statistics from Trinity College Dublin, and a BA (Hons) in Film and Television Production in the School of Informatics and Creative Arts from Dundalk Institute of Technology. ",
       "memberOf": [
         {
           "startDate": null,
@@ -14913,6 +14913,15 @@
           }
         }
       ]
+    }
+  },
+  {
+    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "agent": {
+      "name": "Mary Chester-Kadwell",
+      "slug": "mary-chester-kadwell",
+      "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
+      "memberOf": []
     }
   },
   {
