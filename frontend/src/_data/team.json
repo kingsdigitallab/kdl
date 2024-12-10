@@ -108,7 +108,15 @@
       "description": "Photo of Zihao Lu"
     }
   },
-  {
+{
+    "slug": "mary-chester-kadwell",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/mary-chester-kadwell.jpg",
+      "description": "Photo of Mary Chester-Kadwell"
+    }
+  },  {
     "slug": "patrick-ffrench",
     "name": "Patrick ffrench",
     "jobTitle": "Languages, Literatures and Cultures Affiliate",
@@ -207,7 +215,7 @@
   },
   {
     "slug": "lucie-mingmei-hao",
-    "jobTitle": "Research Software UI/UX Designer",
+    "jobTitle": "Former Research Software UI/UX Designer",
     "team": "Former staff",
     "feature": {
       "image": "/assets/images/people/lucie-mingmei-hao.jpg",
