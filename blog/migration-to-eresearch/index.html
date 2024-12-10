@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>Infrastructure Modernisation: A Year-Long Journey of Migrating Research Projects and Core Services | King&apos;s Digital Lab</title>
+
+<meta name="description" content="A year-long journey of migrating research projects and core services to King&apos;s e-Research facility.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Miguel Vieira">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/blog/migration-to-eresearch/">
+
+<meta property="og:title" content="Infrastructure Modernisation: A Year-Long Journey of Migrating Research Projects and Core Services | King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/blog/migration-to-eresearch/">
+<meta property="og:description" content="A year-long journey of migrating research projects and core services to King&apos;s e-Research facility.">
+<meta property="og:image" content="https://kdl.kcl.ac.uk/assets/images/blog/city-infrastructure-aerial.webp">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/blog/migration-to-eresearch/">
+<meta name="twitter:title" content="Infrastructure Modernisation: A Year-Long Journey of Migrating Research Projects and Core Services | King&apos;s Digital Lab">
+<meta name="twitter:description" content="A year-long journey of migrating research projects and core services to King&apos;s e-Research facility.">
+<meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/blog/city-infrastructure-aerial.webp">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+      <link href="/kdl/assets/stylesheets/main.css" rel="stylesheet">
+    
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/research-themes/">Research</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+  
+  <nav class="sub" aria-label="breadcrumbs">
+    <div class="kdl-container">
+      <ol>
+        
+          <li>
+            <a href="/kdl/blog/" aria-current="page">Blog</a>
+          </li>
+        
+      </ol>
+    </div>
+  </nav>
+
+
+
+
+      </header>
+    
+
+    
+      <main class="post">
+        
+  <div class="kdl-container">
+    <h1>Infrastructure Modernisation: A Year-Long Journey of Migrating Research Projects and Core Services</h1>
+
+    
+    <aside>
+    <h2>Table of contents</h2>
+    <nav class="toc">
+        <ol><li><a href="#introduction">Introduction</a></li><li><a href="#project-scope-and-challenges">Project Scope and Challenges</a></li><li><a href="#background-and-context">Background and Context</a></li><li><a href="#modernisation-strategy">Modernisation Strategy</a><ol><li><a href="#containerisation-and-standardisation">Containerisation and Standardisation</a></li><li><a href="#infrastructure-as-code">Infrastructure as Code</a></li></ol></li><li><a href="#technical-insights-and-lessons-learned">Technical Insights and Lessons Learned</a><ol><li><a href="#platform-specific-issues">Platform-Specific Issues</a></li><li><a href="#java-application-challenges">Java Application Challenges</a></li><li><a href="#docker-and-container-orchestration">Docker and Container Orchestration</a></li></ol></li><li><a href="#static-site-conversion%3A-a-sustainability-strategy">Static Site Conversion: A Sustainability Strategy</a><ol><li><a href="#the-decision-to-go-static">The Decision to Go Static</a></li><li><a href="#technical-implementation-process">Technical Implementation Process</a></li><li><a href="#stakeholder-engagement">Stakeholder Engagement</a></li></ol></li><li><a href="#impact-and-benefits">Impact and Benefits</a></li><li><a href="#team-and-timeline">Team and Timeline</a></li><li><a href="#looking-forward">Looking Forward</a></li><li><a href="#conclusion">Conclusion</a></li></ol>
+      </nav>
+  </aside>
+
+    <article>
+
+
+
+  
+  <article>
+    <header>
+      
+      <figure class="kdl-image">
+  <img loading="lazy" src="/kdl/assets/images/blog/city-infrastructure-aerial.webp" alt="Network of city lights viewed from above, representing the interconnected nature of modern digital infrastructure">
+  <figcaption>Aerial View of Urban Infrastructure at Night, by Natasha Dulhiier, Unsplash</figcaption>
+</figure>
+
+      
+    </header>
+
+    
+      
+      <article><h2 id="introduction" tabindex="-1">Introduction</h2>
+<p>Over the past year, our team has been working on a project to migrate our
+research projects from a private VMware infrastructure to a centrally managed
+OpenStack infrastructure within
+<a href="https://www.kcl.ac.uk/research/facilities/e-research">King's College London's e-Research department</a>.
+This migration represents not just a change in hosting, but a complete
+modernisation of our digital estate, encompassing projects spanning over
+two decades of digital humanities research.</p>
+<p>To date, we have successfully migrated the majority of our approximately 85
+projects, with only four remaining. For these remaining projects, we have
+implemented static copies to ensure continued access, to their public interfaces,
+while we complete their full migration, albeit with limited functionality.</p>
+<h2 id="project-scope-and-challenges" tabindex="-1">Project Scope and Challenges</h2>
+<p>The scope of this migration was particularly complex due to the diversity of our
+digital estate:</p>
+<ul>
+<li>Technologies ranged from <a href="https://www.java.com/">Java</a>-based webapps to
+<a href="https://www.djangoproject.com/">Django</a> applications and
+<a href="https://wordpress.org/">WordPress</a> sites</li>
+<li>Project ages varied significantly, with some dating back more than 20 years</li>
+<li>Version control systems included <a href="https://subversion.apache.org/">SVN</a> and
+<a href="https://www.mercurial-scm.org/">Mercurial</a> repositories that needed
+conversion to <a href="https://git-scm.com/">Git</a></li>
+<li>Legacy systems requiring <a href="https://www.docker.com/resources/what-container/">containerisation</a>
+while maintaining functionality</li>
+</ul>
+<h2 id="background-and-context" tabindex="-1">Background and Context</h2>
+<p>Our infrastructure and methodological approaches have been documented in several
+publications. For readers interested in a deeper understanding, we recommend:</p>
+<ul>
+<li>Ciula and Smithies, “Sustainability and Modelling at King’s Digital Lab:
+Between Tradition and Innovation”, in: Nyhan, Rockwell, Sinclair (eds.): On
+Making in the Digital Humanities. Essays on the Scholarship of Digital
+Humanities Development in Honour of John Bradley. London: University College
+London Press, 2023. <a href="https://doi.org/10.14324/111.9781800084209">https://doi.org/10.14324/111.9781800084209</a></li>
+<li>Smithies and Ciula. Humans in the Loop: Epistemology &amp; Method in King’s Digital
+Lab, Schuster &amp; Dunn eds. Routledge International handbook of research methods
+in digital humanities: 155-172, 2020. <a href="https://doi.org/10.4324/9780429777028-13">https://doi.org/10.4324/9780429777028-13</a></li>
+<li>DigiSpec: Scoping Future Born-Digital Data Services for the Arts and Humanities:
+Case Reports</li>
+</ul>
+<h2 id="modernisation-strategy" tabindex="-1">Modernisation Strategy</h2>
+<h3 id="containerisation-and-standardisation" tabindex="-1">Containerisation and Standardisation</h3>
+<p>A key aspect of our modernisation effort was the comprehensive containerisation
+of all active projects. This process revealed several challenges:</p>
+<ul>
+<li>Finding compatible Docker images for legacy software without extensive
+codebase modifications</li>
+<li>Addressing platform-specific issues, particularly with Apple Silicon machines</li>
+<li>Managing dependency updates across diverse technology stacks</li>
+<li>Dealing with encoding issues that manifested differently in OpenStack/Ubuntu
+compared to local environments</li>
+</ul>
+<h3 id="infrastructure-as-code" tabindex="-1">Infrastructure as Code</h3>
+<p>We significantly improved our deployment process by implementing infrastructure
+as code practices:</p>
+<ul>
+<li>The full infrastructure is now described in <a href="https://www.terraform.io/">Terraform</a>
+code, including the definition of all services, networks and security rules in
+conjunction with <a href="https://www.ansible.com/">Ansible</a> to manage the virtual
+machine itself. In addition, this ensures that VMs are auto-patched, typically
+weekly, contributing towards security</li>
+<li>Developed reusable <a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a> templates for
+common deployment patterns</li>
+<li>Created standardised <a href="https://www.docker.com/">Docker</a> templates for common
+service types (Django, <a href="https://tomcat.apache.org/">Tomcat</a>,
+<a href="https://cantaloupe-project.github.io/">Cantaloupe</a> image server,
+<a href="https://nginx.org/">nginx</a>, proxies)</li>
+<li>Simplified deployment to a git push operation</li>
+<li>Implemented consistent environment management across all projects</li>
+</ul>
+<h2 id="technical-insights-and-lessons-learned" tabindex="-1">Technical Insights and Lessons Learned</h2>
+<p>Throughout the migration, we encountered and resolved various technical
+challenges:</p>
+<h3 id="platform-specific-issues" tabindex="-1">Platform-Specific Issues</h3>
+<p>One of the most interesting aspects of the migration was dealing with
+platform-specific behaviours that only manifested in the OpenStack environment.
+A particularly notable example was with
+<a href="https://github.com/kcl-ddh/kiln">Kiln</a>/<a href="https://github.com/EpiDoc/EFES">EFES</a>
+projects, where XSLT processing would fail with non-obvious errors. The solution
+required deep diving into <a href="https://cocoon.apache.org">Cocoon</a>'s pipeline
+architecture and modifying how templates were processed.
+We also met with some architectural changes regarding presenting web sites to
+the Internet. We no longer place project servers directly in the Internet, but
+route all public web access via
+<a href="https://en.wikipedia.org/wiki/Web_application_firewall">web proxy servers</a>.</p>
+<h3 id="java-application-challenges" tabindex="-1">Java Application Challenges</h3>
+<p>Java applications presented unique challenges, particularly around class-loading
+behaviour. Loading order differed between local development and OpenStack
+environments, requiring careful management of JAR file placement to ensure
+consistent behaviour across environments.</p>
+<h3 id="docker-and-container-orchestration" tabindex="-1">Docker and Container Orchestration</h3>
+<p>Container-related issues required careful attention to platform compatibility,
+environment synchronisation, and dependency management. This was particularly
+challenging with legacy applications that required specific versions of
+dependencies or had complex runtime requirements.</p>
+<h2 id="static-site-conversion%3A-a-sustainability-strategy" tabindex="-1">Static Site Conversion: A Sustainability Strategy</h2>
+<h3 id="the-decision-to-go-static" tabindex="-1">The Decision to Go Static</h3>
+<p>Our approach to static conversion emerged as a key sustainability strategy,
+driven by practical considerations:</p>
+<ul>
+<li>Security vulnerabilities in legacy systems</li>
+<li>Limited resources for ongoing maintenance</li>
+<li>End of project funding cycles</li>
+<li>Technical feasibility issues</li>
+<li>Cost of maintaining dynamic infrastructure</li>
+</ul>
+<p>If interested, you can find out more about our
+<a href="https://kdl.kcl.ac.uk/slides/2024-london-static-first/">static-first development approach</a>.</p>
+<h3 id="technical-implementation-process" tabindex="-1">Technical Implementation Process</h3>
+<ol>
+<li>
+<p>Initial Site Capture</p>
+<ul>
+<li>Created complete site snapshots as the first step</li>
+<li>Documented existing functionality and user flows</li>
+<li>Identified critical features that needed preservation</li>
+<li>Used tools like <a href="https://ricks-apps.com/osx/sitesucker/index.html">Sitesucker</a>
+for creating comprehensive static snapshots</li>
+</ul>
+</li>
+<li>
+<p>Technical Challenges</p>
+<ul>
+<li>Sites with <a href="https://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a>-dependent
+interfaces required special handling</li>
+<li>For complex dynamic functionality:
+<ul>
+<li>Captured all necessary data states</li>
+<li>Reimplemented critical features using client-side tools</li>
+<li>Implemented modern static search functionality using
+<a href="https://pagefind.app/">pagefind</a> where needed</li>
+<li>Simplified interfaces where appropriate</li>
+</ul>
+</li>
+<li>Preserved core user experience while accepting some functionality trade-offs</li>
+</ul>
+</li>
+<li>
+<p>Sustainability Benefits</p>
+<ul>
+<li>Dramatically reduced security attack surface</li>
+<li>Minimal ongoing maintenance requirements</li>
+<li>Lower hosting costs</li>
+<li>Improved performance</li>
+<li>Extended project lifespan</li>
+</ul>
+</li>
+</ol>
+<h3 id="stakeholder-engagement" tabindex="-1">Stakeholder Engagement</h3>
+<p>The conversion process involved careful stakeholder management:</p>
+<ul>
+<li>Lab support team led communications with project stakeholders and senior
+management in our Faculty as well as relevant IT departments</li>
+<li>Clearly explained technical implications and benefits</li>
+<li>Focused on long-term preservation benefits</li>
+<li>Generally received positive reception due to extended project lifespan</li>
+<li>Transparent about functionality changes or limitations</li>
+</ul>
+<h2 id="impact-and-benefits" tabindex="-1">Impact and Benefits</h2>
+<p>The modernisation effort has yielded several key benefits:</p>
+<ul>
+<li>Improved maintainability through standardised deployment processes</li>
+<li>Enhanced sustainability through containerisation</li>
+<li>Reduced operational costs by optimising resource allocation</li>
+<li>Better documentation and reproducible infrastructure</li>
+<li>Simplified ongoing maintenance and updates</li>
+</ul>
+<p>These benefits allows us to pass on cost savings to our partners and Faculty,
+for whom we maintain these projects as well as align with central e-Research
+facility and services.</p>
+<h2 id="team-and-timeline" tabindex="-1">Team and Timeline</h2>
+<p>The project, so far, has presented significant resource challenges:</p>
+<ul>
+<li>Team composition shifted during the year-long project</li>
+<li>Balancing migration work with ongoing active projects</li>
+<li>Maintaining service continuity while implementing changes</li>
+<li>Managing knowledge transfer during team transitions</li>
+</ul>
+<h2 id="looking-forward" tabindex="-1">Looking Forward</h2>
+<p>This migration has positioned us better for future sustainability:</p>
+<ul>
+<li>Standardised processes for new project onboarding</li>
+<li>Improved infrastructure flexibility</li>
+<li>Better prepared for future technological changes</li>
+<li>More resilient and maintainable digital estate</li>
+</ul>
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<p>While more time-intensive than initially anticipated, this migration project has
+positively transformed our infrastructure and processes. The standardisation and
+modernisation efforts have not only improved our current operations but have
+also established a robust foundation for future digital humanities projects at
+KDL.</p>
+<p>Our shift towards a static-first approach, combined with comprehensive
+containerisation and automation, ensures that our digital research outputs remain
+accessible and maintainable for years to come. As we work to complete the
+migration of the final projects, the successful transformation of the majority
+of our digital estate demonstrates the value of systematic modernisation in
+research infrastructure (next major upgrade expected in 3 years time) and good
+team work!</p>
+</article>
+    
+
+    
+      <footer>
+        
+          
+            by
+            
+              
+              <span class="author"><a href="/kdl/about/people/miguel-vieira/">Miguel Vieira</a></span>
+
+          
+          
+            on
+            <time datetime="Tue Dec 10 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">Dec 10, 2024</time>
+
+        
+      </footer>
+    
+
+  </article>
+
+
+
+
+
+
+
+<div class="sibling-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      
+        <li>
+          <a href="/kdl/blog/migration-temporary-turnoffs/"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> KDL Infrastructure Migration - Temporary Site Turnoffs</a>
+        </li>
+      
+      
+    </ol>
+  </nav>
+</div>
+</article>
+    </div>
+
+      </main>
+    
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> Report a problem</a>
+        </li>
+        <li>
+          <address>
+            <a href="mailto:kdl-info@kcl.ac.uk"><ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+          </address>
+        </li>
+        <li>
+          <address class="postal">
+            King's College London
+            <br>
+            Room VWB 2.50,
+            <br>
+            Virginia Woolf Building
+            <br>
+            22 Kingsway
+            <br>
+            London WC2B 6LE
+          </address>
+        </li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<section class="footer-end">
+  <div class="kdl-container">
+    <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+  </div>
+</section>
+
+
+  </footer>
+
+
+    
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script data-goatcounter="https://kdl.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+
+  </body>
+</html>
