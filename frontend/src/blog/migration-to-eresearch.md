@@ -30,7 +30,7 @@ two decades of digital humanities research.
 
 To date, we have successfully migrated the majority of our approximately 85
 projects, with only four remaining. For these remaining projects, we have
-implemented static copies to ensure continued access, to their public interfaces,
+implemented static copies to ensure continued access to their public interfaces,
 while we complete their full migration, albeit with limited functionality.
 
 ## Project Scope and Challenges
