@@ -31,7 +31,8 @@
     "start-server-and-test": "^2.0.3"
   },
   "dependencies": {
-    "@directus/sdk": "^9.12.2"
+    "@directus/sdk": "^9.12.2",
+    "@kevingimbel/eleventy-plugin-mermaid": "^2.2.1"
   },
   "repository": {
     "type": "git",

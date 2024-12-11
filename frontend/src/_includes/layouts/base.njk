@@ -6,7 +6,7 @@
 {% set stylesheetsPath = config.paths.stylesheets %}
 
 {% block headExtra %}
-  <base href="{{ baseUrl }}" />
+  <base href="{{ baseUrl }}"/>
 {% endblock headExtra %}
 
 {% block headMeta %}
@@ -49,8 +49,12 @@
 {% endblock headerEnd %}
 
 {% block content %}
-  {% if navKey != "Home" %}<div class="kdl-container">{% endif %}
-    {% if navKey != "Home" %}<h1>{{ title | safe }}</h1>{% endif %}
+  {% if navKey != "Home" %}
+    <div class="kdl-container">
+    {% endif %}
+    {% if navKey != "Home" %}
+      <h1>{{ title | safe }}</h1>
+    {% endif %}
 
     {% if page.fileSlug == 'faqs' %}
       {% set tocTags = ["h2"] %}
@@ -58,7 +62,9 @@
     {% include "partials/toc.njk" %}
 
     <article>{{ content | safe }}</article>
-    {% if navKey != "Home" %}</div>{% endif %}
+    {% if navKey != "Home" %}
+    </div>
+  {% endif %}
 {% endblock content %}
 
 {% block footer %}
@@ -69,6 +75,7 @@
 {% endblock footer %}
 
 {% block bodyEnd %}
+  {% mermaid_js %}
   <script type="module"
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script data-goatcounter="https://kdl.goatcounter.com/count"
