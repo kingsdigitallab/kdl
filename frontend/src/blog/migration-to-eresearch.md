@@ -61,8 +61,9 @@ publications. For readers interested in a deeper understanding, we recommend:
 - Smithies and Ciula. Humans in the Loop: Epistemology & Method in King’s Digital
   Lab, Schuster & Dunn eds. Routledge International handbook of research methods
   in digital humanities: 155-172, 2020. <https://doi.org/10.4324/9780429777028-13>
-- DigiSpec: Scoping Future Born-Digital Data Services for the Arts and Humanities:
-  Case Reports
+- Digispec: Scoping Future Born-digital Data Services for the Arts and
+  Humanities: Case Reports. Zenodo, 31 Aug. 2022,
+  [doi:10.5281/zenodo.4716148](https://doi.org/10.5281/zenodo.4716148).
 
 ## Modernisation Strategy
 
