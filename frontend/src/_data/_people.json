@@ -24856,6 +24856,42 @@
           "roleName": {
             "name": "Research Software Designer"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
+            "alternateName": "Crossreads",
+            "slug": "crossreads",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2026-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Catania"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
         }
       ]
     }
