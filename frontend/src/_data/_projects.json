@@ -2769,7 +2769,7 @@
       },
       {
         "linkrole_id": {
-          "name": "Repository: kingsdigitallab/crossreads",
+          "name": "Repository (palaeography): kingsdigitallab/crossreads",
           "url": "https://github.com/kingsdigitallab/crossreads"
         }
       },
@@ -2777,6 +2777,18 @@
         "linkrole_id": {
           "name": "ERC URL",
           "url": "https://cordis.europa.eu/project/id/885040"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository (petrography): kingsdigitallab/crossreads-petrography",
+          "url": "https://github.com/kingsdigitallab/crossreads-petrography"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository (inscriptions): kingsdigitallab/corpus-building",
+          "url": "https://github.com/kingsdigitallab/corpus-building"
         }
       }
     ],
@@ -2997,6 +3009,19 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "390aeabc-49d9-4605-8e8b-f237a5f837bf",
+          "name": "Zihao Lu",
+          "slug": "zihao-lu"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       }
@@ -4734,6 +4759,12 @@
         "linkrole_id": {
           "name": "Models",
           "url": "https://etat-civil-django.readthedocs.io/en/latest/technical-overview.html"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Teaching resource",
+          "url": "https://miro.com/app/board/o9J_lRs9WpU=/?share_link_id=52435022766"
         }
       }
     ],
