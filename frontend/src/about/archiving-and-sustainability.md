@@ -180,6 +180,7 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Prosopography of the Byzantine Empire](http://pbe.dighum.kcl.ac.uk/)
 - [Renaissance Skin](https://renaissanceskin.ac.uk/)
 - [Scrambled Messages](http://www.scrambledmessages.ac.uk/)
+- [Sensing Place](https://sensingplace.org/)
 - [Shakespeare400](https://shakespeare400.kcl.ac.uk/)
 - [The Skenographia Project](http://www.skenographia.cch.kcl.ac.uk/index.html)
 - [Standards for Networking Ancient Prosopographies](https://snapdrgn.net/)
@@ -188,7 +189,6 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 
 ### Conversion to static in progress
 
-- [Sensing Place](https://sensingplace.org/)
 
 ## Minimally archived projects
 
