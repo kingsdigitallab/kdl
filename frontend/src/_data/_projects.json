@@ -2769,7 +2769,7 @@
       },
       {
         "linkrole_id": {
-          "name": "Repository: kingsdigitallab/crossreads",
+          "name": "Repository (palaeography): kingsdigitallab/crossreads",
           "url": "https://github.com/kingsdigitallab/crossreads"
         }
       },
@@ -2777,6 +2777,18 @@
         "linkrole_id": {
           "name": "ERC URL",
           "url": "https://cordis.europa.eu/project/id/885040"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository (petrography): kingsdigitallab/crossreads-petrography",
+          "url": "https://github.com/kingsdigitallab/crossreads-petrography"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository (inscriptions): kingsdigitallab/corpus-building",
+          "url": "https://github.com/kingsdigitallab/corpus-building"
         }
       }
     ],
@@ -4738,7 +4750,7 @@
       },
       {
         "linkrole_id": {
-          "name": "Teaching resource:",
+          "name": "Teaching resource",
           "url": "https://miro.com/app/board/o9J_lRs9WpU=/?share_link_id=52435022766"
         }
       }
