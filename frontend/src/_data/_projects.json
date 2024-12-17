@@ -4723,6 +4723,21 @@
         "definedterm_id": {
           "name": "Machine Learning and AI"
         }
+      },
+      {
+        "definedterm_id": {
+          "name": "History"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Linguistics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Languages and Literature"
+        }
       }
     ],
     "url": [
@@ -4772,11 +4787,18 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "f7218ee3-9f46-423d-9a6b-268d301f3c8c",
-            "name": "002 DELETE ME ONCE DELETE IS ALLOWED",
-            "slug": "002-delete-me-once-delete-is-allowed"
+            "id": "ebc885a6-81c2-4736-9183-10fd295a49af",
+            "name": "FAH Department of English",
+            "slug": "fah-department-of-english"
           },
-          "parentOrganisation": null
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
         }
       }
     ],
