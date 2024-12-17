@@ -4681,8 +4681,8 @@
   },
   {
     "alternateName": "Encyclopedia Britannica",
-    "cmsStatus": "draft",
-    "description": "This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the [Nineteenth-Century Knowledge Project](https://tu-plogan.github.io/), led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.\n\nThe scope of this exploratory project was for KDL to:\n- familiarise itself with the dataset (7th and 9th editions of the Encyclopedia Britannica);\n- experiment various computational linguistic methods (e.g. taxonomic classification, zero-shot classification, semantic topic modelling, semantic classification) and tools to assess their usefulness, limitations and potentials with respect to some research hypotheses around trends and shifts in the historical evolution of knowledge domains as represented in the Encyclopedia entries from cultural and linguistic perspectives;\n- identity the most promising classifier (a semantic search approach was selected);\n- develop prototype interfaces to manually review the quality of the resulting clusters and assist project partners with uncovering the contemporary organisation of knowledge rather than imposing modern constructs and prior knowledge. \n\nThis resulted in two prototype interfaces and associated documentation:\n- [keyword search](https://kingsdigitallab.github.io/eb-pre/kwsearch.html) (7th edition, 1830-1842, and 9th edition, 1875-1889) with domain filtering;\n- [semantic search](https://kingsdigitallab.github.io/eb-pre/semsearch.html?q=medicine&l=25&ml=10000) (7th edition, 1830-1842).\n\n",
+    "cmsStatus": "published",
+    "description": "This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the [Nineteenth-Century Knowledge Project](https://tu-plogan.github.io/), led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.\n\nThe scope of this exploratory project was for KDL to:\n- familiarise itself with the dataset (7th and 9th editions of the Encyclopedia Britannica);\n- experiment various computational linguistic methods (e.g. taxonomic classification, zero-shot classification, semantic topic modelling, semantic classification) and tools to assess their usefulness, limitations and potentials with respect to some research hypotheses around trends and shifts in the historical evolution of knowledge domains as represented in the Encyclopedia entries from cultural and linguistic perspectives;\n- identity the most promising classifier (a semantic search approach was selected);\n- develop prototype interfaces to manually review the quality of the resulting clusters and assist project partners with uncovering the contemporary organisation of knowledge rather than imposing modern constructs and prior knowledge. \n\nThis resulted in two prototype interfaces (we pages) and associated documentation:\n1. [keyword search](https://kingsdigitallab.github.io/eb-pre/kwsearch.html) (7th edition, 1830-1842, and 9th edition, 1875-1889) with domain filtering;\n2. [semantic search](https://kingsdigitallab.github.io/eb-pre/semsearch.html?q=medicine&l=25&ml=10000) (7th edition, 1830-1842).\n\nBoth of these are based on a language model made of vectors (also called “embeddings”), one for each word form used in the datasets and one for each Encyclopedia entry. The model is entirely trained from the corpus using off-the-shelf [word2vec](https://en.wikipedia.org/wiki/Word2vec) libraries ([Gensim](https://radimrehurek.com/gensim/) and [top2vec](https://github.com/ddangelov/Top2Vec)). This algorithm ensures that words used in similar constructs have similar vectors. The vector of an Encyclopedia entry is obtained by averaging the vectors of the words it contains. This model can therefore be used to search for the most similar words or entries to another given word or entry based on their distance in that joint space. \n\nThe first interface allows allows users to find entries by their heading in the Encyclopedia, their subject terms as extracted by the 19thC Knowledge Project or their domain (assigned by KDL via a classification process based on the models of contemporary descriptions of 6 core domains and associated seed words). \n\nWhile the second interface allows users to interact directly with a copy of the language model (compressed for the web, which slightly degrades its quality) to retrieve the semantically closest entries and words to any given word or entry heading. A click on any result will trigger a new query. This interface lets users break free from the pre-defined domains and interrogate the corpus for any frequent terms, whether they are high level categories of knowledge, specific concepts or actual persons or places.\n\n",
     "dissolutionDate": "2023-07-24",
     "foundingDate": "2023-04-13",
     "id": "44e6bc91-2e00-4be2-ace7-05afde368d18",
@@ -4694,9 +4694,37 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "59cd70f8-a16b-4c10-8a46-ade6f6d2bab1",
+      "storage": "local",
+      "filename_disk": "59cd70f8-a16b-4c10-8a46-ade6f6d2bab1.png",
+      "filename_download": "Encyclopedia_Britannica.png",
+      "title": "Screenshot of the Encyclopedia Britannica prototype interface for semantic search built by Geoffroy Noël.",
+      "type": "image/png",
+      "folder": null,
+      "uploaded_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
+      "uploaded_on": "2024-12-16T16:50:53.219Z",
+      "modified_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
+      "modified_on": "2024-12-16T16:57:00.325Z",
+      "charset": null,
+      "filesize": "408348",
+      "width": 1398,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "Interface with 3 columns: parameters for the search (query word or heading; minimum and maximum length; results per screen); list of nearest entries to the search with heading, lexical diversity metrics and link to the text of the corresponding entry; nearest words to the query.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -4739,9 +4767,73 @@
           },
           "parentOrganisation": null
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "f7218ee3-9f46-423d-9a6b-268d301f3c8c",
+            "name": "002 DELETE ME ONCE DELETE IS ALLOWED",
+            "slug": "002-delete-me-once-delete-is-allowed"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
-    "member": []
+    "member": [
+      {
+        "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1c1fd65e-208f-4e4c-9b2b-74c18b577017",
+          "name": "Marion Thain",
+          "slug": "marion-thain"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "ca09ce78-69f3-4622-b0e3-1e04f0c02ce9",
+          "name": "Peter Logan",
+          "slug": "peter-logan"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
   },
   {
     "alternateName": "",

@@ -1662,6 +1662,44 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Encyclopedia Britannica Exploratory Prototypes",
+            "alternateName": "Encyclopedia Britannica",
+            "slug": "encyclopedia-britannica-exploratory-prototypes",
+            "foundingDate": "2023-04-13",
+            "dissolutionDate": "2023-07-24",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "002 DELETE ME ONCE DELETE IS ALLOWED"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -7716,6 +7754,44 @@
       "slug": "geoffroy-noel",
       "description": "Geoffroy is a programmer analyst who joined King's College London in 2008, after more than nine years working for various technology startups in Brussels and London, and has since contributed to and led the analysis and software development of several Digital Humanities projects. Most of these projects were specifically about digital palaeography, codicology, diplomatics and online scholarly editions of medieval manuscripts. \n\nHe has a degree in Business Computing and a MSc in Intelligent Technologies from Birkbeck, University of London, with a particular focus on machine learning, knowledge representation, computational intelligence and evolutionary algorithms.\n\nGeoffroy enjoys building innovative and open source tools that empower academics with new ways to exploit the untapped potentials of their digitised research material.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Encyclopedia Britannica Exploratory Prototypes",
+            "alternateName": "Encyclopedia Britannica",
+            "slug": "encyclopedia-britannica-exploratory-prototypes",
+            "foundingDate": "2023-04-13",
+            "dissolutionDate": "2023-07-24",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Arts and Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Futures Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "002 DELETE ME ONCE DELETE IS ALLOWED"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
