@@ -4680,6 +4680,70 @@
     ]
   },
   {
+    "alternateName": "Encyclopedia Britannica",
+    "cmsStatus": "draft",
+    "description": "This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the [Nineteenth-Century Knowledge Project](https://tu-plogan.github.io/), led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.\n\nThe scope of this exploratory project was for KDL to:\n- familiarise itself with the dataset (7th and 9th editions of the Encyclopedia Britannica);\n- experiment various computational linguistic methods (e.g. taxonomic classification, zero-shot classification, semantic topic modelling, semantic classification) and tools to assess their usefulness, limitations and potentials with respect to some research hypotheses around trends and shifts in the historical evolution of knowledge domains as represented in the Encyclopedia entries from cultural and linguistic perspectives;\n- identity the most promising classifier (a semantic search approach was selected);\n- develop prototype interfaces to manually review the quality of the resulting clusters and assist project partners with uncovering the contemporary organisation of knowledge rather than imposing modern constructs and prior knowledge. \n\nThis resulted in two prototype interfaces and associated documentation:\n- [keyword search](https://kingsdigitallab.github.io/eb-pre/kwsearch.html) (7th edition, 1830-1842, and 9th edition, 1875-1889) with domain filtering;\n- [semantic search](https://kingsdigitallab.github.io/eb-pre/semsearch.html?q=medicine&l=25&ml=10000) (7th edition, 1830-1842).\n\n",
+    "dissolutionDate": "2023-07-24",
+    "foundingDate": "2023-04-13",
+    "id": "44e6bc91-2e00-4be2-ace7-05afde368d18",
+    "name": "Encyclopedia Britannica Exploratory Prototypes",
+    "slug": "encyclopedia-britannica-exploratory-prototypes",
+    "creativeWorkStatus": {
+      "name": "Post-project",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [],
+    "keywords": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://kingsdigitallab.github.io/eb-pre/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/eb-pre/",
+          "url": "https://github.com/kingsdigitallab/eb-pre/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Data",
+          "url": "https://tu-plogan.github.io/source/r_releases.html"
+        }
+      }
+    ],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "FAH",
+            "id": "f471d028-1bea-4504-9428-5dec831ef635",
+            "name": "Faculty of Arts and Humanities",
+            "slug": "faculty-of-arts-and-humanities"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": "DFI",
+            "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
+            "name": "Digital Futures Institute",
+            "slug": "digital-futures-institute"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": []
+  },
+  {
     "alternateName": "",
     "cmsStatus": "published",
     "description": "The 'État Civil' -- standing for civil registration of births, deaths and marriages -- exploratory project processes data from the Egyptian consulate of the 'État Civil' to visualise mobility on a continental or global scale and offers insights on patterns of migration and social history.\n\nKDL refined the data model and built the proof of concept solution for the project using Django, which provides functionality to upload the project dataset, add geographic locations to places, offer an admin/editing interface to manage the data, and export data into GeoJSON and CSV formats. The solution makes use of two existing tools to generate map visualisations: Kepler.gl and flowmap.",
