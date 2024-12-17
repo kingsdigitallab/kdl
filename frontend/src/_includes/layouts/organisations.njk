@@ -8,20 +8,22 @@ permalink: "about/partners-and-funders/{% if pagination.pageNumber > 0 %}{{ pagi
 <div class="wrapper">
   <ul>
     {%- for type, items in collections.organisations | groupby('data.index') -%}
-      <li>
-        <h2>{{ type }}</h2>
-        <ol>
-          {%- for item in items -%}
-            {% set org = item.data.agentInstance %}
-            <li>
-              <a href="{% route org.agent.slug, 'Partners and funders' %}">
-                {% set agentInstance = org %}
-                {% include "partials/organisation.njk" %}
-              </a>
-            </li>
-          {%- endfor -%}
-        </ol>
-      </li>
+      {% if type !== "0" %}
+        <li>
+          <h2>{{ type }}</h2>
+          <ol>
+            {%- for item in items -%}
+              {% set org = item.data.agentInstance %}
+              <li>
+                <a href="{% route org.agent.slug, 'Partners and funders' %}">
+                  {% set agentInstance = org %}
+                  {% include "partials/organisation.njk" %}
+                </a>
+              </li>
+            {%- endfor -%}
+          </ol>
+        </li>
+      {% endif %}
     {%- endfor -%}
   </ul>
 </div>
