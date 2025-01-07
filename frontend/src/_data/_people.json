@@ -6330,7 +6330,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "To Play For"
+                    "name": "Charisma.AI"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Parabolic Theatre"
                   }
                 }
               }
@@ -11078,7 +11085,14 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "To Play For"
+                    "name": "Charisma.AI"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Parabolic Theatre"
                   }
                 }
               }
