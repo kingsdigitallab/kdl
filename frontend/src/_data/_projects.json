@@ -1837,7 +1837,7 @@
     "name": "Brightening the Covenant Chain",
     "slug": "bcc",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -2615,7 +2615,7 @@
     "name": "Critical Modelling of Extensive Literary Data",
     "slug": "critical-modelling",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -3463,7 +3463,7 @@
     "name": "Data Portal Explorer",
     "slug": "data-portal-explorer",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -4700,7 +4700,7 @@
     "name": "Encyclopedia Britannica Exploratory Prototypes",
     "slug": "encyclopedia-britannica-exploratory-prototypes",
     "creativeWorkStatus": {
-      "name": "Post-project",
+      "name": "Active",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -5029,7 +5029,7 @@
     "name": "Farm-level Interdisciplinary Approaches to Endemic Livestock Disease",
     "slug": "field",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -8930,7 +8930,7 @@
     "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
     "slug": "ireal",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -9182,7 +9182,7 @@
   },
   {
     "alternateName": null,
-    "cmsStatus": "draft",
+    "cmsStatus": "published",
     "description": "The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2023-06-30",
@@ -10188,7 +10188,7 @@
     "name": "Living with Machines",
     "slug": "living-with-machines",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -16280,7 +16280,7 @@
     "name": "Tangible Inclusive Block-Based Language for Widening Access to Programming",
     "slug": "tangible-programming",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
