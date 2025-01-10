@@ -2999,6 +2999,19 @@
       },
       {
         "agent": {
+          "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
+          "name": "Miguel Vieira",
+          "slug": "miguel-vieira"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
           "name": "Tiffany Ong",
           "slug": "tiffany-ong"

@@ -16545,6 +16545,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
+            "alternateName": "Crossreads",
+            "slug": "crossreads",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2026-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Oxford"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Catania"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)  ",
             "alternateName": "Radical Translations",
             "slug": "radical-translations",
