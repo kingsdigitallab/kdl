@@ -7,7 +7,7 @@ tags:
   - digitalcreativity
 authors:
   - Elliott Hall
-date: 2024-11-01
+date: 2025-01-13
 draft: false
 excerpt: The breadth of practitioners provided a fascinating study in how different people approached “immersive.” I have an older understanding of the word, closer to practitioners from theatre like Punchdrunk. Bridge Command, however,  is structured and inspired by the tropes of TV Science Fiction. Jeroen van Hasselt of Entered has a background in video game design and then escape rooms, so he described his work as “live action video games.” Everyone is starting from their industry and then wandering into this shared space, picking up technologies, jargon, and design patterns as required
 feature:
