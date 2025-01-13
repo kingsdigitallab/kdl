@@ -8050,12 +8050,6 @@
           "name": "Repository: kingsdigitallab/ircyr-efes",
           "url": "https://github.com/kingsdigitallab/ircyr-efes"
         }
-      },
-      {
-        "linkrole_id": {
-          "name": "Repository: data",
-          "url": "https://doi.org/10.18742/c.6002275.v1"
-        }
       }
     ],
     "department": [
@@ -8474,6 +8468,12 @@
         "linkrole_id": {
           "name": "Repository: kingsdigitallab/ircyr-efes",
           "url": "https://github.com/kingsdigitallab/ircyr-efes"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Data deposit repository",
+          "url": "https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275"
         }
       }
     ],
