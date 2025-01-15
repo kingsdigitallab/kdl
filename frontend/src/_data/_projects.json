@@ -12612,7 +12612,7 @@
   {
     "alternateName": "PDE/PASE",
     "cmsStatus": "published",
-    "description": "",
+    "description": "The project will use innovative methods for interpreting Domesday Book to survey the whole of English landed society on the eve of the Norman Conquest in 1066, identifying landowners at all levels of society from the king and earls down to the parish gentry and even some prosperous peasants.\n\n‘Profile of a Doomed Elite’ built on and refined the [Prosopography of Anglo-Saxon England's](https://pase.ac.uk/) coverage of the late Anglo-Saxon nobility on the eve of its demise. It opens up the prospect of a major breakthrough in our knowledge of the Norman Conquest, one of the defining moments in English and European history.",
     "dissolutionDate": null,
     "foundingDate": null,
     "id": "02848e7c-67e9-44a0-bf88-9e0becb05d45",
@@ -16286,7 +16286,7 @@
   {
     "alternateName": "TIBBL",
     "cmsStatus": "published",
-    "description": "The TIBBL: Tangible Inclusive Block-Based Language for Widening Access to Programming project sought to develop an inexpensive, open-source, tangible programming toolkit inclusive of people with visual impairments. A proof of concept for the tool was developed by KDL in 2022 utilising computer vision via the TopCodes JavaScript library. A full prototype of the tool was then developed through an iterative co-design process in partnership with a group of students with mixed visual abilities and their computing teacher.",
+    "description": "The TIBBL: Tangible Inclusive Block-Based Language for Widening Access to Programming project seeks to develop an inexpensive, open-source, tangible programming toolkit inclusive of people with visual impairments. A proof of concept for the tool was developed by KDL in 2022 utilising computer vision via the TopCodes JavaScript library. A full prototype of the tool was then developed through an iterative co-design process in partnership with a group of students with mixed visual abilities and their computing teacher.",
     "dissolutionDate": "2023-07-31",
     "foundingDate": "2022-11-10",
     "id": "7642f924-3374-4bfc-9773-c18352998dd8",

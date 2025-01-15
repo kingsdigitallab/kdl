@@ -1,11 +1,11 @@
 [
   {
     "cmsDateCreated": "2024-12-16T16:37:38.872Z",
-    "cmsDateUpdated": "2024-12-17T11:54:39.732Z",
+    "cmsDateUpdated": "2025-01-15T11:45:20.275Z",
     "cmsSort": null,
     "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "dissolutionDate": "2025-01-27",
+    "foundingDate": "2025-01-22",
     "id": "522f6a62-0ba5-4625-8287-af0a72b839b0",
     "agent": {
       "alternateName": null,
