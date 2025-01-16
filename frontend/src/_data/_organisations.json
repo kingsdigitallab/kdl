@@ -1,51 +1,5 @@
 [
   {
-    "cmsDateCreated": "2024-12-16T16:37:38.775Z",
-    "cmsDateUpdated": "2024-12-17T11:56:20.055Z",
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "bc0ab062-be63-405a-aadf-d7bd836a365b",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2024-12-17T11:56:00.047Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "e7aca744-202e-4d5a-bbc6-68ac0fe76a06",
-      "name": "001 DELETE ME ONCE DELETE IS ALLOWED",
-      "slug": "001-delete-me-once-delete-is-allowed",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
-    "cmsDateCreated": "2024-12-16T16:33:52.246Z",
-    "cmsDateUpdated": "2024-12-17T11:58:00.713Z",
-    "cmsSort": null,
-    "cmsStatus": "draft",
-    "dissolutionDate": null,
-    "foundingDate": null,
-    "id": "adc4bbc7-f0e2-486d-87fc-2f12c4f4867a",
-    "agent": {
-      "alternateName": null,
-      "cmsDateCreated": "2024-12-17T11:57:48.832Z",
-      "cmsDateUpdated": null,
-      "cmsSort": null,
-      "description": null,
-      "id": "f7218ee3-9f46-423d-9a6b-268d301f3c8c",
-      "name": "002 DELETE ME ONCE DELETE IS ALLOWED",
-      "slug": "002-delete-me-once-delete-is-allowed",
-      "url": [],
-      "memberOf": []
-    },
-    "parentOrganisation": null,
-    "subOrganisation": []
-  },
-  {
     "cmsDateCreated": "2023-04-17T13:54:58.847Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
