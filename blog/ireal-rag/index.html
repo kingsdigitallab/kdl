@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>Prototyping a RAG System for Digital Humanities: Exploring AI/ML with Indigenous Data | King&apos;s Digital Lab</title>
+
+<meta name="description" content="A prototype RAG system for Indigenous data, exploring the use of AI/ML in the context of sensitive cultural data.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Miguel Vieira, Samantha Callaghan">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/blog/ireal-rag/">
+
+<meta property="og:title" content="Prototyping a RAG System for Digital Humanities: Exploring AI/ML with Indigenous Data | King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/blog/ireal-rag/">
+<meta property="og:description" content="A prototype RAG system for Indigenous data, exploring the use of AI/ML in the context of sensitive cultural data.">
+<meta property="og:image" content="https://kdl.kcl.ac.uk/assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/blog/ireal-rag/">
+<meta name="twitter:title" content="Prototyping a RAG System for Digital Humanities: Exploring AI/ML with Indigenous Data | King&apos;s Digital Lab">
+<meta name="twitter:description" content="A prototype RAG system for Indigenous data, exploring the use of AI/ML in the context of sensitive cultural data.">
+<meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+      <link href="/kdl/assets/stylesheets/main.css" rel="stylesheet">
+    
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/research-themes/">Research</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+  
+  <nav class="sub" aria-label="breadcrumbs">
+    <div class="kdl-container">
+      <ol>
+        
+          <li>
+            <a href="/kdl/blog/" aria-current="page">Blog</a>
+          </li>
+        
+      </ol>
+    </div>
+  </nav>
+
+
+
+
+      </header>
+    
+
+    
+      <main class="post">
+        
+  
+    <div class="kdl-container">
+    
+    
+      <h1>Prototyping a RAG System for Digital Humanities: Exploring AI/ML with Indigenous Data</h1>
+    
+
+    
+    <aside>
+    <h2>Table of contents</h2>
+    <nav class="toc">
+        <ol><li><a href="#project-overview">Project Overview</a></li><li><a href="#understanding-rag-systems-in-dh">Understanding RAG Systems in DH</a></li><li><a href="#key-aspects-of-the-prototype">Key Aspects of the Prototype</a></li><li><a href="#technical-implementation">Technical Implementation</a><ol><li><a href="#system-architecture-overview">System Architecture Overview</a></li><li><a href="#key-components-in-implementing-a-rag-system">Key Components in Implementing a RAG System</a></li><li><a href="#implementation-techniques">Implementation Techniques</a></li></ol></li><li><a href="#designing-a-user-interface-for-rag-systems">Designing a User Interface for RAG Systems</a></li><li><a href="#ethical-considerations-in-rag-setup">Ethical Considerations in RAG Setup</a></li><li><a href="#understanding-rag-limitations">Understanding RAG Limitations</a></li><li><a href="#conclusion%3A-fostering-discussion-on-ai%2Fml-and-indigenous-data">Conclusion: Fostering Discussion on AI/ML and Indigenous Data</a></li></ol>
+      </nav>
+  </aside>
+
+    <article>
+
+
+
+  
+  <article>
+    <header>
+      
+      <figure class="kdl-image">
+  <img loading="lazy" src="/kdl/assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp" alt="A neural network comes out of the top of an ivory tower, above a crowd of people&#39;s heads (shown in green to symbolise grass roots). Some of them are reaching up to try and take some control and pull the net down to them. Watercolour illustration.">
+  <figcaption>Jamillah Knowles &amp; We and AI / Better Images of AI / People and Ivory Tower AI / CC-BY 4.0</figcaption>
+</figure>
+
+      
+    </header>
+
+    
+      
+      <article><p>In the evolving landscape of Digital Humanities (DH) and Research Software Engineering (RSE), the integration of advanced AI techniques is opening new avenues for research and data exploration. This blog post explores the process of prototyping a Retrieval-Augmented Generation (RAG) system, with a specific focus on its application to Indigenous data. Our primary goal is to stimulate discussion around the use of AI/ML in the context of sensitive cultural data.</p>
+<h2 id="project-overview" tabindex="-1">Project Overview</h2>
+<p>This prototype RAG system was developed as part of a larger dashboard project, aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.</p>
+<h2 id="understanding-rag-systems-in-dh" tabindex="-1">Understanding RAG Systems in DH</h2>
+<p>Retrieval-Augmented Generation (RAG) combines large language models with a knowledge base of specific information. In a DH context, this can be particularly powerful for exploring and analysing historical records, cultural artifacts, or literary works. RAG systems work by first retrieving relevant information from a database, then using this information to generate responses, ensuring answers are grounded in actual historical data.</p>
+<h2 id="key-aspects-of-the-prototype" tabindex="-1">Key Aspects of the Prototype</h2>
+<ol>
+<li>
+<p><strong>Data Preparation</strong>:</p>
+<ul>
+<li>Original data was in Word format, converted to JSON for indexing and Markdown for frontend presentation.</li>
+<li>This conversion process highlights the challenges of standardising diverse historical documents for machine processing.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ethical Considerations</strong>:</p>
+<ul>
+<li>The RSE team maintained constant contact with Indigenous, Co-Leads of the <a href="https://kdl.kcl.ac.uk/projects/ireal/">iREAL project</a>, community representatives throughout the development process.</li>
+<li>This collaboration underscores the importance of involving partners and stakeholders when working with culturally sensitive data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Performance and Feedback</strong>:</p>
+<ul>
+<li>A user feedback system was implemented in the frontend, allowing users to rate the helpfulness of each response.</li>
+<li>While formal evaluation metrics were not implemented at this stage, the project team expressed interest in using more formal evaluation mechanisms (like <a href="https://phoenix.arize.com/">Arize Phoenix</a>) in future iterations.</li>
+</ul>
+</li>
+<li>
+<p><strong>Integration with Broader Context</strong>:</p>
+<ul>
+<li>The RAG system integrates with a wider dashboard, linking AI-generated responses to original records.</li>
+<li>This feature enhances transparency and allows users to verify information against primary sources.</li>
+</ul>
+</li>
+<li>
+<p><strong>Prototype Nature and Goals</strong>:</p>
+<ul>
+<li>The primary objective was to elicit discussion around AI/ML and Indigenous data, rather than to create a production-ready system.</li>
+<li>This approach allows for exploration of potential benefits and risks without the pressure of immediate practical application.</li>
+</ul>
+</li>
+<li>
+<p><strong>Challenges and Lessons Learned</strong>:</p>
+<ul>
+<li>A major challenge was addressing semantic drift, highlighting the complexity of creating a truly useful RAG system beyond basic implementation.</li>
+<li>This experience underscores the gap between initial setup and developing a system that performs well enough to be genuinely useful in research contexts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Collaborative Development</strong>:</p>
+<ul>
+<li>The project involved about 15 days of work from a multi-disciplinary team.</li>
+<li>This collaborative approach brought diverse perspectives to bear on the challenges of applying AI to cultural heritage data.</li>
+</ul>
+</li>
+</ol>
+<h2 id="technical-implementation" tabindex="-1">Technical Implementation</h2>
+<h3 id="system-architecture-overview" tabindex="-1">System Architecture Overview</h3>
+<p>To provide a clear visual representation of the RAG system's architecture, here's a high-level diagram of the process flow:</p>
+<pre class="mermaid">graph LR&#10;A[Add data] --&gt; B[Prepare data]&#10;B --&gt; C[Start Docker Compose]&#10;B --&gt; D[Start Ollama]&#10;B --&gt; E[Index data]&#10;E --&gt; F[Query data]&#10;</pre>
+<h3 id="key-components-in-implementing-a-rag-system" tabindex="-1">Key Components in Implementing a RAG System</h3>
+<p>When setting up a RAG system for Digital Humanities, consider incorporating these key components:</p>
+<ol>
+<li>
+<p><strong>Document Processing Pipeline</strong>:</p>
+<ul>
+<li>Implement a robust ingestion pipeline that can handle various document formats.</li>
+<li>Use document splitters to break down large texts into manageable chunks.</li>
+<li>Apply transformations to extract metadata, such as entities, keywords, and summaries.</li>
+</ul>
+</li>
+<li>
+<p><strong>Embedding and Vectorisation</strong>:</p>
+<ul>
+<li>Choose an appropriate embedding model for your domain.</li>
+<li>Implement a vector store to efficiently store and retrieve document embeddings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieval Mechanisms</strong>:</p>
+<ul>
+<li>Implement multiple retrieval methods, such as vector similarity search and keyword-based retrieval (e.g., BM25).</li>
+<li>Consider using a fusion of different retrieval methods for more robust results.</li>
+</ul>
+</li>
+<li>
+<p><strong>Query Processing</strong>:</p>
+<ul>
+<li>Develop a flexible query engine that can handle various types of queries.</li>
+<li>Implement query transformation techniques, such as Hypothetical Document Embeddings (HyDE), to improve retrieval.</li>
+</ul>
+</li>
+<li>
+<p><strong>Response Generation</strong>:</p>
+<ul>
+<li>Use a language model to generate responses based on retrieved context.</li>
+<li>Implement a prompt template system to guide the language model's responses.</li>
+</ul>
+</li>
+<li>
+<p><strong>Evaluation and Iteration</strong>:</p>
+<ul>
+<li>Implement relevancy evaluators to assess the quality of responses.</li>
+<li>Use techniques like retry mechanisms to improve response quality.</li>
+</ul>
+</li>
+</ol>
+<h3 id="implementation-techniques" tabindex="-1">Implementation Techniques</h3>
+<p>Here are some specific techniques you might consider when implementing your RAG system:</p>
+<ol>
+<li>
+<p><strong>Flexible Configuration</strong>: Use environment variables or configuration files to make your system easily adjustable without code changes.</p>
+</li>
+<li>
+<p><strong>Modular Design</strong>: Structure your code in a modular way, allowing easy swapping of components (e.g., different embedding models or retrieval methods).</p>
+</li>
+<li>
+<p><strong>Caching</strong>: Implement caching mechanisms to improve performance, especially for resource-intensive operations like document processing.</p>
+</li>
+<li>
+<p><strong>Asynchronous Processing</strong>: Utilize asynchronous programming techniques for improved performance, especially in data retrieval and processing.</p>
+</li>
+<li>
+<p><strong>Error Handling and Logging</strong>: Implement robust error handling and logging to facilitate debugging and system monitoring.</p>
+</li>
+<li>
+<p><strong>Command-Line Interface</strong>: Develop a CLI for easy interaction with your system, allowing operations like indexing, querying, and data export.</p>
+</li>
+<li>
+<p><strong>Observability</strong>: Integrate tracing and monitoring tools to gain insights into your system's performance and behaviour.</p>
+</li>
+</ol>
+<h2 id="designing-a-user-interface-for-rag-systems" tabindex="-1">Designing a User Interface for RAG Systems</h2>
+<figure><img src="/kdl/assets/images/blog/ireal-dashboard.jpg" alt="Dashboard highlighting the RAG functionality"><figcaption>Dashboard highlighting the RAG functionality</figcaption></figure>
+<p>A well-designed user interface is essential for making your RAG system accessible and useful to researchers and other users in the Digital Humanities field. Here are some key considerations and features to include in your RAG system's frontend:</p>
+<ol>
+<li>
+<p><strong>Intuitive Query Input</strong>:</p>
+<ul>
+<li>Provide a clear, prominent input area for users to enter their questions.</li>
+<li>Consider offering example questions to help users understand the system's capabilities.</li>
+</ul>
+</li>
+<li>
+<p><strong>Conversation History</strong>:</p>
+<ul>
+<li>Display a chat-like interface showing the history of questions and answers.</li>
+<li>Include timestamps and other metadata to provide context for each interaction.</li>
+</ul>
+</li>
+<li>
+<p><strong>Answer Presentation</strong>:</p>
+<ul>
+<li>Present AI-generated responses in a clear, readable format.</li>
+<li>Use markdown or HTML formatting to enhance readability of complex responses.</li>
+</ul>
+</li>
+<li>
+<p><strong>Source Attribution</strong>:</p>
+<ul>
+<li>Provide a way to view the source documents or context used to generate each answer.</li>
+<li>Include links to original documents when possible, enhancing the system's value as a research tool.</li>
+</ul>
+</li>
+<li>
+<p><strong>User Feedback Mechanism</strong>:</p>
+<ul>
+<li>Implement a simple way for users to provide feedback on the quality of responses (e.g., thumbs up/down buttons).</li>
+<li>Use this feedback to improve the system over time and to gather metrics on system performance.</li>
+</ul>
+</li>
+<li>
+<p><strong>Customisation Options</strong>:</p>
+<ul>
+<li>Allow users to customise the AI's behaviour, such as by modifying the prompt or specifying the AI's role.</li>
+<li>Provide access to default settings and explanations of how customisation affects results.</li>
+</ul>
+</li>
+<li>
+<p><strong>Help and Documentation</strong>:</p>
+<ul>
+<li>Include a comprehensive help section explaining how to use the system effectively.</li>
+<li>Provide information about the RAG technique and its limitations to set appropriate user expectations.</li>
+</ul>
+</li>
+<li>
+<p><strong>Responsive Design</strong>:</p>
+<ul>
+<li>Ensure the interface works well on various devices and screen sizes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessibility</strong>:</p>
+<ul>
+<li>Implement proper ARIA labels and ensure the interface is navigable by keyboard.</li>
+<li>Use semantic HTML to improve screen reader compatibility.</li>
+</ul>
+</li>
+<li>
+<p><strong>Error Handling and Loading States</strong>:</p>
+<ul>
+<li>Provide clear feedback when the system is processing a query.</li>
+<li>Handle and display errors gracefully to maintain a good user experience.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Persistence</strong>:</p>
+<ul>
+<li>Consider using local storage to save chat history and user preferences.</li>
+<li>Provide options for users to clear their data for privacy.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ethical Considerations in UI</strong>:</p>
+<ul>
+<li>Clearly communicate the prototype or experimental nature of the system if applicable.</li>
+<li>Provide warnings about potential biases or limitations in the historical data. <em>Note that in an Australian Indigenous context where the names or images of those who have passed may be included in the digital resource that an appropriate warning must be given prior to a user accessing either the data or associated outputs, including the RAG.</em></li>
+<li>Encourage critical thinking and verification of important information.</li>
+</ul>
+</li>
+</ol>
+<h2 id="ethical-considerations-in-rag-setup" tabindex="-1">Ethical Considerations in RAG Setup</h2>
+<p>When setting up a RAG system, especially when dealing with sensitive historical data, consider these ethical implications:</p>
+<ol>
+<li><strong>Respectful data management</strong>: Ensure that AI processing respects the cultural significance of the data.</li>
+<li><strong>Human interpretation</strong>: Acknowledge the importance of human interpretation alongside AI-generated insights.</li>
+<li><strong>Community involvement</strong>: When dealing with cultural heritage, involve relevant communities in the project decision-making and development, as well as interpretation of results.</li>
+<li><strong>Ethical approval</strong>: Seek appropriate ethical approvals, from relevant communities and appropriate institutional ethics boards, before processing sensitive data.</li>
+<li><strong>Transparency about limitations</strong>: Clearly communicate the system's potential for errors or biases.</li>
+<li><strong>Encouraging critical thinking</strong>: Design the system to prompt users to reflect on the implications of AI in this context.</li>
+</ol>
+<h2 id="understanding-rag-limitations" tabindex="-1">Understanding RAG Limitations</h2>
+<p>Be aware of these common limitations in RAG systems:</p>
+<ol>
+<li><strong>Hallucination</strong>: The AI might generate information not present in the source documents.</li>
+<li><strong>Context Limitations</strong>: The system can only work with the provided context, which may not always be comprehensive.</li>
+<li><strong>Temporal Confusion</strong>: AI may struggle with understanding historical timelines accurately.</li>
+<li><strong>Inconsistent Answers</strong>: Responses to similar queries might vary.</li>
+<li><strong>Bias in Source Material</strong>: AI responses will reflect biases present in the original documents.</li>
+</ol>
+<h2 id="conclusion%3A-fostering-discussion-on-ai%2Fml-and-indigenous-data" tabindex="-1">Conclusion: Fostering Discussion on AI/ML and Indigenous Data</h2>
+<p>The development of this RAG system prototype serves as a valuable case study in the application of AI/ML technologies to sensitive cultural data. While the system itself is not intended for production use, it successfully highlights key areas for discussion:</p>
+<ol>
+<li>
+<p><strong>Ethical AI Development</strong>: How can we ensure AI systems respect and preserve the cultural context of Indigenous data?</p>
+</li>
+<li>
+<p><strong>Community Involvement</strong>: What are the best practices for involving community partners in AI projects dealing with cultural heritage?</p>
+</li>
+<li>
+<p><strong>Balancing Innovation and Sensitivity</strong>: How can we explore the potential of AI in digital humanities while maintaining respect for the communities represented in the data?</p>
+</li>
+<li>
+<p><strong>Transparency and Accountability</strong>: What mechanisms should be in place to ensure AI systems processing cultural data are transparent and accountable?</p>
+</li>
+<li>
+<p><strong>Future of AI in Digital Humanities</strong>: How might tools like this shape future research methodologies in digital humanities?</p>
+</li>
+</ol>
+<p>By engaging with these questions, researchers and developers can work towards creating AI systems that not only advance digital humanities research but do so in a way that is ethically sound and culturally respectful.</p>
+<p>As we continue to explore the intersection of AI and cultural heritage, projects like this prototype serve as important stepping stones, encouraging critical thinking and fostering crucial discussions about the role of technology in preserving and studying our diverse cultural histories.</p>
+</article>
+    
+
+    
+      <footer>
+        
+          
+            by
+            
+              
+              <span class="author"><a href="/kdl/about/people/miguel-vieira/">Miguel Vieira</a></span>
+,
+              
+              
+              <span class="author"><a href="/kdl/about/people/samantha-callaghan/">Samantha Callaghan</a></span>
+
+          
+          
+            on
+            <time datetime="Thu Jan 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">Jan 16, 2025</time>
+
+        
+      </footer>
+    
+
+  </article>
+
+
+
+
+
+
+
+<div class="sibling-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      
+        <li>
+          <a href="/kdl/blog/iensummit/"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> Creative Chimeras</a>
+        </li>
+      
+      
+    </ol>
+  </nav>
+</div>
+</article>
+    
+    </div>
+  
+
+      </main>
+    
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> Report a problem</a>
+        </li>
+        <li>
+          <address>
+            <a href="mailto:kdl-info@kcl.ac.uk"><ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+          </address>
+        </li>
+        <li>
+          <address class="postal">
+            King's College London
+            <br>
+            Room VWB 2.50,
+            <br>
+            Virginia Woolf Building
+            <br>
+            22 Kingsway
+            <br>
+            London WC2B 6LE
+          </address>
+        </li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<section class="footer-end">
+  <div class="kdl-container">
+    <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+  </div>
+</section>
+
+
+  </footer>
+
+
+    
+  <script type="module" async="">import mermaid from "https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs";document.addEventListener('DOMContentLoaded', mermaid.initialize({"loadOnSave":true}));</script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script data-goatcounter="https://kdl.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+
+  </body>
+</html>
