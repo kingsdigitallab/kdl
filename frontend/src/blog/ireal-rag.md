@@ -24,7 +24,7 @@ In the evolving landscape of Digital Humanities (DH) and Research Software Engin
 
 ## Project Overview
 
-This prototype RAG system was developed as part of a larger dashboard project, aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
+This prototype RAG system (see [iREAL GitHub repository](https://github.com/kingsdigitallab/iREAL)) was developed as part of a larger dashboard project, in the context of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
 
 ## Understanding RAG Systems in DH
 
@@ -39,7 +39,7 @@ Retrieval-Augmented Generation (RAG) combines large language models with a knowl
 
 2. **Ethical Considerations**:
 
-   - The RSE team maintained constant contact with Indigenous, Co-Leads of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), community representatives throughout the development process.
+   - The RSE team maintained constant contact with Indigenous Australian Co-Leads of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), community representatives, throughout the development process.
    - This collaboration underscores the importance of involving partners and stakeholders when working with culturally sensitive data.
 
 3. **Performance and Feedback**:
@@ -59,7 +59,7 @@ Retrieval-Augmented Generation (RAG) combines large language models with a knowl
 
 6. **Challenges and Lessons Learned**:
 
-   - A major challenge was addressing semantic drift, highlighting the complexity of creating a truly useful RAG system beyond basic implementation.
+   - A major challenge was addressing semantic drift; highlighting the complexity of creating a truly useful RAG system beyond basic implementation.
    - This experience underscores the gap between initial setup and developing a system that performs well enough to be genuinely useful in research contexts.
 
 7. **Collaborative Development**:
@@ -205,7 +205,7 @@ When setting up a RAG system, especially when dealing with sensitive historical 
 1. **Respectful data management**: Ensure that AI processing respects the cultural significance of the data.
 2. **Human interpretation**: Acknowledge the importance of human interpretation alongside AI-generated insights.
 3. **Community involvement**: When dealing with cultural heritage, involve relevant communities in the project decision-making and development, as well as interpretation of results.
-4. **Ethical approval**: Seek appropriate ethical approvals, from relevant communities and appropriate institutional ethics boards, before processing sensitive data.
+4. **Ethical approval**: Seek appropriate ethical approvals, from relevant communities and required institutional ethics boards, before processing sensitive data.
 5. **Transparency about limitations**: Clearly communicate the system's potential for errors or biases.
 6. **Encouraging critical thinking**: Design the system to prompt users to reflect on the implications of AI in this context.
 
@@ -225,7 +225,7 @@ The development of this RAG system prototype serves as a valuable case study in 
 
 1. **Ethical AI Development**: How can we ensure AI systems respect and preserve the cultural context of Indigenous data?
 
-2. **Community Involvement**: What are the best practices for involving community partners in AI projects dealing with cultural heritage?
+2. **Community Involvement**: What are the best practices for involving community partners in AI projects that may include their cultural heritage?
 
 3. **Balancing Innovation and Sensitivity**: How can we explore the potential of AI in digital humanities while maintaining respect for the communities represented in the data?
 
