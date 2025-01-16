@@ -24,7 +24,7 @@ In the evolving landscape of Digital Humanities (DH) and Research Software Engin
 
 ## Project Overview
 
-This prototype RAG system (see [iREAL GitHub repository](https://github.com/kingsdigitallab/iREAL)) was developed as part of a larger dashboard project, in the context of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
+This prototype RAG system (see [iREAL GitHub repository](https://github.com/kingsdigitallab/iREAL)) was developed as part of a larger dashboard, in the context of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
 
 ## Understanding RAG Systems in DH
 
@@ -44,7 +44,7 @@ Retrieval-Augmented Generation (RAG) combines large language models with a knowl
 
 3. **Performance and Feedback**:
 
-   - A user feedback system was implemented in the frontend, allowing users to rate the helpfulness of each response.
+   - A user feedback system was implemented in the frontend, allowing dashboard users to rate the helpfulness of each response.
    - While formal evaluation metrics were not implemented at this stage, the project team expressed interest in using more formal evaluation mechanisms (like [Arize Phoenix](https://phoenix.arize.com/)) in future iterations.
 
 4. **Integration with Broader Context**:
@@ -172,7 +172,7 @@ A well-designed user interface is essential for making your RAG system accessibl
 7. **Help and Documentation**:
 
    - Include a comprehensive help section explaining how to use the system effectively.
-   - Provide information about the RAG technique and its limitations to set appropriate user expectations.
+   - Provide information about the RAG technique and its limitations to set appropriate user expectations and encourage critical engagement with the tool.
 
 8. **Responsive Design**:
 
