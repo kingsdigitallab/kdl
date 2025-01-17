@@ -54,7 +54,7 @@ Retrieval-Augmented Generation (RAG) combines large language models with a knowl
 
 5. **Prototype Nature and Goals**:
 
-   - The primary objective was to elicit discussion around AI/ML and Indigenous data, rather than to create a production-ready system.
+   - The primary objective was to elicit discussion around AI/ML and Indigenous data, rather than to create a production-ready system. The dashboard was ephemeral and is not publicly available; the code is available however at the [project GitHub repository](https://github.com/kingsdigitallab/iREAL).
    - This approach allows for exploration of potential benefits and risks without the pressure of immediate practical application.
 
 6. **Challenges and Lessons Learned**:
