@@ -146,7 +146,7 @@ A well-designed user interface is essential for making your RAG system accessibl
 
 2. **Conversation History**:
 
-   - Display a chat-like interface (labelled however as explorer to set expectations) showing the history of questions and answers.
+   - Display a natural language interface showing the history of questions and answers.
    - Include timestamps and other metadata to provide context for each interaction.
 
 3. **Answer Presentation**:
