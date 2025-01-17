@@ -24,7 +24,7 @@ In the evolving landscape of Digital Humanities (DH) and Research Software Engin
 
 ## Project Overview
 
-This prototype RAG system (see [iREAL GitHub repository](https://github.com/kingsdigitallab/iREAL)) was developed as part of a larger dashboard, in the context of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
+This prototype RAG system (see [iREAL GitHub repository](https://github.com/kingsdigitallab/iREAL)) was developed as part of a larger dashboard, in the context of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), aimed at exploring and discussing the implications of AI/ML technologies when applied to Indigenous data. The system processes historical records about Aboriginal schools operating in the state of New South Wales, Australia, (transcriptions from [NRS-3829 (part) List of Aboriginal school files, 1876–1979](https://mhnsw.au/articles/3829/); dataset currently private) and serves as a case study for the broader conversation about AI ethics and cultural sensitivity in digital humanities.
 
 ## Understanding RAG Systems in DH
 
