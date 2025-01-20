@@ -17,7 +17,6 @@ feature:
   image: /assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp
   title: Jamillah Knowles & We and AI / Better Images of AI / People and Ivory Tower AI / CC-BY 4.0
   description: "A neural network comes out of the top of an ivory tower, above a crowd of people's heads (shown in green to symbolise grass roots). Some of them are reaching up to try and take some control and pull the net down to them. Watercolour illustration."
-draft: true
 ---
 
 In the evolving landscape of Digital Humanities (DH) and Research Software Engineering (RSE), the integration of advanced AI techniques is opening new avenues for research and data exploration. This blog post explores the process of prototyping a Retrieval-Augmented Generation (RAG) system, with a specific focus on its application to Indigenous data. Our primary goal is to stimulate discussion around the use of AI/ML in the context of sensitive cultural data.
