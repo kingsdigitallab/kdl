@@ -43,10 +43,10 @@ class ProjectsToMarkdown {
       statusType: project.creativeWorkStatus?.inDefinedTermSet?.name,
       feature: this.processImage(project.image),
       funders: this.processFunders(project.funder),
-      keywords: this.processKeywords(project.keywords),
-      urls: this.processUrls(project.url),
       departments: this.processDepartments(project.department),
       members: this.processTeam(project.member),
+      keywords: this.processKeywords(project.keywords),
+      urls: this.processUrls(project.url),
     };
 
     // Create markdown content
