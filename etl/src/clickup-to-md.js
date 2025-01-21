@@ -1,23 +1,81 @@
 #!/usr/bin/env node
 
 const fs = require("fs/promises");
+const axios = require("axios");
 const path = require("path");
 const YAML = require("yaml");
+
+require("dotenv").config({ path: path.resolve(__dirname, "../../.envs/.etl") });
 
 class ClickUpToMarkdown {
   constructor(outputPath) {
     this.outputPath = outputPath;
+    this.apiUrl = process.env.CLICKUP_API_URL;
+    this.apiKey = process.env.CLICKUP_API_KEY;
+    this.teamId = process.env.CLICKUP_TEAM_ID;
+
+    if (!this.apiKey) {
+      throw new Error("CLICKUP_API_KEY environment variable is required");
+    }
+    if (!this.teamId) {
+      throw new Error("CLICKUP_TEAM_ID environment variable is required");
+    }
+
+    this.api = axios.create({
+      baseURL: this.apiUrl,
+      headers: {
+        Authorization: this.apiKey,
+        "Content-Type": "application/json",
+        accept: "application/json",
+      },
+    });
+  }
+
+  /**
+   * Fetch task data from ClickUp API
+   * @param {string} customItemId - Custom item ID from ClickUp
+   */
+  async fetchClickUpData(customItemId) {
+    console.log(`Fetching task data for item ${customItemId}...`);
+
+    try {
+      const taskResponse = await this.api.get(
+        `/team/${this.teamId}/task?custom_items=${customItemId}&custom_items=${customItemId}`
+      );
+
+      const task = taskResponse.data.tasks?.[0];
+      if (!task) {
+        throw new Error("No task found for the given custom item ID");
+      }
+
+      console.log(`Fetching space data...`);
+      const spaceResponse = await this.api.get(`/team/${this.teamId}/space`);
+
+      return {
+        projects: taskResponse.data.tasks,
+        spaces: spaceResponse.data.spaces,
+      };
+    } catch (error) {
+      if (error.response) {
+        throw new Error(
+          `ClickUp API error: ${error.response.status} ${error.response.statusText}`
+        );
+      }
+      throw error;
+    }
   }
 
   /**
    * Convert ClickUp data to markdown or update existing
-   * @param {Object} clickupData - Data from ClickUp API
+   * @param {Object} data - Combined task and space data from ClickUp API
    */
-  async convert(clickupData) {
-    for (const task of clickupData.tasks) {
-      console.log(`Processing ClickUp task: ${task.name}`);
-      // Generate slug from name
-      const slug = this.slugify(task.name);
+  async convert(data) {
+    const projects = data.projects;
+    const spaces = data.spaces;
+
+    for (const project of projects) {
+      console.log(`Processing: ${project.name}`);
+      const slug = this.slugify(project.name);
       const outputFile = path.join(this.outputPath, `${slug}.md`);
 
       // Try to read existing file
@@ -46,17 +104,22 @@ class ClickUpToMarkdown {
       // Prepare new frontmatter
       const frontmatter = {
         ...existingFrontmatter,
-        identifier: task.id,
-        title: task.name,
-        alternateName: this.getCustomFieldValue(task, "Acronym"),
-        applicationStatus: this.getApplicationStatus(task),
-        departments: this.getDepartments(task),
-        members: this.getMembers(task),
-        themes: this.getThemes(task),
-        activityCode: this.getCustomFieldValue(task, "Activity code"),
-        progress: this.getProgress(task),
-        sla: this.getSLADates(task),
-        urls: this.getUrls(task),
+        title: project.name,
+        alternateName: this.getCustomFieldValue(project, "Acronym"),
+        slug: slug,
+        foundingDate: this.convertDate(
+          this.getCustomFieldValue(project, "Project start date")
+        ),
+        dissolutionDate: this.convertDate(
+          this.getCustomFieldValue(project, "Project end date")
+        ),
+        status: spaces.find((space) => space.id === project.space.id)?.name,
+        funders: this.getFunders(project),
+        departments: this.getDepartments(project),
+        members: this.getMembers(project),
+        themes: this.getThemes(project),
+        sla: this.getSLADates(project),
+        urls: this.getUrls(project),
       };
 
       // Create markdown content
@@ -74,37 +137,72 @@ class ClickUpToMarkdown {
   }
 
   /**
-   * Get application status from custom fields
+   * Get funders from custom fields
    */
-  getApplicationStatus(data) {
-    const statusField = data.custom_fields.find(
-      (field) => field.name === "Application status"
+  getFunders(data) {
+    const funderField = data.custom_fields.find(
+      (field) => field.name === "Funder(s)"
     );
 
-    if (!statusField || !statusField.value) return null;
+    if (!funderField || !funderField.value) return [];
 
-    // Get status option by index
-    const option = statusField.type_config.options[statusField.value];
-    return option ? option.name : null;
+    return funderField.value.map((funder) => {
+      const found = funderField.type_config.options.find(
+        (opt) => opt.id === funder
+      );
+
+      return {
+        name: found.label,
+        slug: this.slugify(found.label),
+      };
+    });
   }
 
   /**
    * Get departments from custom fields
    */
   getDepartments(data) {
-    const deptField = data.custom_fields.find(
+    let departments = [];
+
+    const deptsField = data.custom_fields.find(
       (field) => field.name === "Department(s)"
     );
 
-    if (!deptField || !deptField.value) return [];
+    if (deptsField) {
+      deptsField.value.forEach((dept) => {
+        const found = deptsField.type_config.options.find(
+          (opt) => opt.id === dept
+        );
 
-    return deptField.type_config.options
-      .filter((opt) => deptField.value.includes(opt.id))
-      .map((opt) => ({
-        name: opt.label,
-        // You might want to generate or lookup proper slugs
-        slug: this.slugify(opt.label),
-      }));
+        if (found) {
+          departments.push({
+            name: found.label,
+            slug: this.slugify(found.label),
+          });
+        }
+      });
+    }
+
+    const partnersField = data.custom_fields.find(
+      (field) => field.name === "Partner organisation(s)"
+    );
+
+    if (partnersField) {
+      partnersField.value.forEach((partner) => {
+        const found = partnersField.type_config.options.find(
+          (opt) => opt.id === partner
+        );
+
+        if (found) {
+          departments.push({
+            name: found.label,
+            slug: this.slugify(found.label),
+          });
+        }
+      });
+    }
+
+    return departments.filter((dept) => dept.name !== "External");
   }
 
   /**
@@ -113,22 +211,51 @@ class ClickUpToMarkdown {
   getMembers(data) {
     const members = [];
 
-    // Process Analyst field
-    const analystField = data.custom_fields.find(
-      (field) => field.name === "Analyst"
-    );
+    for (const role of ["Analyst", "Design", "Dev"]) {
+      const field = data.custom_fields.find((field) => field.name === role);
+      const roleName =
+        role === "Analyst"
+          ? "Research Software Analyst"
+          : role === "Design"
+          ? "Research Software UI/UX Designer"
+          : "Research Software Engineer";
 
-    if (analystField && analystField.value) {
-      analystField.value.forEach((analyst) => {
+      if (field && field.value) {
+        field.value.forEach((member) => {
+          members.push({
+            name: member.username,
+            slug: this.slugify(member.username),
+            role: roleName,
+          });
+        });
+      }
+    }
+
+    const plField = data.custom_fields.find((field) => field.name === "PL");
+
+    if (plField && plField.value) {
+      plField.value.split(",").forEach((pl) => {
         members.push({
-          name: analyst.username,
-          slug: this.slugify(analyst.username),
-          role: "Research Software Analyst",
+          name: pl.trim(),
+          slug: this.slugify(pl.trim()),
+          role: "Principal investigator",
         });
       });
     }
 
-    // Add other role-based fields here as needed
+    const researchersField = data.custom_fields.find(
+      (field) => field.name === "Researchers"
+    );
+
+    if (researchersField && researchersField.value) {
+      researchersField.value.split(",").forEach((researcher) => {
+        members.push({
+          name: researcher.trim(),
+          slug: this.slugify(researcher.trim()),
+          role: "Researcher",
+        });
+      });
+    }
 
     return members;
   }
@@ -172,17 +299,6 @@ class ClickUpToMarkdown {
   }
 
   /**
-   * Get progress from Progress field
-   */
-  getProgress(data) {
-    const progressField = data.custom_fields.find(
-      (field) => field.name === "Progress"
-    );
-
-    return progressField?.value?.percent_complete || 0;
-  }
-
-  /**
    * Get SLA dates
    */
   getSLADates(data) {
@@ -214,29 +330,28 @@ class ClickUpToMarkdown {
       },
     ];
   }
+  convertDate(timestamp) {
+    return new Date(parseInt(timestamp)).toISOString().split("T")[0];
+  }
 }
 
 // CLI execution
 if (require.main === module) {
-  const inputFile = process.argv[2];
+  const customItemId = process.argv[2];
   const outputPath = process.argv[3];
 
-  if (!inputFile || !outputPath) {
-    console.error("Usage: clickup-to-md.js <input_json> <output_path>");
+  if (!customItemId || !outputPath) {
+    console.error("Usage: clickup-to-md.js <custom_item_id> <output_path>");
     process.exit(1);
   }
 
-  // Resolve paths relative to project root
   const projectRoot = path.resolve(__dirname, "../..");
-  const resolvedInputPath = path.resolve(projectRoot, inputFile);
   const resolvedOutputPath = path.resolve(projectRoot, outputPath);
 
-  fs.readFile(resolvedInputPath, "utf8")
-    .then((data) => JSON.parse(data))
-    .then((clickupData) => {
-      const converter = new ClickUpToMarkdown(resolvedOutputPath);
-      return converter.convert(clickupData);
-    })
+  const converter = new ClickUpToMarkdown(resolvedOutputPath);
+  converter
+    .fetchClickUpData(customItemId)
+    .then((data) => converter.convert(data))
     .then(() => console.log("Conversion complete"))
     .catch((err) => {
       console.error("Error:", err);
