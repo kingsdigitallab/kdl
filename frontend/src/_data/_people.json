@@ -7387,6 +7387,45 @@
     }
   },
   {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Fiona Barsoum",
+      "slug": "fiona-barsoum",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Musical Lives",
+            "alternateName": "MusLive",
+            "slug": "musical-lives",
+            "foundingDate": "2023-09-01",
+            "dissolutionDate": "2026-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Music"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Music",
+              "slug": "fah-department-of-music"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Florence du Pré",

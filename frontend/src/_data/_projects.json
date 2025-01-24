@@ -11906,7 +11906,7 @@
   {
     "alternateName": "MusLive",
     "cmsStatus": "published",
-    "description": "The Musical Lives: Towards an Historical Anthropology of French Song, 1100–1300 (MUSLIVE) project explores how medieval French trouvère songs shaped identity and social connections as a transnational practice. Focusing on around 2,200 surviving songs from the 12th–14th centuries, MUSLIVE examines the lives of composers, performers, and their networks across northern France and the Mediterranean, where songmakers traveled for pilgrimage and crusade. The songs, often centered on themes of courtly love and loss, were composed and performed within noble courts and broader social circles. MUSLIVE integrates musicology, history, and literary studies to analyze songs as poetic works linked to identifiable individuals and their communities. By comparing trouvère traditions with Arabic, Hebrew, and Occitan lyric poetry, the project investigates cross-cultural encounters facilitated by song and the unifying power of poetry. Through performance and archival research, MUSLIVE highlights the cultural connections and shared practices of medieval Mediterranean societies.",
+    "description": "The Musical Lives: Towards an Historical Anthropology of French Song, 1100–1300 (MUSLIVE) project explores how medieval French trouvère songs shaped identity and social connections as a transnational practice. Focusing on around 2,200 surviving songs from the 12th–14th centuries, MUSLIVE examines the lives of composers, performers, and their networks across northern France and the Mediterranean, where songmakers traveled for pilgrimage and crusade. The songs, often centered on themes of courtly love and loss, were composed and performed within noble courts and broader social circles. MUSLIVE integrates musicology, history, and literary studies to analyze songs as poetic works linked to identifiable individuals and their communities. By comparing trouvère traditions with Arabic, Hebrew, and Occitan lyric poetry, the project investigates cross-cultural encounters facilitated by song and the unifying power of poetry. Through performance and archival research, MUSLIVE highlights the cultural connections and shared practices of medieval Mediterranean societies.\n\nKDL has been consulting with the project Research Assistant, Fiona Barsoum, to develop a database structure to accommodate the project's needs.",
     "dissolutionDate": "2026-11-30",
     "foundingDate": "2023-09-01",
     "id": "cb891d85-be35-4e44-ad2d-02bbcfbc4d31",
@@ -11918,7 +11918,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "055d218d-6386-456f-9871-23cfce0612f1",
+      "storage": "local",
+      "filename_disk": "055d218d-6386-456f-9871-23cfce0612f1.webp",
+      "filename_download": "Bibliothèque nationale de France, MS fr. 846 f. 94r.webp",
+      "title": "Bibliothèque Nationale De France, Ms Fr. 846 F. 94r",
+      "type": "image/webp",
+      "folder": null,
+      "uploaded_by": "986df993-c81e-4a91-8476-28883fe292c3",
+      "uploaded_on": "2025-01-24T16:30:59.772Z",
+      "modified_by": null,
+      "modified_on": "2025-01-24T16:30:59.879Z",
+      "charset": null,
+      "filesize": "160366",
+      "width": 1800,
+      "height": 1001,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": null
+    },
     "funder": [
       {
         "agent_id": {
@@ -11952,6 +11974,19 @@
       }
     ],
     "member": [
+      {
+        "agent": {
+          "id": "21ec2702-649c-4cef-b198-449721964e44",
+          "name": "Fiona Barsoum",
+          "slug": "fiona-barsoum"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
       {
         "agent": {
           "id": "2bc98ab1-72d6-47e3-8142-1adb7dd133e5",
@@ -15698,7 +15733,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": null,
+    "description": "KDL's role in this pilot project explores pipelines for extracting information efficiently from the huge diversity of military records, mostly handwritten, that reside in various states of digitisation throughout collections in the Commonwealth and beyond. Focusing on material related to the Second World War, the project aims to enrich the understanding of that conflict through the lens of the social demographic profiles of the people who fought and served in it. As part of the groundwork for developing a methodology to tackle this challenge, we are using the most recent Visual Language Models (VLMs) to extract structured data and to refine workflows for quality control.",
     "dissolutionDate": "2025-06-30",
     "foundingDate": "2024-01-01",
     "id": "32d2919d-765c-44cf-9e62-f814e79c2f81",
