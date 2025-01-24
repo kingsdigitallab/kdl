@@ -15699,7 +15699,7 @@
     "alternateName": null,
     "cmsStatus": "published",
     "description": null,
-    "dissolutionDate": "2025-02-28",
+    "dissolutionDate": "2025-06-30",
     "foundingDate": "2024-01-01",
     "id": "32d2919d-765c-44cf-9e62-f814e79c2f81",
     "name": "Social Dynamics of People's War",
@@ -15721,7 +15721,13 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
+    ],
     "url": [],
     "department": [
       {
@@ -15746,12 +15752,38 @@
     "member": [
       {
         "agent": {
+          "id": "390aeabc-49d9-4605-8e8b-f237a5f837bf",
+          "name": "Zihao Lu",
+          "slug": "zihao-lu"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
         },
         "roleName": {
           "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "914deffa-5e29-4922-b28f-9dfb9d49d59d",
+          "name": "Mary Chester-Kadwell",
+          "slug": "mary-chester-kadwell"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
           "inDefinedTermSet": {
             "name": "Team roles"
           }

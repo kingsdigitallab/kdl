@@ -15011,7 +15011,37 @@
       "name": "Mary Chester-Kadwell",
       "slug": "mary-chester-kadwell",
       "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        }
+      ]
     }
   },
   {
@@ -17390,7 +17420,7 @@
             "alternateName": null,
             "slug": "social-dynamics-of-people-s-war",
             "foundingDate": "2024-01-01",
-            "dissolutionDate": "2025-02-28",
+            "dissolutionDate": "2025-06-30",
             "department": [
               {
                 "organisation_id": {
@@ -24940,6 +24970,35 @@
       "slug": "zihao-lu",
       "description": "Zihao is a multidisciplinary designer and experimental artist whose work delves deeply into the intersections of space, race, and the boundaries that separate and connect people. With a keen ability to observe his surroundings, social dynamics, and human nature, Zihao critically reflects on these elements and expresses his insights through a wide range of media, including experimental film, performance, narrative art, photography, architecture, installation, and choreography.\n\nHis practice is driven by a relentless pursuit of deconstructing and reconstructing ideas, pushing the limits of his self-perception and professional disciplines. Each project becomes a bold exploration, challenging the conventional boundaries of identity, interaction, and form.\n",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
