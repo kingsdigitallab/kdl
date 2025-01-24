@@ -15745,7 +15745,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "9fbe8bd2-d9f1-4c59-8fb0-3780d777ca0b",
+      "storage": "local",
+      "filename_disk": "9fbe8bd2-d9f1-4c59-8fb0-3780d777ca0b.jpg",
+      "filename_download": "social_dynamics_chat_gpt.jpg",
+      "title": "Social Dynamics Chat Gpt",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "986df993-c81e-4a91-8476-28883fe292c3",
+      "uploaded_on": "2025-01-24T18:09:01.949Z",
+      "modified_by": null,
+      "modified_on": "2025-01-24T18:09:02.039Z",
+      "charset": null,
+      "filesize": "145897",
+      "width": 1012,
+      "height": 627,
+      "duration": null,
+      "embed": null,
+      "description": null,
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
