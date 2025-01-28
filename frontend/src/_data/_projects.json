@@ -6625,19 +6625,6 @@
       },
       {
         "agent": {
-          "id": "54f07177-fa33-4afd-9b86-edf660984e4f",
-          "name": "John Bradley",
-          "slug": "john-bradley"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "8780c2f4-f53a-42b2-b130-fbe9ccba012a",
           "name": "Beth Hartland",
           "slug": "beth-hartland"
