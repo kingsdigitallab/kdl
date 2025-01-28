@@ -114,10 +114,10 @@ class ClickUpToMarkdown {
           this.getCustomFieldValue(project, "Project end date")
         ),
         status: spaces.find((space) => space.id === project.space.id)?.name,
+        keywords: this.getKeywords(project),
         funders: this.getFunders(project),
         departments: this.getDepartments(project),
         members: this.getMembers(project),
-        themes: this.getThemes(project),
         sla: this.getSLADates(project),
         urls: this.getUrls(project),
       };
@@ -274,7 +274,7 @@ class ClickUpToMarkdown {
   /**
    * Get themes from custom fields
    */
-  getThemes(data) {
+  getKeywords(data) {
     const themeField = data.custom_fields.find(
       (field) => field.name === "Theme"
     );
