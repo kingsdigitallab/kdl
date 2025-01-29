@@ -59,8 +59,27 @@ class ProjectsToMarkdown {
     ].join("\n");
 
     // Write file
-    const filename = `${project.slug}.md`;
+    const datePrefix = project.foundingDate
+      ? this.formatDate(project.foundingDate) + "-"
+      : "1970-01-01-";
+    const filename = `${datePrefix}${project.slug}.md`;
     await fs.writeFile(path.join(this.outputPath, filename), content);
+  }
+
+  /**
+   * Format date to yyyy-mm-dd
+   * @param {string} dateString - Date string to format
+   * @returns {string} Formatted date or empty string if invalid
+   */
+  formatDate(dateString) {
+    try {
+      const date = new Date(dateString);
+      if (isNaN(date.getTime())) return "1970-01-01";
+
+      return date.toISOString().split("T")[0];
+    } catch (e) {
+      return "1970-01-01";
+    }
   }
 
   /**
