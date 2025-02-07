@@ -2801,6 +2801,12 @@
           "name": "Repository (inscriptions): kingsdigitallab/corpus-building",
           "url": "https://github.com/kingsdigitallab/corpus-building"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Palaeographic annotator",
+          "url": "https://kingsdigitallab.github.io/crossreads/annotator.html"
+        }
       }
     ],
     "department": [
@@ -7376,7 +7382,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://chimp.kdl.kcl.ac.uk/index.html"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
