@@ -9190,7 +9190,7 @@
     "name": "King's Past",
     "slug": "king-s-past",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -11939,7 +11939,20 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Faculty Project Page URL",
+          "url": "https://www.kcl.ac.uk/research/musical-lives-towards-an-historical-anthropology-of-french-song-1100-1300-muslive"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://muslive.kcl.ac.uk/"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
