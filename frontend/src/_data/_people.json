@@ -25006,6 +25006,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "King's Past",
+            "alternateName": null,
+            "slug": "king-s-past",
+            "foundingDate": "2023-06-30",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
             "alternateName": "STEP-UP",
             "slug": "step-up",

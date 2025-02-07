@@ -9391,6 +9391,19 @@
       },
       {
         "agent": {
+          "id": "390aeabc-49d9-4605-8e8b-f237a5f837bf",
+          "name": "Zihao Lu",
+          "slug": "zihao-lu"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "f92b6147-9a48-41d0-9008-3d971769f42f",
           "name": "Jon Wilson",
           "slug": "jon-wilson"
@@ -11931,10 +11944,10 @@
     "funder": [
       {
         "agent_id": {
-          "alternateName": null,
-          "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
-          "slug": "erc"
+          "alternateName": "UKRI HEG",
+          "id": "8e19d1ca-c99c-4262-a649-67d7d7606795",
+          "name": "Horizon Europe Guarantee",
+          "slug": "horizon-europe-guarantee"
         }
       }
     ],
