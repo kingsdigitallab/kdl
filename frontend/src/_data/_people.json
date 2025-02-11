@@ -288,7 +288,12 @@
     }
   },
   {
-    "jobTitle": "89f2f99e-2079-4d4b-b75a-a38a4faaa432",
+    "jobTitle": {
+      "name": "Research Software Project Manager",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Alessandra Esposito",
       "slug": "alessandra-esposito",
@@ -1339,7 +1344,12 @@
     }
   },
   {
-    "jobTitle": "48abbe32-441b-40ae-9094-b5d4058ae38e",
+    "jobTitle": {
+      "name": "Research Software Analyst",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Arianna Ciula",
       "slug": "arianna-ciula",
@@ -2083,7 +2093,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -2358,7 +2368,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Askold Ivantchik",
       "slug": "askold-ivantchik",
@@ -2989,7 +3004,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -3756,7 +3771,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Carol Palmer",
       "slug": "carol-palmer",
@@ -3977,7 +3997,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -5029,7 +5049,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Cordelia Beattie",
       "slug": "cordelia-beattie",
@@ -6979,7 +7004,7 @@
           "endDate": null,
           "inProject": {
             "name": "Musical Lives",
-            "alternateName": null,
+            "alternateName": "MusLive",
             "slug": "musical-lives",
             "foundingDate": "2023-09-01",
             "dissolutionDate": "2026-11-30",
@@ -7387,6 +7412,50 @@
     }
   },
   {
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
+    "agent": {
+      "name": "Fiona Barsoum",
+      "slug": "fiona-barsoum",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Musical Lives",
+            "alternateName": "MusLive",
+            "slug": "musical-lives",
+            "foundingDate": "2023-09-01",
+            "dissolutionDate": "2026-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Music"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Music",
+              "slug": "fah-department-of-music"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Florence du Pré",
@@ -7401,7 +7470,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7665,7 +7734,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -8756,7 +8825,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -9626,7 +9695,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -10760,7 +10829,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Issa Mahasneh",
       "slug": "issa-mahasneh",
@@ -11810,43 +11884,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "FAH Department of Digital Humanities",
@@ -12472,7 +12510,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12501,7 +12539,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12526,7 +12564,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Joy Porter",
       "slug": "joy-porter",
@@ -13979,7 +14022,12 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Lucie Mingmei Hao",
       "slug": "lucie-mingmei-hao",
@@ -14838,7 +14886,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Mark Turner",
       "slug": "mark-turner",
@@ -15006,12 +15059,47 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Mary Chester-Kadwell",
       "slug": "mary-chester-kadwell",
       "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        }
+      ]
     }
   },
   {
@@ -16333,7 +16421,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -17330,7 +17418,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -17390,7 +17478,7 @@
             "alternateName": null,
             "slug": "social-dynamics-of-people-s-war",
             "foundingDate": "2024-01-01",
-            "dissolutionDate": "2025-02-28",
+            "dissolutionDate": "2025-06-30",
             "department": [
               {
                 "organisation_id": {
@@ -17556,7 +17644,7 @@
           "endDate": null,
           "inProject": {
             "name": "Musical Lives",
-            "alternateName": null,
+            "alternateName": "MusLive",
             "slug": "musical-lives",
             "foundingDate": "2023-09-01",
             "dissolutionDate": "2026-11-30",
@@ -18524,7 +18612,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -18629,7 +18717,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Pascal Flohr",
       "slug": "pascal-flohr",
@@ -20640,7 +20733,12 @@
     }
   },
   {
-    "jobTitle": "bf5c9e2e-905e-42c1-876b-3346088e66d4",
+    "jobTitle": {
+      "name": "RSE team member",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Priyal Shah",
       "slug": "priyal-shah",
@@ -20854,7 +20952,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Rebecca Sykes",
       "slug": "rebecca-sykes",
@@ -21164,7 +21267,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Robyn Jakeman",
       "slug": "robyn-jakeman",
@@ -21378,7 +21486,12 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Ryan Heuser",
       "slug": "ryan-heuser",
@@ -21532,7 +21645,12 @@
     }
   },
   {
-    "jobTitle": "48abbe32-441b-40ae-9094-b5d4058ae38e",
+    "jobTitle": {
+      "name": "Research Software Analyst",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Samantha Callaghan",
       "slug": "samantha-callaghan",
@@ -21875,7 +21993,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Sharon Howard",
       "slug": "sharon-howard",
@@ -21914,7 +22037,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Shatha Mubaideen",
       "slug": "shatha-mubaideen",
@@ -24207,7 +24335,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24354,7 +24482,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24934,12 +25062,93 @@
     }
   },
   {
-    "jobTitle": "741543ca-aca8-4cda-9833-5da83698f454",
+    "jobTitle": {
+      "name": "Research Software Designer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Zihao Lu",
       "slug": "zihao-lu",
       "description": "Zihao is a multidisciplinary designer and experimental artist whose work delves deeply into the intersections of space, race, and the boundaries that separate and connect people. With a keen ability to observe his surroundings, social dynamics, and human nature, Zihao critically reflects on these elements and expresses his insights through a wide range of media, including experimental film, performance, narrative art, photography, architecture, installation, and choreography.\n\nHis practice is driven by a relentless pursuit of deconstructing and reconstructing ideas, pushing the limits of his self-perception and professional disciplines. Each project becomes a bold exploration, challenging the conventional boundaries of identity, interaction, and form.\n",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "ireal",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": null,
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
