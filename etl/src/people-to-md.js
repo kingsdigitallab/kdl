@@ -32,11 +32,11 @@ class PeopleToMarkdown {
    * @param {Object} person - Person object
    */
   async convertPerson(person) {
-    // Prepare frontmatter
     const frontmatter = {
       title: person.agent.name,
       slug: person.agent.slug,
-      jobTitle: person.jobTitle,
+      jobTitle: person.jobTitle?.name || null,
+      tags: ["people"],
       memberOf: this.processMemberOf(person.agent.memberOf),
     };
 
@@ -60,24 +60,31 @@ class PeopleToMarkdown {
   processMemberOf(memberOf) {
     if (!memberOf) return [];
 
-    return memberOf.map((membership) => ({
-      startDate: membership.startDate,
-      endDate: membership.endDate,
-      project: membership.inProject
-        ? {
-            name: membership.inProject?.name,
-            slug: membership.inProject?.slug,
-            alternateName: membership.inProject?.alternateName,
-          }
-        : null,
-      organisation: membership.inOrganisation
-        ? {
-            name: membership.inOrganisation.agent.name,
-            slug: membership.inOrganisation.agent.slug,
-          }
-        : null,
-      role: membership.roleName?.name,
-    }));
+    return memberOf
+      .filter((membership) => membership.inOrganisation)
+      .map((membership) => ({
+        startDate: membership.startDate,
+        endDate: membership.endDate,
+        organisation: membership.inOrganisation
+          ? {
+              name: membership.inOrganisation.agent.name,
+              slug: membership.inOrganisation.agent.slug,
+            }
+          : null,
+        roleName: membership.roleName?.name,
+      }))
+      .reduce((acc, item) => {
+        if (
+          !acc.find(
+            (i) =>
+              i.organisation.slug === item.organisation.slug &&
+              i.roleName === item.roleName
+          )
+        ) {
+          acc.push(item);
+        }
+        return acc;
+      }, []);
   }
 }
 
