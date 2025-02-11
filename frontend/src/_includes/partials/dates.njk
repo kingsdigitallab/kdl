@@ -1,0 +1,15 @@
+{% if obj.foundingDate %}
+    {% set foundingYear = obj
+        .foundingDate
+        .getFullYear() %}
+    {{ foundingYear }}
+    {%- if project.data.dissolutionDate -%}
+        {% set dissolutionYear = project
+            .data
+            .dissolutionDate
+            .getFullYear() %}
+        {%- if dissolutionYear !== foundingYear -%}
+        –{{- dissolutionYear }}
+        {% endif %}
+    {% endif %}
+{% endif %}
