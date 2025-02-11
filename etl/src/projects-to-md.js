@@ -32,24 +32,23 @@ class ProjectsToMarkdown {
    * @param {Object} project - Project object
    */
   async convertProject(project) {
-    // Prepare frontmatter
     const frontmatter = {
       title: project.name,
+      name: project.name,
+      tags: ["projects"],
       alternateName: project.alternateName,
       slug: project.slug,
       foundingDate: project.foundingDate,
       dissolutionDate: project.dissolutionDate,
-      status: project.creativeWorkStatus?.name,
-      statusType: project.creativeWorkStatus?.inDefinedTermSet?.name,
+      creativeWorkStatus: project.creativeWorkStatus?.name,
       feature: this.processImage(project.image),
       funders: this.processFunders(project.funder),
       departments: this.processDepartments(project.department),
-      members: this.processTeam(project.member),
+      members: this.processMembers(project.member),
       keywords: this.processKeywords(project.keywords),
       urls: this.processUrls(project.url),
     };
 
-    // Create markdown content
     const content = [
       "---",
       YAML.stringify(frontmatter).trim(),
@@ -58,7 +57,6 @@ class ProjectsToMarkdown {
       project.description || "",
     ].join("\n");
 
-    // Write file
     const datePrefix = project.foundingDate
       ? this.formatDate(project.foundingDate) + "-"
       : "1970-01-01-";
@@ -89,7 +87,7 @@ class ProjectsToMarkdown {
     if (!image) return null;
 
     return {
-      image: image.filename_download,
+      image: `/assets/images/projects/${image.filename_download}`,
       title: image.title,
       description: image.description,
       width: image.width,
@@ -145,16 +143,26 @@ class ProjectsToMarkdown {
   /**
    * Process team members data
    */
-  processTeam(members) {
+  processMembers(members) {
     if (!members) return [];
 
     return members
       .filter((member) => member.agent)
-      .map((member) => ({
-        name: member.agent.name,
-        slug: member.agent.slug,
-        role: member.roleName.name,
-      }));
+      .map((member) => {
+        const inOrganisation = member.inOrganisation?.agent
+          ? {
+              name: member.inOrganisation.agent.name,
+              slug: member.inOrganisation.agent.slug,
+            }
+          : null;
+
+        return {
+          name: member.agent.name,
+          slug: member.agent.slug,
+          roleName: member.roleName.name,
+          inOrganisation,
+        };
+      });
   }
 }
 
