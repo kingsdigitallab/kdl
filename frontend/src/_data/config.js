@@ -2,6 +2,7 @@ const baseUrl = "/";
 const paths = {
   assets: `${baseUrl}assets`,
   images: `${baseUrl}assets/images`,
+  placeholderImage: `${baseUrl}assets/images/general/placeholder-blur2.jpg`,
   stylesheets: `${baseUrl}assets/stylesheets`,
 };
 
