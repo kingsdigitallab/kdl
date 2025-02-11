@@ -54,6 +54,7 @@ module.exports = (eleventyConfig) => {
       })
   );
 
+  // TODO: remove this once we no longer need to use the Directus API
   eleventyConfig.addGlobalData("directus", getDirectus);
   eleventyConfig.addCollection("projectsByDate", function (collectionApi) {
     return [...collectionApi.getFilteredByTag("projects")].sort((a, b) => {
@@ -117,14 +118,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("filter", kdlFilters.filter);
   eleventyConfig.addFilter("renderMd", kdlFilters.renderMd);
 
-  eleventyConfig.addFilter("asProjectDate", (dateObj) => {
-    if (!dateObj) {
-      return "";
-    }
-
-    return DateTime.fromISO(dateObj).get("year");
-  });
-
   eleventyConfig.addFilter("asToc", (content, tags = ["h2", "h3", "h4"]) => {
     const tocFilter = eleventyConfig.getFilter("toc");
 
@@ -147,67 +140,66 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter(
     "featuredProjects",
     function (projects, status = "Active", number = 3) {
-      return projects
-        .filter((project) => project.creativeWorkStatus?.name === status)
-        .filter((project) => project.image)
-        .filter(
-          (project) => project.description && project.description.length > 0
-        )
-        .sort(() => Math.random() - 0.5)
-        .slice(0, number);
+      return (
+        projects
+          .filter((project) => project.data.creativeWorkStatus === status)
+          .filter((project) => project.data.feature?.image)
+          // .filter((project) => project.content && project.content.length > 0)
+          .sort(() => Math.random() - 0.5)
+          .slice(0, number)
+      );
     }
   );
 
-  eleventyConfig.addFilter("fundedProjects", (projects, agent) => {
-    if (!projects || !agent) return null;
+  eleventyConfig.addFilter("fundedProjects", (projects, agentSlug) => {
+    if (!projects || !agentSlug) return null;
 
     return projects.filter((project) => {
       return (
-        project.funder &&
-        project.funder.some(
-          (funder) => funder?.agent_id?.id === agent?.agent?.id
+        project?.data?.fundersSlugs &&
+        project.data.fundersSlugs.some((funder) => funder === agentSlug)
+      );
+    });
+  });
+
+  eleventyConfig.addFilter("partnerProjects", (projects, agentSlug) => {
+    if (!projects || !agentSlug) return null;
+
+    return projects.filter((project) => {
+      return (
+        project?.data?.departmentsSlugs &&
+        project.data.departmentsSlugs.some(
+          (department) => department === agentSlug
         )
       );
     });
   });
 
-  eleventyConfig.addFilter("partnerProjects", (projects, agent) => {
-    if (!projects || !agent) return null;
-
-    return projects.filter((project) => {
-      return (
-        project.department &&
-        project.department.some(
-          (department) =>
-            department?.organisation_id?.agent?.id === agent?.agent?.id
-        )
-      );
-    });
-  });
-
-  eleventyConfig.addFilter("getProjectMembers", (members) =>
-    members.filter((member) => member.agent)
-  );
-
-  eleventyConfig.addFilter("getAgentProjects", (memberOf) =>
-    memberOf
-      .filter((role) => role.inProject)
-      .map((role) => ({
-        ...role,
-        inProject: {
-          ...role.inProject,
-          dissolutionDate: role.inProject.dissolutionDate || "1970-01-01",
-        },
+  eleventyConfig.addFilter("getAgentProjects", (projects, slug) =>
+    projects
+      .filter(
+        (project) =>
+          project.data.members &&
+          project.data.members.some((member) => member.slug === slug)
+      )
+      .map((project) => ({
+        ...project,
+        role: project.data.members.find((member) => member.slug === slug),
+        dissolutionDate: project.data.dissolutionDate || "1970-01-01",
       }))
   );
 
-  eleventyConfig.addFilter("getAgentOrganisations", (memberOf) =>
+  eleventyConfig.addFilter("getAgentOrganisations", (organisations, slug) =>
     Object.values(
-      memberOf
-        .filter((role) => role.inOrganisation)
-        .reduce((acc, role) => {
-          if (!acc[role.inOrganisation.agent]) {
-            acc[role.inOrganisation.agent] = role;
+      organisations
+        .filter(
+          (organisation) =>
+            organisation.data.members &&
+            organisation.data.members.some((member) => member.slug === slug)
+        )
+        .reduce((acc, organisation) => {
+          if (!acc[organisation.data.agent]) {
+            acc[organisation.data.agent] = organisation;
           }
 
           return acc;
@@ -228,11 +220,6 @@ module.exports = (eleventyConfig) => {
     }
   );
 
-  eleventyConfig.addShortcode("getDirectusAsset", (id) => {
-    if (!id) return null;
-    return `${process.env.DIRECTUS_URL}/assets/${id}`;
-  });
-
   eleventyConfig.addShortcode("route", function (path, navigationKey = "") {
     let url = path;
 
@@ -241,9 +228,13 @@ module.exports = (eleventyConfig) => {
         this.ctx.collections.all
       );
 
-      const found = graph.getNodeData(navigationKey);
-      if (found) {
-        url = `${found.url}${path}`;
+      try {
+        const found = graph.getNodeData(navigationKey);
+        if (found) {
+          url = `${found.url}${path}`;
+        }
+      } catch (error) {
+        console.error("Failed to get route for", navigationKey, error);
       }
     }
 
