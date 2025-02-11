@@ -1,0 +1,14 @@
+---
+layout: layouts/projects.njk
+title: Projects
+eleventyNavigation:
+  key: Projects
+  order: 2
+pagination:
+  data: collections.projects
+  size: 25
+  alias: paginatedProjects
+  reverse: true
+---
+
+Explore a chronological listing of projects KDL worked on or contributed to.
