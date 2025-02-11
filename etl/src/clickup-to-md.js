@@ -105,6 +105,8 @@ class ClickUpToMarkdown {
       const frontmatter = {
         ...existingFrontmatter,
         title: project.name,
+        name: project.name,
+        tags: ["projects"],
         alternateName: this.getCustomFieldValue(project, "Acronym"),
         slug: slug,
         foundingDate: this.convertDate(
@@ -113,7 +115,9 @@ class ClickUpToMarkdown {
         dissolutionDate: this.convertDate(
           this.getCustomFieldValue(project, "Project end date")
         ),
-        status: spaces.find((space) => space.id === project.space.id)?.name,
+        creativeWorkStatus: spaces.find(
+          (space) => space.id === project.space.id
+        )?.name,
         keywords: this.getKeywords(project),
         funders: this.getFunders(project),
         departments: this.getDepartments(project),
