@@ -45,11 +45,11 @@ describe("ProjectsToMarkdown", () => {
       await converter.convertProject(project);
 
       expect(fs.writeFile).toHaveBeenCalledWith(
-        path.join(outputPath, "test-project.md"),
+        path.join(outputPath, "2023-01-01-test-project.md"),
         expect.stringContaining("title: Test Project")
       );
       expect(fs.writeFile).toHaveBeenCalledWith(
-        path.join(outputPath, "test-project.md"),
+        path.join(outputPath, "2023-01-01-test-project.md"),
         expect.stringContaining("Test description")
       );
     });
