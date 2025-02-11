@@ -1,3 +1,13 @@
-{{ agentInstance.agent.name }}{%- if agentInstance.agent.alternateName %} <span>{{ agentInstance.agent.alternateName }}</span>
+{{ organisation.name }}
+{%- if organisation.alternateName -%},
+    <small>{{ organisation.alternateName }}</small>
 {% endif %}
-{%- if agentInstance.parentOrganisation.agent.name -%}, <span class="parent">{{ agentInstance.parentOrganisation.agent.name }}</span>{%- endif -%}
+
+{%- if organisation.parentOrganisation.name -%},
+<span class="parent">{{ organisation.parentOrganisation.name }}</span>
+{%- else -%}
+    {% set orgInCollection = collections.organisations | filter (organisation.slug, 'data.slug') | first -%}
+    {% if orgInCollection and orgInCollection.data.parentOrganisation -%},
+        <span class="parent">{{ orgInCollection.data.parentOrganisation.name }}</span>
+    {%- endif -%}
+{%- endif -%}
