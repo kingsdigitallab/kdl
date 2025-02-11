@@ -2,7 +2,10 @@
 
 {% set assetsPath = config.paths.assets %}
 {% set imagesPath = config.paths.images %}
-{% set mainClass = layout | replace("layouts/", "") | replace(".njk", "") %}
+{% set mainClass = layout
+  .split("/")
+  .pop()
+  .replace(".njk", "") %}
 {% set stylesheetsPath = config.paths.stylesheets %}
 
 {% block headExtra %}
