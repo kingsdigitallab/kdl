@@ -35,6 +35,7 @@ class OrganisationsToMarkdown {
     // Prepare frontmatter
     const frontmatter = {
       title: org.agent.name,
+      tags: ["organisations"],
       alternateName: org.agent.alternateName,
       slug: org.agent.slug,
       foundingDate: org.foundingDate,
