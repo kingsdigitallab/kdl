@@ -1873,13 +1873,13 @@
       "storage": "local",
       "filename_disk": "aade0248-3918-4720-b4e2-7d57c259baf8.jpg",
       "filename_download": "ACDE--alina-grubnyak-ZiQkhI7417A-unsplash.jpg",
-      "title": null,
+      "title": "Algo-r-(h)-i-(y)-thms, installation at ON AIR, Palais de Tokyo, Paris, 2018. Photo Alina Grubnyak",
       "type": "image/jpeg",
       "folder": null,
       "uploaded_by": "460ce929-5d4f-4847-bcd0-8780a149c6e9",
       "uploaded_on": "2023-04-06T14:51:50.738Z",
-      "modified_by": "460ce929-5d4f-4847-bcd0-8780a149c6e9",
-      "modified_on": "2023-04-06T14:53:01.641Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-09T21:31:32.171Z",
       "charset": null,
       "filesize": "776081",
       "width": 1200,
@@ -3066,6 +3066,12 @@
         "linkrole_id": {
           "name": "Repository (inscriptions): kingsdigitallab/corpus-building",
           "url": "https://github.com/kingsdigitallab/corpus-building"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Palaeographic annotator",
+          "url": "https://kingsdigitallab.github.io/crossreads/annotator.html"
         }
       }
     ],
@@ -8136,7 +8142,14 @@
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://chimp.kdl.kcl.ac.uk/index.html"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -10142,6 +10155,19 @@
       },
       {
         "agent": {
+          "id": "390aeabc-49d9-4605-8e8b-f237a5f837bf",
+          "name": "Zihao Lu",
+          "slug": "zihao-lu"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "cacc2085-0655-4df3-868c-bcd2e8ea4a9e",
           "name": "Lauren Booker",
           "slug": "lauren-booker"
@@ -10206,7 +10232,7 @@
     "name": "King's Past",
     "slug": "king-s-past",
     "creativeWorkStatus": {
-      "name": "Active",
+      "name": "Post-project",
       "inDefinedTermSet": {
         "name": "SDLC"
       }
@@ -13487,15 +13513,28 @@
     "funder": [
       {
         "agent_id": {
-          "alternateName": null,
-          "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
-          "slug": "erc"
+          "alternateName": "UKRI HEG",
+          "id": "8e19d1ca-c99c-4262-a649-67d7d7606795",
+          "name": "Horizon Europe Guarantee",
+          "slug": "horizon-europe-guarantee"
         }
       }
     ],
     "keywords": [],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Faculty Project Page URL",
+          "url": "https://www.kcl.ac.uk/research/musical-lives-towards-an-historical-anthropology-of-french-song-1100-1300-muslive"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://muslive.kcl.ac.uk/"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
