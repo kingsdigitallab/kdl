@@ -32,7 +32,7 @@ describe("Test the home page", () => {
 
     cy.get(".connect").scrollIntoView();
     cy.get(".connect").within(() => {
-      cy.get("li").should("have.length", 4);
+      cy.get("li").should("have.length", 5);
     });
 
     cy.scrollTo("top");
