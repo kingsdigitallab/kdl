@@ -1325,6 +1325,7 @@ main.faqs article > article > article:first-of-type ol li:nth-child(3):after {
 }
 main.faqs article > article > article:first-of-type ul {
   margin: 0;
+  max-width: 600px;
   padding: 0;
   position: relative;
   width: 100%;
