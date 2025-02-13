@@ -25006,6 +25006,53 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
+            "alternateName": "iREAL",
+            "slug": "ireal",
+            "foundingDate": "2024-02-01",
+            "dissolutionDate": "2024-10-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Preservation Coalition"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Technology Sydney"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": null,
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "STEP-UP: A Strategic TEchnical Platform for University technical Professionals ",
             "alternateName": "STEP-UP",
             "slug": "step-up",
