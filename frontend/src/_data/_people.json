@@ -2083,7 +2083,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -2989,7 +2989,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -3977,7 +3977,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -6979,7 +6979,7 @@
           "endDate": null,
           "inProject": {
             "name": "Musical Lives",
-            "alternateName": null,
+            "alternateName": "MusLive",
             "slug": "musical-lives",
             "foundingDate": "2023-09-01",
             "dissolutionDate": "2026-11-30",
@@ -7387,6 +7387,45 @@
     }
   },
   {
+    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "agent": {
+      "name": "Fiona Barsoum",
+      "slug": "fiona-barsoum",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Musical Lives",
+            "alternateName": "MusLive",
+            "slug": "musical-lives",
+            "foundingDate": "2023-09-01",
+            "dissolutionDate": "2026-11-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Music"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Music",
+              "slug": "fah-department-of-music"
+            }
+          },
+          "roleName": {
+            "name": "Researcher"
+          }
+        }
+      ]
+    }
+  },
+  {
     "jobTitle": null,
     "agent": {
       "name": "Florence du Pré",
@@ -7401,7 +7440,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7665,7 +7704,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -8756,7 +8795,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -9626,7 +9665,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -11810,43 +11849,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Henry III Fine Rolls",
-            "alternateName": "",
-            "slug": "henry-iii-fine-rolls",
-            "foundingDate": null,
-            "dissolutionDate": null,
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Canterbury Christ Church University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "The National Archives"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "FAH Department of Digital Humanities",
@@ -12472,7 +12475,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12501,7 +12504,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -15011,7 +15014,37 @@
       "name": "Mary Chester-Kadwell",
       "slug": "mary-chester-kadwell",
       "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
-      "memberOf": []
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        }
+      ]
     }
   },
   {
@@ -16333,7 +16366,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -17330,7 +17363,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -17390,7 +17423,7 @@
             "alternateName": null,
             "slug": "social-dynamics-of-people-s-war",
             "foundingDate": "2024-01-01",
-            "dissolutionDate": "2025-02-28",
+            "dissolutionDate": "2025-06-30",
             "department": [
               {
                 "organisation_id": {
@@ -17556,7 +17589,7 @@
           "endDate": null,
           "inProject": {
             "name": "Musical Lives",
-            "alternateName": null,
+            "alternateName": "MusLive",
             "slug": "musical-lives",
             "foundingDate": "2023-09-01",
             "dissolutionDate": "2026-11-30",
@@ -18524,7 +18557,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24207,7 +24240,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24354,7 +24387,7 @@
             "alternateName": "IRT",
             "slug": "inscriptions-of-roman-tripolitania",
             "foundingDate": "2009-01-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2021-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24940,6 +24973,35 @@
       "slug": "zihao-lu",
       "description": "Zihao is a multidisciplinary designer and experimental artist whose work delves deeply into the intersections of space, race, and the boundaries that separate and connect people. With a keen ability to observe his surroundings, social dynamics, and human nature, Zihao critically reflects on these elements and expresses his insights through a wide range of media, including experimental film, performance, narrative art, photography, architecture, installation, and choreography.\n\nHis practice is driven by a relentless pursuit of deconstructing and reconstructing ideas, pushing the limits of his self-perception and professional disciplines. Each project becomes a bold exploration, challenging the conventional boundaries of identity, interaction, and form.\n",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Social Dynamics of People's War",
+            "alternateName": null,
+            "slug": "social-dynamics-of-people-s-war",
+            "foundingDate": "2024-01-01",
+            "dissolutionDate": "2025-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Defense Studies"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
