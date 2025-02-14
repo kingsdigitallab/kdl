@@ -11,6 +11,7 @@ feature:
   image: /assets/images/blog/CAPES_Header_image_1.webp
   title: "XR User Playtesting"
   description: "XR User Playtesting and Feedback Sessions at King’s College London, 3-6.Sep.2024: focal group, playtesting and body tracking with motion capture sensors"
+draft: true
 ---
 
 
