@@ -581,7 +581,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "4ee73c12-bf6a-4371-8572-7d8b9d5ae12d",
+      "storage": "local",
+      "filename_disk": "4ee73c12-bf6a-4371-8572-7d8b9d5ae12d.jpg",
+      "filename_download": "IOSPE--Photograph © Irene Polinskaya.jpg",
+      "title": "Photo by Irene Polinskaya",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T11:59:16.512Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:00:27.345Z",
+      "charset": null,
+      "filesize": "159823",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A vast field of tall golden crops stretches toward the horizon, with a low, grassy hill in the distance beneath a cloudy blue sky.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -1032,7 +1054,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "60ea7c79-5243-49e2-952e-63a3ce5e0ed7",
+      "storage": "local",
+      "filename_disk": "60ea7c79-5243-49e2-952e-63a3ce5e0ed7.jpg",
+      "filename_download": "MOI--Panel of newspaper staff.jpg",
+      "title": "A panel of newspaper and Ministry staff addresses journalists at Senate House, 1944. Image courtesy of the Imperial War Museum. © IWM (D 18066)  ",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T11:51:23.813Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T11:53:39.246Z",
+      "charset": null,
+      "filesize": "185225",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A historical black-and-white photograph of a panel of five men seated at a long table, addressing an audience, with large maps on the wall behind them.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -8767,7 +8811,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "9b1751f9-b043-4043-8326-e874daa1a2a6",
+      "storage": "local",
+      "filename_disk": "9b1751f9-b043-4043-8326-e874daa1a2a6.jpg",
+      "filename_download": "IBCC--paul-melki-LJIF3rzaM9g-unsplash.jpg",
+      "title": "Photo by Paul Melki",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T12:09:26.602Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:10:43.150Z",
+      "charset": null,
+      "filesize": "186796",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A Byzantine-style church with intricate brickwork, arched windows, and a central dome topped with a cross, set against a clear blue sky.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -17097,7 +17163,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "b26dbfc1-e8b5-4307-a412-1b4d024b98c5",
+      "storage": "local",
+      "filename_disk": "b26dbfc1-e8b5-4307-a412-1b4d024b98c5.jpg",
+      "filename_download": "Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire A.jpg",
+      "title": "Geld Accounts, Wiltshire A [1a1-3b1]",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T11:42:45.429Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T11:44:29.297Z",
+      "charset": null,
+      "filesize": "196404",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A close-up of an aged manuscript with handwritten Latin text, some underlined in blue, showing historical record-keeping details.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
