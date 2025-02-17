@@ -8407,7 +8407,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "38caebc7-aa1a-41e5-b7f2-36c88bac22d8",
+      "storage": "local",
+      "filename_disk": "38caebc7-aa1a-41e5-b7f2-36c88bac22d8.jpg",
+      "filename_download": "IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR 47.IX.10).jpg",
+      "title": "Part of a mosaic panel comprising the left-hand side of a tabella ansata. Ward Perkins,1947 (ward Perkins Archive, Bsr 47.ix.10)",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T11:20:21.419Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T11:23:13.623Z",
+      "charset": null,
+      "filesize": "187989",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A black and white photograph of an ancient mosaic inscription with Latin text, surrounded by geometric patterns on a stone floor.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
