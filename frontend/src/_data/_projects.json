@@ -2471,7 +2471,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "c4e1d2c4-b9a2-42f6-a459-82e4b5624385",
+      "storage": "local",
+      "filename_disk": "c4e1d2c4-b9a2-42f6-a459-82e4b5624385.jpg",
+      "filename_download": "CoSTAR--adi-rahman-ngronCIThE4-unsplash.jpg",
+      "title": "Photo by Adi Rahman",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T11:34:33.139Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T11:36:14.951Z",
+      "charset": null,
+      "filesize": "152379",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A crowd watching a live performance on a brightly lit stage with a large digital screen in the background.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
