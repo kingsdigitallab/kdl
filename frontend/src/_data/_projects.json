@@ -11363,7 +11363,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "a7508647-2eb9-4f9c-9e50-1df03057416b",
+      "storage": "local",
+      "filename_disk": "a7508647-2eb9-4f9c-9e50-1df03057416b.jpg",
+      "filename_download": "IPM--Section of the Borstall map.jpg",
+      "title": "Section of the Borstall Map",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T12:20:21.487Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:21:22.131Z",
+      "charset": null,
+      "filesize": "191025",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A detailed historical map illustration depicting a medieval village with buildings, roads, greenery, and a deer, drawn in vibrant colours.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -15587,7 +15609,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "143c965d-0dd5-44de-b08a-b49cafa4e8b1",
+      "storage": "local",
+      "filename_disk": "143c965d-0dd5-44de-b08a-b49cafa4e8b1.jpg",
+      "filename_download": "SAW--Greek wise men debating, 13th Century Arabic manuscript.jpg",
+      "title": "Greek Wise Men Debating, 13th Century Arabic Manuscript",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T12:24:53.707Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:26:03.347Z",
+      "charset": null,
+      "filesize": "182932",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A vibrant 13th-century Arabic manuscript illustration depicting three men in robes and turbans engaged in an animated discussion.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -16640,7 +16684,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "6873782b-27e6-47ce-ae90-dfc2a37e7374",
+      "storage": "local",
+      "filename_disk": "6873782b-27e6-47ce-ae90-dfc2a37e7374.jpg",
+      "filename_download": "CHARM--sudhith-xavier-IUn1O500LMI-unsplash.jpg",
+      "title": "Photo by Sudhith Xavier",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T12:16:26.269Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:17:49.650Z",
+      "charset": null,
+      "filesize": "173966",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A vintage gramophone with an intricately engraved golden horn, reflecting warm light in a dimly lit setting, evoking a nostalgic atmosphere.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -17551,7 +17617,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "4eeae21f-10b0-4e93-85fc-20fed3ca7119",
+      "storage": "local",
+      "filename_disk": "4eeae21f-10b0-4e93-85fc-20fed3ca7119.jpg",
+      "filename_download": "EPAPP--Honours for Cornelia Salonina.jpg",
+      "title": "Honours for Cornelia Salonina - A white marble base without moulding (1.04 × 0.44 × 0.45); complete, but worn along the upper edge, and pierced for later use as a well-head.",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-02-17T12:34:48.559Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-02-17T12:36:12.413Z",
+      "charset": null,
+      "filesize": "178628",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "An ancient stone inscription with Greek text, featuring a central circular hole, set against a backdrop of ruins and a mountainous landscape.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
