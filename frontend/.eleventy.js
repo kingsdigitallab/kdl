@@ -9,7 +9,6 @@ const pluginSEO = require("eleventy-plugin-seo");
 const pluginTOC = require("eleventy-plugin-toc");
 const { Directus } = require("@directus/sdk");
 const markdownIt = require("markdown-it");
-const { DateTime } = require("luxon");
 const Nunjucks = require("nunjucks");
 const path = require("node:path");
 const sass = require("sass");
