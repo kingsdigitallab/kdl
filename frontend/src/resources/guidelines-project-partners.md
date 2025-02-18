@@ -95,9 +95,9 @@ VAT could be applicable, depending on the nature of our collaboration.
    funding application or are you hoping to add KDL involvement to a
    previously-funded project?)_
 
-   - (Project already funded)
+   - Project already funded
 
-     - Who is the Funder
+     - Who is the Funder?
      - What is the Funding scheme?
      - Could you provide the range of the amount of funding you will be applying
        for (if known)?
