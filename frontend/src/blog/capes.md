@@ -59,6 +59,7 @@ During the playtest sessions, all the participants were also equipped with Sony 
 
 I’m very thankful for all the King’s Digital Lab team for being so kind, receiving and interested in following up the progress of the activities that I developed during my period as a visiting researcher at KCL. They systematically created room for presentations and conversations, and were always open for suggestions, clarifying technical doubts, helping to come up with smart ways of solving problems, and providing easy access to their facilities and electronic equipment. It was an immensely great experience, that I sincerely wish that more lucky people could be benefited from it as much as I was.
 
+[Luis Felipe Abud](https://www.linkedin.com/in/lfabbud/)
 
 ## Footnote
 
