@@ -20,7 +20,7 @@ KDL can also be involved with research projects in other ways, e.g. providing
 expert advice or running workshops on digital methods.
 
 KDL operates as a TRAC Facility. Our daily rate for research projects ranges
-between £826 and £984.
+between £800 and £1,000.
 
 Being based in the Faculty of Arts and Humanities at King’s College London or
 planning to involve as co-lead in your project someone based in the Faculty
