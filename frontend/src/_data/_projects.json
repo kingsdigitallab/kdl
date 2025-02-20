@@ -16365,10 +16365,10 @@
     "funder": [
       {
         "agent_id": {
-          "alternateName": null,
-          "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-          "name": "Faculty of Natural, Mathematical & Engineering Sciences",
-          "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          "alternateName": "KCL",
+          "id": "5b4a2a86-df70-4efa-a7f1-7e17c4252d5d",
+          "name": "King's College London",
+          "slug": "kings-college-london"
         }
       }
     ],
