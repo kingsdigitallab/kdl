@@ -15208,6 +15208,53 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": null,
+    "dissolutionDate": null,
+    "foundingDate": "2024-05-15",
+    "id": "5c51b759-532a-446e-b1ca-cabd160e6c40",
+    "name": "Sculpting Time with Computers",
+    "slug": "sculpting-time-with-computers",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
+    ],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
+            "name": "FAH Department of Digital Humanities",
+            "slug": "ddh"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      }
+    ],
+    "member": []
+  },
+  {
     "alternateName": "SHAK400",
     "cmsStatus": "published",
     "description": "Shakespeare400 brought together a consortium of leading cultural, creative and educational institutions in and around London, to create a season of events throughout 2016, that celebrated four hundred years of Shakespeare. The season included theatre, music, opera, dance, ballet and exhibitions as well as educational and widening-participation events, that demonstrated the ongoing vibrancy of Shakespeare’s creative influence in national and global culture.  The season was coordinated by the London Shakespeare Centre and the Cultural Institute at King's College London. This website, hosted by King’s College London, serves as an archive and record of all the activities that took place throughout 2016, across the Shakespeare400 partner organisations.",
