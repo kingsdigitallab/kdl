@@ -15223,7 +15223,16 @@
       }
     },
     "image": null,
-    "funder": [],
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "4527daf5-8fdd-43a3-a576-cc02043e7180",
+          "name": "King's College London - Digital Futures Institute",
+          "slug": "king-s-college-london-digital-futures-institute"
+        }
+      }
+    ],
     "keywords": [
       {
         "definedterm_id": {
@@ -15250,9 +15259,73 @@
             }
           }
         }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "4f092d62-8292-4884-907b-bc294ce013fc",
+            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          },
+          "parentOrganisation": null
+        }
       }
     ],
-    "member": []
+    "member": [
+      {
+        "agent": {
+          "id": "4a049d52-7a66-41ab-8094-276ab838f449",
+          "name": "Daniel Chavez Herras",
+          "slug": "daniel-chavez-herras"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "9e44ae58-dce7-4632-9293-b9afdccd4621",
+          "name": "Zoran Cvetkovic",
+          "slug": "zoran-cvetkovic"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
   },
   {
     "alternateName": "SHAK400",
