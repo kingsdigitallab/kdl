@@ -15301,6 +15301,19 @@
       },
       {
         "agent": {
+          "id": "8736515b-ff4b-45ec-a0d0-317edcd53dde",
+          "name": "Joshua Hodes",
+          "slug": "joshua-hodes"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
           "name": "Arianna Ciula",
           "slug": "arianna-ciula"
