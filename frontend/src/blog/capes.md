@@ -2,6 +2,7 @@
 title: "CAPES Fellowship: Reflections on time spent embedded at KDL and CMCI in 2024"
 subtitle:
 tags:
+  - post
   - fellowship
   - xr
 authors:
@@ -33,11 +34,11 @@ This final part of the research informed the planning of activities that was exe
 
 - Playing With Trust: a modular game structure with AR interface designed during the pandemic isolation period in order to reestablish social interactions in public spaces, based on a human game board and a set of original ludic activities especially designed for it; and,
 
-- [demonumenta](https://drive.google.com/file/d/1BA_9uBx89Ro8ylIYhhvnw7KJ144OyQnt/view): a two-year multidisciplinary research held at FAU USP, involving graduate students and post-graduate researchers, that investigated the history of a series of public monuments from the city of São Paulo, in order to resignify them through the lenses of decoloniality. 
+- [demonumenta](https://drive.google.com/file/d/1BA_9uBx89Ro8ylIYhhvnw7KJ144OyQnt/view): a two-year multidisciplinary research held at FAU USP, involving graduate students and post-graduate researchers, that investigated the history of a series of public monuments from the city of São Paulo, in order to resignify them through the lenses of decoloniality.
 
 ![Playtest of the XR experiences The Instagram City, Playing With Trust and demonumentaAR](/assets/images/blog/CAPES_Insta_city_image_4.webp "Playtest of the XR experiences The Instagram City, Playing With Trust and demonumentaAR")
 
-Originally implemented as an exhibition for a public square in São Paulo with an AR gamified interface, the project demonumenta presented the original 3D remodelling of 22 monuments that could be virtually instantiated in space and tri-dimensionally experienced through the smartphone screen with an audio guide containing revised narratives of their origins and meanings through time. In order for this project to be experienced in the local context of London through a new version of the application, three chosen local monuments were selected to be problematized, for paying homage to public figures that have aspects of their history related to slavery. 
+Originally implemented as an exhibition for a public square in São Paulo with an AR gamified interface, the project demonumenta presented the original 3D remodelling of 22 monuments that could be virtually instantiated in space and tri-dimensionally experienced through the smartphone screen with an audio guide containing revised narratives of their origins and meanings through time. In order for this project to be experienced in the local context of London through a new version of the application, three chosen local monuments were selected to be problematized, for paying homage to public figures that have aspects of their history related to slavery.
 
 ![Collaboration with King’s Past project for the production of a new version of demonumentaAR, presenting three monuments from London](/assets/images/blog/CAPES_Kings_Past_image_5.webp "Collaboration with King’s Past project for the production of a new version of demonumentaAR, presenting three monuments from London")
 
@@ -62,4 +63,3 @@ I’m very thankful for all the King’s Digital Lab team for being so kind, rec
 It was a real pleasure for us to have the opportunity to host Luis last year and to learn so much from his research. He produced some wonderfully realised visualisations with enviable impact value and he was always willing to share his experiences through seminars and in informal settings and his contributions enriched our debates about the many and varied uses of XR, and he continues to enrich that dialogue from back in São Paulo.
 
 The KDL Team
-
