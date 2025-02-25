@@ -2079,6 +2079,37 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Sculpting Time with Computers",
+            "alternateName": null,
+            "slug": "sculpting-time-with-computers",
+            "foundingDate": "2024-05-15",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -8233,6 +8264,37 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Sculpting Time with Computers",
+            "alternateName": null,
+            "slug": "sculpting-time-with-computers",
+            "foundingDate": "2024-05-15",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         },
         {
