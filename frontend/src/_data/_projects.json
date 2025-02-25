@@ -1887,24 +1887,24 @@
       }
     },
     "image": {
-      "id": "34c413bd-fb04-440b-a13f-6d7f44841764",
+      "id": "f3ddce01-aad9-4dc8-bc6f-0b944c6d38f6",
       "storage": "local",
-      "filename_disk": "34c413bd-fb04-440b-a13f-6d7f44841764.jpg",
-      "filename_download": "BCC--Screenshot of Movement in Common Worlds staging site showcasing the work in progress..jpg",
-      "title": "Bcc  Screenshot of Movement in Common Worlds Staging Site Showcasing the Work in Progress.",
+      "filename_disk": "f3ddce01-aad9-4dc8-bc6f-0b944c6d38f6.jpg",
+      "filename_download": "BCC--Screenshots.jpg",
+      "title": null,
       "type": "image/jpeg",
       "folder": null,
       "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
-      "uploaded_on": "2025-02-19T13:48:24.486Z",
+      "uploaded_on": "2025-02-25T13:50:59.466Z",
       "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
-      "modified_on": "2025-02-19T13:48:30.223Z",
+      "modified_on": "2025-02-25T13:52:53.230Z",
       "charset": null,
-      "filesize": "158152",
+      "filesize": "131826",
       "width": 1200,
       "height": 800,
       "duration": null,
       "embed": null,
-      "description": "Map displaying red circles and green triangles with text box on the side.",
+      "description": "A shaded map highlighting a specific region in North America, covering parts of Quebec, Ontario, and the Atlantic provinces.",
       "location": null,
       "tags": null,
       "metadata": {}
@@ -1941,6 +1941,12 @@
         "linkrole_id": {
           "name": "UKRI URL",
           "url": "https://gtr.ukri.org/projects?ref=AH%2FT006099%2F1"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project URL",
+          "url": "https://bcc.kdl.kcl.ac.uk/"
         }
       }
     ],
@@ -15208,6 +15214,139 @@
     ]
   },
   {
+    "alternateName": null,
+    "cmsStatus": "published",
+    "description": null,
+    "dissolutionDate": "2025-12-31",
+    "foundingDate": "2024-05-15",
+    "id": "5c51b759-532a-446e-b1ca-cabd160e6c40",
+    "name": "Sculpting Time with Computers",
+    "slug": "sculpting-time-with-computers",
+    "creativeWorkStatus": {
+      "name": "Active",
+      "inDefinedTermSet": {
+        "name": "SDLC"
+      }
+    },
+    "image": null,
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "4527daf5-8fdd-43a3-a576-cc02043e7180",
+          "name": "King's College London - Digital Futures Institute",
+          "slug": "king-s-college-london-digital-futures-institute"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Machine Learning and AI"
+        }
+      }
+    ],
+    "url": [],
+    "department": [
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "68d09794-071d-48db-98b6-53df3d8f99b3",
+            "name": "FAH Department of Digital Humanities",
+            "slug": "ddh"
+          },
+          "parentOrganisation": {
+            "agent": {
+              "alternateName": "FAH",
+              "id": "f471d028-1bea-4504-9428-5dec831ef635",
+              "name": "Faculty of Arts and Humanities",
+              "slug": "faculty-of-arts-and-humanities"
+            }
+          }
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "4f092d62-8292-4884-907b-bc294ce013fc",
+            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          },
+          "parentOrganisation": null
+        }
+      }
+    ],
+    "member": [
+      {
+        "agent": {
+          "id": "4a049d52-7a66-41ab-8094-276ab838f449",
+          "name": "Daniel Chavez Herras",
+          "slug": "daniel-chavez-herras"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "8736515b-ff4b-45ec-a0d0-317edcd53dde",
+          "name": "Joshua Hodes",
+          "slug": "joshua-hodes"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Research Software Analyst",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "9e44ae58-dce7-4632-9293-b9afdccd4621",
+          "name": "Zoran Cvetkovic",
+          "slug": "zoran-cvetkovic"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
+  },
+  {
     "alternateName": "SHAK400",
     "cmsStatus": "published",
     "description": "Shakespeare400 brought together a consortium of leading cultural, creative and educational institutions in and around London, to create a season of events throughout 2016, that celebrated four hundred years of Shakespeare. The season included theatre, music, opera, dance, ballet and exhibitions as well as educational and widening-participation events, that demonstrated the ongoing vibrancy of Shakespeare’s creative influence in national and global culture.  The season was coordinated by the London Shakespeare Centre and the Cultural Institute at King's College London. This website, hosted by King’s College London, serves as an archive and record of all the activities that took place throughout 2016, across the Shakespeare400 partner organisations.",
@@ -16365,10 +16504,10 @@
     "funder": [
       {
         "agent_id": {
-          "alternateName": null,
-          "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-          "name": "Faculty of Natural, Mathematical & Engineering Sciences",
-          "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+          "alternateName": "KCL",
+          "id": "5b4a2a86-df70-4efa-a7f1-7e17c4252d5d",
+          "name": "King's College London",
+          "slug": "kings-college-london"
         }
       }
     ],
