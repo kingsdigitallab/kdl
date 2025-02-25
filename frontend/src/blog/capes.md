@@ -1,5 +1,5 @@
 ---
-title: "CAPES Fellowship"
+title: "CAPES Fellowship: Reflections on time spent embedded at KDL and CMCI in 2024"
 subtitle:
 tags:
   - fellowship
@@ -7,12 +7,12 @@ tags:
 authors:
   - Luis Felipe Abbud
 date: 2025-02-13
-excerpt: TBC.
+excerpt: Reflections on time spent embedded at KDL and CMCI in 2024
 feature:
   image: /assets/images/blog/CAPES_Header_image_1.webp
   title: "XR User Playtesting"
   description: "XR User Playtesting and Feedback Sessions at King’s College London, 3-6.Sep.2024: focal group, playtesting and body tracking with motion capture sensors"
-draft: true
+draft: false
 ---
 
 Between the months of May and October of 2024, I had the valuable opportunity to develop part of my PhD thesis as a visiting post-graduate researcher at King’s College London (KCL), through a scholarship granted by the [Doctorate Sandwich Program from CAPES](https://www.gov.br/capes/en/access-to-information/actions-and-programs/scholarships-and-students/institutional-programs-abroad/sandwich-doctorate-program-pdse), an agency from the Brazilian Ministry of Education. Under the guidance of Dr. [Stephanie Janes](https://www.kcl.ac.uk/people/dr-stephanie-janes), from the Department of Culture, Media and Creative Industries, and supported by [Neil Jakeman](https://kdl.kcl.ac.uk/about/people/neil-jakeman/), and the King’s Digital Lab [(KDL)](https://kdl.kcl.ac.uk/) team under the direction of [Dr.Arianna Ciula](https://kdl.kcl.ac.uk/about/people/arianna-ciula/), I was able to conduct activities that immensely benefited the final, analytical phase of my research, originally based in the post-graduate course of design of the Faculty of Architecture, Urbanism and Design of University of São Paulo - [FAU USP](https://www.fau.usp.br/).
@@ -20,7 +20,6 @@ Between the months of May and October of 2024, I had the valuable opportunity to
 Supervised by [Prof. Giselle Beiguelman](https://www.fau.usp.br/docente/giselle-beiguelman/), my doctoral research focuses on the investigation of spatial aspects derived from immersive experiences, provided by the advances in audiovisual and computational technologies of extended reality (XR). Identified as a recent multidisciplinary field under gradual development, the research aims to organize a framework of design elements and practices for XR experiences, that can assist in activating spaces and creating social relations, while at the same time analyzing and stimulating the possibilities of autonomous creation of such immersive experiences, not only as a way of contributing to the growing field of Digital Humanities, but also for it to be understood as a form of decolonial practice in response to the massively concentrated development of these technologies by Big Tech enterprises and their opaque agendas.
 
 ![Street signs to warn distracted smartphone users](/assets/images/blog/CAPES_Sur-fake_image_2.webp "Antoine Geiger. Sur-Fake, 2015; street signs to warn distracted smartphone users in South Korea, 2016.")
-
 
 The research is based on conceptual and practical investigation through design in the recent context of spatial computing developments, starting from the first historical manifestations of technical images used to represent tridimensionality in bidimensional surfaces, and reaching the contemporary moment of a global immersion inside ubiquitous computing, allowed by the extensive use of smartphones in a timespan of less than 20 years. This rapid development triggered a progressively stronger dependence of the population on them for executing everyday tasks, and a notable shift in our spatial and social behaviours. In this sense, it might be said that we are witnessing the early stage of a transition process, from the use of portable handheld devices to their gradual substitution by optical media, a path that can be identified by a growing development and production of visors, such as mixed reality (MR) headsets and augmented reality (AR) glasses, predominantly produced by the main Big Tech companies of the global north. This production is followed by the continuous launch of new spatial computing experiences, from games and entertainment to day-by-day applications, all composed with virtual, animated and interactive 3D modelled elements.
 
@@ -30,7 +29,7 @@ In order to foster a deeper understanding of the conceptual, technical and sensi
 
 This final part of the research informed the planning of activities that was executed at KCL during the period of my scholarship and, among the experiences implemented, the following projects were selected to be reproduced, play-tested and later analyzed during the workshop sessions held:
 
-- The [Instagram City](https://drive.google.com/file/d/1aoYjj2zgL9b51tZUza5_LjBdLQOSi-H3/view): a VR experience for smartphones adapted into headsets by cardboard visors, transforming the addictive action of doom-scrolling into a spatial experience;
+- The [Instagram City](https://drive.google.com/file/d/1aoYjj2zgL9b51tZUza5_LjBdLQOSi-H3/view): a VR experience for smartphones adapted into headsets by cardboard visors, transforming the addictive action of [doom-scrolling](https://en.wikipedia.org/wiki/Doomscrolling) into a spatial experience;
 
 - Playing With Trust: a modular game structure with AR interface designed during the pandemic isolation period in order to reestablish social interactions in public spaces, based on a human game board and a set of original ludic activities especially designed for it; and,
 
