@@ -15216,7 +15216,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": null,
+    "description": "This project is part of wider research on computational modelling of audiovisual media and in particular of cinematic time aimed at gaining insights on how narrative mechanisms (e.g. continuity editing) relate to larger historical patterns (e.g. new cinematic genres and audiences).\n\nThe collaboration with KDL is aimed at the design and development of a Proof of Concept to articulate the value of this idea, assess its feasibility and have a sense of what is needed before moving to larger scale development or production.\n\nThe focus of this experimental work has been to prepare, model and process a dataset of selected aspects of a sample moving images collection and associated layers of cinematic time (e.g. at the level films sample layers are clips, shots, and frames) to scope technologies (e.g. use of large visual, language or multimodal models and of a Retrieval Augmented Generation application) and test what layers can become observable and retrievable.\n",
     "dissolutionDate": "2025-12-31",
     "foundingDate": "2024-05-15",
     "id": "5c51b759-532a-446e-b1ca-cabd160e6c40",
@@ -15237,6 +15237,14 @@
           "name": "King's College London - Digital Futures Institute",
           "slug": "king-s-college-london-digital-futures-institute"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": "DFI",
+          "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
+          "name": "Digital Futures Institute",
+          "slug": "digital-futures-institute"
+        }
       }
     ],
     "keywords": [
@@ -15244,9 +15252,41 @@
         "definedterm_id": {
           "name": "Machine Learning and AI"
         }
+      },
+      {
+        "definedterm_id": {
+          "name": "Machine learning"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Media"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": " Computer vision"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital collection"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital tool creation"
+        }
       }
     ],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Repository: ",
+          "url": "kingsdigitallab/kdl-vqa"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
@@ -15279,6 +15319,19 @@
       }
     ],
     "member": [
+      {
+        "agent": {
+          "id": "70c434a7-8a1b-4533-b2e0-47c14d48c4f1",
+          "name": "Ryan Heuser",
+          "slug": "ryan-heuser"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
       {
         "agent": {
           "id": "4a049d52-7a66-41ab-8094-276ab838f449",
