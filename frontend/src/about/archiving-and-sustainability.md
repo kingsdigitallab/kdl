@@ -51,7 +51,7 @@ We are also interested in options such as providing projects as virtual machines
 Institutions that support SLAs for projects hosted and maintained by KDL are included in brackets, below. FAH stands for Faculty of Arts & Humanities at King’s College London.
 
 - [AHRC Research Centre for the History and Analysis of Recorded Music](http://www.charm.kcl.ac.uk) (FAH)
-- [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) (FAH)
+- [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966)) (FAH)
 - [Atlantic Europe in the Metal Ages](http://www.aemap.ac.uk/en/) (University of Wales)
 - [Cambridge Edition of the Works of Ben Jonson](http://universitypublishingonline.org/cambridge/benjonson/) (Cambridge University)
 - [Clergy of the Church of England Database](http://theclergydatabase.org.uk/) (FAH)
@@ -84,7 +84,7 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
 - [Schenker Documents Online](http://www.schenkerdocumentsonline.org/index.html) ([dataset](https://doi.org/10.18742/x2pz-ez09)) (University of Southampton)
 - [Shakespeare Holdings in the Royal Collection](https://sharc.kcl.ac.uk/) (AHRC)
-- [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) (FAH)
+- [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) [dataset](https://kcl.figshare.com/collections/Sharing_Ancient_Wisdoms/7638260)) (FAH)
 - [The Values of French](https://tvof.ac.uk/) ([dataset](https://doi.org/10.6084/m9.figshare.c.4873335.v3)) (FAH)
 
 ## Migrated projects
