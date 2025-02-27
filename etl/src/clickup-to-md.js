@@ -76,15 +76,20 @@ class ClickUpToMarkdown {
     for (const project of projects) {
       console.log(`Processing: ${project.name}`);
       const slug = this.slugify(project.name);
-      const outputFile = path.join(this.outputPath, `${slug}.md`);
 
-      // Try to read existing file
+      const foundingDate = this.convertDate(
+        this.getCustomFieldValue(project, "Project start date")
+      );
+      const datePrefix = foundingDate ? `${foundingDate}-` : "1970-01-01-";
+
+      const outputFile = path.join(this.outputPath, `${datePrefix}${slug}.md`);
+
       let existingContent = null;
       let existingFrontmatter = {};
 
       try {
         existingContent = await fs.readFile(outputFile, "utf8");
-        // Parse existing frontmatter if file exists
+
         const match = existingContent.match(
           /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
         );
@@ -93,7 +98,6 @@ class ClickUpToMarkdown {
         }
       } catch (err) {
         if (err.code === "ENOENT") {
-          // File doesn't exist, create directory if needed
           await fs.mkdir(this.outputPath, { recursive: true });
           console.log(`Creating new file: ${slug}.md`);
         } else {
@@ -101,7 +105,6 @@ class ClickUpToMarkdown {
         }
       }
 
-      // Prepare new frontmatter
       const frontmatter = {
         ...existingFrontmatter,
         title: project.name,
@@ -109,9 +112,7 @@ class ClickUpToMarkdown {
         tags: ["projects"],
         alternateName: this.getCustomFieldValue(project, "Acronym"),
         slug: slug,
-        foundingDate: this.convertDate(
-          this.getCustomFieldValue(project, "Project start date")
-        ),
+        foundingDate,
         dissolutionDate: this.convertDate(
           this.getCustomFieldValue(project, "Project end date")
         ),
@@ -126,7 +127,6 @@ class ClickUpToMarkdown {
         urls: this.getUrls(project),
       };
 
-      // Create markdown content
       const content = [
         "---",
         YAML.stringify(frontmatter).trim(),
@@ -135,7 +135,6 @@ class ClickUpToMarkdown {
         existingContent ? existingContent.split("---")[2].trim() : "",
       ].join("\n");
 
-      // Write file
       await fs.writeFile(outputFile, content);
     }
   }
