@@ -7740,7 +7740,7 @@
     "alternateName": "InsAph",
     "cmsStatus": "published",
     "description": "",
-    "dissolutionDate": null,
+    "dissolutionDate": "2007-10-31",
     "foundingDate": "2004-02-01",
     "id": "cbe316d3-18a1-4a2d-986c-d86cf6368a3c",
     "name": "Inscriptions of Aphrodisias",
@@ -7798,6 +7798,18 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "http://insaph.kcl.ac.uk/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Datasets (Inscriptions of Aphrodisias 2007)",
+          "url": "https://doi.org/10.18742/c.7637984.v1"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Dataset (Aphrodisias in Late Antiquity 2004)",
+          "url": "https://doi.org/10.18742/c.7637966.v1"
         }
       }
     ],
@@ -17797,9 +17809,9 @@
   {
     "alternateName": "EPAPP",
     "cmsStatus": "published",
-    "description": "The Epidoc Aphrodisias Project was launched in 2002 to develop and apply tools for presenting ancient Greek and Latin inscriptions on the Internet. With support from the Leverhulme Trust, as part of their Research Interchange Scheme, researchers from Europe, the U.S. and the U.K. pooled their experience and launched a pilot project. The longer term aim is the publication of some 1,000 inscribed texts from the ancient city of Aphrodisias in Caria, where inscriptions have been recorded since the eighteenth century, and where excavations have been conducted by New York University since the early 1960s.",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "description": "The Epidoc Aphrodisias Project was launched in 2002 to develop and apply tools for presenting ancient Greek and Latin inscriptions on the Internet. With support from the Leverhulme Trust, as part of their Research Interchange Scheme, researchers from Europe, the U.S. and the U.K. pooled their experience and launched a pilot project. The longer term aim was the publication of some 1,000 inscribed texts from the ancient city of Aphrodisias in Caria, where inscriptions have been recorded since the eighteenth century, and where excavations have been conducted by New York University since the early 1960s.\n\nThis project allowed the research team to develop a volume of some 250 inscriptions, using the Epidoc markup principles.",
+    "dissolutionDate": "2002-12-31",
+    "foundingDate": "2002-01-01",
     "id": "ba0dc73d-293f-4634-8845-a60e6521de50",
     "name": "The Epidoc Aphrodisias Project",
     "slug": "epapp",
