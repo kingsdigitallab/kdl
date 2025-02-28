@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>Un&rsquo;infrastruttura digitale per la ricerca in ambito umanistico: strutture e processi del King&rsquo;s Digital Lab | King&apos;s Digital Lab</title>
+
+<meta name="description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta name="robots" content="index,follow">
+<meta name="author" content="King's Digital Lab">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/slides/2025-bologna-kdl-structures-processes/">
+
+<meta property="og:title" content="Un&rsquo;infrastruttura digitale per la ricerca in ambito umanistico: strutture e processi del King&rsquo;s Digital Lab | King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/slides/2025-bologna-kdl-structures-processes/">
+<meta property="og:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta property="og:image" content="https://kdl.kcl.ac.ukundefined">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/slides/2025-bologna-kdl-structures-processes/">
+<meta name="twitter:title" content="Un&rsquo;infrastruttura digitale per la ricerca in ambito umanistico: strutture e processi del King&rsquo;s Digital Lab | King&apos;s Digital Lab">
+<meta name="twitter:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta name="twitter:image" content="https://kdl.kcl.ac.ukundefined">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+  <link rel="stylesheet" href="/kdl/assets/stylesheets/main.css">
+  <link rel="stylesheet" href="/kdl/assets/reveal/reveal.css">
+  <link rel="stylesheet" href="/kdl/assets/stylesheets/slides/light.css">
+
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/research-themes/">Research</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+
+      </header>
+    
+
+    
+  <main class="reveal">
+    <div class="slides"><section class="slide" data-auto-animate="">
+<h2 id="un%E2%80%99infrastruttura-digitale-per-la-ricerca-in-ambito-umanistico" tabindex="-1">Un’infrastruttura digitale per la ricerca in ambito umanistico</h2>
+<h3 id="strutture-e-processi-del-king%E2%80%99s-digital-lab" tabindex="-1">strutture e processi del King’s Digital Lab</h3>
+<p>Arianna Ciula</p>
+<h4 id="king's-digital-lab%2C-king's-college-london" tabindex="-1">King's Digital Lab, King's College London</h4>
+<p><a href="https://kdl.kcl.ac.uk"><code>kdl.kcl.ac.uk</code></a></p>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="percorso" tabindex="-1">Percorso</h2>
+<ul>
+<li>Infrastruttura in senso olistico</li>
+<li>Introduzione al King's Digital Lab</li>
+<li>Software repository</li>
+<li>I dati nel project lifecycle - esempi</li>
+<li>Buone pratiche ma come far meglio?</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="infrastruttura-multilivello" tabindex="-1">Infrastruttura multilivello</h2>
+<figure><a href="https://doi.org/10.2307/j.ctv2wk727j.9"><img src="/kdl/assets/images/slides/bologna-2025-fig_1.png" alt="Socio-technical system"></a></figure>
+<aside class="notes">
+<ul>
+<li>Ciula, A., &amp; Smithies, J. (2023). Sustainability and modelling at King’s Digital Lab: between tradition and innovation. In J. Nyhan, G. Rockwell, S. Sinclair, &amp; A. Ortolja-Baird (Eds.), On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley (pp. 78-104). University College London Press. https://doi.org/10.2307/j.ctv2wk727j.9</li>
+<li>Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="king's-digital-lab" tabindex="-1">King's Digital Lab</h2>
+<ul>
+<li><a href="https://kdl.kcl.ac.uk/about/team/">Team e ruoli</a></li>
+<li><a href="https://kdl.kcl.ac.uk/projects/">Progetti</a></li>
+<li><a href="https://kdl.kcl.ac.uk/projects/research-themes/">Temi di ricerca</a></li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="codice-e-software" tabindex="-1">Codice e software</h2>
+<ul>
+<li><a href="https://github.com/kingsdigitallab/">Github repository</a></li>
+<li><a href="https://opensource.org/licenses/MIT">Licenza apoerta MIT</a>)</li>
+</ul>
+<blockquote>
+<p>&quot;KDL makes any project application source code freely accessible at KDL’s GitHub repository.&quot;
+&quot;Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.&quot;</p>
+</blockquote>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="dati-e-project-lifecycle" tabindex="-1">Dati e project lifecycle</h2>
+<h3 id="sdlc" tabindex="-1">SDLC</h3>
+<div class="r-stack">
+  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/sdlc.png" height="600">
+  <img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/bologna-2025-sdlc-data.png" height="600">
+</div>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="dati-e-project-lifecycle-1" tabindex="-1">Dati e project lifecycle</h2>
+<h3 id="pre-project" tabindex="-1">Pre-project</h3>
+<ul>
+<li><a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template">Domande-guida relative ai requirements</a></li>
+<li><a href="https://www.dcc.ac.uk/resources/data-management-plans">Linee guida e strumento DCC pre creare Data Management Plans</a></li>
+<li>Requirement di default</li>
+<li>
+<blockquote>
+<p>&quot;KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository&quot;</p>
+</blockquote>
+</li>
+</ul>
+<aside class="notes">
+<ul>
+<li>Highlights potential gaps, omissions, and biases in the data</li>
+<li>Wide view of the network reveals:
+<ul>
+<li>Areas of high connectivity</li>
+<li>Contrasting sparse areas</li>
+<li>Potential geographical or temporal biases</li>
+</ul>
+</li>
+<li>Example: Isolated 'kite' shape
+<ul>
+<li>Group of four individuals initially disconnected</li>
+<li>Revealed a gap in the data</li>
+<li>Connection to the main network addressed the gap</li>
+<li>Also uncovered a self-referential group of radicals in Genoa</li>
+</ul>
+</li>
+<li>Demonstrates how visualisation can expose data limitations and lead to new insights</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="network-insights" tabindex="-1">Network Insights</h2>
+<h3 id="reveals-connections-across-borders" tabindex="-1">Reveals connections across borders</h3>
+<p><img src="/kdl/assets/images/slides/radicaltranslations-basedin-translated-network.svg" height="500"></p>
+<aside class="notes">
+<ul>
+<li>Reveals connections across borders</li>
+<li>Network example illustrates:
+<ul>
+<li>Nodes representing agents (individuals and organisations) and places</li>
+<li>Edges indicating translation relationships</li>
+<li>Large nodes for Paris and London, surrounded by numerous connections</li>
+</ul>
+</li>
+<li>Key insights:
+<ul>
+<li>Visualises the flow of radical texts across national boundaries</li>
+<li>Highlights Paris and London as central hubs in the radical translation network</li>
+<li>Reveals extensive cross-border relationships centred on these major cities</li>
+</ul>
+</li>
+<li>Emphasises the international nature of the translations</li>
+<li>Other benefits of networks:
+<ul>
+<li>Helps fill gaps in historical records</li>
+<li>Offers insights into social and professional circles</li>
+<li>Allows for hypothesis generation about anonymous agents' identities and roles</li>
+</ul>
+</li>
+</ul>
+</aside>
+</section>
+<!--
+<section class="slide" data-auto-animate>
+
+## Network Insights
+
+### Highlight missing biographical information
+
+<img
+    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
+    height="500"
+  />
+
+<aside class="notes">
+
+- Highlight missing biographical information
+- Valuable when biographical data is:
+  - Missing
+  - Incomplete
+  - Too complex to visualise directly
+- Example:
+  - Focus on nodes representing anonymous persons
+  - Shows connections to known entities
+  - Demonstrates how network analysis can help:
+    - Infer information about unknown individuals
+    - Provide context through associative relationships
+- Benefits:
+  - Helps fill gaps in historical records
+  - Offers insights into social and professional circles
+  - Allows for hypothesis generation about anonymous agents' identities and roles
+
+</aside>
+
+</section>
+-->
+<section class="slide" data-auto-animate="">
+<h2 id="research-process" tabindex="-1">Research Process</h2>
+<div class="r-stack">
+  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-research-countries.svg" height="500">
+  <img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/radicaltranslations-knows-network-annotated.svg" height="500">
+</div>
+<aside class="notes">
+<ul>
+<li>Enables exploration of:
+<ul>
+<li>Translators' networks</li>
+<li>Collaboration patterns</li>
+<li>Influence dynamics</li>
+</ul>
+</li>
+<li>Example: Influence dynamics
+<ul>
+<li>Researchers examined potential bridge figures</li>
+<li>Focus on connections between Italian and French contexts</li>
+<li>Identified key individuals facilitating cross-cultural exchange</li>
+</ul>
+</li>
+<li>Provides insights into:
+<ul>
+<li>Contextual landscape of radical activities</li>
+<li>Geographical and temporal distribution of translation efforts</li>
+</ul>
+</li>
+<li>Hypothesis testing:
+<ul>
+<li>Assists when biographical data is incomplete</li>
+<li>Complements other digital tools</li>
+<li>Allows for inference of identities and roles based on network position</li>
+</ul>
+</li>
+<li>Benefits:
+<ul>
+<li>Reveals hidden connections and patterns</li>
+<li>Supports data-driven research narratives</li>
+<li>Enhances understanding of the radical translation ecosystem</li>
+</ul>
+</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<ul>
+<li>Network visualisations reveal intricate connections shaping history</li>
+<li>Expanded dimensions of interpretation within the RT project</li>
+<li>Insightful tool for hypothesis verification</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="thank-you-%26-questions%3F" tabindex="-1">Thank you &amp; Questions?</h2>
+<h3 id="resources" tabindex="-1">Resources</h3>
+<ul>
+<li>RT project: <a href="https://radicaltranslations.org"><code>radicaltranslations.org</code></a></li>
+<li>RT technical overview: <a href="http://tiny.cc/cziiyz"><code>tiny.cc/cziiyz</code></a></li>
+<li>Network visualisation: <a href="http://tiny.cc/ixiiyz"><code>tiny.cc/ixiiyz</code></a></li>
+<li>Mucignat, Perovic: <a href="https://doi.org/10.61147/des.9"><code>doi.org/10.61147/des.9</code></a></li>
+</ul>
+<h3 id="contact" tabindex="-1">Contact</h3>
+<ul>
+<li>Arianna Ciula: <a href="mailto:arianna.ciula@kcl.ac.uk"><code>arianna.ciula@kcl.ac.uk</code></a></li>
+<li>Miguel Vieira: <a href="mailto:jose.m.vieira@kcl.ac.uk"><code>jose.m.vieira@kcl.ac.uk</code></a></li>
+</ul>
+</section>
+</div>
+  </main>
+
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//bsky.app/profile/kingsdigitallab.bsky.social" title="KDL on Bluesky">
+          <ion-icon src="assets/icons/bluesky.svg" aria-label="Bluesky icon"></ion-icon>
+        </a>
+        </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG"><ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> Report a problem</a>
+        </li>
+        <li>
+          <address>
+            <a href="mailto:kdl-info@kcl.ac.uk"><ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+          </address>
+        </li>
+        <li>
+          <address class="postal">
+            King's College London
+            <br>
+            Room VWB 2.50,
+            <br>
+            Virginia Woolf Building
+            <br>
+            22 Kingsway
+            <br>
+            London WC2B 6LE
+          </address>
+        </li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<section class="footer-end">
+  <div class="kdl-container">
+    <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+  </div>
+</section>
+
+
+  </footer>
+
+
+    
+  <script src="/kdl/assets/reveal/reveal.js"></script>
+  <script src="/kdl/assets/reveal/plugin/highlight/highlight.js"></script>
+  <script src="/kdl/assets/reveal/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      autoSlide: false,
+      controls: true,
+      embedded: true,
+      hashOneBasedIndex: true,
+      hash: true,
+      history: true,
+      loop: true,
+      progress: true,
+      slideNumber: true,
+      transition: 'fade',
+      plugins: [ RevealHighlight, RevealNotes ]
+    });
+  </script>
+
+  </body>
+</html>
