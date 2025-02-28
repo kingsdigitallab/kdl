@@ -1094,7 +1094,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -1153,8 +1153,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -2070,7 +2070,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Sculpting Time with Computers",
+            "name": "Sculpting Time with Computers Proof of Concept",
             "alternateName": null,
             "slug": "sculpting-time-with-computers",
             "foundingDate": "2024-05-15",
@@ -2638,7 +2638,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -2751,7 +2751,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -4067,8 +4067,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4249,7 +4249,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -4293,8 +4293,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4505,8 +4505,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4833,7 +4833,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -4892,8 +4892,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -5826,8 +5826,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -6952,8 +6952,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7340,8 +7340,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7690,7 +7690,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -7763,8 +7763,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -8240,7 +8240,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Sculpting Time with Computers",
+            "name": "Sculpting Time with Computers Proof of Concept",
             "alternateName": null,
             "slug": "sculpting-time-with-computers",
             "foundingDate": "2024-05-15",
@@ -10089,7 +10089,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -12155,7 +12155,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -12404,8 +12404,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12477,7 +12477,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -12644,7 +12644,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -13374,8 +13374,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -13949,8 +13949,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -14297,8 +14297,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -14767,8 +14767,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -15481,7 +15481,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -19840,7 +19840,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -20082,8 +20082,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -20693,8 +20693,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -21513,6 +21513,37 @@
           },
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Sculpting Time with Computers Proof of Concept",
+            "alternateName": null,
+            "slug": "sculpting-time-with-computers",
+            "foundingDate": "2024-05-15",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         }
       ]
@@ -22715,8 +22746,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -23085,8 +23116,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24478,7 +24509,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -24988,7 +25019,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
