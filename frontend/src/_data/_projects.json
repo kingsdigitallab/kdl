@@ -7739,7 +7739,7 @@
   {
     "alternateName": "InsAph",
     "cmsStatus": "published",
-    "description": "",
+    "description": "Under this page we collect information about several projects related to the publication over several years of Late Antique inscriptions from the excavations at Aphrodisias in Caria (Western Asia Minor, western Turkey today).\n\nAn enhanced online edition was produced in 2004 and in 2007 a full corpus of all the texts known to the researchers followed. These were all edited in EpiDoc XML, under the guidance of Gabriel Bodard.",
     "dissolutionDate": "2007-10-31",
     "foundingDate": "2004-02-01",
     "id": "cbe316d3-18a1-4a2d-986c-d86cf6368a3c",
@@ -8507,13 +8507,13 @@
       "storage": "local",
       "filename_disk": "38caebc7-aa1a-41e5-b7f2-36c88bac22d8.jpg",
       "filename_download": "IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR 47.IX.10).jpg",
-      "title": "Part of a mosaic panel comprising the left-hand side of a tabella ansata. Ward Perkins, 1947 (ward Perkins Archive, Bsr 47.ix.10)",
+      "title": "Part of a mosaic panel comprising the left-hand side of a tabella ansata (IRT0013). Ward Perkins, 1947 (Ward Perkins Archive, Bsr 47.ix.10)",
       "type": "image/jpeg",
       "folder": null,
       "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
       "uploaded_on": "2025-02-17T11:20:21.419Z",
       "modified_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
-      "modified_on": "2025-02-28T11:03:47.924Z",
+      "modified_on": "2025-02-28T11:22:52.817Z",
       "charset": null,
       "filesize": "187989",
       "width": 1200,
@@ -12107,14 +12107,25 @@
     "funder": [
       {
         "agent_id": {
-          "alternateName": "UKRI HEG",
-          "id": "8e19d1ca-c99c-4262-a649-67d7d7606795",
-          "name": "Horizon Europe Guarantee",
-          "slug": "horizon-europe-guarantee"
+          "alternateName": null,
+          "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
+          "name": "European Research Council",
+          "slug": "erc"
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "Music"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Corpus construction"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -12126,6 +12137,12 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "https://muslive.kcl.ac.uk/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Data deposit repository",
+          "url": "https://doi.org/10.18742/c.6803607.v3"
         }
       }
     ],
@@ -15793,9 +15810,9 @@
   {
     "alternateName": "SAWS",
     "cmsStatus": "published",
-    "description": "",
-    "dissolutionDate": null,
-    "foundingDate": null,
+    "description": "The aim of the project was to explore the use of digital tools to examine, and to represent, shared ideas, concepts, axioms and apophthegms in various cultures with a focus on the Byzantine Greek and medieval Arabic worlds, looking at the transmission of such materials, largely drawn from the Classical Greek world.\n\nEach literary researcher worked on the manuscripts of their various texts, to produce digital editions. The technical team developed the ontology (principally work by Anna Jordanous) and used it in order to represent the connections between those texts, and to build a structure for representing the texts (the Dynamic Library).",
+    "dissolutionDate": "2013-12-31",
+    "foundingDate": "2009-01-01",
     "id": "83b222ed-95f6-4af0-b7fe-03f7529ff4df",
     "name": "Sharing Ancient Wisdoms",
     "slug": "sharing-ancient-wisdoms",
@@ -15846,7 +15863,38 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "definedterm_id": {
+          "name": "History"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Cultural and Museum Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Languages and Literature"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Classics"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital tool creation"
+        }
+      }
+    ],
     "url": [
       {
         "linkrole_id": {
@@ -15858,6 +15906,12 @@
         "linkrole_id": {
           "name": "ERC URL",
           "url": "https://cordis.europa.eu/project/id/235366/reporting"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Data deposit repository",
+          "url": "https://doi.org/10.18742/c.7638260"
         }
       }
     ],
