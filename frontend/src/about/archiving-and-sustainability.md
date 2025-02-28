@@ -67,7 +67,7 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Historical Pageants](http://www.historicalpageants.ac.uk/) (FAH/AHRC)
 - [Inscriptiones antiquae Orae Septentrionalis Ponti Euxini](http://iospe.kcl.ac.uk/index.html) (FAH)
 - [Inscriptions of Roman Cyrenaica (2021)](https://irt2021.inslib.kcl.ac.uk/en/) (FAH)
-- [Inscriptions of Roman Tripolitania (2021)](https://irt2021.inslib.kcl.ac.uk/en/) [dataset](https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275) (FAH)
+- [Inscriptions of Roman Tripolitania (2021)](https://irt2021.inslib.kcl.ac.uk/en/) ([dataset](https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275)) (FAH)
 - [Inventory of Byzantine Churches](http://ibcc.dighum.kcl.ac.uk/) (FAH)
 - [Jane Austen's Fiction Manuscripts](http://www.janeausten.ac.uk/) (FAH; Oxford University)
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
