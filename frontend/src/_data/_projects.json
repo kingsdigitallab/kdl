@@ -7802,13 +7802,13 @@
       },
       {
         "linkrole_id": {
-          "name": "Datasets (Inscriptions of Aphrodisias 2007)",
+          "name": "Data desosit repository (Inscriptions of Aphrodisias 2007)",
           "url": "https://doi.org/10.18742/c.7637984.v1"
         }
       },
       {
         "linkrole_id": {
-          "name": "Dataset (Aphrodisias in Late Antiquity 2004)",
+          "name": "Data deposit repository (Aphrodisias in Late Antiquity 2004)",
           "url": "https://doi.org/10.18742/c.7637966.v1"
         }
       }
@@ -8507,13 +8507,13 @@
       "storage": "local",
       "filename_disk": "38caebc7-aa1a-41e5-b7f2-36c88bac22d8.jpg",
       "filename_download": "IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR 47.IX.10).jpg",
-      "title": "Part of a mosaic panel comprising the left-hand side of a tabella ansata. Ward Perkins,1947 (ward Perkins Archive, Bsr 47.ix.10)",
+      "title": "Part of a mosaic panel comprising the left-hand side of a tabella ansata. Ward Perkins, 1947 (ward Perkins Archive, Bsr 47.ix.10)",
       "type": "image/jpeg",
       "folder": null,
       "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
       "uploaded_on": "2025-02-17T11:20:21.419Z",
-      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
-      "modified_on": "2025-02-17T11:23:13.623Z",
+      "modified_by": "ef082f30-d25d-4893-96fd-3ceb5b885962",
+      "modified_on": "2025-02-28T11:03:47.924Z",
       "charset": null,
       "filesize": "187989",
       "width": 1200,
@@ -15242,14 +15242,6 @@
     },
     "image": null,
     "funder": [
-      {
-        "agent_id": {
-          "alternateName": null,
-          "id": "4527daf5-8fdd-43a3-a576-cc02043e7180",
-          "name": "King's College London - Digital Futures Institute",
-          "slug": "king-s-college-london-digital-futures-institute"
-        }
-      },
       {
         "agent_id": {
           "alternateName": "DFI",
