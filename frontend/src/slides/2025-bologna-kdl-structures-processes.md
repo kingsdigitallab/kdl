@@ -31,7 +31,7 @@ Arianna Ciula
 - Infrastruttura in senso olistico
 - Introduzione al King's Digital Lab
 - Software repository
-- I dati nel project lifecycle - esempi
+- Dati e project lifecycle - esempi
 - Buone pratiche ma come far meglio?
 
 {% endslide %}
@@ -68,9 +68,9 @@ Arianna Ciula
 ## Codice e software
 
 - [Github repository](https://github.com/kingsdigitallab/)
-- [Licenza apoerta MIT](https://opensource.org/licenses/MIT))
-> "KDL makes any project application source code freely accessible at KDL’s GitHub repository."
-> "Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License."
+- [Licenza aperta MIT](https://opensource.org/licenses/MIT))
+> KDL makes any project application source code freely accessible at KDL’s GitHub repository [...]
+> Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.
 
 {% endslide %}
 
@@ -103,24 +103,14 @@ Arianna Ciula
 
 ### Pre-project
 
-- [Domande-guida relative ai requirements](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
-- [Linee guida e strumento DCC pre creare Data Management Plans](https://www.dcc.ac.uk/resources/data-management-plans)
-- Requirement di default
-- > "KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository"
+- [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
+- [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
+- _Requirement_ di _default_
+- > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
 
 <aside class="notes">
 
-- Highlights potential gaps, omissions, and biases in the data
-- Wide view of the network reveals:
-  - Areas of high connectivity
-  - Contrasting sparse areas
-  - Potential geographical or temporal biases
-- Example: Isolated 'kite' shape
-  - Group of four individuals initially disconnected
-  - Revealed a gap in the data
-  - Connection to the main network addressed the gap
-  - Also uncovered a self-referential group of radicals in Genoa
-- Demonstrates how visualisation can expose data limitations and lead to new insights
+
 
 </aside>
 
