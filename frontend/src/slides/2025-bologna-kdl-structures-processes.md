@@ -106,7 +106,7 @@ Arianna Ciula
 - [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
 - [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
 - _Requirement_ di _default_
-- > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
+- > KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository
 
 <aside class="notes">
 
