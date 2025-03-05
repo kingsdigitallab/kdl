@@ -3402,8 +3402,8 @@
             "name": "Art of Making in Antiquity",
             "alternateName": "AofM",
             "slug": "aofm",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12180,8 +12180,8 @@
             "name": "Art of Making in Antiquity",
             "alternateName": "AofM",
             "slug": "aofm",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
