@@ -1746,6 +1746,19 @@
       },
       {
         "agent": {
+          "id": "520a1851-0235-43ae-81f8-308766a3f9f5",
+          "name": "Brian Maher",
+          "slug": "brian-maher"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "54f07177-fa33-4afd-9b86-edf660984e4f",
           "name": "John Bradley",
           "slug": "john-bradley"
