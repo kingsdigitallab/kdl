@@ -1730,7 +1730,34 @@
         }
       }
     ],
-    "member": []
+    "member": [
+      {
+        "agent": {
+          "id": "cf20ca37-c7f6-4c33-bf87-edbd6c9cd3f1",
+          "name": "William Wootton",
+          "slug": "william-wootton"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "54f07177-fa33-4afd-9b86-edf660984e4f",
+          "name": "John Bradley",
+          "slug": "john-bradley"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      }
+    ]
   },
   {
     "alternateName": "ACD-Engine",
