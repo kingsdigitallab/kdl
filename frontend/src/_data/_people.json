@@ -1099,7 +1099,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -1158,8 +1158,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -2080,7 +2080,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Sculpting Time with Computers",
+            "name": "Sculpting Time with Computers Proof of Concept",
             "alternateName": null,
             "slug": "sculpting-time-with-computers",
             "foundingDate": "2024-05-15",
@@ -2653,7 +2653,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -2766,7 +2766,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -3414,6 +3414,42 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Digital Methods for Investigating Online Engagement with Coronavirus",
             "alternateName": "Digital Cultures of #covid19",
             "slug": "digital-cultures-of-covid19",
@@ -4018,7 +4054,7 @@
     "agent": {
       "name": "Charlotte Roueché",
       "slug": "charlotte-roueche",
-      "description": "Honorary Research Fellow - [Biography](https://www.kcl.ac.uk/people/professor-charlotte-roueche)",
+      "description": "Honorary Research Fellow - [Biography](https://www.kcl.ac.uk/people/professor-charlotte-roueche)\n\n#### External research profiles\n\n- [KCL Pure page](https://kclpure.kcl.ac.uk/portal/en/persons/charlotte.roueche)\n- [ORCID page](http://orcid.org/0000-0002-3606-2049)",
       "memberOf": [
         {
           "startDate": null,
@@ -4087,8 +4123,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4269,7 +4305,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -4313,8 +4349,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4525,8 +4561,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -4853,7 +4889,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -4912,8 +4948,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -5851,8 +5887,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -6977,8 +7013,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7365,8 +7401,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -7720,7 +7756,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -7793,8 +7829,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -8270,7 +8306,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Sculpting Time with Computers",
+            "name": "Sculpting Time with Computers Proof of Concept",
             "alternateName": null,
             "slug": "sculpting-time-with-computers",
             "foundingDate": "2024-05-15",
@@ -10119,7 +10155,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -11941,7 +11977,7 @@
     "agent": {
       "name": "John Bradley",
       "slug": "john-bradley",
-      "description": "John has worked in the Digital Humanities since the late 1970s; first at the University of Toronto, and then, starting in 1997, at King's College London in the Department of Digital Humanities (initially called the Centre for Computing in the Humanities). He retired in 2015, having been involved in the creation of more than 20 humanities-oriented online digital resources which at King's. During his time at Toronto he was best known for the development of the text analysis TACT system. For most of his time at King's he held a post of Senior Analyst, but in 2011 was made an academic when he became a Senior Lecturer. Among the highly collaborative projects in which he was involved are a number of structured prosopographies, including the [Prosopography of Anglo-Saxon England (PASE)](https://pase.ac.uk/) and the [Prosopography of the Roman Republic (DPRR)](https://romanrepublic.ac.uk/). Other, non prosopographical, projects in which he had a role include [the Art of Making in Antiquity](https://artofmaking.ac.uk/) resource.\n\nWhile at King's he has published 22 articles (many authored collaboratively), many of which appear in prominent DH journals such as Literary and Linguistic Computing, Digital Scholarship in the Humanities, and the Digital Humanities Quarterly. His research interests include, the place of structured data in the Humanities, approaches to structured digital Prosopography, the place of software development as research in the Humanities, and new places for digital technology in humanities scholarship, centred on new kinds of support for traditional methodologies (the last of which resulted in his [Pliny project](https://www.kcl.ac.uk/research/pliny-project)).\n\nHe is presently continuing his interests by exploring the use of Semantic Web technologies in the context of the Digital Humanities (see the work done on this so far for [DPRR](https://romanrepublic.ac.uk/rdf/doc/)), and continues to be involved with digital developments with the [Records of Early English Drama](https://reed.utoronto.ca/) project at the University of Toronto.\n\n- [KCL Pure page](https://kclpure.kcl.ac.uk/portal/en/persons/john-bradley)\n- [ORCID page](https://orcid.org/0000-0002-6266-6751)",
+      "description": "John has worked in the Digital Humanities since the late 1970s; first at the University of Toronto, and then, starting in 1997, at King's College London in the Department of Digital Humanities (initially called the Centre for Computing in the Humanities). He retired in 2015, having been involved in the creation of more than 20 humanities-oriented online digital resources which at King's. During his time at Toronto he was best known for the development of the text analysis TACT system. For most of his time at King's he held a post of Senior Analyst, but in 2011 was made an academic when he became a Senior Lecturer. Among the highly collaborative projects in which he was involved are a number of structured prosopographies, including the [Prosopography of Anglo-Saxon England (PASE)](https://pase.ac.uk/) and the [Prosopography of the Roman Republic (DPRR)](https://romanrepublic.ac.uk/). Other, non prosopographical, projects in which he had a role include [the Art of Making in Antiquity](https://artofmaking.ac.uk/) resource.\n\nWhile at King's he has published 22 articles (many authored collaboratively), many of which appear in prominent DH journals such as Literary and Linguistic Computing, Digital Scholarship in the Humanities, and the Digital Humanities Quarterly. His research interests include, the place of structured data in the Humanities, approaches to structured digital Prosopography, the place of software development as research in the Humanities, and new places for digital technology in humanities scholarship, centred on new kinds of support for traditional methodologies (the last of which resulted in his [Pliny project](https://www.kcl.ac.uk/research/pliny-project)).\n\nHe is presently continuing his interests by exploring the use of Semantic Web technologies in the context of the Digital Humanities (see the work done on this so far for [DPRR](https://romanrepublic.ac.uk/rdf/doc/)), and continues to be involved with digital developments with the [Records of Early English Drama](https://reed.utoronto.ca/) project at the University of Toronto.\n\n#### External Research Profiles\n\n- [KCL Pure page](https://kclpure.kcl.ac.uk/portal/en/persons/john-bradley)\n- [ORCID page](https://orcid.org/0000-0002-6266-6751)",
       "memberOf": [
         {
           "startDate": null,
@@ -12171,6 +12207,42 @@
           "roleName": {
             "name": "Researcher"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
+          }
         }
       ]
     }
@@ -12190,7 +12262,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -12439,8 +12511,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -12512,7 +12584,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -12684,7 +12756,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -13414,8 +13486,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -13989,8 +14061,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -14342,8 +14414,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -14812,8 +14884,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -15536,7 +15608,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -19900,7 +19972,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -20142,8 +20214,8 @@
             "name": "The Epidoc Aphrodisias Project",
             "alternateName": "EPAPP",
             "slug": "epapp",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2002-01-01",
+            "dissolutionDate": "2002-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -20753,8 +20825,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -21593,6 +21665,37 @@
           },
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Sculpting Time with Computers Proof of Concept",
+            "alternateName": null,
+            "slug": "sculpting-time-with-computers",
+            "foundingDate": "2024-05-15",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         }
       ]
@@ -22810,8 +22913,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -23180,8 +23283,8 @@
             "name": "Sharing Ancient Wisdoms",
             "alternateName": "SAWS",
             "slug": "sharing-ancient-wisdoms",
-            "foundingDate": null,
-            "dissolutionDate": null,
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2013-12-31",
             "department": [
               {
                 "organisation_id": {
@@ -24573,7 +24676,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
@@ -25083,7 +25186,7 @@
             "alternateName": "InsAph",
             "slug": "inscriptions-of-aphrodisias",
             "foundingDate": "2004-02-01",
-            "dissolutionDate": null,
+            "dissolutionDate": "2007-10-31",
             "department": [
               {
                 "organisation_id": {
