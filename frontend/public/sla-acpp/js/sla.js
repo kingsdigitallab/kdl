@@ -1,14 +1,16 @@
 var body = document.getElementsByTagName("body")[0];
 
-body.onload = function () {
-  addCSS();
+if (body) {
+  body.onload = function () {
+    addCSS();
 
-  addSLA();
+    addSLA();
 
-  addCookieDisclaimer();
+    addCookieDisclaimer();
 
-  showCookieDisclaimer();
-};
+    showCookieDisclaimer();
+  };
+}
 
 function addCSS() {
   let link = document.createElement("link");
