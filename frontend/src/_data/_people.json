@@ -3399,6 +3399,42 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Digital Methods for Investigating Online Engagement with Coronavirus",
             "alternateName": "Digital Cultures of #covid19",
             "slug": "digital-cultures-of-covid19",
@@ -12135,6 +12171,42 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
           }
         }
       ]
