@@ -1,7 +1,7 @@
-var body = document.getElementsByTagName("body")[0];
+var body = document.getElementsByTagName("body");
 
-if (body) {
-  body.onload = function () {
+if (body && body.length > 0) {
+  body[0].onload = function () {
     addCSS();
 
     addSLA();
