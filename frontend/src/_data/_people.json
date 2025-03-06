@@ -18349,13 +18349,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -18399,6 +18392,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
@@ -19401,13 +19401,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -19451,6 +19444,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
@@ -23699,13 +23699,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -23749,6 +23742,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
