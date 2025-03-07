@@ -44,7 +44,7 @@ Arianna Ciula
 <img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   />
-<small>([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
+- <small>([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
@@ -131,11 +131,12 @@ Arianna Ciula
 - Accesso tramite interfaccia utente pubblica e.g. Progetto Radical Translations
   - Database search
   - Data download
+  - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/)
 
 <aside class="notes">
+  
 - accesso (democratised access) ai dati tramite interfacce web e download (e.g. Radical Translations) nei progetti piu’ tradizionali
 - chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche
-
 
 </aside>
 
@@ -145,7 +146,7 @@ Arianna Ciula
 
 ## Dati e project lifecycle
 
-### Progetto attivo
+### Progetto concluso
 
 - Di chi sono i dati?
   - Github
@@ -153,6 +154,7 @@ Arianna Ciula
 - Accesso tramite interfaccia utente pubblica e.g. Progetto Radical Translations
   - Database search
   - Data download
+  - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
   
 <aside class="notes">
 
