@@ -12620,6 +12620,30 @@
               }
             ]
           },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2021-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
           "inOrganisation": {
             "agent": {
               "name": "University of Cambridge",
