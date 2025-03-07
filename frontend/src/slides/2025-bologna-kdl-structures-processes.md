@@ -28,11 +28,11 @@ Arianna Ciula
 
 ## Percorso
 
-- Infrastruttura in senso olistico
-- Introduzione al King's Digital Lab
-- _Repository_ del software e codice
-- Dati e _project lifecycle_ - esempi
-- Buone pratiche ma come far meglio?
+1. Infrastruttura in senso olistico
+1. Introduzione al King's Digital Lab
+1. _Repository_ del software e codice
+1. Dati e _project lifecycle_ - esempi
+1. Buone pratiche ma come far meglio?
 
 {% endslide %}
 
@@ -40,10 +40,9 @@ Arianna Ciula
 
 ## Infrastruttura multilivello
 
-<h2 class="r-fit-text">Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</h2>
-<img
+- Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))
+<img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-    height="400"
   />
 
 
@@ -80,7 +79,7 @@ Arianna Ciula
 
 {% slide %}
 
-<h2 class="r-fit-text">Dati e project lifecycle>/h2?
+<h2 class="r-fit-text">Dati e project lifecycle></h2>
 
 <h3 class="r-fit-text">SDLC</h3>
 
