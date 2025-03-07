@@ -79,9 +79,9 @@ Arianna Ciula
 
 {% slide %}
 
-<h2 class="r-fit-text">Dati e project lifecycle</h2>
+## Dati e project lifecycle
 
-<h3 class="r-fit-text">SDLC</h3>
+### SDLC
 
 <div class="r-stack">
   <img
