@@ -13714,6 +13714,12 @@
           "name": "Network visualisations",
           "url": "https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Conference presentation",
+          "url": "https://kdl.kcl.ac.uk/slides/2024-lausagne-historical-networks-research/"
+        }
       }
     ],
     "department": [
