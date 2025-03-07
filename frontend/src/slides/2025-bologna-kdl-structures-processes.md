@@ -38,14 +38,13 @@ Arianna Ciula
 
 {% slide %}
 
-## Infrastruttura multilivello
-
-- Socio-technical system 
+### Infrastruttura multilivello - Socio-technical system 
 <img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="350"
+  widht="371"
   />
-- [Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)
+- <small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
 
 <aside class="notes">
 
@@ -53,6 +52,18 @@ Arianna Ciula
 - Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered
 
 </aside>
+
+{% endslide %}
+
+{% slide %}
+
+## King's Digital Lab
+
+
+- [Team e ruoli](https://kdl.kcl.ac.uk/about/team/)
+- [Progetti](https://kdl.kcl.ac.uk/projects/)
+- [Temi di ricerca](https://kdl.kcl.ac.uk/projects/research-themes/)
+
 
 {% endslide %}
 
