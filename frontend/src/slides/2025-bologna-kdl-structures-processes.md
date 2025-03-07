@@ -36,4 +36,22 @@ Arianna Ciula
 
 {% endslide %}
 
+{% slide %}
+
+## Infrastruttura multilivello
+
+- Socio-technical system 
+<img class="r-stretch"
+    src="/assets/images/slides/bologna-2025-fig_1.jpg"
+  />
+- [Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)
+
+<aside class="notes">
+
+- Ciula, A., & Smithies, J. (2023). Sustainability and modelling at King’s Digital Lab: between tradition and innovation. In J. Nyhan, G. Rockwell, S. Sinclair, & A. Ortolja-Baird (Eds.), On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley (pp. 78-104). University College London Press. https://doi.org/10.2307/j.ctv2wk727j.9
+- Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered
+
+</aside>
+
+{% endslide %}
 
