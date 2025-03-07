@@ -8523,7 +8523,7 @@
   {
     "alternateName": "IRT",
     "cmsStatus": "published",
-    "description": null,
+    "description": "The first corpus of Roman inscriptions from Tripolitania (today Wester Lybia) was published by Joyce Reynolds in 1952. In 2009 she worked with Gabriel Bodard, Tom Elliott, Charlotte Roueché and Hafed Walda to republish that volume - with some 20 more texts - in digital form, with translations and full illustration. King's Digital Lab archived that site and still hosts it in static form.\n\nIn 2021 Bodard and Roueché, with Caroline Barron and Irene Vagionakis worked to enhance that publication by adding all the inscriptions from the area published since 1952, drawing from a variety of sources. \n\nIn 2020 KDL archived and converted the 2009 digital edition of *Inscriptions of Roman Tripolitania* (IRT) to a static site with limited functionalities and created an IRT2021 EFES (EpiDoc Front End Services) instance with associated environments.\n\nEFES is a publication solution for researchers and editors who have produced EpiDoc-encoded texts but do not necessarily have access to Research Software Engineering support. EFES processes EpiDoc XML, generates epigraphic indices by default, and is widely adopted by the EpiDoc development community. Used for several EpiDoc corpora, EFES is based on the Kiln platform developed for publication of TEI XML projects at the Department of Digital Humanities and King’s Digital Lab.",
     "dissolutionDate": "2021-12-31",
     "foundingDate": "2009-01-01",
     "id": "85c5386e-dca9-44c7-b468-986686b21756",
@@ -8582,6 +8582,14 @@
           "name": "JISC",
           "slug": "jisc"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "2be3a994-d1c3-478c-ab0c-05576cbb855a",
+          "name": "Society for Libyan Studies",
+          "slug": "society-for-libyan-studies"
+        }
       }
     ],
     "keywords": [
@@ -8610,7 +8618,7 @@
       },
       {
         "linkrole_id": {
-          "name": "Project URL 2009",
+          "name": "Project URL 2009  - archived static site",
           "url": "https://inslib.kcl.ac.uk/irt2009/"
         }
       },
@@ -8653,6 +8661,19 @@
           "id": "4beea643-c5e2-42c2-818d-61a253f4d6d7",
           "name": "Hafed Walda",
           "slug": "hafed-walda"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
+          "name": "Joyce Reynolds",
+          "slug": "joyce-reynolds"
         },
         "roleName": {
           "name": "Researcher",
