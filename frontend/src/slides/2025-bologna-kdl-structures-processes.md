@@ -126,11 +126,11 @@ Arianna Ciula
 ### Progetto attivo
 
 - Di chi sono i dati?
--- Github
--- Repository istituzionale (interno o esterno) o disciplinare
+  - Github
+  - Repository istituzionale (interno o esterno) o disciplinare
 - Accesso tramite interfaccia utente pubblica e.g. Progetto Radical Translations
--- Database search
--- Data download
+  - Database search
+  - Data download
 
 <aside class="notes">
 - accesso (democratised access) ai dati tramite interfacce web e download (e.g. Radical Translations) nei progetti piu’ tradizionali
@@ -141,81 +141,22 @@ Arianna Ciula
 
 {% endslide %}
 
-<!--
 {% slide %}
 
-## Network Insights
+## Dati e project lifecycle
 
-### Highlight missing biographical information
+### Progetto attivo
 
-<img
-    src="/assets/images/slides/radicaltranslations-anonymous-network.svg"
-    height="500"
-  />
-
+- Di chi sono i dati?
+  - Github
+  - Repository istituzionale (interno o esterno) o disciplinare
+- Accesso tramite interfaccia utente pubblica e.g. Progetto Radical Translations
+  - Database search
+  - Data download
+  
 <aside class="notes">
 
-- Highlight missing biographical information
-- Valuable when biographical data is:
-  - Missing
-  - Incomplete
-  - Too complex to visualise directly
-- Example:
-  - Focus on nodes representing anonymous persons
-  - Shows connections to known entities
-  - Demonstrates how network analysis can help:
-    - Infer information about unknown individuals
-    - Provide context through associative relationships
-- Benefits:
-  - Helps fill gaps in historical records
-  - Offers insights into social and professional circles
-  - Allows for hypothesis generation about anonymous agents' identities and roles
 
-</aside>
-
-{% endslide %}
--->
-
-{% slide %}
-
-## Research Process
-
-<div class="r-stack">
-  <img
-    class="fragment fade-out"
-    data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-research-countries.svg"
-    height="500"
-  />
-  <img
-    class="fragment"
-    data-fragment-index="0"
-    src="/assets/images/slides/radicaltranslations-knows-network-annotated.svg"
-    height="500"
-  />
-</div>
-
-<aside class="notes">
-
-- Enables exploration of:
-  - Translators' networks
-  - Collaboration patterns
-  - Influence dynamics
-- Example: Influence dynamics
-  - Researchers examined potential bridge figures
-  - Focus on connections between Italian and French contexts
-  - Identified key individuals facilitating cross-cultural exchange
-- Provides insights into:
-  - Contextual landscape of radical activities
-  - Geographical and temporal distribution of translation efforts
-- Hypothesis testing:
-  - Assists when biographical data is incomplete
-  - Complements other digital tools
-  - Allows for inference of identities and roles based on network position
-- Benefits:
-  - Reveals hidden connections and patterns
-  - Supports data-driven research narratives
-  - Enhances understanding of the radical translation ecosystem
 
 </aside>
 
