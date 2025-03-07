@@ -76,3 +76,28 @@ Arianna Ciula
 > <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
 
 {% endslide %}
+
+{% slide %}
+
+## Dati e project lifecycle
+
+### SDLC
+
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/sdlc.png"
+    height="600"
+    width="1177"
+  />
+  <img
+    class="fragment"
+    data-fragment-index="0"
+    src="/assets/images/slides/bologna-2025-sdlc-data.png"
+    height="600"
+    width="1177"
+  />
+</div>
+
+{% endslide %}
