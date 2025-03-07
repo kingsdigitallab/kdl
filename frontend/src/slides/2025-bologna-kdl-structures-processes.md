@@ -30,8 +30,8 @@ Arianna Ciula
 
 - Infrastruttura in senso olistico
 - Introduzione al King's Digital Lab
-- Software repository
-- Dati e project lifecycle - esempi
+- _Repository_ del software e codice
+- Dati e _project lifecycle_ - esempi
 - Buone pratiche ma come far meglio?
 
 {% endslide %}
@@ -40,10 +40,10 @@ Arianna Ciula
 
 ## Infrastruttura multilivello
 
-- Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))
+<h2 class="r-fit-text">Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</h2>
 <img
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-    height="250"
+    height="400"
   />
 
 
@@ -73,17 +73,16 @@ Arianna Ciula
 ## Codice e software
 
 - [Github repository](https://github.com/kingsdigitallab/)
-- [Licenza aperta MIT](https://opensource.org/licenses/MIT))
-> KDL makes any project application source code freely accessible at KDL’s GitHub repository [...]
-> Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.
+- [Licenza aperta MIT](https://opensource.org/licenses/MIT)
+> <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
 
 {% endslide %}
 
 {% slide %}
 
-## Dati e project lifecycle
+<h2 class="r-fit-text">Dati e project lifecycle>/h2?
 
-### SDLC
+<h3 class="r-fit-text">SDLC</h3>
 
 <div class="r-stack">
   <img
