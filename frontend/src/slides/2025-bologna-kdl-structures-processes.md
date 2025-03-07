@@ -40,11 +40,11 @@ Arianna Ciula
 
 ## Infrastruttura multilivello
 
-- Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))
+- Socio-technical system 
 <img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   />
-
+<small>([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
@@ -79,7 +79,7 @@ Arianna Ciula
 
 {% slide %}
 
-<h2 class="r-fit-text">Dati e project lifecycle></h2>
+<h2 class="r-fit-text">Dati e project lifecycle</h2>
 
 <h3 class="r-fit-text">SDLC</h3>
 
@@ -121,31 +121,21 @@ Arianna Ciula
 
 {% slide %}
 
-## Network Insights
+## Dati e project lifecycle
 
-### Reveals connections across borders
+### Progetto attivo
 
-<img
-    src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
-    height="500"
-  />
+- Di chi sono i dati?
+-- Github
+-- Repository istituzionale (interno o esterno) o disciplinare
+- Accesso tramite interfaccia utente pubblica e.g. Progetto Radical Translations
+-- Database search
+-- Data download
 
 <aside class="notes">
+- accesso (democratised access) ai dati tramite interfacce web e download (e.g. Radical Translations) nei progetti piu’ tradizionali
+- chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche
 
-- Reveals connections across borders
-- Network example illustrates:
-  - Nodes representing agents (individuals and organisations) and places
-  - Edges indicating translation relationships
-  - Large nodes for Paris and London, surrounded by numerous connections
-- Key insights:
-  - Visualises the flow of radical texts across national boundaries
-  - Highlights Paris and London as central hubs in the radical translation network
-  - Reveals extensive cross-border relationships centred on these major cities
-- Emphasises the international nature of the translations
-- Other benefits of networks:
-  - Helps fill gaps in historical records
-  - Offers insights into social and professional circles
-  - Allows for hypothesis generation about anonymous agents' identities and roles
 
 </aside>
 
