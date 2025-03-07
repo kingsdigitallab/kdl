@@ -44,7 +44,7 @@ Arianna Ciula
 <img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   />
-- <small>([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
+- [Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)
 
 <aside class="notes">
 
