@@ -39,12 +39,12 @@ Arianna Ciula
 {% slide %}
 
 ### Infrastruttura multilivello
-<img class="r-stretch"
+<img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="350"
   width="371"
   />
-  <small>Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
+  <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
@@ -99,5 +99,20 @@ Arianna Ciula
     width="1177"
   />
 </div>
+
+{% endslide %}
+
+## Dati e project lifecycle
+
+### Pre-project
+
+- [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
+- [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
+- _Requirement_ di _default_
+> <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
+
+<aside class="notes">
+
+</aside>
 
 {% endslide %}
