@@ -7518,24 +7518,6 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "96716cd0-b752-4322-8887-84f03e0e3e09",
-            "name": "Department of International Development",
-            "slug": "department-of-international-development"
-          },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": null,
-              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-              "name": "Faculty of Social Science & Public Policy",
-              "slug": "faculty-of-social-science-and-public-policy"
-            }
-          }
-        }
-      },
-      {
-        "organisation_id": {
-          "agent": {
-            "alternateName": null,
             "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
             "name": "KCL The Policy Institute",
             "slug": "the-policy-institute"
@@ -7612,6 +7594,17 @@
             "id": "1dbd1d89-c4eb-4cbc-997e-ede56a58574e",
             "name": "King's Business School",
             "slug": "king-s-business-school"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "name": "Faculty of Social Science & Public Policy",
+            "slug": "faculty-of-social-science-and-public-policy"
           },
           "parentOrganisation": null
         }
@@ -13720,6 +13713,12 @@
         "linkrole_id": {
           "name": "Network visualisations",
           "url": "https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Conference presentation",
+          "url": "https://kdl.kcl.ac.uk/slides/2024-lausagne-historical-networks-research/"
         }
       }
     ],
