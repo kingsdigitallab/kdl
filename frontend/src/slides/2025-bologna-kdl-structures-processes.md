@@ -38,13 +38,13 @@ Arianna Ciula
 
 {% slide %}
 
-### Infrastruttura multilivello - Socio-technical system 
+### Infrastruttura multilivello
 <img class="r-stretch"
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="350"
-  widht="371"
+  width="371"
   />
-- <small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
+  <small>Socio-technical system ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
@@ -67,3 +67,12 @@ Arianna Ciula
 
 {% endslide %}
 
+{% slide %}
+
+## Codice e software
+
+- [Github repository](https://github.com/kingsdigitallab/)
+- [Licenza aperta MIT](https://opensource.org/licenses/MIT)
+> <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
+
+{% endslide %}
