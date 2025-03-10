@@ -42,7 +42,7 @@ Arianna Ciula
 
 <img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="550"
+  height="580"
   />
 <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
@@ -87,13 +87,13 @@ Arianna Ciula
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
     height="600"
- 
-  />
-  <img
-    class="fragment"
-    data-fragment-index="0"
-    src="/assets/images/slides/bologna-2025-sdlc-data.png"
-    height="600"
+
+/>
+<img
+class="fragment"
+data-fragment-index="0"
+src="/assets/images/slides/bologna-2025-sdlc-data.png"
+height="600"
 
 />
 
@@ -128,7 +128,7 @@ Arianna Ciula
   - Github
   - Repository istituzionale (interno o esterno) o disciplinare
 - Accesso tramite interfaccia utente pubblica
-  - Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
+  - <small>Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)</small>
   - Database _search_ e.g. [persone in DPRR](https://romanrepublic.ac.uk/person/)
   - Dati in formato tabulare e.g. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
   - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/)
