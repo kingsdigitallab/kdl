@@ -97,6 +97,19 @@
     "member": [
       {
         "agent": {
+          "id": "e3bd8b6e-1952-44e8-8f9d-440b1e7d8eed",
+          "name": "Elizabeth Galvin",
+          "slug": "elizabeth-galvin"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
@@ -1589,7 +1602,7 @@
           "slug": "stewart-brookes"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
