@@ -42,8 +42,7 @@ Arianna Ciula
 
 <img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="350"
-  width="371"
+  height="400"
   />
 <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
@@ -88,15 +87,16 @@ Arianna Ciula
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
     height="600"
-    width="1177"
+ 
   />
   <img
     class="fragment"
     data-fragment-index="0"
     src="/assets/images/slides/bologna-2025-sdlc-data.png"
     height="600"
-    width="1177"
-  />
+
+/>
+
 </div>
 
 {% endslide %}
