@@ -39,12 +39,13 @@ Arianna Ciula
 {% slide %}
 
 ### Infrastruttura multilivello
+
 <img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="350"
   width="371"
   />
-  <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
+<small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
@@ -59,11 +60,9 @@ Arianna Ciula
 
 ## King's Digital Lab
 
-
 - [Team e ruoli](https://kdl.kcl.ac.uk/about/team/)
 - [Progetti](https://kdl.kcl.ac.uk/projects/)
 - [Temi di ricerca](https://kdl.kcl.ac.uk/projects/research-themes/)
-
 
 {% endslide %}
 
@@ -73,7 +72,7 @@ Arianna Ciula
 
 - [Github repository](https://github.com/kingsdigitallab/)
 - [Licenza aperta MIT](https://opensource.org/licenses/MIT)
-> <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
+  > <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
 
 {% endslide %}
 
@@ -102,6 +101,8 @@ Arianna Ciula
 
 {% endslide %}
 
+{% slide %}
+
 ## Dati e project lifecycle
 
 ### Pre-project
@@ -109,7 +110,7 @@ Arianna Ciula
 - [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
 - [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
 - _Requirement_ di _default_
-> <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
+  > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
 
 <aside class="notes">
 
