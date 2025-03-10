@@ -42,7 +42,7 @@ Arianna Ciula
 
 <img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="580"
+  height="550"
   />
 <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
@@ -77,24 +77,21 @@ Arianna Ciula
 
 {% slide %}
 
-## Dati e project lifecycle
-
-### SDLC
+## Dati e _project lifecycle_
 
 <div class="r-stack">
   <img
     class="fragment fade-out"
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
-    height="600"
-
+    height="580"
 />
-<img
-class="fragment"
-data-fragment-index="0"
-src="/assets/images/slides/bologna-2025-sdlc-data.png"
-height="600"
 
+<img
+  class="fragment"
+  data-fragment-index="0"
+  src="/assets/images/slides/bologna-2025-sdlc-data.png"
+  height="580"
 />
 
 </div>
@@ -103,9 +100,9 @@ height="600"
 
 {% slide %}
 
-## Dati e project lifecycle
+## Dati e _project lifecycle_
 
-### Pre-project
+### _Pre-project_
 
 - [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
 - [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
@@ -128,7 +125,7 @@ height="600"
   - Github
   - Repository istituzionale (interno o esterno) o disciplinare
 - Accesso tramite interfaccia utente pubblica
-  - <small>Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)</small>
+  - Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
   - Database _search_ e.g. [persone in DPRR](https://romanrepublic.ac.uk/person/)
   - Dati in formato tabulare e.g. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
   - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/)
