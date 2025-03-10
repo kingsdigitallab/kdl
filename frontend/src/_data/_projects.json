@@ -1903,9 +1903,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -14240,6 +14240,19 @@
       },
       {
         "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "27a9c4cc-7251-45e1-80e9-0f5df77df881",
           "name": "Liberty Melly",
           "slug": "liberty-melly"
@@ -14258,7 +14271,7 @@
           "slug": "anna-reading"
         },
         "roleName": {
-          "name": "Co-investigator",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
