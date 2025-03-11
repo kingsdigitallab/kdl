@@ -1250,7 +1250,7 @@
             }
           },
           "roleName": {
-            "name": "Co-investigator"
+            "name": "Principal investigator"
           }
         },
         {
@@ -2524,7 +2524,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -8555,7 +8560,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -11136,6 +11146,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
+            "alternateName": "Room to Breath",
+            "slug": "re-mixing-de-humanisation",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2019-07-01",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
           }
         },
         {
@@ -13828,7 +13881,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -18058,7 +18116,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         }
       ]
@@ -22796,7 +22854,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -23097,9 +23160,14 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Cambridge",
+              "slug": "cambridge"
+            }
+          },
           "roleName": {
-            "name": "Researcher"
+            "name": "Principal investigator"
           }
         },
         {
