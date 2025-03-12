@@ -9420,7 +9420,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)",
+    "description": "The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDLworked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2023-06-30",
     "id": "ce748bcf-423f-4ead-a181-b8d810a4ba3a",
@@ -9497,6 +9497,12 @@
         "linkrole_id": {
           "name": "Demonumenta URL",
           "url": "https://kingspast.kcl.ac.uk/about/demonumenta"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "College Project Page URL",
+          "url": "https://www.kcl.ac.uk/news/new-interactive-platform-explores-kings-history-and-future"
         }
       }
     ],
