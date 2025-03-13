@@ -36,23 +36,36 @@ class ClickUpToMarkdown {
    * @param {string} customItemId - Custom item ID from ClickUp
    */
   async fetchClickUpData(customItemId) {
-    console.log(`Fetching task data for item ${customItemId}...`);
-
     try {
-      const taskResponse = await this.api.get(
-        `/team/${this.teamId}/task?custom_items=${customItemId}&custom_items=${customItemId}`
-      );
+      const tasks = [];
 
-      const task = taskResponse.data.tasks?.[0];
-      if (!task) {
-        throw new Error("No task found for the given custom item ID");
+      console.log(`Fetching task data for item ${customItemId}...`);
+
+      let page = 0;
+      let isLastPage = false;
+      while (!isLastPage) {
+        const taskResponse = await this.api.get(
+          `/team/${this.teamId}/task?custom_items=${customItemId}&custom_items=${customItemId}&page=${page}`
+        );
+
+        tasks.push(...taskResponse.data.tasks);
+
+        if (
+          taskResponse.data.last_page ||
+          taskResponse.data.tasks.length === 0
+        ) {
+          isLastPage = true;
+          break;
+        }
+
+        page++;
       }
 
       console.log(`Fetching space data...`);
       const spaceResponse = await this.api.get(`/team/${this.teamId}/space`);
 
       return {
-        projects: taskResponse.data.tasks,
+        projects: tasks,
         spaces: spaceResponse.data.spaces,
       };
     } catch (error) {
@@ -75,11 +88,28 @@ class ClickUpToMarkdown {
 
     for (const project of projects) {
       console.log(`Processing: ${project.name}`);
-      const slug = this.slugify(project.name);
+      let slug = this.getCustomFieldValue(project, "Slug");
 
-      const foundingDate = this.convertDate(
-        this.getCustomFieldValue(project, "Project start date")
+      if (!slug) {
+        console.warn(
+          ` - No slug found for ${project.name}, generating from name`
+        );
+        slug = this.slugify(project.name);
+      }
+
+      const projectStartDate = this.getCustomFieldValue(
+        project,
+        "Project start date"
       );
+
+      if (!projectStartDate) {
+        console.error(
+          ` - No project start date found for ${project.name}, skipping`
+        );
+        continue;
+      }
+
+      const foundingDate = this.convertDate(projectStartDate);
       const datePrefix = foundingDate ? `${foundingDate}-` : "1970-01-01-";
 
       const outputFile = path.join(this.outputPath, `${datePrefix}${slug}.md`);
@@ -224,13 +254,15 @@ class ClickUpToMarkdown {
           : "Research Software Engineer";
 
       if (field && field.value) {
-        field.value.forEach((member) => {
-          members.push({
-            name: member.username,
-            slug: this.slugify(member.username),
-            role: roleName,
+        field.value
+          .filter((member) => member)
+          .forEach((member) => {
+            members.push({
+              name: member.username.trim(),
+              slug: this.slugify(member.username.trim()),
+              roleName,
+            });
           });
-        });
       }
     }
 
@@ -238,10 +270,13 @@ class ClickUpToMarkdown {
 
     if (plField && plField.value) {
       plField.value.split(",").forEach((pl) => {
+        const [name, inOrganisation] = pl.split("[");
+
         members.push({
-          name: pl.trim(),
-          slug: this.slugify(pl.trim()),
-          role: "Principal investigator",
+          name: name.trim(),
+          slug: this.slugify(name.trim()),
+          roleName: "Principal investigator",
+          inOrganisation: inOrganisation?.trim().replace("]", ""),
         });
       });
     }
@@ -251,13 +286,19 @@ class ClickUpToMarkdown {
     );
 
     if (researchersField && researchersField.value) {
-      researchersField.value.split(",").forEach((researcher) => {
-        members.push({
-          name: researcher.trim(),
-          slug: this.slugify(researcher.trim()),
-          role: "Researcher",
+      researchersField.value
+        .split(",")
+        .filter((researcher) => researcher.trim())
+        .forEach((researcher) => {
+          const [name, inOrganisation] = researcher.split("[");
+
+          members.push({
+            name: name.trim(),
+            slug: this.slugify(name.trim()),
+            roleName: "Researcher",
+            inOrganisation: inOrganisation?.trim().replace("]", ""),
+          });
         });
-      });
     }
 
     return members;
@@ -322,17 +363,18 @@ class ClickUpToMarkdown {
    * Get URLs from url custom field
    */
   getUrls(data) {
-    const urlField = data.custom_fields.find((field) => field.name === "url");
+    const urlFields = data.custom_fields
+      .filter((field) => field.name.toLowerCase().includes(" url"))
+      .filter((field) => field.value);
 
-    if (!urlField || !urlField.value) return [];
+    if (!urlFields) return [];
 
-    return [
-      {
-        type: "Project URL",
-        url: urlField.value,
-      },
-    ];
+    return urlFields.map((field) => ({
+      type: field.name,
+      url: field.value,
+    }));
   }
+
   convertDate(timestamp) {
     return new Date(parseInt(timestamp)).toISOString().split("T")[0];
   }
