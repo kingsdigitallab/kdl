@@ -158,3 +158,45 @@ Arianna Ciula
 </aside>
 
 {% endslide %}
+
+{% slide %}
+
+## Accesso ai dati
+
+### Progetto concluso
+
+- Reponsabilità e crediti
+  - es. KDL vs. ruoli editoriali vs. _copyright_
+- Continua evoluzione delle pratiche di laboratorio / istituzionali / esterne
+  - es. [istanza KDL CKAN](https://data.kdl.kcl.ac.uk/)
+
+<aside class="notes">
+
+- chiarire il ruolo del laboratorio (potenzialmente di guida al deposito dei dati in collaborazione con altre entità come il pesonale della biblioteca universitaria)
+- note varietà di pratiche in evoluzione e.g. CKAN use prima che esistesse KORDS
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Esempio
+
+- Edizioni [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
+  - [2009](https://inslib.kcl.ac.uk/irt2009/) - sito statico con limitate funzionalità
+  - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
+    - [repository codice](https://github.com/kingsdigitallab/ircyr-efes) - comunità EPIDOC
+    - [repository dati](https://doi.org/10.18742/c.6002275.v1) in KORDS - istanza istituzionale di Figshare
+      - authority lists es. indici
+      - architettura software EFES
+      - immagini - fotografie delle iscrizioni
+      - TEI-EPIDOC XML
+
+<aside class="notes">
+
+-
+
+</aside>
+
+{% endslide %}
