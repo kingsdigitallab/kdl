@@ -210,3 +210,16 @@ Arianna Ciula
   - re-usabilità del software es. [_metrics for FAIR software_](https://doi.org/10.5281/zenodo.10047401)
 
 {% endslide %}
+
+{% slide %}
+
+## Thank you
+
+### Questions?
+
+#### Contact
+
+- Arianna Ciula: [`arianna.ciula@kcl.ac.uk`](mailto:arianna.ciula@kcl.ac.uk)
+- King's Digital Lab: [`kdl-info@kcl.ac.uk`](mailto:kdl-info@kcl.ac.uk)
+
+{% endslide %}
