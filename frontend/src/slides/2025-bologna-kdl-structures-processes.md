@@ -40,10 +40,14 @@ Arianna Ciula
 
 ### Sistema socio-tecnico multilivello
 
-<small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
-<img 
+<small>
+  [Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)
+</small>
+
+<img
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="570"
+  alt="layers of socio-technical system"
 />
 
 <aside class="notes">
@@ -86,6 +90,7 @@ Arianna Ciula
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
     height="580"
+    alt="KDL SDLC cycle"
 />
 
 <img
@@ -93,6 +98,7 @@ Arianna Ciula
   data-fragment-index="0"
   src="/assets/images/slides/bologna-2025-sdlc-data.png"
   height="580"
+  alt="Data in KDL SDLC cycle"
 />
 
 </div>
@@ -143,7 +149,7 @@ Arianna Ciula
 
 ### Progetto attivo
 
-- Accesso tramite interfaccia utente pubblica
+- Interfaccia utente pubblica
   - Interfacce al testo/edizione e altri dati
     - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
     - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
