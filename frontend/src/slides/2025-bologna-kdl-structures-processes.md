@@ -30,7 +30,7 @@ Arianna Ciula
 
 1. Infrastruttura in senso olistico
 1. Introduzione al King's Digital Lab
-1. _Repository_ del software e codice
+1. _Repository_ del codice
 1. Dati e _project lifecycle_ - esempi
 1. Buone pratiche ma come far meglio?
 
@@ -40,10 +40,7 @@ Arianna Ciula
 
 ### Sistema socio-tecnico multilivello
 
-<small>
-  [Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)
-</small>
-
+<small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
 <img
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="570"
@@ -111,8 +108,8 @@ Arianna Ciula
 
 ### _Pre-project_
 
-- [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
-- [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
+- _Requirements_ - [domande-guida KDL](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
+- _Data Management Plans_ - [linee guida e strumento DCC](https://www.dcc.ac.uk/resources/data-management-plans)
 - _Requirement_ di _default_
   > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
 
@@ -154,7 +151,7 @@ Arianna Ciula
     - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
     - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
   - Database _search_ es. [persone in DPRR](https://romanrepublic.ac.uk/person/)
-  - Dati in formato tabulare es. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
+  - Dati in formato tabulare es. [_Radical Translations download_](https://radicaltranslations.org/media/data.zip) CC BY 4.0
   - Altri [esempi](https://kdl.kcl.ac.uk/projects/)
 
 <aside class="notes">
