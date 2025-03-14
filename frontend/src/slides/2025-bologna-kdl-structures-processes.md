@@ -118,7 +118,7 @@ Arianna Ciula
 
 {% slide %}
 
-## Dati e project lifecycle
+## Accesso ai dati
 
 ### Progetto attivo
 
@@ -139,19 +139,21 @@ Arianna Ciula
 
 {% slide %}
 
-## Dati e project lifecycle
+## Accesso ai dati
 
 ### Progetto attivo
 
 - Accesso tramite interfaccia utente pubblica
-  - Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
-  - Database _search_ e.g. [persone in DPRR](https://romanrepublic.ac.uk/person/)
-  - Dati in formato tabulare e.g. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
-  - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/)
+  - Interfacce al testo/edizione e altri dati
+    - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
+    - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
+  - Database _search_ es. [persone in DPRR](https://romanrepublic.ac.uk/person/)
+  - Dati in formato tabulare es. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
+  - Altri [esempi](https://kdl.kcl.ac.uk/projects/)
 
 <aside class="notes">
 
-- accesso (democratised access) ai dati tramite interfacce web e download
+- accesso (democratised access) ai dati (testo/editioe, immagini, enitità, dimensioni) tramite interfacce web e download
 
 </aside>
 
