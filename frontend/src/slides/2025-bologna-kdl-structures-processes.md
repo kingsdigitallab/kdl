@@ -1,5 +1,5 @@
 ---
-title: "Un’infrastruttura digitale per la ricerca in ambito umanistico: strutture e processi del King’s Digital Lab"
+title: "Strutture e processi del King’s Digital Lab"
 event:
   title: DH-ATLAS
   url: https://dh-atlas.github.io/workshop.html
@@ -42,7 +42,7 @@ Arianna Ciula
 
 <img 
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="550"
+  height="580"
   />
 <small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
