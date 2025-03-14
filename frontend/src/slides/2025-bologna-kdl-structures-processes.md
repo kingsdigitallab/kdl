@@ -124,7 +124,25 @@ Arianna Ciula
 
 - Di chi sono i dati?
   - Github
-  - Repository istituzionale (interno o esterno) o disciplinare
+  - _Repository_ istituzionale o disciplinare
+    - interno o esterno
+
+<aside class="notes">
+
+- chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche
+- durante fasi di processing, i dati sono solitamente inclusi nello specifico repository del codice in github (tranne casi speciali es. dat confidenziali confidenziali, personali/zzati o di natura sensibile ecc.)
+- a seconda del progetto i dati sono anche salvati con metadati associati in repository istituzionali interni o esterni (dell'Univ o altrove e.g. archivio/biblioteca) o repository disciplinari
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Dati e project lifecycle
+
+### Progetto attivo
+
 - Accesso tramite interfaccia utente pubblica
   - Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
   - Database _search_ e.g. [persone in DPRR](https://romanrepublic.ac.uk/person/)
@@ -133,9 +151,6 @@ Arianna Ciula
 
 <aside class="notes">
 
-- chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche
-- durante fasi di processing, i dati sono solitamente inclusi nello specifico repository del codice in github (tranne casi speciali es. dat confidenziali confidenziali, personali/zzati o di natura sensibile ecc.)
-- a seconda del progetto i dati sono anche salvati con metadati associati in repository istituzionali interni o esterni (dell'Univ o altrove e.g. archivio/biblioteca) o repository disciplinari
 - accesso (democratised access) ai dati tramite interfacce web e download
 
 </aside>
