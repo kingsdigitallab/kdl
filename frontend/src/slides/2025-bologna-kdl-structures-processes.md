@@ -200,3 +200,13 @@ Arianna Ciula
 </aside>
 
 {% endslide %}
+
+{% slide %}
+
+## Aspirazioni
+
+- Complementare il lavoro con documentazione collaborativa
+  - dati e dei processi es. [_Living with Machines_ data paper](https://doi.org/10.5334/johd.195)
+  - re-usabilità del software es. [_metrics for FAIR software_](https://doi.org/10.5281/zenodo.10047401)
+
+{% endslide %}
