@@ -187,10 +187,10 @@ Arianna Ciula
 ## Esempio
 
 - Edizioni [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
-  - [2009](https://inslib.kcl.ac.uk/irt2009/) - sito statico con limitate funzionalità
+  - [2009](https://inslib.kcl.ac.uk/irt2009/) - funzionalità ridotte
   - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
-    - [repository codice](https://github.com/kingsdigitallab/ircyr-efes) - comunità EPIDOC
-    - [repository dati](https://doi.org/10.18742/c.6002275.v1) in KORDS - istanza istituzionale di Figshare
+    - [codice](https://github.com/kingsdigitallab/ircyr-efes) - KDL & comunità EPIDOC
+    - [altri dati](https://doi.org/10.18742/c.6002275.v1) - Editori, università (KORDS, Figshare) & sponspor
       - authority lists es. indici
       - architettura software EFES
       - immagini - fotografie delle iscrizioni
