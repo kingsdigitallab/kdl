@@ -50,7 +50,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
+      "biome format --write",
       "eslint etl/src etl/tests frontend/src"
     ],
     "*.{css,json,md,scss,yaml}": "prettier --write"
