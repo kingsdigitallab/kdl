@@ -1255,7 +1255,7 @@
             }
           },
           "roleName": {
-            "name": "Co-investigator"
+            "name": "Principal investigator"
           }
         },
         {
@@ -2539,7 +2539,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -8585,7 +8590,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -11177,6 +11187,49 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for Hard to Reach Audiences with Museums of Migration  ",
+            "alternateName": "Room to Breath",
+            "slug": "re-mixing-de-humanisation",
+            "foundingDate": "2019-02-01",
+            "dissolutionDate": "2019-07-01",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Culture, Media & Creative Industries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Migration Museum"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Mapping Digital Cultural Heritage in Jordan",
             "alternateName": "MaDiH (مديح)",
             "slug": "madih",
@@ -12655,6 +12708,30 @@
               }
             ]
           },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Inscriptions of Roman Tripolitania",
+            "alternateName": "IRT",
+            "slug": "inscriptions-of-roman-tripolitania",
+            "foundingDate": "2009-01-01",
+            "dissolutionDate": "2021-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
           "inOrganisation": {
             "agent": {
               "name": "University of Cambridge",
@@ -13844,7 +13921,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "Faculty of Social Science & Public Policy",
+              "slug": "faculty-of-social-science-and-public-policy"
+            }
+          },
           "roleName": {
             "name": "Researcher"
           }
@@ -18089,7 +18171,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Research Software Analyst"
           }
         }
       ]
@@ -18404,13 +18486,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -18454,6 +18529,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
@@ -19461,13 +19543,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -19511,6 +19586,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }
@@ -22867,7 +22949,12 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "ddh"
+            }
+          },
           "roleName": {
             "name": "RSE team member"
           }
@@ -23168,9 +23255,14 @@
               }
             ]
           },
-          "inOrganisation": null,
+          "inOrganisation": {
+            "agent": {
+              "name": "University of Cambridge",
+              "slug": "cambridge"
+            }
+          },
           "roleName": {
-            "name": "Researcher"
+            "name": "Principal investigator"
           }
         },
         {
@@ -23794,13 +23886,6 @@
               {
                 "organisation_id": {
                   "agent": {
-                    "name": "Department of International Development"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
                     "name": "KCL The Policy Institute"
                   }
                 }
@@ -23844,6 +23929,13 @@
                 "organisation_id": {
                   "agent": {
                     "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
                   }
                 }
               }

@@ -97,6 +97,19 @@
     "member": [
       {
         "agent": {
+          "id": "e3bd8b6e-1952-44e8-8f9d-440b1e7d8eed",
+          "name": "Elizabeth Galvin",
+          "slug": "elizabeth-galvin"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
@@ -456,6 +469,11 @@
       {
         "definedterm_id": {
           "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
         }
       }
     ],
@@ -1753,7 +1771,7 @@
         },
         "inOrganisation": null,
         "roleName": {
-          "name": "Researcher",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -2070,9 +2088,9 @@
         },
         "inOrganisation": null,
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -8278,24 +8296,6 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "96716cd0-b752-4322-8887-84f03e0e3e09",
-            "name": "Department of International Development",
-            "slug": "department-of-international-development"
-          },
-          "parentOrganisation": {
-            "agent": {
-              "alternateName": null,
-              "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-              "name": "Faculty of Social Science & Public Policy",
-              "slug": "faculty-of-social-science-and-public-policy"
-            }
-          }
-        }
-      },
-      {
-        "organisation_id": {
-          "agent": {
-            "alternateName": null,
             "id": "61ba1871-2a72-4a7f-9b7c-5e5110b37dde",
             "name": "KCL The Policy Institute",
             "slug": "the-policy-institute"
@@ -8372,6 +8372,17 @@
             "id": "1dbd1d89-c4eb-4cbc-997e-ede56a58574e",
             "name": "King's Business School",
             "slug": "king-s-business-school"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
+            "name": "Faculty of Social Science & Public Policy",
+            "slug": "faculty-of-social-science-and-public-policy"
           },
           "parentOrganisation": null
         }
@@ -9401,7 +9412,7 @@
   {
     "alternateName": "IRT",
     "cmsStatus": "published",
-    "description": null,
+    "description": "The first corpus of Roman inscriptions from Tripolitania (today Wester Lybia) was published by Joyce Reynolds in 1952. In 2009 she worked with Gabriel Bodard, Tom Elliott, Charlotte Roueché and Hafed Walda to republish that volume - with some 20 more texts - in digital form, with translations and full illustration. King's Digital Lab archived that site and still hosts it in static form.\n\nIn 2021 Bodard and Roueché, with Caroline Barron and Irene Vagionakis worked to enhance that publication by adding all the inscriptions from the area published since 1952, drawing from a variety of sources. \n\nIn 2020 KDL archived and converted the 2009 digital edition of *Inscriptions of Roman Tripolitania* (IRT) to a static site with limited functionalities and created an IRT2021 EFES (EpiDoc Front End Services) instance with associated environments.\n\nEFES is a publication solution for researchers and editors who have produced EpiDoc-encoded texts but do not necessarily have access to Research Software Engineering support. EFES processes EpiDoc XML, generates epigraphic indices by default, and is widely adopted by the EpiDoc development community. Used for several EpiDoc corpora, EFES is based on the Kiln platform developed for publication of TEI XML projects at the Department of Digital Humanities and King’s Digital Lab.",
     "dissolutionDate": "2021-12-31",
     "foundingDate": "2009-01-01",
     "id": "85c5386e-dca9-44c7-b468-986686b21756",
@@ -9460,6 +9471,14 @@
           "name": "JISC",
           "slug": "jisc"
         }
+      },
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "2be3a994-d1c3-478c-ab0c-05576cbb855a",
+          "name": "Society for Libyan Studies",
+          "slug": "society-for-libyan-studies"
+        }
       }
     ],
     "keywords": [
@@ -9488,7 +9507,7 @@
       },
       {
         "linkrole_id": {
-          "name": "Project URL 2009",
+          "name": "Project URL 2009  - archived static site",
           "url": "https://inslib.kcl.ac.uk/irt2009/"
         }
       },
@@ -9538,6 +9557,19 @@
             "name": "FAH Department of Classics",
             "slug": "fah-department-of-classics"
           }
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
+          "name": "Joyce Reynolds",
+          "slug": "joyce-reynolds"
         },
         "roleName": {
           "name": "Researcher",
@@ -10404,7 +10436,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project.",
+    "description": "The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDLworked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2023-06-30",
     "id": "ce748bcf-423f-4ead-a181-b8d810a4ba3a",
@@ -10469,6 +10501,24 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "https://kingspast.kcl.ac.uk/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/kings-past",
+          "url": "https://github.com/kingsdigitallab/kings-past"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Demonumenta URL",
+          "url": "https://kingspast.kcl.ac.uk/about/demonumenta"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "College Project Page URL",
+          "url": "https://www.kcl.ac.uk/news/new-interactive-platform-explores-kings-history-and-future"
         }
       }
     ],
@@ -15621,6 +15671,12 @@
           "name": "Network visualisations",
           "url": "https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Conference presentation",
+          "url": "https://kdl.kcl.ac.uk/slides/2024-lausagne-historical-networks-research/"
+        }
       }
     ],
     "department": [
@@ -16205,6 +16261,19 @@
       },
       {
         "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "27a9c4cc-7251-45e1-80e9-0f5df77df881",
           "name": "Liberty Melly",
           "slug": "liberty-melly"
@@ -16237,7 +16306,7 @@
           }
         },
         "roleName": {
-          "name": "Co-investigator",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -16919,7 +16988,7 @@
   {
     "alternateName": "",
     "cmsStatus": "published",
-    "description": "This project will address an existing gap to support researchers and practitioners communities working with complex 3D data, including data related to material and digital cultures, to enhance the national data services for arts and humanities. The research will use a collaborative and interdisciplinary approach to investigate and address the needs of current and future researchers.",
+    "description": "This project addresses an existing gap to support researchers and practitioners communities working with complex 3D data, including data related to material and digital cultures, to enhance the national data services for arts and humanities. The research uses a collaborative and interdisciplinary approach to investigate and address the needs of current and future researchers.",
     "dissolutionDate": "2022-07-13",
     "foundingDate": "2022-02-28",
     "id": "222ad6ad-699e-4743-bc24-841fb471ea7c",
