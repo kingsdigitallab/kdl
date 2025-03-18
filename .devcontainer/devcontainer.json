@@ -1,5 +1,6 @@
 {
   "name": "kdl",
+  "image": "node:16",
   "customizations": {
     "vscode": {
       "extensions": [
