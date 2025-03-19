@@ -1,6 +1,6 @@
 {
   "name": "kdl",
-  "image": "node:16",
+  "image": "node:18",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -94,12 +94,6 @@
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         }
       }
-    }
-  },
-  "portsAttributes": {
-    "3000": {
-      "label": "VSCode remote port",
-      "onAutoForward": "notify"
     }
   },
   "postCreateCommand": "npm install",
