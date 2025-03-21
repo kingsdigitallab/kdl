@@ -29,7 +29,7 @@ Arianna Ciula
 
 1. Infrastruttura in senso olistico
 1. Introduzione al King's Digital Lab
-1. _Repository_ del software e codice
+1. _Repository_ del codice
 1. Dati e _project lifecycle_ - esempi
 1. Buone pratiche ma come far meglio?
 
@@ -37,17 +37,19 @@ Arianna Ciula
 
 {% slide %}
 
-### Infrastruttura multilivello
+### Sistema socio-tecnico multilivello
 
-<img 
+<small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
+<img
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="580"
+  height="570"
+  alt="layers of socio-technical system"
   />
-<small>Sistema socio-tecnico ([Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9))</small>
 
 <aside class="notes">
 
 - Ciula, A., & Smithies, J. (2023). Sustainability and modelling at King’s Digital Lab: between tradition and innovation. In J. Nyhan, G. Rockwell, S. Sinclair, & A. Ortolja-Baird (Eds.), On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley (pp. 78-104). University College London Press. https://doi.org/10.2307/j.ctv2wk727j.9
+
 - Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered
 
 </aside>
@@ -84,6 +86,7 @@ Arianna Ciula
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
     height="580"
+    alt="KDL SDLC cycle"
 />
 
 <img
@@ -91,6 +94,7 @@ Arianna Ciula
   data-fragment-index="0"
   src="/assets/images/slides/bologna-2025-sdlc-data.png"
   height="580"
+  alt="Data in KDL SDLC cycle"
 />
 
 </div>
@@ -103,8 +107,8 @@ Arianna Ciula
 
 ### _Pre-project_
 
-- [Domande-guida relative ai _requirements_](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
-- [Linee guida e strumento DCC pre creare _Data Management Plans_](https://www.dcc.ac.uk/resources/data-management-plans)
+- _Requirements_ - [domande-guida KDL](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
+- _Data Management Plans_ - [linee guida e strumento DCC](https://www.dcc.ac.uk/resources/data-management-plans)
 - _Requirement_ di _default_
   > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
 
@@ -116,26 +120,108 @@ Arianna Ciula
 
 {% slide %}
 
-## Dati e project lifecycle
+## Accesso ai dati
 
 ### Progetto attivo
 
 - Di chi sono i dati?
   - Github
-  - Repository istituzionale (interno o esterno) o disciplinare
-- Accesso tramite interfaccia utente pubblica
-  - Interfacce al testo/edizione e.g. [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#) ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
-  - Database _search_ e.g. [persone in DPRR](https://romanrepublic.ac.uk/person/)
-  - Dati in formato tabulare e.g. [_Radical Translations download_](https://kdl.kcl.ac.uk/projects/)
-  - Esempi di complessità diversa da altri [progetti](https://kdl.kcl.ac.uk/projects/)
+  - _Repository_ istituzionale o disciplinare
+    - interno o esterno
 
 <aside class="notes">
 
 - chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche
 - durante fasi di processing, i dati sono solitamente inclusi nello specifico repository del codice in github (tranne casi speciali es. dat confidenziali confidenziali, personali/zzati o di natura sensibile ecc.)
 - a seconda del progetto i dati sono anche salvati con metadati associati in repository istituzionali interni o esterni (dell'Univ o altrove e.g. archivio/biblioteca) o repository disciplinari
-- accesso (democratised access) ai dati tramite interfacce web e download
 
 </aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Accesso ai dati
+
+### Progetto attivo
+
+- Interfaccia utente pubblica
+  - Interfacce al testo/edizione e altri dati
+    - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
+    - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
+  - Database _search_ es. [persone in DPRR](https://romanrepublic.ac.uk/person/)
+  - Dati in formato tabulare es. [_Radical Translations download_](https://radicaltranslations.org/media/data.zip) CC BY 4.0
+  - Altri [esempi](https://kdl.kcl.ac.uk/projects/)
+
+<aside class="notes">
+
+- accesso (democratised access) ai dati (testo/editioe, immagini, enitità, dimensioni) tramite interfacce web e download
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Accesso ai dati
+
+### Progetto concluso
+
+- Reponsabilità e crediti
+  - es. KDL vs. ruoli editoriali vs. _copyright_
+- Continua evoluzione delle pratiche di laboratorio / istituzionali / esterne
+  - es. [istanza KDL CKAN](https://data.kdl.kcl.ac.uk/)
+
+<aside class="notes">
+
+- chiarire il ruolo del laboratorio (potenzialmente di guida al deposito dei dati in collaborazione con altre entità come il pesonale della biblioteca universitaria)
+- note varietà di pratiche in evoluzione e.g. CKAN use prima che esistesse KORDS
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Esempio
+
+- Edizioni [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
+  - [2009](https://inslib.kcl.ac.uk/irt2009/) - funzionalità ridotte
+  - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
+    - [codice](https://github.com/kingsdigitallab/ircyr-efes) - KDL & comunità EPIDOC
+    - [altri dati](https://doi.org/10.18742/c.6002275.v1) - Editori, università (KORDS, Figshare) & sponspor
+      - authority lists es. indici
+      - architettura software EFES
+      - immagini - fotografie delle iscrizioni
+      - TEI-EPIDOC XML
+
+<aside class="notes">
+
+-
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Aspirazioni
+
+- Complementare il lavoro con documentazione collaborativa
+  - dati e processi es. [_data paper_](https://doi.org/10.5334/johd.195)
+  - re-usabilità del software es. [_metrics for FAIR software_](https://doi.org/10.5281/zenodo.10047401)
+
+{% endslide %}
+
+{% slide %}
+
+## Thank you
+
+### Questions?
+
+#### Contact
+
+- Arianna Ciula: [`arianna.ciula@kcl.ac.uk`](mailto:arianna.ciula@kcl.ac.uk)
+- King's Digital Lab: [`kdl-info@kcl.ac.uk`](mailto:kdl-info@kcl.ac.uk)
 
 {% endslide %}

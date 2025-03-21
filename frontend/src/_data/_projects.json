@@ -10166,6 +10166,12 @@
           "name": "Project URL",
           "url": "https://irealrai.org/"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Workshop presentation URL",
+          "url": " https://kdl.kcl.ac.uk/slides/2024-london-ireal-workshop-2/"
+        }
       }
     ],
     "department": [
