@@ -1700,6 +1700,44 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
+            "alternateName": "Marie Curie Fellowship: DHLab",
+            "slug": "marie-curie-fellowship-dhlab",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2023-03-17",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Aalto University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -2212,36 +2250,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
-            "alternateName": "Marie Curie Fellowship: DHLab",
-            "slug": "marie-curie-fellowship-dhlab",
-            "foundingDate": "2020-10-01",
-            "dissolutionDate": "2023-03-17",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Aalto University"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Research Software Analyst"

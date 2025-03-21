@@ -3844,6 +3844,19 @@
     "member": [
       {
         "agent": {
+          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
+          "name": "Arianna Ciula",
+          "slug": "arianna-ciula"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
           "name": "Miguel Vieira",
           "slug": "miguel-vieira"
@@ -3878,19 +3891,6 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "e052bec5-ad1a-40dc-928c-a679b6682627",
-          "name": "Arianna Ciula",
-          "slug": "arianna-ciula"
-        },
-        "roleName": {
-          "name": "Research Software Analyst",
-          "inDefinedTermSet": {
-            "name": "Team roles"
           }
         }
       }
@@ -5099,6 +5099,16 @@
       {
         "definedterm_id": {
           "name": "Data Visualisation"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital mapping"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "History"
         }
       }
     ],
@@ -12482,6 +12492,36 @@
       {
         "definedterm_id": {
           "name": "Data Visualisation"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Library and Information Studies"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital collection"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital reading/viewing environment"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Digital tool creation"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "History"
         }
       }
     ],
