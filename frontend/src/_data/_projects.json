@@ -8651,6 +8651,12 @@
           "name": "Data deposit repository",
           "url": "https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275"
         }
+      },
+      {
+        "linkrole_id": {
+          "name": "Online exhibition",
+          "url": "https://ipervisions.digitalcollections.bsr.ac.uk/irt/"
+        }
       }
     ],
     "department": [
