@@ -7,7 +7,6 @@ tags: slides
 slide:
   loop: true
   slideNumber: true
-draft: true
 ---
 
 {% slide %}
@@ -45,7 +44,7 @@ Arianna Ciula
     src="/assets/images/slides/bologna-2025-fig_1.jpg"
   height="570"
   alt="layers of socio-technical system"
-/>
+  />
 
 <aside class="notes">
 

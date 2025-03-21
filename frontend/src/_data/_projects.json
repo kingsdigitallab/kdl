@@ -97,6 +97,19 @@
     "member": [
       {
         "agent": {
+          "id": "e3bd8b6e-1952-44e8-8f9d-440b1e7d8eed",
+          "name": "Elizabeth Galvin",
+          "slug": "elizabeth-galvin"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "fb2cc7e8-3b3f-4a78-bf62-38e4b4152677",
           "name": "Neil Jakeman",
           "slug": "neil-jakeman"
@@ -410,6 +423,11 @@
       {
         "definedterm_id": {
           "name": "Digital edition"
+        }
+      },
+      {
+        "definedterm_id": {
+          "name": "Data Visualisation"
         }
       }
     ],
@@ -1589,7 +1607,7 @@
           "slug": "stewart-brookes"
         },
         "roleName": {
-          "name": "Researcher",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -1903,9 +1921,9 @@
           "slug": "neil-jakeman"
         },
         "roleName": {
-          "name": "RSE team member",
+          "name": "Research Software Analyst",
           "inDefinedTermSet": {
-            "name": "Project roles"
+            "name": "Team roles"
           }
         }
       }
@@ -9402,7 +9420,7 @@
   {
     "alternateName": null,
     "cmsStatus": "published",
-    "description": "The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project.",
+    "description": "The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding. \n \nKDLworked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.\n\nIn addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)",
     "dissolutionDate": "2024-10-31",
     "foundingDate": "2023-06-30",
     "id": "ce748bcf-423f-4ead-a181-b8d810a4ba3a",
@@ -9467,6 +9485,24 @@
         "linkrole_id": {
           "name": "Project URL",
           "url": "https://kingspast.kcl.ac.uk/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/kings-past",
+          "url": "https://github.com/kingsdigitallab/kings-past"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Demonumenta URL",
+          "url": "https://kingspast.kcl.ac.uk/about/demonumenta"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "College Project Page URL",
+          "url": "https://www.kcl.ac.uk/news/new-interactive-platform-explores-kings-history-and-future"
         }
       }
     ],
@@ -14240,6 +14276,19 @@
       },
       {
         "agent": {
+          "id": "dbba49b9-8a50-4613-94c0-7238c6fbe8ec",
+          "name": "James Smithies",
+          "slug": "james-smithies"
+        },
+        "roleName": {
+          "name": "Co-investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "27a9c4cc-7251-45e1-80e9-0f5df77df881",
           "name": "Liberty Melly",
           "slug": "liberty-melly"
@@ -14258,7 +14307,7 @@
           "slug": "anna-reading"
         },
         "roleName": {
-          "name": "Co-investigator",
+          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

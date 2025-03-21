@@ -31,7 +31,7 @@ another Faculty or at an external institution.
 
 VAT could be applicable, depending on the nature of our collaboration.
 
-## Questionaire
+## Questionnaire
 
 ### Your Details
 
@@ -44,7 +44,7 @@ VAT could be applicable, depending on the nature of our collaboration.
 
    - a project title, even if provisional
 
-2. Provide a summary of your project and a description of the digital output
+2. A summary of your project and a description of the digital output
    (even if generic)
 
    - Please tell us as much as you can about your project. Provide an overview
