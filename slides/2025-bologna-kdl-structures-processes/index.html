@@ -149,19 +149,23 @@
 <ol>
 <li>Infrastruttura in senso olistico</li>
 <li>Introduzione al King's Digital Lab</li>
-<li><em>Repository</em> del software e codice</li>
+<li><em>Repository</em> del codice</li>
 <li>Dati e <em>project lifecycle</em> - esempi</li>
 <li>Buone pratiche ma come far meglio?</li>
 </ol>
 </section>
 <section class="slide" data-auto-animate="">
-<h3 id="infrastruttura-multilivello" tabindex="-1">Infrastruttura multilivello</h3>
-<p><img src="/kdl/assets/images/slides/bologna-2025-fig_1.jpg" height="580">
-<small>Sistema socio-tecnico (<a href="https://doi.org/10.2307/j.ctv2wk727j.9">Ciula e Smithies 2023</a>)</small></p>
+<h3 id="sistema-socio-tecnico-multilivello" tabindex="-1">Sistema socio-tecnico multilivello</h3>
+<p><small><a href="https://doi.org/10.2307/j.ctv2wk727j.9">Ciula e Smithies 2023</a></small>
+<img src="/kdl/assets/images/slides/bologna-2025-fig_1.jpg" height="570" alt="layers of socio-technical system"></p>
 <aside class="notes">
 <ul>
-<li>Ciula, A., &amp; Smithies, J. (2023). Sustainability and modelling at King’s Digital Lab: between tradition and innovation. In J. Nyhan, G. Rockwell, S. Sinclair, &amp; A. Ortolja-Baird (Eds.), On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley (pp. 78-104). University College London Press. https://doi.org/10.2307/j.ctv2wk727j.9</li>
-<li>Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered</li>
+<li>
+<p>Ciula, A., &amp; Smithies, J. (2023). Sustainability and modelling at King’s Digital Lab: between tradition and innovation. In J. Nyhan, G. Rockwell, S. Sinclair, &amp; A. Ortolja-Baird (Eds.), On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley (pp. 78-104). University College London Press. https://doi.org/10.2307/j.ctv2wk727j.9</p>
+</li>
+<li>
+<p>Figure 4.1 RSE team, data, models and systems are entangled with each other. Concentric circles denote co- constitution as opposite to exogenous relations. The socio- technical system is multilayered</p>
+</li>
 </ul>
 </aside>
 </section>
@@ -187,16 +191,16 @@
 <section class="slide" data-auto-animate="">
 <h2 id="dati-e-project-lifecycle" tabindex="-1">Dati e <em>project lifecycle</em></h2>
 <div class="r-stack">
-  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/sdlc.png" height="580">
-<p><img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/bologna-2025-sdlc-data.png" height="580"></p>
+  <img class="fragment fade-out" data-fragment-index="0" src="/kdl/assets/images/slides/sdlc.png" height="580" alt="KDL SDLC cycle">
+<p><img class="fragment" data-fragment-index="0" src="/kdl/assets/images/slides/bologna-2025-sdlc-data.png" height="580" alt="Data in KDL SDLC cycle"></p>
 </div>
 </section>
 <section class="slide" data-auto-animate="">
 <h2 id="dati-e-project-lifecycle-1" tabindex="-1">Dati e <em>project lifecycle</em></h2>
 <h3 id="pre-project" tabindex="-1"><em>Pre-project</em></h3>
 <ul>
-<li><a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template">Domande-guida relative ai <em>requirements</em></a></li>
-<li><a href="https://www.dcc.ac.uk/resources/data-management-plans">Linee guida e strumento DCC pre creare <em>Data Management Plans</em></a></li>
+<li><em>Requirements</em> - <a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template">domande-guida KDL</a></li>
+<li><em>Data Management Plans</em> - <a href="https://www.dcc.ac.uk/resources/data-management-plans">linee guida e strumento DCC</a></li>
 <li><em>Requirement</em> di <em>default</em>
 <blockquote>
 <p><small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small></p>
@@ -207,21 +211,17 @@
 </aside>
 </section>
 <section class="slide" data-auto-animate="">
-<h2 id="dati-e-project-lifecycle-2" tabindex="-1">Dati e project lifecycle</h2>
+<h2 id="accesso-ai-dati" tabindex="-1">Accesso ai dati</h2>
 <h3 id="progetto-attivo" tabindex="-1">Progetto attivo</h3>
 <ul>
 <li>Di chi sono i dati?
 <ul>
 <li>Github</li>
-<li>Repository istituzionale (interno o esterno) o disciplinare</li>
+<li><em>Repository</em> istituzionale o disciplinare
+<ul>
+<li>interno o esterno</li>
 </ul>
 </li>
-<li>Accesso tramite interfaccia utente pubblica
-<ul>
-<li>Interfacce al testo/edizione e.g. <a href="https://cotr.ac.uk/viewer/?group=regiam&amp;blocks=47:transcription@v-3;47:transcription#">COTR <em>Regiam maiestatem</em> edizione dinamica</a> ad altri tipi di dati (e.g. immagini) o enitità/dimensione e.g. <a href="https://thornton.kdl.kcl.ac.uk/timeline/"><em>Alice Thornton Books timeline</em></a></li>
-<li>Database <em>search</em> e.g. <a href="https://romanrepublic.ac.uk/person/">persone in DPRR</a></li>
-<li>Dati in formato tabulare e.g. <a href="https://kdl.kcl.ac.uk/projects/"><em>Radical Translations download</em></a></li>
-<li>Esempi di complessità diversa da altri <a href="https://kdl.kcl.ac.uk/projects/">progetti</a></li>
 </ul>
 </li>
 </ul>
@@ -230,9 +230,102 @@
 <li>chiarire ownership dei dati e collaboraz con altre strutture e.g. KCL archivi e biblioteche</li>
 <li>durante fasi di processing, i dati sono solitamente inclusi nello specifico repository del codice in github (tranne casi speciali es. dat confidenziali confidenziali, personali/zzati o di natura sensibile ecc.)</li>
 <li>a seconda del progetto i dati sono anche salvati con metadati associati in repository istituzionali interni o esterni (dell'Univ o altrove e.g. archivio/biblioteca) o repository disciplinari</li>
-<li>accesso (democratised access) ai dati tramite interfacce web e download</li>
 </ul>
 </aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="accesso-ai-dati-1" tabindex="-1">Accesso ai dati</h2>
+<h3 id="progetto-attivo-1" tabindex="-1">Progetto attivo</h3>
+<ul>
+<li>Interfaccia utente pubblica
+<ul>
+<li>Interfacce al testo/edizione e altri dati
+<ul>
+<li><a href="https://cotr.ac.uk/viewer/?group=regiam&amp;blocks=47:transcription@v-3;47:transcription#">COTR <em>Regiam maiestatem</em> edizione dinamica</a></li>
+<li><a href="https://thornton.kdl.kcl.ac.uk/timeline/"><em>Alice Thornton Books timeline</em></a></li>
+</ul>
+</li>
+<li>Database <em>search</em> es. <a href="https://romanrepublic.ac.uk/person/">persone in DPRR</a></li>
+<li>Dati in formato tabulare es. <a href="https://radicaltranslations.org/media/data.zip"><em>Radical Translations download</em></a> CC BY 4.0</li>
+<li>Altri <a href="https://kdl.kcl.ac.uk/projects/">esempi</a></li>
+</ul>
+</li>
+</ul>
+<aside class="notes">
+<ul>
+<li>accesso (democratised access) ai dati (testo/editioe, immagini, enitità, dimensioni) tramite interfacce web e download</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="accesso-ai-dati-2" tabindex="-1">Accesso ai dati</h2>
+<h3 id="progetto-concluso" tabindex="-1">Progetto concluso</h3>
+<ul>
+<li>Reponsabilità e crediti
+<ul>
+<li>es. KDL vs. ruoli editoriali vs. <em>copyright</em></li>
+</ul>
+</li>
+<li>Continua evoluzione delle pratiche di laboratorio / istituzionali / esterne
+<ul>
+<li>es. <a href="https://data.kdl.kcl.ac.uk/">istanza KDL CKAN</a></li>
+</ul>
+</li>
+</ul>
+<aside class="notes">
+<ul>
+<li>chiarire il ruolo del laboratorio (potenzialmente di guida al deposito dei dati in collaborazione con altre entità come il pesonale della biblioteca universitaria)</li>
+<li>note varietà di pratiche in evoluzione e.g. CKAN use prima che esistesse KORDS</li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="esempio" tabindex="-1">Esempio</h2>
+<ul>
+<li>Edizioni <a href="https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/"><em>Inscriptions of Roman Tripolitania</em></a>
+<ul>
+<li><a href="https://inslib.kcl.ac.uk/irt2009/">2009</a> - funzionalità ridotte</li>
+<li><a href="https://irt2021.inslib.kcl.ac.uk/en/">2021</a>
+<ul>
+<li><a href="https://github.com/kingsdigitallab/ircyr-efes">codice</a> - KDL &amp; comunità EPIDOC</li>
+<li><a href="https://doi.org/10.18742/c.6002275.v1">altri dati</a> - Editori, università (KORDS, Figshare) &amp; sponspor
+<ul>
+<li>authority lists es. indici</li>
+<li>architettura software EFES</li>
+<li>immagini - fotografie delle iscrizioni</li>
+<li>TEI-EPIDOC XML</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<aside class="notes">
+<ul>
+<li></li>
+</ul>
+</aside>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="aspirazioni" tabindex="-1">Aspirazioni</h2>
+<ul>
+<li>Complementare il lavoro con documentazione collaborativa
+<ul>
+<li>dati e processi es. <a href="https://doi.org/10.5334/johd.195"><em>data paper</em></a></li>
+<li>re-usabilità del software es. <a href="https://doi.org/10.5281/zenodo.10047401"><em>metrics for FAIR software</em></a></li>
+</ul>
+</li>
+</ul>
+</section>
+<section class="slide" data-auto-animate="">
+<h2 id="thank-you" tabindex="-1">Thank you</h2>
+<h3 id="questions%3F" tabindex="-1">Questions?</h3>
+<h4 id="contact" tabindex="-1">Contact</h4>
+<ul>
+<li>Arianna Ciula: <a href="mailto:arianna.ciula@kcl.ac.uk"><code>arianna.ciula@kcl.ac.uk</code></a></li>
+<li>King's Digital Lab: <a href="mailto:kdl-info@kcl.ac.uk"><code>kdl-info@kcl.ac.uk</code></a></li>
+</ul>
 </section>
 </div>
   </main>
