@@ -174,7 +174,16 @@
       "tags": null,
       "metadata": {}
     },
-    "funder": [],
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "9be2d897-1cda-4f7a-a9af-41d696f2e0a7",
+          "name": "Innovation UK",
+          "slug": "innovation-uk"
+        }
+      }
+    ],
     "keywords": [
       {
         "definedterm_id": {
@@ -10276,6 +10285,110 @@
     "member": [
       {
         "agent": {
+          "id": "430458b1-cb47-4738-85ba-e247d23978f7",
+          "name": "Lucas Sekula",
+          "slug": "lucas-sekula"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "a7228e4a-ec19-415a-80fe-c6768d2c716f",
+          "name": "Gerhard Brey",
+          "slug": "gerhard-brey"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "4beea643-c5e2-42c2-818d-61a253f4d6d7",
+          "name": "Hafed Walda",
+          "slug": "hafed-walda"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "07e3417e-67b7-4d89-b608-7383a73813ca",
+          "name": "Janet Nelson",
+          "slug": "janet-nelson"
+        },
+        "roleName": {
+          "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1d185bd0-9233-41db-aba0-76404203e99c",
+          "name": "Harold Short",
+          "slug": "harold-short"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "54f07177-fa33-4afd-9b86-edf660984e4f",
+          "name": "John Bradley",
+          "slug": "john-bradley"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "28ccf926-f673-4107-bcba-6fb1cb377f5f",
+          "name": "Joy Jenkyns",
+          "slug": "joy-jenkyns"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e28977fc-1798-4baa-b447-9550c52ac4ea",
+          "name": "Martyn Jessop",
+          "slug": "martyn-jessop"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "0c87fb45-a7e5-4afc-ad37-eee277628c6f",
           "name": "Miguel Vieira",
           "slug": "miguel-vieira"
@@ -10302,6 +10415,19 @@
       },
       {
         "agent": {
+          "id": "6e9fdf61-e4b6-4a77-a570-ca49db76bd38",
+          "name": "Elena Pierazzo",
+          "slug": "elena-pierazzo"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
           "name": "Elliott Hall",
           "slug": "elliott-hall"
@@ -10310,6 +10436,71 @@
           "name": "Research Software Engineer",
           "inDefinedTermSet": {
             "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f86e8ddd-c131-4015-b460-9aa91306dd73",
+          "name": "Faye Thompson",
+          "slug": "faye-thompson"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "22dc841f-e776-4907-b510-bb48ee0973a7",
+          "name": "Eleonora Litta Modignani Picozzi",
+          "slug": "eleonora-litta"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "5bf1df2a-6e51-4940-9036-f775a18528b0",
+          "name": "Peter Stokes",
+          "slug": "peter-stokes"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "dc0fb205-6188-4a77-9d3f-729c94ed63fe",
+          "name": "Paul Vetch",
+          "slug": "paul-vetch"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "d4b0f1fa-1410-4e95-83da-9937fe4158bb",
+          "name": "Paul Spence",
+          "slug": "paul-spence"
+        },
+        "roleName": {
+          "name": "RSE team member",
+          "inDefinedTermSet": {
+            "name": "Project roles"
           }
         }
       }
