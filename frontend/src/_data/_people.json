@@ -22141,6 +22141,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "iREAL: Inclusive Requirements Elicitation for AI in Libraries to support respectful management of Indigenous knowledges",
             "alternateName": "iREAL",
             "slug": "ireal",
