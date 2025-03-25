@@ -1760,12 +1760,38 @@
     "member": [
       {
         "agent": {
+          "id": "2a99139e-58fb-4f66-8bc7-06937c500fa8",
+          "name": "Ben Russell",
+          "slug": "ben-russell"
+        },
+        "roleName": {
+          "name": "Researcher",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "cf20ca37-c7f6-4c33-bf87-edbd6c9cd3f1",
           "name": "William Wootton",
           "slug": "william-wootton"
         },
         "roleName": {
           "name": "Principal investigator",
+          "inDefinedTermSet": {
+            "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "cd255da0-77a4-4639-87de-2492a6bd4ca6",
+          "name": "Michele Pasin",
+          "slug": "michele-pasin"
+        },
+        "roleName": {
+          "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
