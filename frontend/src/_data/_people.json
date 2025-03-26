@@ -1700,6 +1700,44 @@
         {
           "startDate": null,
           "endDate": null,
+          "inProject": {
+            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
+            "alternateName": "Marie Curie Fellowship: DHLab",
+            "slug": "marie-curie-fellowship-dhlab",
+            "foundingDate": "2020-10-01",
+            "dissolutionDate": "2023-03-17",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Aalto University"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
           "inProject": null,
           "inOrganisation": null,
           "roleName": {
@@ -2212,36 +2250,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Digital Humanities Laboratory: Studying the Entanglement of Infrastructure and Technology in Knowledge Production",
-            "alternateName": "Marie Curie Fellowship: DHLab",
-            "slug": "marie-curie-fellowship-dhlab",
-            "foundingDate": "2020-10-01",
-            "dissolutionDate": "2023-03-17",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Digital Humanities"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "King's Digital Lab"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Aalto University"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Research Software Analyst"
@@ -6226,6 +6235,37 @@
           "roleName": {
             "name": "RSE team member"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
         }
       ]
     }
@@ -8415,6 +8455,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Henry III Fine Rolls",
             "alternateName": "",
             "slug": "henry-iii-fine-rolls",
@@ -9836,6 +9907,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Inscriptions of Roman Cyrenaica",
             "alternateName": "IRCYR",
             "slug": "ircyr",
@@ -10170,6 +10272,37 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Principal investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
           }
         },
         {
@@ -11810,6 +11943,37 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Principal investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Making of Charlemagne's Europe",
             "alternateName": "MKCHEUR",
             "slug": "mkcheur",
@@ -12009,6 +12173,37 @@
           },
           "roleName": {
             "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
           }
         },
         {
@@ -15162,6 +15357,37 @@
               "slug": "ddh"
             }
           },
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
           }
@@ -20030,6 +20256,37 @@
           "roleName": {
             "name": "RSE team member"
           }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
         }
       ]
     }
@@ -20357,6 +20614,37 @@
                 "organisation_id": {
                   "agent": {
                     "name": "University of Reading"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
                   }
                 }
               }
@@ -20778,6 +21066,37 @@
               "slug": "ddh"
             }
           },
+          "roleName": {
+            "name": "Researcher"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Language of Landscape",
+            "alternateName": "Langscape",
+            "slug": "langscape",
+            "foundingDate": null,
+            "dissolutionDate": null,
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
           }
@@ -21818,6 +22137,37 @@
       "slug": "samantha-callaghan",
       "description": "Samantha Callaghan initially joined KDL in 2017 as the Metadata Analyst for the Georgian Papers Programme and has held a number of roles within the Lab.\n\nSamantha has an MLIS and received her training in the field of digitisation through her work at the New Zealand Electronic Text Centre. She has worked on a wide variety of digitisation projects, large and small, both in NZ and in the UK. She has written or co-written articles around interlibrary loan, digitisation and Mātauranga Māori, digitisation in small institutions and orphan work licensing schemes.\n\nSamantha’s research interests and volunteer work centres around Indigenous and other source community participation in research projects as well as representation in GLAM sector institutions.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Art of Making in Antiquity",
+            "alternateName": "AofM",
+            "slug": "aofm",
+            "foundingDate": "2010-01-01",
+            "dissolutionDate": "2013-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
