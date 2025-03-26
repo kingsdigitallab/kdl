@@ -480,7 +480,7 @@ main {
     font-weight: 400;
     color: lighten($navy, 7%);
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
     &:hover {
       color: lighten($navy, 17%);
     }
