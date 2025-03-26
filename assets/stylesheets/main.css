@@ -398,7 +398,7 @@ main a {
   font-weight: 400;
   color: #0e3f70;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 main a:hover {
   color: #14589d;
