@@ -11,7 +11,7 @@ feature:
   image: /frontend/public/assets/images/blog/DDH Internship_main.jpg
   title: © Photo by Maxim Berg on Unsplash
   description: Bar Charts
----
+draft: true
 
 Hello readers!  
 
