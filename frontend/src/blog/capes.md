@@ -1,6 +1,6 @@
 ---
 title: "CAPES Fellowship: Reflections on time spent embedded at KDL and CMCI in 2024"
-subtitle:
+subtitle: "XR User Playtesting and Feedback Sessions: A design framework for immersive experiences from Sao Paulo, Brazil"
 tags:
   - post
   - fellowship
@@ -32,7 +32,7 @@ This final part of the research informed the planning of activities that was exe
 
 - The [Instagram City](https://drive.google.com/file/d/1aoYjj2zgL9b51tZUza5_LjBdLQOSi-H3/view): a VR experience for smartphones adapted into headsets by cardboard visors, transforming the addictive action of [doom-scrolling](https://en.wikipedia.org/wiki/Doomscrolling) into a spatial experience;
 
-- Playing With Trust: a modular game structure with AR interface designed during the pandemic isolation period in order to reestablish social interactions in public spaces, based on a human game board and a set of original ludic activities especially designed for it; and,
+- [Playing With Trust](https://drive.google.com/file/d/1S-6LEGDDpxkAXTsoVbW50HB23Ol9kQB6/view): a modular game structure with AR interface designed during the pandemic isolation period in order to reestablish social interactions in public spaces, based on a human game board and a set of original ludic activities especially designed for it; and,
 
 - [demonumenta](https://drive.google.com/file/d/1BA_9uBx89Ro8ylIYhhvnw7KJ144OyQnt/view): a two-year multidisciplinary research held at FAU USP, involving graduate students and post-graduate researchers, that investigated the history of a series of public monuments from the city of São Paulo, in order to resignify them through the lenses of decoloniality.
 
@@ -56,7 +56,7 @@ During the playtest sessions, all the participants were also equipped with Sony 
 
 I’m very thankful for all the King’s Digital Lab team for being so kind, receiving and interested in following up the progress of the activities that I developed during my period as a visiting researcher at KCL. They systematically created room for presentations and conversations, and were always open for suggestions, clarifying technical doubts, helping to come up with smart ways of solving problems, and providing easy access to their facilities and electronic equipment. It was an immensely great experience, that I sincerely wish that more lucky people could be benefited from it as much as I was.
 
-[Luis Felipe Abud](https://www.linkedin.com/in/lfabbud/)
+[Luis Felipe Abbud](https://www.linkedin.com/in/lfabbud/)
 
 ## Footnote
 
