@@ -13,7 +13,7 @@ feature:
   description: Bees crawling over the honeycomb, with highlighted comb's cell lines
 ---
 
-Download the King’s Digital Lab Checklist for Digital Outputs Assessment in the REF [here](https://doi.org/10.5281/zenodo.15083720).
+Download the King’s Digital Lab Checklist for Digital Outputs Assessment in the REF [here](https://doi.org/10.5281/zenodo.15147897).
 
 In previous REF assessment exercises, the Faculty of Arts & Humanities at King’s College London has submitted a substantial number of digital outputs which have been well received by the relevant REF panels, scoring highly with respect to quality. It was the Faculty’s request to KDL - as its team of experts in Research Software Engineering (RSE) best practices - to produce the checklist we publish with this blog. It aims to help guide Faculty researchers  conduct peer or self assessment with confidence and in a holistic manner in keeping with both academic and RSE criteria.
 
