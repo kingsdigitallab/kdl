@@ -1,0 +1,691 @@
+---
+title: Digital Accessiblity Strategy and Process
+event:
+  title: KDL's updated approach
+  url:
+tags:
+  - digital accessiblity
+  - slides
+slide:
+  loop: true
+  theme: simple
+  slideNumber: true
+draft: false
+---
+
+{% slide %}
+
+# Digital Accessibility <br> Strategy and Process
+
+<hr>
+
+### KDL's updated approach
+
+Alessandra Esposito, Geoffroy Noël, Tiffany Ong
+
+{% endslide %}
+
+{% slide %}
+
+### History
+
+- 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
+- 2020 early: Designer hired for 6 months
+- 2020 late: [Review meetings](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true)
+- 2020 late: SLA [approach](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148)
+- 2021 mid: ["The road to a more inclusive web" blogpost](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
+
+{% endslide %}
+
+{% slide %}
+
+### 2020 late Review meeting
+
+Approximately 10 members involved over a 12 month period (one team member working solely on accessibility for 6 months)
+
+{% endslide %}
+
+{% slide %}
+
+Completed 13 projects, 7 in progress from [review meetings](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true)
+
+<img
+    src="/assets/images/slides/accessibility-review-figures.jpg"
+  height="570"
+  alt="Table displaying projects and hours logged"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+70+ more on the [list of legacy projects spreadsheet](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287)
+
+<img
+    src="/assets/images/slides/accessibility-legacy-spreadsheet.png"
+  height="570"
+  alt="Screenshot of a Google spreadsheet displaying a long list of projects and related information"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+### 2020 late:
+
+An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+
+<img
+    src="/assets/images/slides/accessibility-process-2020.jpg"
+  height="570"
+  alt="Screenshot of document displaying steps to an accessibility process."
+  />
+
+{% endslide %}
+
+{% slide %}
+
+- <span style="color:lightgray"> Analyst (**A**) </span>
+
+- Engineer (**E** )
+
+- **UI/UX Designer** (**U**)
+
+- <span style="color:lightgray"> Project Manager (**PM**) </span>
+
+- <span style="color:lightgray"> Research team (**RT**) [project partners] </span>
+
+- <span style="color:lightgray"> Sysadmin (**S**) </span>
+
+{% endslide %}
+
+{% slide %}
+
+### Updated approach
+
+- 2023 early: [Strategy](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B0F136034-6480-4CEB-8328-7004E5036D8D%7D&file=2023.06.22_KDL%20Digital%20Accessibility%20Strategy%20v3.docx&action=default&mobileredirect=true) and [Process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B5BD942CD-9C12-44F7-82B7-68222CEE7A01%7D&file=2023.02.08_KDL%20Digital%20Accessibility%20Process.docx&action=default&mobileredirect=true&DefaultItemOpen=1) aligned with SDLC
+- 2023 late: New team formed [Project Review Record](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-239555)
+- 2024: trialled 3 projects -<br>
+  Living with machines, Alice Thornton, King's Past
+- 2025: [Post-project review](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
+- 2025: mid: Blogpost and Slides
+
+{% endslide %}
+
+{% slide %}
+
+# Strategy
+
+{% endslide %}
+
+{% slide %}
+
+Our objective is to **cultivate a digital environment** that **enhances usability, inclusivity, and full compliance with accessibility standards**. The introduction of [new government regulations](https://www.legislation.gov.uk/uksi/2018/952/contents/made) in 2018 prompted us at King’s Digital Lab to formally strengthen our accessibility approach.
+
+Through continuous iterations, our current strategy aims to reach and benefit the broadest possible audience, supporting accessibility in a sustainable, scalable way, integrating it comprehensively with our Software Development Life Cycle (SDLC) and Agile methodology. We actively research the latest resources and seek user feedback to understand the needs and challenges with our digital offerings. This ongoing engagement informs our improvement updates to ensure alignment with evolving best practices and accessibility standards.
+
+{% endslide %}
+
+{% slide %}
+
+# Process
+
+{% endslide %}
+
+{% slide %}
+
+### Key roles and general responsibilities
+
+{% endslide %}
+
+{% slide %}
+
+- <span style="color:lightgray"> Analyst (**A**) </span>
+
+- Engineer (**E** )
+
+- **UI/UX Designer** (**U**)
+
+- <span style="color:lightgray"> Project Manager (**PM**) </span>
+
+- <span style="color:lightgray"> Research team (**RT**) [project partners] </span>
+
+- <span style="color:lightgray"> Sysadmin (**S**) </span>
+
+{% endslide %}
+
+{% slide %}
+
+- (**U**): Ensure accurate level of accessibility in requirements, process and deliverables
+
+- (**U**) - Design accessible interfaces (contrast, layout, navigation).
+
+- (**U**) - Plan accessibility in timelines, ensure accessibility is tracked and reviewed
+
+- (**U**) - Identify and report users and requirements that need accessibility considerations. Ensure content is accessible
+
+- (**U & E** ) - Code with accessibility standards (WCAG) and run automated accessibility tests
+
+- (**U**) - Responsible for accessibility statement
+
+{% endslide %}
+
+{% slide %}
+
+![A diverse team of individuals collaborating on accessibility initiatives, highlighting shared responsibility in a workplace environment.](https://advancedbytez.com/wp-content/uploads/2022/07/Who-is-responsible-for-Accessibility-1.png)
+
+Reference: [https://www.ontario.ca/page/inclusive-design-toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
+
+{% endslide %}
+
+{% slide %}
+
+<img src="https://www.unimelb.edu.au/__data/assets/image/0004/2777584/res-1.png" alt="A visual representation of a web accessibility checklist, highlighting key elements for creating inclusive online experiences categorised by role" style="width:800px">
+
+Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pdf_file/0005/2777567/responsibilities-20190219.pdf)
+
+{% endslide %}
+
+{% slide %}
+
+- Analyst (**A**)
+
+- Engineer (**E** )
+
+- UI/UX Designer (**U**)
+
+- Project Manager (**PM**)
+
+- Research team (**RT**) [project partners]
+
+- Sysadmin (**S**)
+
+{% endslide %}
+
+{% slide %}
+
+- (**A**): Ensure accurate level of accessibility in requirements, process and deliverables. Responsible for accessibility statement
+
+- (**E** ) - Code with accessibility standards (WCAG) and run automated accessibility tests
+
+- (**U**) - Design accessible interfaces (contrast, layout, navigation).
+
+- (**PM**) - Plan accessibility in timelines, ensure accessibility is tracked and reviewed
+
+- (**RT**) [project partners] - Identify and report users and requirements that need accessibility considerations. Ensure content is accessible
+
+- (**S**) - Support infrastructure that enables accessible content and tools.
+
+{% endslide %}
+
+{% slide %}
+
+### 4 steps to implement accessibility within our Software Development Life Cycle (SDLC)
+
+{% endslide %}
+
+{% slide %}
+
+1. **Requirements** \[Feasibility\]
+2. **Scope** \[Kick off\]
+3. **Assess/Fix** \[Evolutionary Development\]
+4. **Documentation** \[Evolutionary Development\]
+
+{% endslide %}
+
+{% slide %}
+
+<img
+    src="/assets/images/slides/accessibility-SDLC2.jpg"
+  height="570"
+alt="Flowchart depicting the steps in software development,  from initial requirements gathering to final product delivery and support, highlighting the different project stages"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+<img
+    src="/assets/images/slides/accessibility-SDLC3.jpg"
+  height="570"
+alt="Flowchart depicting the steps in software development, highlighting the accessibility steps"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+1. **Requirements** \[Feasibility\]
+2. **Scope** \[Kick off\]
+3. **Assess/Fix** \[Evolutionary Development\]
+4. **Documentation** \[Evolutionary Development\]
+5. <span style="color:lightgray">**SLA** [Post-project]</span>
+
+{% endslide %}
+
+{% slide %}
+
+1. **Requirements** \[Feasibility\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_** **_R_**
+2. **Scope** \[Kick off\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_R_**
+3. **Assess/Fix** \[Evolutionary Development\] <br>_Lead_ **_E U_**_, Collaborate_ **_A_**
+4. **Documentation** \[Evolutionary Development\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM_** **_R_**
+
+{% endslide %}
+
+{% slide %}
+
+## 1\. **Requirements**
+
+### [Feasibility]
+
+_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_**
+
+{% endslide %}
+
+{% slide %}
+
+    Determine the MoSCoW Digital Accessibility requirement needed
+
+{% endslide %}
+
+{% slide %}
+
+<img src="https://t26475560.p.clickup-attachments.com/t26475560/299bd07f-8878-402f-976b-cda1057cb30e/image.png" alt="Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects" style="width:800px">
+
+{% endslide %}
+
+{% slide %}
+
+## MUST (**M**)
+
+- meet WCAG **A/AA** criteria for the **majority** of components (few/none will not meet)
+- perform specific accessibility assessments during evolutionary development
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
+
+        ✔ Has more than 5 users
+
+        ✔ Has 1st party apps/platforms
+
+        ✔ Has only non-complex components
+
+        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
+
+{% endslide %}
+
+{% slide %}
+
+**Use in feasibility:**
+
+_KDL will look to meet WCAG A/AA criteria for the majority of components with specific accessibility assessments integrate them into the evolving solution aiming to update at each deployment and produce a public statement._
+
+<hr>
+
+MUST (**M**)
+
+{% endslide %}
+
+{% slide %}
+
+## SHOULD (**S**)
+
+- meet WCAG **A/AA** criteria for **some** components (some might not meet)
+- perform specific accessibility assessments during evolutionary development
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **3 days** = A 0.6 | E 1.2 | U 1.2<hr>
+
+        ✔ Has more than 5 users
+
+        ✔ Has 1st party apps/platforms
+
+        ✘ Not only non-complex components
+
+        e.g.  [Radical Translation](http://radicaltranslations.org/) (Data visualisation) 18-20h (incl fixes), [Alice Thornton](https://thornton.kdl.kcl.ac.uk) (Digital Edition), [Field](https://field-wt.co.uk) (Game)
+
+{% endslide %}
+
+{% slide %}
+
+**Use in feasibility:**
+
+KDL will look to meet WCAG A/AA criteria for some components with specific accessibility assessments integrate them into the evolving solution aiming to update at each deployment and produce a public statement.
+
+<hr>
+
+SHOULD (**S**)
+
+{% endslide %}
+
+{% slide %}
+
+## COULD (**C**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
+
+        ✔ Has more than 5 users
+
+        ✘ Not using only 1st party apps/platforms
+
+        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
+
+{% endslide %}
+
+{% slide %}
+
+**Use in feasibility:**
+
+KDL will look to meet the basic digital accessibility requirements and integrate them into the evolving solution aiming to update at each deployment and produce a public statement.
+
+<hr>
+
+COULD (**C**)
+
+{% endslide %}
+
+{% slide %}
+
+## WON'T (**W**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments but scope still needed
+- **not** produce a public accessibility **statement**
+- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
+
+  ✘ No more than 5 users
+
+        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
+
+{% endslide %}
+
+{% slide %}
+
+The scope should be checked at different points in the project, especially if there are changes to the requirements, to see if it still fits.
+
+{% endslide %}
+
+{% slide %}
+
+## 2. **Scope**
+
+### [Kick off]
+
+_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_R_**
+
+{% endslide %}
+
+{% slide %}
+
+## WON'T (**W**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments but scope still needed
+- **not** produce a public accessibility **statement**
+- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
+
+  ✘ No more than 5 users test
+
+        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
+
+{% endslide %}
+
+{% slide %}
+
+Discuss with project team and determine what will be assessed
+
+{% endslide %}
+
+{% slide %}
+
+- **Goals**: Discuss and agree on assessment goals. Are we aiming for a complete site audit or specific sections? Decide on full-site vs. targeted audit, and specify the compliance level (A, AA, AAA) to align with organisational and legal requirements.
+
+- **Target Users**: Brainstorm and list user profiles, including those with visual, auditory, motor, and cognitive disabilities. Discuss the specific accessibility needs these users may have, identify any assistive technologies (e.g., screen readers, magnifiers) they might use.
+
+- **User Journeys:** Map and prioritize key user journeys, such as searching an archive, filtering data points. Ensure each journey is accessible end-to-end. Prioritize which flows to focus on based on user importance and frequency of use.
+
+{% endslide %}
+
+{% slide %}
+
+- **Pages and Features**: Identify high-traffic pages, core user flows (e.g., checkout, login), and key interactive elements (e.g., forms, tables, multimedia). Create a checklist for multimedia (videos with captions), dynamic elements (pop-ups, forms), and images (alternative text).
+
+- **Devices, Operating Systems, and Browsers**: Identify the primary devices, OS, and browsers based on to reflect real-world usage, analytics data or user feedback. Cover popular browsers like Chrome, Firefox, Safari, and Edge, focusing on both the latest and older relevant versions.
+
+- **Content and Formats**: Review and list content types for accessibility checks, including text, images, multimedia, and interactive components.
+
+- **Third-Party Components**: Identify any third-party integrations, such as chat or map widgets, embedded videos, or social media feeds. Determine which components need specific checks or alternative solutions.
+
+{% endslide %}
+
+{% slide %}
+
+- **Technical Constraints**: Discuss any limitations posed by frameworks (e.g., R/eact, Angular) or the CMS that might impact accessibility implementation.
+
+- **Responsiblities by Role:** List more specific role responsibilities. Decide how much collaboration or dependences will be needed.
+
+- **Pages/Outputs:** List all the urls to test and statement link
+
+- **Schedule:** Confirm how often or when to work on certain parts. e.g. testing, statement updates
+
+{% endslide %}
+
+{% slide %}
+
+## Scope table example
+
+{% endslide %}
+
+{% slide %}
+
+<table style="font-size:19px";>
+<thead>
+<tr>
+<th><strong>Areas</strong></th>
+<th><strong>Decision</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goals</td>
+<td>The team decides to conduct a targeted audit of high-traffic pages, aiming for WCAG 2.1 AA compliance. These pages will include the home page, user login, product listing, checkout flow, and help center.</td>
+</tr>
+<tr>
+<td>Target Users</td>
+<td>We have three primary user groups. 2 with unique needs, a keyboard-only user and a screen reader user.</td>
+</tr>
+<tr>
+<td>User Journeys</td>
+<td>The team identifies Browsing and Searching as critical flows because they are essential to users’ ability navigate the catalogue, using search filters, and viewing metadata.</td>
+</tr>
+<tr>
+<td>Document Content and Formats</td>
+<td>There will be many images so ensure partners provide alt text (give them guidance and resources), ensure images are in the right file format, does not exceed maximum size and dimensions</td>
+</tr>
+<tr>
+<td>Third-Party Components</td>
+<td>The team flags an interactive map and an embedded chatbot for additional accessibility testing.</td>
+</tr>
+<tr>
+<td>Technical Constraints</td>
+<td>Using Vue.js and Bootstrap so navigation within modals might interfere with each other and cause not only functionality but accessibility issues</td>
+</tr>
+<tr>
+<td>Devices, Operating Systems, and Browsers</td>
+<td>The team decides to test across desktop (Windows and macOS) and mobile (iOS and Android) on Chrome, Firefox, Safari, and Edge. Key versions include the latest for each, plus any used by 5% or more of users.</td>
+</tr>
+<tr>
+<td>Role responsibilities</td>
+<td>A - Check process and update statement. Ensure partners check their content meet guidelines.<br>E - Run automated accessibility tests in axe on all pages and manual keyboard testing<br>U - Check all font sizes are large enough, design for dark and light mode, small and large screens, with sufficient colour constrast on all elements.</td>
+</tr>
+<tr>
+<td>Pages/Outputs</td>
+<td>Staging site<br>Statement draft</td>
+</tr>
+<tr>
+<td>Schedule</td>
+<td>Increments 2, 4, 6 and Change freeze</td>
+</tr>
+</tbody>
+</table>
+
+{% endslide %}
+
+{% slide %}
+
+Other KDL scope examples:
+
+[Living with Machines](https://app.clickup.com/26475560/v/dc/t7z18-1608/t7z18-208270), [Alice Thornton](https://app.clickup.com/26475560/v/dc/t7z18-23908/t7z18-228368) (but these might not be the best examples as they are the first trials).
+
+{% endslide %}
+
+{% slide %}
+
+### Time logging
+
+It's important to get an overview across projects over time for better estimation and to know which areas to improve.
+
+{% endslide %}
+
+{% slide %}
+
+Ensure tasks are set up in CU and split time estimates into subtasks below:
+
+- **2: Scope**
+
+- **3: Assess and fix** <br>_If done within the Evo Dev process, estimate roughly how long you took e.g. if you spent 5h developing or designing and did a few checks along the way, you might log 1h_
+
+- **4: Documentation** <br>_First deployment even on stg/dev should have the barebones statement_
+
+{% endslide %}
+
+{% slide %}
+
+## 3\. **Assess/Fix**
+
+### [Evolutionary Development]
+
+_Lead_ **_E U_**_, Collaborate_ **_A_**
+
+{% endslide %}
+
+{% slide %}
+
+All assessment and fixes should be integrated seamlessly, continuously when designing and developing within the evolutionary development work, ensuring checks are done before any deployment/increment.
+
+{% endslide %}
+
+{% slide %}
+
+- **Assess**
+
+  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but typically don't capture all accessibility barriers.
+
+  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
+
+  - Stand alone assessments (fixes done separately) should be documented in CU.
+
+{% endslide %}
+
+{% slide %}
+
+- **Fix** when issue is found.
+
+  - Any issues that cannot be fixed should be recorded directly to the statement.
+
+  - Tools and methods should also be recorded in the statement.
+
+{% endslide %}
+
+{% slide %}
+
+## 4\. **Documentation**
+
+### [Evolutionary Development]
+
+_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
+
+{% endslide %}
+
+{% slide %}
+
+- Statement
+
+  - First deployment should have the barebones statement
+
+  - Refer back to Scope table to check if decisions/level planned at the time match delivered solution
+
+  - Issues that are not fixed should be recorded
+
+  - Tools and methods should be recorded
+
+{% endslide %}
+
+{% slide %}
+
+- Recent KDL examples:
+
+  - [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement)
+
+  - [Alice Thornton](https://thornton.kdl.kcl.ac.uk/accessibility/)
+
+  - [Radical Translation](https://radicaltranslations.org/accessibility-statement/)
+
+  - [KDL](https://kdl.kcl.ac.uk/accessibility-statement/)
+
+  - [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation) (Very minimal)
+
+{% endslide %}
+
+{% slide %}
+
+- External examples:
+
+  - [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/)
+
+  - [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/)
+
+  - [JISC](https://www.jisc.ac.uk/accessibility-statement)
+
+{% endslide %}
+
+{% slide %}
+
+The diagram maps out the basic overview of the 4 steps
+
+{% endslide %}
+
+{% slide %}
+
+<img src="https://t26475560.p.clickup-attachments.com/t26475560/19add369-a449-48bc-bb50-1bb5aff92aa8/image.png" alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project" style="width: 650px;">
+
+{% endslide %}
+
+{% slide %}
+
+Internal References:
+
+- [Process Document draft versions and references in Sharepoint](https://emckclac.sharepoint.com/:w:/r/sites/ahkdlfa/_layouts/15/doc.aspx?sourcedoc=%7B5bd942cd-9c12-44f7-82b7-68222cee7a01%7D&file=document2.docx&action=default&mobileredirect=true&cid=d66236a2-0127-4d51-8ad8-9d15432838cc)
+
+- [Strategy 2022 in Sharepoint](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B0F136034-6480-4CEB-8328-7004E5036D8D%7D&file=2023.02.06_KDL%20Digital%20Accessibility%20Outline_SF.docx&action=default&mobileredirect=true)
+
+- [Diagram versions in Miro](https://miro.com/app/board/uXjVPo0HaZs=/)
+
+- Digital Accessibility [Project Review Record](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-239555)
+
+- [SharePoint Accessibility reference index](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
+
+- Previous KDL approach [The road to a more inclusive web: The state of digital accessibility at KDL](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
+
+- [Digital Accessibility Post-Project Review Report](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
+
+{% endslide %}
+
+{% slide %}
+
+# End
+
+[Digital Accessibility Strategy and Process](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815) documentation in Clickup
+
+{% endslide %}
