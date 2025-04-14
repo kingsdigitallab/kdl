@@ -76,7 +76,7 @@ Completed 13 projects, 7 in progress from [review meetings](https://emckclac.sha
 An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 <img
-    src="/assets/images/slides/accessibility-process-2020.jpg"
+    src="/assets/images/slides/accessibility-process-2020-highlight.jpg"
   height="570"
   alt="Screenshot of document displaying steps to an accessibility process."
   />
@@ -109,6 +109,57 @@ An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AH
   Living with machines, Alice Thornton, King's Past
 - 2025: [Post-project review](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
 - 2025: mid: Blogpost and Slides
+
+{% endslide %}
+
+{% slide %}
+
+## Accessibility
+
+A very quick intro
+
+{% endslide %}
+
+{% slide %}
+
+<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
+
+Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
+[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
+
+{% endslide %}
+
+{% slide %}
+
+### WCAG
+
+The Web Content Accessibility Guidelines (WCAG), developed by the World Wide Web Consortium, are technical standards that help make the digital world accessible to people with disabilities. Numerous stakeholders, including disability advocacy groups, government agencies, and accessibility research organizations, collaborated to create these guidelines, which are considered the universal standard for digital accessibility.
+
+Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/resource/what-is-wcag/)
+
+{% endslide %}
+
+{% slide %}
+
+WCAG standards are rooted in four main principles: perceivable, operable, understandable, and robust, often called **POUR**.
+
+- **Perceivable:** Information must be perceivable to people using only one of their senses, so they understand all related content.
+
+- **Operable:** End users must be able to interact with all webpage elements. For instance, your website should be easily navigable with just a keyboard or voice controls for non-mouse users.
+
+- **Understandable:** The principle is just what it seems—end users must be able to understand web page content and functionality information.
+
+- **Robust:** Your website must effectively communicate information to all users, including users of assistive technologies, and remain compatible with evolving technologies and user needs.
+
+{% endslide %}
+
+{% slide %}
+
+- WCAG Versions 1.0 (1999), 2.0 (2008), 2.1 (2018) and 2.2 (2023)
+
+- Three Levels of WCAG Conformance: A (minimum), AA (mid), and AAA (highest)
+
+Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/resource/what-is-wcag/)
 
 {% endslide %}
 
