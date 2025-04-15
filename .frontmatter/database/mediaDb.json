@@ -1,5 +1,6 @@
 {
   "frontend": {
-    "public": { "assets": { "images": { "general": {}, "slides": {} } } }
+    "public": { "assets": { "images": { "general": {}, "slides": {} } } },
+    "src": { "slides": {} }
   }
 }
