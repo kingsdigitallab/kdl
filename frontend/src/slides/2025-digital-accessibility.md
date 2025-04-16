@@ -27,21 +27,23 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 {% slide %}
 
-## Overview
+## Agenda
 
-- <span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">History</span> (5min)
+<br>
 
-- <span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Reasons</span> (10min)
+<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Historical context</span> (5min)
 
-- <span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Current</span> (15min)
+<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Reasons for change</span> (10min)
 
-- <span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Questions</span> (30min)
+<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Updated approach</span> (15min)
+
+<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Questions</span> (30min)
 
 {% endslide %}
 
 {% slide %}
 
-### History
+## History
 
 - 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
 - 2020 early: Designer hired for 6 months, and Intern
@@ -61,19 +63,22 @@ Approximately 10 members involved over a 12 month period (2 team members working
 
 {% slide %}
 
-70+ more on the [list of legacy projects spreadsheet](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287) (4-5 years at current rate)
+## Time
 
-<img
-    src="/assets/images/slides/accessibility-review-figures.jpg"
-  height="570"
-  alt="Table displaying projects and hours logged"
-  />
+- Legacy/post projects took 3-5 times longer
+  - difficult setup
+  - tedious recording
+- Active projects seemed to take much less time
+- But difficult to know how much accessibility in active projects really took
+  - some projects did not have a separate accessibility task to log time
+  - assess and fixes often recorded within requirement tasks
+  - mainly statement time was recorded
 
 {% endslide %}
 
 {% slide %}
 
-Legacy/post projects took 3-5 times longer due to project setup and [recording of fixes](https://docs.google.com/spreadsheets/d/130zWTV0CxzZP1Uf6DroqpI4ALVeI50g4NdmOTsHiUcA/edit?gid=1790552927#gid=1790552927)
+Example of a [spreadsheet to record all issues and fixes ](https://docs.google.com/spreadsheets/d/130zWTV0CxzZP1Uf6DroqpI4ALVeI50g4NdmOTsHiUcA/edit?gid=1790552927#gid=1790552927)
 
 <img
     src="/assets/images/slides/accessibility-fix-spreadsheet.png"
@@ -86,11 +91,24 @@ screenshot from [spreadsheet]
 
 {% slide %}
 
-- Active projects seemed to take much less time
-- But difficult to know how much accessibility in active projects really took
-  - some projects did not have a separate accessibility task to log time
-  - assess and fixes often recorded within requirement tasks
-  - mainly statement time was recorded
+It would take us 4-5 years to complete with 70+ more [post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287)
+
+<img
+    src="/assets/images/slides/accessibility-review-figures.jpg"
+  height="570"
+  alt="Table displaying projects and hours logged"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+## Actions
+
+- Double checked legal compliance
+- Not legally required
+- But KDL still kept an overall commitment
+- Added Accessibility to SLA
 
 {% endslide %}
 
@@ -112,12 +130,15 @@ An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AH
 
 ## Learnings
 
-- Top-down strategies and complex official resources
-- Unclear requirements and lack of internal documentation
-- Over focus on compliance
-- Uneven team knowledge and understanding
-- Disproportionate work distribution and mismatched responsibilities
+- Non-adaptive, rigid approach
 - Lack of open dialogue and collaboration
+- Focus on compliance
+- Complex official resources
+- Insufficient internal documentation
+- Disproportionate work distribution
+- Mismatched responsibilities
+- Uneven knowledge and understanding
+- Limited support
 
 {% endslide %}
 
@@ -125,7 +146,7 @@ An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AH
 
 ## Accessibility
 
-A very quick intro
+A very quick introduction
 
 {% endslide %}
 
@@ -162,6 +183,26 @@ Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHo
 
 {% slide %}
 
+## Observations
+
+All or nothing approach
+
+- Avoidance
+
+  - Feasibility - Reasons were given that accessibility wasn't needed in project requirements
+
+  - Evolutionary Development - Not prioritised, often left to the end where there would be no time to work on
+
+- Inconsistent outputs
+
+  - very different processes
+
+  - dependant of who was on the project
+
+{% endslide %}
+
+{% slide %}
+
 ### Updated approach
 
 - 2023 early: [Strategy](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B0F136034-6480-4CEB-8328-7004E5036D8D%7D&file=2023.06.22_KDL%20Digital%20Accessibility%20Strategy%20v3.docx&action=default&mobileredirect=true) and [Process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B5BD942CD-9C12-44F7-82B7-68222CEE7A01%7D&file=2023.02.08_KDL%20Digital%20Accessibility%20Process.docx&action=default&mobileredirect=true&DefaultItemOpen=1) aligned with SDLC
@@ -170,6 +211,59 @@ Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHo
   Living with machines, Alice Thornton, King's Past
 - 2025 mid: [Post-project review](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
 - 2025 mid: Blogpost and Slides
+
+{% endslide %}
+
+{% slide %}
+
+## Plan
+
+<table style="font-size:25px";>
+<thead>
+<tr>
+<th><strong>Past Learnings</strong></th>
+<th><strong>→ Future Aims</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Non-adaptive, rigid approach</td>
+<td>→ Adaptive, flexible approach</td>
+</tr>
+<tr>
+<td>Lack of open dialogue and collaboration</td>
+<td>→ Open dialogue and strong collaboration</td>
+</tr>
+<tr>
+<td>Focus on compliance</td>
+<td>→ Balanced compliance and usability</td>
+</tr>
+<tr>
+<td>Complex official resources</td>
+<td>→ Clear, user-friendly resources</td>
+</tr>
+<tr>
+<td>Insufficient internal documentation</td>
+<td>→ Comprehensive internal documentation</td>
+</tr>
+<tr>
+<td>Disproportionate work distribution</td>
+<td>→ Balanced and equitable work distribution</td>
+</tr>
+<tr>
+<td>Mismatched responsibilities</td>
+<td>→ Well-defined responsibilities aligned to skills</td>
+</tr>
+<tr>
+<td>Uneven knowledge and understanding</td>
+<td>→ Shared knowledge, collective understanding</td>
+</tr>
+<tr>
+<td>Limited support</td>
+<td>→ Ample and responsive support</td>
+</tr>
+</tbody>
+</table>
 
 {% endslide %}
 
@@ -754,19 +848,11 @@ Adapted minimal statement from [King's Digital Lab](https://kingsdigitallab.gith
 
 - Recent KDL examples:
 
-  - [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement) (minimal generator)
+  - [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement), [Radical Translation](https://radicaltranslations.org/accessibility-statement/), [King's Digital Lab](https://kdl.kcl.ac.uk/accessibility-statement/) (minimal generator)
 
   - [Alice Thornton](https://thornton.kdl.kcl.ac.uk/accessibility/) (gov.uk template)
 
-  - [Radical Translation](https://radicaltranslations.org/accessibility-statement/) (minimal generator)
-
-  - [King's Digital Lab](https://kdl.kcl.ac.uk/accessibility-statement/) (minimal generator)
-
   - [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation) (Very minimal)
-
-{% endslide %}
-
-{% slide %}
 
 - External examples:
 
@@ -787,6 +873,18 @@ The diagram maps out the basic overview of the 4 steps
 {% slide %}
 
 <img src="https://t26475560.p.clickup-attachments.com/t26475560/19add369-a449-48bc-bb50-1bb5aff92aa8/image.png" alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project" style="width: 650px;">
+
+{% endslide %}
+
+{% slide %}
+
+## Conclusion and Actions
+
+- Blogpost to publish
+- KDL Team to feedback on process
+- DA team to review in 6 months?
+- SLA process not yet looked at
+- Decision to carry on or change strategy
 
 {% endslide %}
 
