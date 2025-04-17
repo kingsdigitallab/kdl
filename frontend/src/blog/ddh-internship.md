@@ -8,7 +8,7 @@ authors:
 date: 2025-03-27
 excerpt:
 feature:
-  image: /frontend/public/assets/images/blog/DDH Internship_main.jpg
+  image: /assets/images/blog/DDH_Internship_main.webp
   title: © Photo by Maxim Berg on Unsplash
   description: Bar Charts
 draft: true
@@ -22,9 +22,9 @@ During the first week of the internship, I was tasked to update metadata across 
 
 After updating and organising a substantial amount of project metadata, I started building comprehensive dashboards using [ClickUp](https://clickup.com/), the Lab’s project management tool. I built a new Retrospective Dashboard and revised the existing Portfolio Dashboard. The Retrospective Dashboard helps identify trends, e.g. relationships between project size and success rates, set realistic KPIs (Key Performance Indicators), distinguish areas of strength and weakness, and demonstrates statistics, such as the number of applications and successful funding awards with different departmental and faculty partners. The Retrospective Dashboard then feeds into discussions within the Lab, and with senior internal stakeholders and potential partners. Meanwhile, I created the Portfolio Dashboard to bring information from various reports into one place and ensure it is well displayed, enabling all team members to efficiently access and understand the comprehensive information displayed. Both reports were created to improve data visualisations, making them clearer and more professionally presented; this way when stakeholders approach KDL and ask KDL to present statistics about past projects, it will be easier for the Lab to access and present this information. In creating these dashboards I encountered many trials and errors that I then needed to figure out how to address and determine what worked best, and which functions would efficiently show what was needed. As an intern, I wanted to be as helpful as I could. The feedback so far is that these dashboards have helped KDL provide important historical context for strategic planning, reduce redundancy and enabled new Lab staff to understand the Lab’s internal workings better.
 
-![Dashboard description](/frontend/public/assets/images/blog/DDH%20Internship_Picture%201.png "Each dashboard includes information to make it easy for new and infrequent users to understand."){.media-small}
+![Dashboard description](/assets/images/blog/DDH_Internship_Picture_1.png "Each dashboard includes information to make it easy for new and infrequent users to understand.")
 
-![Bar chart](/frontend/public/assets/images/blog/DDH%20Internship_Picture%202.png "The Retrospective Dashboard allows comparisons between overall funding applications and successful applications, to help identify trends. "){.media-small}
+![Bar chart](/assets/images/blog/DDH_Internship_Picture_2.png "The Retrospective Dashboard allows comparisons between overall funding applications and successful applications, to help identify trends. ")
 
 My last tasks as an intern involved updating the [existing Research Excellence Framework (REF) Checklist for Digital Outputs Assessment](https://zenodo.org/records/3361580) and the [Software Development Lifecycle (SDLC) wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) for wider public viewing.
 
