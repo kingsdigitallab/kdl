@@ -489,6 +489,19 @@
       },
       {
         "agent": {
+          "id": "914deffa-5e29-4922-b28f-9dfb9d49d59d",
+          "name": "Mary Chester-Kadwell",
+          "slug": "mary-chester-kadwell"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "01b37659-ba2b-484c-89c4-8f96846b20d2",
           "name": "Suzanne Trill",
           "slug": "suzanne-trill"
@@ -549,6 +562,19 @@
           "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },

@@ -8383,6 +8383,30 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Renaissance Skin - Visible Skin",
             "alternateName": "Visible Skin",
             "slug": "visible-skin",
@@ -15457,6 +15481,30 @@
       "slug": "mary-chester-kadwell",
       "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
