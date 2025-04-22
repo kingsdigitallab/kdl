@@ -1,6 +1,6 @@
 ---
 title: What happens to my project's digital outputs when the funded period ends?
-order: 12
+order: 13
 tags:
   - faq
 ---
