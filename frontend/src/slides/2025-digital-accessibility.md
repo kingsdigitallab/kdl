@@ -119,7 +119,7 @@ It would take us 4-5 years to complete with 70+ more [post projects](https://doc
 An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but was not taken forward
 
 <img
-    src="/assets/images/slides/accessibility-process-2020-highlight.jpg"
+    src="/assets/images/slides/accessibility-process-2020.jpg"
   height="570"
   alt="Screenshot of document displaying steps to an accessibility process."
   />
@@ -781,6 +781,56 @@ All assessment and fixes should be integrated seamlessly, continuously when desi
 {% endslide %}
 
 {% slide %}
+<img
+    src="/assets/images/slides/accessibility-assess-AT.jpg"
+  width="800"
+  alt="Table of accessibility issues with screenshots and details"
+  />
+
+Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/26475560/v/dc/t7z18-23908/t7z18-246755)
+{% endslide %}
+
+{% slide %}
+Manual colour contrast example
+<img
+    src="/assets/images/slides/accessibility-assess-AT1.jpg"
+  width="800"
+  alt="Screenshot of colour picker tool and contrast checker tool being used"
+  />
+
+Find the colours used in the code or take a screenshot and colour pick it in a tool like Photoshop or similar alternatives like [pixlr](https://pixlr.com/e/#editor).
+Then put the hex colours in a tool like [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
+
+{% endslide %}
+
+{% slide %}
+<img
+    src="/assets/images/slides/accessibility-assess-RT.jpg"
+  width="800"
+  alt="Screenshot of task with accessibility issues with screenshots and details"
+  />
+
+Example Colour Contrast Findings from [Radical Translations](https://app.clickup.com/t/86c0jx4ph)
+
+{% endslide %}
+
+{% slide %}
+<img
+    src="/assets/images/slides/accessibility-cc-figma.jpg"
+  width="800"
+  alt="Screenshot of color contrast tool being used"
+  />
+
+Example tool: [Figma Color Contrast Checker](https://www.figma.com/color-contrast-checker/)
+
+{% endslide %}
+
+{% slide %}
+Other tools:
+
+{% endslide %}
+
+{% slide %}
 
 ## 4\. **Documentation**
 
@@ -872,7 +922,11 @@ The diagram maps out the basic overview of the 4 steps
 
 {% slide %}
 
-<img src="https://t26475560.p.clickup-attachments.com/t26475560/19add369-a449-48bc-bb50-1bb5aff92aa8/image.png" alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project" style="width: 650px;">
+<img
+    src="/assets/images/slides/accessibility-process-flowchart.jpg"
+  width="800"
+  alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project"
+  />
 
 {% endslide %}
 
