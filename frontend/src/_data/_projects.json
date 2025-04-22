@@ -8792,19 +8792,6 @@
       },
       {
         "agent": {
-          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
-          "name": "Joyce Reynolds",
-          "slug": "joyce-reynolds"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "0a9cfdea-b9e4-466c-9239-6b70c55dc1d8",
           "name": "Charlotte Roueché",
           "slug": "charlotte-roueche"
@@ -8852,19 +8839,6 @@
           "name": "Research Software Analyst",
           "inDefinedTermSet": {
             "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
-          "name": "Joyce Reynolds",
-          "slug": "joyce-reynolds"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
           }
         }
       },
