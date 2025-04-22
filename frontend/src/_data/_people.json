@@ -11756,50 +11756,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Mao Era in Objects",
-            "alternateName": "MAO",
-            "slug": "mao-era-in-objects",
-            "foundingDate": "2018-04-01",
-            "dissolutionDate": "2020-03-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Oxford"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Highlands School Enfield"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Yale University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Faculty of Social Science & Public Policy"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "King's Digital Lab",

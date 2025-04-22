@@ -11297,19 +11297,6 @@
       },
       {
         "agent": {
-          "id": "918fc2f6-2313-4838-93c5-64ce3ba4f7b5",
-          "name": "Jamie Norrish",
-          "slug": "jamie-norrish"
-        },
-        "roleName": {
-          "name": "Research Software Engineer",
-          "inDefinedTermSet": {
-            "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "dc0659d4-4801-419e-b1ee-a639f4ffe3ce",
           "name": "Katrin Heilmann",
           "slug": "katrin-heilmann"
