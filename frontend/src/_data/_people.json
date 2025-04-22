@@ -19353,22 +19353,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "British Printed Images to 1700: Integrating Visual Sources into Historical Practice",
-            "alternateName": "BPI 1700",
-            "slug": "british-printed-images-to-1700-integrating-visual-sources-into-historical-practice",
-            "foundingDate": "2023-08-01",
-            "dissolutionDate": "2025-07-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Newcastle University"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "King's Digital Lab",
