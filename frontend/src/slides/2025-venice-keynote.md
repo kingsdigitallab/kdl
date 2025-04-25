@@ -1,25 +1,25 @@
 ---
-title: Starting from the end and going in circles? or what does it mean to sustain a digital research infrastructure? 
-Learnings from King's Digital Lab 
+title: What does it mean to sustain a digital research infrastructure?
 event:
-  title: Classical Texts in Digital Media 2: Digital Methods for Editing and Studying Ancient Texts 
+  title: Classical Texts in Digital Media 2 - Digital Methods for Editing and Studying Ancient Texts
   url:
-tags:
-  - slides
+tags: slides
 slide:
   loop: true
   theme: simple
   slideNumber: true
-draft: false
+draft: true
 ---
 
 {% slide %}
 
-# Starting from the end and going in circles?  <br> or what does it mean to sustain a digital research infrastructure?
+# Starting from the end and going in circles?
+
+## What does it mean to sustain a digital research infrastructure?
 
 <hr>
 
-### Learnings from King's Digital Lab 
+### Learnings from King's Digital Lab
 
 Arianna Ciula
 
