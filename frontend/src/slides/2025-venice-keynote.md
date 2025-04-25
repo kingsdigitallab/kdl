@@ -34,7 +34,7 @@ _contributions from past and present KDL team_
   - King's Digital Lab mission, history & set up
   - Archining & Sustanability programme
 - What is a Digital Research Infratsructure in our context?
-  - Processes or _Going in Circles_ & expertise
+  - Collaboration & Processes or _Going in Circles_
   - Assessment of Digital Outputs
   - Research Themes
 - Conference highlights
@@ -138,6 +138,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <aside class="notes">
 
+- focus on processes and expertise (not so much on methods and resources)
 - DECIDE whether tyo add an image?
 
 </aside>
@@ -146,31 +147,38 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 {% slide %}
 
-### 2020 late:
+### Collaboration guidance and process
 
-An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but was not taken forward
+[Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](hhttps://kdl.kcl.ac.uk/faqs/)
 
-<img
-    src="/assets/images/slides/accessibility-process-2020.jpg"
-  height="570"
-  alt="Screenshot of document displaying steps to an accessibility process."
-  />
+<img src="/assets/images/slides/sdlc.png"
+    alt="KDL SDLC cycle"
+  style="width:800px">
+
+<aside class="notes">
+
+- if you need to collaborate there is some guidance
+- no matter how big or small projects
+
+</aside>
 
 {% endslide %}
 
 {% slide %}
 
-## Learnings
+### Collaboration guidance and process
 
-- Non-adaptive, rigid approach
-- Lack of open dialogue and collaboration
-- Focus on compliance
-- Complex official resources
-- Insufficient internal documentation
-- Disproportionate work distribution
-- Mismatched responsibilities
-- Uneven knowledge and understanding
-- Limited support
+[Project templates](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/)
+
+<img src="/assets/images/slides/sdlc.png"
+    alt="KDL SDLC cycle"
+  style="width:800px">
+
+<aside class="notes">
+
+- DECIDE whether to change image
+
+</aside>
 
 {% endslide %}
 
