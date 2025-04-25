@@ -11,7 +11,6 @@ feature:
   image: /assets/images/blog/DDH_Internship_main.webp
   title: © Photo by Maxim Berg on Unsplash
   description: Bar Charts
-draft: true
 ---
 
 Hello readers!
