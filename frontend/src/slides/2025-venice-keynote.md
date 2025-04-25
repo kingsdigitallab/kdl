@@ -79,6 +79,29 @@ _contributions from past and present KDL team_
 <aside class="notes">
 - roles: Lab & Project Managers, Analysts, Developers, Designers, Systems Administrator​ 
 - under-written internally with 50% annual cost recovery model
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Starting from the End
+
+Inherited over 100 completed projects with no funding
+
+- [Archiving and Sustanability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
+- Examples under SLA
+  - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
+  - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
+  - prosophographies e.g. [DPRR](https://romanrepublic.ac.uk/)
+  - gazeteers e.g. [Cyprus heritage](https://cyprusgazetteer.org/)
+  - corpora
+  - data structures
+
+<aside class="notes">
+
+- (explain sla)
 - DECIDE whether to add VENN DIAGRAMM
 
 </aside>
@@ -87,26 +110,23 @@ _contributions from past and present KDL team_
 
 {% slide %}
 
-Example of a [spreadsheet to record all issues and fixes ](https://docs.google.com/spreadsheets/d/130zWTV0CxzZP1Uf6DroqpI4ALVeI50g4NdmOTsHiUcA/edit?gid=1790552927#gid=1790552927)
+## Epigraphy project example
 
-<img
-    src="/assets/images/slides/accessibility-fix-spreadsheet.png"
-  height="570"
-  alt="Screenshot of a Google spreadsheet displaying a long list of projects and related information"
-  />
-screenshot from [spreadsheet]
+- Editions [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
+  - [2009](https://inslib.kcl.ac.uk/irt2009/) - reduced functionalities
+  - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
+    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & EPIDOC community
+    - [other data](https://doi.org/10.18742/c.6002275.v1) - editor/s, insitution/s & funder/s
+      - authority lists eg. indexes
+      - EFES software architecture
+      - images - photographs of inscriptions
+      - TEI-EPIDOC XML
 
-{% endslide %}
+<aside class="notes">
 
-{% slide %}
+-
 
-It would take us 4-5 years to complete with 70+ more [post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287)
-
-<img
-    src="/assets/images/slides/accessibility-review-figures.jpg"
-  height="570"
-  alt="Table displaying projects and hours logged"
-  />
+</aside>
 
 {% endslide %}
 
