@@ -188,16 +188,14 @@ Lkshay Jain on @pexels
 
 ### Collaboration process
 
-Incremental building and reviews
-[Project templates](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/)
+- Incremental building and reviews
+- SDLC [(Ciula, Mellen and Vieira, 2024)](https://kdl.kcl.ac.uk/slides/2024-lisbon-dariah/)
 
-<img src="/assets/images/slides/sdlc.png"
-    alt="KDL SDLC cycle"
-  style="width:800px">
+![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
 <aside class="notes">
 
--
+- ADD Zoom to evolutionary cycle if possible
 
 </aside>
 
