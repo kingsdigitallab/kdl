@@ -132,12 +132,15 @@ Inherited over 100 completed projects with no funding
 
 {% slide %}
 
-## Actions
+## What is a Digital Research Infratsructure in our context?
 
-- Double checked legal compliance
-- Not legally required
-- But KDL still kept an overall commitment
-- Added Accessibility to SLA
+DRI in the Arts & Humanities, in a UK University and with a specific business model - how to collaborate with us and how do we collaborate?
+
+<aside class="notes">
+
+- DECIDE whether tyo add an image?
+
+</aside>
 
 {% endslide %}
 
