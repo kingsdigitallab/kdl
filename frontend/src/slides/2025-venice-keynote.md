@@ -43,14 +43,26 @@ Arianna Ciula
 
 {% slide %}
 
-## History
+## Brief history
 
-- 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
-- 2020 early: Designer hired for 6 months, and Intern
-- 2020 late: [Review meetings](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true)
-- 2020 late: SLA [approach](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148)
-- 2021 mid: ["The road to a more inclusive web" blogpost](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
+- Digital Humanities at King's College London (UK)
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) (2011-)
+  - 7 Masters and 2 Undergraduate degrees​
+  - PhD programme​
+  - ~70 staff including researchers and teaching fellows
+- [King's Digital Lab](https://kdl.kcl.ac.uk/) (2015-)
 
+<aside class="notes">
+
+- Over 35 years of activity, against a background of rapid innovation and change in Humanities Computing and Digital Humanities​
+- Centre for Computing in the Humanities (1991) - Prof. Harold Short
+- Centre for Computing in the Humanities (1991) - Prof. Harold Short
+- Department of Digital Humanities (2011-):​
+  - 7 Masters and 2 Undergraduate degrees​
+  - PhD programme​
+  - ~70 staff including researchers and teaching fellows
+
+</aside>
 {% endslide %}
 
 {% slide %}
