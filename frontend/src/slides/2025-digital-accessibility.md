@@ -63,41 +63,73 @@ Approximately 10 members involved over a 12 month period (2 team members working
 
 {% slide %}
 
-## Time
+## Project time comparison
 
 - Legacy/post projects took 3-5 times longer
-  - difficult setup
-  - tedious recording
 - Active projects seemed to take much less time
-- But difficult to know how much accessibility in active projects really took
-  - some projects did not have a separate accessibility task to log time
-  - assess and fixes often recorded within requirement tasks
-  - mainly statement time was recorded
 
 {% endslide %}
 
 {% slide %}
 
-Example of a [spreadsheet to record all issues and fixes ](https://docs.google.com/spreadsheets/d/130zWTV0CxzZP1Uf6DroqpI4ALVeI50g4NdmOTsHiUcA/edit?gid=1790552927#gid=1790552927)
+[Collated timelogs](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true) for analysis
 
-<img
-    src="/assets/images/slides/accessibility-fix-spreadsheet.png"
-  height="570"
-  alt="Screenshot of a Google spreadsheet displaying a long list of projects and related information"
-  />
-screenshot from [spreadsheet]
+![Tables displaying projects and hours logged](/assets/images/slides/accessibility-review-timelog.jpg){width=1200}
 
 {% endslide %}
 
 {% slide %}
 
-It would take us 4-5 years to complete with 70+ more [post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287)
+## Project time analysis
 
-<img
-    src="/assets/images/slides/accessibility-review-figures.jpg"
-  height="570"
-  alt="Table displaying projects and hours logged"
-  />
+<table style="font-size:26px";>
+<thead>
+<tr>
+<th><strong style="font-size:34px">Legacy/post projects </strong></th>
+<th><strong style="font-size:34px">Active projects</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✔ Setup needed</td>
+<td>✖ No set up (absorbed in other requirements)</td>
+</tr>
+<tr>
+<td>✔ Reviewer needed</td>
+<td>✖ No reviewer needed</td>
+</tr>
+
+<tr>
+<td>↑ More dev input needed</td>
+<td>↓ Little dev input needed</td>
+</tr>
+
+<tr>
+<td>✔ Recording of assessment and fixes</td>
+<td>✖ No need to record</td>
+</tr>
+
+<tr>
+<td>✖ No other requirements</td>
+<td>✔ Can be absorbed into other requirements</td>
+</tr>
+</tbody>
+</table>
+
+{% endslide %}
+
+{% slide %}
+
+Example of a [spreadsheet to record all issues and fixes ](https://docs.google.com/spreadsheets/d/130zWTV0CxzZP1Uf6DroqpI4ALVeI50g4NdmOTsHiUcA/edit?gid=1790552927#gid=1790552927) - tedious manual process
+
+![Screenshot of a Google spreadsheet displaying a long list of projects and related information](/assets/images/slides/accessibility-fix-spreadsheet.png){height=570}
+
+{% endslide %}
+
+{% slide %}
+
+From the [review analysis](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true) with 13 complete, 7 in progress projects <br><br>
+It was calculated it would take 4-5 years <br><br> to complete the [70+ more post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287) with current resources.
 
 {% endslide %}
 
@@ -106,9 +138,9 @@ It would take us 4-5 years to complete with 70+ more [post projects](https://doc
 ## Actions
 
 - Double checked legal compliance
-- Not legally required
-- But KDL still kept an overall commitment
-- Added Accessibility to SLA
+  - Not legally required
+- But decision was still to keep the same commitment
+  - Post project work was shifted to [SLA](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148)
 
 {% endslide %}
 
