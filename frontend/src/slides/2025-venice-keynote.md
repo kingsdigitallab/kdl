@@ -27,17 +27,17 @@ Arianna Ciula
 
 {% slide %}
 
-## Agenda
+## Outline
 
-<br>
-
-<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Historical context</span> (5min)
-
-<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Reasons for change</span> (10min)
-
-<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Updated approach</span> (15min)
-
-<span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Questions</span> (30min)
+- Status or _Starting from the End_
+  - King's Digital Lab mission, history & set up
+  - Archining & Sustanability programme
+- What is a Digital Research Infratsructure in our context?
+  - Processes or _Going in Circles_ & expertise
+  - Assessment of Digital Outputs
+  - Research Themes
+- Conference highlights
+- Conclusions & questions
 
 {% endslide %}
 
