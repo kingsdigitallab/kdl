@@ -170,9 +170,9 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 [Project templates](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/)
 
-<img src="/assets/images/slides/sdlc.png"
+<img src="/assets/images/slides/path-lkshay.png"
     alt="KDL SDLC cycle"
-  style="width:800px">
+  style="width:400px">
 
 <aside class="notes">
 
