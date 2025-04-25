@@ -21,7 +21,8 @@ draft: true
 
 ### Learnings from King's Digital Lab
 
-Arianna Ciula
+Arianna Ciula <br>
+_contributions from past and present KDL team_
 
 {% endslide %}
 
@@ -56,7 +57,6 @@ Arianna Ciula
 
 - Over 35 years of activity, against a background of rapid innovation and change in Humanities Computing and Digital Humanities​
 - Centre for Computing in the Humanities (1991) - Prof. Harold Short
-- Centre for Computing in the Humanities (1991) - Prof. Harold Short
 - Department of Digital Humanities (2011-):​
   - 7 Masters and 2 Undergraduate degrees​
   - PhD programme​
@@ -67,24 +67,21 @@ Arianna Ciula
 
 {% slide %}
 
-### 2020 late Review meeting
+## King's Digital Lab
 
-Approximately 10 members involved over a 12 month period (2 team members working solely on accessibility for 6 months)
+[Team](https://kdl.kcl.ac.uk/about/team/) of 13 permanent staff + Research Affiliates/Visiting fellows delivering research services and/or (co-)leading research in collaboration with researchers and research organisations
 
-{% endslide %}
+- [Partners and funders](https://kdl.kcl.ac.uk/about/partners-and-funders/)
 
-{% slide %}
+- Research domains: Arts, (Digital) Humanities, Cultural Heritage and Social Sciences
+- [Research themes](https://kdl.kcl.ac.uk/projects/research-themes/): Digital Creativity, AI/ML, Indigenous DH, Data Viz
 
-## Time
+<aside class="notes">
+- roles: Lab & Project Managers, Analysts, Developers, Designers, Systems Administrator​ 
+- under-written internally with 50% annual cost recovery model
+- DECIDE whether to add VENN DIAGRAMM
 
-- Legacy/post projects took 3-5 times longer
-  - difficult setup
-  - tedious recording
-- Active projects seemed to take much less time
-- But difficult to know how much accessibility in active projects really took
-  - some projects did not have a separate accessibility task to log time
-  - assess and fixes often recorded within requirement tasks
-  - mainly statement time was recorded
+</aside>
 
 {% endslide %}
 
