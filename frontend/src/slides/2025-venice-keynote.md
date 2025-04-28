@@ -13,7 +13,7 @@ draft: true
 
 {% slide %}
 
-# Starting from the end and going in circles?
+### Starting from the end and going in circles?
 
 ## What does it mean to sustain a digital research infrastructure?
 
@@ -33,7 +33,7 @@ _contributions from past and present KDL team_
 - Status or _Starting from the End_
   - King's Digital Lab mission, history & set up
   - Archining & Sustanability programme
-- What is a Digital Research Infratsructure in our context?
+- What is a Digital Research Infrastructure in our context?
   - Collaboration & Processes or _Going in Circles_
   - Assessment of Digital Outputs
   - Research Themes
@@ -132,14 +132,14 @@ Inherited over 100 completed projects with no funding
 
 {% slide %}
 
-## What is a Digital Research Infratsructure in our context?
+## What is a Digital Research Infrastructure in our context?
 
 DRI in the Arts & Humanities, in a UK University and with a specific business model - how to collaborate with us and how do we collaborate?
 
 <aside class="notes">
 
 - focus on processes and expertise (not so much on methods and resources)
-- DECIDE whether tyo add an image?
+- DECIDE whether to add an image? Venice infrastructure?
 
 </aside>
 
