@@ -203,6 +203,24 @@ Lkshay Jain on @pexels
 
 {% slide %}
 
+## Project example
+
+- [_Crossreads: Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean_](https://kdl.kcl.ac.uk/projects/crossreads/)
+  - Requirements
+  - Project Review Record
+  - [Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
+  - Petrography notebooks (in next slide?)
+
+<aside class="notes">
+
+- TO CONTINUE, save images and add in flow - maybe take out text and add in notes etc.
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
 ## Thank you
 
 ### Questions?
