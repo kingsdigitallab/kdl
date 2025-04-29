@@ -20,27 +20,27 @@ Ideally projects were placed on an SLA to ensure ongoing hosting and maintenance
 
 ## Archiving and Sustainability Options
 
-1. ### SLA with KDL
+### SLA with KDL
 
    Maintaining the project under a costed Service Level Agreement with KDL - we offer agreements of variable durations depending on project age, infrastructure requirements, and PI preference but our standard SLA duration is five years.
 
-1. ### Migration to ITS
+### Migration to ITS
 
    Migration of the project (and associated data) to a King’s College London ITS microsite if that is agreeable to both PIs and ITS.
 
-1. ### Migration to external host
+### Migration to external host
 
    Migration of the project (and associated data) to an external host, such as the PI’s new institution or a commercial hosting provider.
 
-1. ### Static conversion
+### Static conversion
 
    Conversion of project website to a static website. This is offered as a free service for suitable projects. It can be a very cost effective solution and maintains public access to legacy projects and datasets that are no longer updated but continue to have value for the PI and research community.
 
-1. ### Datasets deposit
+### Datasets deposit
 
    These options are evolving, in collaboration with the Department of Digital Humanities and other partners: KDL-DDH CKAN data catalogue and repository (<https://data.kdl.kcl.ac.uk/>); KCL Research Data Management System (<https://www.kcl.ac.uk/library/researchsupport/research-data-management/Preserve/Deposit-your-data-with-Kings3.aspx>); External institutional or subject specific data repository.
 
-1. ### Minimal archiving
+### Minimal archiving
 
    Minimal storage (for two years minimum): project and data are archived on our infrastructure and a placeholder page is shown at a project URL. This placeholder includes a description of the project and other metadata, as well as links to snapshots at the Internet Archive and other web archives (such as webarchive.org.uk) where the project has been archived.
 
