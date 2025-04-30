@@ -258,7 +258,7 @@ For more information and reflections on our archiving and sustainability process
 
 ### Samantha Callaghan
 
-#### Research Software Analyst
+*Research Software Analyst*
 
 I've been responsible for documenting the decommission process for around 70+ projects that have been migrated, converted to static sites or minimally archived. Having worked in the information management sector for several years, the KDL Archiving and Sustainability project is a fantastic opportunity to come to grips with digital archiving of frequently complex digital objects. One lesson that we have taken from this work is to "document as you go"!
 
@@ -266,7 +266,7 @@ I've been responsible for documenting the decommission process for around 70+ pr
 
 ### Arianna Ciula
 
-#### Director and Senior Research Software Analyst
+*Director and Senior Research Software Analyst*
 
 As the lists above witness, not only the scale of the archiving process is substantial but as new projects start and end, it lives in the background of KDL daily operations. So it was important to consult with other analysts and feed our perspective to the lab manager, so to align the workflow with KDL Software Development Life Cycle.
 
@@ -274,7 +274,7 @@ As the lists above witness, not only the scale of the archiving process is subst
 
 ### Brian Maher (2017-2023)
 
-#### Senior Research Software Engineer and Systems Administrator
+*Senior Research Software Engineer and Systems Administrator*
 
 Through our Archiving & Sustainability efforts, we have been able to greatly improve the security of our systems. I have worked to update or archive as many websites as possible, converting many to static sites, in order to keep important academic research online for as long as possible.
 
@@ -282,7 +282,7 @@ Through our Archiving & Sustainability efforts, we have been able to greatly imp
 
 ### Pam Mellen
 
-#### Research Software Lab Manager
+*Research Software Lab Manager*
 
 I've primarily worked on integrating the Archiving and Sustainability project with the larger KDL Software Development Lifecycle, as well as supporting implementation at various points throughout the project. With a goal of building Archiving and Sustainability into KDL's 'business as usual'; this has involved working with with the team processes and documentation which are robust and standardised. As we reach the stage where SLA maintenance is integrated into the normal work of the Lab, I have implemented processes to ensure that we maintain good oversight of our portfolio of projects under SLA.
 
@@ -290,7 +290,7 @@ I've primarily worked on integrating the Archiving and Sustainability project wi
 
 ### Tiffany Ong
 
-#### Senior Research Software UI/UX Designer
+*Senior Research Software UI/UX Designer*
 
 I worked on the design of a simple html structure and neutral styling for the decommissioned sites template. I also worked on the templates for the footer, privacy and cookie policy for sites under SLA, following the current KDL style.
 
@@ -298,7 +298,7 @@ I worked on the design of a simple html structure and neutral styling for the de
 
 ### Toby Pitts (2018)
 
-#### Student Intern - Archiving and Sustainability Assistant
+*Student Intern - Archiving and Sustainability Assistant*
 
 I began the decommissioning documenting process over a two week period in 2018.
 
@@ -306,7 +306,7 @@ I began the decommissioning documenting process over a two week period in 2018.
 
 ### Natasha Romanova
 
-#### Digital Methods Lead (2019-2020)
+*Digital Methods Lead (2019-2020)*
 
 As part of my role as Digital Methods Lead at KDL in 2019-2020, I assisted the decommissioning analyst in preparing decommissioning documentation and, wherever appropriate, placeholder pages for a number of legacy projects and projects reaching the end of their SLA period. As part of this work, I often had to look into the history of the project and liaise with project partners and technical teams.
 
@@ -314,7 +314,7 @@ As part of my role as Digital Methods Lead at KDL in 2019-2020, I assisted the d
 
 ### Anna Maria Sichani
 
-#### Marie Curie Postdoctoral Researcher (2016)
+*Marie Curie Postdoctoral Researcher (2016)*
 
 I was involved in the KDL Archiving and Sustainability project at its initial stages during my KDL PhD research fellowship. I captured as much information we could for legacy projects so as to sketch an informed sustainability strategy. It was a great school for me in understanding several crucial qualities of a DH project: documentation, documentation, documentation.
 
@@ -322,7 +322,7 @@ I was involved in the KDL Archiving and Sustainability project at its initial st
 
 ### Miguel Vieira
 
-#### Principal Research Software Engineer
+*Principal Research Software Engineer*
 
 My work on Archiving & Sustainability focused on creating simple and easily deployable tools and scripts, that could be incorporated into legacy projects, in order to integrate them smoothly and efficiently into KDL Software Development Lifecycle.
 
@@ -330,7 +330,7 @@ My work on Archiving & Sustainability focused on creating simple and easily depl
 
 ### Tim Watts
 
-#### Senior Research Software Systems Manager
+*Senior Research Software Systems Manager*
 
 As part of our infrastructure renewal, I incorporated some cost effective additional storage into our SAN (disk array) which is just a fancy way of saying: we added some high volume slower disks to complement the super fast SSDs we use for our main service. We designed in the same robust level of fault protection into this archival group (RAID6 plus 2 hotspares - which means any 2 disks can fail simultaneously without loss of data and there are 2 spare disks available to take over from the failed disks). In addition to this, our archival datasets are backed up to the same enterprise grade backup disk systems using the same backup software and monitoring as our main service. At least one of the backup storage systems is located in a remote datacenter to reduce risk. I designed a very simple and effective curation process for archiving whole virtual servers and any associated components such as databases, image sets etc.
 
@@ -338,7 +338,7 @@ As part of our infrastructure renewal, I incorporated some cost effective additi
 
 ### Carina Westling
 
-#### Project Manager (2016-2017)
+*Project Manager (2016-2017)*
 
 I worked with James Smithies and the wider team at KDL to structure and define the problem space of the Archiving and Sustainability project at KDL, and devise a strategy for negotiating onward solutions for ca. 100 legacy projects inherited from the Department of Digital Humanities. Understanding and costing the resources involved in the ongoing maintenance of digital research projects was a big part of this work, and contributed to the development of KDL Software Development Lifecycle processes.
 
