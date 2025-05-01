@@ -10,7 +10,7 @@ slide:
   loop: true
   theme: simple
   slideNumber: true
-draft: false
+draft: true
 ---
 
 {% slide %}
