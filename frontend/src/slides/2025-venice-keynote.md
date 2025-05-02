@@ -270,6 +270,41 @@ Lkshay Jain on @pexels
 
 {% slide %}
 
+## Assessment of Digital Outputs
+
+  <ul>
+    <li class="fragment">UK context</li>
+    <li class="fragment">RSE contribution</li>
+    <li class="fragment"><a href="https://doi.org/10.5281/zenodo.3361579">KDL checklist</a></li>
+  </ul>
+
+<aside class="notes">
+
+- mention REF
+- ADD image?
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Development & Innovation
+
+  <ul>
+    <li class="fragment"><a href="https://doi.org/10.5281/zenodo.3361579">Research Themes</a></li>
+  </ul>
+
+<aside class="notes">
+
+- ADD image/s from research themes on the website?
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
 ## Thank you
 
 ### Questions?
