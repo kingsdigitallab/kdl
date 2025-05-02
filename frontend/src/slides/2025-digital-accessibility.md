@@ -33,11 +33,11 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 - 2020 late: [Review meetings](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true)
 
-  - Approximately 10 members in 12 month period (2 solely on accessibility for 6 months). 4-5 years to complete [70+ more post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287) with same resources.
+  - Approximately 10 members in 12 month period (2 solely on accessibility for 6 months). With similar resources, estimated 4-5 years to complete [70+ more post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287).
 
   - Double checked legal compliance, Not legally required. Kept similar commitment but post project work was shifted to SLA [approach](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148).
 
-  - Attempt to [documentation process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but not taken up.
+  - Attempt to [documentation process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 - 2021 mid: ["The road to a more inclusive web" blogpost](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
 
@@ -45,47 +45,38 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 {% slide %}
 
-## Observations
+[Previous "Process"](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but not taken forward for team review
 
-- Inconsistent outputs (All or nothing approach)
-
-  - very different processes
-
-  - dependant of who was on the project
-
-- Deprioritisation/Avoidance
-
-  - Feasibility - Reasons were given that accessibility wasn't needed in project requirements
-
-  - Evolutionary Development - Not prioritised, often left to the end where there would be no time to work on
+<img
+    src="/assets/images/slides/accessibility-process-2020.jpg"
+  height="570"
+  alt="Screenshot of document displaying steps to an accessibility process."
+  />
 
 {% endslide %}
 
 {% slide %}
 
-## Learnings
+## Updated approach
 
-- Non-adaptive, rigid approach
-- Lack of open dialogue and collaboration
-- Focus on compliance
-- Complex official resources
-- Insufficient internal documentation
-- Disproportionate work distribution
-- Mismatched responsibilities
-- Uneven knowledge and understanding
-- Limited support
+- 2023 early: [Strategy](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B0F136034-6480-4CEB-8328-7004E5036D8D%7D&file=2023.06.22_KDL%20Digital%20Accessibility%20Strategy%20v3.docx&action=default&mobileredirect=true) and [Process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B5BD942CD-9C12-44F7-82B7-68222CEE7A01%7D&file=2023.02.08_KDL%20Digital%20Accessibility%20Process.docx&action=default&mobileredirect=true&DefaultItemOpen=1) aligned with SDLC
+- 2023 late: New team formed [Project Review Record](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-239555)
+- 2024: trialled 3 projects -<br>
+  Living with machines, Alice Thornton, King's Past
+- 2025 mid: [Post-project review](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
+- 2025 mid: Blogpost and Slides
 
 {% endslide %}
 
 {% slide %}
 
-## Plan
+## Observations and Plan
 
-<table style="font-size:25px";>
+<table style="font-size:23px";>
 <thead>
 <tr>
-<th><strong>Past Learnings</strong></th>
-<th><strong>→ Future Aims</strong></th>
+<th><strong>PREVIOUS LEARNINGS</strong></th>
+<th><strong>→ FUTURE AIMS</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -121,25 +112,19 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 <td>Uneven knowledge and understanding</td>
 <td>→ Shared knowledge, collective understanding</td>
 </tr>
+
 <tr>
 <td>Limited support</td>
 <td>→ Ample and responsive support</td>
 </tr>
+
+<tr>
+<td>Inconsistent outputs (All or nothing approach)</td>
+<td>→ Consistent outputs (Tailored to requirements and skills)</td>
+</tr>
+
 </tbody>
 </table>
-
-{% endslide %}
-
-{% slide %}
-
-## Updated approach
-
-- 2023 early: [Strategy](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B0F136034-6480-4CEB-8328-7004E5036D8D%7D&file=2023.06.22_KDL%20Digital%20Accessibility%20Strategy%20v3.docx&action=default&mobileredirect=true) and [Process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B5BD942CD-9C12-44F7-82B7-68222CEE7A01%7D&file=2023.02.08_KDL%20Digital%20Accessibility%20Process.docx&action=default&mobileredirect=true&DefaultItemOpen=1) aligned with SDLC
-- 2023 late: New team formed [Project Review Record](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-239555)
-- 2024: trialled 3 projects -<br>
-  Living with machines, Alice Thornton, King's Past
-- 2025 mid: [Post-project review](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
-- 2025 mid: Blogpost and Slides
 
 {% endslide %}
 
@@ -155,53 +140,27 @@ Through continuous iterations, our current strategy aims to reach and benefit th
 
 {% slide %}
 
-![A diverse team of individuals collaborating on accessibility initiatives, highlighting shared responsibility in a workplace environment.](https://advancedbytez.com/wp-content/uploads/2022/07/Who-is-responsible-for-Accessibility-1.png)
+### KDL Roles and Responsibilities
 
-Reference: [https://www.ontario.ca/page/inclusive-design-toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
+- (**Analyst**): Ensure accurate level of accessibility in requirements, process and deliverables
 
-{% endslide %}
+- (**Engineer**) - Code and test with accessibility standards (WCAG)
 
-{% slide %}
-
-<img src="https://www.unimelb.edu.au/__data/assets/image/0004/2777584/res-1.png" alt="A visual representation of a web accessibility checklist, highlighting key elements for creating inclusive online experiences categorised by role" style="width:800px">
-
-Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pdf_file/0005/2777567/responsibilities-20190219.pdf)
-
-{% endslide %}
-
-{% slide %}
-
-- (**Analyst**): Ensure accurate level of accessibility in requirements, process and deliverables. Responsible for accessibility statement
-
-- (**Engineer**) - Code with accessibility standards (WCAG) and run automated accessibility tests
-
-- (**UI/UX Designer**) - Design accessible interfaces (contrast, layout, navigation).
+- (**UI/UX Designer**) - Design accessible interfaces (contrast, layout)
 
 - (**Project Manager**) - Plan accessibility in timelines, ensure accessibility is tracked and reviewed
 
-- (**Research team**) [project partners] - Identify users and requirements that need accessibility considerations. Ensure content is accessible
+- (**Research team**) [project partners] - Identify accessibility considerations for users and requirements, ensure content is accessible
 
-- (**Sysadmin**) - Support infrastructure that enables accessible content and tools.
-
-{% endslide %}
-
-{% slide %}
-
-### 4 steps to implement accessibility within Software Development Life Cycle (SDLC)
-
-1. **Requirements** \[Feasibility\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_** **_R_**
-
-2. **Scope** \[Kick off\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_R_**
-
-3. **Assess/Fix** \[Evolutionary Development\] <br>_Lead_ **_E U_**_, Collaborate_ **_A_**
-
-4. **Documentation** \[Evolutionary Development\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM_** **_R_**
-
-5. <span style="color:lightgray">**SLA** [Post-project]</span>
+- (**Sysadmin**) - Support infrastructure that enables accessible content and tools
 
 {% endslide %}
 
 {% slide %}
+
+### Process
+
+5 steps to implement accessibility within Software Development Life Cycle (SDLC)
 
 <img
     src="/assets/images/slides/accessibility-SDLC3.jpg"
@@ -213,26 +172,16 @@ alt="Flowchart depicting the steps in software development, highlighting the acc
 
 {% slide %}
 
-<img
-    src="/assets/images/slides/accessibility-process-flowchart.jpg"
-  width="800"
-  alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project"
-  />
-
-{% endslide %}
-
-{% slide %}
-
 ## 1\. **Requirements**
 
-[SDLC stage: Feasibility]
+SDLC stage: Feasibility
 
-[Roles: _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_**]
+Roles: _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_**
 
 ### Determine the MoSCoW Digital Accessibility requirement needed during Feasibility
 
-(Questionnaire could be given to partners at this stage)<br> <br>
-(Estimates need to be updated to adapt for different project budgets/timelines)
+Questionnaire could be given to partners at this stage<br> <br>
+Estimates need to be updated to adapt for different project budgets/timelines
 
 {% endslide %}
 
@@ -272,6 +221,23 @@ The Web Content Accessibility Guidelines (WCAG), developed by the World Wide Web
 - Three Levels of WCAG Conformance: A (minimum), AA (mid), and AAA (highest)
 
 Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/resource/what-is-wcag/)
+
+{% endslide %}
+
+{% slide %}
+
+<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
+
+Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
+[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
+
+{% endslide %}
+
+{% slide %}
+
+<img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
+
+Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
 
 {% endslide %}
 
@@ -497,41 +463,6 @@ Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/2
 {% endslide %}
 
 {% slide %}
-Manual colour contrast example
-<img
-    src="/assets/images/slides/accessibility-assess-AT1.jpg"
-  width="800"
-  alt="Screenshot of colour picker tool and contrast checker tool being used"
-  />
-
-Find the colours used in the code or take a screenshot and colour pick it in a tool like Photoshop or similar alternatives like [pixlr](https://pixlr.com/e/#editor).
-Then put the hex colours in a tool like [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
-
-{% endslide %}
-
-{% slide %}
-<img
-    src="/assets/images/slides/accessibility-assess-RT.jpg"
-  width="800"
-  alt="Screenshot of task with accessibility issues with screenshots and details"
-  />
-
-Example Colour Contrast Findings from [Radical Translations](https://app.clickup.com/t/86c0jx4ph)
-
-{% endslide %}
-
-{% slide %}
-<img
-    src="/assets/images/slides/accessibility-cc-figma.jpg"
-  width="800"
-  alt="Screenshot of color contrast tool being used"
-  />
-
-Example tool: [Figma Color Contrast Checker](https://www.figma.com/color-contrast-checker/)
-
-{% endslide %}
-
-{% slide %}
 Other tools:
 
 {% endslide %}
@@ -548,11 +479,11 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 
 {% slide %}
 
-Github
+- Github
 
-{% endslide %}
+  - GN (to add)
 
-{% slide %}
+  - (to add)
 
 - Statement
 
@@ -574,11 +505,9 @@ Github
 
   - using [generator tool](https://www.w3.org/WAI/planning/statements/generator/#create) took shorter time but lots of repetition. [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement), [Radical Translation](https://radicaltranslations.org/accessibility-statement/), [King's Digital Lab](https://kdl.kcl.ac.uk/accessibility-statement/)
 
-  - Example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation) (Very minimal)
+  - Very minimal example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation)
 
-- External examples:
-
-  - [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement)
+- External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement)
 
 {% endslide %}
 
@@ -614,11 +543,17 @@ Adapted minimal statement from [King's Digital Lab](https://kingsdigitallab.gith
 - SLA process not yet looked at
 - Decision to carry on or change strategy
 
+<hr>
+
+## ? Questions ?
+
 {% endslide %}
 
 {% slide %}
 
-Internal References:
+### References:
+
+- [Digital Accessibility Strategy and Process](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815) documentation in Clickup
 
 - [Process Document draft versions and references in Sharepoint](https://emckclac.sharepoint.com/:w:/r/sites/ahkdlfa/_layouts/15/doc.aspx?sourcedoc=%7B5bd942cd-9c12-44f7-82b7-68222cee7a01%7D&file=document2.docx&action=default&mobileredirect=true&cid=d66236a2-0127-4d51-8ad8-9d15432838cc)
 
@@ -630,17 +565,9 @@ Internal References:
 
 - [SharePoint Accessibility reference index](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
 
-- Previous KDL approach [The road to a more inclusive web: The state of digital accessibility at KDL](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
+- Previous KDL approach [Blog](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
 
 - [Digital Accessibility Post-Project Review Report](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815)
-
-{% endslide %}
-
-{% slide %}
-
-# End
-
-[Digital Accessibility Strategy and Process](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-299815) documentation in Clickup
 
 {% endslide %}
 
@@ -702,28 +629,6 @@ Example of a [spreadsheet to record all issues and fixes ](https://docs.google.c
 
 {% slide %}
 
-### 2020 late:
-
-An attempt to list down [process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but was not taken forward
-
-<img
-    src="/assets/images/slides/accessibility-process-2020.jpg"
-  height="570"
-  alt="Screenshot of document displaying steps to an accessibility process."
-  />
-
-{% endslide %}
-
-{% slide %}
-
-## Accessibility
-
-A very quick introduction
-
-{% endslide %}
-
-{% slide %}
-
 <img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
 
 Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
@@ -736,5 +641,100 @@ Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://incl
 <img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
 
 Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
+
+{% endslide %}
+
+{% slide %}
+
+## Observations
+
+- Inconsistent outputs (All or nothing approach)
+
+  - very different processes
+
+  - dependant of who was on the project
+
+- Deprioritisation/Avoidance
+
+  - Feasibility - Reasons were given that accessibility wasn't needed in project requirements
+
+  - Evolutionary Development - Not prioritised, often left to the end where there would be no time to work on
+
+{% endslide %}
+
+{% slide %}
+
+![A diverse team of individuals collaborating on accessibility initiatives, highlighting shared responsibility in a workplace environment.](https://advancedbytez.com/wp-content/uploads/2022/07/Who-is-responsible-for-Accessibility-1.png)
+
+Reference: [https://www.ontario.ca/page/inclusive-design-toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
+
+{% endslide %}
+
+{% slide %}
+
+<img src="https://www.unimelb.edu.au/__data/assets/image/0004/2777584/res-1.png" alt="A visual representation of a web accessibility checklist, highlighting key elements for creating inclusive online experiences categorised by role" style="width:800px">
+
+Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pdf_file/0005/2777567/responsibilities-20190219.pdf)
+
+{% endslide %}
+
+{% slide %}
+
+### 4 steps to implement accessibility within Software Development Life Cycle (SDLC)
+
+1. **Requirements** \[Feasibility\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_S_** **_R_**
+
+2. **Scope** \[Kick off\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_R_**
+
+3. **Assess/Fix** \[Evolutionary Development\] <br>_Lead_ **_E U_**_, Collaborate_ **_A_**
+
+4. **Documentation** \[Evolutionary Development\] <br>_Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM_** **_R_**
+
+5. <span style="color:lightgray">**SLA** [Post-project]</span>
+
+{% endslide %}
+
+{% slide %}
+
+<img
+    src="/assets/images/slides/accessibility-process-flowchart.jpg"
+  width="800"
+  alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project"
+  />
+
+{% endslide %}
+
+{% slide %}
+Manual colour contrast example
+<img
+    src="/assets/images/slides/accessibility-assess-AT1.jpg"
+  width="800"
+  alt="Screenshot of colour picker tool and contrast checker tool being used"
+  />
+
+Find the colours used in the code or take a screenshot and colour pick it in a tool like Photoshop or similar alternatives like [pixlr](https://pixlr.com/e/#editor).
+Then put the hex colours in a tool like [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
+
+{% endslide %}
+
+{% slide %}
+<img
+    src="/assets/images/slides/accessibility-assess-RT.jpg"
+  width="800"
+  alt="Screenshot of task with accessibility issues with screenshots and details"
+  />
+
+Example Colour Contrast Findings from [Radical Translations](https://app.clickup.com/t/86c0jx4ph)
+
+{% endslide %}
+
+{% slide %}
+<img
+    src="/assets/images/slides/accessibility-cc-figma.jpg"
+  width="800"
+  alt="Screenshot of color contrast tool being used"
+  />
+
+Example tool: [Figma Color Contrast Checker](https://www.figma.com/color-contrast-checker/)
 
 {% endslide %}
