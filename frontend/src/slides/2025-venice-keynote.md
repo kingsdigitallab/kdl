@@ -188,8 +188,10 @@ Lkshay Jain on @pexels
 
 ### Collaboration process
 
+[Ciula, Mellen and Vieira (2024)](https://kdl.kcl.ac.uk/slides/2024-lisbon-dariah/)
+
 - Incremental building and reviews
-- SDLC [(Ciula, Mellen and Vieira, 2024)](https://kdl.kcl.ac.uk/slides/2024-lisbon-dariah/)
+- SDLC
 
 ![SDLC increments](/assets/images/slides/sdlc-increments.jpg)
 
@@ -205,15 +207,51 @@ Lkshay Jain on @pexels
 
 ## Project example
 
-- [_Crossreads: Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean_](https://kdl.kcl.ac.uk/projects/crossreads/)
-  - Requirements
-  - Project Review Record
-  - [Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
-  - Petrography notebooks (in next slide?)
+[_Crossreads: Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean_](https://kdl.kcl.ac.uk/projects/crossreads/)
+
+- [Project Review Record](https://doc.clickup.com/26475560/p/h/t7z18-257995/70db5f4ce53cff9)
+
+<div class="r-stack">
+  <img
+    class="fragment fade-out"
+    data-fragment-index="0"
+    src="/assets/images/slides/crossreads-requirements.png"
+    width="500"
+    alt="CROSSREADS requirements"
+/>
+
+<img
+  class="fragment"
+  data-fragment-index="0"
+  src="/assets/images/slides/crossreads-requirements1.jpg"
+  width="700"
+  alt="CROSSREADS requirements table view"
+/>
+
+</div>
 
 <aside class="notes">
 
-- TO CONTINUE, save images and add in flow - maybe take out text and add in notes etc.
+- Requirements
+- PROBLEM with image display
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Project example
+
+- [_Crossreads_](https://kdl.kcl.ac.uk/projects/crossreads/)
+  - [Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
+  - RSE contribution via petrography notebooks
+
+<aside class="notes">
+
+- ca. 6,000 ancient inscriptions of which ca. 600 subjected to petrographic non-destructive analysis resulting in at least 2,500 pXRF spectra and ca. 200 to micro-destructive analysis (XRD - each with 1-10 mineral phases)
+- Solution architecture of Python Colab and Jupiter notebooks to provide some degree of automation and verification of a multi-analytical approach
+- ADD miro board
 
 </aside>
 
