@@ -241,7 +241,7 @@ Lkshay Jain on @pexels
 <aside class="notes">
 
 - Requirements
-- PROBLEM with image size
+- CHECK PROBLEM with first image size and display of second image
 
 </aside>
 
@@ -249,14 +249,17 @@ Lkshay Jain on @pexels
 
 {% slide %}
 
-## Project example
+[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
 
-- [_Crossreads_](https://kdl.kcl.ac.uk/projects/crossreads/)
-  - [Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
-  - RSE contribution via petrography notebooks
+<img class="fragment"
+    src="/assets/images/slides/crossreads-petrography.png"
+    alt="Petrography analysis workflow"
+  style="width:700px"
+/>
 
 <aside class="notes">
 
+- RSE contribution via petrography notebooks
 - ca. 6,000 ancient inscriptions of which ca. 600 subjected to petrographic non-destructive analysis resulting in at least 2,500 pXRF spectra and ca. 200 to micro-destructive analysis (XRD - each with 1-10 mineral phases)
 - Solution architecture of Python Colab and Jupiter notebooks to provide some degree of automation and verification of a multi-analytical approach
 - ADD miro board
