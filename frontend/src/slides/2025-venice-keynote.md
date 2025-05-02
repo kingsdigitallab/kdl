@@ -30,15 +30,25 @@ _contributions from past and present KDL team_
 
 ## Outline
 
-- Status or _Starting from the End_
-  - King's Digital Lab mission, history & set up
-  - Archining & Sustanability programme
-- What is a Digital Research Infrastructure in our context?
-  - Collaboration & Processes or _Going in Circles_
-  - Assessment of Digital Outputs
-  - Research Themes
-- Conference highlights
-- Conclusions & questions
+<ul>
+  <li class="fragment">Status <span class="fragment highlight-red">or <em>Starting from the End</em></span></li>
+  <ul>
+    <li class="fragment">King's Digital Lab mission, history & set up</li>
+    <li class="fragment">Archining & Sustanability programme</li>
+  </ul>
+  <li class="fragment">What is a Digital Research Infrastructure in our context?</li>
+  <ul>
+    <li class="fragment">Collaboration & Processes <span class="fragment highlight-red">or <em>Going in Circles</em></span></li>
+    <li class="fragment">Assessment of Digital Outputs</li>
+    <li class="fragment">Research Themes</li>
+  </ul>
+    <li class="fragment">Conference highlights</li>
+    <li class="fragment">Conclusions & questions</li>
+</ul>
+
+<aside class="notes">
+
+</aside>
 
 {% endslide %}
 
@@ -209,22 +219,20 @@ Lkshay Jain on @pexels
 
 [_Crossreads: Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean_](https://kdl.kcl.ac.uk/projects/crossreads/)
 
-- [Project Review Record](https://doc.clickup.com/26475560/p/h/t7z18-257995/70db5f4ce53cff9)
+[Project Review Record](https://doc.clickup.com/26475560/p/h/t7z18-257995/70db5f4ce53cff9)
 
 <div class="r-stack">
   <img
-    class="fragment fade-out"
-    data-fragment-index="0"
+    class="fragment"
     src="/assets/images/slides/crossreads-requirements.png"
-    width="500"
+    width="600"
     alt="CROSSREADS requirements"
 />
 
 <img
   class="fragment"
-  data-fragment-index="0"
   src="/assets/images/slides/crossreads-requirements1.jpg"
-  width="700"
+  width="600"
   alt="CROSSREADS requirements table view"
 />
 
@@ -233,7 +241,7 @@ Lkshay Jain on @pexels
 <aside class="notes">
 
 - Requirements
-- PROBLEM with image display
+- PROBLEM with image size
 
 </aside>
 
