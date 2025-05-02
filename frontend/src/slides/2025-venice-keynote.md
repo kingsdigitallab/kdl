@@ -262,7 +262,6 @@ Lkshay Jain on @pexels
 - RSE contribution via petrography notebooks
 - ca. 6,000 ancient inscriptions of which ca. 600 subjected to petrographic non-destructive analysis resulting in at least 2,500 pXRF spectra and ca. 200 to micro-destructive analysis (XRD - each with 1-10 mineral phases)
 - Solution architecture of Python Colab and Jupiter notebooks to provide some degree of automation and verification of a multi-analytical approach
-- ADD miro board
 
 </aside>
 
@@ -298,6 +297,43 @@ Lkshay Jain on @pexels
 <aside class="notes">
 
 - ADD image/s from research themes on the website?
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Conference highlights?
+
+<aside class="notes">
+
+- might take out if not needed
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Reflections
+
+  <ul>
+    <li class="fragment">Carreeer pipelines</li>
+    <li class="fragment">Labour conditions</li>
+    <li class="fragment">Research cultures</li>
+    <li class="fragment">Communities</li>
+  </ul>
+
+<aside class="notes">
+
+- it takes people and processes to sustain a research infrastructure
+- but also an adequate research culture
+- mention recent paper about reframing failure
+- re points 1 above: data, systems AND processes; design and analysis
+- re point 2: mention carreer pathways
+- re point 3: mention conservative / discriminatory academic cultures, promotion systems, evaluation frameworks, funding streams, attitues, behaviours
+- ADD image?
 
 </aside>
 
