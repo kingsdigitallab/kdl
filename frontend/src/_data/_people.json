@@ -6482,7 +6482,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Co-investigator"
           }
         },
         {
@@ -6736,7 +6736,7 @@
           },
           "inOrganisation": null,
           "roleName": {
-            "name": "RSE team member"
+            "name": "Co-investigator"
           }
         },
         {
@@ -8399,6 +8399,30 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Faculty of Natural, Mathematical & Engineering Sciences"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
                   }
                 }
               }
@@ -11767,50 +11791,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Mao Era in Objects",
-            "alternateName": "MAO",
-            "slug": "mao-era-in-objects",
-            "foundingDate": "2018-04-01",
-            "dissolutionDate": "2020-03-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "University of Oxford"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Highlands School Enfield"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Yale University"
-                  }
-                }
-              },
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Faculty of Social Science & Public Policy"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "King's Digital Lab",
@@ -12887,22 +12868,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Inscriptions of Roman Tripolitania",
-            "alternateName": "IRT",
-            "slug": "inscriptions-of-roman-tripolitania",
-            "foundingDate": "2009-01-01",
-            "dissolutionDate": "2021-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Researcher"
@@ -12911,22 +12877,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Inscriptions of Roman Tripolitania",
-            "alternateName": "IRT",
-            "slug": "inscriptions-of-roman-tripolitania",
-            "foundingDate": "2009-01-01",
-            "dissolutionDate": "2021-12-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of Classics"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "University of Cambridge",
@@ -15512,6 +15463,30 @@
       "slug": "mary-chester-kadwell",
       "description": "Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods. \n\nShe has worked on software projects for over ten years, including at the British Museum and University of Cambridge. Mary has wide-ranging experience in working on large and small projects around library special collections, archival material, museum objects and digital humanities of many forms. \n\nMary is interested in teaching coding, software engineering practices and design thinking, and is a Trustee of the Society of Research Software Engineering.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Alice Thornton's Books",
+            "alternateName": "AT",
+            "slug": "at",
+            "foundingDate": "2021-09-01",
+            "dissolutionDate": "2024-08-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -19395,22 +19370,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "British Printed Images to 1700: Integrating Visual Sources into Historical Practice",
-            "alternateName": "BPI 1700",
-            "slug": "british-printed-images-to-1700-integrating-visual-sources-into-historical-practice",
-            "foundingDate": "2023-08-01",
-            "dissolutionDate": "2025-07-31",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "Newcastle University"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": {
             "agent": {
               "name": "King's Digital Lab",

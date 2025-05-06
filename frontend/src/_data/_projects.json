@@ -279,7 +279,7 @@
         },
         "inOrganisation": null,
         "roleName": {
-          "name": "RSE team member",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -536,6 +536,19 @@
       },
       {
         "agent": {
+          "id": "914deffa-5e29-4922-b28f-9dfb9d49d59d",
+          "name": "Mary Chester-Kadwell",
+          "slug": "mary-chester-kadwell"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "01b37659-ba2b-484c-89c4-8f96846b20d2",
           "name": "Suzanne Trill",
           "slug": "suzanne-trill"
@@ -625,6 +638,19 @@
           "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "1b92520f-c3b8-42ac-9f8c-5e6323c56128",
+          "name": "Geoffroy Noël",
+          "slug": "geoffroy-noel"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -2395,112 +2421,6 @@
         "inOrganisation": null,
         "roleName": {
           "name": "RSE team member",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "alternateName": "BPI 1700",
-    "cmsStatus": "draft",
-    "description": null,
-    "dissolutionDate": "2025-07-31",
-    "foundingDate": "2023-08-01",
-    "id": "c66c20f0-9fb6-4f40-b2d7-6a98413438c0",
-    "name": "British Printed Images to 1700: Integrating Visual Sources into Historical Practice",
-    "slug": "british-printed-images-to-1700-integrating-visual-sources-into-historical-practice",
-    "creativeWorkStatus": {
-      "name": "Post-project",
-      "inDefinedTermSet": {
-        "name": "SDLC"
-      }
-    },
-    "image": {
-      "id": "36f851f6-0708-4335-b1e3-1220d06ed969",
-      "storage": "local",
-      "filename_disk": "36f851f6-0708-4335-b1e3-1220d06ed969.jpg",
-      "filename_download": "BPI_1700--King Charles II takes the throne in 1660, painting by John Michael Wright (1617-94).jpg",
-      "title": "King Charles II Takes the Throne in 1660, painted by John Michael Wright (1617-94)",
-      "type": "image/jpeg",
-      "folder": null,
-      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
-      "uploaded_on": "2025-02-17T16:32:29.882Z",
-      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
-      "modified_on": "2025-02-17T16:34:11.845Z",
-      "charset": null,
-      "filesize": "189689",
-      "width": 1200,
-      "height": 800,
-      "duration": null,
-      "embed": null,
-      "description": "A regal portrait of King Charles II seated on an ornate throne, wearing royal robes, holding a scepter and an orb, with rich tapestry decor.",
-      "location": null,
-      "tags": null,
-      "metadata": {}
-    },
-    "funder": [
-      {
-        "agent_id": {
-          "alternateName": "AHRC",
-          "id": "6f51b75e-4d42-41f1-9231-639f922ecd39",
-          "name": "Arts and Humanities Research Council",
-          "slug": "ahrc"
-        }
-      }
-    ],
-    "keywords": [],
-    "url": [],
-    "department": [
-      {
-        "organisation_id": {
-          "agent": {
-            "alternateName": null,
-            "id": "7d480579-3c32-497d-8d74-800f64eea039",
-            "name": "Newcastle University",
-            "slug": "newcastle-university"
-          },
-          "parentOrganisation": null
-        }
-      }
-    ],
-    "member": [
-      {
-        "agent": {
-          "id": "8a20aff9-457e-43fc-918c-ebc6b939acc4",
-          "name": "Paul Caton",
-          "slug": "paul-caton"
-        },
-        "inOrganisation": {
-          "agent": {
-            "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
-            "name": "King's Digital Lab",
-            "slug": "kdl"
-          }
-        },
-        "roleName": {
-          "name": "Research Software Analyst",
-          "inDefinedTermSet": {
-            "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "e17e97b8-ef5b-4276-a26d-cd3177018335",
-          "name": "Adam Morton",
-          "slug": "adam-morton"
-        },
-        "inOrganisation": {
-          "agent": {
-            "id": "7d480579-3c32-497d-8d74-800f64eea039",
-            "name": "Newcastle University",
-            "slug": "newcastle-university"
-          }
-        },
-        "roleName": {
-          "name": "Principal investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
@@ -9643,19 +9563,6 @@
       },
       {
         "agent": {
-          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
-          "name": "Joyce Reynolds",
-          "slug": "joyce-reynolds"
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
           "id": "0a9cfdea-b9e4-466c-9239-6b70c55dc1d8",
           "name": "Charlotte Roueché",
           "slug": "charlotte-roueche"
@@ -9719,26 +9626,6 @@
           "name": "Research Software Analyst",
           "inDefinedTermSet": {
             "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "8addf132-a5ff-422d-8b83-e37bac0625b0",
-          "name": "Joyce Reynolds",
-          "slug": "joyce-reynolds"
-        },
-        "inOrganisation": {
-          "agent": {
-            "id": "2f8b41b0-178a-4ce5-90fd-ebd5ab739b22",
-            "name": "University of Cambridge",
-            "slug": "cambridge"
-          }
-        },
-        "roleName": {
-          "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
           }
         }
       },
@@ -11377,7 +11264,7 @@
   {
     "alternateName": "Langscape",
     "cmsStatus": "published",
-    "description": "",
+    "description": "The Language of Landscape (LangScape) is a database of Anglo-Saxon estate boundaries which were recorded in Old English (and sometimes Latin) in charters dating from the seventh to the eleventh centuries. Users can look up boundary entries based on metadata which allows filtering by aspects including county, date of charter, and manuscript instance.  Additionally, the words in the texts of the boundary descriptions have been manually identified and glossed. Browsing a headword list allows users to see, for example, what boundaries contain some form of the word 'feax' (coarse grass). Many of the boundary texts are available in the original language with various display options, and LangScape database entries are linked to associated items in the '[Electronic Sawyer](https://esawyer.lib.cam.ac.uk/about/index.html)' online catalogue of Anglo-Saxon charters",
     "dissolutionDate": null,
     "foundingDate": null,
     "id": "aedd53a8-e8d3-4468-b7a1-c44ca20e1123",
@@ -12645,26 +12532,6 @@
           "name": "Partner",
           "inDefinedTermSet": {
             "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "918fc2f6-2313-4838-93c5-64ce3ba4f7b5",
-          "name": "Jamie Norrish",
-          "slug": "jamie-norrish"
-        },
-        "inOrganisation": {
-          "agent": {
-            "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
-            "name": "King's Digital Lab",
-            "slug": "kdl"
-          }
-        },
-        "roleName": {
-          "name": "Research Software Engineer",
-          "inDefinedTermSet": {
-            "name": "Team roles"
           }
         }
       },
@@ -20700,7 +20567,7 @@
         },
         "inOrganisation": null,
         "roleName": {
-          "name": "RSE team member",
+          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }
