@@ -272,12 +272,21 @@ class ClickUpToMarkdown {
 			plField.value.split(",").forEach((pl) => {
 				const [name, inOrganisation] = pl.split("[");
 
-				members.push({
+				const member = {
 					name: name.trim(),
 					slug: this.slugify(name.trim()),
 					roleName: "Principal investigator",
-					inOrganisation: inOrganisation?.trim().replace("]", ""),
-				});
+				};
+
+				const organisationName = inOrganisation?.trim().replace("]", "");
+				if (organisationName) {
+					member.inOrganisation = {
+						name: organisationName,
+						slug: this.slugify(organisationName),
+					};
+				}
+
+				members.push(member);
 			});
 		}
 
@@ -292,12 +301,21 @@ class ClickUpToMarkdown {
 				.forEach((researcher) => {
 					const [name, inOrganisation] = researcher.split("[");
 
-					members.push({
+					const member = {
 						name: name.trim(),
 						slug: this.slugify(name.trim()),
 						roleName: "Researcher",
-						inOrganisation: inOrganisation?.trim().replace("]", ""),
-					});
+					};
+
+					const organisationName = inOrganisation?.trim().replace("]", "");
+					if (organisationName) {
+						member.inOrganisation = {
+							name: organisationName,
+							slug: this.slugify(organisationName),
+						};
+					}
+
+					members.push(member);
 				});
 		}
 
@@ -370,7 +388,7 @@ class ClickUpToMarkdown {
 		if (!urlFields) return [];
 
 		return urlFields.map((field) => ({
-			type: field.name,
+			name: field.name,
 			url: field.value,
 		}));
 	}
