@@ -187,7 +187,7 @@ Estimates need to be updated to adapt for different project budgets/timelines
 
 {% slide %}
 
-<img src="https://t26475560.p.clickup-attachments.com/t26475560/299bd07f-8878-402f-976b-cda1057cb30e/image.png" alt="Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects" style="width:800px">
+<img src="/assets/images/slides/accessibility-reqflowchart.jpg" alt="Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects" style="width:800px">
 
 {% endslide %}
 
