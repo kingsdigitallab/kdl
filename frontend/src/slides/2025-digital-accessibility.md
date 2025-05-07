@@ -1,5 +1,5 @@
 ---
-title: Digital Accessiblity Strategy and Process
+title: Digital Accessibility Strategy and Process
 event:
   title: KDL's updated approach
   url:
@@ -39,6 +39,21 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 <span style="font-size:1.5em; font-weight:bold; color:#0a2d50;">Questions</span> (30min)
 
+{% endslide %}
+
+{% slide %}
+
+## Structure
+
+- Introduction/Agenda (AE 2min) 
+- Historical context (GN 3min)
+- Updated approach (GN 4min)
+- Strategy (GN 3min)
+- Process
+  - Overview (4 mins)
+  - Steps 1-4 (TO 12mins)
+- Questions
+  
 {% endslide %}
 
 {% slide %}
@@ -405,6 +420,26 @@ alt="Flowchart depicting the steps in software development,  from initial requir
     src="/assets/images/slides/accessibility-SDLC3.jpg"
   height="570"
 alt="Flowchart depicting the steps in software development, highlighting the accessibility steps"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+<img
+    src="/assets/images/slides/accessibility_dashboard.jpeg"
+  height="570"
+alt="Screenshot of the accessibility tasks dashboard"
+  />
+
+{% endslide %}
+
+{% slide %}
+
+<img
+    src="/assets/images/slides/accessibility_task_template.jpeg"
+  height="570"
+alt="Screenshot of the accessibility tasks templates"
   />
 
 {% endslide %}
