@@ -193,20 +193,20 @@ Estimates need to be updated to adapt for different project budgets/timelines
 
 {% slide %}
 
-## MUST (**M**)
+## SHOULD (**S**)
 
-- meet WCAG **A/AA** criteria for the **majority** of components (few/none will not meet)
+- meet WCAG **A/AA** criteria for **some** components (some might not meet)
 - perform specific accessibility assessments during evolutionary development
 - produce a public accessibility **statement** and update it at each deployment
-- Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
+- Estimate **3 days** = A 0.6 | E 1.2 | U 1.2<hr>
 
         ✔ Has more than 5 users
 
         ✔ Has 1st party apps/platforms
 
-        ✔ Has only non-complex components
+        ✘ Not only non-complex components
 
-        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
+        e.g.  [Radical Translation](http://radicaltranslations.org/) (Data visualisation) 18-20h (incl fixes), [Alice Thornton](https://thornton.kdl.kcl.ac.uk) (Digital Edition), [Field](https://field-wt.co.uk) (Game)
 
 {% endslide %}
 
@@ -238,57 +238,6 @@ Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://incl
 <img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
 
 Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
-
-{% endslide %}
-
-{% slide %}
-
-## SHOULD (**S**)
-
-- meet WCAG **A/AA** criteria for **some** components (some might not meet)
-- perform specific accessibility assessments during evolutionary development
-- produce a public accessibility **statement** and update it at each deployment
-- Estimate **3 days** = A 0.6 | E 1.2 | U 1.2<hr>
-
-        ✔ Has more than 5 users
-
-        ✔ Has 1st party apps/platforms
-
-        ✘ Not only non-complex components
-
-        e.g.  [Radical Translation](http://radicaltranslations.org/) (Data visualisation) 18-20h (incl fixes), [Alice Thornton](https://thornton.kdl.kcl.ac.uk) (Digital Edition), [Field](https://field-wt.co.uk) (Game)
-
-{% endslide %}
-
-{% slide %}
-
-## COULD (**C**)
-
-- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
-- **not** perform specific accessibility assessments
-- produce a public accessibility **statement** and update it at each deployment
-- Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
-
-        ✔ Has more than 5 users
-
-        ✘ Not using only 1st party apps/platforms
-
-        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
-
-{% endslide %}
-
-{% slide %}
-
-## WON'T (**W**)
-
-- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
-- **not** perform specific accessibility assessments but scope still needed
-- **not** produce a public accessibility **statement**
-- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
-
-  ✘ No more than 5 users
-
-        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
 
 {% endslide %}
 
@@ -441,16 +390,6 @@ All assessment and fixes should be integrated seamlessly, continuously when desi
 
 {% slide %}
 
-- **Fix** when issue is found.
-
-  - Any issues that cannot be fixed should be recorded directly to the statement.
-
-  - Tools and methods should also be recorded in the statement.
-
-{% endslide %}
-
-{% slide %}
-
 ### Visual
 
 <img
@@ -463,7 +402,35 @@ Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/2
 {% endslide %}
 
 {% slide %}
-Other tools:
+
+### Code
+
+[axe](https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/) on KDL website
+
+![Accessibility tool highlighting issues on a website](/assets/images/slides/accessibility-assess-axe.png){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Content
+
+<img
+    src="https://cdn.prod.website-files.com/6115e9a52c1947532801e49d/611964f15f69af9cddaff979_Write%20descriptive%20link%20text.jpg"
+  width="800"
+  alt="buttons with examples of inaccessible and accessible content"
+  />
+
+[Reference](https://www.accessguide.io/guide/descriptive-link-text)
+{% endslide %}
+
+{% slide %}
+
+- **Fix** when issue is found.
+
+  - Any issues that cannot be fixed should be recorded directly to the statement.
+
+  - Tools and methods should also be recorded in the statement.
 
 {% endslide %}
 
@@ -482,8 +449,6 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 - Github
 
   - GN (to add)
-
-  - (to add)
 
 - Statement
 
@@ -629,23 +594,6 @@ Example of a [spreadsheet to record all issues and fixes ](https://docs.google.c
 
 {% slide %}
 
-<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
-[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
-
-{% endslide %}
-
-{% slide %}
-
-<img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
-
-{% endslide %}
-
-{% slide %}
-
 ## Observations
 
 - Inconsistent outputs (All or nothing approach)
@@ -701,6 +649,57 @@ Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pd
   width="800"
   alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project"
   />
+
+{% endslide %}
+
+{% slide %}
+
+## MUST (**M**)
+
+- meet WCAG **A/AA** criteria for the **majority** of components (few/none will not meet)
+- perform specific accessibility assessments during evolutionary development
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
+
+        ✔ Has more than 5 users
+
+        ✔ Has 1st party apps/platforms
+
+        ✔ Has only non-complex components
+
+        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
+
+{% endslide %}
+
+{% slide %}
+
+## COULD (**C**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
+
+        ✔ Has more than 5 users
+
+        ✘ Not using only 1st party apps/platforms
+
+        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
+
+{% endslide %}
+
+{% slide %}
+
+## WON'T (**W**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments but scope still needed
+- **not** produce a public accessibility **statement**
+- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
+
+  ✘ No more than 5 users
+
+        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
 
 {% endslide %}
 
