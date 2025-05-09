@@ -47,11 +47,7 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 [Previous "Process"](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but not taken forward for team review
 
-<img
-    src="/assets/images/slides/accessibility-process-2020.jpg"
-  height="570"
-  alt="Screenshot of document displaying steps to an accessibility process."
-  />
+![Screenshot of document displaying steps to an accessibility process](/assets/images/slides/accessibility-process-2020.jpg){width=600}
 
 {% endslide %}
 
@@ -162,11 +158,23 @@ Through continuous iterations, our current strategy aims to reach and benefit th
 
 5 steps to implement accessibility within Software Development Life Cycle (SDLC)
 
-<img
-    src="/assets/images/slides/accessibility-SDLC3.jpg"
-  height="570"
-alt="Flowchart depicting the steps in software development, highlighting the accessibility steps"
-  />
+![Flowchart depicting the steps in software development, highlighting the accessibility steps](/assets/images/slides/accessibility-SDLC3.jpg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Dashboard
+
+![Screenshot of task management dashboard](/assets/images/slides/accessibility_dashboard.jpeg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Task template
+
+![Screenshot of task template](/assets/images/slides/accessibility_task_template.jpeg){width=600}
 
 {% endslide %}
 
@@ -187,7 +195,7 @@ Estimates need to be updated to adapt for different project budgets/timelines
 
 {% slide %}
 
-<img src="/assets/images/slides/accessibility-reqflowchart.jpg" alt="Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects" style="width:800px">
+![Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects](/assets/images/slides/accessibility-reqflowchart.jpg){width=800}
 
 {% endslide %}
 
