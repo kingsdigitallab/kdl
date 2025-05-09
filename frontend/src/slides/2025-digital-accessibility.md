@@ -472,7 +472,7 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 
   - Very minimal example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation)
 
-- External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement)
+- External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement), [Santander](https://www.santander.co.uk/personal/support/accessibility/accessibility-statement)
 
 {% endslide %}
 
@@ -502,12 +502,10 @@ Adapted minimal statement from [King's Digital Lab](https://kingsdigitallab.gith
 
 ## Conclusion and Actions
 
-- Blogpost to publish
-- KDL Team to feedback on process
-- DA team to review in 6 months?
-- SLA process not yet looked at
-- Decision to carry on or change strategy
-
+- Blogpost to publish (ready to review)
+- KDL Team to feedback on process on [miro board](https://miro.com/app/board/uXjVI5fmopw=/)
+- DA team to review in 6 months based on feedback and adoption to adapt strategy and process
+- Step 5: SLA process not yet looked at
 <hr>
 
 ## ? Questions ?
