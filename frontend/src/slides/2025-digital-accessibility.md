@@ -195,7 +195,7 @@ Estimates need to be updated to adapt for different project budgets/timelines
 
 {% slide %}
 
-![Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects](/assets/images/slides/accessibility-reqflowchart.jpg){width=800}
+![Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects](/assets/images/slides/accessibility-reqflowchart.jpg){width=600}
 
 {% endslide %}
 
@@ -234,7 +234,7 @@ Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/re
 
 {% slide %}
 
-<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
+![An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities](/assets/images/slides/accessibility-inclusive.jpg)
 
 Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
 [Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
@@ -243,7 +243,7 @@ Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://incl
 
 {% slide %}
 
-<img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
+![An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities](/assets/images/slides/accessibility-poster.jpg)
 
 Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
 
