@@ -422,10 +422,10 @@ Example from <a href="https://emckclac.sharepoint.com/:x:/r/sites/AHkdl/_layouts
 <p><strong>Assess</strong></p>
 <ul>
 <li>
-<p><strong>Automated Testing</strong>: Use automated <a href="https://www.w3.org/WAI/test-evaluate/tools/list/">accessibility tools</a> (like WAVE, Axe, WebVal or Lighthouse) to identify common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but typically don't capture all accessibility barriers.</p>
+<p><strong>Automated Testing</strong>: Use automated <a href="https://www.w3.org/WAI/test-evaluate/tools/list/">accessibility tools</a> (like WAVE, Axe, WebVal or Lighthouse) to identify some common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but capture only a minority of the accessibility issues.</p>
 </li>
 <li>
-<p><strong>Manual Testing</strong>: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.</p>
+<p><strong>Manual Testing</strong>: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, zoom factors, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.</p>
 </li>
 <li>
 <p>Stand alone assessments (fixes done separately) should be documented in CU.</p>
@@ -452,7 +452,7 @@ Example from <a href="https://emckclac.sharepoint.com/:x:/r/sites/AHkdl/_layouts
 <section class="slide" data-auto-animate="">
 <ul>
 <li>
-<p><strong>Fix</strong> when issue is found.</p>
+<p><strong>Fix</strong> when issue is found, <strong>if possible</strong> (depending on budget, time, skills, ...), is usually best.</p>
 <ul>
 <li>
 <p>Any issues that cannot be fixed should be recorded directly to the statement.</p>
@@ -474,7 +474,7 @@ Example from <a href="https://emckclac.sharepoint.com/:x:/r/sites/AHkdl/_layouts
 <li>
 <p>Github</p>
 <ul>
-<li>GN (to add)</li>
+<li><code>fix(a11y): Added missing alt attribute to first image on About page</code></li>
 </ul>
 </li>
 <li>
