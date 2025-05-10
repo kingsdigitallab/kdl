@@ -388,9 +388,9 @@ All assessment and fixes should be integrated seamlessly, continuously when desi
 
 - **Assess**
 
-  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but typically don't capture all accessibility barriers.
+  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify some common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but capture only a minority of the accessibility issues.
 
-  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
+  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, zoom factors, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
 
   - Stand alone assessments (fixes done separately) should be documented in CU.
 
@@ -434,7 +434,7 @@ Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/2
 
 {% slide %}
 
-- **Fix** when issue is found.
+- **Fix** when issue is found, **if possible** (depending on budget, time, skills, ...), is usually best.
 
   - Any issues that cannot be fixed should be recorded directly to the statement.
 
@@ -456,7 +456,7 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 
 - Github
 
-  - GN (to add)
+  - `fix(a11y): Added missing alt attribute to first image on About page`
 
 - Statement
 
