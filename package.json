@@ -27,6 +27,7 @@
     "format": "npm run prettier:fix && npm run lint:fix",
     "test": "npm run test --workspaces --if-present",
     "release": "release-it",
+    "etl:clickup": "npm run -w etl clickup-to-md -- 1004",
     "frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
     "frontend:dev": "npm run -w frontend dev",
     "cy": "cypress open",
