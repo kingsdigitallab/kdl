@@ -1,5 +1,5 @@
 ---
-title: Digital Accessiblity Strategy and Process
+title: Digital Accessibility Strategy and Process
 event:
   title: KDL's updated approach
   url:
@@ -22,6 +22,23 @@ draft: true
 ### KDL's updated approach
 
 Alessandra Esposito, Geoffroy Noël, Tiffany Ong
+
+{% endslide %}
+
+{% slide %}
+
+## Structure
+
+- Introduction/Agenda (AE 2min)
+- Historical context (GN 3min)
+- Updated approach (GN 4min)
+- Strategy (GN 3min)
+- Process
+  - Overview (AE 4 mins)
+  - Steps 1-2 (TO 6mins)
+  - Steps 3 (GN 3mins)
+  - Steps 4 (TO 3mins)
+- Questions
 
 {% endslide %}
 
@@ -175,6 +192,17 @@ Through continuous iterations, our current strategy aims to reach and benefit th
 ### Task template
 
 ![Screenshot of task template](/assets/images/slides/accessibility_task_template.jpeg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+Time logging example from [King's Past](https://app.clickup.com/t/862jud41f) - important to get an overview across projects over time for better estimation and to know which areas to improve.
+<img
+    src="/assets/images/slides/accessibility-subtasks.png"
+  width="800"
+  alt="Screenshot of a task showing subtasks"
+  />
 
 {% endslide %}
 
@@ -358,17 +386,6 @@ Example from [Living with Machines](https://app.clickup.com/26475560/v/dc/t7z18-
   />
 
 Example from [Alice Thornton](https://app.clickup.com/26475560/v/dc/t7z18-23908/t7z18-228368)
-
-{% endslide %}
-
-{% slide %}
-
-Time logging example from [King's Past](https://app.clickup.com/t/862jud41f) - important to get an overview across projects over time for better estimation and to know which areas to improve.
-<img
-    src="/assets/images/slides/accessibility-subtasks.png"
-  width="800"
-  alt="Screenshot of a task showing subtasks"
-  />
 
 {% endslide %}
 
