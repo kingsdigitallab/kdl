@@ -154,8 +154,20 @@ class ClickUpToMarkdown {
 				departments: this.getDepartments(project),
 				members: this.getMembers(project),
 				sla: this.getSLADates(project),
-				urls: this.getUrls(project),
 			};
+
+			const urls = this.getUrls(project);
+			if (urls.length > 0) {
+				frontmatter.urls = [...frontmatter.urls, ...urls].reduce(
+					(acc, curr) => {
+						if (!acc.find((url) => url.url === curr.url)) {
+							acc.push(curr);
+						}
+						return acc;
+					},
+					[],
+				);
+			}
 
 			const content = [
 				"---",
