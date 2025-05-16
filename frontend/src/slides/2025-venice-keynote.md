@@ -66,11 +66,7 @@ _contributions from past and present KDL team_
 <aside class="notes">
 
 - Over 35 years of activity, against a background of rapid innovation and change in Humanities Computing and Digital Humanities​
-- Centre for Computing in the Humanities (1991) - Prof. Harold Short
-- Department of Digital Humanities (2011-):​
-  - 7 Masters and 2 Undergraduate degrees​
-  - PhD programme​
-  - ~70 staff including researchers and teaching fellows
+- Centre for Computing in the Humanities (1991) - Prof. Harold Short - and Centre for eResearch - Prof. Sheial Anderson
 
 </aside>
 {% endslide %}
@@ -101,7 +97,7 @@ _contributions from past and present KDL team_
 Inherited over 100 completed projects with no funding
 
 - [Archiving and Sustanability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
-- Examples under SLA
+- Examples of mantained ones (under SLA)
   - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
   - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
   - prosophographies e.g. [DPRR](https://romanrepublic.ac.uk/)
