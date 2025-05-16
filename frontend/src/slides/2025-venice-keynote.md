@@ -34,7 +34,7 @@ _contributions from past and present KDL team_
   <li class="fragment">Status <span class="fragment highlight-red">or <em>Starting from the End</em></span></li>
   <ul>
     <li class="fragment">King's Digital Lab mission, history & set up</li>
-    <li class="fragment">Archining & Sustanability programme</li>
+    <li class="fragment">Archining & Sustainability programme</li>
   </ul>
   <li class="fragment">What is a Digital Research Infrastructure in our context?</li>
   <ul>
@@ -96,7 +96,7 @@ _contributions from past and present KDL team_
 
 Inherited over 100 completed projects with no funding
 
-- [Archiving and Sustanability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
+- [Archiving and Sustainability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
 - Examples of mantained ones (under SLA)
   - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
   - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
@@ -315,7 +315,7 @@ Lkshay Jain on @pexels
 ## Reflections
 
   <ul>
-    <li class="fragment">Carreeer pipelines</li>
+    <li class="fragment">Careeer pipelines</li>
     <li class="fragment">Labour conditions</li>
     <li class="fragment">Research cultures</li>
     <li class="fragment">Communities</li>
