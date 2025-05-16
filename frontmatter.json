@@ -92,5 +92,7 @@
       "singleEntry": false,
       "type": "team"
     }
-  ]
+  ],
+  "frontMatter.framework.id": "11ty",
+  "frontMatter.preview.host": "http://localhost:8080"
 }
