@@ -8975,6 +8975,35 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Archetype",
+            "alternateName": null,
+            "slug": "archetype",
+            "foundingDate": "2017-10-01",
+            "dissolutionDate": "2021-02-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
@@ -24298,6 +24327,35 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Archetype",
+            "alternateName": null,
+            "slug": "archetype",
+            "foundingDate": "2017-10-01",
+            "dissolutionDate": "2021-02-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }
