@@ -178,9 +178,9 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <img src="/assets/images/slides/path-lkshay.png"
     alt="KDL SDLC cycle"
-  style="width:400px">
+  style="width:300px">
 
-Lkshay Jain on @pexels
+<small>Lkshay Jain on @pexels</small>
 
 <aside class="notes">
 
@@ -221,14 +221,14 @@ Lkshay Jain on @pexels
   <img
     class="fragment"
     src="/assets/images/slides/crossreads-requirements.png"
-    width="600"
+    width="200px"
     alt="CROSSREADS requirements"
 />
 
 <img
   class="fragment"
   src="/assets/images/slides/crossreads-requirements1.jpg"
-  width="600"
+  width="400px"
   alt="CROSSREADS requirements table view"
 />
 
