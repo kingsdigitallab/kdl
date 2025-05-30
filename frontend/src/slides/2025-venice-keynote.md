@@ -108,6 +108,7 @@ Inherited over 100 completed projects with no funding
 <aside class="notes">
 
 - (explain sla)
+- selection of project types/examples relevant for the topics of the conference
 - DECIDE whether to add VENN DIAGRAMM
 
 </aside>
@@ -184,7 +185,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <aside class="notes">
 
-- DECIDE whether to change image and how to make caption visible
+-
 
 </aside>
 
@@ -219,16 +220,17 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <div class="r-stack">
   <img
-    class="fragment"
+    class="fragment fade-out"
+    data-fragment-index="0"
     src="/assets/images/slides/crossreads-requirements.png"
-    width="200px"
+    style="width:300px"
     alt="CROSSREADS requirements"
 />
 
 <img
   class="fragment"
+  data-fragment-index="0"
   src="/assets/images/slides/crossreads-requirements1.jpg"
-  width="400px"
   alt="CROSSREADS requirements table view"
 />
 
@@ -237,7 +239,6 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 <aside class="notes">
 
 - Requirements
-- CHECK PROBLEM with first image size and display of second image
 
 </aside>
 
