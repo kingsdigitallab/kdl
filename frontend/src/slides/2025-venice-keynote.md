@@ -291,13 +291,17 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 ## Development & Innovation
 
-  <ul>
-    <li class="fragment"><a href="https://doi.org/10.5281/zenodo.3361579">Research Themes</a></li>
-  </ul>
+[Research Themes](https://kdl.kcl.ac.uk/projects/research-themes/)
+
+<img 
+    src="/assets/images/slides/digital-creativity-rt.jpg"
+    alt="Digital Creativity research theme"
+  style="width:700px"
+/>
 
 <aside class="notes">
 
-- ADD image/s from research themes on the website?
+-
 
 </aside>
 
