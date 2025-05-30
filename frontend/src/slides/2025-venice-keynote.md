@@ -143,10 +143,16 @@ Inherited over 100 completed projects with no funding
 
 DRI in the Arts & Humanities, in a UK University and with a specific business model - how to collaborate with us and how do we collaborate?
 
+<img src="/assets/images/slides/venice-infrastructure.jpg"
+    alt="KDL SDLC cycle"
+  style="width:600px">
+
+<small>Emmanuel Lafont / BBC</small>
+
 <aside class="notes">
 
 - focus on processes and expertise (not so much on methods and resources)
-- DECIDE whether to add an image? Venice infrastructure?
+- image from https://www.bbc.co.uk/future/article/20250324-the-ancient-forest-that-supports-venice
 
 </aside>
 
@@ -184,8 +190,6 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 <small>Lkshay Jain on @pexels</small>
 
 <aside class="notes">
-
--
 
 </aside>
 
