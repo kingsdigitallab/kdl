@@ -58,9 +58,9 @@ _contributions from past and present KDL team_
 
 - Digital Humanities at King's College London (UK)
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) (2011-)
-  - 7 Masters and 2 Undergraduate degrees​
+  - 7 Masters and 1 Undergraduate degrees
   - PhD programme​
-  - ~70 staff including researchers and teaching fellows
+  - ~70 staff including researchers and education-focused lecturers
 - [King's Digital Lab](https://kdl.kcl.ac.uk/) (2015-)
 
 <aside class="notes">
@@ -122,7 +122,7 @@ Inherited over 100 completed projects with no funding
 - Editions [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
   - [2009](https://inslib.kcl.ac.uk/irt2009/) - reduced functionalities
   - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
-    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & EPIDOC community
+    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & [EPIDOC community](https://github.com/EpiDoc/EFES)
     - [other data](https://doi.org/10.18742/c.6002275.v1) - editor/s, insitution/s & funder/s
       - authority lists eg. indexes
       - EFES software architecture
@@ -131,7 +131,13 @@ Inherited over 100 completed projects with no funding
 
 <aside class="notes">
 
--
+- TEI/XML EpiDoc schema regularly improved by the community
+  https://epidoc.stoa.org/
+- Transformative for the field edition and publication framework EFES for ancient / complex texts:
+  https://github.com/EpiDoc/EFES
+  https://wiki.digitalclassicist.org/EpiDoc_Front-End_Services
+  enables researchers to work at speed, alone, and also to share work with others before publication
+- above notes summarised from https://zenodo.org/records/15083522
 
 </aside>
 
@@ -153,6 +159,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 - focus on processes and expertise (not so much on methods and resources)
 - image from https://www.bbc.co.uk/future/article/20250324-the-ancient-forest-that-supports-venice
+- watch the Crazy engineering of Venice at https://www.youtube.com/watch?v=77omYd0JOeA
 
 </aside>
 
@@ -250,7 +257,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 {% slide %}
 
-[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
+[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic002945) (not public yet)
 
 <img class="fragment"
     src="/assets/images/slides/crossreads-petrography.png"
@@ -301,7 +308,9 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <aside class="notes">
 
--
+- Note re AI/ML: importance for historians and other humanities researchers to engage in the use of AI / ML (including specific pipelines like the one tested for Ithaca)
+- Example from Ithaca https://github.com/google-deepmind/ithaca and in Nature https://www.nature.com/articles/s41586-022-04448-z
+- fig 1 Assael, Y., Sommerschield, T., Shillingford, B. et al. Restoring and attributing ancient texts using deep neural networks. Nature 603, 280–283 (2022). https://doi.org/10.1038/s41586-022-04448-z
 
 </aside>
 
