@@ -300,11 +300,30 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 [Research Themes](https://kdl.kcl.ac.uk/projects/research-themes/)
 
-<img 
+<img
     src="/assets/images/slides/digital-creativity-rt.jpg"
+    style="width:700px"
     alt="Digital Creativity research theme"
-  style="width:700px"
 />
+
+<aside class="notes">
+
+</aside>
+
+{% endslide %}
+
+{% slide %}
+
+## Development & Innovation
+
+Interdisciplinary collaboration
+
+<img
+  class="fragment"
+  src="/assets/images/slides/venice-ithaca.webp"
+  alt="Itacha restoration example"
+/>
+<small>[Assael et al. 2022](https://doi.org/10.1038/s41586-022-04448-z)</small>
 
 <aside class="notes">
 
