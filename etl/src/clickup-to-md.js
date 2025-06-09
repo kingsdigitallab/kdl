@@ -158,7 +158,7 @@ class ClickUpToMarkdown {
 
 			const urls = this.getUrls(project);
 			if (urls.length > 0) {
-				frontmatter.urls = [...frontmatter.urls, ...urls].reduce(
+				frontmatter.urls = [...(frontmatter?.urls || []), ...urls].reduce(
 					(acc, curr) => {
 						if (!acc.find((url) => url.url === curr.url)) {
 							acc.push(curr);
