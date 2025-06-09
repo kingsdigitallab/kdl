@@ -9,12 +9,14 @@ foundingDate: null
 dissolutionDate: null
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Henry_III_Fine_Rolls--image-selections.png
-  title: A section of images taken from the project commentary
-  description: A screenshot collection shows the diagram of the components, the
-    network of associations and the relationships diagram
-  width: 1500
-  height: 1087
+  image: /assets/images/projects/Fine Roll 1246.jpg
+  title: 31 HENRY III (October 1246 - October 1247) - TNA reference C 60/44,
+    membrane 1. © Crown copyright images reproduced by permission of The
+    National Archives, London, England.
+  description: A damaged medieval parchment with bold Latin script, featuring a
+    large tear and faded ink, part of a Fine Roll from 1246.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc

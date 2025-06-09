@@ -11,9 +11,11 @@ creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/nanotoms.jpg
   title: Nanotoms
-  description: Light decorations in a dark area
-  width: 2644
-  height: 1818
+  description:
+    Abstract pattern of blue-green glowing lines forming a network-like
+    structure against a dark background.
+  width: 1200
+  height: 800
 funders:
   - name: FAH Department of Digital Humanities
     slug: ddh

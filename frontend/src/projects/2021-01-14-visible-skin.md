@@ -9,11 +9,13 @@ foundingDate: 2021-01-14
 dissolutionDate: 2022-01-18
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Visible_Skin_part_of_the_data_model.png
-  title: Visible Skin - Part of the Data Model
-  description: null
-  width: 1333
-  height: 860
+  image: /assets/images/projects/Visible_Skin--Online_Poster.jpg
+  title: Visible Skin - Promotional Poster
+  description: Digital promotional image for the Visible Skin exhibition,
+    featuring a split-portrait of the artist, Peter Brathwaite, in historical
+    attire on a black background.
+  width: 2500
+  height: 1667
 funders:
   - name: Wellcome Trust
     slug: wellcome-trust

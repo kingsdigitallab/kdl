@@ -9,12 +9,12 @@ foundingDate: 2022-11-10
 dissolutionDate: 2023-07-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Tangible_Programming--tangible-programming-faceplates_resized.jpg
+  image: /assets/images/projects/Tangible_Programming--tangible-programming-faceplates_resized.png
   title: null
-  description: Circular symbols representing a computer vision library, designed
-    to identify and track tangible objects on a flat surface.
+  description: A grid of abstract circular symbols with segmented patterns in
+    black on a light background.
   width: 1200
-  height: 829
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london

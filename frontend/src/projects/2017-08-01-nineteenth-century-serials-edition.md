@@ -9,12 +9,12 @@ foundingDate: 2017-08-01
 dissolutionDate: 2021-07-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/NCSE--the six-bar-graphs-for-facsimile.jpg
-  title: A collection of six bar graphs for the journals from Facsimile section
-  description: A collection of six bar graphs for six historical periodicals,
-    illustrating the publishing trends and output volume of each periodical.
-  width: 1942
-  height: 1024
+  image: /assets/images/projects/NCSE--Data viz.jpg
+  title: null
+  description: A minimalist bar chart with blue vertical bars of varying heights
+    against a dark background, creating a structured data visualisation.
+  width: 1200
+  height: 800
 funders:
   - name: Birkbeck, University of London
     slug: birkbeck
@@ -92,6 +92,12 @@ members:
       slug: birkbeck
 keywords:
   - Data Visualisation
+  - Library and Information Studies
+  - Digital collection
+  - Digital edition
+  - Digital reading/viewing environment
+  - Digital tool creation
+  - History
 urls:
   - name: Project URL (2008 edition)
     url: https://ncse.ac.uk/

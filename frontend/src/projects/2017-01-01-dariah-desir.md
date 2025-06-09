@@ -9,11 +9,13 @@ foundingDate: 2017-01-01
 dissolutionDate: 2019-12-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/desir_banner.original.jpg
-  title: Desir Project Banner
-  description: Desir project logo over a Union Jack flag background
-  width: 2378
-  height: 964
+  image: /assets/images/projects/DARIAH-DESIR.jpg
+  title: null
+  description: Abstract digital visualisation of interconnected blue lines and
+    nodes against a dark background with glowing green and blue nebula-like
+    areas.
+  width: 1200
+  height: 800
 funders:
   - name: European Commission
     slug: european-commission

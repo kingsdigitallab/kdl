@@ -9,11 +9,13 @@ foundingDate: 2020-03-26
 dissolutionDate: 2022-11-04
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/digital-methods-for-investigating-online-engagement-with-coronavirus.jpeg
-  title: Digital Methods for Investigating Online Engagement with Coronavirus
-  description: " Procedure for situational data set curation and lexicon analysis"
-  width: 1961
-  height: 817
+  image: /assets/images/projects/Digital_Cultures_engin-akyurt.jpg
+  title: Photo by Engin Akyurt
+  description:
+    A person wearing a face mask, hunched over a laptop in a dimly lit
+    room, their face illuminated by the screen’s glow.
+  width: 1200
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london

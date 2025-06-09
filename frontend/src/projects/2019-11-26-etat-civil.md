@@ -9,14 +9,17 @@ foundingDate: 2019-11-26
 dissolutionDate: 2020-07-02
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/etat-civil.png
-  title: Screenshot of one of the project interactive map visualisations with
-    trajectories of French expatriates in Egypt (1792-1882) created using
-    Flowmap to display 15,962 journeys inferred from 10,001 deeds in consular
-    civil registers.
-  description: A geographic map showcasing cartographic graphical elements
-  width: 1776
-  height: 588
+  image: /assets/images/projects/etat-civil--Screenshot of one of the project
+    interactive map visualisations with trajectories of French expatriates in
+    Egypt (1792-1882) created using Flowmap to display 15,962 journeys inferred
+    from 10,001 deeds in consular civil registers..jpg
+  title: One of the Project Interactive Map Visualisations With Trajectories of
+    French Expatriates in Egypt (1792-1882) Created Using Flowmap to Display
+    15,962 Journeys Inferred From 10,001 Deeds in Consular Civil Registers.
+  description: Data visualisation of historical travel routes between Europe and
+    Egypt, showing dense connection points and movement patterns.
+  width: 1200
+  height: 800
 funders:
   - name: FAH Department of History
     slug: fah-department-of-history
@@ -40,6 +43,8 @@ members:
     inOrganisation: null
 keywords:
   - Data Visualisation
+  - Digital mapping
+  - History
 urls:
   - name: Project URL
     url: https://histecon.fas.harvard.edu/visualizing/egypt/index.html

@@ -10,7 +10,16 @@ slug: exon-domesday
 foundingDate: 2014-10-01
 dissolutionDate: 2017-12-01
 creativeWorkStatus: Maintained
-feature: null
+feature:
+  image:
+    /assets/images/projects/Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire
+    A.jpg
+  title: Geld Accounts, Wiltshire A [1a1-3b1]
+  description:
+    A close-up of an aged manuscript with handwritten Latin text, some
+    underlined in blue, showing historical record-keeping details.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc

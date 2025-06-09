@@ -9,15 +9,20 @@ foundingDate: 2018-01-01
 dissolutionDate: 2019-12-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/INTELLIGENCE.original.jpg
-  title: "An old typewriter as the centerpiece with a green desk light, Player's
-    Navy Cut cigarette box, a notebook, a tin box and a collection of
-    miscellaneous items. "
-  description: Vintage workspace corner featuring an antique typewriter, a green
-    lamp, a cigarette box and small personal artifacts.
-  width: 1000
-  height: 366
-funders: []
+  image: /assets/images/projects/AI and Story Telling--Data Mining 1 by Hanna
+    Barakat & Archival Images of AI + AIxDESIGN.jpg
+  title: Data Mining by Hanna Barakat & Archival Images of Ai + AIxDesign
+  description: A surreal landscape of snowy cliffs with jagged mountain peaks
+    under a vibrant gradient sky that shifts from orange to pink and purple.
+    People wearing old-fashioned expedition clothing pull ropes across the snow,
+    helping others traverse a crevice of circuits and wires. Tall transmission
+    towers rise from the mountaintops, and in the depths of the canyon below, a
+    grid of electronic circuits is melting the snow.
+  width: 1200
+  height: 800
+funders:
+  - name: Innovation UK
+    slug: innovation-uk
 departments:
   - name: King's Digital Lab
     slug: kdl
@@ -30,7 +35,7 @@ departments:
 members:
   - name: Elliott Hall
     slug: elliott-hall
-    roleName: RSE team member
+    roleName: Co-investigator
     inOrganisation: null
   - name: " Emily Bailey"
     slug: emily-bailey

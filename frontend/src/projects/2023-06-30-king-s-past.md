@@ -7,14 +7,16 @@ alternateName: null
 slug: king-s-past
 foundingDate: 2023-06-30
 dissolutionDate: 2024-10-31
-creativeWorkStatus: Active
+creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Kings_Past--King's_College,_Strand,_London._Engraving_by_J._C._Carter._Wellcome_V0013842.jpg
+  image: /assets/images/projects/King's Past.jpg
   title: King's College, Strand, London. Engraving by J. C. Carter. Wellcome
     Collection (V0013842).
-  description: Historic drawing of King's College, Strand, London.
-  width: 3044
-  height: 2240
+  description: A historic engraving of a neoclassical building with arched
+    windows, people in 19th-century attire walking across a cobblestone
+    courtyard.
+  width: 1200
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london
@@ -95,10 +97,16 @@ keywords:
 urls:
   - name: Project URL
     url: https://kingspast.kcl.ac.uk/
+  - name: "Repository: kingsdigitallab/kings-past"
+    url: https://github.com/kingsdigitallab/kings-past
+  - name: Demonumenta URL
+    url: https://kingspast.kcl.ac.uk/about/demonumenta
+  - name: College Project Page URL
+    url: https://www.kcl.ac.uk/news/new-interactive-platform-explores-kings-history-and-future
 ---
 
-The King's Past project will produce a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding.
+The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding.
 
-KDL is working with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.
+KDLworked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.
 
-In addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project.
+In addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)

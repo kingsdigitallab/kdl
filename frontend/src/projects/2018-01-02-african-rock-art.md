@@ -11,9 +11,10 @@ creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/ara.original.jpg
   title: African Rock Art Project Banner
-  description: "Juxtaposed images of African rock art. "
-  width: 2244
-  height: 1045
+  description: Ancient rock paintings of animals and human figures on a desert
+    cliff, overlaid with large bold text reading 'African Rock Art'.
+  width: 1200
+  height: 800
 funders:
   - name: The British Museum
     slug: the-british-museum
@@ -25,6 +26,10 @@ departments:
   - name: Trust for African Rock Art
     slug: trust-for-african-rock-art
 members:
+  - name: Elizabeth Galvin
+    slug: elizabeth-galvin
+    roleName: Principal investigator
+    inOrganisation: null
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst

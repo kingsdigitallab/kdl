@@ -11,16 +11,16 @@ foundingDate: 2020-10-01
 dissolutionDate: 2023-03-17
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/digital-humanities-laboratory.png
+  image: /assets/images/projects/digital-humanities-laboratory.jpg
   title:
     A network diagram showing the connections between technologies and their
     metadata in various states of being considered, actively used, or deprecated
     to legacy status by King's Digital Lab (Pawlicka-Deger, Ciula and Vieira,
     forthcoming).
-  description: A series of colourful dots with connecting lines arranged in a
-    network pattern is shown on a white background.
-  width: 1853
-  height: 1068
+  description: A dense network of multicoloured nodes connected by thin lines,
+    forming an intricate web on a dark green background.
+  width: 1200
+  height: 800
 funders:
   - name: European Commission
     slug: european-commission
@@ -32,6 +32,10 @@ departments:
   - name: Aalto University
     slug: aalto-university
 members:
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Researcher
+    inOrganisation: null
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: RSE team member
@@ -43,10 +47,6 @@ members:
   - name: James Smithies
     slug: james-smithies
     roleName: Researcher
-    inOrganisation: null
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
     inOrganisation: null
 keywords: []
 urls:

@@ -9,14 +9,15 @@ foundingDate: 2022-10-01
 dissolutionDate: 2022-12-15
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Layers_of_Vision--clark_v2.jpg
-  title: Braille artwork by Clarke Reynolds.
+  image: /assets/images/projects/Layers of Vision--Braille artwork by Clarke
+    Reynolds..jpg
+  title: Braille Artwork by Clarke Reynolds.
   description:
     A montage of three perspectives of an artwork made of braille spots
     in the shape of a Fab lolly. Different colours show the lolly’s
     chocolate-dipped top, the bands of red and white, and the lolly’s stick.
-  width: 1500
-  height: 939
+  width: 1200
+  height: 800
 funders:
   - name: King's Business School
     slug: king-s-business-school

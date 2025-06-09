@@ -9,13 +9,11 @@ foundingDate: 2004-09-01
 dissolutionDate: 2022-08-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Screenshot 2024-03-06 at 15.08.20.png
-  title: Website display of a manuscript promptbook.
-  description:
-    Website image display of a manuscript prompt book detailing what is
-    meant to happen in different scenes.
-  width: 1285
-  height: 888
+  image: /assets/images/projects/Website display of a manuscript promptbook.jpg
+  title: Website Display of a Manuscript Promptbook.
+  description: A close-up of an aged manuscript page with elaborate handwritten text.
+  width: 1200
+  height: 800
 funders:
   - name: Mark Fitch Fund
     slug: mark-fitch-fund

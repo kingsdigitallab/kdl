@@ -9,13 +9,14 @@ foundingDate: 2018-04-01
 dissolutionDate: 2020-03-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Mao_Era_in_Objects_picture_grid.png
-  title: Mao Era in Objects home page picture grid
+  image: /assets/images/projects/Mao Era--Mao Era in Objects home page picture
+    grid.jpg
+  title: Mao Era  Mao Era in Objects Home Page Picture Grid
   description:
     Rectangular grid of square images each relating to a common type of
-    object from Mao-era China
-  width: 1263
-  height: 853
+    object from Mao-era China.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc
@@ -65,12 +66,6 @@ members:
     inOrganisation:
       name: Highlands School Enfield
       slug: highlands-school-enfield
-  - name: Jamie Norrish
-    slug: jamie-norrish
-    roleName: Research Software Engineer
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
   - name: Katrin Heilmann
     slug: katrin-heilmann
     roleName: Researcher

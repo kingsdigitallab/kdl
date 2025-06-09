@@ -115,6 +115,8 @@ urls:
     url: https://github.com/kingsdigitallab/crossreads-petrography
   - name: "Repository (inscriptions): kingsdigitallab/corpus-building"
     url: https://github.com/kingsdigitallab/corpus-building
+  - name: Palaeographic annotator
+    url: https://kingsdigitallab.github.io/crossreads/annotator.html
 ---
 
 KDL contribution focuses on the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions.

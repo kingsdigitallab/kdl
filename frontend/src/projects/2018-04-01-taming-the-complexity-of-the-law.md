@@ -9,17 +9,19 @@ foundingDate: 2018-04-01
 dissolutionDate: 2018-11-30
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/TCOL_banner.original.jpg
+  image: /assets/images/projects/TCOL--Imaged created by KDL including a
+    screenshot of the network visualisation for the project and sample documents
+    in the background..jpg
   title:
-    Imaged created by KDL including a screenshot of the network visualization
-    for the project and sample documents in the background.
-  description: Screenshot of the project network visualization superimposed on a
-    set of printed open book pages
-  width: 4770
-  height: 1745
+    Imaged Created by Kdl Including a Screenshot of the Network Visualisation
+    for the Project and Sample Documents in the Background.
+  description: Screenshot of the project network visualisation superimposed on a
+    set of printed open book pages.
+  width: 1200
+  height: 800
 funders:
-  - name: Faculty of Natural, Mathematical & Engineering Sciences
-    slug: faculty-of-natural-mathematical-and-engineering-sciences
+  - name: King's College London
+    slug: kings-college-london
 departments:
   - name: Faculty of Natural, Mathematical & Engineering Sciences
     slug: faculty-of-natural-mathematical-and-engineering-sciences

@@ -11,14 +11,14 @@ foundingDate: 2022-01-10
 dissolutionDate: null
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Sudan_Memory--homepage-screenshot.jpg
-  title: null
-  description:
-    Screenshot from the Sudan memory website showing the Khalifa House
-    Museum store, full of wooden storage boxes, on shelves and on the floor with
-    superimposed Arabic script.
-  width: 1862
-  height: 1069
+  image:
+    /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat
+    Basharu by al-Balabil.jpg
+  title: Record Cover of the Song Al Ginyat Basharu by Al Balabil
+  description: Vintage record cover with a yellow background featuring three
+    portrait photographs of women, Arabic text, and decorative red stars.
+  width: 1200
+  height: 800
 funders:
   - name: British Council
     slug: british-council

@@ -5,10 +5,18 @@ tags:
   - projects
 alternateName: SAWS
 slug: sharing-ancient-wisdoms
-foundingDate: null
-dissolutionDate: null
+foundingDate: 2009-01-01
+dissolutionDate: 2013-12-31
 creativeWorkStatus: Maintained
-feature: null
+feature:
+  image:
+    /assets/images/projects/SAW--Greek wise men debating, 13th Century Arabic
+    manuscript.jpg
+  title: Greek Wise Men Debating, 13th Century Arabic Manuscript
+  description: A vibrant 13th-century Arabic manuscript illustration depicting
+    three men in robes and turbans engaged in an animated discussion.
+  width: 1200
+  height: 800
 funders:
   - name: European Research Council
     slug: erc
@@ -86,10 +94,22 @@ members:
     slug: keith-lawrence
     roleName: RSE team member
     inOrganisation: null
-keywords: []
+keywords:
+  - History
+  - Cultural and Museum Studies
+  - Languages and Literature
+  - Classics
+  - Digital edition
+  - Digital tool creation
 urls:
   - name: Project URL
     url: https://ancientwisdoms.ac.uk/
   - name: ERC URL
     url: https://cordis.europa.eu/project/id/235366/reporting
+  - name: Data deposit repository
+    url: https://doi.org/10.18742/c.7638260
 ---
+
+The aim of the project was to explore the use of digital tools to examine, and to represent, shared ideas, concepts, axioms and apophthegms in various cultures with a focus on the Byzantine Greek and medieval Arabic worlds, looking at the transmission of such materials, largely drawn from the Classical Greek world.
+
+Each literary researcher worked on the manuscripts of their various texts, to produce digital editions. The technical team developed the ontology (principally work by Anna Jordanous) and used it in order to represent the connections between those texts, and to build a structure for representing the texts (the Dynamic Library).

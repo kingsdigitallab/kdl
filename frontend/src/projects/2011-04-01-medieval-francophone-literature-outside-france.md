@@ -11,11 +11,10 @@ creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/mflc.jpg
   title: null
-  description:
-    A manuscript miniature showcasing men wearing armor, reminiscent of
-    the medieval era.
-  width: 3467
-  height: 1378
+  description: A manuscript miniature showcasing men wearing armour, reminiscent
+    of the medieval era.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc

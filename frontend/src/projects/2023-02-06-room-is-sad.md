@@ -9,12 +9,13 @@ foundingDate: 2023-02-06
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/roomissad_opening_1.jpg
-  title: The Room at London Design Biennale 2023. Photo Elliott Hall.
-  description: "A round window looking into a room bathed in purple light with a
-    white desk, lamp and plant on top, "
-  width: 4032
-  height: 3024
+  image: /assets/images/projects/roomissad--The Room at London Design Biennale
+    2023. Photo Elliott Hall..jpg
+  title: The Room at London Design Biennale 2023. Photo by Elliott Hall.
+  description: A round window looking into a room bathed in purple light with a
+    white desk, lamp and plant on top.
+  width: 1200
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london

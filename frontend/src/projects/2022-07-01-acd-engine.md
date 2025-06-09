@@ -9,8 +9,10 @@ foundingDate: 2022-07-01
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/ACDE--alina-grubnyak-ZiQkhI7417A-unsplash.jpg
-  title: null
+  image: /assets/images/projects/ACDE--Algo-r-(h)-i-(y)-thms, installation at ON
+    AIR, Palais de Tokyo, Paris, 2018. Photo Alina Grubnyak.jpg
+  title: Algo-R-(h)-I-(y)-Thms, Installation at ON AIR, Palais De Tokyo, Paris,
+    2018. Photo Alina Grubnyak.
   description:
     "3D artwork of dark thread and straight dark wire material forming
     a network of nodes interconnected across space. "
@@ -31,7 +33,7 @@ members:
     inOrganisation: null
   - name: Neil Jakeman
     slug: neil-jakeman
-    roleName: RSE team member
+    roleName: Research Software Analyst
     inOrganisation: null
 keywords:
   - Cultural and Museum Studies

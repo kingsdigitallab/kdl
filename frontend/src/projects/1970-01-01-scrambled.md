@@ -9,12 +9,13 @@ foundingDate: null
 dissolutionDate: null
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Scrambled_Messages--Word-from-the-missing-1877.png
-  title: James Hook, Word from the missing, 1877 (oil on canvas)
+  image: /assets/images/projects/James Hook, Word from the missing, 1877 (oil on
+    canvas).jpg
+  title: James Hook, Word From the Missing, 1877 (oil on Canvas)
   description: An oil painting shows children discovering a message in a bottle,
     while a woman collects driftwood near the beach.
-  width: 800
-  height: 471
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc

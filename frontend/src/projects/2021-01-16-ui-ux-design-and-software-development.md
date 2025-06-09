@@ -10,11 +10,11 @@ dissolutionDate: null
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/UI-UX-Design-and-Software-Development--low
-    angle-of-black metal-tower.png
-  title: Photo by © Dayne Topkin on Unsplash
-  description: A black metal tower building in a low angle view
-  width: 1000
-  height: 667
+    angle-of-black metal-tower-Photo by © Dayne Topkin on Unsplash.jpg
+  title: Photo by © Dayne Topkin on Unsplash.
+  description: A black metal tower building in a low angle view.
+  width: 1200
+  height: 800
 funders:
   - name: Software Sustainability Institute
     slug: software-sustainability-institute

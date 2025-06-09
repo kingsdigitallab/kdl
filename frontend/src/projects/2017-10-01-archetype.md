@@ -9,11 +9,15 @@ foundingDate: 2017-10-01
 dissolutionDate: 2021-02-07
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/archetype-screenshot.jpg
-  title: Screenshot from project website.
-  description: A computer screen displaying handwritten text.
-  width: 1553
-  height: 600
+  image: /assets/images/projects/Archetype--Translations of titles to
+    illustrations, Cambridge, Corpus Christi College, MS 23, p.109..jpg
+  title: Translations of Titles to Illustrations, Cambridge, Corpus Christi
+    College, Ms 23, P.109.
+  description:
+    Manuscript page with Latin text in black ink, red initials, and an
+    illustration of figures, overlaid with green and orange annotation boxes.
+  width: 1200
+  height: 800
 funders:
   - name: European Research Council
     slug: erc
@@ -55,7 +59,7 @@ members:
     inOrganisation: null
   - name: Stewart Brookes
     slug: stewart-brookes
-    roleName: Researcher
+    roleName: Principal investigator
     inOrganisation: null
   - name: Miguel Vieira
     slug: miguel-vieira

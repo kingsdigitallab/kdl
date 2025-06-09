@@ -9,15 +9,13 @@ foundingDate: 2023-04-13
 dissolutionDate: 2023-07-24
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Encyclopedia_Britannica.png
-  title: Screenshot of the Encyclopedia Britannica prototype interface for
-    semantic search built by Geoffroy Noël.
+  image: /assets/images/projects/Encyclopedia
+    Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
+  title: An open book, Photo by Mohamed Marey
   description:
-    "Interface with 3 columns: parameters for the search (query word or
-    heading; minimum and maximum length; results per screen); list of nearest
-    entries to the search with heading, lexical diversity metrics and link to
-    the text of the corresponding entry; nearest words to the query."
-  width: 1398
+    A close-up of an open book's fanned-out pages, creating a visually
+    striking pattern of curved, layered lines in warm tones.
+  width: 1200
   height: 800
 funders: []
 departments:

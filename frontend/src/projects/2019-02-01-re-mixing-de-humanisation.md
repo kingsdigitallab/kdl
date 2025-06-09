@@ -11,11 +11,12 @@ foundingDate: 2019-02-01
 dissolutionDate: 2019-07-01
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/room_to_breathe.jpg
-  title: null
-  description: Postcards on a table. The name of the project is overimposed
-  width: 1920
-  height: 1080
+  image: /assets/images/projects/Room to breath--Screenshot.jpg
+  title: Screenshot from the project video
+  description: A digitally rendered dimly lit bedroom with a bed, chair, and
+    glowing lights, featuring a textured, painterly effect.
+  width: 1200
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london
@@ -41,6 +42,10 @@ members:
     slug: neil-jakeman
     roleName: Research Software Analyst
     inOrganisation: null
+  - name: James Smithies
+    slug: james-smithies
+    roleName: Co-investigator
+    inOrganisation: null
   - name: Liberty Melly
     slug: liberty-melly
     roleName: Researcher
@@ -49,7 +54,7 @@ members:
       slug: migration-museum
   - name: Anna Reading
     slug: anna-reading
-    roleName: Co-investigator
+    roleName: Principal investigator
     inOrganisation:
       name: FAH Department of Culture, Media & Creative Industries
       slug: fah-department-of-culture-media-and-creative-industries

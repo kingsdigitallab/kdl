@@ -9,14 +9,13 @@ foundingDate: 2023-03-01
 dissolutionDate: 2023-12-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/living-with-machines.jpg
-  title: A selection of charts taken from the "Language of Mechanisation"
-    analysing the data of certain words that changed meaning during the 19th
-    century.
-  description:  An assortment of graphs and charts are showcased, providing a
-    visual breakdown of complex data.
-  width: 2000
-  height: 1102
+  image: /assets/images/projects/Living with Machines--Data viz.jpg
+  title: null
+  description:
+    A data visualisation featuring a symmetrical pattern of concentric
+    circles in orange and blue on a dark background.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc

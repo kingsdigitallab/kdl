@@ -11,11 +11,13 @@ foundingDate: 2019-08-01
 dissolutionDate: 2023-03-22
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Radical_Translations--timeline-screenshot_resized.jpg
-  title: 1783 to 1807 timelines from France, Ireland, Italy, United Kingdom, and
-    other countries, showing events, source texts & translations.
-  description: Illustration of a graph showing timelines of activities
-  width: 1342
+  image: /assets/images/projects/1783 to 1807 timelines from France, Ireland,
+    Italy, United Kingdom, and other countries, showing events, source texts &
+    translations.jpg
+  title: null
+  description: A structured data visualisation with blue and yellow square grids
+    representing historical events and their relationships across timelines
+  width: 1200
   height: 800
 funders:
   - name: Arts and Humanities Research Council
@@ -106,6 +108,8 @@ urls:
     url: https://arxiv.org/abs/2110.09349
   - name: Network visualisations
     url: https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations
+  - name: Conference presentation
+    url: https://kdl.kcl.ac.uk/slides/2024-lausagne-historical-networks-research/
 ---
 
 Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815) is a collaboration between King’s Digital Lab

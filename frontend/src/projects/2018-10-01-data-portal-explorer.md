@@ -9,15 +9,11 @@ foundingDate: 2018-10-01
 dissolutionDate: null
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/data-portal-explorer.png
-  title: A Network Visualization of Open Data Portals, by Jonathan Gray
-  description:
-    Complex network graph showing interconnected data portals and open
-    data initiatives. Large central nodes include "stats", "datastore", and
-    government portals like "data.gov". Numerous smaller nodes in orange and
-    purple represent various related services and platforms, all connected by a
-    web of lines illustrating relationships between entities in the open data
-    ecosystem.
+  image: /assets/images/projects/data-portal-explorer-A Network Visualization of
+    Open Data Portals, by Jonathan Gray.jpg
+  title: A Network Visualisation of Open Data Portals, by Jonathan Gray
+  description: Network visualisation of open data portals with interconnected
+    nodes in blue and orange.
   width: 1200
   height: 800
 funders:

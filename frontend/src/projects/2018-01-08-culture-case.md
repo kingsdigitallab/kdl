@@ -9,14 +9,12 @@ foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/CultureCase_screenshot--of--homepage.png
-  title: Screenshot of CultureCase homepage
-  description:
-    Screenshot of CultureCase homepage featuring the header, a article
-    titled 'Using digital platforms for deeper and richer engagement with arts
-    audiences' and the footer credits 'King's Culture' with a KCL logo.
-  width: 1070
-  height: 926
+  image: /assets/images/projects/CultureCase--Tomb in India.jpg
+  title: Photo by Ibrahim Rifath
+  description: A traveler with a backpack stands facing an ornate white tomb,
+    surrounded by gardens under a clear sky.
+  width: 1200
+  height: 800
 funders:
   - name: FAH King's Culture
     slug: fah-king-s-culture

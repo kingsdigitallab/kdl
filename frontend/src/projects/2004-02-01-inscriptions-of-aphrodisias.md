@@ -6,14 +6,16 @@ tags:
 alternateName: InsAph
 slug: inscriptions-of-aphrodisias
 foundingDate: 2004-02-01
-dissolutionDate: null
+dissolutionDate: 2007-10-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Inscriptions_of_Aphrodisias--screenshot-of-city-plan.png
-  title: Screenshot of city plan of Aphrodisias.
-  description: North-east section highlighted on city plan of Aphrodisias.
-  width: 1767
-  height: 1356
+  image: /assets/images/projects/InsAph-- Aphrodisias Ancient CityPhoto by Edhem
+    ŞEŞE.jpg
+  title: Aphrodisias Ancient City, photo by Edhem Şeşe
+  description: Close-up view of ancient stone columns and carved architectural
+    details in Aphrodisias, set against a clear blue sky.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc
@@ -101,4 +103,12 @@ keywords: []
 urls:
   - name: Project URL
     url: http://insaph.kcl.ac.uk/
+  - name: Data desosit repository (Inscriptions of Aphrodisias 2007)
+    url: https://doi.org/10.18742/c.7637984.v1
+  - name: Data deposit repository (Aphrodisias in Late Antiquity 2004)
+    url: https://doi.org/10.18742/c.7637966.v1
 ---
+
+Under this page we collect information about several projects related to the publication over several years of Late Antique inscriptions from the excavations at Aphrodisias in Caria (Western Asia Minor, western Turkey today).
+
+An enhanced online edition was produced in 2004 and in 2007 a full corpus of all the texts known to the researchers followed. These were all edited in EpiDoc XML, under the guidance of Gabriel Bodard.

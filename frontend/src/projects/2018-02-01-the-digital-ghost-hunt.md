@@ -14,8 +14,8 @@ feature:
   description:
     A lady with ghostly makeup in a black dress, poised and standing on
     a flight of stairs.
-  width: 5760
-  height: 3840
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc
@@ -37,7 +37,7 @@ members:
       slug: royal-holloway
   - name: Elliott Hall
     slug: elliott-hall
-    roleName: RSE team member
+    roleName: Co-investigator
     inOrganisation: null
   - name: Mary Krell
     slug: mary-krell

@@ -11,10 +11,8 @@ creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
   title: Critical Modelling Reviews Waves
-  description:
-    A series of dark wavy lines propagating from left to right across a
-    pale background and showing a variable peaks and troughs.
-  width: 2044
+  description: A series of black waveform patterns on a light grey background.
+  width: 1200
   height: 800
 funders:
   - name: The Australia National University

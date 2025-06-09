@@ -9,11 +9,12 @@ foundingDate: 2022-02-28
 dissolutionDate: 2022-07-13
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/scoping-3D-data-services.jpg
-  title: 3D images of a telegraph
-  description: Four different views of a telegraph rendered in 3D
-  width: 1500
-  height: 803
+  image: /assets/images/projects/3D images of a telegraph.jpg
+  title: A 3D image of a Telegraph
+  description: Vintage brass telegraph key on a wooden base against a beige
+    background, showcasing intricate mechanical details.
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc
@@ -75,4 +76,4 @@ urls:
     url: https://gtr.ukri.org/projects?ref=AH%2FW007541%2F1
 ---
 
-This project will address an existing gap to support researchers and practitioners communities working with complex 3D data, including data related to material and digital cultures, to enhance the national data services for arts and humanities. The research will use a collaborative and interdisciplinary approach to investigate and address the needs of current and future researchers.
+This project addresses an existing gap to support researchers and practitioners communities working with complex 3D data, including data related to material and digital cultures, to enhance the national data services for arts and humanities. The research uses a collaborative and interdisciplinary approach to investigate and address the needs of current and future researchers.

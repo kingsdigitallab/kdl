@@ -11,12 +11,13 @@ foundingDate: 2007-08-01
 dissolutionDate: 2010-12-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/moray_Jq1m58g.original.jpg
-  title: Moray original map (detail)
+  image: /assets/images/projects/moray_Jq1m58g.original--Moray original map
+    (detail).jpg
+  title: Moray Original Map (detail)
   description: A historical map presenting Scotland, exhibiting its terrain,
     cities, and significant landmarks.
-  width: 3000
-  height: 1540
+  width: 1200
+  height: 800
 funders:
   - name: Arts and Humanities Research Council
     slug: ahrc
