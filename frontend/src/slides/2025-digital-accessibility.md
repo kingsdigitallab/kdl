@@ -1,5 +1,5 @@
 ---
-title: Digital Accessiblity Strategy and Process
+title: Digital Accessibility Strategy and Process
 event:
   title: KDL's updated approach
   url:
@@ -27,6 +27,23 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 {% slide %}
 
+## Structure
+
+- Introduction/Agenda (AE 2min)
+- Historical context (GN 3min)
+- Updated approach (GN 4min)
+- Strategy (GN 3min)
+- Process
+  - Overview (AE 4 mins)
+  - Steps 1-2 (TO 6mins)
+  - Steps 3 (GN 3mins)
+  - Steps 4 (TO 3mins)
+- Questions
+
+{% endslide %}
+
+{% slide %}
+
 ## History
 
 - 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
@@ -47,11 +64,7 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 [Previous "Process"](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1) but not taken forward for team review
 
-<img
-    src="/assets/images/slides/accessibility-process-2020.jpg"
-  height="570"
-  alt="Screenshot of document displaying steps to an accessibility process."
-  />
+![Screenshot of document displaying steps to an accessibility process](/assets/images/slides/accessibility-process-2020.jpg){width=600}
 
 {% endslide %}
 
@@ -162,10 +175,33 @@ Through continuous iterations, our current strategy aims to reach and benefit th
 
 5 steps to implement accessibility within Software Development Life Cycle (SDLC)
 
+![Flowchart depicting the steps in software development, highlighting the accessibility steps](/assets/images/slides/accessibility-SDLC3.jpg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Dashboard
+
+![Screenshot of task management dashboard](/assets/images/slides/accessibility_dashboard.jpeg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Task template
+
+![Screenshot of task template](/assets/images/slides/accessibility_task_template.jpeg){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+Time logging example from [King's Past](https://app.clickup.com/t/862jud41f) - important to get an overview across projects over time for better estimation and to know which areas to improve.
 <img
-    src="/assets/images/slides/accessibility-SDLC3.jpg"
-  height="570"
-alt="Flowchart depicting the steps in software development, highlighting the accessibility steps"
+    src="/assets/images/slides/accessibility-subtasks.png"
+  width="800"
+  alt="Screenshot of a task showing subtasks"
   />
 
 {% endslide %}
@@ -187,57 +223,7 @@ Estimates need to be updated to adapt for different project budgets/timelines
 
 {% slide %}
 
-<img src="https://t26475560.p.clickup-attachments.com/t26475560/299bd07f-8878-402f-976b-cda1057cb30e/image.png" alt="Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects" style="width:800px">
-
-{% endslide %}
-
-{% slide %}
-
-## MUST (**M**)
-
-- meet WCAG **A/AA** criteria for the **majority** of components (few/none will not meet)
-- perform specific accessibility assessments during evolutionary development
-- produce a public accessibility **statement** and update it at each deployment
-- Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
-
-        ✔ Has more than 5 users
-
-        ✔ Has 1st party apps/platforms
-
-        ✔ Has only non-complex components
-
-        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
-
-{% endslide %}
-
-{% slide %}
-
-### WCAG
-
-The Web Content Accessibility Guidelines (WCAG), developed by the World Wide Web Consortium, are technical standards that help make the digital world accessible to people with disabilities. Numerous stakeholders, including disability advocacy groups, government agencies, and accessibility research organizations, collaborated to create these guidelines, which are considered the universal standard for digital accessibility.
-
-- WCAG Versions 1.0 (1999), 2.0 (2008), 2.1 (2018) and 2.2 (2023)
-
-- Three Levels of WCAG Conformance: A (minimum), AA (mid), and AAA (highest)
-
-Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/resource/what-is-wcag/)
-
-{% endslide %}
-
-{% slide %}
-
-<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
-[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
-
-{% endslide %}
-
-{% slide %}
-
-<img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
+![Visual representation of a flowchart detailing the process involved in creating the level of digital accessibility requirements during the feasibility stage for projects](/assets/images/slides/accessibility-reqflowchart.jpg){width=600}
 
 {% endslide %}
 
@@ -262,33 +248,32 @@ Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHo
 
 {% slide %}
 
-## COULD (**C**)
+### WCAG
 
-- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
-- **not** perform specific accessibility assessments
-- produce a public accessibility **statement** and update it at each deployment
-- Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
+The Web Content Accessibility Guidelines (WCAG), developed by the World Wide Web Consortium, are technical standards that help make the digital world accessible to people with disabilities. Numerous stakeholders, including disability advocacy groups, government agencies, and accessibility research organizations, collaborated to create these guidelines, which are considered the universal standard for digital accessibility.
 
-        ✔ Has more than 5 users
+- WCAG Versions 1.0 (1999), 2.0 (2008), 2.1 (2018) and 2.2 (2023)
 
-        ✘ Not using only 1st party apps/platforms
+- Three Levels of WCAG Conformance: A (minimum), AA (mid), and AAA (highest)
 
-        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
+Reference: [https://www.wcag.com/resource/what-is-wcag/](https://www.wcag.com/resource/what-is-wcag/)
 
 {% endslide %}
 
 {% slide %}
 
-## WON'T (**W**)
+![An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities](/assets/images/slides/accessibility-inclusive.jpg)
 
-- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
-- **not** perform specific accessibility assessments but scope still needed
-- **not** produce a public accessibility **statement**
-- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
+Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
+[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
 
-  ✘ No more than 5 users
+{% endslide %}
 
-        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
+{% slide %}
+
+![An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities](/assets/images/slides/accessibility-poster.jpg)
+
+Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
 
 {% endslide %}
 
@@ -406,17 +391,6 @@ Example from [Alice Thornton](https://app.clickup.com/26475560/v/dc/t7z18-23908/
 
 {% slide %}
 
-Time logging example from [King's Past](https://app.clickup.com/t/862jud41f) - important to get an overview across projects over time for better estimation and to know which areas to improve.
-<img
-    src="/assets/images/slides/accessibility-subtasks.png"
-  width="800"
-  alt="Screenshot of a task showing subtasks"
-  />
-
-{% endslide %}
-
-{% slide %}
-
 ## 3\. **Assess/Fix**
 
 [SDLC stage: Evolutionary Development]
@@ -431,21 +405,11 @@ All assessment and fixes should be integrated seamlessly, continuously when desi
 
 - **Assess**
 
-  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but typically don't capture all accessibility barriers.
+  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify some common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but capture only a minority of the accessibility issues.
 
-  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
+  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, zoom factors, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
 
   - Stand alone assessments (fixes done separately) should be documented in CU.
-
-{% endslide %}
-
-{% slide %}
-
-- **Fix** when issue is found.
-
-  - Any issues that cannot be fixed should be recorded directly to the statement.
-
-  - Tools and methods should also be recorded in the statement.
 
 {% endslide %}
 
@@ -463,7 +427,35 @@ Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/2
 {% endslide %}
 
 {% slide %}
-Other tools:
+
+### Code
+
+[axe](https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/) on KDL website
+
+![Accessibility tool highlighting issues on a website](/assets/images/slides/accessibility-assess-axe.png){width=600}
+
+{% endslide %}
+
+{% slide %}
+
+### Content
+
+<img
+    src="https://cdn.prod.website-files.com/6115e9a52c1947532801e49d/611964f15f69af9cddaff979_Write%20descriptive%20link%20text.jpg"
+  width="800"
+  alt="buttons with examples of inaccessible and accessible content"
+  />
+
+[Reference](https://www.accessguide.io/guide/descriptive-link-text)
+{% endslide %}
+
+{% slide %}
+
+- **Fix** when issue is found, **if possible** (depending on budget, time, skills, ...), is usually best.
+
+  - Any issues that cannot be fixed should be recorded directly to the statement.
+
+  - Tools and methods should also be recorded in the statement.
 
 {% endslide %}
 
@@ -481,9 +473,7 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 
 - Github
 
-  - GN (to add)
-
-  - (to add)
+  - `fix(a11y): Added missing alt attribute to first image on About page`
 
 - Statement
 
@@ -507,7 +497,7 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 
   - Very minimal example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation)
 
-- External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement)
+- External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement), [Santander](https://www.santander.co.uk/personal/support/accessibility/accessibility-statement)
 
 {% endslide %}
 
@@ -537,12 +527,10 @@ Adapted minimal statement from [King's Digital Lab](https://kingsdigitallab.gith
 
 ## Conclusion and Actions
 
-- Blogpost to publish
-- KDL Team to feedback on process
-- DA team to review in 6 months?
-- SLA process not yet looked at
-- Decision to carry on or change strategy
-
+- Blogpost to publish (ready to review)
+- KDL Team to feedback on process on [miro board](https://miro.com/app/board/uXjVI5fmopw=/)
+- DA team to review in 6 months based on feedback and adoption to adapt strategy and process
+- Step 5: SLA process not yet looked at
 <hr>
 
 ## ? Questions ?
@@ -629,23 +617,6 @@ Example of a [spreadsheet to record all issues and fixes ](https://docs.google.c
 
 {% slide %}
 
-<img src="/assets/images/slides/accessibility-inclusive.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from [Microsoft’s Inclusive Design Toolkit](https://inclusive.microsoft.design/) and  
-[Booking.com](https://medium.com/booking-research/building-accessibility-research-practices-75d82098f286)
-
-{% endslide %}
-
-{% slide %}
-
-<img src="/assets/images/slides/accessibility-poster.jpg" alt="An illustration showing individuals from various groups to represent different permanent, temporary or situational impairments and disabilities" style="width:800px">
-
-Reference: Adaptation from and more examples at [gov.uk](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
-
-{% endslide %}
-
-{% slide %}
-
 ## Observations
 
 - Inconsistent outputs (All or nothing approach)
@@ -701,6 +672,57 @@ Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pd
   width="800"
   alt="Visual representation of the digital accessibility process, outlining key steps aligning with stages in a project"
   />
+
+{% endslide %}
+
+{% slide %}
+
+## MUST (**M**)
+
+- meet WCAG **A/AA** criteria for the **majority** of components (few/none will not meet)
+- perform specific accessibility assessments during evolutionary development
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
+
+        ✔ Has more than 5 users
+
+        ✔ Has 1st party apps/platforms
+
+        ✔ Has only non-complex components
+
+        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
+
+{% endslide %}
+
+{% slide %}
+
+## COULD (**C**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments
+- produce a public accessibility **statement** and update it at each deployment
+- Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
+
+        ✔ Has more than 5 users
+
+        ✘ Not using only 1st party apps/platforms
+
+        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
+
+{% endslide %}
+
+{% slide %}
+
+## WON'T (**W**)
+
+- integrate basic digital accessibility requirements based on individual knowledge into the evolving solution
+- **not** perform specific accessibility assessments but scope still needed
+- **not** produce a public accessibility **statement**
+- Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
+
+  ✘ No more than 5 users
+
+        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
 
 {% endslide %}
 
