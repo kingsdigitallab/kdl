@@ -87,14 +87,15 @@ class ClickUpToMarkdown {
 		const spaces = data.spaces;
 
 		for (const project of projects) {
-			console.log(`Processing: ${project.name}`);
+			const name =
+				this.getCustomFieldValue(project, "Project name") || project.name;
+
+			console.log(`Processing: ${name}`);
 			let slug = this.getCustomFieldValue(project, "Slug");
 
 			if (!slug) {
-				console.warn(
-					` - No slug found for ${project.name}, generating from name`,
-				);
-				slug = this.slugify(project.name);
+				console.warn(` - No slug found for ${name}, generating from name`);
+				slug = this.slugify(name);
 			}
 
 			const projectStartDate = this.getCustomFieldValue(
@@ -103,9 +104,7 @@ class ClickUpToMarkdown {
 			);
 
 			if (!projectStartDate) {
-				console.error(
-					` - No project start date found for ${project.name}, skipping`,
-				);
+				console.error(` - No project start date found for ${name}, skipping`);
 				continue;
 			}
 
@@ -137,8 +136,8 @@ class ClickUpToMarkdown {
 
 			const frontmatter = {
 				...existingFrontmatter,
-				title: project.name,
-				name: project.name,
+				title: name,
+				name: name,
 				tags: ["projects"],
 				alternateName: this.getCustomFieldValue(project, "Acronym"),
 				slug: slug,
