@@ -169,7 +169,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 ### Collaboration guidance and process
 
-[Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](hhttps://kdl.kcl.ac.uk/faqs/)
+[Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](https://kdl.kcl.ac.uk/faqs/)
 
 <img src="/assets/images/slides/sdlc.png"
     alt="KDL SDLC cycle"
