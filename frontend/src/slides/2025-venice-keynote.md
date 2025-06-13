@@ -42,7 +42,6 @@ _contributions from past and present KDL team_
     <li class="fragment">Assessment of Digital Outputs</li>
     <li class="fragment">Research Themes</li>
   </ul>
-    <li class="fragment">Conference highlights</li>
     <li class="fragment">Conclusions & questions</li>
 </ul>
 
@@ -330,18 +329,6 @@ Interdisciplinary collaboration
 - Note re AI/ML: importance for historians and other humanities researchers to engage in the use of AI / ML (including specific pipelines like the one tested for Ithaca)
 - Example from Ithaca https://github.com/google-deepmind/ithaca and in Nature https://www.nature.com/articles/s41586-022-04448-z
 - fig 1 Assael, Y., Sommerschield, T., Shillingford, B. et al. Restoring and attributing ancient texts using deep neural networks. Nature 603, 280–283 (2022). https://doi.org/10.1038/s41586-022-04448-z
-
-</aside>
-
-{% endslide %}
-
-{% slide %}
-
-## Conference highlights?
-
-<aside class="notes">
-
-- might take out if not needed
 
 </aside>
 
