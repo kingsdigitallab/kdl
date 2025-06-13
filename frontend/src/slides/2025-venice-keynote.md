@@ -257,7 +257,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 {% slide %}
 
-[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic002945) (not public yet)
+[Inscription example](https://corpus-building-lojw5.kinsta.page/inscription/ISic002945) (soft launch)
 
 <img class="fragment"
     src="/assets/images/slides/crossreads-petrography.png"
