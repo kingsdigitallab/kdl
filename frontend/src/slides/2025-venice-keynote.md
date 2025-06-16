@@ -34,7 +34,7 @@ _contributions from past and present KDL team_
   <li class="fragment">Status <span class="fragment highlight-red">or <em>Starting from the End</em></span></li>
   <ul>
     <li class="fragment">King's Digital Lab mission, history & set up</li>
-    <li class="fragment">Archining & Sustanability programme</li>
+    <li class="fragment">Archining & Sustainability programme</li>
   </ul>
   <li class="fragment">What is a Digital Research Infrastructure in our context?</li>
   <ul>
@@ -42,7 +42,6 @@ _contributions from past and present KDL team_
     <li class="fragment">Assessment of Digital Outputs</li>
     <li class="fragment">Research Themes</li>
   </ul>
-    <li class="fragment">Conference highlights</li>
     <li class="fragment">Conclusions & questions</li>
 </ul>
 
@@ -58,19 +57,15 @@ _contributions from past and present KDL team_
 
 - Digital Humanities at King's College London (UK)
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) (2011-)
-  - 7 Masters and 2 Undergraduate degrees​
+  - 7 Masters and 1 Undergraduate degrees
   - PhD programme​
-  - ~70 staff including researchers and teaching fellows
+  - ~70 staff including researchers and education-focused lecturers
 - [King's Digital Lab](https://kdl.kcl.ac.uk/) (2015-)
 
 <aside class="notes">
 
 - Over 35 years of activity, against a background of rapid innovation and change in Humanities Computing and Digital Humanities​
-- Centre for Computing in the Humanities (1991) - Prof. Harold Short
-- Department of Digital Humanities (2011-):​
-  - 7 Masters and 2 Undergraduate degrees​
-  - PhD programme​
-  - ~70 staff including researchers and teaching fellows
+- Centre for Computing in the Humanities (1991) - Prof. Harold Short - and Centre for eResearch - Prof. Sheial Anderson
 
 </aside>
 {% endslide %}
@@ -100,8 +95,8 @@ _contributions from past and present KDL team_
 
 Inherited over 100 completed projects with no funding
 
-- [Archiving and Sustanability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
-- Examples under SLA
+- [Archiving and Sustainability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
+- Examples of mantained ones (under SLA)
   - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
   - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
   - prosophographies e.g. [DPRR](https://romanrepublic.ac.uk/)
@@ -112,6 +107,7 @@ Inherited over 100 completed projects with no funding
 <aside class="notes">
 
 - (explain sla)
+- selection of project types/examples relevant for the topics of the conference
 - DECIDE whether to add VENN DIAGRAMM
 
 </aside>
@@ -125,7 +121,7 @@ Inherited over 100 completed projects with no funding
 - Editions [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
   - [2009](https://inslib.kcl.ac.uk/irt2009/) - reduced functionalities
   - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
-    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & EPIDOC community
+    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & [EPIDOC community](https://github.com/EpiDoc/EFES)
     - [other data](https://doi.org/10.18742/c.6002275.v1) - editor/s, insitution/s & funder/s
       - authority lists eg. indexes
       - EFES software architecture
@@ -134,7 +130,13 @@ Inherited over 100 completed projects with no funding
 
 <aside class="notes">
 
--
+- TEI/XML EpiDoc schema regularly improved by the community
+  https://epidoc.stoa.org/
+- Transformative for the field edition and publication framework EFES for ancient / complex texts:
+  https://github.com/EpiDoc/EFES
+  https://wiki.digitalclassicist.org/EpiDoc_Front-End_Services
+  enables researchers to work at speed, alone, and also to share work with others before publication
+- above notes summarised from https://zenodo.org/records/15083522
 
 </aside>
 
@@ -146,10 +148,17 @@ Inherited over 100 completed projects with no funding
 
 DRI in the Arts & Humanities, in a UK University and with a specific business model - how to collaborate with us and how do we collaborate?
 
+<img src="/assets/images/slides/venice-infrastructure.jpg"
+    alt="KDL SDLC cycle"
+  style="width:600px">
+
+<small>Emmanuel Lafont / BBC</small>
+
 <aside class="notes">
 
 - focus on processes and expertise (not so much on methods and resources)
-- DECIDE whether to add an image? Venice infrastructure?
+- image from https://www.bbc.co.uk/future/article/20250324-the-ancient-forest-that-supports-venice
+- watch the Crazy engineering of Venice at https://www.youtube.com/watch?v=77omYd0JOeA
 
 </aside>
 
@@ -159,7 +168,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 ### Collaboration guidance and process
 
-[Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](hhttps://kdl.kcl.ac.uk/faqs/)
+[Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](https://kdl.kcl.ac.uk/faqs/)
 
 <img src="/assets/images/slides/sdlc.png"
     alt="KDL SDLC cycle"
@@ -182,13 +191,11 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <img src="/assets/images/slides/path-lkshay.png"
     alt="KDL SDLC cycle"
-  style="width:400px">
+  style="width:300px">
 
-Lkshay Jain on @pexels
+<small>Lkshay Jain on @pexels</small>
 
 <aside class="notes">
-
-- DECIDE whether to change image and how to make caption visible
 
 </aside>
 
@@ -223,16 +230,17 @@ Lkshay Jain on @pexels
 
 <div class="r-stack">
   <img
-    class="fragment"
+    class="fragment fade-out"
+    data-fragment-index="0"
     src="/assets/images/slides/crossreads-requirements.png"
-    width="600"
+    style="width:300px"
     alt="CROSSREADS requirements"
 />
 
 <img
   class="fragment"
+  data-fragment-index="0"
   src="/assets/images/slides/crossreads-requirements1.jpg"
-  width="600"
   alt="CROSSREADS requirements table view"
 />
 
@@ -241,7 +249,6 @@ Lkshay Jain on @pexels
 <aside class="notes">
 
 - Requirements
-- CHECK PROBLEM with first image size and display of second image
 
 </aside>
 
@@ -249,7 +256,7 @@ Lkshay Jain on @pexels
 
 {% slide %}
 
-[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic000298) (not public yet)
+[Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic002945) ([public](https://corpus-building.kdl.kcl.ac.uk/inscription/ISic002945))
 
 <img class="fragment"
     src="/assets/images/slides/crossreads-petrography.png"
@@ -290,13 +297,15 @@ Lkshay Jain on @pexels
 
 ## Development & Innovation
 
-  <ul>
-    <li class="fragment"><a href="https://doi.org/10.5281/zenodo.3361579">Research Themes</a></li>
-  </ul>
+[Research Themes](https://kdl.kcl.ac.uk/projects/research-themes/)
+
+<img
+    src="/assets/images/slides/digital-creativity-rt.jpg"
+    style="width:700px"
+    alt="Digital Creativity research theme"
+/>
 
 <aside class="notes">
-
-- ADD image/s from research themes on the website?
 
 </aside>
 
@@ -304,11 +313,22 @@ Lkshay Jain on @pexels
 
 {% slide %}
 
-## Conference highlights?
+## Development & Innovation
+
+Interdisciplinary collaboration
+
+<img
+  class="fragment"
+  src="/assets/images/slides/venice-ithaca.webp"
+  alt="Itacha restoration example"
+/>
+<small>[Assael et al. 2022](https://doi.org/10.1038/s41586-022-04448-z)</small>
 
 <aside class="notes">
 
-- might take out if not needed
+- Note re AI/ML: importance for historians and other humanities researchers to engage in the use of AI / ML (including specific pipelines like the one tested for Ithaca)
+- Example from Ithaca https://github.com/google-deepmind/ithaca and in Nature https://www.nature.com/articles/s41586-022-04448-z
+- fig 1 Assael, Y., Sommerschield, T., Shillingford, B. et al. Restoring and attributing ancient texts using deep neural networks. Nature 603, 280–283 (2022). https://doi.org/10.1038/s41586-022-04448-z
 
 </aside>
 
@@ -319,7 +339,7 @@ Lkshay Jain on @pexels
 ## Reflections
 
   <ul>
-    <li class="fragment">Carreeer pipelines</li>
+    <li class="fragment">Careeer pipelines</li>
     <li class="fragment">Labour conditions</li>
     <li class="fragment">Research cultures</li>
     <li class="fragment">Communities</li>
@@ -330,9 +350,10 @@ Lkshay Jain on @pexels
 - it takes people and processes to sustain a research infrastructure
 - but also an adequate research culture
 - mention recent paper about reframing failure
-- re points 1 above: data, systems AND processes; design and analysis
-- re point 2: mention carreer pathways
-- re point 3: mention conservative / discriminatory academic cultures, promotion systems, evaluation frameworks, funding streams, attitues, behaviours
+- re point 1: data, systems AND processes; design and analysis - mention carreer pathways: "Mismatch between increasingly digital lifecycle of projects and the career pipelines that would provide the expertise to design, develop and maintain those lifecycles. This failure bears a question and a call for action addressed mainly to those who lead teaching and training programmes: are we working towards creating the profiles of the digital RTPs we need? DH could contribute quite substantially to shaping holistic and diverse profiles by giving weight not only to data and systems but to process-oriented teaching and training and by including design and analysis skills in education strategies."
+- re point 2: "Precarity of labour associated with technical roles. Here the overtly open critique is addressed to senior management of the higher education sector (a sector I am conscious I represent) as well as of comparable independent research organisations operating in the arts, humanities and cultural heritage research domains: can digital RTPs in these domains become more mainstream than a few laboratories and ad hoc figures with no defined roles and career progression? While we cannot compete with industry remunerations, benefits including inclusive and stimulating research environments, career paths and opportunities ought to be defined and offered systematically across institutions."
+- re point 3: mention conservative / discriminatory academic cultures, promotion systems, evaluation frameworks, funding streams, attitues, behaviours - "Outdated, if not discriminatory, research cultures that are unable or unwilling to value the integral role technical objects play in knowledge production and therefore to value complementary digital research outputs including software (Hidden REF n.d.; Tasovac et al. 2023; Ciula, Esposito and Wijaya 2024) and those experts that have an intimate knowledge of how these objects work or break (Smithies et al. 2023). This borderline discriminatory research culture goes beyond DH and is reflected in our academic promotions systems and evaluation frameworks but also in funding streams and, more subtly, yet with substantial implications, in attitudes, habits and behaviours."
+- re point 4: "Individualist research focus which discourages creative, responsible and collaborative re-use and reduces collective impact to unidirectional dissemination activities. Linked to the point above, this relates to the difficulty of reforming research and education environments to work with (and not only for) communities. Experts cognisant of the importance of participatory and imaginative design methods are needed to achieve this reform and ultimately contribute to living well with technology collectively."
 - ADD image?
 
 </aside>
