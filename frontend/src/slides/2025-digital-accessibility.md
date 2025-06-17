@@ -44,6 +44,21 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 
 {% slide %}
 
+## Structure
+
+- Introduction/Agenda (AE 2min)
+- Historical context (GN 3min)
+- Updated approach (GN 4min)
+- Strategy (GN 3min)
+- Process
+  - Overview (4 mins)
+  - Steps 1-4 (TO 12mins)
+- Questions
+
+{% endslide %}
+
+{% slide %}
+
 ## History
 
 - 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)

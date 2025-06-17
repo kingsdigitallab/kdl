@@ -745,7 +745,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -2457,7 +2457,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -3002,7 +3002,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -4401,7 +4401,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -5435,7 +5435,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -6483,6 +6483,49 @@
           "inOrganisation": null,
           "roleName": {
             "name": "Co-investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -8962,6 +9005,78 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "Archetype",
+            "alternateName": null,
+            "slug": "archetype",
+            "foundingDate": "2017-10-01",
+            "dissolutionDate": "2021-02-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Paradox of Medieval Scotland",
+            "alternateName": "PoMS",
+            "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
+            "foundingDate": "2007-08-01",
+            "dissolutionDate": "2010-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Glasgow"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of History"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Farm-level Interdisciplinary Approaches to Endemic Livestock Disease",
             "alternateName": "FIELD",
             "slug": "field",
@@ -8999,22 +9114,7 @@
         {
           "startDate": null,
           "endDate": null,
-          "inProject": {
-            "name": "Renaissance Skin",
-            "alternateName": "RENSKIN",
-            "slug": "renskin",
-            "foundingDate": "2017-05-23",
-            "dissolutionDate": "2017-11-30",
-            "department": [
-              {
-                "organisation_id": {
-                  "agent": {
-                    "name": "FAH Department of History"
-                  }
-                }
-              }
-            ]
-          },
+          "inProject": null,
           "inOrganisation": null,
           "roleName": {
             "name": "Research Software Designer"
@@ -12367,7 +12467,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -15631,7 +15731,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -17545,7 +17645,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -23891,7 +23991,7 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
-            "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+            "name": "Paradox of Medieval Scotland",
             "alternateName": "PoMS",
             "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
             "foundingDate": "2007-08-01",
@@ -24322,6 +24422,35 @@
                 "organisation_id": {
                   "agent": {
                     "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Archetype",
+            "alternateName": null,
+            "slug": "archetype",
+            "foundingDate": "2017-10-01",
+            "dissolutionDate": "2021-02-07",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
                   }
                 }
               }

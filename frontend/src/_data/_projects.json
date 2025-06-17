@@ -1744,6 +1744,19 @@
       },
       {
         "agent": {
+          "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
+          "name": "Ginestra Ferraro",
+          "slug": "ginestra-ferraro"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "5bf1df2a-6e51-4940-9036-f775a18528b0",
           "name": "Peter Stokes",
           "slug": "peter-stokes"
@@ -1767,6 +1780,19 @@
           "name": "RSE team member",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "e8dfa960-f00b-47be-af46-72c3bba91a82",
+          "name": "Tiffany Ong",
+          "slug": "tiffany-ong"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -14497,7 +14523,7 @@
     "dissolutionDate": "2010-12-31",
     "foundingDate": "2007-08-01",
     "id": "acc15c03-7abf-4479-b386-6303107b66c9",
-    "name": "Paradox of Medieval Scotland. Examining the roles and relationships of medieval Scottish society",
+    "name": "Paradox of Medieval Scotland",
     "slug": "paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society",
     "creativeWorkStatus": {
       "name": "Maintained",
@@ -14687,6 +14713,19 @@
       },
       {
         "agent": {
+          "id": "4d3ef644-a808-4b31-bd3f-851b1e0a37c8",
+          "name": "Elliott Hall",
+          "slug": "elliott-hall"
+        },
+        "roleName": {
+          "name": "Research Software Engineer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
+          }
+        }
+      },
+      {
+        "agent": {
           "id": "1ff39f3b-6779-4a1c-985f-9af092a13fb7",
           "name": "Beatriz Caballero",
           "slug": "beatriz-caballero"
@@ -14736,6 +14775,19 @@
           "name": "Researcher",
           "inDefinedTermSet": {
             "name": "Project roles"
+          }
+        }
+      },
+      {
+        "agent": {
+          "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
+          "name": "Ginestra Ferraro",
+          "slug": "ginestra-ferraro"
+        },
+        "roleName": {
+          "name": "Research Software Designer",
+          "inDefinedTermSet": {
+            "name": "Team roles"
           }
         }
       },
@@ -16670,20 +16722,6 @@
         "inOrganisation": null,
         "roleName": {
           "name": "Research Software Analyst",
-          "inDefinedTermSet": {
-            "name": "Team roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "f493bc76-d4ab-4be6-bab6-4bc18e0bd9d9",
-          "name": "Ginestra Ferraro",
-          "slug": "ginestra-ferraro"
-        },
-        "inOrganisation": null,
-        "roleName": {
-          "name": "Research Software Designer",
           "inDefinedTermSet": {
             "name": "Team roles"
           }
