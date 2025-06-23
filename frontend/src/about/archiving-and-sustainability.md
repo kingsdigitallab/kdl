@@ -138,6 +138,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [DigiPal](http://www.digipal.eu/)
 - [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html)
 - [Online Chopin](http://chopinonline.ac.uk/)
+- [Stormont Papers: 50 Years of Northern Ireland Parliamentary Debates Online (N.B. currently with a placeholder page)](http://stormontpapers.ahds.ac.uk/)
 
 ## Projects converted to static sites
 
@@ -234,7 +235,6 @@ The list of projects which have been minimally archived:
 - Promoting and Enhancing Reuse of Information through the Content Lifecycle taking account of Evolving Semantics
 - [SCRIBA](https://github.com/kingsdigitallab/archetype-scriba), Anar a cal notary a la Catalunya medieval
 - [Shipping Archives and Integrated Logbooks of Ships: Linking WW1 Naval Records](http://sailsproject.cerch.kcl.ac.uk/)
-- [Stormont Papers: 50 Years of Northern Ireland Parliamentary Debates Online](http://stormontpapers.ahds.ac.uk/)
 - Theoretical Roman Archaeology Conference 2013 was a duplicate of information included at: [http://trac.org.uk/](http://trac.org.uk/)
 - TEI2008 Conference; a copy can be found at: [https://www.tei-c.org/Vault/MembersMeetings/2008/cocoon/tei2008/](https://www.tei-c.org/Vault/MembersMeetings/2008/cocoon/tei2008/)
 - [UK Research Information Shared Service Project](http://ukriss.cerch.kcl.ac.uk/)
