@@ -31,6 +31,12 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Geoffroy Noël
+    slug: geoffroy-nol
+    roleName: Research Software Engineer
   - name: Julia Crick
     slug: julia-crick
     roleName: Principal investigator

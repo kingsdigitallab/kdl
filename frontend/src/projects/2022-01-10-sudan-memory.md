@@ -31,6 +31,12 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
   - name: Marilyn Deegan
     slug: marilyn-deegan
     roleName: Principal investigator

@@ -23,6 +23,30 @@ departments:
   - name: Oxford University
     slug: oxford-university
 members:
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Geoffroy Noël
+    slug: geoffroy-nol
+    roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Ryan Heuser
+    slug: ryan-heuser
+    roleName: Research Software Engineer
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Jonathan Prag
     slug: jonathan-prag
     roleName: Principal investigator

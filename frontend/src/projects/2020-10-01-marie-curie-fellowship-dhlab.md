@@ -32,6 +32,15 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: James Smithies
+    slug: james-smithies
+    roleName: Director
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
   - name: Urszula Pawlicka-Deger
     slug: urszula-pawlicka-deger
     roleName: Principal investigator

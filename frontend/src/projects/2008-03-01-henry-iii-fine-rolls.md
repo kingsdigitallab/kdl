@@ -31,6 +31,15 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
   - name: David Carpenter
     slug: david-carpenter
     roleName: Principal investigator

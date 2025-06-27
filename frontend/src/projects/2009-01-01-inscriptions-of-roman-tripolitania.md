@@ -29,6 +29,27 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software EngineerMiguel Vieira
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Reseearch Software Designer
+  - name: Florence du Pré
+    slug: florence-du-pr
+    roleName: Reseearch Software Project Manager
+  - name: Pamela Mellen
+    slug: pamela-mellen
+    roleName: Reseearch Software Project Manager
+  - name: Tim Watts
+    slug: tim-watts
+    roleName: Reseearch Software Systems Administrator
   - name: Charlotte Roueché
     slug: charlotte-rouech
     roleName: Principal investigator

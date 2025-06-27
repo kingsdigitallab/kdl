@@ -33,6 +33,9 @@ members:
   - name: Elliott Hall
     slug: elliott-hall
     roleName: Research Software Engineer
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
   - name: Charlotte Roueché
     slug: charlotte-rouech
     roleName: Principal investigator

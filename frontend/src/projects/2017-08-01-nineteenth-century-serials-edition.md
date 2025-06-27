@@ -30,6 +30,21 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
   - name: Laurel Brake
     slug: laurel-brake
     roleName: Principal investigator

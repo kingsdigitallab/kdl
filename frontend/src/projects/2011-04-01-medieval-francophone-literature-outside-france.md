@@ -29,6 +29,12 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
   - name: Simon Gaunt
     slug: simon-gaunt
     roleName: Principal investigator

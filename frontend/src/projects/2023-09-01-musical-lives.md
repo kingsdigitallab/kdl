@@ -28,6 +28,9 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
   - name: Emma Dillon
     slug: emma-dillon
     roleName: Principal investigator

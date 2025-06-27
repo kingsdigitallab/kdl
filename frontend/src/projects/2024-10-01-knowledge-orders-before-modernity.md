@@ -23,6 +23,15 @@ members:
   - name: Paul Caton
     slug: paul-caton
     roleName: Research Software Analyst
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
   - name: Julia Crick
     slug: julia-crick
     roleName: Principal investigator

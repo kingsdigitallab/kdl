@@ -37,6 +37,18 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Ryan Heuser
+    slug: ryan-heuser
+    roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Daniel Chavez Herras
     slug: daniel-chavez-herras
     roleName: Principal investigator

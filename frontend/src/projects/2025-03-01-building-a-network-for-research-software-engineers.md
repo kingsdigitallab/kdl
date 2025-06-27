@@ -26,6 +26,15 @@ members:
   - name: Mary Chester-Kadwell
     slug: mary-chester-kadwell
     roleName: Research Software Engineer
+  - name: Mary Chester-Kadwell
+    slug: mary-chester-kadwell
+    roleName: Research Software Engineer
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
   - name: Jost Migenda
     slug: jost-migenda
     roleName: Principal investigator

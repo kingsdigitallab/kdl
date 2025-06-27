@@ -21,6 +21,18 @@ departments:
   - name: University of Reading
     slug: university-of-reading
 members:
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Olga Loboda
+    slug: olga-loboda
+    roleName: Research Software Designer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Grace Ioppolo
     slug: grace-ioppolo
     roleName: Principal investigator

@@ -37,6 +37,18 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Lucie Mingmei Hao
+    slug: lucie-mingmei-hao
+    roleName: Research Software Designer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Jon Wilson
     slug: jon-wilson
     roleName: Principal investigator

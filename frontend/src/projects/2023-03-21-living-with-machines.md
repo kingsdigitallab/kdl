@@ -45,6 +45,15 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Ruth Ahnert
     slug: ruth-ahnert
     roleName: Principal investigator

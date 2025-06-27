@@ -39,6 +39,12 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Geoffroy Noël
+    slug: geoffroy-nol
+    roleName: Research Software Engineer
   - name: Erik Ketzan
     slug: erik-ketzan
     roleName: Principal investigator

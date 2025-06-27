@@ -77,6 +77,9 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
   - name: Jonathan Cooper
     slug: jonathan-cooper
     roleName: Principal investigator

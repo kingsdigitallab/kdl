@@ -30,6 +30,18 @@ members:
   - name: Elliott Hall
     slug: elliott-hall
     roleName: Research Software Engineer
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Research Software Engineer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
   - name: Janet Nelson
     slug: janet-nelson
     roleName: Principal investigator

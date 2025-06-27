@@ -29,6 +29,24 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Research Software Engineer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
   - name: Dauvit Broun
     slug: dauvit-broun
     roleName: Principal investigator

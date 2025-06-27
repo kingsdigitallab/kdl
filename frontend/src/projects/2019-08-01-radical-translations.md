@@ -34,6 +34,18 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Sanja Perovic
     slug: sanja-perovic
     roleName: Principal investigator

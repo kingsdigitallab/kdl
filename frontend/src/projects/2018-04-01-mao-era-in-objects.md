@@ -28,6 +28,18 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Olga Loboda
+    slug: olga-loboda
+    roleName: Research Software Designer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
   - name: Jennifer Altehenger
     slug: jennifer-altehenger
     roleName: Principal investigator
