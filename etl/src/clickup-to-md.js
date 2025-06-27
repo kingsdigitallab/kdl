@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const prettier = require("prettier");
 const fs = require("fs/promises");
 const axios = require("axios");
 const path = require("path");
@@ -191,7 +192,8 @@ class ClickUpToMarkdown {
 				existingContent ? existingContent.split("---")[2].trim() : "",
 			].join("\n");
 
-			await fs.writeFile(outputFile, content);
+			const formattedContent = await this.formatMarkdown(content);
+			await fs.writeFile(outputFile, formattedContent);
 		}
 	}
 
@@ -443,6 +445,29 @@ class ClickUpToMarkdown {
 
 	convertDate(timestamp) {
 		return new Date(parseInt(timestamp)).toISOString().split("T")[0];
+	}
+
+	/**
+	 * Format markdown content using Prettier
+	 * @param {string} content - Raw markdown content
+	 * @returns {string} Formatted markdown content
+	 */
+	async formatMarkdown(content) {
+		try {
+			// Get Prettier config from project root
+			const projectRoot = path.resolve(__dirname, "../..");
+			const config = await prettier.resolveConfig(projectRoot);
+
+			const formatted = prettier.format(content, {
+				...config,
+				parser: "markdown",
+			});
+			return formatted;
+		} catch (error) {
+			console.warn("Failed to format markdown with Prettier:", error.message);
+			// Return original content if formatting fails
+			return content;
+		}
 	}
 }
 
