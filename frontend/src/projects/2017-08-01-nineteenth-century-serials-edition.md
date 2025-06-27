@@ -7,7 +7,7 @@ alternateName: null
 slug: nineteenth-century-serials-edition
 foundingDate: 2017-08-01
 dissolutionDate: 2021-07-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/NCSE--Data viz.jpg
   title: null

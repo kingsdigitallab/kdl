@@ -7,7 +7,7 @@ alternateName: null
 slug: building-a-network-for-research-software-engineers
 foundingDate: 2025-03-01
 dissolutionDate: 2025-07-31
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 keywords: []
 funders:
   - name: KCL

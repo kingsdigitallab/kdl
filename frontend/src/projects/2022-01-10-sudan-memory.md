@@ -9,7 +9,7 @@ alternateName: null
 slug: sudan-memory
 foundingDate: 2022-01-10
 dissolutionDate: 2025-12-31
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 feature:
   image:
     /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat

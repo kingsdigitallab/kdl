@@ -9,7 +9,7 @@ alternateName: Radical Translations
 slug: radical-translations
 foundingDate: 2019-08-01
 dissolutionDate: 2024-03-22
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/1783 to 1807 timelines from France, Ireland,
     Italy, United Kingdom, and other countries, showing events, source texts &

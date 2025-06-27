@@ -7,7 +7,7 @@ alternateName: null
 slug: developing-digital-research-technical-professional-drtp-leaders
 foundingDate: 2025-04-01
 dissolutionDate: 2028-09-30
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 keywords:
   - name: DFI
     slug: dfi

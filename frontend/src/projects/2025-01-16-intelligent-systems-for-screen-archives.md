@@ -7,7 +7,7 @@ alternateName: null
 slug: intelligent-systems-for-screen-archives
 foundingDate: 2025-01-16
 dissolutionDate: 2027-04-30
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 keywords:
   - name: AI/ML
     slug: aiml

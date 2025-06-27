@@ -7,7 +7,7 @@ alternateName: null
 slug: social-dynamics-of-people-s-war
 foundingDate: 2024-01-01
 dissolutionDate: 2025-06-30
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/social_dynamics_chat_gpt.jpg
   title: Social Dynamics ChatGPT

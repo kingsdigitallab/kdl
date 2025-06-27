@@ -7,7 +7,7 @@ alternateName: null
 slug: living-with-machines
 foundingDate: 2023-03-21
 dissolutionDate: 2024-09-30
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/Living with Machines--Data viz.jpg
   title: null

@@ -9,7 +9,7 @@ alternateName: Exon Domesday
 slug: exon-domesday
 foundingDate: 2014-10-01
 dissolutionDate: 2017-12-01
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image:
     /assets/images/projects/Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire

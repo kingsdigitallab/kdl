@@ -7,7 +7,7 @@ alternateName: POMS
 slug: paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society
 foundingDate: 2007-08-01
 dissolutionDate: 2010-12-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/moray_Jq1m58g.original--Moray original map
     (detail).jpg

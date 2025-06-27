@@ -7,7 +7,7 @@ alternateName: null
 slug: knowledge-orders-before-modernity
 foundingDate: 2024-10-01
 dissolutionDate: 2032-08-31
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 keywords: []
 funders:
   - name: Leverhulme Trust

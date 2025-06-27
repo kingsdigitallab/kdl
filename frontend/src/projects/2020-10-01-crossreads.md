@@ -9,7 +9,7 @@ alternateName: null
 slug: crossreads
 foundingDate: 2020-10-01
 dissolutionDate: 2026-09-30
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/CROSSREADS_IMG-20220523-WA0011.webp
   title: Crossreads Img 20220523 W A0011

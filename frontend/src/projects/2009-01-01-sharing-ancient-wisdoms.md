@@ -7,7 +7,7 @@ alternateName: SAWS
 slug: sharing-ancient-wisdoms
 foundingDate: 2009-01-01
 dissolutionDate: 2013-12-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image:
     /assets/images/projects/SAW--Greek wise men debating, 13th Century Arabic

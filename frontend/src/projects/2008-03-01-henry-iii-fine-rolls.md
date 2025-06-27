@@ -7,7 +7,7 @@ alternateName: null
 slug: henry-iii-fine-rolls
 foundingDate: 2008-03-01
 dissolutionDate: 2011-12-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/Fine Roll 1246.jpg
   title: 31 HENRY III (October 1246 - October 1247) - TNA reference C 60/44,

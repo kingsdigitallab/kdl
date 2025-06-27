@@ -7,7 +7,7 @@ alternateName: null
 slug: age-c-ageing-and-gender-in-european-cinema
 foundingDate: 2025-03-03
 dissolutionDate: 2025-08-31
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 keywords: []
 funders:
   - name: Volkswagen Foundation

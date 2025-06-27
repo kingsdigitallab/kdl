@@ -7,7 +7,7 @@ alternateName: null
 slug: sculpting-time-with-computers
 foundingDate: 2024-05-15
 dissolutionDate: 2025-12-31
-creativeWorkStatus: Evolutionary development
+creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/Sculpting Time.jpg
   title: Part of automated analysis workflow on a scene from The Godfather (1972).

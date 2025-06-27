@@ -7,7 +7,7 @@ alternateName: MFLC
 slug: medieval-francophone-literature-outside-france
 foundingDate: 2011-04-01
 dissolutionDate: 2015-01-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/mflc.jpg
   title: null

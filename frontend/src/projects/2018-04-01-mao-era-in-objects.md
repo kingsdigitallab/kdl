@@ -7,7 +7,7 @@ alternateName: MAO
 slug: mao-era-in-objects
 foundingDate: 2018-04-01
 dissolutionDate: 2020-03-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/Mao Era--Mao Era in Objects home page picture
     grid.jpg
