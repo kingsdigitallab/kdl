@@ -122,9 +122,13 @@ layout: layouts/base.njk
         <h3>Keywords</h3>
         <ul>
           {% for keyword in obj.keywords %}
-            {% set keywordSlug = keyword | slugify %}
+            {% set themeExists = collections.theme | filter(keyword.slug, 'fileSlug') | first %}
             <li>
-              <a href="{% route keywordSlug, 'Research' %}">{{ keyword }}</a>
+              {% if themeExists %}
+                <a href="{% route keyword.slug, 'Research' %}">{{ keyword.name }}</a>
+              {% else %}
+                {{ keyword.name }}
+              {% endif %}
             </li>
           {% endfor %}
         </ul>
