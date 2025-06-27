@@ -7,7 +7,7 @@ alternateName: MFLC
 slug: medieval-francophone-literature-outside-france
 foundingDate: 2011-04-01
 dissolutionDate: 2015-01-31
-creativeWorkStatus: Maintained
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/mflc.jpg
   title: null
@@ -16,90 +16,62 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: Arts and Humanities Research Council
+  - name: AHRC
     slug: ahrc
-  - name: Faculty of Arts and Humanities
-    slug: faculty-of-arts-and-humanities
+  - name: KCL A&H
+    slug: kcl-ah
 departments:
-  - name: FAH Department of Languages, Literatures and Cultures
-    slug: fah-department-of-languages-literatures-and-cultures
-  - name: University of Cambridge
-    slug: cambridge
-  - name: University College London
-    slug: ucl
-  - name: FAH Department of Digital Humanities
-    slug: ddh
+  - name: Languages, Literatures and Cultures
+    slug: languages-literatures-and-cultures
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Paul Vetch
-    slug: paul-vetch
-    roleName: Co-investigator
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Simon Gaunt
+    slug: simon-gaunt
+    roleName: Principal investigator
     inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-  - name: Nicola Morato
-    slug: nicola-morata
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Principal investigator
+  - name: Huw Grange
+    slug: huw-grange
     roleName: Researcher
-    inOrganisation:
-      name: University of Cambridge
-      slug: cambridge
-  - name: Jane Gilbert
-    slug: jane-gilbert
-    roleName: Co-investigator
     inOrganisation:
       name: University College London
-      slug: ucl
-  - name: David Murray
-    slug: david-murray
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
+      slug: university-college-london
   - name: Dirk Schoenaers
     slug: dirk-schoenaers
     roleName: Researcher
     inOrganisation:
       name: University College London
-      slug: ucl
-  - name: Bill Burgwinkle
-    slug: bill-burgwinkle
-    roleName: Co-investigator
-    inOrganisation:
-      name: University of Cambridge
-      slug: cambridge
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Engineer
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
-  - name: Huw Grange
-    slug: huw-grange
+      slug: university-college-london
+  - name: Nicola Morato
+    slug: nicola-morato
     roleName: Researcher
     inOrganisation:
       name: University of Cambridge
-      slug: cambridge
-  - name: Ginestra Ferraro
-    slug: ginestra-ferraro
-    roleName: Research Software Designer
+      slug: university-of-cambridge
+  - name: David Murray
+    slug: david-murray
+    roleName: Researcher
     inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
-  - name: Charlotte Tupman
-    slug: charlotte-tupman
-    roleName: Co-investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-  - name: Simon Gaunt
-    slug: simon-gaunt
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
 keywords: []
 urls:
   - name: Project URL
     url: http://www.medievalfrancophone.ac.uk
   - name: UKRI URL
     url: https://gtr.ukri.org/projects?ref=AH%2FI000852%2F1
+sla:
+  start: 2015-04-01
+  end: 2025-04-07
 ---

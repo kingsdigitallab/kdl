@@ -16,74 +16,68 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: FAH King's Culture
-    slug: fah-king-s-culture
+  - name: KCL Culture
+    slug: kcl-culture
 departments:
-  - name: FAH King's Culture
-    slug: fah-king-s-culture
-  - name: Faculty of Natural, Mathematical & Engineering Sciences
-    slug: faculty-of-natural-mathematical-and-engineering-sciences
+  - name: Culture
+    slug: culture
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-    inOrganisation: null
   - name: Dan Walker
     slug: dan-walker
     roleName: Principal investigator
-    inOrganisation: null
-  - name: Alexandra Talbott
-    slug: alexandra-talbott
-    roleName: Researcher
-    inOrganisation: null
-  - name: Jansen Chipp
-    slug: jansen-chipp
-    roleName: Researcher
     inOrganisation:
-      name: Faculty of Natural, Mathematical & Engineering Sciences
-      slug: faculty-of-natural-mathematical-and-engineering-sciences
-  - name: Kai Essers
-    slug: kai-essers
-    roleName: Researcher
-    inOrganisation: null
-  - name: James Doeser
-    slug: james-doeser
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Culture, Media & Creative Industries
-      slug: fah-department-of-culture-media-and-creative-industries
-  - name: Geoffroy Noël
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Elizabeth Sklar
-    slug: elizabeth-sklar
-    roleName: Researcher
-    inOrganisation:
-      name: Faculty of Natural, Mathematical & Engineering Sciences
-      slug: faculty-of-natural-mathematical-and-engineering-sciences
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-    inOrganisation: null
-  - name: Anna Reading
-    slug: anna-reading
-    roleName: Partner
-    inOrganisation:
-      name: FAH Department of Culture, Media & Creative Industries
-      slug: fah-department-of-culture-media-and-creative-industries
+      name: King's Culture
+      slug: kings-culture
   - name: Ruth Hogarth
     slug: ruth-hogarth
     roleName: Principal investigator
     inOrganisation:
-      name: Queen Mary, University of London
-      slug: queen-mary-university-of-london
+      name: King's Culture
+      slug: kings-culture
+  - name: Elizabeth Sklar
+    slug: elizabeth-sklar
+    roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Natural
+      slug: faculty-of-natural
+  - name: Mathematical & Engineering Sciences]
+    slug: mathematical-engineering-sciences
+    roleName: Principal investigator
+  - name: Jansen Chipp
+    slug: jansen-chipp
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Kai Essers
+    slug: kai-essers
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Alexandra Talbott
+    slug: alexandra-talbott
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: James Doeser
+    slug: james-doeser
+    roleName: Researcher
+    inOrganisation:
+      name: King's Colleg London
+      slug: kings-colleg-london
 keywords: []
 urls:
   - name: Project URL
     url: https://culturecase.org/
   - name: "Repository: https://github.com/kingsdigitallab/culturecase-django/"
     url: https://github.com/kingsdigitallab/culturecase-django/
+sla:
+  start: null
+  end: null
 ---
 
 The CultureCase site is a legacy site, developed by a different design and development team. It is designed as a research resource for academic studies centred in the Arts and Culture sector. It contains synopses and reviews of current culture-related research articles, curated by academic and research staff affiliated with the King’s Culture Institute. CultureCase contains links to the articles it reviews, but it does not currently maintain an archive of those articles.

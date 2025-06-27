@@ -1,13 +1,13 @@
 ---
-title: Sculpting Time with Computers Proof of Concept
-name: Sculpting Time with Computers Proof of Concept
+title: Sculpting Time with Computers - Proof of Concept
+name: Sculpting Time with Computers - Proof of Concept
 tags:
   - projects
 alternateName: null
 slug: sculpting-time-with-computers
 foundingDate: 2024-05-15
 dissolutionDate: 2025-12-31
-creativeWorkStatus: Active
+creativeWorkStatus: Evolutionary development
 feature:
   image: /assets/images/projects/Sculpting Time.jpg
   title: Part of automated analysis workflow on a scene from The Godfather (1972).
@@ -16,48 +16,50 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: Digital Futures Institute
-    slug: digital-futures-institute
+  - name: KCL A&H
+    slug: kcl-ah
+  - name: KCL DFI
+    slug: kcl-dfi
 departments:
-  - name: FAH Department of Digital Humanities
-    slug: ddh
-  - name: Faculty of Natural, Mathematical & Engineering Sciences
-    slug: faculty-of-natural-mathematical-and-engineering-sciences
+  - name: Engineering
+    slug: engineering
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Ryan Heuser
-    slug: ryan-heuser
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Daniel Chavez Herras
-    slug: daniel-chavez-herras
-    roleName: Principal investigator
-    inOrganisation: null
-  - name: Geoffroy Noël
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Joshua Hodes
-    slug: joshua-hodes
-    roleName: Researcher
-    inOrganisation: null
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Zoran Cvetkovic
-    slug: zoran-cvetkovic
-    roleName: Co-investigator
-    inOrganisation: null
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software UI/UX Designer
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Daniel Chavez Herras
+    slug: daniel-chavez-herras
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Joshua Hodes
+    slug: joshua-hodes
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords:
-  - Machine Learning and AI
-  - Machine learning
-  - Media
-  - " Computer vision"
-  - Digital collection
-  - Digital tool creation
+  - name: AI/ML
+    slug: aiml
+  - name: DFI
+    slug: dfi
 urls:
   - name: Repository (related tool)
     url: https://github.com/kingsdigitallab/kdl-vqa
+sla:
+  start: null
+  end: null
 ---
 
 This project is part of wider research on computational modelling of audiovisual media and in particular of cinematic time aimed at gaining insights on how narrative mechanisms (e.g. continuity editing) relate to larger historical patterns (e.g. new cinematic genres and audiences).

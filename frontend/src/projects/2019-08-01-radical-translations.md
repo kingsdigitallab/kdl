@@ -1,14 +1,14 @@
 ---
 title: "Radical Translations: The Transfer of Revolutionary Culture between
-  Britain, France and Italy (1789-1815)  "
+  Britain, France and Italy"
 name: "Radical Translations: The Transfer of Revolutionary Culture between
-  Britain, France and Italy (1789-1815)  "
+  Britain, France and Italy"
 tags:
   - projects
 alternateName: Radical Translations
 slug: radical-translations
 foundingDate: 2019-08-01
-dissolutionDate: 2023-03-22
+dissolutionDate: 2024-03-22
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/1783 to 1807 timelines from France, Ireland,
@@ -20,79 +20,77 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: Arts and Humanities Research Council
+  - name: AHRC
     slug: ahrc
 departments:
-  - name: FAH Department of Languages, Literatures and Cultures
-    slug: fah-department-of-languages-literatures-and-cultures
-  - name: University of Milano-Bicocca
-    slug: university-of-milano-bicocca
+  - name: Languages, Literatures and Cultures
+    slug: languages-literatures-and-cultures
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Ginestra Ferraro
-    slug: ginestra-ferraro
-    roleName: Research Software Designer
-    inOrganisation: null
-  - name: Jacob McGuinn
-    slug: jacob-mcguinn
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Niccolò Valmori
-    slug: niccolo-valmori
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
-  - name: Erica Joy Mannucci
-    slug: erica-joy-mannucci
-    roleName: Co-investigator
-    inOrganisation:
-      name: University of Milano-Bicocca
-      slug: university-of-milano-bicocca
-  - name: Nigel Ritchie
-    slug: nigel-ritchie
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
-  - name: Rosa Mucignat
-    slug: rosa-mucignat
-    roleName: Co-investigator
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
   - name: Sanja Perovic
     slug: sanja-perovic
     roleName: Principal investigator
     inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Principal investigator
   - name: Brecht Deseure
     slug: brecht-deseure
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-    inOrganisation: null
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
+  - name: Niccolò Valmori
+    slug: niccol-valmori
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
   - name: Cristina Viti
     slug: cristina-viti
     roleName: Researcher
-    inOrganisation: null
+    inOrganisation:
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
+  - name: Nigel Ritchie
+    slug: nigel-ritchie
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
+  - name: Jacob McGuinn
+    slug: jacob-mcguinn
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Languages
+      slug: fah-department-of-languages
+  - name: Literatures and Cultures]
+    slug: literatures-and-cultures
+    roleName: Researcher
 keywords:
-  - Machine Learning and AI
-  - Data Visualisation
+  - name: AI/ML
+    slug: aiml
 urls:
   - name: Project URL
     url: https://radicaltranslations.org/
@@ -110,6 +108,9 @@ urls:
     url: https://observablehq.com/@jmiguelv/radical-translations-agents-network-visualisation?collection=@jmiguelv/radical-translations
   - name: Conference presentation
     url: https://kdl.kcl.ac.uk/slides/2024-lausagne-historical-networks-research/
+sla:
+  start: 2024-03-23
+  end: 2029-03-22
 ---
 
 Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815) is a collaboration between King’s Digital Lab

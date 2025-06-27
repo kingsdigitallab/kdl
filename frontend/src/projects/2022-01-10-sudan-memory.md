@@ -1,15 +1,15 @@
 ---
 title: A Partnership for Conserving and Promoting Sudanese Cultural and
-  Documentary Heritage
+  Documentary Heritage Sudan Memory
 name: A Partnership for Conserving and Promoting Sudanese Cultural and
-  Documentary Heritage
+  Documentary Heritage Sudan Memory
 tags:
   - projects
-alternateName: Sudan Memory
+alternateName: null
 slug: sudan-memory
 foundingDate: 2022-01-10
-dissolutionDate: null
-creativeWorkStatus: Active
+dissolutionDate: 2025-12-31
+creativeWorkStatus: Evolutionary development
 feature:
   image:
     /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat
@@ -23,53 +23,29 @@ funders:
   - name: British Council
     slug: british-council
 departments:
-  - name: Sudanese Association for Archiving Knowledge
-    slug: sudaak
-  - name: Africa City of Technology
-    slug: act
-  - name: National Records Office of Sudan
-    slug: national-records-office-of-sudan
-  - name: FAH Department of Digital Humanities
-    slug: ddh
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Mohamed Azrag Saeed
-    slug: mohamed-azrag-saeed
-    roleName: Partner
-    inOrganisation:
-      name: National Records Office of Sudan
-      slug: national-records-office-of-sudan
   - name: Samantha Callaghan
     slug: samantha-callaghan
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Ussama Abdelwahab Elrais
-    slug: ussama-abdelwahab-elrais
-    roleName: Partner
-    inOrganisation:
-      name: Africa City of Technology
-      slug: act
+    roleName: Research Software Analyst
   - name: Marilyn Deegan
     slug: marilyn-deegan
     roleName: Principal investigator
-    inOrganisation: null
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Badreldin Elhag Musa
-    slug: badreldin-elhag-musa
-    roleName: Partner
     inOrganisation:
-      name: Sudanese Association for Archiving Knowledge
-      slug: sudaak
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords:
-  - Library and Information Studies
-  - Digital collection
-  - Digitization
-  - Indigenous Digital Humanities
+  - name: Indigenous DH
+    slug: indigenous-dh
 urls:
   - name: Project URL
     url: https://www.sudanmemory.org/
+sla:
+  start: null
+  end: null
 ---
 
 The Sudan Memory project seeks to conserve and promote valuable cultural materials from and about Sudan through digitisation and via [an online platform](https://www.sudanmemory.org/). Throughout the country, many interesting and rich archives are at risk for a number of reasons: extreme weather conditions, lack of appropriate storage conditions, neglect and conflict. Many public and private collections are also locked away and not easily accessible.

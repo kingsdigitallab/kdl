@@ -9,7 +9,7 @@ alternateName: Exon Domesday
 slug: exon-domesday
 foundingDate: 2014-10-01
 dissolutionDate: 2017-12-01
-creativeWorkStatus: Maintained
+creativeWorkStatus: Post-project
 feature:
   image:
     /assets/images/projects/Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire
@@ -21,46 +21,40 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: Arts and Humanities Research Council
+  - name: KCL A&H
+    slug: kcl-ah
+  - name: AHRC
     slug: ahrc
-  - name: Faculty of Arts and Humanities
-    slug: faculty-of-arts-and-humanities
 departments:
-  - name: FAH Department of History
-    slug: fah-department-of-history
+  - name: History
+    slug: history
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Chris Lewis
-    slug: chris-lewis
-    roleName: Researcher
-    inOrganisation: null
   - name: Julia Crick
     slug: julia-crick
     roleName: Principal investigator
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
-  - name: Geoffroy Noël
-    slug: geoffroy-noel
-    roleName: RSE team member
-    inOrganisation: null
   - name: Francisco Álvarez López
-    slug: francisco-alvarez-lopez
+    slug: francisco-lvarez-lpez
     roleName: Researcher
-    inOrganisation: null
-  - name: Stephen Baxter
-    slug: stephen-baxter
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Chris Lewis
+    slug: chris-lewis
     roleName: Researcher
-    inOrganisation: null
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Frank Thorn
     slug: frank-thorn
     roleName: Researcher
-    inOrganisation: null
-  - name: Peter Stokes
-    slug: peter-stokes
-    roleName: Researcher
     inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
+      name: FAH Department of History
+      slug: fah-department-of-history
 keywords: []
 urls:
   - name: Project URL
@@ -69,6 +63,9 @@ urls:
     url: https://github.com/kingsdigitallab/exon
   - name: UKRI URL
     url: https://gtr.ukri.org/projects?ref=AH%2FL013975%2F1
+sla:
+  start: 2022-10-01
+  end: 2028-11-30
 ---
 
 The aim of this project was to publish the contents of the Exon Domesday Book for the first time and to unlock the evidence which the book contains for the conduct of the Domesday survey (1086) at both local and central level.

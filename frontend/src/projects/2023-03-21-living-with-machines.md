@@ -3,10 +3,10 @@ title: Living with Machines
 name: Living with Machines
 tags:
   - projects
-alternateName: LwM
+alternateName: null
 slug: living-with-machines
-foundingDate: 2023-03-01
-dissolutionDate: 2023-12-31
+foundingDate: 2023-03-21
+dissolutionDate: 2024-09-30
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/Living with Machines--Data viz.jpg
@@ -16,56 +16,56 @@ feature:
     circles in orange and blue on a dark background.
   width: 1200
   height: 800
+keywords:
+  - name: AI/ML
+    slug: aiml
+  - name: Data Visualisation
+    slug: data-visualisation
 funders:
-  - name: Arts and Humanities Research Council
-    slug: ahrc
+  - name: UKRI
+    slug: ukri
 departments:
-  - name: Queen Mary, University of London
-    slug: queen-mary-university-of-london
-  - name: FAH Department of Digital Humanities
-    slug: ddh
-  - name: The British Library
-    slug: the-british-library
-  - name: The Alan Turing Institute
-    slug: the-alan-turing-institute
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: Alan Turing Institute
+    slug: alan-turing-institute
+  - name: King's College, London
+    slug: kings-college-london
+  - name: British Library
+    slug: british-library
+  - name: Queen Mary University
+    slug: queen-mary-university
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Nilo Pedrazzini
-    slug: nilo-pedrazzini
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Ruth Ahnert
-    slug: ruth-ahnert
-    roleName: Principal investigator
-    inOrganisation: null
-  - name: Barbara McGillivray
-    slug: barbara-mc-gillivray
-    roleName: Co-investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-  - name: Mia Ridge
-    slug: mia-ridge
-    roleName: Co-investigator
-    inOrganisation: null
-  - name: Kalle Westerling
-    slug: kalle-westerling
-    roleName: Research Software Engineer
-    inOrganisation: null
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software UI/UX Designer
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-    inOrganisation: null
-keywords:
-  - Machine Learning and AI
-  - Data Visualisation
+  - name: Ruth Ahnert
+    slug: ruth-ahnert
+    roleName: Principal investigator
+    inOrganisation:
+      name: Queen Mary University
+      slug: queen-mary-university
+  - name: Nilo Pedrazzini
+    slug: nilo-pedrazzini
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Kalle Westerling
+    slug: kalle-westerling
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+sla:
+  start: 2023-09-01
+  end: 2023-12-31
 urls:
   - name: Repository
     url: https://github.com/kingsdigitallab/lwm-davizct/

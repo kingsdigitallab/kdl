@@ -7,7 +7,7 @@ alternateName: null
 slug: social-dynamics-of-people-s-war
 foundingDate: 2024-01-01
 dissolutionDate: 2025-06-30
-creativeWorkStatus: Active
+creativeWorkStatus: Evolutionary development
 feature:
   image: /assets/images/projects/social_dynamics_chat_gpt.jpg
   title: Social Dynamics ChatGPT
@@ -20,38 +20,35 @@ funders:
   - name: National Army Museum
     slug: national-army-museum
 departments:
-  - name: Defense Studies
-    slug: defense-studies
+  - name: Defence Studies
+    slug: defence-studies
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Zihao Lu
-    slug: zihao-lu
-    roleName: Research Software Designer
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software UI/UX Designer
   - name: Mary Chester-Kadwell
     slug: mary-chester-kadwell
     roleName: Research Software Engineer
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
   - name: Jonathan Fennell
     slug: jonathan-fennell
     roleName: Principal investigator
     inOrganisation:
-      name: Defense Studies
-      slug: defense-studies
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
 keywords:
-  - Machine Learning and AI
+  - name: AI/ML
+    slug: aiml
 urls:
   - name: Repository (related tool)
     url: https://github.com/kingsdigitallab/kdl-vqa
+sla:
+  start: null
+  end: null
 ---
 
 KDL's role in this pilot project explores pipelines for extracting information efficiently from the huge diversity of military records, mostly handwritten, that reside in various states of digitisation throughout collections in the Commonwealth and beyond. Focusing on material related to the Second World War, the project aims to enrich the understanding of that conflict through the lens of the social demographic profiles of the people who fought and served in it. As part of the groundwork for developing a methodology to tackle this challenge, we are using the most recent Visual Language Models (VLMs) to extract structured data and to refine workflows for quality control.

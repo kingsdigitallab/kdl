@@ -6,7 +6,7 @@ tags:
 alternateName: null
 slug: king-s-past
 foundingDate: 2023-06-30
-dissolutionDate: 2024-10-31
+dissolutionDate: 2025-01-31
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/King's Past.jpg
@@ -18,28 +18,51 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: King's College London
-    slug: kings-college-london
-  - name: KCL Global Culture Institute
-    slug: kcl-global-culture-institute
+  - name: KCL
+    slug: kcl
+  - name: KCL Global Cultures Institute
+    slug: kcl-global-cultures-institute
 departments:
-  - name: FAH Department of History
-    slug: fah-department-of-history
+  - name: History
+    slug: history
+  - name: King's College, London
+    slug: kings-college-london
 members:
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software UI/UX Designer
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Jon Wilson
+    slug: jon-wilson
+    roleName: Principal investigator
     inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
-  - name: Lucie Mingmei Hao
-    slug: lucie-mingmei-hao
-    roleName: Research Software Designer
+      name: FAH Department of History; Hannah Dawson
+      slug: fah-department-of-history-hannah-dawson
+  - name: Jonah Milller
+    slug: jonah-milller
+    roleName: Researcher
     inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Chris Jeppeson
     slug: chris-jeppeson
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Érika Melek Delgado
+    slug: rika-melek-delgado
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Gillian Lamb
+    slug: gillian-lamb
     roleName: Researcher
     inOrganisation:
       name: FAH Department of History
@@ -50,50 +73,15 @@ members:
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
-  - name: Samantha Callaghan
-    slug: samantha-callaghan
-    roleName: Research Software Analyst
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
-  - name: Gillian Lamb
-    slug: gillian-lamb
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
   - name: Vincent Hiribarren
     slug: vincent-hiribarren
     roleName: Researcher
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
-  - name: Jonah Miller
-    slug: jonah-miller
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-    inOrganisation:
-      name: King's Digital Lab
-      slug: kdl
-  - name: Jon Wilson
-    slug: jon-wilson
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-  - name: Érika Melek Delgado
-    slug: erika-melek-delgado
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
 keywords:
-  - Indigenous Digital Humanities
+  - name: Indigenous DH
+    slug: indigenous-dh
 urls:
   - name: Project URL
     url: https://kingspast.kcl.ac.uk/
@@ -103,6 +91,9 @@ urls:
     url: https://kingspast.kcl.ac.uk/about/demonumenta
   - name: College Project Page URL
     url: https://www.kcl.ac.uk/news/new-interactive-platform-explores-kings-history-and-future
+sla:
+  start: null
+  end: null
 ---
 
 The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding.

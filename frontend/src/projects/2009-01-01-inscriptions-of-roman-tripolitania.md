@@ -1,13 +1,13 @@
 ---
-title: Inscriptions of Roman Tripolitania
-name: Inscriptions of Roman Tripolitania
+title: Inscriptions of Roman Tripolitania 2021
+name: Inscriptions of Roman Tripolitania 2021
 tags:
   - projects
 alternateName: IRT
 slug: inscriptions-of-roman-tripolitania
 foundingDate: 2009-01-01
 dissolutionDate: 2021-12-31
-creativeWorkStatus: Maintained
+creativeWorkStatus: Post-project
 feature:
   image:
     /assets/images/projects/IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR
@@ -21,68 +21,34 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: Leverhulme Trust
-    slug: leverhulme-trust
-  - name: National Endowment for the Humanities
-    slug: neh
-  - name: JISC
-    slug: jisc
   - name: Society for Libyan Studies
     slug: society-for-libyan-studies
 departments:
-  - name: FAH Department of Classics
-    slug: fah-department-of-classics
+  - name: Classics
+    slug: classics
+  - name: King's College, London
+    slug: kings-college-london
 members:
+  - name: Charlotte Roueché
+    slug: charlotte-rouech
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
   - name: Hafed Walda
     slug: hafed-walda
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Classics
       slug: fah-department-of-classics
-  - name: Charlotte Roueché
-    slug: charlotte-roueche
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Classics
-      slug: fah-department-of-classics
-  - name: Brian Maher
-    slug: brian-maher
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Irene Vagionakis
-    slug: irene-vagionakis
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Classics
-      slug: fah-department-of-classics
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Ginestra Ferraro
-    slug: ginestra-ferraro
-    roleName: Research Software Designer
-    inOrganisation: null
-  - name: Tom Elliott
-    slug: tom-elliott
-    roleName: Researcher
-    inOrganisation:
-      name: New York University
-      slug: nyu
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
-    inOrganisation: null
-  - name: Florence du Pré
-    slug: florence-du-pre
-    roleName: Research Software Project Manager
-    inOrganisation: null
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-    inOrganisation: null
   - name: Gabriel Bodard
     slug: gabriel-bodard
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
+  - name: Tom Elliott
+    slug: tom-elliott
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Classics
@@ -91,26 +57,21 @@ members:
     slug: joyce-reynolds
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Classics
-      slug: fah-department-of-classics
-  - name: Pam Mellen
-    slug: pam-mellen
-    roleName: Research Software Lab Manager
-    inOrganisation: null
-  - name: Tim Watts
-    slug: tim-watts
-    roleName: Research Software Systems Administrator
-    inOrganisation: null
+      name: University of Cambridge
+      slug: university-of-cambridge
   - name: Caroline Barron
     slug: caroline-barron
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Classics
       slug: fah-department-of-classics
-keywords:
-  - Digital collection
-  - Digital edition
-  - Classics
+  - name: Irene Vagionakis
+    slug: irene-vagionakis
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
+keywords: []
 urls:
   - name: Project URL 2021
     url: https://irt2021.inslib.kcl.ac.uk/en/
@@ -122,6 +83,9 @@ urls:
     url: https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275
   - name: Online exhibition
     url: https://ipervisions.digitalcollections.bsr.ac.uk/irt/
+sla:
+  start: null
+  end: null
 ---
 
 The first corpus of Roman inscriptions from Tripolitania (today Wester Lybia) was published by Joyce Reynolds in 1952. In 2009 she worked with Gabriel Bodard, Tom Elliott, Charlotte Roueché and Hafed Walda to republish that volume - with some 20 more texts - in digital form, with translations and full illustration. King's Digital Lab archived that site and still hosts it in static form.

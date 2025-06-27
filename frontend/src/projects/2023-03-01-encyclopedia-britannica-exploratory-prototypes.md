@@ -1,13 +1,13 @@
 ---
-title: Encyclopedia Britannica Exploratory Prototypes
-name: Encyclopedia Britannica Exploratory Prototypes
+title: Computing Britannica
+name: Computing Britannica
 tags:
   - projects
-alternateName: Encyclopedia Britannica
+alternateName: null
 slug: encyclopedia-britannica-exploratory-prototypes
-foundingDate: 2023-04-13
-dissolutionDate: 2023-07-24
-creativeWorkStatus: Active
+foundingDate: 2023-03-01
+dissolutionDate: 2024-03-31
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/Encyclopedia
     Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
@@ -17,36 +17,49 @@ feature:
     striking pattern of curved, layered lines in warm tones.
   width: 1200
   height: 800
-funders: []
+keywords:
+  - name: AI/ML
+    slug: aiml
+  - name: DFI
+    slug: dfi
+funders:
+  - name: KCL A&H
+    slug: kcl-ah
 departments:
-  - name: Faculty of Arts and Humanities
-    slug: faculty-of-arts-and-humanities
-  - name: Digital Futures Institute
-    slug: digital-futures-institute
-  - name: FAH Department of English
-    slug: fah-department-of-english
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: Temple University
+    slug: temple-university
 members:
-  - name: Geoffroy Noël
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-    inOrganisation: null
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-    inOrganisation: null
-  - name: Marion Thain
-    slug: marion-thain
-    roleName: Researcher
-    inOrganisation: null
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Erik Ketzan
+    slug: erik-ketzan
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Peter Logan
     slug: peter-logan
     roleName: Principal investigator
-    inOrganisation: null
-keywords:
-  - Machine Learning and AI
-  - History
-  - Linguistics
-  - Languages and Literature
+    inOrganisation:
+      name: Temple University
+      slug: temple-university
+  - name: Marion Thain
+    slug: marion-thain
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of English
+      slug: fah-department-of-english
+sla:
+  start: null
+  end: null
 urls:
   - name: Project URL
     url: https://kingsdigitallab.github.io/eb-pre/

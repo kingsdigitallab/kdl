@@ -5,7 +5,7 @@ name: "Digital Humanities Laboratory: Studying the Entanglement of
   Infrastructure and Technology in Knowledge Production"
 tags:
   - projects
-alternateName: "Marie Curie Fellowship: DHLab"
+alternateName: null
 slug: marie-curie-fellowship-dhlab
 foundingDate: 2020-10-01
 dissolutionDate: 2023-03-17
@@ -22,38 +22,31 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: European Commission
-    slug: european-commission
+  - name: ERC
+    slug: erc
 departments:
-  - name: FAH Department of Digital Humanities
-    slug: ddh
   - name: King's Digital Lab
-    slug: kdl
-  - name: Aalto University
-    slug: aalto-university
+    slug: kings-digital-lab
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
 members:
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Researcher
-    inOrganisation: null
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: RSE team member
-    inOrganisation: null
   - name: Urszula Pawlicka-Deger
     slug: urszula-pawlicka-deger
     roleName: Principal investigator
-    inOrganisation: null
-  - name: James Smithies
-    slug: james-smithies
-    roleName: Researcher
-    inOrganisation: null
+    inOrganisation:
+      name: KDL
+      slug: kdl
 keywords: []
 urls:
   - name: Project URL
     url: https://dhinfra-org.github.io/
   - name: European Commission URL
     url: https://cordis.europa.eu/project/id/891155
+sla:
+  start: null
+  end: null
 ---
 
 DHLab was a Marie Skłodowska-Curie project conducted by Dr Urszula Pawlicka-Deger. The research aimed to provide a critical analysis of digital humanities working practices in a laboratory environment and infrastructural influences on knowledge production. The study was drawn on an empirical investigation of laboratory practices in digital humanities by merging various ethnographic methods.

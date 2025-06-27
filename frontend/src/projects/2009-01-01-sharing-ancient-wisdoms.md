@@ -7,7 +7,7 @@ alternateName: SAWS
 slug: sharing-ancient-wisdoms
 foundingDate: 2009-01-01
 dissolutionDate: 2013-12-31
-creativeWorkStatus: Maintained
+creativeWorkStatus: Post-project
 feature:
   image:
     /assets/images/projects/SAW--Greek wise men debating, 13th Century Arabic
@@ -18,89 +18,64 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: European Research Council
+  - name: KCL A&H
+    slug: kcl-ah
+  - name: ERC
     slug: erc
-  - name: Faculty of Arts and Humanities
-    slug: faculty-of-arts-and-humanities
 departments:
-  - name: FAH Department of Classics
-    slug: fah-department-of-classics
-  - name: FAH Department of Digital Humanities
-    slug: ddh
-  - name: Newman Institute Uppsala
-    slug: newman-institute-uppsala
-  - name: University of Vienna
-    slug: university-of-vienna
+  - name: Classics
+    slug: classics
+  - name: Digital Humanities
+    slug: digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
 members:
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Research Software Engineer
   - name: Charlotte Roueché
-    slug: charlotte-roueche
+    slug: charlotte-rouech
     roleName: Principal investigator
-    inOrganisation: null
-  - name: Faith Lawrence
-    slug: faith-lawrence
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Lorenz Nigst
-    slug: lorenz-nigst
-    roleName: Researcher
-    inOrganisation: null
-  - name: Elvira Wakelnig
-    slug: elvira-wakelnig
-    roleName: Researcher
     inOrganisation:
-      name: University of Vienna
-      slug: university-of-vienna
-  - name: Stuart Dunn
-    slug: stuart-dunn
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Denis Searby
-    slug: denis-searby
-    roleName: Researcher
-    inOrganisation:
-      name: Newman Institute Uppsala
-      slug: newman-institute-uppsala
-  - name: Pontus Österdahl
-    slug: pontus-osterdahl
-    roleName: Researcher
-    inOrganisation: null
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
   - name: Mark Hedges
     slug: mark-hedges
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Måns Bylund
-    slug: mans-bylund
-    roleName: Researcher
-    inOrganisation: null
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Anna Jordanous
     slug: anna-jordanous
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Christoph Storz
-    slug: christoph-storz
-    roleName: Researcher
-    inOrganisation: null
-  - name: Charlotte Tupman
-    slug: charlotte-tupman
-    roleName: RSE team member
-    inOrganisation: null
-  - name: Stephan Procházka
-    slug: stephan-prochazka
     roleName: Researcher
     inOrganisation:
-      name: University of Vienna
-      slug: university-of-vienna
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Charlotte Tupman
+    slug: charlotte-tupman
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Faith Lawrence
+    slug: faith-lawrence
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Keith Lawrence
     slug: keith-lawrence
-    roleName: RSE team member
-    inOrganisation: null
-keywords:
-  - History
-  - Cultural and Museum Studies
-  - Languages and Literature
-  - Classics
-  - Digital edition
-  - Digital tool creation
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Stuart Dunn
+    slug: stuart-dunn
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+keywords: []
 urls:
   - name: Project URL
     url: https://ancientwisdoms.ac.uk/
@@ -108,6 +83,9 @@ urls:
     url: https://cordis.europa.eu/project/id/235366/reporting
   - name: Data deposit repository
     url: https://doi.org/10.18742/c.7638260
+sla:
+  start: 2022-08-08
+  end: 2027-10-07
 ---
 
 The aim of the project was to explore the use of digital tools to examine, and to represent, shared ideas, concepts, axioms and apophthegms in various cultures with a focus on the Byzantine Greek and medieval Arabic worlds, looking at the transmission of such materials, largely drawn from the Classical Greek world.
