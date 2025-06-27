@@ -292,6 +292,27 @@ class ClickUpToMarkdown {
 			}
 		}
 
+		const kdlStaffField = data.custom_fields.find(
+			(field) => field.name === "KDL staff",
+		);
+
+		if (kdlStaffField && kdlStaffField.value) {
+			kdlStaffField.value
+				.split(",")
+				.filter((staff) => staff.trim())
+				.forEach((staff) => {
+					const [name, roleName] = staff.split("[");
+
+					const member = {
+						name: name.trim(),
+						slug: this.slugify(name.trim()),
+						roleName,
+					};
+
+					members.push(member);
+				});
+		}
+
 		const plField = data.custom_fields.find((field) => field.name === "PL");
 
 		if (plField && plField.value) {
