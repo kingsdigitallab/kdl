@@ -301,8 +301,9 @@ class ClickUpToMarkdown {
 				.split(",")
 				.filter((staff) => staff.trim())
 				.forEach((staff) => {
-					const [name, roleName] = staff.split("[");
+					const [name, role] = staff.split("[");
 
+					const roleName = role.trim().replace("]", "");
 					const member = {
 						name: name.trim(),
 						slug: this.slugify(name.trim()),
