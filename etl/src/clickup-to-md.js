@@ -92,7 +92,7 @@ class ClickUpToMarkdown {
 
 			const acronymMatch = name.match(/\(([^)]+)\)$/);
 			if (acronymMatch) {
-				name = name.replace(acronymMatch[0], "");
+				name = name.replace(acronymMatch[0], "").trim();
 			}
 
 			console.log(`Processing: ${name}`);
