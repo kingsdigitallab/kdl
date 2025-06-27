@@ -87,8 +87,13 @@ class ClickUpToMarkdown {
 		const spaces = data.spaces;
 
 		for (const project of projects) {
-			const name =
+			let name =
 				this.getCustomFieldValue(project, "Project name") || project.name;
+
+			const acronymMatch = name.match(/\(([^)]+)\)$/);
+			if (acronymMatch) {
+				name = name.replace(acronymMatch[0], "");
+			}
 
 			console.log(`Processing: ${name}`);
 			let slug = this.getCustomFieldValue(project, "Slug");
