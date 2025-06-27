@@ -139,6 +139,18 @@ class ClickUpToMarkdown {
 				}
 			}
 
+			const spaceStatus = spaces.find(
+				(space) => space.id === project.space.id,
+			)?.name;
+
+			const sla = this.getSLADates(project);
+
+			const creativeWorkStatus = sla.start
+				? "Maintained"
+				: spaceStatus.toLowerCase() === "post-project"
+					? spaceStatus
+					: "Active";
+
 			const frontmatter = {
 				...existingFrontmatter,
 				title: name,
@@ -150,14 +162,12 @@ class ClickUpToMarkdown {
 				dissolutionDate: this.convertDate(
 					this.getCustomFieldValue(project, "Project end date"),
 				),
-				creativeWorkStatus: spaces.find(
-					(space) => space.id === project.space.id,
-				)?.name,
+				creativeWorkStatus,
 				keywords: this.getKeywords(project),
 				funders: this.getFunders(project),
 				departments: this.getDepartments(project),
 				members: this.getMembers(project),
-				sla: this.getSLADates(project),
+				sla,
 			};
 
 			const urls = this.getUrls(project);
