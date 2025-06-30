@@ -34,12 +34,6 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
   - name: Ginestra Ferraro
     slug: ginestra-ferraro
     roleName: Research Software Designer
@@ -70,36 +64,24 @@ members:
     inOrganisation:
       name: FAH Department of Languages
       slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
   - name: Cristina Viti
     slug: cristina-viti
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Languages
       slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
   - name: Nigel Ritchie
     slug: nigel-ritchie
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Languages
       slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
   - name: Jacob McGuinn
     slug: jacob-mcguinn
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Languages
       slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai

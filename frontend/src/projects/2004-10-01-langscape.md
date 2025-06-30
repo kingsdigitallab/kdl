@@ -33,9 +33,6 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
-  - name: Elliott Hall
-    slug: elliott-hall
-    roleName: Research Software Engineer
   - name: Paul Caton
     slug: paul-caton
     roleName: Research Software Analyst

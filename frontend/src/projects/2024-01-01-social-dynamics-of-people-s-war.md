@@ -34,12 +34,6 @@ members:
   - name: Mary Chester-Kadwell
     slug: mary-chester-kadwell
     roleName: Research Software Engineer
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Analyst
-  - name: Mary Chester-Kadwell
-    slug: mary-chester-kadwell
-    roleName: Research Software Engineer
   - name: Zihao Lu
     slug: zihao-lu
     roleName: Research Software Designer

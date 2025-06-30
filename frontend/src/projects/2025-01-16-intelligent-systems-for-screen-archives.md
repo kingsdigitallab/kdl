@@ -31,12 +31,6 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-  - name: Geoffroy Noel
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer

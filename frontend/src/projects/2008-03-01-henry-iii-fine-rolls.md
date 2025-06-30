@@ -82,12 +82,6 @@ members:
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
-  - name: Richard Palmer
-    slug: richard-palmer
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
   - name: Paul Spence
     slug: paul-spence
     roleName: Researcher

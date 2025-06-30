@@ -75,9 +75,6 @@ members:
     inOrganisation:
       name: Birkbeck
       slug: birkbeck
-  - name: University of London]
-    slug: university-of-london
-    roleName: Researcher
 keywords:
   - name: Data Visualisation
     slug: data-visualisation
