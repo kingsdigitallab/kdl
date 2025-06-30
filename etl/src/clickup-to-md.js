@@ -438,8 +438,8 @@ class ClickUpToMarkdown {
 		if (!urlFields) return [];
 
 		return urlFields.map((field) => ({
-			name: field.name,
-			url: field.value,
+			name: field.name.trim(),
+			url: field.value.trim(),
 		}));
 	}
 
