@@ -372,7 +372,14 @@ class ClickUpToMarkdown {
 				});
 		}
 
-		return members;
+		return members.filter((member, index, self) => {
+			return (
+				index ===
+				self.findIndex(
+					(t) => t.slug === member.slug && t.roleName === member.roleName,
+				)
+			);
+		});
 	}
 
 	/**
