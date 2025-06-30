@@ -50,8 +50,8 @@ members:
       name: Faculty of Social Science & Public Policy
       slug: faculty-of-social-science-public-policy
 keywords:
-  - name: AI/ML
-    slug: aiml
+  - name: Machine Learning, AI
+    slug: machine-learning-ai
 urls:
   - name: Repository (related tool)
     url: https://github.com/kingsdigitallab/kdl-vqa

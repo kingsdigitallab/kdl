@@ -17,8 +17,8 @@ feature:
   width: 1200
   height: 800
 keywords:
-  - name: AI/ML
-    slug: aiml
+  - name: Machine Learning, AI
+    slug: machine-learning-ai
   - name: Data Visualisation
     slug: data-visualisation
 funders:

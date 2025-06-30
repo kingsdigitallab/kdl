@@ -101,8 +101,8 @@ members:
     slug: literatures-and-cultures
     roleName: Researcher
 keywords:
-  - name: AI/ML
-    slug: aiml
+  - name: Machine Learning, AI
+    slug: machine-learning-ai
 urls:
   - name: Project URL
     url: https://radicaltranslations.org/

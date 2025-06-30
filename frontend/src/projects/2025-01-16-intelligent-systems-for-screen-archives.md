@@ -9,8 +9,8 @@ foundingDate: 2025-01-16
 dissolutionDate: 2027-04-30
 creativeWorkStatus: Active
 keywords:
-  - name: AI/ML
-    slug: aiml
+  - name: Machine Learning, AI
+    slug: machine-learning-ai
   - name: DFI
     slug: dfi
 funders:

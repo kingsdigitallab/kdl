@@ -44,8 +44,8 @@ members:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
 keywords:
-  - name: Indigenous DH
-    slug: indigenous-dh
+  - name: Indigenous Digital Humanities
+    slug: indigenous-digital-humanities
 urls:
   - name: Project URL
     url: https://www.sudanmemory.org/

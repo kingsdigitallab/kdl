@@ -92,8 +92,8 @@ members:
       name: FAH Department of History
       slug: fah-department-of-history
 keywords:
-  - name: Indigenous DH
-    slug: indigenous-dh
+  - name: Indigenous Digital Humanities
+    slug: indigenous-digital-humanities
 urls:
   - name: Project URL
     url: https://kingspast.kcl.ac.uk/
