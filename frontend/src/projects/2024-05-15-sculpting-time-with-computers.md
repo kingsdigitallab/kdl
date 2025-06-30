@@ -62,7 +62,7 @@ members:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
 keywords:
-  - name: Machine Learning, AI
+  - name: Machine Learning and AI
     slug: machine-learning-ai
   - name: DFI
     slug: dfi

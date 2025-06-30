@@ -101,7 +101,7 @@ members:
     slug: literatures-and-cultures
     roleName: Researcher
 keywords:
-  - name: Machine Learning, AI
+  - name: Machine Learning and AI
     slug: machine-learning-ai
 urls:
   - name: Project URL

@@ -18,7 +18,7 @@ feature:
   width: 1200
   height: 800
 keywords:
-  - name: Machine Learning, AI
+  - name: Machine Learning and AI
     slug: machine-learning-ai
   - name: DFI
     slug: dfi

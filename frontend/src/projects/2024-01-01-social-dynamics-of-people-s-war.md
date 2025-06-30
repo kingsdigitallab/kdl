@@ -50,7 +50,7 @@ members:
       name: Faculty of Social Science & Public Policy
       slug: faculty-of-social-science-public-policy
 keywords:
-  - name: Machine Learning, AI
+  - name: Machine Learning and AI
     slug: machine-learning-ai
 urls:
   - name: Repository (related tool)
