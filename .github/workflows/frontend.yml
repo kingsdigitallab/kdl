@@ -3,13 +3,13 @@ name: Build 11ty frontend
 on:
   push:
     branches:
+      - develop
       - main
       - next
-      - develop
   pull_request:
     branches:
-      - main
       - develop
+      - main
       - next
   schedule:
     - cron: "*/30 7-22 * * *"
@@ -60,7 +60,7 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "ci(frontend): update data"
+          commit_message: "ci(frontend): Auto-update data"
           file_pattern: "frontend/src/projects/*.*"
 
       - name: Deploy to GitHub pages
