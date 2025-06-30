@@ -11,7 +11,7 @@
 
 
     
-  <title>Encyclopedia Britannica Exploratory Prototypes &lt;small&gt;Encyclopedia Britannica&lt;/small&gt; | King&apos;s Digital Lab</title>
+  <title>Computing Britannica | King&apos;s Digital Lab</title>
 
 <meta name="description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
 <meta name="robots" content="index,follow">
@@ -19,7 +19,7 @@
 
 <link rel="canonical" href="https://kdl.kcl.ac.uk/projects/encyclopedia-britannica-exploratory-prototypes/">
 
-<meta property="og:title" content="Encyclopedia Britannica Exploratory Prototypes &lt;small&gt;Encyclopedia Britannica&lt;/small&gt; | King&apos;s Digital Lab">
+<meta property="og:title" content="Computing Britannica | King&apos;s Digital Lab">
 <meta property="og:type" content="article">
 
 <meta property="og:url" content="https://kdl.kcl.ac.uk/projects/encyclopedia-britannica-exploratory-prototypes/">
@@ -29,7 +29,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@kingsdigitallab">
 <meta name="twitter:url" content="https://kdl.kcl.ac.uk/projects/encyclopedia-britannica-exploratory-prototypes/">
-<meta name="twitter:title" content="Encyclopedia Britannica Exploratory Prototypes &lt;small&gt;Encyclopedia Britannica&lt;/small&gt; | King&apos;s Digital Lab">
+<meta name="twitter:title" content="Computing Britannica | King&apos;s Digital Lab">
 <meta name="twitter:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
 <meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/projects/Encyclopedia Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg">
 
@@ -155,15 +155,13 @@
     <div class="kdl-container">
     
     
-      <h1>Encyclopedia Britannica Exploratory Prototypes <small>Encyclopedia Britannica</small></h1>
+      <h1>Computing Britannica</h1>
     
 
     
     
 
     <article>
-
-
 
 
 <section>
@@ -173,11 +171,11 @@
   <figcaption>An open book, Photo by Mohamed Marey</figcaption>
 </figure>
 
- 
+  
+
   <!-- Overview -->
   
-    <div id="overview">
-      <p></p><p>This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the <a href="https://tu-plogan.github.io/">Nineteenth-Century Knowledge Project</a>, led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.</p>
+    <div id="overview"><p>This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the <a href="https://tu-plogan.github.io/">Nineteenth-Century Knowledge Project</a>, led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.</p>
 <p>The scope of this exploratory project was for KDL to:</p>
 <ul>
 <li>familiarise itself with the dataset (7th and 9th editions of the Encyclopedia Britannica);</li>
@@ -193,8 +191,7 @@
 <p>Both of these are based on a language model made of vectors (also called “embeddings”), one for each word form used in the datasets and one for each Encyclopedia entry. The model is entirely trained from the corpus using off-the-shelf <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a> libraries (<a href="https://radimrehurek.com/gensim/">Gensim</a> and <a href="https://github.com/ddangelov/Top2Vec">top2vec</a>). This algorithm ensures that words used in similar constructs have similar vectors. The vector of an Encyclopedia entry is obtained by averaging the vectors of the words it contains. This model can therefore be used to search for the most similar words or entries to another given word or entry based on their distance in that joint space.</p>
 <p>The first interface allows allows users to find entries by their heading in the Encyclopedia, their subject terms as extracted by the 19thC Knowledge Project or their domain (assigned by KDL via a classification process based on the models of contemporary descriptions of 6 core domains and associated seed words).</p>
 <p>While the second interface allows users to interact directly with a copy of the language model (compressed for the web, which slightly degrades its quality) to retrieve the semantically closest entries and words to any given word or entry heading. A click on any result will trigger a new query. This interface lets users break free from the pre-defined domains and interrogate the corpus for any frequent terms, whether they are high level categories of knowledge, specific concepts or actual persons or places.</p>
-<p></p>
-    </div>
+</div>
   
 
   <!-- Team -->
@@ -208,17 +205,55 @@
             
               <a href="/kdl/about/people/arianna-ciula">Arianna Ciula</a>
             
-            <sup title="Current KDL team member">KDL</sup>
-            <span>Research Software Analyst</span>
+            
+              <sup title="Current KDL team member">KDL</sup>
+            
+            <span>Research Software Analyst
+            </span>
           </li>
         
           
           <li class="kdl-member">
             
-              <a href="/kdl/about/people/geoffroy-noel">Geoffroy Noël</a>
+              <a href="/kdl/about/people/arianna-ciula">Arianna Ciula</a>
             
-            <sup title="Current KDL team member">KDL</sup>
-            <span>Research Software Engineer</span>
+            
+              <sup title="Current KDL team member">KDL</sup>
+            
+            <span>Research Software Analyst
+            </span>
+          </li>
+        
+          
+          <li>
+            
+              Erik Ketzan
+            
+            
+            <span>Principal investigator, FAH Department of Digital Humanities
+            </span>
+          </li>
+        
+          
+          <li class="kdl-member">
+            
+              <a href="/kdl/about/people/geoffroy-noel">Geoffroy Noel</a>
+            
+            
+              <sup title="Current KDL team member">KDL</sup>
+            
+            <span>Research Software Engineer
+            </span>
+          </li>
+        
+          
+          <li>
+            
+              Geoffroy Noël
+            
+            
+            <span>Research Software Engineer
+            </span>
           </li>
         
           
@@ -227,7 +262,8 @@
               Marion Thain
             
             
-            <span>Researcher</span>
+            <span>Researcher, FAH Department of English
+            </span>
           </li>
         
           
@@ -236,7 +272,8 @@
               Peter Logan
             
             
-            <span>Principal investigator</span>
+            <span>Principal investigator, Temple University
+            </span>
           </li>
         
       </ul>
@@ -244,17 +281,23 @@
   
 
   
+  
   <div class="sibling-pagination">
     <nav aria-label="pagination">
       <ol>
         
           <li>
-            <a href="/kdl/projects/egomedia/"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> Ego Media: Life Writing and Online Affordances</a>
+            <a href="/kdl/projects/room-is-sad/">
+              <ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon>
+              Room is Sad</a>
           </li>
         
         
           <li>
-            <a href="/kdl/projects/etat-civil/">État Civil: French expatriates in Ottoman Egypt <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon></a>
+            <a href="/kdl/projects/living-with-machines/">
+              Living with Machines
+              <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon>
+            </a>
           </li>
         
       </ol>
@@ -263,9 +306,10 @@
 </section>
 
 <section>
+
   <!-- Information -->
   <div id="metadata">
-    <span class="status">Project Status: Active</span>
+    <span class="status">Project Status: Post-project</span>
 
     
       <div id="links">
@@ -289,54 +333,72 @@
     
 
     
+      <div class="funder">
+        <h3>Funder</h3>
+        <ul>
+          
+            <li>
+              <a href="/kdl/about/partners-and-funders/kcl-ah">KCL A&amp;H</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
     <div class="date">
       <h3>Partner institution</h3>
       <ul>
         
             <li>
-              <a href="/kdl/about/partners-and-funders/faculty-of-arts-and-humanities">Faculty of Arts and Humanities <span>FAH</span>
-
+              <a href="/kdl/about/partners-and-funders/digital-humanities">Digital Humanities
               </a>
             </li>
           
             <li>
-              <a href="/kdl/about/partners-and-funders/digital-futures-institute">Digital Futures Institute <span>DFI</span>
-
+              <a href="/kdl/about/partners-and-funders/kings-college-london">King&#39;s College, London
               </a>
             </li>
           
             <li>
-              <a href="/kdl/about/partners-and-funders/fah-department-of-english">FAH Department of English, <span class="parent">Faculty of Arts and Humanities</span>
+              <a href="/kdl/about/partners-and-funders/temple-university">Temple University
               </a>
             </li>
           
         
         
-          <li class="date">2023–2023</li>
+          <li class="date">
+    
+    2023
+</li>
         
       </ul>
     </div>
 
     <!-- Keywords -->
-  
-    <div class="keywords">
-      <h3>Keywords</h3>
-      <ul>
-        
-          <li>Machine Learning and AI</li>
-        
-          <li>History</li>
-        
-          <li>Linguistics</li>
-        
-          <li>Languages and Literature</li>
-        
-      </ul>
+    
+      <div class="keywords">
+        <h3>Keywords</h3>
+        <ul>
+          
+            
+            <li>
+              
+                <a href="/kdl/projects/research-themes/machine-learning-ai">Machine Learning and AI</a>
+              
+            </li>
+          
+            
+            <li>
+              
+                DFI
+              
+            </li>
+          
+        </ul>
       </div>
     
   </div>
-</section>
-</article>
+</section></article>
     
     </div>
   
