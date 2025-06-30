@@ -397,7 +397,10 @@ class ClickUpToMarkdown {
 			.filter((opt) => themeField.value.includes(opt.id))
 			.map((opt) => ({
 				name: opt.label,
-				slug: this.slugify(opt.label),
+				slug:
+					opt.label === "Machine Learning and AI"
+						? "machine-learning-ai"
+						: this.slugify(opt.label),
 			}));
 	}
 
