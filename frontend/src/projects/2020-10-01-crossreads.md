@@ -118,6 +118,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 KDL contribution focuses on the development and redesign of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions.

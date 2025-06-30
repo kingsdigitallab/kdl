@@ -123,6 +123,7 @@ urls:
 sla:
   start: 2024-03-23
   end: 2029-03-22
+draft: false
 ---
 
 Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815) is a collaboration between King’s Digital Lab

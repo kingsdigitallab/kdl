@@ -106,6 +106,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding.

@@ -107,6 +107,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The first corpus of Roman inscriptions from Tripolitania (today Wester Lybia) was published by Joyce Reynolds in 1952. In 2009 she worked with Gabriel Bodard, Tom Elliott, Charlotte Roueché and Hafed Walda to republish that volume - with some 20 more texts - in digital form, with translations and full illustration. King's Digital Lab archived that site and still hosts it in static form.

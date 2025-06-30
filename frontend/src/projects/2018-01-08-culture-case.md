@@ -87,6 +87,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The CultureCase site is a legacy site, developed by a different design and development team. It is designed as a research resource for academic studies centred in the Arts and Culture sector. It contains synopses and reviews of current culture-related research articles, curated by academic and research staff affiliated with the King’s Culture Institute. CultureCase contains links to the articles it reviews, but it does not currently maintain an archive of those articles.

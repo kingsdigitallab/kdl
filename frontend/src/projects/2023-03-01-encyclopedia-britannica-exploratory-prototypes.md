@@ -73,6 +73,7 @@ urls:
     url: https://github.com/kingsdigitallab/eb-pre/
   - name: Data
     url: https://tu-plogan.github.io/source/r_releases.html
+draft: false
 ---
 
 This project builds on a selection of the published datasets of the early Encyclopedia Britannica editions (1771-1911) produced by the [Nineteenth-Century Knowledge Project](https://tu-plogan.github.io/), led by Peter M. Logan. One hypothesis employed as a use case to guide KDL contribution is that nascent disciplines (domains of knowledge) may not have developed a rich descriptive terminology compared to more established fields and that therefore this linguistic complexity or density can be operationalised by analysis the entries associated to these domains in the Encyclopedia. A particularly important desideratum of KDL exploratory work was to privilege inductive methods and to minimise reliance on extrinsic information.

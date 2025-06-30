@@ -104,6 +104,7 @@ urls:
     url: https://finerollshenry3.org.uk/
   - name: UKRI URL
     url: https://gtr.ukri.org/projects?ref=AH%2FF011105%2F1
+draft: false
 ---
 
 A fine in the reign of King of England Henry III (1216–1272) was an agreement to pay the king a sum of money for a specified concession. There is a fine roll for each of Henry III's fifty-six regnal years. Recording offers of money to the king for a multiplicity of concessions and favours, they are of the first importance for the study of political, governmental, legal, social, and economic history.

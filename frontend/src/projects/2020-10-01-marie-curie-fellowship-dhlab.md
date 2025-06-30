@@ -56,6 +56,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 DHLab was a Marie Skłodowska-Curie project conducted by Dr Urszula Pawlicka-Deger. The research aimed to provide a critical analysis of digital humanities working practices in a laboratory environment and infrastructural influences on knowledge production. The study was drawn on an empirical investigation of laboratory practices in digital humanities by merging various ethnographic methods.

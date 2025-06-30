@@ -86,6 +86,7 @@ urls:
 sla:
   start: 2019-09-01
   end: 2028-01-07
+draft: false
 ---
 
 The Paradox of Medieval Scotland project represents the culmination of many years of collaboration between King's College London and the University of Glasgow on this and related projects. The digital component began under the auspices of the Department of Digital Humanities and was continued and completed by King's Digital Lab.

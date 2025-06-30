@@ -52,6 +52,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The Sudan Memory project seeks to conserve and promote valuable cultural materials from and about Sudan through digitisation and via [an online platform](https://www.sudanmemory.org/). Throughout the country, many interesting and rich archives are at risk for a number of reasons: extreme weather conditions, lack of appropriate storage conditions, neglect and conflict. Many public and private collections are also locked away and not easily accessible.

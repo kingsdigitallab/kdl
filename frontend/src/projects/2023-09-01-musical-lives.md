@@ -56,6 +56,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The Musical Lives: Towards an Historical Anthropology of French Song, 1100–1300 (MUSLIVE) project explores how medieval French trouvère songs shaped identity and social connections as a transnational practice. Focusing on around 2,200 surviving songs from the 12th–14th centuries, MUSLIVE examines the lives of composers, performers, and their networks across northern France and the Mediterranean, where songmakers traveled for pilgrimage and crusade. The songs, often centered on themes of courtly love and loss, were composed and performed within noble courts and broader social circles. MUSLIVE integrates musicology, history, and literary studies to analyze songs as poetic works linked to identifiable individuals and their communities. By comparing trouvère traditions with Arabic, Hebrew, and Occitan lyric poetry, the project investigates cross-cultural encounters facilitated by song and the unifying power of poetry. Through performance and archival research, MUSLIVE highlights the cultural connections and shared practices of medieval Mediterranean societies.

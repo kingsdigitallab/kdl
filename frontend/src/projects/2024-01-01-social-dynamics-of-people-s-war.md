@@ -58,6 +58,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 KDL's role in this pilot project explores pipelines for extracting information efficiently from the huge diversity of military records, mostly handwritten, that reside in various states of digitisation throughout collections in the Commonwealth and beyond. Focusing on material related to the Second World War, the project aims to enrich the understanding of that conflict through the lens of the social demographic profiles of the people who fought and served in it. As part of the groundwork for developing a methodology to tackle this challenge, we are using the most recent Visual Language Models (VLMs) to extract structured data and to refine workflows for quality control.

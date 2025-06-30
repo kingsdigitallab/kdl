@@ -86,6 +86,7 @@ urls:
     url: https://gtr.ukri.org/projects?ref=AH%2FS01179X%2F1
   - name: Language of Mechanisation data paper
     url: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195
+draft: false
 ---
 
 A multidisciplinary research collaboration between the British Library and the Alan Turing Institute with King's College London, the Universities of Cambridge, East Anglia, Exeter, and London (QMUL), the [Living with Machines](https://www.zooniverse.org/projects/bldigital/living-with-machines/) project aimed to investigate how the introduction of machines into the workplace and landscape changed the lives of ordinary people in the nineteenth century. It had several research strands.

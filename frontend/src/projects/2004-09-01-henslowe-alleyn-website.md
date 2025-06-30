@@ -58,6 +58,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 The Henslowe-Alleyn website provides virtual access to a uniquely important archive of manuscript material relating to the professional theatre and dramatic performance in early modern England, the age of Shakespeare, Marlowe, and Jonson. Users can see high-resolution images of each manuscript and can download in PDF form transcripts of some of the most important documents. A collection of essays helps explain and contextualize the material.

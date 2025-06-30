@@ -132,6 +132,7 @@ sla:
 urls:
   - name: Project URL
     url: http://www.langscape.org.uk/index.html
+draft: false
 ---
 
 The Language of Landscape (LangScape) is a database of Anglo-Saxon estate boundaries which were recorded in Old English (and sometimes Latin) in charters dating from the seventh to the eleventh centuries. Users can look up boundary entries based on metadata which allows filtering by aspects including county, date of charter, and manuscript instance. Additionally, the words in the texts of the boundary descriptions have been manually identified and glossed. Browsing a headword list allows users to see, for example, what boundaries contain some form of the word 'feax' (coarse grass). Many of the boundary texts are available in the original language with various display options, and LangScape database entries are linked to associated items in the '[Electronic Sawyer](https://esawyer.lib.cam.ac.uk/about/index.html)' online catalogue of Anglo-Saxon charters

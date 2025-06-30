@@ -91,6 +91,7 @@ urls:
 sla:
   start: 2018-03-01
   end: 2026-03-07
+draft: false
 ---
 
 The _Nineteenth Century Serials Edition_ (ncse) is an edition of six nineteenth-century periodicals and newspapers: the _Monthly Repository_ (1806-1837); _Northern Star_ (1837-1852); _Leader_ (1850-1860); _English Woman’s Journal_ (1858-1864); _Tomahawk_ (1867-1870); _Publishers’ Circular_ (1880-1890). It is large and varied resource, containing well over 400,000 articles that originally appeared in roughly 3500 issues published during a span of 84 years. It was the result of an AHRC-funded collaboration between Birkbeck College, King's College London, Olive Software, and the British Library that ran from 2005 to the project launch in 2008. In 2017, concerned about vulnerabilities in the software, the Facsimiles component was taken offline. Shortly afterwards, work began at King's Digital Lab on a replacement viewer, launched in October 2018.

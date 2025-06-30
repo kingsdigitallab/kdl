@@ -63,6 +63,7 @@ urls:
 sla:
   start: 2020-04-01
   end: 2025-03-31
+draft: false
 ---
 
 The project presents a set of 'biographies' of iconic objects associated with the Mao era in China (1949-76), ranging from common, prosaic types - washbasins, bricks, badges - to the particular or unusual such as the Beijing International Club, and the Chinese character typewriter. Each biography centres on a capsule essay written by an academic with experience working with that object.

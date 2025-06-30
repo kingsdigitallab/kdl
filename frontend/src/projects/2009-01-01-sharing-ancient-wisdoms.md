@@ -89,6 +89,7 @@ urls:
 sla:
   start: 2022-08-08
   end: 2027-10-07
+draft: false
 ---
 
 The aim of the project was to explore the use of digital tools to examine, and to represent, shared ideas, concepts, axioms and apophthegms in various cultures with a focus on the Byzantine Greek and medieval Arabic worlds, looking at the transmission of such materials, largely drawn from the Classical Greek world.

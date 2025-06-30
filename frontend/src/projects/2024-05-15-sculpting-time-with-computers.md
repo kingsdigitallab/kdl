@@ -72,6 +72,7 @@ urls:
 sla:
   start: null
   end: null
+draft: false
 ---
 
 This project is part of wider research on computational modelling of audiovisual media and in particular of cinematic time aimed at gaining insights on how narrative mechanisms (e.g. continuity editing) relate to larger historical patterns (e.g. new cinematic genres and audiences).

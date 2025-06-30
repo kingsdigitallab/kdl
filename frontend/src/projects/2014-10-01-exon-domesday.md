@@ -72,6 +72,7 @@ urls:
 sla:
   start: 2022-10-01
   end: 2028-11-30
+draft: false
 ---
 
 The aim of this project was to publish the contents of the Exon Domesday Book for the first time and to unlock the evidence which the book contains for the conduct of the Domesday survey (1086) at both local and central level.
