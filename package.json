@@ -58,7 +58,6 @@
   },
   "workspaces": [
     "frontend",
-    "cms",
     "etl",
     "owl"
   ],
