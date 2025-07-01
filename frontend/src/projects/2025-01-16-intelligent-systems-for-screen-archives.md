@@ -27,13 +27,10 @@ members:
     roleName: Research Software Analyst
   - name: Tiffany Ong
     slug: tiffany-ong
-    roleName: Research Software UI/UX Designer
+    roleName: Research Software Designer
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
   - name: Daniel Chavez Herras
     slug: daniel-chavez-herras
     roleName: Principal investigator
