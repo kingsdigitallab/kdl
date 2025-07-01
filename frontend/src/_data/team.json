@@ -36,15 +36,6 @@
     }
   },
   {
-    "slug": "elliott-hall",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/elliott-hall.jpg",
-      "description": "Photo of Elliott Hall"
-    }
-  },
-  {
     "slug": "neil-jakeman",
     "jobTitle": "Senior Research Software Analyst",
     "team": "KDL",
@@ -108,7 +99,7 @@
       "description": "Photo of Zihao Lu"
     }
   },
-{
+  {
     "slug": "mary-chester-kadwell",
     "jobTitle": "Senior Research Software Engineer",
     "team": "KDL",
@@ -116,7 +107,8 @@
       "image": "/assets/images/people/mary-chester-kadwell.jpg",
       "description": "Photo of Mary Chester-Kadwell"
     }
-  },  {
+  },
+  {
     "slug": "patrick-ffrench",
     "name": "Patrick ffrench",
     "jobTitle": "Languages, Literatures and Cultures Affiliate",
@@ -211,6 +203,15 @@
     "feature": {
       "image": "/assets/images/people/charlotte-roueché.jpg",
       "description": "Photo of Professor Charlotte Roueché"
+    }
+  },
+  {
+    "slug": "elliott-hall",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "Former staff",
+    "feature": {
+      "image": "/assets/images/people/elliott-hall.jpg",
+      "description": "Photo of Elliott Hall"
     }
   },
   {
