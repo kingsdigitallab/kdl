@@ -281,7 +281,7 @@ class ClickUpToMarkdown {
 				role === "Analyst"
 					? "Research Software Analyst"
 					: role === "Design"
-						? "Research Software UI/UX Designer"
+						? "Research Software Designer"
 						: "Research Software Engineer";
 
 			if (field && field.value) {
