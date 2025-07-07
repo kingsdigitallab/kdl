@@ -26,8 +26,8 @@ funders:
   - name: KCL A&H
     slug: kcl-ah
 departments:
-  - name: Digital Humanities
-    slug: digital-humanities
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
   - name: King's College, London
     slug: kings-college-london
   - name: Temple University

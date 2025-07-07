@@ -25,8 +25,8 @@ funders:
   - name: UKRI
     slug: ukri
 departments:
-  - name: Digital Humanities
-    slug: digital-humanities
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
   - name: Alan Turing Institute
     slug: alan-turing-institute
   - name: King's College, London

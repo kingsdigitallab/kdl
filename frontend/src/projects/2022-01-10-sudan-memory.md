@@ -23,8 +23,8 @@ funders:
   - name: British Council
     slug: british-council
 departments:
-  - name: Digital Humanities
-    slug: digital-humanities
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
   - name: King's College, London
     slug: kings-college-london
 members:
