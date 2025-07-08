@@ -20,6 +20,13 @@ Ideally projects were placed on an SLA to ensure ongoing hosting and maintenance
 
 ## Archiving and Sustainability Options
 
+### Projects born static
+Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
+
+- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
+- [Brightening the Covenant Chain](https://bcc.kdl.kcl.ac.uk/) (AHRC)
+- [King's Past](https://kingspast.kcl.ac.uk/) (KCL)
+
 ### SLA with KDL
 
    Maintaining the project under a costed Service Level Agreement with KDL - we offer agreements of variable durations depending on project age, infrastructure requirements, and PI preference but our standard SLA duration is five years.
@@ -71,11 +78,8 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Inscriptions of Roman Tripolitania (2021)](https://irt2021.inslib.kcl.ac.uk/en/) ([dataset](https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275)) (FAH)
 - [Inventory of Byzantine Churches](http://ibcc.dighum.kcl.ac.uk/) (FAH)
 - [Jane Austen's Fiction Manuscripts](http://www.janeausten.ac.uk/) (FAH; Oxford University)
-- [Language of Langscape](http://www.langscape.org.uk/) (FAH)
 - [Languages Acts and Worldmaking](https://languageacts.org/) (AHRC)
-- [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Masonic Periodicals Online](http://www.masonicperiodicals.org/) (The Library and Museum of Freemasonry)
-- [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
 - [Ministry of Information](http://www.moidigital.ac.uk/) (AHRC)
 - [Models of Authority](https://www.modelsofauthority.ac.uk/) (FAH)
 - [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
@@ -188,7 +192,10 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - Theatron was developed in HTML and VRML, a now defunct standard for Virtual Reality which no longer has supported plugins for any modern browsers. Content has been converted to static where possible: [Theatron 2](http://www.kvl.cch.kcl.ac.uk/THEATRON/) and [Theatron 3](http://www.theatron3.cch.kcl.ac.uk/)
 
 ### Conversion to static in progress
+- [Language of Langscape](http://www.langscape.org.uk/) (FAH)
+- [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
+- [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
 
 ## Minimally archived projects
 
