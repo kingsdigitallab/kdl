@@ -36,15 +36,6 @@
     }
   },
   {
-    "slug": "elliott-hall",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/elliott-hall.jpg",
-      "description": "Photo of Elliott Hall"
-    }
-  },
-  {
     "slug": "neil-jakeman",
     "jobTitle": "Senior Research Software Analyst",
     "team": "KDL",
@@ -238,6 +229,15 @@
     "feature": {
       "image": "/assets/images/people/shalen-fu.png",
       "description": "Photo of Shalen Fu"
+    }
+  },
+    {
+    "slug": "elliott-hall",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/elliott-hall.jpg",
+      "description": "Photo of Elliott Hall"
     }
   },
   {
