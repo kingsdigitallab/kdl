@@ -20,13 +20,6 @@ Ideally projects were placed on an SLA to ensure ongoing hosting and maintenance
 
 ## Archiving and Sustainability Options
 
-### Projects born static
-Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
-
-- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
-- [Brightening the Covenant Chain](https://bcc.kdl.kcl.ac.uk/) (AHRC)
-- [King's Past](https://kingspast.kcl.ac.uk/) (KCL)
-
 ### SLA with KDL
 
    Maintaining the project under a costed Service Level Agreement with KDL - we offer agreements of variable durations depending on project age, infrastructure requirements, and PI preference but our standard SLA duration is five years.
@@ -52,6 +45,14 @@ Building on this strategy, KDL has made an effort since 2021 to implement a [sta
    Minimal storage (for two years minimum): project and data are archived on our infrastructure and a placeholder page is shown at a project URL. This placeholder includes a description of the project and other metadata, as well as links to snapshots at the Internet Archive and other web archives (such as webarchive.org.uk) where the project has been archived.
 
 We are also interested in options such as providing projects as virtual machines (VMs) for offline use, or capturing their last good state in recording tools such as webrecorder.io but (interestingly enough) those options have not yet been requested. Where PIs or Co-Is are not able to be reached, options are considered within KDL and with appropriate [Department of Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/index.aspx) staff and a decision made on a per project basis.
+
+## Projects born static
+Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
+
+- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
+- [Brightening the Covenant Chain](https://bcc.kdl.kcl.ac.uk/) (AHRC)
+- [CROSSREADS](https://crossreads.web.ox.ac.uk/) (ERC)
+- [King's Past](https://kingspast.kcl.ac.uk/) (KCL)
 
 ## Projects under SLA
 
