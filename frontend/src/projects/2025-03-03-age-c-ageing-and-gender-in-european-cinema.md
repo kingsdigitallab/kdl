@@ -29,12 +29,12 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
   - name: Vinzenz Hediger
     slug: vinzenz-hediger
     roleName: Principal investigator

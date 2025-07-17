@@ -28,12 +28,12 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Zihao Lu
-    slug: zihao-lu
-    roleName: Research Software Designer
   - name: Mary Chester-Kadwell
     slug: mary-chester-kadwell
     roleName: Research Software Engineer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
   - name: Jonathan Fennell
     slug: jonathan-fennell
     roleName: Principal investigator
