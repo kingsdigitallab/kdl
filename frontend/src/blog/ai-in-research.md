@@ -11,7 +11,7 @@ authors:
 date: 2025-07-17
 excerpt:
 feature:
-  image: <span><a href="https://www.behance.net/maxgruber2">Max Gruber</a> / <a href="https://betterimagesofai.org/images?artist=MaxGruber&title=Cecin'estpasunebanane">Ceci n'est pas une banane</a> / <a href="https://creativecommons.org/licenses/by/4.0/">Licenced by CC-BY 4.0</a></span>
+  image: frontend/public/assets/images/blog/Banane.jpg
   title:
   description: A banana on a table and an image of a banana on a laptop on the same table. Each of the two bananas has a white frame around it with the word ‚Banana‘ sticked on top of it
 draft: true
