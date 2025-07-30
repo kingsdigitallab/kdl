@@ -11,8 +11,8 @@ authors:
 date: 2025-07-17
 excerpt:
 feature:
-  image: frontend/public/assets/images/blog/Banane.jpg
-  title:
+  image: assets/images/blog/Banane.jpg
+  title: Max Gruber / https://betterimagesofai.org / https://creativecommons.org/licenses/by/4.0/
   description: A banana on a table and an image of a banana on a laptop on the same table. Each of the two bananas has a white frame around it with the word ‚Banana‘ sticked on top of it
 draft: true
 ---
