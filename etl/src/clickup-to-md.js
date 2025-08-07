@@ -169,7 +169,7 @@ class ClickUpToMarkdown {
         creativeWorkStatus,
         keywords: this.getKeywords(project),
         funders: await this.getAndConvertFunders(project),
-        departments: this.getDepartments(project),
+        departments: await this.getAndConvertDepartments(project),
         members: this.getMembers(project),
         sla,
       };
@@ -258,7 +258,7 @@ class ClickUpToMarkdown {
   /**
    * Get departments from custom fields
    */
-  getDepartments(data) {
+  async getAndConvertDepartments(data) {
     let departments = [];
 
     const deptsField = data.custom_fields.find(
@@ -299,7 +299,42 @@ class ClickUpToMarkdown {
       });
     }
 
-    return departments.filter((dept) => dept.name !== "External");
+    departments = departments.filter((dept) => dept.name !== "External");
+
+    for (const department of departments) {
+      const departmentOutputFile = path.join(
+        this.outputPath,
+        `../about/organisations/${department.slug}.md`
+      );
+
+      try {
+        await fs.access(departmentOutputFile);
+        continue;
+      } catch (_) {
+        console.log(`Creating new department file: ${department.slug}.md`);
+      }
+
+      const departmentContent = [
+        "---",
+        `title: ${department.name}`,
+        "alternateName: null",
+        "tags: [departments]",
+        `slug: ${department.slug}`,
+        "foundingDate: null",
+        "dissolutionDate: null",
+        "parentOrganisation: null",
+        "subOrganisations: []",
+        "urls: []",
+        "---",
+      ].join("\n");
+
+      const formattedDepartmentContent = await this.formatMarkdown(
+        departmentContent
+      );
+      await fs.writeFile(departmentOutputFile, formattedDepartmentContent);
+    }
+
+    return departments;
   }
 
   /**
