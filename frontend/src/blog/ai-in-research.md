@@ -2,7 +2,8 @@
 title: AI in Research
 subtitle: A pretext to talk about accountability, text production, ideas, expressions, distributed connectivity and new paradigms
 tags:
-  - AI
+  - post
+  - ai
   - research
   - arts
   - humanities
