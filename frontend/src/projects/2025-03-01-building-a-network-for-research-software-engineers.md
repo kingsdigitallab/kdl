@@ -10,8 +10,8 @@ dissolutionDate: 2025-07-31
 creativeWorkStatus: Active
 keywords: []
 funders:
-  - name: KCL
-    slug: kcl
+  - name: King's College London
+    slug: kings-college-london
 departments:
   - name: e-Research
     slug: e-research
