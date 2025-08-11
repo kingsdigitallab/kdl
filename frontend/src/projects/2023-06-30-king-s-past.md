@@ -18,8 +18,8 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: KCL
-    slug: kcl
+  - name: King's College London
+    slug: kings-college-london
   - name: KCL Global Cultures Institute
     slug: kcl-global-cultures-institute
 departments:
