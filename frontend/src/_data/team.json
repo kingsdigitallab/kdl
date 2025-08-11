@@ -241,6 +241,15 @@
       "description": "Photo of Shalen Fu"
     }
   },
+    {
+    "slug": "elliott-hall",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "Former staff",
+    "feature": {
+      "image": "/assets/images/people/elliott-hall.jpg",
+      "description": "Photo of Elliott Hall"
+    }
+  },
   {
     "slug": "olga-loboda",
     "jobTitle": "Former Research Software UI/UX Designer",

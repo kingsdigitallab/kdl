@@ -46,12 +46,21 @@ Minimal storage (for two years minimum): project and data are archived on our in
 
 We are also interested in options such as providing projects as virtual machines (VMs) for offline use, or capturing their last good state in recording tools such as webrecorder.io but (interestingly enough) those options have not yet been requested. Where PIs or Co-Is are not able to be reached, options are considered within KDL and with appropriate [Department of Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/index.aspx) staff and a decision made on a per project basis.
 
+## Projects born static
+Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
+
+- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
+- [Brightening the Covenant Chain](https://bcc.kdl.kcl.ac.uk/) (AHRC)
+- [CROSSREADS](https://crossreads.web.ox.ac.uk/) (ERC)
+- [King's Past](https://kingspast.kcl.ac.uk/) (KCL)
+
 ## Projects under SLA
 
 Institutions that support SLAs for projects hosted and maintained by KDL are included in brackets, below. FAH stands for Faculty of Arts & Humanities at King’s College London.
 
 - [AHRC Research Centre for the History and Analysis of Recorded Music](http://www.charm.kcl.ac.uk) (FAH)
-- [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966)) (FAH)
+- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
+- [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) (FAH)
 - [Atlantic Europe in the Metal Ages](http://www.aemap.ac.uk/en/) (University of Wales)
 - [Cambridge Edition of the Works of Ben Jonson](http://universitypublishingonline.org/cambridge/benjonson/) (Cambridge University)
 - [Clergy of the Church of England Database](http://theclergydatabase.org.uk/) (FAH)
@@ -70,12 +79,8 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Inscriptions of Roman Tripolitania (2021)](https://irt2021.inslib.kcl.ac.uk/en/) ([dataset](https://kcl.figshare.com/collections/Inscriptions_of_Roman_Tripolitania_2021/6002275)) (FAH)
 - [Inventory of Byzantine Churches](http://ibcc.dighum.kcl.ac.uk/) (FAH)
 - [Jane Austen's Fiction Manuscripts](http://www.janeausten.ac.uk/) (FAH; Oxford University)
-- [Language of Langscape](http://www.langscape.org.uk/) (FAH)
 - [Languages Acts and Worldmaking](https://languageacts.org/) (AHRC)
-- [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
-- [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
 - [Masonic Periodicals Online](http://www.masonicperiodicals.org/) (The Library and Museum of Freemasonry)
-- [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
 - [Ministry of Information](http://www.moidigital.ac.uk/) (AHRC)
 - [Models of Authority](https://www.modelsofauthority.ac.uk/) (FAH)
 - [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
@@ -165,7 +170,7 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
 - [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29))
-- [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/insaph/iaph2007/)
+- [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/insaph/iaph2007/) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966))
 - [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
 - [London Charter](http://www.londoncharter.org/)
@@ -188,6 +193,13 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - Theatron was developed in HTML and VRML, a now defunct standard for Virtual Reality which no longer has supported plugins for any modern browsers. Content has been converted to static where possible: [Theatron 2](http://www.kvl.cch.kcl.ac.uk/THEATRON/) and [Theatron 3](http://www.theatron3.cch.kcl.ac.uk/)
 
 ### Conversion to static in progress
+<<<<<<< HEAD
+=======
+- [Language of Langscape](http://www.langscape.org.uk/) (FAH)
+- [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
+- [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
+- [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
+>>>>>>> main
 
 ## Minimally archived projects
 
@@ -202,8 +214,12 @@ Minimally archived projects are no longer accessible. We maintain their original
 - Intention is for project to migrate but there are no current resources to be able to do so at recipient institution.
 
 The list of projects which have been minimally archived:
+<<<<<<< HEAD
 
 - [Archetype](http://archetype.ink)
+=======
+- [Archetype]([http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/))
+>>>>>>> main
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
 - [The Commonplacer](https://commonplacer.cch.kcl.ac.uk/)
@@ -211,15 +227,15 @@ The list of projects which have been minimally archived:
 - [Digasma](http://digasma.cerch.kcl.ac.uk/)
 - Digital Cultures of #covid19: Digital Methods for Investigating Online Engagement with Coronavirus
 - [Digital Exposure of English Place-names](http://deep.kdl.kcl.ac.uk/)
-- [Digital Humanities: Work in Progress](https://wip.cch.kcl.ac.uk/)
+- [Digital Humanities: Work in Progress](https://web.archive.org/web/20180324044707/https://wip.cch.kcl.ac.uk/)
 - Early London Theatre Archive/Online Theatre Histories Archive are two related projects which will be migrated to the University of East London in due course: [http://www.elta-project.org/](http://www.elta-project.org/) and [http://www.otha.org.uk/](http://www.otha.org.uk/)
-- [English Subject Centre - Why Study English?](http://www.whystudyenglish.ac.uk/)
+- [English Subject Centre - Why Study English?](https://web.archive.org/web/20110723092538/http://www.whystudyenglish.ac.uk:80/)
 - [EpiDuke](http://epiduke.cch.kcl.ac.uk/)
-- État Civil: French Expatriates in Ottoman Egypt
+- État Civil: French Expatriates in Ottoman Egypt: [live version](https://histecon.fas.harvard.edu/visualizing/egypt/index.html) hosted elsewhere.
 - [Forensic Investigation of Digital Objects](http://fido.cerch.kcl.ac.uk/)
 - [Impact Tracer](http://imptr.cch.kcl.ac.uk/)
 - [InScribe Module 2](https://sas-vle-dev.cch.kcl.ac.uk/)
-- [Interdisciplinary Science Reviews](http://isr.cch.kcl.ac.uk/) (content also migrated to the current publisher)
+- Interdisciplinary Science Reviews: content also migrated to the [current publisher](https://uk.sagepub.com/en-gb/eur/interdisciplinary-science-reviews/journal203816)
 - Kings@London
 - [Late-Life Creativity and the New Old Age](http://www.latelifecreativity.org/)
 - [Linking Parliamentary Records through Metadata](http://www.liparm.ac.uk/)
