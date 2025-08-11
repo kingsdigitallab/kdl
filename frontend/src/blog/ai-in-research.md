@@ -14,7 +14,7 @@ date: 2025-08-11
 excerpt: A dialogue between Arianna Ciula, Director and Senior Research Software Analyst at KDL, and Patrick ffrench, Professor of French in the Department of Languages, Literatures and Cultures, from which some key points of resonance emerge.
 feature:
   image: /assets/images/blog/Banane.jpg
-  title: Max Gruber / Better Images of AI / CC-BY 4.0
+  title: "Ceci n’est pas une banane - Max Gruber / Better Images of AI / CC-BY 4.0"
   description: "A banana on a table and an image of a banana on a laptop on the same table. Each of the two bananas has a white frame around it with the word 'Banana' sticked on top of it"
 draft: false
 ---
