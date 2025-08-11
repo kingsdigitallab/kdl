@@ -8,16 +8,6 @@ tags:
   - arts
   - humanities
 authors:
-<<<<<<< HEAD
-  - Patrick ffrench and Arianna Ciula
-date: 2025-07-17
-excerpt:
-feature:
-  image: frontend/public/assets/images/blog/Banane.jpg
-  title: Max Gruber / https://betterimagesofai.org / https://creativecommons.org/licenses/by/4.0/
-  description: A banana on a table and an image of a banana on a laptop on the same table. Each of the two bananas has a white frame around it with the word ‚Banana‘ sticked on top of it
-draft: true
-=======
   - Patrick ffrench
   - Arianna Ciula
 date: 2025-08-11
@@ -27,7 +17,6 @@ feature:
   title: Max Gruber / Better Images of AI / CC-BY 4.0
   description: "A banana on a table and an image of a banana on a laptop on the same table. Each of the two bananas has a white frame around it with the word 'Banana' sticked on top of it"
 draft: false
->>>>>>> main
 ---
 
 In April 2025, the Faculty of Arts and Humanities at King’s College London convened a townhall on AI in Research which was very well attended across departments, centres and institutes. Its scope was inclusive, both in terms of:
@@ -35,11 +24,7 @@ In April 2025, the Faculty of Arts and Humanities at King’s College London con
 - topics - from provocations around College guidance on GEN-AI to snapshots on research projects adopting and challenging advanced AI methods; and,
 - technical literacy - everyone interested in how AI is changing or could change research and education, no matter their proficiency in AI tools, was invited to attend and encouraged to express their opinion.
 
-<<<<<<< HEAD
-The King’s Digital Lab (KDL) team has used Machine Learning and AI in a few research projects in the past (see for example this [retrospective by Senior Research Software Engineer Geoffroy Noel](https://kdl.kcl.ac.uk/blog/how-kdl-applies-machine-learning-research-projects/)) and more recently has defined a research theme on AI/ML to integrate ongoing analysis and experimentation with guidance and critical reflections. The work of team members engaging with this research theme spans discussion of practical problems and use cases encountered in projects such as [Sculpting Time with Computers Proof of Concept](https://kdl.kcl.ac.uk/projects/sculpting-time-with-computers/) (led by Daniel Chavez Heras) and [Social Dynamics of People’s War pipelines](https://kdl.kcl.ac.uk/projects/social-dynamics-of-people-s-war/) (led by Jonathan Fennel), as well as collaborative reflections on processes that can better guide KDL involvement with these technologies and our collaboration with partners. Interestingly, whether practice or processes-focused, this work tends to highlight the importance of principles (e.g. quality, responsibility, accountability, verifiability and reproducibility, and security) which can act as guiding values and a compass to technical strategy and operations in collaborative research projects.
-=======
 The King’s Digital Lab (KDL) team has used Machine Learning and AI in a few research projects in the past (see for example this [retrospective by Senior Research Software Engineer Geoffroy Noel](/blog/how-kdl-applies-machine-learning-research-projects/)) and more recently has defined a research theme on [AI/ML](/projects/research-themes/ai-ml/) to integrate ongoing analysis and experimentation with guidance and critical reflections. The work of team members engaging with this research theme spans discussion of practical problems and use cases encountered in projects such as [Sculpting Time with Computers Proof of Concept](/projects/sculpting-time-with-computers/) (led by Daniel Chavez Heras) and [Social Dynamics of People’s War pipelines](/projects/social-dynamics-of-people-s-war/) (led by Jonathan Fennel), as well as collaborative reflections on processes that can better guide KDL involvement with these technologies and our collaboration with partners. Interestingly, whether practice or processes-focused, this work tends to highlight the importance of principles (e.g. quality, responsibility, accountability, verifiability and reproducibility, and security) which can act as guiding values and a compass to technical strategy and operations in collaborative research projects.
->>>>>>> main
 
 It is not surprising therefore that the provocation offered by one of KDL’s affiliates, [Patrick ffrench](https://www.kcl.ac.uk/people/patrick-ffrench), Professor of French in the Department of Languages, Literatures and Cultures, at the above-mentioned AI townhall struck a chord and resonated with KDL’s preoccupation as a research software engineering team increasingly engaged with AI.
 
