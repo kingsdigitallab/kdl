@@ -15,8 +15,8 @@ funders:
 departments:
   - name: e-Research
     slug: e-research
-  - name: Humboldt Universität Berlin
-    slug: humboldt-universitt-berlin
+  - name: Humboldt University Berlin
+    slug: humboldt-university-berlin
   - name: King's College, London
     slug: kings-college-london
 members:
