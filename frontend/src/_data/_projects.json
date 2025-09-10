@@ -4695,7 +4695,7 @@
     "dissolutionDate": "2028-09-30",
     "foundingDate": "2025-04-01",
     "id": "1521cafa-7f09-4288-a03d-f235f7a29738",
-    "name": "DiscouRSE: Developing digital Research Technical Professional (dRTP) leaders",
+    "name": "DisCouRSE: Developing digital Research Technical Professional (dRTP) leaders",
     "slug": "discou-rse-developing-digital-research-technical-professional-d-rtp-leaders",
     "creativeWorkStatus": {
       "name": "Active",
@@ -5109,19 +5109,6 @@
         },
         "roleName": {
           "name": "Researcher",
-          "inDefinedTermSet": {
-            "name": "Project roles"
-          }
-        }
-      },
-      {
-        "agent": {
-          "id": "b111093d-ed85-4601-bb13-79f432dbe987",
-          "name": "Dave Beavan",
-          "slug": "dave-beavan"
-        },
-        "roleName": {
-          "name": "Co-investigator",
           "inDefinedTermSet": {
             "name": "Project roles"
           }

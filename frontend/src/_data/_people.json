@@ -1504,6 +1504,217 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "DisCouRSE: Developing digital Research Technical Professional (dRTP) leaders",
+            "alternateName": "DiscouRSE",
+            "slug": "discou-rse-developing-digital-research-technical-professional-d-rtp-leaders",
+            "foundingDate": "2025-04-01",
+            "dissolutionDate": "2028-09-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Digital Lab"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "KCL eResearch"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Alan Turing Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Newcastle University"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Software Sustainability Institute"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University College London"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Edinburgh"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "AdvanceHE"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "AlcesFlight"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Australian Research Data Commons"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "BCS"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Carpentries"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "CCP in Wave Structure Interaction (Deborah Greaves, Plymouth)"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "CloudKubed"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Dan Katz (USA)"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Digital Research Academy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "DiRAC"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Dreaming Spires"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Met Office"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "MetaCell"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Netherlands eScience Centre"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "NOC"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "PRISM Community"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Society of RSE"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "University of Manchester"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UKAEA"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "UK Ireland DH Association"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Co-investigator"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "État Civil: French expatriates in Ottoman Egypt",
             "alternateName": "",
             "slug": "etat-civil",
@@ -1565,6 +1776,35 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Intelligent Systems for Screen Archives (ISSA)",
+            "alternateName": "ISSA",
+            "slug": "intelligent-systems-for-screen-archives-issa",
+            "foundingDate": "2025-01-16",
+            "dissolutionDate": "2027-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "Research Software Analyst"
           }
@@ -7955,6 +8195,35 @@
       "slug": "geoffroy-noel",
       "description": "Geoffroy is a programmer analyst who joined King's College London in 2008, after more than nine years working for various technology startups in Brussels and London, and has since contributed to and led the analysis and software development of several Digital Humanities projects. Most of these projects were specifically about digital palaeography, codicology, diplomatics and online scholarly editions of medieval manuscripts. \n\nHe has a degree in Business Computing and a MSc in Intelligent Technologies from Birkbeck, University of London, with a particular focus on machine learning, knowledge representation, computational intelligence and evolutionary algorithms.\n\nGeoffroy enjoys building innovative and open source tools that empower academics with new ways to exploit the untapped potentials of their digitised research material.",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Intelligent Systems for Screen Archives (ISSA)",
+            "alternateName": "ISSA",
+            "slug": "intelligent-systems-for-screen-archives-issa",
+            "foundingDate": "2025-01-16",
+            "dissolutionDate": "2027-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
@@ -15536,6 +15805,105 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "LGBTQ+ Policymaking in the UK: From research to implementation",
+            "alternateName": null,
+            "slug": "lgbtq-policymaking-in-the-uk-from-research-to-implementation",
+            "foundingDate": "2025-01-06",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Liberal Arts"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Interdisciplinary Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Institute of Psychiatry, Psychology & Neuroscience"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Social Dynamics of People's War",
             "alternateName": null,
             "slug": "social-dynamics-of-people-s-war",
@@ -16492,6 +16860,63 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "AGE-C: Ageing and Gender in European Cinema",
+            "alternateName": "AGE-C",
+            "slug": "age-c",
+            "foundingDate": "2025-03-03",
+            "dissolutionDate": "2025-10-10",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Film Studies"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goethe-Universität"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Università degli Studi di Udine"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Universitatea Babeș-Bolyai"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Université Sorbonne Nouvelle"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Engineer"
           }
         },
         {
@@ -17658,6 +18083,63 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "AGE-C: Ageing and Gender in European Cinema",
+            "alternateName": "AGE-C",
+            "slug": "age-c",
+            "foundingDate": "2025-03-03",
+            "dissolutionDate": "2025-10-10",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Film Studies"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goethe-Universität"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Università degli Studi di Udine"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Universitatea Babeș-Bolyai"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Université Sorbonne Nouvelle"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -19357,6 +19839,30 @@
           "inOrganisation": null,
           "roleName": {
             "name": "RSE team member"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Intelligent Systems for Screen Archives (ISSA)",
+            "alternateName": "ISSA",
+            "slug": "intelligent-systems-for-screen-archives-issa",
+            "foundingDate": "2025-01-16",
+            "dissolutionDate": "2027-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Analyst"
           }
         },
         {
@@ -22349,6 +22855,105 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "LGBTQ+ Policymaking in the UK: From research to implementation",
+            "alternateName": null,
+            "slug": "lgbtq-policymaking-in-the-uk-from-research-to-implementation",
+            "foundingDate": "2025-01-06",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Liberal Arts"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Interdisciplinary Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Institute of Psychiatry, Psychology & Neuroscience"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Analyst"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Georgian Papers Programme",
             "alternateName": "GPP",
             "slug": "gpp",
@@ -24606,6 +25211,63 @@
           "startDate": null,
           "endDate": null,
           "inProject": {
+            "name": "AGE-C: Ageing and Gender in European Cinema",
+            "alternateName": "AGE-C",
+            "slug": "age-c",
+            "foundingDate": "2025-03-03",
+            "dissolutionDate": "2025-10-10",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Film Studies"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Goethe-Universität"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Università degli Studi di Udine"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Universitatea Babeș-Bolyai"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Université Sorbonne Nouvelle"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
             "name": "Crossreads Text, materiality and multiculturalism at the crossroads of the ancient Mediterranean",
             "alternateName": "Crossreads",
             "slug": "crossreads",
@@ -24660,6 +25322,35 @@
             ]
           },
           "inOrganisation": null,
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Intelligent Systems for Screen Archives (ISSA)",
+            "alternateName": "ISSA",
+            "slug": "intelligent-systems-for-screen-archives-issa",
+            "foundingDate": "2025-01-16",
+            "dissolutionDate": "2027-04-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
           "roleName": {
             "name": "Research Software Designer"
           }
@@ -25669,6 +26360,105 @@
       "slug": "zihao-lu",
       "description": "Zihao is a multidisciplinary designer and experimental artist whose work delves deeply into the intersections of space, race, and the boundaries that separate and connect people. With a keen ability to observe his surroundings, social dynamics, and human nature, Zihao critically reflects on these elements and expresses his insights through a wide range of media, including experimental film, performance, narrative art, photography, architecture, installation, and choreography.\n\nHis practice is driven by a relentless pursuit of deconstructing and reconstructing ideas, pushing the limits of his self-perception and professional disciplines. Each project becomes a bold exploration, challenging the conventional boundaries of identity, interaction, and form.\n",
       "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "LGBTQ+ Policymaking in the UK: From research to implementation",
+            "alternateName": null,
+            "slug": "lgbtq-policymaking-in-the-uk-from-research-to-implementation",
+            "foundingDate": "2025-01-06",
+            "dissolutionDate": "2025-12-31",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Digital Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Classics"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of English"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Languages, Literatures and Cultures"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Liberal Arts"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "FAH Department of Interdisciplinary Humanities"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Faculty of Social Science & Public Policy"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "The Dickson Poon School of Law"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "King's Business School"
+                  }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": {
+                    "name": "Institute of Psychiatry, Psychology & Neuroscience"
+                  }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "King's Digital Lab",
+              "slug": "kdl"
+            }
+          },
+          "roleName": {
+            "name": "Research Software Designer"
+          }
+        },
         {
           "startDate": null,
           "endDate": null,
