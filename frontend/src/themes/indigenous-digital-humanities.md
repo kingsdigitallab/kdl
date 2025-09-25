@@ -8,7 +8,7 @@ excerpt: >
   The Indigenous Digital Humanities Research Theme highlights the challenges of how to ethically work with Indigenous peoples and material in Digital Humanities research.
 feature:
   image: /assets/images/themes/indie.jpg
-  title:
+  title: Image was from Samantha Callaghan
   description: >
     A close-up image of interwoven red and black rods tied with thin strands, creating a geometric pattern that represents structure and connection.
 ---
