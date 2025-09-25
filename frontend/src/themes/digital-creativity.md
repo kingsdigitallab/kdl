@@ -10,7 +10,7 @@ excerpt: >
   with partners in the Creative Industries, Higher Education, and GLAM sectors.
 feature:
   image: /assets/images/themes/dc.jpg
-  title:
+  title: Image was created by Aurora Mititelu as part of the Visualising AI project launched by Google DeepMind.
   description: >
     Hands of various skin tones interact with a dynamic, swirling mass of orange and black particles, symbolizing the collaborative and creative process in digital environments.
 ---
