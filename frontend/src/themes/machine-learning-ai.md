@@ -10,7 +10,7 @@ excerpt: >
   across critical, analytical, and practical RSE-driven research.
 feature:
   image: /assets/images/themes/aiml.jpg
-  title:
+  title: Image was created by artist Nidia Dias as part of the Visualising AI project launched by Google DeepMind.
   description: >
     A rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
 ---
