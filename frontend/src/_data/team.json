@@ -1,5 +1,14 @@
 [
   {
+    "slug": "stefan-meier",
+    "jobTitle": "Senior Research Software Engineer",
+    "team": "KDL",
+    "feature": {
+      "image": "/assets/images/people/stefan-meier.jpg",
+      "description": "Photo of Stefan Meier"
+    }
+  },
+  {
     "slug": "samantha-callaghan",
     "jobTitle": "Research Software Analyst",
     "team": "KDL",
