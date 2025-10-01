@@ -10,7 +10,7 @@ memberOf:
     organisation:
       name: King's Digital Lab
       slug: kdl
-    roleName: Researcher
+    roleName: Research Software Project Manager
 ---
 
 Alessandra is responsible for high-level project management of internally and externally funded projects, liaising between the Solution Development Team (SDT) and project partners, as well as working closely with the Director and Lab Manager to ensure the efficient running of the Lab.
