@@ -8,7 +8,7 @@ excerpt: >
   The Data & Processes Visualisation Research Theme explores the use of visual tools and techniques to view and engage with complex datasets and processes in ways that are intuitive, informative and inspiring.
 feature:
   image: /assets/images/themes/dataviz.jpg
-  title:
+  title: Image was created by Jesper Lindborg as part of the Visualising AI project launched by Google DeepMind
   description: >
     A textured surface with rough, broken edges reveals geometric outlines of buildings in blue and red on a grid-like background, symbolizing the intersection of architecture, data visualization, and urban planning.
 ---
