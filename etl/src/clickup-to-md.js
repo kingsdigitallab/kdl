@@ -152,8 +152,9 @@ class ClickUpToMarkdown {
         ? spaceStatus
         : "Active";
 
-      const draft =
-        existingContent?.split("---")[2]?.trim().length < 20 || true;
+      const descriptionLen =
+        existingContent?.split("---")[2]?.trim().length || 0;
+      const draft = descriptionLen < 20;
 
       const frontmatter = {
         ...existingFrontmatter,
