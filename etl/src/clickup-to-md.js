@@ -140,9 +140,9 @@ class ClickUpToMarkdown {
         }
       }
 
-      const spaceStatus = spaces.find(
-        (space) => space.id === project.space.id
-      )?.name;
+      const spaceStatus = spaces
+        .find((space) => space.id === project.space.id)
+        ?.name?.trim();
 
       const sla = this.getSLADates(project);
 
