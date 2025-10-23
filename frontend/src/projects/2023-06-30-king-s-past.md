@@ -7,7 +7,7 @@ alternateName: null
 slug: king-s-past
 foundingDate: 2023-06-30
 dissolutionDate: 2025-01-31
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/King's Past.jpg
   title: King's College, Strand, London. Engraving by J. C. Carter. Wellcome

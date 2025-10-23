@@ -7,7 +7,7 @@ alternateName: Langscape
 slug: langscape
 foundingDate: 2004-10-01
 dissolutionDate: 2008-09-30
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/Landscape--Photo by Manohar Reddy.jpg
   title: Photo by Manohar Reddy

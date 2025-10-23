@@ -7,7 +7,7 @@ alternateName: null
 slug: encyclopedia-britannica-exploratory-prototypes
 foundingDate: 2023-03-01
 dissolutionDate: 2024-03-31
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/Encyclopedia
     Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg

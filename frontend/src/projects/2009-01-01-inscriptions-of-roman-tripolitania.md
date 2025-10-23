@@ -7,7 +7,7 @@ alternateName: IRT
 slug: inscriptions-of-roman-tripolitania
 foundingDate: 2009-01-01
 dissolutionDate: 2021-12-31
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image:
     /assets/images/projects/IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR

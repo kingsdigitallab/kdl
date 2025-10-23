@@ -9,7 +9,7 @@ alternateName: null
 slug: marie-curie-fellowship-dhlab
 foundingDate: 2020-10-01
 dissolutionDate: 2023-03-17
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/digital-humanities-laboratory.jpg
   title:

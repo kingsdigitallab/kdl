@@ -7,7 +7,7 @@ alternateName: null
 slug: culture-case
 foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
-creativeWorkStatus: post-project
+creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/CultureCase--Tomb in India.jpg
   title: Photo by Ibrahim Rifath
