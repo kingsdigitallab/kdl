@@ -17,8 +17,8 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: ERC
-    slug: erc
+  - name: European Research Council (ERC)
+    slug: european-research-council-erc
 departments:
   - name: Oxford University
     slug: oxford-university

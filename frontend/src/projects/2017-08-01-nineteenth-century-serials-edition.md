@@ -16,13 +16,13 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: KCL A&H
-    slug: kcl-ah
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
   - name: Birkbeck, University of London
     slug: birkbeck-university-of-london
 departments:
-  - name: English
-    slug: english
+  - name: FAH Department of English
+    slug: fah-department-of-english
   - name: Birkbeck
     slug: birkbeck
   - name: University of Leeds

@@ -16,13 +16,13 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: AHRC
-    slug: ahrc
-  - name: KCL A&H
-    slug: kcl-ah
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-  - name: Languages, Literatures and Cultures
-    slug: languages-literatures-and-cultures
+  - name: FAH Department of Languages, Literatures and Cultures
+    slug: fah-department-of-languages-literatures-and-cultures
   - name: King's College, London
     slug: kings-college-london
 members:

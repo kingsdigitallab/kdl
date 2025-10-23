@@ -7,7 +7,7 @@ alternateName: null
 slug: encyclopedia-britannica-exploratory-prototypes
 foundingDate: 2023-03-01
 dissolutionDate: 2024-03-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: post-project
 feature:
   image: /assets/images/projects/Encyclopedia
     Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
@@ -23,8 +23,8 @@ keywords:
   - name: DFI
     slug: dfi
 funders:
-  - name: KCL A&H
-    slug: kcl-ah
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities

@@ -7,7 +7,7 @@ alternateName: null
 slug: culture-case
 foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
-creativeWorkStatus: Post-project
+creativeWorkStatus: post-project
 feature:
   image: /assets/images/projects/CultureCase--Tomb in India.jpg
   title: Photo by Ibrahim Rifath
@@ -19,8 +19,8 @@ funders:
   - name: KCL Culture
     slug: kcl-culture
 departments:
-  - name: Culture
-    slug: culture
+  - name: FAH King's Culture
+    slug: fah-kings-culture
   - name: King's College, London
     slug: kings-college-london
 members:

@@ -18,13 +18,13 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: KCL A&H
-    slug: kcl-ah
-  - name: ERC
-    slug: erc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
+  - name: European Research Council (ERC)
+    slug: european-research-council-erc
 departments:
-  - name: Classics
-    slug: classics
+  - name: FAH Department of Classics
+    slug: fah-department-of-classics
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
   - name: King's College, London

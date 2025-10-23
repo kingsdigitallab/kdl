@@ -7,7 +7,7 @@ alternateName: IRT
 slug: inscriptions-of-roman-tripolitania
 foundingDate: 2009-01-01
 dissolutionDate: 2021-12-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: post-project
 feature:
   image:
     /assets/images/projects/IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR
@@ -24,8 +24,8 @@ funders:
   - name: Society for Libyan Studies
     slug: society-for-libyan-studies
 departments:
-  - name: Classics
-    slug: classics
+  - name: FAH Department of Classics
+    slug: fah-department-of-classics
   - name: King's College, London
     slug: kings-college-london
 members:

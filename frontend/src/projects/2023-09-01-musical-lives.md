@@ -17,11 +17,11 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: ERC
-    slug: erc
+  - name: European Research Council (ERC)
+    slug: european-research-council-erc
 departments:
-  - name: Music
-    slug: music
+  - name: FAH Department of Music
+    slug: fah-department-of-music
   - name: King's College, London
     slug: kings-college-london
 members:

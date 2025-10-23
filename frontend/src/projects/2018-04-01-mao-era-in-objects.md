@@ -18,11 +18,11 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: AHRC
-    slug: ahrc
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
 departments:
-  - name: History
-    slug: history
+  - name: FAH Department of History
+    slug: fah-department-of-history
   - name: Oxford University
     slug: oxford-university
   - name: King's College, London

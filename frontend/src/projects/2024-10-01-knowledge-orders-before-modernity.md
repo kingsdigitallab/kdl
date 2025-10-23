@@ -8,13 +8,17 @@ slug: knowledge-orders-before-modernity
 foundingDate: 2024-10-01
 dissolutionDate: 2032-08-31
 creativeWorkStatus: Active
-keywords: []
+keywords:
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
+  - name: DFI
+    slug: dfi
 funders:
   - name: Leverhulme Trust
     slug: leverhulme-trust
 departments:
-  - name: History
-    slug: history
+  - name: FAH Department of History
+    slug: fah-department-of-history
   - name: University of Kent
     slug: university-of-kent
   - name: King's College, London

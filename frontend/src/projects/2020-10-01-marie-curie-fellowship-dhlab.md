@@ -9,7 +9,7 @@ alternateName: null
 slug: marie-curie-fellowship-dhlab
 foundingDate: 2020-10-01
 dissolutionDate: 2023-03-17
-creativeWorkStatus: Post-project
+creativeWorkStatus: post-project
 feature:
   image: /assets/images/projects/digital-humanities-laboratory.jpg
   title:
@@ -22,8 +22,8 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: ERC
-    slug: erc
+  - name: European Research Council (ERC)
+    slug: european-research-council-erc
 departments:
   - name: King's Digital Lab
     slug: kings-digital-lab

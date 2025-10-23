@@ -7,7 +7,7 @@ alternateName: null
 slug: king-s-past
 foundingDate: 2023-06-30
 dissolutionDate: 2025-01-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: post-project
 feature:
   image: /assets/images/projects/King's Past.jpg
   title: King's College, Strand, London. Engraving by J. C. Carter. Wellcome
@@ -23,8 +23,8 @@ funders:
   - name: KCL Global Cultures Institute
     slug: kcl-global-cultures-institute
 departments:
-  - name: History
-    slug: history
+  - name: FAH Department of History
+    slug: fah-department-of-history
   - name: King's College, London
     slug: kings-college-london
 members:

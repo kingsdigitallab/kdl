@@ -19,13 +19,13 @@ feature:
 funders:
   - name: Leverhulme Trust
     slug: leverhulme-trust
-  - name: AHRC
-    slug: ahrc
-  - name: KCL A&H
-    slug: kcl-ah
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-  - name: History
-    slug: history
+  - name: FAH Department of History
+    slug: fah-department-of-history
   - name: King's College, London
     slug: kings-college-london
 members:

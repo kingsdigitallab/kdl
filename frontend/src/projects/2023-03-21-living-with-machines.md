@@ -22,13 +22,13 @@ keywords:
   - name: Data Visualisation
     slug: data-visualisation
 funders:
-  - name: UKRI
-    slug: ukri
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: Alan Turing Institute
-    slug: alan-turing-institute
+  - name: The Alan Turing Institute
+    slug: the-alan-turing-institute
   - name: King's College, London
     slug: kings-college-london
   - name: British Library

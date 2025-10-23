@@ -21,13 +21,13 @@ feature:
   width: 1200
   height: 800
 funders:
-  - name: KCL A&H
-    slug: kcl-ah
-  - name: AHRC
-    slug: ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
 departments:
-  - name: History
-    slug: history
+  - name: FAH Department of History
+    slug: fah-department-of-history
   - name: King's College, London
     slug: kings-college-london
 members:
