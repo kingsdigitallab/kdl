@@ -2,6 +2,7 @@
 title: Role and responsibilities of the Research Software Analyst
 subtitle:
 tags:
+  - post
   - RSE
   - analysis
   - Agile SDLC
