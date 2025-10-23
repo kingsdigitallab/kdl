@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>Role and responsibilities of the Research Software Analyst | King&apos;s Digital Lab</title>
+
+<meta name="description" content="This blog post builds on a talk co-authored with King&rsquo;s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title [&ldquo;Aligning feasible technical requirements to research objectives and steering collaboration &quot;:&quot; role and responsibilities of the Research Software Analyst in RSE teams&rdquo;](https://virtual.oxfordabstracts.com/event/75166/submission/41).">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Arianna Ciula">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/blog/role-and-responsibilities-rsa/">
+
+<meta property="og:title" content="Role and responsibilities of the Research Software Analyst | King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/blog/role-and-responsibilities-rsa/">
+<meta property="og:description" content="This blog post builds on a talk co-authored with King&rsquo;s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title [&ldquo;Aligning feasible technical requirements to research objectives and steering collaboration &quot;:&quot; role and responsibilities of the Research Software Analyst in RSE teams&rdquo;](https://virtual.oxfordabstracts.com/event/75166/submission/41).">
+<meta property="og:image" content="https://kdl.kcl.ac.uk/assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/blog/role-and-responsibilities-rsa/">
+<meta name="twitter:title" content="Role and responsibilities of the Research Software Analyst | King&apos;s Digital Lab">
+<meta name="twitter:description" content="This blog post builds on a talk co-authored with King&rsquo;s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title [&ldquo;Aligning feasible technical requirements to research objectives and steering collaboration &quot;:&quot; role and responsibilities of the Research Software Analyst in RSE teams&rdquo;](https://virtual.oxfordabstracts.com/event/75166/submission/41).">
+<meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+      <link href="/kdl/assets/stylesheets/main.css" rel="stylesheet">
+    
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/research-themes/">Research</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+  
+  <nav class="sub" aria-label="breadcrumbs">
+    <div class="kdl-container">
+      <ol>
+        
+          <li>
+            <a href="/kdl/blog/" aria-current="page">Blog</a>
+          </li>
+        
+      </ol>
+    </div>
+  </nav>
+
+
+
+
+      </header>
+    
+
+    
+      <main class="post">
+        
+  
+    <div class="kdl-container">
+    
+    
+      <h1>Role and responsibilities of the Research Software Analyst</h1>
+    
+
+    
+    <aside>
+    <h2>Table of contents</h2>
+    <nav class="toc">
+        <ol><li><a href="#rsa-role-description">RSA role description</a></li><li><a href="#what-does-an-analyst-do%3F">What does an Analyst do?</a></li></ol>
+      </nav>
+  </aside>
+
+    <article>
+
+
+
+  
+  <article>
+    <header>
+      
+      <figure class="kdl-image">
+  <img loading="lazy" src="/kdl/assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png" alt="">
+  <figcaption>Textiles and Tech 1 by Hanna Barakat &amp; Archival Images of AI + AIxDESIGN https://betterimagesofai.org CC 4</figcaption>
+</figure>
+
+      
+    </header>
+
+    
+      
+      <article><h1 id="digital-research-technical-professionals-(drtp)-in-arts-and-humanities-(a%26h)-and-beyond" tabindex="-1">Digital Research Technical Professionals (dRTP) in Arts and Humanities (A&amp;H) and beyond</h1>
+<p>The UKRI-embraced term of digital Research Technical Professions (dRTP) represents a wide range of roles and responsibilities across the digital research ecosystem. In this blog post, I would like to focus on the role I have taken on since joining KDL in 2017 – Research Software Analyst (RSA) - to offer the example I know best of competences and responsibilities which I consider complementary and essential to research software engineering teams.</p>
+<p>The blog post can hopefully be useful for others to see what an RSA role is, what we do as RSAs, how it differs from the role of Research Software Engineers and to inspire others holding similar responsibilities to professionalise RSA roles in or closely working with RSE teams and beyond.</p>
+<p>First, when looking at the national context, it is interesting to note that the Arts and Humanities Research Council definition of RTPs includes analysts – albeit as an undefined label:</p>
+<blockquote>
+<p>&quot;[an RTP is] anyone who brings indispensable specialist technical skills, at an advanced level, to a research project, i.e. professional skills that are necessary for the design, development, delivery, completion and maintenance of the project. Depending on the project, Research/Academic Library professionals, Information systems specialists, Analysts, Sound engineers, Digital technicians, Conservators, Information systems and software engineers, <em>System managers</em>, Archivists, Animators, Illustrators, Graphic and <em>UI/UX designers</em>, Conservators, Curators, <em>Project and research infrastructure managers</em> and others may qualify for inclusion.&quot;</p>
+<blockquote>
+<p>(in bold additions proposed by KDL in a response to AHRC consultation on RTPs in 2022, <a href="kdl.kcl.ac.uk/blog/rtp-rse">What does the role of Research Technology Professional mean to King’s Digital Lab?</a></p>
+</blockquote>
+</blockquote>
+<p>Conversely, the Arts and Humanities community – where in the last few years awareness of RSE and dRTPs roles more widely has increased – recognises that research and business analysis are prerogatives of the Research Software Engineer (RSE) role:</p>
+<blockquote>
+<p>“RSEs are involved in a very wide variety of activities ranging from project leadership/management and research / business analysis to UI/UX design, systems administration, and collections management. They also often lead or contribute to systems and infrastructure development and maintenance in partnership with both internal IT departments and external vendors. They are an increasingly key component in interdisciplinary, computationally intensive research, working alone and in teams and across an extraordinary range of research disciplines.”</p>
+<blockquote>
+<p><a href="https://doi.org/10.5281/zenodo.8177926">Sichani et al. 2023</a></p>
+</blockquote>
+</blockquote>
+<p>If you agree that research and business analysis are relevant for RSE teams at large, you might find it useful to read on and find out more on how KDL defined the RSA role and its career pathways.</p>
+<h1 id="king%E2%80%99s-digital-lab-(kdl)-roles-and-career-pathways-context" tabindex="-1">King’s Digital Lab (KDL) roles and career pathways context</h1>
+<p>Timewise, here is a quick overview of KDL career pathways work:</p>
+<p>*2018
+**RSE term adoption (<a href="https://zenodo.org/records/13655424">one of the first teams in Arts &amp; Humanities</a> - p.20 - to do so)
+*2019
+**<a href="https://doi.org/10.5281/zenodo.2559234%20%20%E2%80%8B">Roles document</a> published
+**<a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki">SDLC wiki</a> started with project templates and guidance building on <a href="https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html">Agile DSDM roles</a>| definitions</p>
+<h2 id="rsa-role-description" tabindex="-1">RSA role description</h2>
+<p>The table below is a snapshot of the KDL RSA workload model. At the time of drafting these roles (this work was led by KDL founding Director, <a href="https://orcid.org/0000-0003-4801-0366">James Smithies</a>), this document was conceived as an indication and guidance of potential distribution of tasks and responsibilities rather than an exact match.</p>
+<p><a href="/kdl/assets/images/blog/Table-analyst-role.jpg">Extracts from KDL roles document, Analyst role, 2019, pp. 6-8</a></p>
+<p>This more high-level grouping is useful to highlight that project management is only one of the varied and various responsibilities the RSA role covers:</p>
+<table>
+<thead>
+<tr>
+<th>Core responsibilities amounting to <strong>30%</strong></th>
+<th><strong>20%</strong></th>
+<th><strong>30%</strong></th>
+<th><strong>20%</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Research analysis</strong></td>
+<td><strong>Project management</strong></td>
+<td><strong>Other responsibilities</strong></td>
+<td><strong>... and more</strong></td>
+</tr>
+<tr>
+<td>Deploy / accumulate domain knowledge to understand methods / requirements / interfaces</td>
+<td>rowspan: Take responsibility for the design and delivery of technical solutions and their integration into wider institution technical frameworks and strategies</td>
+<td><strong>10%</strong> Research Implementation</td>
+<td>5% Research Development</td>
+</tr>
+<tr>
+<td>Produce solution overview documents for inclusion in funding bids</td>
+<td></td>
+<td><strong>10%</strong> Teaching</td>
+<td>5% System, Software and Data Maintenance Support</td>
+</tr>
+<tr>
+<td>rowspan: Work with colleagues to support technical research outputs</td>
+<td></td>
+<td><strong>10%</strong> Personal research</td>
+<td>5% Self-directed learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>5% Community outreach</td>
+</tr>
+</tbody>
+</table>
+<p>To those that have time to read the full role document, it will be clear that it builds on <a href="https://shop.bcs.org/page/detail/?k=9781780175102">business analysis good practices</a> anchored by <a href="https://sfia-online.org/">Skills Framework for the Information Age (SFIA)</a>. In particular the KDL RSA role can potentially map to and fulfil the following Agile Software Development Lifecycle (SDLC) roles:</p>
+<p>*Research Analyst
+*Project Coordinator
+*Tester
+*Team Leader
+*Research Developer</p>
+<p>The document also identifies different levels of seniority starting from entry level and moving into senior and principal. Some of the characteristics that distinguish the senior level include:</p>
+<p>*team management including professional development;
+*lead on large grants / methodologies / lab strategy;
+*stakeholder management;
+*community engagement.</p>
+<p>To the above the principal role adds amongst others:</p>
+<p>*increased line management including appraisals/workload planning;
+*engagement with stakeholders at executive level;
+*national &amp; international community engagement / networks;
+*personal research.</p>
+<p>All these specifications might sound quite abstract; so, let's consider what an RSA actually does.</p>
+<h2 id="what-does-an-analyst-do%3F" tabindex="-1">What does an Analyst do?</h2>
+<p>Following the <a href="https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html">Agile DSDM terminology</a>, I decided to focus on the important part an RSA plays in the so-called pre-project and evolutionary development phases of the KDL SDLC.</p>
+<p><a href="/kdl/assets/images/blog/pre-project.png">KDL SDCL pre-project phase.</a></p>
+<p>In particular, the feasibility assessment part of pre-project (circled in red in the diagram above) is where the contribution of this role is key.</p>
+<p>The <a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki/F2:-Feasibility-guidance">KDL guidance on feasibility assessment phase</a> offers some information of how the role operates but to sum up, the RSA needs to rely on:
+*their knowledge (of research domains as well as specific technical methods)
+*combined with own experience (in particular around collaboration)
+*as well as analytical skills (around research questions, technical requirements framing)
+*and so-called &quot;power&quot; skills - to enable others to perform their own roles in a collaborative project team made up of other dRTPs including RSEs and designers, as well as, typically, project leads, co-leads, and other researchers as applicable.</p>
+<p>In this critical feasibility assessment stage, the role requires:
+*awareness of organisational requirements as well as of the research and research funding contexts within which a project is shaped.</p>
+<p>Whether at organisation or research context level, this awareness applies to both general and technical requirements.</p>
+<p>An example of awareness of an organisational general requirement might relate to the Faculty’s strategy to support AI in research with associated documentation; while awareness of an organisation-level technical requirement might relate to knowledge of the University’s provision for compute infrastructure. The example of awareness of general requirements at the research funding context level might concern eligibility and budgetary constraints of specific funding schemes.</p>
+<p>The core activity the RSA leads during the feasibility assessment stage is the so-called elicitation of solution-level requirements. Crucially, this is a proactive, curious, collaborative process (which is the reason why I don’t like calling it requirements gathering as it assumes requirements are out there ready to be harvested, rather than to be  understood and shaped collaboratively). The main key steps in this process are:</p>
+<ol>
+<li>understand research objectives in a technology agnostic manner - curiosity is a key RSA attitude!</li>
+<li>iterate, asking many questions and including examination of data samples as needed</li>
+<li>evaluate options and approaches - RSA leads this but crucially in a technology-aware consultative manner integrating input from the rest of the RSE team</li>
+<li>formalise prioritisation of requirements – again the RSA leads this but in collaboration with others from the RSE team and project team at large (project lead etc.); in the KDL case, prioritisation is normally done following the well-known <a href="https://github.com/kingsdigitallab/sdlc-for-rse/wiki/A2:-Terms-of-Reference-Guidelines#231-moscow-prioritisation">MoSCoW technique</a></li>
+<li>estimate effort – similarly to step 3, the RSA in KDL leads this but gets input and feedback from the larger RSE team ensuring levels of accountability for the whole team and process</li>
+<li>forward plan – the RSA also must think beyond the immediate objectives of the project and keep an eye on future responsibilities especially if components of research outputs are at stake – in particular software and systems – that are required to be maintained long term.</li>
+</ol>
+<p>Again, to be less abstract, let’s look at an example of elements of feasibility assessment taken from a design and development work package of a specific project I have been lead research analyst for. I chose the <a href="https://kdl.kcl.ac.uk/projects/crossreads/">CROSSREADS project</a>, led by the University of Oxford and funded by the European Research Council, with the core objective of collecting aggregated data – epigraphic, linguistic and petrographic - about all ancient inscriptions recorded on the Italian island of Sicily.
+What follows is an extract from the table of what KDL calls default requirements – i.e. not project specific but requirements KDL has found apply as default and to be adapted based on each context – with MoSCOW prioritisation.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KDL01</td>
+<td>M</td>
+<td>Data protection</td>
+</tr>
+<tr>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>KDL08</td>
+<td>S</td>
+<td>Data publication and deposit</td>
+</tr>
+<tr>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>KDL10</td>
+<td>C</td>
+<td>Training</td>
+</tr>
+</tbody>
+</table>
+<p>This list would be complemented by analysis and prioritisation of the project specific requirements as showcased below:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>M</td>
+<td>Petrographic environment</td>
+</tr>
+<tr>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D4</td>
+<td>M</td>
+<td>Aggregated search</td>
+</tr>
+<tr>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D6</td>
+<td>C</td>
+<td>Visualisations</td>
+</tr>
+<tr>
+<td>D7</td>
+<td>S</td>
+<td>Open data endpoints</td>
+</tr>
+<tr>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The associated estimate of effort would then look something like the following:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Role</strong></th>
+<th><strong>Days / Cost</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Project requirements</strong></td>
+<td>RSA …<br>RSE …</td>
+<td>X<br>Y<br>Z<br>...</td>
+</tr>
+<tr>
+<td><strong>Default requirements</strong></td>
+<td><em>(colspan 2)</em></td>
+<td>Α</td>
+</tr>
+<tr>
+<td><strong>Infrastructure</strong></td>
+<td><em>(colspan 2)</em></td>
+<td>Ω</td>
+</tr>
+<tr>
+<td><strong>TOTAL</strong></td>
+<td><em>(colspan 2)</em></td>
+<td>X + Y + Z + ... + Α + Ω</td>
+</tr>
+</tbody>
+</table>
+<p>Based on consultation undertaken under step 3 of the requirements elicitation phase, the RSA would also make sure that ideally the feasibility assessment document includes an overview, even if in the form of a simple outline or sketch idea, of the proposed  solution – this is usually based on the collaborative analysis undertaken during the elicitation process and on how the project compares with the RSE team expertise as well as previous efforts.
+In the pre-project phase of this CROSSREADS work package I worked very closely with KDL RSE Geoffroy Noël, KDL RSA Neil Jakeman and project lead Jonathan Prague.
+Since this work package of CROSSREADS builds on a previous work package developed by KDL, the sketch architecture was quite detailed and deemed as feasible at the end of the feasibility process:</p>
+<p><a href="/kdl/assets/images/blog/Crossreads-Req.mapping.jpg">Miro board drawn by RSE outlining the evolving solution overview for the corpus building work package of CROSSREADS project.</a></p>
+<p>The other phase of the SDLC I decided to focus on to explain the role of the RSA is the iterative evolutionary development phase.</p>
+<p><a href="/kdl/assets/images/blog/evo-dev.png">KDL SDCL evolutionary development phase.</a></p>
+<p>During this phase of active design and development for the RSE team, the RSA role can be grouped into three areas, namely:</p>
+<ol>
+<li>Lead initiation, analysis and reviews where, in line with KDL guidance developed over the last 5 years or so, the RSA leads on:
+<ol>
+<li>Notification of grant / project start</li>
+<li>Set up management environment (in collaboration with projects portfolio manager)</li>
+<li>Organise kick off</li>
+<li>Ownership of Project Review Record and internal/external review meetings schedules</li>
+<li>Analysis work (e.g. data modelling) and associated documentation</li>
+</ol>
+</li>
+<li>First point of contact and escalations, where the RSA monitors:
+<ol>
+<li>Iterative prioritisation</li>
+<li>Capacity planning at project level</li>
+<li>Any substantial project change request</li>
+</ol>
+</li>
+<li>Other contributions, in particular to:
+<ol>
+<li>Project and at times lab-level communication strategy</li>
+<li>“Change freeze,” where the RSA coordinates consensus-reaching (within the RSE sub-team and project team at large) around prioritisation based on testing results and budget available</li>
+<li>Data deposit or other dissemination activity</li>
+<li>Service Level Agreement draft if applicable or any decommissioning plans or documentation</li>
+<li>Project review aiming at wider lab process improvement activities</li>
+</ol>
+</li>
+</ol>
+<p>Let’s look again at the same example with a specific deliverable in mind (the petrographic environment mentioned in the project requirements table above). In this phase of the project deliverable, I worked very closely with the KDL RSE at the time Ryan Hauser and the project Research Associate Alessia Coccato.
+A core element of RSE support for the project was to create a data collection, processing and analysis environment for one of the project researchers undertaking material sciences analysis of the rocks where the texts (in Latin, Greek and other languages) are inscribed. What follows are examples of the evolutionary development artefacts I contributed to in my role as lead RSA for the project.</p>
+<p>As part of analysis work (1e above) I met several times with the aforementioned researcher,  looked at data samples (including data produced both via invasive and entirely digital, so non-invasive, techniques of petrographic observation and analysis), familiarised myself with the units of analysis, agreed on a high level language for the data workflow and associated data models, and recorded relevant notes or decisions in the project review record.</p>
+<p><a href="/kdl/assets/images/blog/white-board.jpg">Analogue artefact (whiteboard sketch) drawn by the RSA in discussion with the researcher and the project RSE.</a></p>
+<p><a href="/kdl/assets/images/blog/crossreads-petrography.png">Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.</a></p>
+<p>Ultimately this collaborative analysis process led to agreed RSE interventions in the research workflow formalised both by technical documentation (such as the diagram above), research dissemination (e.g. conference papers) and, crucially from an RSE perspective, the actual code used to implement the petrographic research environment.</p>
+<p><a href="/kdl/assets/images/blog/crossreads-CU-increment4.png">Digital artefact (extract from ClickUp project review record document) owned by RSA and shared with the whole project team showcasing one iteration of a component of the solution – isotope analysis – which did not end up being part of the final product.</a></p>
+<p>While the RSA role is more prominent in the initial phases of analysis of the research problem to tackle or support, I continued to monitor the development iterations, recording key milestones and reviews in the project review record as per 1d (see example above and below), including contributing to testing of the deliverables when applicable.</p>
+<p><a href="/kdl/assets/images/blog/crossreads-CU-requirements.png">Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.</a></p>
+<p>Other activities listed under 2 above I have contributed to are prioritisation and capacity planning as showcased below.</p>
+<p><a href="/kdl/assets/images/blog/crossreads-CU-increment16.png">Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.</a></p>
+<h1 id="reflections-on-skills-mapping-and-professionalisation" tabindex="-1">Reflections on skills mapping and professionalisation</h1>
+<p>I mentioned how the KDL roles were drafted to map indicatively to the SFIA framework. The framework has slightly evolved since then, but the mapping is still relevant. The diagram below lists on the left characteristics and competences that the KDL RSAs (Paul, Samantha, Neil and myself) collected anecdotally to describe what we think is most important in what we do. All these map to what you would expect in the SFIA framework (for those interested, for the senior level these are: BUSA 5; FEAS 5; REQM 5; RSCH 5; METL 5; EMRG 5; PRMG 5; DTAN 4; DESN 5; INCA 4; UNAN 4; RELM 3; TEAC 5; PDSV 4; PEMT 4).</p>
+<p>However, interestingly, they also highlight other areas of the framework highlighted in blue in the diagram that:</p>
+<ul>
+<li>are associated to relationships management and what I referred to above as “power” skills, highlighting the importance of engaging with people and processes in addition to data and systems;</li>
+<li>have gained importance in an increasingly digital research infrastructure (DRI) oriented landscape such as service management; and,</li>
+<li>have become essential in a Higher Education Institution ecosystem supported by external funding and targeting realistic cost recovery such as financial management.</li>
+</ul>
+<p><a href="/kdl/assets/images/blog/RSA_talk_sfia.jpg">Mapping KDL RSA perceived key assets with SFIA framework.</a></p>
+<p>Finally, as the RSE community is also engaged in a holistic mapping of skills and competences, I also attempted to map what KDL RSAs perceived as their key assets or talents to the <a href="https://github.com/direct-framework/">DIRECT framework</a> draft. This fun exercise both validated the DRAFT framework (as it is, it already seems to map nicely to the RSA role as we intend it in KDL) but also to potentially highlight the importance of other areas beyond project management including professional skills at personal, interpersonal and teamwork/collaboration level, as well as domain expertise and research, and, last but not least, leadership and management.</p>
+<p><a href="/kdl/assets/images/blog/RSA_talk_direct.jpg">Mapping KDL RSA perceived key assets with DIRECT draft framework.</a></p>
+<p>RSA roles, whilst well-known and professionalised in industry (as business analysts or, increasingly, as product managers), Higher Education Institutions in the UK tend o not have formal RSA roles, so the tasks described above are carried out by RSE themselves, technical project managers (e.g. Scrum masters at the University of Manchester) or data roles (e.g. data scientists at Alan Turing Institute; data stewards at UCL). Professionalising a separate RSA role has the advantage of freeing RSE (and other members of the Solution Development Team such as UI / UX designers) from these responsibilities to focus on technical design and development. RSAs are able to enable grant capture and parallel work on multiple projects in different stages of conceptualisation and development at scale. Separating overall lab management (responsibility of the lab manager at KDL) from portfolio-level project management (responsibility of the project manager at KDL) from project-level project management (responsibility of the RSAs) enables accountability in financial management while keeping the deliverables close to the research questions and concerns (main responsibility of the RSAs). This separation also allows for both lab level and project-level capacity planning  and supports the SDT team to develop analysis processes around its SDLC (e.g. feasibility assessment, planning and documentation, decommissioning). However, it does require some investment beyond better known RSE roles and the availability of career pathways or provision for training and mobility across roles.</p>
+<p>The RSA is a rich role with skills which can complement an existing RSE role or, for teams which work at scale, more successfully be implemented into a separate role; hopefully, this blogpost left you with a clearer idea of what an RSA does, what they could do in your team or whether you would be interested in a similar career.</p>
+<p>For two projects I co-lead which support career development for digital RTPs including RSA see <a href="https://step-up.ac.uk/">STEP-UP</a> and <a href="https://discourse-network.github.io/">DisCourse</a>.</p>
+</article>
+    
+
+    
+      <footer>
+        
+          
+            by
+            
+              
+              <span class="author"><a href="/kdl/about/people/arianna-ciula/">Arianna Ciula</a></span>
+
+          
+          
+            on
+            <time datetime="Tue Oct 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">Oct 21, 2025</time>
+
+        
+      </footer>
+    
+
+  </article>
+
+
+
+
+
+
+
+<div class="sibling-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      
+        <li>
+          <a href="/kdl/blog/ai-in-research/"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> AI in Research</a>
+        </li>
+      
+      
+    </ol>
+  </nav>
+</div>
+</article>
+    
+    </div>
+  
+
+      </main>
+    
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//bsky.app/profile/kingsdigitallab.bsky.social" title="KDL on Bluesky">
+          <ion-icon src="/assets/icons/bluesky.svg" aria-label="Bluesky icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU">
+            <ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG">
+            <ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon>
+           Report a problem</a>
+      </li>
+      <li>
+        <address>
+          <a href="mailto:kdl-info@kcl.ac.uk">
+            <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+        </address>
+      </li>
+      <li>
+        <address class="postal">
+            King's College London
+            <br>
+            Room VWB 2.50,
+            <br>
+            Virginia Woolf Building
+            <br>
+            22 Kingsway
+            <br>
+            London WC2B 6LE
+          </address>
+      </li>
+    </ul>
+  </section>
+</div>
+</nav>
+<section class="footer-end">
+<div class="kdl-container">
+  <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+    </div>
+  </section>
+
+  </footer>
+
+
+    
+  <script type="module" async="">import mermaid from "https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs";document.addEventListener('DOMContentLoaded', mermaid.initialize({"loadOnSave":true}));</script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script data-goatcounter="https://kdl.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+
+  </body>
+</html>
