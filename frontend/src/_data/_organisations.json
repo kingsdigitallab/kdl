@@ -56,6 +56,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T08:46:58.323Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "484fd4d3-b494-4cf4-829a-f9a0db5f1071",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:58.124Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "690921a2-0fdc-41d2-9bfd-68b658b77dc3",
+      "name": "AdvanceHE",
+      "slug": "advance-he",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-04-05T12:38:32.205Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -106,6 +129,29 @@
           }
         }
       ],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:46:58.556Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "852753c5-7fc4-4dee-a5a9-e6e7cc31c940",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:58.477Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "3255cfb8-9e81-42b6-98d6-b52186873331",
+      "name": "AlcesFlight",
+      "slug": "alces-flight",
+      "url": [],
       "memberOf": []
     },
     "parentOrganisation": null,
@@ -204,6 +250,52 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T08:46:58.868Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "fc67fb17-ed06-4d49-ac9f-3c536fe6fe9d",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:58.827Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "89370318-ee84-44d5-b513-fa9404df3f06",
+      "name": "Australian Research Data Commons",
+      "slug": "australian-research-data-commons",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:46:59.087Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "ba78a2e2-2c46-4ef8-90c1-1d862205d761",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:59.005Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "74a74538-d400-4976-b77b-b18bed5892f7",
+      "name": "BCS",
+      "slug": "bcs",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:07.381Z",
     "cmsDateUpdated": "2023-08-18T10:04:33.770Z",
     "cmsSort": null,
@@ -273,6 +365,52 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T08:46:59.339Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "ff7f1dcb-eab6-412d-a627-7d16b17c80db",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:59.275Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "ddf62b40-0fb3-4b2a-9df9-dc0be336a32c",
+      "name": "Carpentries",
+      "slug": "carpentries",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:46:59.621Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "0f4c16a6-c66e-4dd9-b322-e73795146019",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:46:59.523Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "e01e01b1-69bf-4f7d-abc4-56f8962aa84d",
+      "name": "CCP in Wave Structure Interaction (Deborah Greaves, Plymouth)",
+      "slug": "ccp-in-wave-structure-interaction-deborah-greaves-plymouth",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2024-01-08T16:14:56.118Z",
     "cmsDateUpdated": "2025-01-07T18:02:31.429Z",
     "cmsSort": null,
@@ -289,6 +427,29 @@
       "id": "e24c6731-2405-4bb2-9c20-5c15779a6178",
       "name": "Charisma.AI",
       "slug": "to-play-for",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:48:36.734Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "e8131d08-4821-41f0-9c30-2e872ed7d47e",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:48:36.543Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "79692ed4-042e-4496-9e68-f5cd78648bf6",
+      "name": "CloudKubed",
+      "slug": "cloud-kubed",
       "url": [],
       "memberOf": []
     },
@@ -391,6 +552,29 @@
       "id": "ed7e0c8f-6316-44ba-a083-94a91cecd5ea",
       "name": "Courtauld Institute of Art",
       "slug": "courtauld-institute-of-art",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:48:37.000Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "f2c00138-b83e-4bab-8c54-b25dafe19134",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:48:36.941Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9324438e-a973-48c1-89b1-77fb6b9a76c6",
+      "name": "Dan Katz (USA)",
+      "slug": "dan-katz-usa",
       "url": [],
       "memberOf": []
     },
@@ -837,6 +1021,75 @@
       "id": "40415ba3-9ca5-40bb-93d4-659440a565b5",
       "name": "Digital Preservation Coalition",
       "slug": "digital-preservation-coalition",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:48:37.274Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "52758bbd-14cb-447f-a4dd-b801d7160a5c",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:48:37.221Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9bdeac94-9b2d-41e1-b73d-ba974dfbd76d",
+      "name": "Digital Research Academy",
+      "slug": "digital-research-academy",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:50:15.037Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "546de6b9-40ab-4e11-a039-4e7daeec38d6",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:50:14.823Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "96589757-8594-4caa-8aab-ef36a1c0e652",
+      "name": "DiRAC",
+      "slug": "di-rac",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:50:15.264Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "a7671e72-873b-4fa5-95da-038325b9812b",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:50:15.196Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "05f88e2e-696d-4762-baa1-7d71c113cc61",
+      "name": "Dreaming Spires",
+      "slug": "dreaming-spires",
       "url": [],
       "memberOf": []
     },
@@ -5839,6 +6092,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T09:53:30.043Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "a8991554-3611-4960-865d-00042f7ee0bc",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:53:29.978Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "e1c67d91-d782-448b-9351-090340c7d1cd",
+      "name": "FAH Department of Interdisciplinary Humanities",
+      "slug": "fah-department-of-interdisciplinary-humanities",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2023-09-18T14:21:21.896Z",
     "cmsDateUpdated": "2023-12-18T13:04:38.885Z",
     "cmsSort": null,
@@ -6322,6 +6598,29 @@
         }
       ]
     },
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:53:29.740Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "62835b1d-c7d2-4559-9c7d-2250fdd40625",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:53:29.655Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "f95e4b67-490e-4544-95b9-178df1534f52",
+      "name": "FAH Department of Liberal Arts",
+      "slug": "fah-department-of-liberal-arts",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
     "subOrganisation": []
   },
   {
@@ -7330,6 +7629,29 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T09:53:30.362Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "407df3cf-c9d2-4109-afcb-f2d765738fc8",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:53:30.299Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "443ce6bc-86ae-4332-9c84-9e9e1605c18a",
+      "name": "Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care",
+      "slug": "florence-nightingale-faculty-of-nursing-midwifery-and-palliative-care",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2024-03-07T09:15:45.597Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -7425,6 +7747,29 @@
       "id": "8ee5743e-a991-4f5b-8775-a9766510fc5a",
       "name": "Goethe-Institut London",
       "slug": "goethe-institut-london",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:36:45.478Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "7c09a2b6-13a3-4ff6-9924-c738af3584f6",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:36:45.389Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "175ef2ba-38ff-4bc7-aa07-b83bae7b9004",
+      "name": "Goethe-Universität",
+      "slug": "goethe-universitaet",
       "url": [],
       "memberOf": []
     },
@@ -7632,6 +7977,29 @@
       "id": "eb187302-6387-49ad-87b8-b3e00da59951",
       "name": "Imperial College London",
       "slug": "imperial-college-london",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:53:30.696Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "b7539689-dd08-4764-b31c-28d5893754d1",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:53:30.610Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "5edc86e4-4aab-4f4c-ac13-cd7a0a2c61f1",
+      "name": "Institute of Psychiatry, Psychology & Neuroscience",
+      "slug": "institute-of-psychiatry-psychology-and-neuroscience",
       "url": [],
       "memberOf": []
     },
@@ -8166,6 +8534,52 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T08:50:15.797Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "5a719803-1670-4b12-acb5-9bd918e531ce",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:50:15.716Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "b331f61a-cf3e-481b-9f65-176b7f6b4dff",
+      "name": "MetaCell",
+      "slug": "meta-cell",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:50:15.540Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "3c2c334b-9a05-40cb-a2b1-5a6e5ee409d4",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:50:15.472Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "0d2a371e-d32d-4310-8a56-4c49d188a8bd",
+      "name": "Met Office",
+      "slug": "met-office",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:09.425Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -8239,6 +8653,29 @@
           }
         }
       ],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:50:16.077Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "6fb45691-392c-45cd-818d-42c8f989d117",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:50:16.007Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "c201971c-2951-43c9-ba57-622ca093f633",
+      "name": "Netherlands eScience Centre",
+      "slug": "netherlands-e-science-centre",
+      "url": [],
       "memberOf": []
     },
     "parentOrganisation": null,
@@ -8353,6 +8790,29 @@
       "id": "0840a1d6-d09a-417f-94f7-fdfdffd9cac3",
       "name": "New York University",
       "slug": "nyu",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:54:10.445Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "e27a6553-0455-4e0f-8d6b-c5fb1016ff47",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:54:10.363Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "3cccbf19-01e3-4ecd-8a1a-2a211fb15428",
+      "name": "NOC",
+      "slug": "noc",
       "url": [],
       "memberOf": []
     },
@@ -8511,6 +8971,29 @@
       "id": "418aef2b-f172-4de7-a358-172af604d7e8",
       "name": "Praline",
       "slug": "praline",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:54:10.669Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "5d92b590-0511-40e7-b294-af1c9800fe64",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:54:10.617Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "d392ee2e-fe90-47f9-b805-07cf4c1b1d80",
+      "name": "PRISM Community",
+      "slug": "prism-community",
       "url": [],
       "memberOf": []
     },
@@ -8758,6 +9241,29 @@
       "id": "2be3a994-d1c3-478c-ab0c-05576cbb855a",
       "name": "Society for Libyan Studies",
       "slug": "society-for-libyan-studies",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:54:10.926Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "40fccf43-5b37-4924-a2dd-90c4c7b95912",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:54:10.841Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9ccf76e1-b49d-4f03-8df1-0f66f0a73cd3",
+      "name": "Society of RSE",
+      "slug": "society-of-rse",
       "url": [],
       "memberOf": []
     },
@@ -9377,6 +9883,52 @@
     "subOrganisation": []
   },
   {
+    "cmsDateCreated": "2025-09-03T08:56:10.237Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "4b85d658-8df9-44ef-9eec-32126611916a",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:56:10.195Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "f328db15-a278-42ec-9637-38f9fbc621f8",
+      "name": "UKAEA",
+      "slug": "ukaea",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:56:51.501Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "a78e8c58-c97b-48cb-8e06-368c4fe839d0",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:56:51.260Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "52954ade-dd37-4267-9a29-56e2acb7b180",
+      "name": "UK Ireland DH Association",
+      "slug": "uk-ireland-dh-association",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
     "cmsDateCreated": "2022-10-25T13:34:10.768Z",
     "cmsDateUpdated": null,
     "cmsSort": null,
@@ -9393,6 +9945,75 @@
       "id": "57946a3b-fb67-48cc-b5e1-6993ec03904d",
       "name": "Union Académique Internationale",
       "slug": "union-academique-internationale",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:36:45.722Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "42f3d290-315a-4af4-8e0c-4c185e7de084",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:36:45.643Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "eea67d71-ea6b-45a3-acd1-625540baaefa",
+      "name": "Università degli Studi di Udine",
+      "slug": "universita-degli-studi-di-udine",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:36:45.970Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "0037a24c-c80c-4aee-be87-3c0e853c0f65",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:36:45.905Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "9e8e2412-5b35-4c1e-b303-00be8bed8cc3",
+      "name": "Universitatea Babeș-Bolyai",
+      "slug": "universitatea-babes-bolyai",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
+  },
+  {
+    "cmsDateCreated": "2025-09-03T09:36:46.233Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "ee9b0d4b-bd12-4e23-b483-73b9fc6476b1",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T09:36:46.190Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "c927b9cf-f0b0-47a5-b49e-7b8374802643",
+      "name": "Université Sorbonne Nouvelle",
+      "slug": "universite-sorbonne-nouvelle",
       "url": [],
       "memberOf": []
     },
@@ -9793,6 +10414,29 @@
         "subOrganisation": []
       }
     ]
+  },
+  {
+    "cmsDateCreated": "2025-09-03T08:56:09.968Z",
+    "cmsDateUpdated": null,
+    "cmsSort": null,
+    "cmsStatus": "draft",
+    "dissolutionDate": null,
+    "foundingDate": null,
+    "id": "53addc54-b043-4664-8333-043fd2421ddb",
+    "agent": {
+      "alternateName": null,
+      "cmsDateCreated": "2025-09-03T08:56:09.788Z",
+      "cmsDateUpdated": null,
+      "cmsSort": null,
+      "description": null,
+      "id": "d2971fb8-006d-4dd1-931d-bf91c8671161",
+      "name": "University of Manchester",
+      "slug": "university-of-manchester",
+      "url": [],
+      "memberOf": []
+    },
+    "parentOrganisation": null,
+    "subOrganisation": []
   },
   {
     "cmsDateCreated": "2023-04-11T12:41:36.125Z",
