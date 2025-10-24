@@ -18,7 +18,7 @@ feature:
 draft: true
 ---
 
-# Digital Research Technical Professionals (dRTP) in Arts and Humanities (A&H) and beyond
+## Digital Research Technical Professionals (dRTP) in Arts and Humanities (A&H) and beyond
 
 The UKRI-embraced term of digital Research Technical Professions (dRTP) represents a wide range of roles and responsibilities across the digital research ecosystem. In this blog post, I would like to focus on the role I have taken on since joining KDL in 2017 – Research Software Analyst (RSA) - to offer the example I know best of competences and responsibilities which I consider complementary and essential to research software engineering teams.
 
@@ -36,7 +36,7 @@ Conversely, the Arts and Humanities community – where in the last few years aw
 
 If you agree that research and business analysis are relevant for RSE teams at large, you might find it useful to read on and find out more on how KDL defined the RSA role and its career pathways.
 
-# King’s Digital Lab (KDL) roles and career pathways context
+## King’s Digital Lab (KDL) roles and career pathways context
 
 Timewise, here is a quick overview of KDL career pathways work:
 
@@ -46,7 +46,7 @@ Timewise, here is a quick overview of KDL career pathways work:
 **[Roles document](https://doi.org/10.5281/zenodo.2559234%20%20​) published
 **[SDLC wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) started with project templates and guidance building on [Agile DSDM roles](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html)| definitions
 
-## RSA role description
+### RSA role description
 
 The table below is a snapshot of the KDL RSA workload model. At the time of drafting these roles (this work was led by KDL founding Director, [James Smithies](https://orcid.org/0000-0003-4801-0366)), this document was conceived as an indication and guidance of potential distribution of tasks and responsibilities rather than an exact match.
 
@@ -86,7 +86,7 @@ To the above the principal role adds amongst others:
 
 All these specifications might sound quite abstract; so, let's consider what an RSA actually does.
 
-## What does an Analyst do?
+### What does an Analyst do?
 
 Following the [Agile DSDM terminology](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html), I decided to focus on the important part an RSA plays in the so-called pre-project and evolutionary development phases of the KDL SDLC.
 
@@ -198,7 +198,7 @@ Other activities listed under 2 above I have contributed to are prioritisation a
 
 [Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.](/assets/images/blog/crossreads-CU-increment16.png)
 
-# Reflections on skills mapping and professionalisation
+## Reflections on skills mapping and professionalisation
 
 I mentioned how the KDL roles were drafted to map indicatively to the SFIA framework. The framework has slightly evolved since then, but the mapping is still relevant. The diagram below lists on the left characteristics and competences that the KDL RSAs (Paul, Samantha, Neil and myself) collected anecdotally to describe what we think is most important in what we do. All these map to what you would expect in the SFIA framework (for those interested, for the senior level these are: BUSA 5; FEAS 5; REQM 5; RSCH 5; METL 5; EMRG 5; PRMG 5; DTAN 4; DESN 5; INCA 4; UNAN 4; RELM 3; TEAC 5; PDSV 4; PEMT 4).
 
