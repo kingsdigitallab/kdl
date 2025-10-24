@@ -50,7 +50,7 @@ Timewise, here is a quick overview of KDL career pathways work:
 
 The table below is a snapshot of the KDL RSA workload model. At the time of drafting these roles (this work was led by KDL founding Director, [James Smithies](https://orcid.org/0000-0003-4801-0366)), this document was conceived as an indication and guidance of potential distribution of tasks and responsibilities rather than an exact match.
 
-[Extracts from KDL roles document, Analyst role, 2019, pp. 6-8](/assets/images/blog/Table-analyst-role.jpg)
+![Extracts from KDL roles document](/assets/images/blog/Table-analyst-role.jpg "Extracts from KDL roles document, Analyst role, 2019, pp. 6-8".)
 
 This more high-level grouping is useful to highlight that project management is only one of the varied and various responsibilities the RSA role covers:
 
@@ -90,7 +90,7 @@ All these specifications might sound quite abstract; so, let's consider what an 
 
 Following the [Agile DSDM terminology](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html), I decided to focus on the important part an RSA plays in the so-called pre-project and evolutionary development phases of the KDL SDLC.
 
-[KDL SDCL pre-project phase.](/assets/images/blog/pre-project.png)
+![KDL SDCL pre-project phase](/assets/images/blog/pre-project.png "KDL SDCL pre-project phase.")
 
 In particular, the feasibility assessment part of pre-project (circled in red in the diagram above) is where the contribution of this role is key.
 
@@ -152,11 +152,11 @@ Based on consultation undertaken under step 3 of the requirements elicitation ph
 In the pre-project phase of this CROSSREADS work package I worked very closely with KDL RSE Geoffroy Noël, KDL RSA Neil Jakeman and project lead Jonathan Prague.
 Since this work package of CROSSREADS builds on a previous work package developed by KDL, the sketch architecture was quite detailed and deemed as feasible at the end of the feasibility process:
 
-[Miro board drawn by RSE outlining the evolving solution overview for the corpus building work package of CROSSREADS project.](/assets/images/blog/Crossreads-Req.mapping.jpg)
+![Miro board drawn by RSE](/assets/images/blog/Crossreads-Req.mapping.jpg "Miro board drawn by RSE outlining the evolving solution overview for the corpus building work package of CROSSREADS project.")
 
 The other phase of the SDLC I decided to focus on to explain the role of the RSA is the iterative evolutionary development phase.
 
-[KDL SDCL evolutionary development phase.](/assets/images/blog/evo-dev.png)
+![KDL SDCL evolutionary development phase](/assets/images/blog/evo-dev.png "KDL SDCL evolutionary development phase.")
 
 During this phase of active design and development for the RSE team, the RSA role can be grouped into three areas, namely:
 
@@ -182,21 +182,21 @@ A core element of RSE support for the project was to create a data collection, p
 
 As part of analysis work (1e above) I met several times with the aforementioned researcher,  looked at data samples (including data produced both via invasive and entirely digital, so non-invasive, techniques of petrographic observation and analysis), familiarised myself with the units of analysis, agreed on a high level language for the data workflow and associated data models, and recorded relevant notes or decisions in the project review record.
 
-[Analogue artefact (whiteboard sketch) drawn by the RSA in discussion with the researcher and the project RSE.](/assets/images/blog/white-board.jpg)
+![Analogue artefact (whiteboard sketch)](/assets/images/blog/white-board.jpg "Analogue artefact (whiteboard sketch) drawn by the RSA in discussion with the researcher and the project RSE.")
 
-[Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.](/assets/images/blog/crossreads-petrography.png)
+![Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.](/assets/images/blog/crossreads-petrography.png "Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.")
 
 Ultimately this collaborative analysis process led to agreed RSE interventions in the research workflow formalised both by technical documentation (such as the diagram above), research dissemination (e.g. conference papers) and, crucially from an RSE perspective, the actual code used to implement the petrographic research environment.
 
-[Digital artefact (extract from ClickUp project review record document) owned by RSA and shared with the whole project team showcasing one iteration of a component of the solution – isotope analysis – which did not end up being part of the final product.](/assets/images/blog/crossreads-CU-increment4.png)
+![Digital artefact (extract from ClickUp project review record document)](/assets/images/blog/crossreads-CU-increment4.png "Digital artefact (extract from ClickUp project review record document) owned by RSA and shared with the whole project team showcasing one iteration of a component of the solution – isotope analysis – which did not end up being part of the final product.")
 
 While the RSA role is more prominent in the initial phases of analysis of the research problem to tackle or support, I continued to monitor the development iterations, recording key milestones and reviews in the project review record as per 1d (see example above and below), including contributing to testing of the deliverables when applicable.
 
-[Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.](/assets/images/blog/crossreads-CU-requirements.png)
+![Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.](/assets/images/blog/crossreads-CU-requirements.png "Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.")
 
 Other activities listed under 2 above I have contributed to are prioritisation and capacity planning as showcased below.
 
-[Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.](/assets/images/blog/crossreads-CU-increment16.png)
+![Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.](/assets/images/blog/crossreads-CU-increment16.png "Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.")
 
 # Reflections on skills mapping and professionalisation
 
@@ -208,11 +208,11 @@ However, interestingly, they also highlight other areas of the framework highlig
 * have gained importance in an increasingly digital research infrastructure (DRI) oriented landscape such as service management; and,
 * have become essential in a Higher Education Institution ecosystem supported by external funding and targeting realistic cost recovery such as financial management.
 
-[Mapping KDL RSA perceived key assets with SFIA framework.](/assets/images/blog/RSA_talk_sfia.jpg)
+![Mapping KDL RSA perceived key assets with SFIA framework.](/assets/images/blog/RSA_talk_sfia.jpg "Mapping KDL RSA perceived key assets with SFIA framework.")
 
 Finally, as the RSE community is also engaged in a holistic mapping of skills and competences, I also attempted to map what KDL RSAs perceived as their key assets or talents to the [DIRECT framework](https://github.com/direct-framework/) draft. This fun exercise both validated the DRAFT framework (as it is, it already seems to map nicely to the RSA role as we intend it in KDL) but also to potentially highlight the importance of other areas beyond project management including professional skills at personal, interpersonal and teamwork/collaboration level, as well as domain expertise and research, and, last but not least, leadership and management.
 
-[Mapping KDL RSA perceived key assets with DIRECT draft framework.](/assets/images/blog/RSA_talk_direct.jpg)
+![Mapping KDL RSA perceived key assets with DIRECT draft framework.](/assets/images/blog/RSA_talk_direct.jpg "Mapping KDL RSA perceived key assets with DIRECT draft framework.")
 
 RSA roles, whilst well-known and professionalised in industry (as business analysts or, increasingly, as product managers), Higher Education Institutions in the UK tend o not have formal RSA roles, so the tasks described above are carried out by RSE themselves, technical project managers (e.g. Scrum masters at the University of Manchester) or data roles (e.g. data scientists at Alan Turing Institute; data stewards at UCL). Professionalising a separate RSA role has the advantage of freeing RSE (and other members of the Solution Development Team such as UI / UX designers) from these responsibilities to focus on technical design and development. RSAs are able to enable grant capture and parallel work on multiple projects in different stages of conceptualisation and development at scale. Separating overall lab management (responsibility of the lab manager at KDL) from portfolio-level project management (responsibility of the project manager at KDL) from project-level project management (responsibility of the RSAs) enables accountability in financial management while keeping the deliverables close to the research questions and concerns (main responsibility of the RSAs). This separation also allows for both lab level and project-level capacity planning  and supports the SDT team to develop analysis processes around its SDLC (e.g. feasibility assessment, planning and documentation, decommissioning). However, it does require some investment beyond better known RSE roles and the availability of career pathways or provision for training and mobility across roles.
 
