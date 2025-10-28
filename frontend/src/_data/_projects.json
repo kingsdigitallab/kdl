@@ -140,7 +140,7 @@
   },
   {
     "alternateName": "AGE-C",
-    "cmsStatus": "draft",
+    "cmsStatus": "published",
     "description": null,
     "dissolutionDate": "2025-10-10",
     "foundingDate": "2025-03-03",
@@ -153,7 +153,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "136279ae-6223-4118-9443-21b1c615aed8",
+      "storage": "local",
+      "filename_disk": "136279ae-6223-4118-9443-21b1c615aed8.jpg",
+      "filename_download": "AGE-C.jpg",
+      "title": "Photo by Rene Strgar",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-10-06T09:46:38.255Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-10-06T09:48:54.565Z",
+      "charset": null,
+      "filesize": "195403",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A filmmaker records a performer in a bright green costume under dramatic lighting inside a dark theatre.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -192,7 +214,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -203,7 +225,7 @@
           "agent": {
             "alternateName": null,
             "id": "175ef2ba-38ff-4bc7-aa07-b83bae7b9004",
-            "name": "Goethe-Universität",
+            "name": "Goethe University",
             "slug": "goethe-universitaet"
           },
           "parentOrganisation": null
@@ -414,7 +436,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -954,7 +976,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "0212db1e-33c9-4aa9-97c7-8e74914d7112",
-          "name": "The A. G. Leventis Foundation",
+          "name": "The A.G. Leventis Foundation",
           "slug": "the-a-g-leventis-foundation"
         }
       }
@@ -992,7 +1014,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -1266,7 +1288,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -1472,7 +1494,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -1759,7 +1781,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       },
@@ -1775,7 +1797,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -1865,7 +1887,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -2078,7 +2100,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -2122,7 +2144,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -2140,7 +2162,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -2284,7 +2306,7 @@
         "agent_id": {
           "alternateName": "ARC",
           "id": "a906f209-e85d-4c5d-8a1c-57242ec96008",
-          "name": "Australian Research Council",
+          "name": "Australian Research Council (ARC)",
           "slug": "arc"
         }
       }
@@ -2344,7 +2366,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -2678,7 +2700,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -2727,7 +2749,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -3244,7 +3266,7 @@
         "agent_id": {
           "alternateName": "ANU",
           "id": "7e01f05d-f0a9-45d1-80c2-5922d42ef299",
-          "name": "The Australia National University",
+          "name": "The Australia National University (ANU)",
           "slug": "the-australia-national-university"
         }
       },
@@ -3271,7 +3293,7 @@
           "agent": {
             "alternateName": "ANU",
             "id": "7e01f05d-f0a9-45d1-80c2-5922d42ef299",
-            "name": "The Australia National University",
+            "name": "The Australia National University (ANU)",
             "slug": "the-australia-national-university"
           },
           "parentOrganisation": null
@@ -3363,7 +3385,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       }
@@ -3778,7 +3800,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -3789,7 +3811,7 @@
           "agent": {
             "alternateName": null,
             "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "name": "FNMS Department of Informatics",
             "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
           },
           "parentOrganisation": null
@@ -4283,7 +4305,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -4397,7 +4419,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -4664,7 +4686,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -4703,7 +4725,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -4721,7 +4743,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -4914,7 +4936,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       },
@@ -4922,7 +4944,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -4955,7 +4977,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -5138,7 +5160,7 @@
       "id": "338297e6-5d65-4f9d-a360-f3f9cc76a31d",
       "storage": "local",
       "filename_disk": "338297e6-5d65-4f9d-a360-f3f9cc76a31d.jpg",
-      "filename_download": "discourse.jpg",
+      "filename_download": "DiscouRSE (1).jpg",
       "title": "Photo by Linus Nylund on Unsplash",
       "type": "image/jpeg",
       "folder": null,
@@ -5157,7 +5179,16 @@
       "tags": null,
       "metadata": {}
     },
-    "funder": [],
+    "funder": [
+      {
+        "agent_id": {
+          "alternateName": null,
+          "id": "1db8765c-d5e8-4fb0-83dc-4d8e6c70dcc6",
+          "name": "UK Research and Innovation (UKRI)",
+          "slug": "uk-research-and-innovation-ukri"
+        }
+      }
+    ],
     "keywords": [],
     "url": [
       {
@@ -5629,7 +5660,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -5752,7 +5783,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       },
@@ -5805,7 +5836,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6020,7 +6051,7 @@
           "agent": {
             "alternateName": "FAH",
             "id": "f471d028-1bea-4504-9428-5dec831ef635",
-            "name": "Faculty of Arts and Humanities",
+            "name": "KCL Faculty of Arts and Humanities",
             "slug": "faculty-of-arts-and-humanities"
           },
           "parentOrganisation": null
@@ -6031,7 +6062,7 @@
           "agent": {
             "alternateName": "DFI",
             "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
-            "name": "Digital Futures Institute",
+            "name": "KCL Digital Futures Institute",
             "slug": "digital-futures-institute"
           },
           "parentOrganisation": null
@@ -6049,7 +6080,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6227,7 +6258,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6366,7 +6397,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6634,7 +6665,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "0212db1e-33c9-4aa9-97c7-8e74914d7112",
-          "name": "The A. G. Leventis Foundation",
+          "name": "The A.G. Leventis Foundation",
           "slug": "the-a-g-leventis-foundation"
         }
       },
@@ -6642,7 +6673,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -6680,7 +6711,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6698,7 +6729,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -6983,7 +7014,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -7304,7 +7335,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -7337,7 +7368,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -7491,7 +7522,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -7509,7 +7540,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -7531,7 +7562,7 @@
           "agent": {
             "alternateName": "FAH",
             "id": "f471d028-1bea-4504-9428-5dec831ef635",
-            "name": "Faculty of Arts and Humanities",
+            "name": "KCL Faculty of Arts and Humanities",
             "slug": "faculty-of-arts-and-humanities"
           },
           "parentOrganisation": null
@@ -7542,7 +7573,7 @@
           "agent": {
             "alternateName": "DFI",
             "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
-            "name": "Digital Futures Institute",
+            "name": "KCL Digital Futures Institute",
             "slug": "digital-futures-institute"
           },
           "parentOrganisation": null
@@ -7768,7 +7799,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -7786,7 +7817,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -8684,7 +8715,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "0212db1e-33c9-4aa9-97c7-8e74914d7112",
-          "name": "The A. G. Leventis Foundation",
+          "name": "The A.G. Leventis Foundation",
           "slug": "the-a-g-leventis-foundation"
         }
       },
@@ -8692,7 +8723,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -8725,7 +8756,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -8743,7 +8774,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -8921,7 +8952,7 @@
             "agent": {
               "alternateName": null,
               "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-              "name": "Faculty of Social Science & Public Policy",
+              "name": "SSPP Department of Education, Communication & Society",
               "slug": "faculty-of-social-science-and-public-policy"
             }
           }
@@ -8997,9 +9028,9 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-            "name": "Faculty of Social Science & Public Policy",
-            "slug": "faculty-of-social-science-and-public-policy"
+            "id": "4879f646-8ffe-400a-bc1a-746a2df044e8",
+            "name": "SSPP Department of International Development",
+            "slug": "sspp-department-of-international-development"
           },
           "parentOrganisation": null
         }
@@ -9227,7 +9258,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -9266,7 +9297,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -9284,7 +9315,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -9619,7 +9650,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -9652,7 +9683,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -9670,7 +9701,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -10160,7 +10191,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -10424,7 +10455,7 @@
   },
   {
     "alternateName": "ISSA",
-    "cmsStatus": "draft",
+    "cmsStatus": "published",
     "description": null,
     "dissolutionDate": "2027-04-30",
     "foundingDate": "2025-01-16",
@@ -10437,7 +10468,29 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "de36ffed-b7cb-4e00-8724-fa9af054c5dc",
+      "storage": "local",
+      "filename_disk": "de36ffed-b7cb-4e00-8724-fa9af054c5dc.jpg",
+      "filename_download": "ISSA.jpg",
+      "title": "Photo by Sami TÜRK",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-10-06T09:53:57.674Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-10-06T09:55:09.616Z",
+      "charset": null,
+      "filesize": "188074",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "Close-up of an old film reel with filmstrip threaded through it in warm light.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
@@ -10474,7 +10527,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -10592,7 +10645,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       },
@@ -10600,7 +10653,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "5f53f3e0-eb5c-44ff-a2f8-5c8da627782e",
-          "name": "A.G. Leventis Foundation",
+          "name": "The A.G. Leventis Foundation",
           "slug": "ag-leventis-foundation"
         }
       }
@@ -10627,7 +10680,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -10645,7 +10698,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -10888,6 +10941,12 @@
         "linkrole_id": {
           "name": "Workshop presentation URL",
           "url": " https://kdl.kcl.ac.uk/slides/2024-london-ireal-workshop-2/"
+        }
+      },
+      {
+        "linkrole_id": {
+          "name": "Project Literary Review",
+          "url": "https://doi.org/10.5281/zenodo.15791073 "
         }
       }
     ],
@@ -11258,7 +11317,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -11570,7 +11629,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12066,7 +12125,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -12093,7 +12152,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12111,7 +12170,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12445,7 +12504,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12486,7 +12545,7 @@
   {
     "alternateName": null,
     "cmsStatus": "draft",
-    "description": null,
+    "description": "*LGBTQ+ Policymaking in the UK: From research to implementation* sought to establish an interdisciplinary network of academic, policymaking, and civil society stakeholders to address the policy needs of the UK’s LGBTQ+ population. The UK Parliament lacked any advisory mechanism focused on the policy needs of UK LGBTQ+ communities and this project sought to fill that gap whilst leveraging KCL’s considerable LGBTQ+ research expertise.\n\nKDL produced a product overview describing a digital resource that would offer decision-makers a direct line to academics, and others, who are undertaking research with LGBTQ+ communities to better understand communities and their needs. The product overview suggest a data model to capture users data and data needs, a set of high level requirements, UI/UX design considerations, advice on data security and compliance and guiding milestones for the partners if they chose to use the overview as part of a tendering process.",
     "dissolutionDate": "2025-12-31",
     "foundingDate": "2025-01-06",
     "id": "330c2041-d5ac-4605-8502-8dd8f4511df8",
@@ -12498,13 +12557,35 @@
         "name": "SDLC"
       }
     },
-    "image": null,
+    "image": {
+      "id": "709d6b9f-b0fb-49bb-b000-aab8cdeccbab",
+      "storage": "local",
+      "filename_disk": "709d6b9f-b0fb-49bb-b000-aab8cdeccbab.jpg",
+      "filename_download": "LGBTQ.jpg",
+      "title": "Photo by Anete Lusina",
+      "type": "image/jpeg",
+      "folder": null,
+      "uploaded_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "uploaded_on": "2025-10-10T09:12:52.818Z",
+      "modified_by": "0fc7a32c-ae1d-4455-8f8b-149a4250038c",
+      "modified_on": "2025-10-10T09:14:03.807Z",
+      "charset": null,
+      "filesize": "180177",
+      "width": 1200,
+      "height": 800,
+      "duration": null,
+      "embed": null,
+      "description": "A person holding a rainbow pride flag outdoors.",
+      "location": null,
+      "tags": null,
+      "metadata": {}
+    },
     "funder": [
       {
         "agent_id": {
           "alternateName": null,
           "id": "018a3c9d-c7fd-4734-a0a2-ce2ab6802dd5",
-          "name": "ESRC",
+          "name": "Engineering and Physical Sciences Research Council (EPSRC)",
           "slug": "esrc"
         }
       }
@@ -12524,7 +12605,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12542,7 +12623,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12560,7 +12641,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12578,7 +12659,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -12611,7 +12692,7 @@
           "agent": {
             "alternateName": null,
             "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-            "name": "Faculty of Social Science & Public Policy",
+            "name": "SSPP Department of Education, Communication & Society",
             "slug": "faculty-of-social-science-and-public-policy"
           },
           "parentOrganisation": null
@@ -12833,7 +12914,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -13034,7 +13115,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -13067,7 +13148,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -13085,7 +13166,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -13368,7 +13449,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -13401,7 +13482,7 @@
           "agent": {
             "alternateName": null,
             "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-            "name": "Faculty of Social Science & Public Policy",
+            "name": "SSPP Department of Education, Communication & Society",
             "slug": "faculty-of-social-science-and-public-policy"
           },
           "parentOrganisation": null
@@ -14043,7 +14124,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -14324,7 +14405,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -14357,7 +14438,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -14397,7 +14478,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -14670,7 +14751,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -14703,7 +14784,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -14721,7 +14802,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -14874,7 +14955,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       }
@@ -14924,7 +15005,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15070,7 +15151,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15159,7 +15240,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -15250,7 +15331,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15268,7 +15349,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15537,7 +15618,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -15587,7 +15668,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15605,7 +15686,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15866,7 +15947,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -15904,7 +15985,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -15922,7 +16003,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -16477,7 +16558,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "5f53f3e0-eb5c-44ff-a2f8-5c8da627782e",
-          "name": "A.G. Leventis Foundation",
+          "name": "The A.G. Leventis Foundation",
           "slug": "ag-leventis-foundation"
         }
       },
@@ -16493,7 +16574,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -16532,7 +16613,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -16867,7 +16948,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -17178,7 +17259,7 @@
           "agent": {
             "alternateName": "RMID",
             "id": "74912071-68d2-4538-8613-d26d6764b571",
-            "name": "KCL Research Management & Innovation Directorate",
+            "name": "KCL Research Management & Innovation Directorate (RMID)",
             "slug": "kcl-research-management-and-innovation-directorate"
           },
           "parentOrganisation": null
@@ -17349,7 +17430,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -17378,7 +17459,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -17560,7 +17641,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       },
@@ -17607,7 +17688,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -17897,7 +17978,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -17926,7 +18007,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -18227,7 +18308,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -18452,7 +18533,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -18496,7 +18577,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -18737,7 +18818,7 @@
         "agent_id": {
           "alternateName": "DFI",
           "id": "5ab50c3b-b341-48a4-96a0-6f0fde7f7537",
-          "name": "Digital Futures Institute",
+          "name": "KCL Digital Futures Institute",
           "slug": "digital-futures-institute"
         }
       }
@@ -18795,7 +18876,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -18805,9 +18886,9 @@
         "organisation_id": {
           "agent": {
             "alternateName": null,
-            "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
-            "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
+            "id": "988a2574-e5a8-4d44-a96e-16175afa3c31",
+            "name": "FNMS Department of Engineering",
+            "slug": "fnms-department-of-engineering"
           },
           "parentOrganisation": null
         }
@@ -18937,7 +19018,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -18970,7 +19051,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -19107,7 +19188,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -19157,7 +19238,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -19356,7 +19437,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       },
@@ -19364,7 +19445,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -19434,7 +19515,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -19452,7 +19533,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -19767,14 +19848,14 @@
           "agent": {
             "alternateName": null,
             "id": "9483c31f-27f8-4cde-a3c5-86a08baf3cf3",
-            "name": "Defense Studies",
+            "name": "SSPP Department of Defence Studies",
             "slug": "defense-studies"
           },
           "parentOrganisation": {
             "agent": {
               "alternateName": null,
               "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-              "name": "Faculty of Social Science & Public Policy",
+              "name": "SSPP Department of Education, Communication & Society",
               "slug": "faculty-of-social-science-and-public-policy"
             }
           }
@@ -20296,7 +20377,7 @@
           "agent": {
             "alternateName": null,
             "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "name": "FNMS Department of Informatics",
             "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
           },
           "parentOrganisation": null
@@ -20316,10 +20397,10 @@
       {
         "organisation_id": {
           "agent": {
-            "alternateName": null,
-            "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-            "name": "Faculty of Social Science & Public Policy",
-            "slug": "faculty-of-social-science-and-public-policy"
+            "alternateName": "KDL",
+            "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
+            "name": "King's Digital Lab",
+            "slug": "kdl"
           },
           "parentOrganisation": null
         }
@@ -20327,10 +20408,21 @@
       {
         "organisation_id": {
           "agent": {
-            "alternateName": "KDL",
-            "id": "d2f9ea3c-bb58-4307-a2e0-ce8bf92419da",
-            "name": "King's Digital Lab",
-            "slug": "kdl"
+            "alternateName": null,
+            "id": "5944a51b-ef35-4f6c-ae66-5b58470443fb",
+            "name": "FNMS Department of Mathematics",
+            "slug": "fnms-department-of-mathematics"
+          },
+          "parentOrganisation": null
+        }
+      },
+      {
+        "organisation_id": {
+          "agent": {
+            "alternateName": null,
+            "id": "7420b88b-f299-4bfa-a9df-7fb078808e7a",
+            "name": "SSPP Department of Geography",
+            "slug": "sspp-department-of-geography"
           },
           "parentOrganisation": null
         }
@@ -20528,7 +20620,7 @@
           "agent": {
             "alternateName": null,
             "id": "90d5e1c0-dc01-47cb-bb85-192bbbe4764e",
-            "name": "Faculty of Social Science & Public Policy",
+            "name": "SSPP Department of Education, Communication & Society",
             "slug": "faculty-of-social-science-and-public-policy"
           },
           "parentOrganisation": null
@@ -20539,7 +20631,7 @@
           "agent": {
             "alternateName": null,
             "id": "4f092d62-8292-4884-907b-bc294ce013fc",
-            "name": "Faculty of Natural, Mathematical & Engineering Sciences",
+            "name": "FNMS Department of Informatics",
             "slug": "faculty-of-natural-mathematical-and-engineering-sciences"
           },
           "parentOrganisation": null
@@ -20628,7 +20720,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -20666,7 +20758,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -21035,7 +21127,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -21237,7 +21329,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -21276,7 +21368,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -21674,7 +21766,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -21701,7 +21793,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -21845,7 +21937,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -21878,7 +21970,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
@@ -22172,7 +22264,7 @@
         "agent_id": {
           "alternateName": null,
           "id": "c152f833-64fd-4354-bedb-6b32c27142c3",
-          "name": "European Research Council",
+          "name": "European Research Council (ERC)",
           "slug": "erc"
         }
       },
@@ -22180,7 +22272,7 @@
         "agent_id": {
           "alternateName": "FAH",
           "id": "f471d028-1bea-4504-9428-5dec831ef635",
-          "name": "Faculty of Arts and Humanities",
+          "name": "KCL Faculty of Arts and Humanities",
           "slug": "faculty-of-arts-and-humanities"
         }
       }
@@ -22237,7 +22329,7 @@
             "agent": {
               "alternateName": "FAH",
               "id": "f471d028-1bea-4504-9428-5dec831ef635",
-              "name": "Faculty of Arts and Humanities",
+              "name": "KCL Faculty of Arts and Humanities",
               "slug": "faculty-of-arts-and-humanities"
             }
           }
