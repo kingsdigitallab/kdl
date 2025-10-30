@@ -52,7 +52,7 @@ Timewise, here is a quick overview of KDL career pathways work:
 
 The table below is a snapshot of the KDL RSA workload model. At the time of drafting these roles (this work was led by KDL founding Director, [James Smithies](https://orcid.org/0000-0003-4801-0366)), this document was conceived as an indication and guidance of potential distribution of tasks and responsibilities rather than an exact match.
 
-![Extracts from KDL roles document](/assets/images/blog/Table-analyst-role.jpg "Extracts from KDL roles document, Analyst role, 2019, pp. 6-8.")
+![Extracts from KDL roles document](/assets/images/blog/Table-analyst-role.jpg "Extracts from KDL roles document, Analyst role, 2019, pp. 6-8."){.media-medium}
 
 This more high-level grouping is useful to highlight that project management is only one of the varied and various responsibilities the RSA role covers:
 
