@@ -40,11 +40,11 @@ If you agree that research and business analysis are relevant for RSE teams at l
 
 Timewise, here is a quick overview of KDL career pathways work:
 
-*2018
-    *RSE term adoption ([one of the first teams in Arts & Humanities](https://zenodo.org/records/13655424) - p.20 - to do so)
-*2019
-    *[Roles document](https://doi.org/10.5281/zenodo.2559234%20%20​) published
-    *[SDLC wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) started with project templates and guidance building on [Agile DSDM roles](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html)| definitions
+* 2018
+    * RSE term adoption ([one of the first teams in Arts & Humanities](https://zenodo.org/records/13655424) - p.20 - to do so)
+* 2019
+    * [Roles document](https://doi.org/10.5281/zenodo.2559234%20%20​) published
+    * [SDLC wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) started with project templates and guidance building on [Agile DSDM roles](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html)| definitions
 
 ### RSA role description
 
