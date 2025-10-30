@@ -90,7 +90,7 @@ All these specifications might sound quite abstract; so, let's consider what an 
 
 Following the [Agile DSDM terminology](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html), I decided to focus on the important part an RSA plays in the so-called pre-project and evolutionary development phases of the KDL SDLC.
 
-![KDL SDCL pre-project phase](/assets/images/blog/pre-project.png "KDL SDCL pre-project phase.")
+![KDL SDCL pre-project phase](/assets/images/blog/pre-project.png "KDL SDCL pre-project phase."){.media-medium}
 
 In particular, the feasibility assessment part of pre-project (circled in red in the diagram above) is where the contribution of this role is key.
 
@@ -156,7 +156,7 @@ Since this work package of CROSSREADS builds on a previous work package develope
 
 The other phase of the SDLC I decided to focus on to explain the role of the RSA is the iterative evolutionary development phase.
 
-![KDL SDCL evolutionary development phase](/assets/images/blog/evo-dev.png "KDL SDCL evolutionary development phase.")
+![KDL SDCL evolutionary development phase](/assets/images/blog/evo-dev.png "KDL SDCL evolutionary development phase."){.media-medium}
 
 During this phase of active design and development for the RSE team, the RSA role can be grouped into three areas, namely:
 
@@ -182,21 +182,21 @@ A core element of RSE support for the project was to create a data collection, p
 
 As part of analysis work (1e above) I met several times with the aforementioned researcher,  looked at data samples (including data produced both via invasive and entirely digital, so non-invasive, techniques of petrographic observation and analysis), familiarised myself with the units of analysis, agreed on a high level language for the data workflow and associated data models, and recorded relevant notes or decisions in the project review record.
 
-![Analogue artefact (whiteboard sketch)](/assets/images/blog/white-board.jpg "Analogue artefact (whiteboard sketch) drawn by the RSA in discussion with the researcher and the project RSE.")
+![Analogue artefact (whiteboard sketch)](/assets/images/blog/white-board.jpg "Analogue artefact (whiteboard sketch) drawn by the RSA in discussion with the researcher and the project RSE."){.media-medium}
 
 ![Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.](/assets/images/blog/crossreads-petrography.png "Digital artefact (extract from Miro board) drawn by the RSA and the research domain expert.")
 
 Ultimately this collaborative analysis process led to agreed RSE interventions in the research workflow formalised both by technical documentation (such as the diagram above), research dissemination (e.g. conference papers) and, crucially from an RSE perspective, the actual code used to implement the petrographic research environment.
 
-![Digital artefact (extract from ClickUp project review record document)](/assets/images/blog/crossreads-CU-increment4.png "Digital artefact (extract from ClickUp project review record document) owned by RSA and shared with the whole project team showcasing one iteration of a component of the solution – isotope analysis – which did not end up being part of the final product.")
+![Digital artefact (extract from ClickUp project review record document)](/assets/images/blog/crossreads-CU-increment4.png "Digital artefact (extract from ClickUp project review record document) owned by RSA and shared with the whole project team showcasing one iteration of a component of the solution – isotope analysis – which did not end up being part of the final product."){.media-medium}
 
 While the RSA role is more prominent in the initial phases of analysis of the research problem to tackle or support, I continued to monitor the development iterations, recording key milestones and reviews in the project review record as per 1d (see example above and below), including contributing to testing of the deliverables when applicable.
 
-![Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.](/assets/images/blog/crossreads-CU-requirements.png "Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.")
+![Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority.](/assets/images/blog/crossreads-CU-requirements.png "Digital artefact (extract from ClickUp project review record document) listing progress on high level requirements/deliverables with associated tracked time and level of priority."){.media-medium}
 
 Other activities listed under 2 above I have contributed to are prioritisation and capacity planning as showcased below.
 
-![Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.](/assets/images/blog/crossreads-CU-increment16.png "Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.")
+![Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project.](/assets/images/blog/crossreads-CU-increment16.png "Digital artefact (extract from ClickUp project review record document) recording discussion and prioritisation of RSE work in the project."){.media-medium}
 
 ## Reflections on skills mapping and professionalisation
 
