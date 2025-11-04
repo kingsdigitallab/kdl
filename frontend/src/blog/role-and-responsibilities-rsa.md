@@ -10,13 +10,15 @@ tags:
 authors:
   - Arianna Ciula
 date: 2025-10-21
-excerpt: This blog post builds on a talk co-authored with King’s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title [“Aligning feasible technical requirements to research objectives and steering collaboration ":" role and responsibilities of the Research Software Analyst in RSE teams”](https://virtual.oxfordabstracts.com/event/75166/submission/41).
+excerpt: 'This blog post builds on a talk co-authored with King’s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title "Aligning feasible technical requirements to research objectives and steering collaboration: role and responsibilities of the Research Software Analyst in RSE teams."'
 feature:
   image: /assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png
   title: Textiles and Tech 1 by Hanna Barakat & Archival Images of AI + AIxDESIGN https://betterimagesofai.org CC 4
   description:
 draft: false
 ---
+
+This blog post builds on a talk co-authored with King’s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title [Aligning feasible technical requirements to research objectives and steering collaboration: role and responsibilities of the Research Software Analyst in RSE teams](https://virtual.oxfordabstracts.com/event/75166/submission/41).
 
 ## Digital Research Technical Professionals (dRTP) in Arts and Humanities (A&H) and beyond
 
