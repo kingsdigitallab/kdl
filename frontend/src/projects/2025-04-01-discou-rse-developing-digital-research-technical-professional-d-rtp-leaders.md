@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "DiscouRSE: Developing digital Research Technical Professional (dRTP) leaders"
 name: "DiscouRSE: Developing digital Research Technical Professional (dRTP) leaders"
 tags:
@@ -117,4 +116,5 @@ sla:
 urls:
   - name: Project URL
     url: https://discourse-network.github.io/
+draft: false
 ---

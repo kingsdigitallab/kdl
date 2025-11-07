@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Intelligent Systems for Screen Archives
 name: Intelligent Systems for Screen Archives
 tags:
@@ -55,4 +54,5 @@ members:
 sla:
   start: null
   end: null
+draft: false
 ---
