@@ -141,7 +141,7 @@
   {
     "alternateName": "AGE-C",
     "cmsStatus": "published",
-    "description": null,
+    "description": "AGE-C conducts research on ageing and gender in European cinema and fosters public discourse on aging and gender in European cinema by curating festival programs for different famous international venues. \n KDL worked with this international team of researchers to develop an intuitive data exploration interface from their spreadsheet sources, normalising data to enable faceted search and visualisation.",
     "dissolutionDate": "2025-10-10",
     "foundingDate": "2025-03-03",
     "id": "d6288a67-8047-49be-8fc0-7c5160b35d06",
@@ -10456,7 +10456,7 @@
   {
     "alternateName": "ISSA",
     "cmsStatus": "published",
-    "description": null,
+    "description": "Working in partnership with moving image archives in the UK, ISSA aims to develop sector wide understanding about AI technologies in film and television archives, including the knowledge, skills and tools required to rethink and reshape large audiovisual collections from a computational perspective. A significant challenge of using AI in moving image archives is the lack of domain-specific systems that exemplify, end-to-end, how to go from collections to interactions. To help address this challenge KDL is building a “talk to your archives” prototype for data enrichment, exploration, retrieval, and interaction (DEERIN). Shared with partners via a publicly accessible code repository and knowledge base this prototype will serve as a blueprint for creative testing and experimentation in the context of film archives.",
     "dissolutionDate": "2027-04-30",
     "foundingDate": "2025-01-16",
     "id": "5bb54715-c74f-43bd-857d-29db99390bf9",
@@ -10513,7 +10513,14 @@
         }
       }
     ],
-    "url": [],
+    "url": [
+      {
+        "linkrole_id": {
+          "name": "Repository: kingsdigitallab/issa",
+          "url": "https://github.com/kingsdigitallab/issa/wiki/Frequently-Asked-Questions"
+        }
+      }
+    ],
     "department": [
       {
         "organisation_id": {
