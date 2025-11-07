@@ -168,6 +168,17 @@
     }
   },
   {
+    "slug": "janna-joceli-omena",
+    "name": "Janna Joceli Omena",
+    "jobTitle": "Digital Humanities Affiliate",
+    "team": "Departmental affiliates",
+    "feature": {
+      "image": "/assets/images/people/janna-joceli-omena.jpg",
+      "description": "Photo of Dr Janna Joceli Omena",
+      "url": "https://www.kcl.ac.uk/people/janna-joceli-omena"
+    }
+  },
+  {
     "slug": "john-bradley",
     "jobTitle": "Honorary Research Fellow",
     "team": "Research fellows",
@@ -204,7 +215,7 @@
     }
   },
   {
-    "slug": "charlotte-roueché",
+    "slug": "charlotte-roueche",
     "name": "Charlotte Roueché",
     "jobTitle": "Honorary Research Fellow",
     "team": "Research fellows",
