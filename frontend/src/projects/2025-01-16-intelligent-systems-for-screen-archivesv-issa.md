@@ -7,7 +7,7 @@ tags:
 alternateName: null
 slug: intelligent-systems-for-screen-archivesv-issa
 foundingDate: 2025-01-16
-dissolutionDate: 2027-04-30
+dissolutionDate: 2027-06-30
 creativeWorkStatus: Active
 keywords:
   - name: Machine Learning and AI

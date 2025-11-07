@@ -1,6 +1,6 @@
 ---
-title: " Knowledge Orders before Modernity"
-name: " Knowledge Orders before Modernity"
+title: Knowledge Orders before Modernity
+name: Knowledge Orders before Modernity
 tags:
   - projects
 alternateName: null
