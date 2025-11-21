@@ -3,9 +3,8 @@
         .foundingDate
         .getFullYear() %}
     {{ foundingYear }}
-    {%- if project.data.dissolutionDate -%}
-        {% set dissolutionYear = project
-            .data
+    {%- if obj.dissolutionDate -%}
+        {% set dissolutionYear = obj
             .dissolutionDate
             .getFullYear() %}
         {%- if dissolutionYear !== foundingYear -%}
