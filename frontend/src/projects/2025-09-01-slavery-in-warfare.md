@@ -12,6 +12,8 @@ creativeWorkStatus: Active
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
+  - name: DFI
+    slug: dfi
 funders:
   - name: Leverhulme Trust
     slug: leverhulme-trust
