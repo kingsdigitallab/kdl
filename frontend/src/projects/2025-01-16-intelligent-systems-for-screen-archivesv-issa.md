@@ -32,6 +32,9 @@ members:
   - name: Stefan
     slug: stefan
     roleName: Research Software Engineer
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
