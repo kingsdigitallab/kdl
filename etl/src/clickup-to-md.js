@@ -412,6 +412,30 @@ class ClickUpToMarkdown {
       });
     }
 
+    const ciField = data.custom_fields.find((field) => field.name === "CL");
+
+    if (ciField && ciField.value) {
+      ciField.value.split("]").forEach((ci) => {
+        const [name, inOrganisation] = ci.split("[");
+
+        const member = {
+          name: name.replace(",", "").trim(),
+          slug: this.slugify(name.replace(",", "").trim()),
+          roleName: "Principal investigator",
+        };
+
+        const organisationName = inOrganisation?.trim();
+        if (organisationName) {
+          member.inOrganisation = {
+            name: organisationName,
+            slug: this.slugify(organisationName),
+          };
+        }
+
+        member.name && members.push(member);
+      });
+    }
+
     const researchersField = data.custom_fields.find(
       (field) => field.name === "Researchers"
     );
