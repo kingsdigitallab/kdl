@@ -149,8 +149,8 @@ class ClickUpToMarkdown {
       const creativeWorkStatus = sla.start
         ? "Maintained"
         : spaceStatus.toLowerCase() === "post-project"
-        ? spaceStatus
-        : "Active";
+          ? spaceStatus
+          : "Active";
 
       const descriptionLen =
         existingContent?.split("---")[2]?.trim().length || 0;
@@ -330,9 +330,8 @@ class ClickUpToMarkdown {
         "---",
       ].join("\n");
 
-      const formattedDepartmentContent = await this.formatMarkdown(
-        departmentContent
-      );
+      const formattedDepartmentContent =
+        await this.formatMarkdown(departmentContent);
       await fs.writeFile(departmentOutputFile, formattedDepartmentContent);
     }
 
@@ -351,8 +350,8 @@ class ClickUpToMarkdown {
         role === "Analyst"
           ? "Research Software Analyst"
           : role === "Design"
-          ? "Research Software Designer"
-          : "Research Software Engineer";
+            ? "Research Software Designer"
+            : "Research Software Engineer";
 
       if (field && field.value) {
         field.value
@@ -392,16 +391,16 @@ class ClickUpToMarkdown {
     const plField = data.custom_fields.find((field) => field.name === "PL");
 
     if (plField && plField.value) {
-      plField.value.split(",").forEach((pl) => {
+      plField.value.split("]").forEach((pl) => {
         const [name, inOrganisation] = pl.split("[");
 
         const member = {
-          name: name.trim(),
-          slug: this.slugify(name.trim()),
+          name: name.replace(",", "").trim(),
+          slug: this.slugify(name.replace(",", "").trim()),
           roleName: "Principal investigator",
         };
 
-        const organisationName = inOrganisation?.trim().replace("]", "");
+        const organisationName = inOrganisation?.trim();
         if (organisationName) {
           member.inOrganisation = {
             name: organisationName,
@@ -409,7 +408,7 @@ class ClickUpToMarkdown {
           };
         }
 
-        members.push(member);
+        member.name && members.push(member);
       });
     }
 
