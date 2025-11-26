@@ -44,8 +44,14 @@ members:
     slug: jon-wilson
     roleName: Principal investigator
     inOrganisation:
-      name: FAH Department of History; Hannah Dawson
-      slug: fah-department-of-history-hannah-dawson
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: ; Hannah Dawson
+    slug: hannah-dawson
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Jonah Milller
     slug: jonah-milller
     roleName: Researcher

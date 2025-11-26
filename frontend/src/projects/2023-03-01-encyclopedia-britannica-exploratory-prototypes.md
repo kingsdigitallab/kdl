@@ -20,8 +20,8 @@ feature:
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: KCL Faculty of Arts and Humanities
     slug: kcl-faculty-of-arts-and-humanities

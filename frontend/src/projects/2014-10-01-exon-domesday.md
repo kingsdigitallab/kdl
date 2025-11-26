@@ -43,6 +43,18 @@ members:
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
+  - name: Stephen Baxter
+    slug: stephen-baxter
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Oxford
+      slug: university-of-oxford
+  - name: Peter Stokes
+    slug: peter-stokes
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Francisco Álvarez López
     slug: francisco-lvarez-lpez
     roleName: Researcher

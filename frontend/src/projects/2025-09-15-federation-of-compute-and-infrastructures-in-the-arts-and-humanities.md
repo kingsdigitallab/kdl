@@ -10,8 +10,8 @@ foundingDate: 2025-09-15
 dissolutionDate: 2026-07-31
 creativeWorkStatus: Active
 keywords:
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: UK Research and Innovation (UKRI)
     slug: uk-research-and-innovation-ukri
@@ -35,6 +35,24 @@ members:
     inOrganisation:
       name: University of Brighton
       slug: university-of-brighton
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Principal investigator
+    inOrganisation:
+      name: KDL
+      slug: kdl
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Principal investigator
+    inOrganisation:
+      name: KDL
+      slug: kdl
+  - name: Matt Penn
+    slug: matt-penn
+    roleName: Principal investigator
+    inOrganisation:
+      name: KCL eResearch
+      slug: kcl-eresearch
 sla:
   start: null
   end: null

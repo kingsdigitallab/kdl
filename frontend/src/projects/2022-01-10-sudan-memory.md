@@ -40,6 +40,24 @@ members:
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
+  - name: Badreldin Omer Elhag Musa
+    slug: badreldin-omer-elhag-musa
+    roleName: Principal investigator
+    inOrganisation:
+      name: Sudanese Association for Archiving Knowledge
+      slug: sudanese-association-for-archiving-knowledge
+  - name: Ussama Abdelwahab Elrais
+    slug: ussama-abdelwahab-elrais
+    roleName: Principal investigator
+    inOrganisation:
+      name: Africa City of Technology
+      slug: africa-city-of-technology
+  - name: Mohamed Azrag Saeed Abutem
+    slug: mohamed-azrag-saeed-abutem
+    roleName: Principal investigator
+    inOrganisation:
+      name: National Record Office of Sudan
+      slug: national-record-office-of-sudan
 keywords:
   - name: Indigenous Digital Humanities
     slug: indigenous-digital-humanities

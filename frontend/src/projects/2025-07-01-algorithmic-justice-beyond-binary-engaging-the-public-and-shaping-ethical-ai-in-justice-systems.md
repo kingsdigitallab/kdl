@@ -14,8 +14,8 @@ creativeWorkStatus: Active
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: King's College London
     slug: kings-college-london
@@ -57,11 +57,8 @@ members:
     slug: pierpaolo-vivo
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Natural
-      slug: faculty-of-natural
-  - name: Mathematical & Engineering Sciences]
-    slug: mathematical-engineering-sciences
-    roleName: Principal investigator
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
   - name: Mariia Bogdanova
     slug: mariia-bogdanova
     roleName: Researcher

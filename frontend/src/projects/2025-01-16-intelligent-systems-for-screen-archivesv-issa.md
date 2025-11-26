@@ -1,7 +1,7 @@
 ---
 draft: true
-title: Intelligent Systems for Screen Archivesv
-name: Intelligent Systems for Screen Archivesv
+title: Intelligent Systems for Screen Archives
+name: Intelligent Systems for Screen Archives
 tags:
   - projects
 alternateName: null
@@ -12,8 +12,8 @@ creativeWorkStatus: Active
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: British Film Institute
     slug: british-film-institute

@@ -49,11 +49,14 @@ members:
     slug: elizabeth-sklar
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Natural
-      slug: faculty-of-natural
-  - name: Mathematical & Engineering Sciences]
-    slug: mathematical-engineering-sciences
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
+  - name: Anna Reading
+    slug: anna-reading
     roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Culture, Media & Creative Industries
+      slug: fah-department-of-culture-media-creative-industries
   - name: Jansen Chipp
     slug: jansen-chipp
     roleName: Researcher

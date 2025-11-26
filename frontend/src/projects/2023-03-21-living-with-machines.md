@@ -51,6 +51,18 @@ members:
     inOrganisation:
       name: Queen Mary University
       slug: queen-mary-university
+  - name: Mia Ridge
+    slug: mia-ridge
+    roleName: Principal investigator
+    inOrganisation:
+      name: The British Library
+      slug: the-british-library
+  - name: Barbara McGillivray
+    slug: barbara-mcgillivray
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Nilo Pedrazzini
     slug: nilo-pedrazzini
     roleName: Researcher

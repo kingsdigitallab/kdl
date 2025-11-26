@@ -46,6 +46,24 @@ members:
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
+  - name: Harold Short
+    slug: harold-short
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: David Crook
+    slug: david-crook
+    roleName: Principal investigator
+    inOrganisation:
+      name: The National Arcives
+      slug: the-national-arcives
+  - name: Louise Wilkinson
+    slug: louise-wilkinson
+    roleName: Principal investigator
+    inOrganisation:
+      name: Canterbury Christ Church University
+      slug: canterbury-christ-church-university
   - name: Damien Doherty
     slug: damien-doherty
     roleName: Researcher

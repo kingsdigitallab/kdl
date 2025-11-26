@@ -49,11 +49,14 @@ members:
     slug: laurel-brake
     roleName: Principal investigator
     inOrganisation:
-      name: Birkbeck
-      slug: birkbeck
-  - name: University of London]
-    slug: university-of-london
+      name: Birkbeck, University of London
+      slug: birkbeck-university-of-london
+  - name: Mark Turner
+    slug: mark-turner
     roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of English
+      slug: fah-department-of-english
   - name: James Mussell
     slug: james-mussell
     roleName: Researcher

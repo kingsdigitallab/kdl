@@ -10,8 +10,8 @@ foundingDate: 2025-04-01
 dissolutionDate: 2028-09-30
 creativeWorkStatus: Active
 keywords:
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: UK Research and Innovation (UKRI)
     slug: uk-research-and-innovation-ukri
@@ -84,6 +84,30 @@ members:
     inOrganisation:
       name: University College London
       slug: university-college-london
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Principal investigator
+    inOrganisation:
+      name: KDL
+      slug: kdl
+  - name: Kirsty Pringle
+    slug: kirsty-pringle
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Edinburgh
+      slug: university-of-edinburgh
+  - name: Adrian Harwood
+    slug: adrian-harwood
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Manchester
+      slug: university-of-manchester
+  - name: Dave Horsfall
+    slug: dave-horsfall
+    roleName: Principal investigator
+    inOrganisation:
+      name: Newcastle University
+      slug: newcastle-university
 sla:
   start: null
   end: null

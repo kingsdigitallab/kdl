@@ -44,11 +44,20 @@ members:
     slug: sanja-perovic
     roleName: Principal investigator
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
+  - name: Erica Joy Mannucci
+    slug: erica-joy-mannucci
     roleName: Principal investigator
+    inOrganisation:
+      name: University of Milano-Bicocca
+      slug: university-of-milano-bicocca
+  - name: Rosa Mucignat
+    slug: rosa-mucignat
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Brecht Deseure
     slug: brecht-deseure
     roleName: Researcher

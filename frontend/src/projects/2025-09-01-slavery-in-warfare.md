@@ -12,8 +12,8 @@ creativeWorkStatus: Active
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
-  - name: DFI
-    slug: dfi
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: Leverhulme Trust
     slug: leverhulme-trust
@@ -41,6 +41,13 @@ members:
     roleName: Research Software Engineer
   - name: Maeve Ryan
     slug: maeve-ryan
+    roleName: Principal investigator
+  - name:
+      Simon Tanner (DDH - KCL) Andrea Ballatore (DDH, KCL), Jack McDonald (War
+      Studies), Rosana Garciandia (Law), Rebekka Friedman (International
+      Relations), Jeni Mitchell (War Studies), Leonie Ansems deVries
+      (International Politics;
+    slug: simon-tanner-ddh-kcl-andrea-ballatore-ddh-kcl-jack-mcdonald-war-studies-rosana-garciandia-law-rebekka-friedman-international-relations-jeni-mitchell-war-studies-leonie-ansems-devries-international-politics
     roleName: Principal investigator
   - name: Kelsey Carthew
     slug: kelsey-carthew

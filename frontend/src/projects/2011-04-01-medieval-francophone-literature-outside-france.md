@@ -39,11 +39,38 @@ members:
     slug: simon-gaunt
     roleName: Principal investigator
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
+  - name: Jane Gilbert
+    slug: jane-gilbert
     roleName: Principal investigator
+    inOrganisation:
+      name: University of Cambridge
+      slug: university-of-cambridge
+  - name: Bill Burgwinkle
+    slug: bill-burgwinkle
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Cambridge
+      slug: university-of-cambridge
+  - name: Paul Vetch
+    slug: paul-vetch
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Charlotte Tupman
+    slug: charlotte-tupman
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Dirk Schoenaers
+    slug: dirk-schoenaers
+    roleName: Principal investigator
+    inOrganisation:
+      name: University College London
+      slug: university-college-london
   - name: Huw Grange
     slug: huw-grange
     roleName: Researcher
