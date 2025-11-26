@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
+permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/"
+
 ---
 
 {{ content | safe }}
