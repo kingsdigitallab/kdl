@@ -44,13 +44,17 @@ These options are evolving, in collaboration with the Department of Digital Huma
 
 Minimal storage (for two years minimum): project and data are archived on our infrastructure and a placeholder page is shown at a project URL. This placeholder includes a description of the project and other metadata, as well as links to snapshots at the Internet Archive and other web archives (such as webarchive.org.uk) where the project has been archived.
 
+### Further options
+
 We are also interested in options such as providing projects as virtual machines (VMs) for offline use, or capturing their last good state in recording tools such as webrecorder.io but (interestingly enough) those options have not yet been requested. Where PIs or Co-Is are not able to be reached, options are considered within KDL and with appropriate [Department of Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/index.aspx) staff and a decision made on a per project basis.
 
 ## Projects born static
+
 Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
 
 - [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
 - [Brightening the Covenant Chain](https://bcc.kdl.kcl.ac.uk/) (AHRC)
+- [Computing Britannica](https://kingsdigitallab.github.io/eb-pre/) (Github-based prototype) (FAH)
 - [CROSSREADS](https://crossreads.web.ox.ac.uk/) (ERC)
 - [King's Past](https://kingspast.kcl.ac.uk/) (KCL)
 
@@ -59,7 +63,6 @@ Building on this strategy, KDL has made an effort since 2021 to implement a [sta
 Institutions that support SLAs for projects hosted and maintained by KDL are included in brackets, below. FAH stands for Faculty of Arts & Humanities at King’s College London.
 
 - [AHRC Research Centre for the History and Analysis of Recorded Music](http://www.charm.kcl.ac.uk) (FAH)
-- [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
 - [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) (FAH)
 - [Atlantic Europe in the Metal Ages](http://www.aemap.ac.uk/en/) (University of Wales)
 - [Cambridge Edition of the Works of Ben Jonson](http://universitypublishingonline.org/cambridge/benjonson/) (Cambridge University)
@@ -117,6 +120,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [Greek Bible in Byzantine Judaism](https://www.gbbj.org/index.html)
 - Hieroglyphic Hands
 - [Humanist](https://dhhumanist.org/) listserv
+- [Humanist Archive](https://dhhumanist.org/archives/) (1987-2021)
 - [J.P.E. Harper-Scott](https://jpehs.co.uk/) (personal website)
 - [JAINpedia](http://www.jainpedia.org/)
 - [Jonathan Swift Archive](https://ota-qa.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/126849)
@@ -155,7 +159,7 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Body and Mask in Ancient Theatre Space](http://www.kvl.cch.kcl.ac.uk/masks/index.html)
 - [Breaking of Britain: Cross Border Society and Scottish Independence 1216-1314](http://www.breakingofbritain.ac.uk/)
 - [City Witness](http://www.medievalswansea.ac.uk/)
-- [Computers, Literature and Philology (CLiP) conference 2006](http://www.cch.kcl.ac.uk/clip2006/)
+- [Computers, Literature and Philology (CLiP) conference 2006](https://clip2006.cch.kcl.ac.uk/)
 - [Cultures of the Lusophone Black Atlantic](http://www.clba.kcl.ac.uk/)
 - [Digital Ghost Hunt](https://digitalghosthunt.com/)
 - [Digital Humanities 2010](http://dh2010.cch.kcl.ac.uk/)
@@ -167,10 +171,9 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Epidoc Aphrodisias](http://www.epapp.kcl.ac.uk/)
 - [Girls and Digital Culture: Transnational Reflections on Girlhood 2012](https://girlsanddigitalculture.cch.kcl.ac.uk/)
 - [Historic Weather](http://historicweather.cerch.kcl.ac.uk/)
-- [Humanist Archive](https://humanist.kdl.kcl.ac.uk/) (1987-2021)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
 - [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29))
-- [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/insaph/iaph2007/) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966))
+- [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/iaph2007/index.html) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966))
 - [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
 - [London Charter](http://www.londoncharter.org/)
@@ -193,13 +196,14 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - Theatron was developed in HTML and VRML, a now defunct standard for Virtual Reality which no longer has supported plugins for any modern browsers. Content has been converted to static where possible: [Theatron 2](http://www.kvl.cch.kcl.ac.uk/THEATRON/) and [Theatron 3](http://www.theatron3.cch.kcl.ac.uk/)
 
 ### Conversion to static in progress
-<<<<<<< HEAD
-=======
+
+# <<<<<<< HEAD
+
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
 - [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
 - [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
->>>>>>> main
+  > > > > > > > main
 
 ## Minimally archived projects
 
@@ -216,10 +220,9 @@ Minimally archived projects are no longer accessible. We maintain their original
 The list of projects which have been minimally archived:
 <<<<<<< HEAD
 
-- [Archetype](http://archetype.ink)
-=======
-- [Archetype]([http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/))
->>>>>>> main
+- # [Archetype](http://archetype.ink)
+- [Archetype](<[http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/)>)
+  > > > > > > > main
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
 - [The Commonplacer](https://commonplacer.cch.kcl.ac.uk/)
