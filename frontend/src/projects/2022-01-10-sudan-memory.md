@@ -8,7 +8,7 @@ tags:
 alternateName: null
 slug: sudan-memory
 foundingDate: 2022-01-10
-dissolutionDate: 2025-12-31
+dissolutionDate: 2026-03-31
 creativeWorkStatus: Active
 feature:
   image:
