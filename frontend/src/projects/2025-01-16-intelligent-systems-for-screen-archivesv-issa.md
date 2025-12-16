@@ -12,7 +12,9 @@ creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/ISSA.jpg
   title: Photo by Sami TÜRK
-  description: Close-up of an old film reel with filmstrip threaded through it in warm light.
+  description:
+    Close-up of an old film reel with filmstrip threaded through it in
+    warm light.
   width: 1200
   height: 800
 keywords:
