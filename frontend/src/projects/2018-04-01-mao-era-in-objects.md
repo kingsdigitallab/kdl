@@ -48,19 +48,19 @@ members:
       slug: university-of-oxford
   - name: Denise Ho
     slug: denise-ho
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Yale University
       slug: yale-university
   - name: Tom Hurst
     slug: tom-hurst
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Highlands School Enfield
       slug: highlands-school-enfield
   - name: Katrin Heilmann
     slug: katrin-heilmann
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Faculty of Social Science & Public Policy
       slug: faculty-of-social-science-public-policy

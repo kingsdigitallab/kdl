@@ -53,13 +53,13 @@ members:
       slug: queen-mary-university
   - name: Mia Ridge
     slug: mia-ridge
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: The British Library
       slug: the-british-library
   - name: Barbara McGillivray
     slug: barbara-mcgillivray
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities

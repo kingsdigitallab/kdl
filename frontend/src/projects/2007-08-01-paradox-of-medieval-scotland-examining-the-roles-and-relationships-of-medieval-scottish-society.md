@@ -61,13 +61,13 @@ members:
       slug: fah-department-of-history
   - name: John Bradley
     slug: john-bradley
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
   - name: Matthew Hammond
     slug: matthew-hammond
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history

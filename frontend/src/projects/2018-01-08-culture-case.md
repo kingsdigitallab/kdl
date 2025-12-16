@@ -53,7 +53,7 @@ members:
       slug: faculty-of-natural-mathematical-engineering-sciences
   - name: Anna Reading
     slug: anna-reading
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Culture, Media & Creative Industries
       slug: fah-department-of-culture-media-creative-industries

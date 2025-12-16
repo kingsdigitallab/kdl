@@ -48,13 +48,13 @@ members:
       slug: fah-department-of-languages-literatures-and-cultures
   - name: Erica Joy Mannucci
     slug: erica-joy-mannucci
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Milano-Bicocca
       slug: university-of-milano-bicocca
   - name: Rosa Mucignat
     slug: rosa-mucignat
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Languages, Literatures and Cultures
       slug: fah-department-of-languages-literatures-and-cultures
