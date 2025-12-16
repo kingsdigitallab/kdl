@@ -9,6 +9,14 @@ slug: intelligent-systems-for-screen-archivesv-issa
 foundingDate: 2025-01-16
 dissolutionDate: 2027-06-30
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/ISSA.jpg
+  title: Photo by Sami TÜRK
+  description:
+    Close-up of an old film reel with filmstrip threaded through it in
+    warm light.
+  width: 1200
+  height: 800
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai

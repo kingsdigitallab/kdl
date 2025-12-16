@@ -9,6 +9,12 @@ slug: discou-rse-developing-digital-research-technical-professional-d-rtp-leader
 foundingDate: 2025-04-01
 dissolutionDate: 2028-09-30
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/DiscouRSE (1).jpg
+  title: Photo by Linus Nylund on Unsplash
+  description: Water surface with ripples and droplets creating circular waves.
+  width: 1200
+  height: 800
 keywords:
   - name: Digital Futures Institute
     slug: digital-futures-institute
