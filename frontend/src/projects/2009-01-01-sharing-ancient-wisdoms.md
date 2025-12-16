@@ -50,19 +50,19 @@ members:
       slug: fah-department-of-digital-humanities
   - name: Denis Searby
     slug: denis-searby
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
   - name: Måns Bylund
     slug: mns-bylund
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
   - name: Pontus Österdahl
     slug: pontus-sterdahl
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
@@ -70,19 +70,19 @@ members:
       Stephan Procházka (University of Vienna), Elvira Wakelnig (Vienna) Ines
       Dallaji
     slug: stephan-prochzka-university-of-vienna-elvira-wakelnig-vienna-ines-dallaji
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Vienna
       slug: university-of-vienna
   - name: Lorenz Nigst
     slug: lorenz-nigst
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Vienna
       slug: university-of-vienna
   - name: Christoph Storz
     slug: christoph-storz
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Vienna
       slug: university-of-vienna

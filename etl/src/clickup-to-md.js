@@ -149,8 +149,8 @@ class ClickUpToMarkdown {
       const creativeWorkStatus = sla.start
         ? "Maintained"
         : spaceStatus.toLowerCase() === "post-project"
-          ? spaceStatus
-          : "Active";
+        ? spaceStatus
+        : "Active";
 
       const descriptionLen =
         existingContent?.split("---")[2]?.trim().length || 0;
@@ -330,8 +330,9 @@ class ClickUpToMarkdown {
         "---",
       ].join("\n");
 
-      const formattedDepartmentContent =
-        await this.formatMarkdown(departmentContent);
+      const formattedDepartmentContent = await this.formatMarkdown(
+        departmentContent
+      );
       await fs.writeFile(departmentOutputFile, formattedDepartmentContent);
     }
 
@@ -350,8 +351,8 @@ class ClickUpToMarkdown {
         role === "Analyst"
           ? "Research Software Analyst"
           : role === "Design"
-            ? "Research Software Designer"
-            : "Research Software Engineer";
+          ? "Research Software Designer"
+          : "Research Software Engineer";
 
       if (field && field.value) {
         field.value
@@ -412,16 +413,16 @@ class ClickUpToMarkdown {
       });
     }
 
-    const ciField = data.custom_fields.find((field) => field.name === "CL");
+    const clField = data.custom_fields.find((field) => field.name === "CL");
 
-    if (ciField && ciField.value) {
-      ciField.value.split("]").forEach((ci) => {
-        const [name, inOrganisation] = ci.split("[");
+    if (clField && clField.value) {
+      clField.value.split("]").forEach((cl) => {
+        const [name, inOrganisation] = cl.split("[");
 
         const member = {
           name: name.replace(",", "").trim(),
           slug: this.slugify(name.replace(",", "").trim()),
-          roleName: "Principal investigator",
+          roleName: "Co-Investigator",
         };
 
         const organisationName = inOrganisation?.trim();

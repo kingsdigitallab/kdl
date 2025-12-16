@@ -5,44 +5,49 @@
 /** Importing King's Fonts **/
 /** King's Bureau Grotesque **/
 @font-face {
-  font-family: 'KingsBureauGrot';
-  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
+  font-family: "KingsBureauGrot";
+  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThreeSeven.ttf")
+    format("truetype");
   /* Safari, Android, iOS */
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'KingsBureauGrot';
-  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThrSevenItal.ttf") format("truetype");
+  font-family: "KingsBureauGrot";
+  src: url("../fonts/KingsBureauGrot/KingsBureauGrot-ThrSevenItal.ttf")
+    format("truetype");
   /* Safari, Android, iOS */
   font-style: italic;
 }
 
 /** King's Caslon **/
 @font-face {
-  font-family: 'KingsCaslon';
+  font-family: "KingsCaslon";
   src: url("../fonts/KingsCaslon_V1.560/KingsCaslon.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'KingsCaslon';
-  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonItalic.ttf") format("truetype");
+  font-family: "KingsCaslon";
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonItalic.ttf")
+    format("truetype");
   /* Safari, Android, iOS */
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'KingsCaslon';
-  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBold.ttf") format("truetype");
+  font-family: "KingsCaslon";
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBold.ttf")
+    format("truetype");
   /* Safari, Android, iOS */
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'KingsCaslon';
-  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBoldItalic.ttf") format("truetype");
+  font-family: "KingsCaslon";
+  src: url("../fonts/KingsCaslon_V1.560/KingsCaslonSemiBoldItalic.ttf")
+    format("truetype");
   /* Safari, Android, iOS */
   font-weight: bold;
   font-style: italic;
@@ -79,7 +84,7 @@
 
 /* line 40, ../sass/screen.scss */
 .cookies-box .close:before {
-  content: 'Close ';
+  content: "Close ";
 }
 
 /* line 48, ../sass/screen.scss */
@@ -107,15 +112,15 @@
 
 /* line 66, ../sass/screen.scss */
 .cookies-box p a {
-    background-color: transparent !important;
-    border: none;
-    color: #fff !important;
-    float: none;
-    text-decoration: underline;
-    font-style: italic;
-    margin: 0;
-    opacity: 0.8;
-    padding: 0;
+  background-color: transparent !important;
+  border: none;
+  color: #fff !important;
+  float: none;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 0;
+  opacity: 0.8;
+  padding: 0;
 }
 
 /* line 74, ../sass/screen.scss */
@@ -134,8 +139,8 @@
   cursor: pointer;
   padding: 0.7em 1.5em;
   margin: 0;
-  text-transform:uppercase;
-  font-weight:bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* line 90, ../sass/screen.scss */
@@ -149,7 +154,7 @@
 .privacy-policy {
   background: #fefefe;
   color: #5a6469;
-  font-family: 'KingsCaslon', serif;
+  font-family: "KingsCaslon", serif;
   font-size: 1.5rem;
   padding: 3rem;
 }
@@ -164,13 +169,13 @@
 /* line 109, ../sass/screen.scss */
 .privacy-policy a:hover,
 .privacy-policy a:focus {
-  opacity:0.7;
-  text-decoration:underline;
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
 /* line 115, ../sass/screen.scss */
 .privacy-policy h2 {
-  font-family: 'KingsBureauGrot', sans-serif;
+  font-family: "KingsBureauGrot", sans-serif;
   font-size: 1.75rem;
   font-weight: normal;
   margin: 3rem 0 0.5rem 0;
@@ -184,7 +189,7 @@
   position: relative;
   text-align: center;
   width: 100%;
-  text-shadow:none;
+  text-shadow: none;
 }
 
 /* line 131, ../sass/screen.scss */
@@ -192,7 +197,7 @@
   text-decoration: underline;
   font-style: italic !important;
   color: #fff !important;
-  opacity:0.8;
+  opacity: 0.8;
   font-weight: normal !important;
   display: inline-block;
 }
@@ -201,7 +206,7 @@
 .sla a:hover,
 .sla a:focus {
   color: #00b9e1 !important;
-  opacity:1;
+  opacity: 1;
 }
 
 /* line 141, ../sass/screen.scss */
@@ -212,7 +217,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   /* line 148, ../sass/screen.scss */
   .privacy-policy {
     font-size: 1.2rem;

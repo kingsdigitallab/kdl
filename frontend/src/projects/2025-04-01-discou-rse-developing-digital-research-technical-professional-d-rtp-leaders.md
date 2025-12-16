@@ -81,9 +81,6 @@ departments:
   - name: BCS
     slug: bcs
 members:
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
   - name: Jonathan Cooper
     slug: jonathan-cooper
     roleName: Principal investigator
@@ -92,25 +89,25 @@ members:
       slug: university-college-london
   - name: Arianna Ciula
     slug: arianna-ciula
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: KDL
       slug: kdl
   - name: Kirsty Pringle
     slug: kirsty-pringle
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Edinburgh
       slug: university-of-edinburgh
   - name: Adrian Harwood
     slug: adrian-harwood
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Manchester
       slug: university-of-manchester
   - name: Dave Horsfall
     slug: dave-horsfall
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: Newcastle University
       slug: newcastle-university

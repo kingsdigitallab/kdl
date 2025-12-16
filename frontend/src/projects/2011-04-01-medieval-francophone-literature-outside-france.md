@@ -43,31 +43,31 @@ members:
       slug: fah-department-of-languages-literatures-and-cultures
   - name: Jane Gilbert
     slug: jane-gilbert
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Cambridge
       slug: university-of-cambridge
   - name: Bill Burgwinkle
     slug: bill-burgwinkle
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Cambridge
       slug: university-of-cambridge
   - name: Paul Vetch
     slug: paul-vetch
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
   - name: Charlotte Tupman
     slug: charlotte-tupman
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
   - name: Dirk Schoenaers
     slug: dirk-schoenaers
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University College London
       slug: university-college-london

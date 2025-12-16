@@ -48,7 +48,7 @@ members:
       Relations), Jeni Mitchell (War Studies), Leonie Ansems deVries
       (International Politics;
     slug: simon-tanner-ddh-kcl-andrea-ballatore-ddh-kcl-jack-mcdonald-war-studies-rosana-garciandia-law-rebekka-friedman-international-relations-jeni-mitchell-war-studies-leonie-ansems-devries-international-politics
-    roleName: Principal investigator
+    roleName: Co-Investigator
   - name: Kelsey Carthew
     slug: kelsey-carthew
     roleName: Researcher

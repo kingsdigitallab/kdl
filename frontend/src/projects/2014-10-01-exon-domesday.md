@@ -45,13 +45,13 @@ members:
       slug: fah-department-of-history
   - name: Stephen Baxter
     slug: stephen-baxter
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: University of Oxford
       slug: university-of-oxford
   - name: Peter Stokes
     slug: peter-stokes
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities

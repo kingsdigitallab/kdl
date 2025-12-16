@@ -53,7 +53,7 @@ members:
       slug: birkbeck-university-of-london
   - name: Mark Turner
     slug: mark-turner
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: FAH Department of English
       slug: fah-department-of-english

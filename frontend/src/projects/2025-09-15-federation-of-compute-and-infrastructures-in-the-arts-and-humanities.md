@@ -37,19 +37,19 @@ members:
       slug: university-of-brighton
   - name: Arianna Ciula
     slug: arianna-ciula
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: KDL
       slug: kdl
   - name: Neil Jakeman
     slug: neil-jakeman
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: KDL
       slug: kdl
   - name: Matt Penn
     slug: matt-penn
-    roleName: Principal investigator
+    roleName: Co-Investigator
     inOrganisation:
       name: KCL eResearch
       slug: kcl-eresearch
