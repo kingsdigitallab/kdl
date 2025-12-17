@@ -32,4 +32,5 @@ members:
       slug: newcastle-university
 keywords: []
 urls: []
+draft: true
 ---
