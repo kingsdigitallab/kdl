@@ -31,14 +31,13 @@ layout: layouts/base.njk
     <h3>Featured projects</h3>
     <a class="browse" href="/projects/">Browse all projects</a>
     <section class="projects">
-      {% for project in projects | featuredProjects %}
+      {% for project in collections.projects | featuredProjects %}
         <div class="project">
-          {% set image = ["/assets/images/projects/", project.image.filename_download] | join %}
-          {{- imageMacro({image: image, description: project.image.description }) -}}
+          {{- imageMacro({image: project.data.feature.image, description: project.data.feature.description }) -}}
           <h4>
-            <a href="{% route project.slug, 'Projects' %}">{{ project.name }}</a>
+            <a href="{{ project.page.url }}">{{ project.data.name }}</a>
           </h4>
-          <p>{{ project.description | renderMd | truncate(250) | safe }}</p>
+          <p>{{ project.content | safe | truncate(250) | safe }}</p>
         </div>
       {% endfor %}
     </section>

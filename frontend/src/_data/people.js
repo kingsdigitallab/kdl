@@ -6,7 +6,8 @@ module.exports = async ({ directus }) => {
     "person",
     "people",
     [
-      "jobTitle",
+      "jobTitle.name",
+      "jobTitle.inDefinedTermSet.name",
       "agent.name",
       "agent.slug",
       "agent.description",

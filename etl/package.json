@@ -5,7 +5,11 @@
   "author": "King's Digital Lab",
   "license": "MPL-2.0",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "projects-to-md": "node src/projects-to-md.js",
+    "people-to-md": "node src/people-to-md.js",
+    "organisations-to-md": "node src/organisations-to-md.js",
+    "clickup-to-md": "node src/clickup-to-md.js"
   },
   "bin": {
     "kdl-etl": "src/cli.js"
@@ -20,6 +24,7 @@
     "extract-urls": "^1.3.2",
     "image-downloader": "^4.3.0",
     "lodash": "^4.17.21",
+    "prettier": "^3.6.2",
     "slugify": "^1.6.5",
     "turndown": "^7.1.1"
   },

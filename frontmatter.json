@@ -24,24 +24,264 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
           "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        }
+      ]
+    },
+    {
+      "name": "project",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "alternateName",
+          "name": "alternateName",
+          "type": "string"
+        },
+        {
+          "title": "foundingDate",
+          "name": "foundingDate",
+          "type": "datetime"
+        },
+        {
+          "title": "dissolutionDate",
+          "name": "dissolutionDate",
+          "type": "datetime"
+        },
+        {
+          "title": "creativeWorkStatus",
+          "name": "creativeWorkStatus",
+          "type": "string"
+        },
+        {
+          "title": "feature",
+          "name": "feature",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "image",
+              "name": "image",
+              "type": "image"
+            },
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "description",
+              "name": "description",
+              "type": "datetime"
+            },
+            {
+              "title": "width",
+              "name": "width",
+              "type": "number"
+            },
+            {
+              "title": "height",
+              "name": "height",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "title": "funders",
+          "name": "funders",
+          "type": "block",
+          "fieldGroup": ["funders_group"]
+        },
+        {
+          "title": "departments",
+          "name": "departments",
+          "type": "block",
+          "fieldGroup": ["departments_group"]
+        },
+        {
+          "title": "members",
+          "name": "members",
+          "type": "block",
+          "fieldGroup": ["members_group"]
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "Data Visualisation",
+            "Digital Creativity",
+            "Indigenous Digital Humanities",
+            "Machine Learning and AI"
+          ]
+        },
+        {
+          "title": "urls",
+          "name": "urls",
+          "type": "block",
+          "fieldGroup": ["urls_group"]
+        }
+      ]
+    },
+    {
+      "name": "post",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "datetime"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "authors",
+          "name": "authors",
+          "type": "choice",
+          "choices": ["Miguel Vieira", "Samantha Callaghan"]
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "feature",
+          "name": "feature",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "image",
+              "name": "image",
+              "type": "image"
+            },
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "description",
+              "name": "description",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "organisation",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "alternateName",
+          "name": "alternateName",
+          "type": "string"
+        },
+        {
+          "title": "foundingDate",
+          "name": "foundingDate",
+          "type": "datetime"
+        },
+        {
+          "title": "dissolutionDate",
+          "name": "dissolutionDate",
+          "type": "datetime"
+        },
+        {
+          "title": "parentOrganisation",
+          "name": "parentOrganisation",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "title": "alternateName",
+              "name": "alternateName",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "subOrganisations",
+          "name": "subOrganisations",
+          "type": "block",
+          "fieldGroup": ["subOrganisations_group"]
+        },
+        {
+          "title": "urls",
+          "name": "urls",
+          "type": "block",
+          "fieldGroup": ["urls_group"]
+        }
+      ]
+    },
+    {
+      "name": "person",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "jobTitle",
+          "name": "jobTitle",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "memberOf",
+          "name": "memberOf",
+          "type": "block",
+          "fieldGroup": ["memberOf_group"]
         }
       ]
     }
@@ -49,9 +289,34 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "src",
-      "path": "[[workspace]]/frontend/src"
+      "path": "[[workspace]]/frontend/src",
+      "contentTypes": ["default"]
+    },
+    {
+      "title": "organisations",
+      "path": "[[workspace]]/frontend/src/about/organisations",
+      "contentTypes": ["organisation"]
+    },
+    {
+      "title": "people",
+      "path": "[[workspace]]/frontend/src/about/people",
+      "contentTypes": ["person"]
+    },
+    {
+      "title": "projects",
+      "path": "[[workspace]]/frontend/src/projects",
+      "contentTypes": ["project"]
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/frontend/src/blog",
+      "contentTypes": ["post"]
     }
   ],
+  "frontMatter.content.publicFolder": {
+    "path": "[[workspace]]/frontend/public",
+    "relative": false
+  },
   "frontMatter.data.types": [
     {
       "id": "team",
@@ -93,6 +358,130 @@
       "type": "team"
     }
   ],
-  "frontMatter.framework.id": "11ty",
-  "frontMatter.preview.host": "http://localhost:8080"
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "funders_group",
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "departments_group",
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "members_group",
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "roleName",
+          "name": "roleName",
+          "type": "string"
+        },
+        {
+          "title": "inOrganisation",
+          "name": "inOrganisation",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urls_group",
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "url",
+          "name": "url",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "subOrganisations_group",
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "alternateName",
+          "name": "alternateName",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "id": "urls_group",
+      "fields": [
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "url",
+          "name": "url",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "memberOf_group",
+      "fields": [
+        {
+          "title": "startDate",
+          "name": "startDate",
+          "type": "datetime"
+        },
+        {
+          "title": "endDate",
+          "name": "endDate",
+          "type": "datetime"
+        },
+        {
+          "title": "organisation",
+          "name": "organisation",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "roleName",
+          "name": "roleName",
+          "type": "string"
+        }
+      ]
+    }
+  ]
 }

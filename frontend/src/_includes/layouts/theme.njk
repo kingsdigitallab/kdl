@@ -7,38 +7,39 @@ layout: layouts/base.njk
 {% set assetsPath = config.paths.assets %}
 
 <section>
-  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}
+  {% endif %}
 
   <div id="overview">
     <p>{{ content | safe }}</p>
   </div>
 
-  {% set themeProjects = projects | getThemeProjects(obj.tags) %}
+  {% set themeProjects = collections.projects | getThemeProjects(obj.tags) %}
   {% if themeProjects.length > 0 %}
-      <h2>Projects</h2>
-      <ul class="list">
-        {% for project in themeProjects %}
-          <li>
-            {% if project.image %}
-              <a href="{% route project.slug, 'Projects' %}">
-                {% set feature = {
+    <h2>Projects</h2>
+    <ul class="list">
+      {% for project in themeProjects %}
+        <li>
+          {% if project.image %}
+            <a href="{% route project.slug, 'Projects' %}">
+              {% set feature = {
                 image: "/assets/images/projects/" + project.image.filename_download,
                 title: project.image.title,
                 description: project.image.description
-                } %}
-                {{ imageMacro(feature) }}
-              </a>
-            {% endif %}
-            <section>
+              } %}
+              {{ imageMacro(feature) }}
+            </a>
+          {% endif %}
+          <section>
             <a href="{% route project.slug, 'Projects' %}">
               {% set level = 3 %}
               {% set project = project %}
               {% set showTitle = true %}
               {%- include "partials/project.njk" -%}
             </a>
-            </section>
-          </li>
-        {% endfor %}
-      </ul>
+          </section>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 </section>

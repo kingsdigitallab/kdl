@@ -288,7 +288,12 @@
     }
   },
   {
-    "jobTitle": "89f2f99e-2079-4d4b-b75a-a38a4faaa432",
+    "jobTitle": {
+      "name": "Research Software Project Manager",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Alessandra Esposito",
       "slug": "alessandra-esposito",
@@ -1339,7 +1344,12 @@
     }
   },
   {
-    "jobTitle": "48abbe32-441b-40ae-9094-b5d4058ae38e",
+    "jobTitle": {
+      "name": "Research Software Analyst",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Arianna Ciula",
       "slug": "arianna-ciula",
@@ -2645,7 +2655,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Askold Ivantchik",
       "slug": "askold-ivantchik",
@@ -4084,7 +4099,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Carol Palmer",
       "slug": "carol-palmer",
@@ -5357,7 +5377,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Cordelia Beattie",
       "slug": "cordelia-beattie",
@@ -7789,7 +7814,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Fiona Barsoum",
       "slug": "fiona-barsoum",
@@ -11447,7 +11477,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Issa Mahasneh",
       "slug": "issa-mahasneh",
@@ -13269,7 +13304,12 @@
     }
   },
   {
-    "jobTitle": "a5e01de5-8b69-4518-8842-1aa93ba63157",
+    "jobTitle": {
+      "name": "Principal investigator",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Joy Porter",
       "slug": "joy-porter",
@@ -14727,7 +14767,12 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Lucie Mingmei Hao",
       "slug": "lucie-mingmei-hao",
@@ -15586,7 +15631,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Mark Turner",
       "slug": "mark-turner",
@@ -15785,7 +15835,12 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Mary Chester-Kadwell",
       "slug": "mary-chester-kadwell",
@@ -19682,7 +19737,12 @@
     }
   },
   {
-    "jobTitle": "0744a095-e0f1-4dfd-b992-c19202b15832",
+    "jobTitle": {
+      "name": "Partner",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Pascal Flohr",
       "slug": "pascal-flohr",
@@ -21795,7 +21855,12 @@
     }
   },
   {
-    "jobTitle": "bf5c9e2e-905e-42c1-876b-3346088e66d4",
+    "jobTitle": {
+      "name": "RSE team member",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Priyal Shah",
       "slug": "priyal-shah",
@@ -22009,7 +22074,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Rebecca Sykes",
       "slug": "rebecca-sykes",
@@ -22319,7 +22389,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Robyn Jakeman",
       "slug": "robyn-jakeman",
@@ -22533,7 +22608,12 @@
     }
   },
   {
-    "jobTitle": "dfde9351-8a1e-4f40-9f99-c1bf78debe4f",
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Ryan Heuser",
       "slug": "ryan-heuser",
@@ -22718,7 +22798,12 @@
     }
   },
   {
-    "jobTitle": "48abbe32-441b-40ae-9094-b5d4058ae38e",
+    "jobTitle": {
+      "name": "Research Software Analyst",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Samantha Callaghan",
       "slug": "samantha-callaghan",
@@ -23193,7 +23278,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Sharon Howard",
       "slug": "sharon-howard",
@@ -23232,7 +23322,12 @@
     }
   },
   {
-    "jobTitle": "59cdea9e-1d94-4559-8414-2d00850ec973",
+    "jobTitle": {
+      "name": "Researcher",
+      "inDefinedTermSet": {
+        "name": "Project roles"
+      }
+    },
     "agent": {
       "name": "Shatha Mubaideen",
       "slug": "shatha-mubaideen",
@@ -26377,7 +26472,12 @@
     }
   },
   {
-    "jobTitle": "741543ca-aca8-4cda-9833-5da83698f454",
+    "jobTitle": {
+      "name": "Research Software Designer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
     "agent": {
       "name": "Zihao Lu",
       "slug": "zihao-lu",

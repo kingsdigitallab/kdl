@@ -1,11 +1,8 @@
 ---
 layout: layouts/base.njk
-permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/"
 ---
 
-{% set assetsPath = config.paths.assets %}
-
-{{ content | renderMd | safe }}
+{{ content | safe }}
 
 <div class="wrapper">
   <ul>
@@ -14,11 +11,13 @@ permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
         <h2>{{ type }}</h2>
         <ol>
           {%- for item in items -%}
-            {% set person = item.data.agentInstance %}
-            {% set kdlTeamMember = team | filter('KDL', 'team') | filter(person.agent.slug, 'slug') | first %}
+            {% set person = item.data %}
+            {% set kdlTeamMember = team | filter('KDL', 'team') | filter(person.slug, 'slug') | first %}
             <li {% if kdlTeamMember %}class="kdl-member"{% endif %}>
-              <a href="{% route person.agent.slug, 'People' %}">{{ person.agent.name }}</a>
-              {% if kdlTeamMember %}<sup title="Current KDL team member">KDL</sup>{% endif %}
+              <a href="{{ person.page.url }}">{{ person.name }}</a>
+              {% if kdlTeamMember %}
+                <sup title="Current KDL team member">KDL</sup>
+              {% endif %}
             </li>
           {%- endfor -%}
         </ol>

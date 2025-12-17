@@ -1,9 +1,8 @@
 ---
 layout: layouts/base.njk
-permalink: "about/partners-and-funders/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/"
 ---
 
-{{ content | renderMd | safe }}
+{{ content | safe }}
 
 <div class="wrapper">
   <ul>
@@ -13,10 +12,9 @@ permalink: "about/partners-and-funders/{% if pagination.pageNumber > 0 %}{{ pagi
           <h2>{{ type }}</h2>
           <ol>
             {%- for item in items -%}
-              {% set org = item.data.agentInstance %}
+              {% set organisation = item.data %}
               <li>
-                <a href="{% route org.agent.slug, 'Partners and funders' %}">
-                  {% set agentInstance = org %}
+                <a href="{{ organisation.page.url }}">
                   {% include "partials/organisation.njk" %}
                 </a>
               </li>

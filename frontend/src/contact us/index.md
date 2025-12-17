@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Contact us
 eleventyNavigation:
   key: Contact
-  order: 8
+  order: 5
 permalink: "contact-us/"
 ---
 

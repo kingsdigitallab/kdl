@@ -2,48 +2,51 @@
 layout: layouts/agent.njk
 ---
 
-{% set partner = projects | partnerProjects(agentInstance) %}
+{% set partner = collections.projects | partnerProjects(slug) %}
 {% if partner.length > 0 %}
   <div id="partner">
     <h2>Projects involved in</h2>
     <ul>
       {% for project in partner %}
         <li>
-          <a href="{% route project.slug, 'Projects' %}">{{ project.name }}</a>
+          <a href="{{ project.page.url }}">{{ project.data.name }}</a>
         </li>
       {% endfor %}
     </ul>
   </div>
 {% endif %}
 
-{% set funded = projects | fundedProjects(agentInstance) %}
+{% set funded = collections.projects | fundedProjects(slug) %}
 {% if funded.length > 0 %}
   <div id="funded">
     <h2>Projects funded</h2>
     <ul>
       {% for project in funded %}
         <li>
-          <a href="{% route project.slug, 'Projects' %}">{{ project.name }}</a>
+          <a href="{{ project.page.url }}">{{ project.data.name }}</a>
         </li>
       {% endfor %}
     </ul>
   </div>
 {% endif %}
 
+{% set previousObj = collections.organisations | getPreviousCollectionItem(page) %}
+{% set nextObj = collections.organisations | getNextCollectionItem(page) %}
 <div class="sibling-pagination">
   <nav aria-label="pagination">
     <ol>
-      {% if pagination.href.previous %}
+      {% if previousObj %}
         <li>
-          <a href="{{ pagination.href.previous }}">
+          <a href="{{ previousObj.url }}">
             <ion-icon name="chevron-back-sharp" aria-label="previous organisation"></ion-icon>
-            {{- pagination.page.previous.agent.name -}}
+            {{- previousObj.data.name -}}
           </a>
         </li>
       {% endif %}
-      {% if pagination.href.next %}
+      {% if nextObj %}
         <li>
-          <a href="{{ pagination.href.next }}">{{ pagination.page.next.agent.name -}}
+          <a href="{{ nextObj.url }}">
+            {{- nextObj.data.name -}}
             <ion-icon name="chevron-forward-sharp" aria-label="next organisation"></ion-icon>
           </a>
         </li>

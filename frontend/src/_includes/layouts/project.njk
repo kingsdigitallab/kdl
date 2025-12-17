@@ -4,52 +4,60 @@ layout: layouts/base.njk
 
 {% from "kdl/components/image/macros.njk" import imageMacro %}
 
-{% set assetsPath = config.paths.assets %}
-
 <section>
   <!-- Images -->
-  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
- 
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}
+  {% endif %}
+
   <!-- Overview -->
-  {% if project.description %}
-    <div id="overview">
-      <p>{{ project.description | renderMd | safe }}</p>
-    </div>
+  {% if content %}
+    <div id="overview">{{ content | safe }}</div>
   {% endif %}
 
   <!-- Team -->
-  {% if project.member and project.member.length > 0 %}
+  {% if obj.members and obj.members.length > 0 %}
     <div id="team">
       <h2>Team</h2>
       <ul>
-        {% for member in project.member | getProjectMembers | sort(false, false, "agent.name") %}
-          {% set kdlTeamMember = team | filter('KDL', 'team') | filter(member.agent.slug, 'slug') | first %}
+        {% for member in obj.members | sort(false, false, "name") %}
+          {% set kdlTeamMember = team | filter('KDL', 'team') | filter(member.slug, 'slug') | first %}
           <li {% if kdlTeamMember %}class="kdl-member"{% endif %}>
-            {% if people | filter(member.agent.slug, 'agent.slug') | first %}
-              <a href="{% route member.agent.slug, 'People' %}">{{ member.agent.name }}</a>
+            {% if people | filter(member.slug, 'agent.slug') | first %}
+              <a href="{% route member.slug, 'People' %}">{{ member.name }}</a>
             {% else %}
-              {{ member.agent.name }}
+              {{ member.name }}
             {% endif %}
-            {% if kdlTeamMember %}<sup title="Current KDL team member">KDL</sup>{% endif %}
-            <span>{{ member.roleName.name }}{%- if member.inOrganisation -%}, {{ member.inOrganisation.agent.name }}{%- endif %}</span>
+            {% if kdlTeamMember %}
+              <sup title="Current KDL team member">KDL</sup>
+            {% endif %}
+            <span>{{ member.roleName }}
+              {%- if member.inOrganisation -%}, {{ member.inOrganisation.name }}
+              {%- endif %}
+            </span>
           </li>
         {% endfor %}
       </ul>
     </div>
   {% endif %}
 
-  
+  {% set previousObj = collections.projects | getPreviousCollectionItem(page) %}
+  {% set nextObj = collections.projects | getNextCollectionItem(page) %}
   <div class="sibling-pagination">
     <nav aria-label="pagination">
       <ol>
-        {% if pagination.href.previous %}
+        {% if previousObj %}
           <li>
-            <a href="{{ pagination.href.previous }}"><ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon> {{ pagination.page.previous.name }}</a>
+            <a href="{{ previousObj.url }}">
+              <ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon>
+              {{ previousObj.data.name }}</a>
           </li>
         {% endif %}
-        {% if pagination.href.next %}
+        {% if nextObj %}
           <li>
-            <a href="{{ pagination.href.next }}">{{ pagination.page.next.name }} <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon></a>
+            <a href="{{ nextObj.url }}">
+              {{ nextObj.data.name }}
+              <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon>
+            </a>
           </li>
         {% endif %}
       </ol>
@@ -58,63 +66,72 @@ layout: layouts/base.njk
 </section>
 
 <section>
+
   <!-- Information -->
   <div id="metadata">
-    <span class="status">Project Status: {{ project.creativeWorkStatus.name }}</span>
+    <span class="status">Project Status: {{ obj.creativeWorkStatus }}</span>
 
-    {% if project.url.length > 0 %}
+    {% if obj.urls.length > 0 %}
       <div id="links">
         <h3>Project links</h3>
         <ul>
-          {% for url in project.url %}
+          {% for url in obj.urls %}
             <li>
-              <a href="{{ url.linkrole_id.url }}" role="button">{{ url.linkrole_id.name }}</a>
+              <a href="{{ url.url }}" role="button">{{ url.name }}</a>
             </li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
 
-    {% if project.funder.length > 0 %}
+    {% if obj.funders.length > 0 %}
       <div class="funder">
         <h3>Funder</h3>
         <ul>
-          {% for funder in project.funder %}
+          {% for funder in obj.funders %}
             <li>
-              <a href="{% route funder.agent_id.slug, 'Partners and funders' %}">{{- funder.agent_id.name -}}</a>
+              <a href="{% route funder.slug, 'Partners and funders' %}">{{- funder.name -}}</a>
             </li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
+
     <div class="date">
       <h3>Partner institution</h3>
       <ul>
-        {% if project.department.length > 0 %}
-          {%- for department in project.department %}
+        {% if obj.departments.length > 0 %}
+          {%- for department in obj.departments %}
             <li>
-              <a href="{% route department.organisation_id.agent.slug, 'Partners and funders' %}">
-                {%- set agentInstance = department.organisation_id -%}
+              <a href="{% route department.slug, 'Partners and funders' %}">
+                {%- set organisation = department -%}
                 {% include "partials/organisation.njk" %}
               </a>
             </li>
           {% endfor %}
         {% endif %}
-        {% if project.foundingDate %}
-          <li class="date">{{ project.foundingDate | asProjectDate }}–{{ project.dissolutionDate | asProjectDate }}</li>
+        {% if obj.foundingDate %}
+          <li class="date">{% include "partials/dates.njk" %}</li>
         {% endif %}
       </ul>
     </div>
 
     <!-- Keywords -->
-  {% if project.keywords and project.keywords.length > 0 %}
-    <div class="keywords">
-      <h3>Keywords</h3>
-      <ul>
-        {% for keyword in project.keywords %}
-          <li>{{ keyword.definedterm_id.name }}</li>
-        {% endfor %}
-      </ul>
+    {% if obj.keywords and obj.keywords.length > 0 %}
+      <div class="keywords">
+        <h3>Keywords</h3>
+        <ul>
+          {% for keyword in obj.keywords %}
+            {% set themeExists = collections.theme | filter(keyword.slug, 'fileSlug') | first %}
+            <li>
+              {% if themeExists %}
+                <a href="{% route keyword.slug, 'Research' %}">{{ keyword.name }}</a>
+              {% else %}
+                {{ keyword.name }}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     {% endif %}
   </div>

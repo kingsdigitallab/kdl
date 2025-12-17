@@ -3,14 +3,14 @@
 [![Build 11ty frontend](https://github.com/kingsdigitallab/kdl/actions/workflows/frontend.yml/badge.svg)](https://github.com/kingsdigitallab/kdl/actions/workflows/frontend.yml)
 [![pages-build-deployment](https://github.com/kingsdigitallab/kdl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kingsdigitallab/kdl/actions/workflows/pages/pages-build-deployment)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/kingsdigitallab/kdl/tree/develop)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kingsdigitallab/kdl)
 
 ## Set up
 
 ### Dependencies
 
 - [Docker](https://www.docker.com/)
-- [Node](https://nodejs.org/) 18
+- [Node](https://nodejs.org/) 20
 
 Install the node packages:
 
@@ -24,48 +24,26 @@ Install the git hooks:
 npx simple-git-hooks
 ```
 
-### CMS module
+### Modules
 
-Set up Docker:
+This project is set up as a monorepo with a module for ETL processing and the
+frontend module to publish and build a static site.
 
-```bash
-cp docker-compose.override.yaml.example docker-compose.override.yaml
-```
+#### ETL
 
-Set up the environment files:
-
-```bash
-cd .envs
-cp .cms.example .cms
-cp .database.example .database
-cp .etl.example .etl
-```
-
-Run the stack:
+To process and import data, run:
 
 ```bash
-npm run up
+npm run etl:clickup frontend/src/projects
 ```
 
-The cms is available at <http://localhost:8055/> by default and if no port configuration
-changed.
+#### Frontend
 
-#### Data model versioning
-
-Create a snapshot:
+To run the frontend, run:
 
 ```bash
-npm run cms:snapshot
+npm run frontend:dev
 ```
-
-Apply a snapshot:
-
-```bash
-npm run cms:snapshot:apply --snapshot=SNAPSHOT_NAME
-```
-
-Where `SNAPSHOT_NAME` is the name of the snapshot without path or extension. By default
-the data model snapshots are saved in [cms/snapshots](cms/snapshots/README.md).
 
 ### Data model
 

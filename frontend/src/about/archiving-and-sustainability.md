@@ -22,32 +22,34 @@ Ideally projects were placed on an SLA to ensure ongoing hosting and maintenance
 
 ### SLA with KDL
 
-   Maintaining the project under a costed Service Level Agreement with KDL - we offer agreements of variable durations depending on project age, infrastructure requirements, and PI preference but our standard SLA duration is five years.
+Maintaining the project under a costed Service Level Agreement with KDL - we offer agreements of variable durations depending on project age, infrastructure requirements, and PI preference but our standard SLA duration is five years.
 
 ### Migration to ITS
 
-   Migration of the project (and associated data) to a King’s College London ITS microsite if that is agreeable to both PIs and ITS.
+Migration of the project (and associated data) to a King’s College London ITS microsite if that is agreeable to both PIs and ITS.
 
 ### Migration to external host
 
-   Migration of the project (and associated data) to an external host, such as the PI’s new institution or a commercial hosting provider.
+Migration of the project (and associated data) to an external host, such as the PI’s new institution or a commercial hosting provider.
 
 ### Static conversion
 
-   Conversion of project website to a static website. This is offered as a free service for suitable projects. It can be a very cost effective solution and maintains public access to legacy projects and datasets that are no longer updated but continue to have value for the PI and research community.
+Conversion of project website to a static website. This is offered as a free service for suitable projects. It can be a very cost effective solution and maintains public access to legacy projects and datasets that are no longer updated but continue to have value for the PI and research community.
 
 ### Datasets deposit
 
-   These options are evolving, in collaboration with the Department of Digital Humanities and other partners: KDL-DDH CKAN data catalogue and repository (<https://data.kdl.kcl.ac.uk/>); KCL Research Data Management System (<https://www.kcl.ac.uk/library/researchsupport/research-data-management/Preserve/Deposit-your-data-with-Kings3.aspx>); External institutional or subject specific data repository.
+These options are evolving, in collaboration with the Department of Digital Humanities and other partners: KDL-DDH CKAN data catalogue and repository (<https://data.kdl.kcl.ac.uk/>); KCL Research Data Management System (<https://www.kcl.ac.uk/library/researchsupport/research-data-management/Preserve/Deposit-your-data-with-Kings3.aspx>); External institutional or subject specific data repository.
 
 ### Minimal archiving
 
-   Minimal storage (for two years minimum): project and data are archived on our infrastructure and a placeholder page is shown at a project URL. This placeholder includes a description of the project and other metadata, as well as links to snapshots at the Internet Archive and other web archives (such as webarchive.org.uk) where the project has been archived.
+Minimal storage (for two years minimum): project and data are archived on our infrastructure and a placeholder page is shown at a project URL. This placeholder includes a description of the project and other metadata, as well as links to snapshots at the Internet Archive and other web archives (such as webarchive.org.uk) where the project has been archived.
 
 ### Further options
+
 We are also interested in options such as providing projects as virtual machines (VMs) for offline use, or capturing their last good state in recording tools such as webrecorder.io but (interestingly enough) those options have not yet been requested. Where PIs or Co-Is are not able to be reached, options are considered within KDL and with appropriate [Department of Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/index.aspx) staff and a decision made on a per project basis.
 
 ## Projects born static
+
 Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
 
 - [Alice Thornton's Books](https://thornton.kdl.kcl.ac.uk/) (AHRC)
@@ -194,10 +196,14 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - Theatron was developed in HTML and VRML, a now defunct standard for Virtual Reality which no longer has supported plugins for any modern browsers. Content has been converted to static where possible: [Theatron 2](http://www.kvl.cch.kcl.ac.uk/THEATRON/) and [Theatron 3](http://www.theatron3.cch.kcl.ac.uk/)
 
 ### Conversion to static in progress
+
+# <<<<<<< HEAD
+
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
 - [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
 - [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
+  > > > > > > > main
 
 ## Minimally archived projects
 
@@ -212,7 +218,11 @@ Minimally archived projects are no longer accessible. We maintain their original
 - Intention is for project to migrate but there are no current resources to be able to do so at recipient institution.
 
 The list of projects which have been minimally archived:
-- [Archetype]([http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/))
+<<<<<<< HEAD
+
+- # [Archetype](http://archetype.ink)
+- [Archetype](<[http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/)>)
+  > > > > > > > main
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
 - [The Commonplacer](https://commonplacer.cch.kcl.ac.uk/)
@@ -267,7 +277,7 @@ For more information and reflections on our archiving and sustainability process
 
 ### Samantha Callaghan
 
-*Research Software Analyst*
+_Research Software Analyst_
 
 I've been responsible for documenting the decommission process for around 70+ projects that have been migrated, converted to static sites or minimally archived. Having worked in the information management sector for several years, the KDL Archiving and Sustainability project is a fantastic opportunity to come to grips with digital archiving of frequently complex digital objects. One lesson that we have taken from this work is to "document as you go"!
 
@@ -275,7 +285,7 @@ I've been responsible for documenting the decommission process for around 70+ pr
 
 ### Arianna Ciula
 
-*Director and Senior Research Software Analyst*
+_Director and Senior Research Software Analyst_
 
 As the lists above witness, not only the scale of the archiving process is substantial but as new projects start and end, it lives in the background of KDL daily operations. So it was important to consult with other analysts and feed our perspective to the lab manager, so to align the workflow with KDL Software Development Life Cycle.
 
@@ -283,7 +293,7 @@ As the lists above witness, not only the scale of the archiving process is subst
 
 ### Brian Maher (2017-2023)
 
-*Senior Research Software Engineer and Systems Administrator*
+_Senior Research Software Engineer and Systems Administrator_
 
 Through our Archiving & Sustainability efforts, we have been able to greatly improve the security of our systems. I have worked to update or archive as many websites as possible, converting many to static sites, in order to keep important academic research online for as long as possible.
 
@@ -291,7 +301,7 @@ Through our Archiving & Sustainability efforts, we have been able to greatly imp
 
 ### Pam Mellen
 
-*Research Software Lab Manager*
+_Research Software Lab Manager_
 
 I've primarily worked on integrating the Archiving and Sustainability project with the larger KDL Software Development Lifecycle, as well as supporting implementation at various points throughout the project. With a goal of building Archiving and Sustainability into KDL's 'business as usual'; this has involved working with with the team processes and documentation which are robust and standardised. As we reach the stage where SLA maintenance is integrated into the normal work of the Lab, I have implemented processes to ensure that we maintain good oversight of our portfolio of projects under SLA.
 
@@ -299,7 +309,7 @@ I've primarily worked on integrating the Archiving and Sustainability project wi
 
 ### Tiffany Ong
 
-*Senior Research Software UI/UX Designer*
+_Senior Research Software UI/UX Designer_
 
 I worked on the design of a simple html structure and neutral styling for the decommissioned sites template. I also worked on the templates for the footer, privacy and cookie policy for sites under SLA, following the current KDL style.
 
@@ -307,7 +317,7 @@ I worked on the design of a simple html structure and neutral styling for the de
 
 ### Toby Pitts (2018)
 
-*Student Intern - Archiving and Sustainability Assistant*
+_Student Intern - Archiving and Sustainability Assistant_
 
 I began the decommissioning documenting process over a two week period in 2018.
 
@@ -315,7 +325,7 @@ I began the decommissioning documenting process over a two week period in 2018.
 
 ### Natasha Romanova
 
-*Digital Methods Lead (2019-2020)*
+_Digital Methods Lead (2019-2020)_
 
 As part of my role as Digital Methods Lead at KDL in 2019-2020, I assisted the decommissioning analyst in preparing decommissioning documentation and, wherever appropriate, placeholder pages for a number of legacy projects and projects reaching the end of their SLA period. As part of this work, I often had to look into the history of the project and liaise with project partners and technical teams.
 
@@ -323,7 +333,7 @@ As part of my role as Digital Methods Lead at KDL in 2019-2020, I assisted the d
 
 ### Anna Maria Sichani
 
-*Marie Curie Postdoctoral Researcher (2016)*
+_Marie Curie Postdoctoral Researcher (2016)_
 
 I was involved in the KDL Archiving and Sustainability project at its initial stages during my KDL PhD research fellowship. I captured as much information we could for legacy projects so as to sketch an informed sustainability strategy. It was a great school for me in understanding several crucial qualities of a DH project: documentation, documentation, documentation.
 
@@ -331,7 +341,7 @@ I was involved in the KDL Archiving and Sustainability project at its initial st
 
 ### Miguel Vieira
 
-*Principal Research Software Engineer*
+_Principal Research Software Engineer_
 
 My work on Archiving & Sustainability focused on creating simple and easily deployable tools and scripts, that could be incorporated into legacy projects, in order to integrate them smoothly and efficiently into KDL Software Development Lifecycle.
 
@@ -339,7 +349,7 @@ My work on Archiving & Sustainability focused on creating simple and easily depl
 
 ### Tim Watts
 
-*Senior Research Software Systems Manager*
+_Senior Research Software Systems Manager_
 
 As part of our infrastructure renewal, I incorporated some cost effective additional storage into our SAN (disk array) which is just a fancy way of saying: we added some high volume slower disks to complement the super fast SSDs we use for our main service. We designed in the same robust level of fault protection into this archival group (RAID6 plus 2 hotspares - which means any 2 disks can fail simultaneously without loss of data and there are 2 spare disks available to take over from the failed disks). In addition to this, our archival datasets are backed up to the same enterprise grade backup disk systems using the same backup software and monitoring as our main service. At least one of the backup storage systems is located in a remote datacenter to reduce risk. I designed a very simple and effective curation process for archiving whole virtual servers and any associated components such as databases, image sets etc.
 
@@ -347,7 +357,7 @@ As part of our infrastructure renewal, I incorporated some cost effective additi
 
 ### Carina Westling
 
-*Project Manager (2016-2017)*
+_Project Manager (2016-2017)_
 
 I worked with James Smithies and the wider team at KDL to structure and define the problem space of the Archiving and Sustainability project at KDL, and devise a strategy for negotiating onward solutions for ca. 100 legacy projects inherited from the Department of Digital Humanities. Understanding and costing the resources involved in the ongoing maintenance of digital research projects was a big part of this work, and contributed to the development of KDL Software Development Lifecycle processes.
 

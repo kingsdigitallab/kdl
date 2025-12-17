@@ -6,51 +6,55 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
 {% from "kdl/components/person/macros.njk" import authorMacro %}
 {% from "kdl/components/time/macros.njk" import timeMacro %}
 <ul class="list">
-{%- for post in posts -%}
-  <li>
-    {% if post.data.feature.image %}
-    <figure>
-      <a href="{{ post.url }}">
-        <img src="{{ post.data.feature.image }}"
+  {%- for post in posts -%}
+    <li>
+      {% if post.data.feature.image %}
+        <figure>
+          <a href="{{ post.url }}">
+            <img src="{{ post.data.feature.image }}"
               alt="{{ post.data.feature.description }}">
-      </a>
-      <figcaption>{{ post.feature.description }}</figcaption>
-    </figure>
-      
-    {% endif %}
+          </a>
+          <figcaption>{{ post.feature.description }}</figcaption>
+        </figure>
 
-    <section>
-      <a href="{{ post.url }}">
-        <h2>{{ post.data.title }}</h2>
-      </a>
+      {% endif %}
 
-      {% if post.data.authors %}
+      <section>
+        <a href="{{ post.url }}">
+          <h2>{{ post.data.title }}</h2>
+        </a>
+
+        {% if post.data.authors %}
         by
         {% for name in post.data.authors %}
-          {% set person = collections.people | filter(name, "data.name") %}
-          {% if person and person.length > 0 %}
-            {{- authorMacro(person[0]) -}}
-          {% else %}
-            {% set data = { name: name } %}
-            {% set person = {data: data} %}
-            {{- authorMacro(person) -}}
-          {% endif %}
-          {%- if not loop.last -%},
-          {% endif -%}
-        {% endfor %}
-      {% endif %}
-      {% if post.data.date %}on {{ timeMacro(post.data.date) -}}{% endif %}
+            {% set person = collections.people | filter(name, "data.name") %}
+            {%- if person and person.length > 0 -%}
+              {{- authorMacro(person[0]) -}}
+            {%- else -%}
+              {% set data = {
+                name: name
+              } %}
+              {% set person = {
+                data: data
+              } %}
+              {{- authorMacro(person) -}}
+            {%- endif -%}
+            {%- if not loop.last -%},{%- endif -%}
+          {%- endfor -%}
+        {% endif %}
+        {% if post.data.date %}on {{ timeMacro(post.data.date) -}}
+        {% endif %}
 
-      {% if post.data.subtitle %}
-        <div class="subtitle">
-          <span>{{ post.data.subtitle }}</span>
-        </div>
-      {% endif %}
- 
-      <p>{{ post.data.excerpt }}</p>
-    </section>
+        {% if post.data.subtitle %}
+          <div class="subtitle">
+            <span>{{ post.data.subtitle }}</span>
+          </div>
+        {% endif %}
+
+        <p>{{ post.data.excerpt }}</p>
+      </section>
     </li>
-{%- endfor -%}
+  {%- endfor -%}
 </ul>
 
 {% set label = "Posts" %}
