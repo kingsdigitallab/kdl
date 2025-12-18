@@ -33,3 +33,5 @@ sla:
   start: null
   end: null
 ---
+
+<div id="empty-div-to-set-draft-false" aria-hidden="true"> </div>
