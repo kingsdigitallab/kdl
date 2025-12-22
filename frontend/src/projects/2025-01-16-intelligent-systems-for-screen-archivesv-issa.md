@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Intelligent Systems for Screen Archives
 name: Intelligent Systems for Screen Archives
 tags:
@@ -55,4 +54,7 @@ members:
 sla:
   start: null
   end: null
+draft: false
 ---
+
+Working in partnership with moving image archives in the UK, ISSA aims to develop sector wide understanding about AI technologies in film and television archives, including the knowledge, skills and tools required to rethink and reshape large audiovisual collections from a computational perspective. A significant challenge of using AI in moving image archives is the lack of domain-specific systems that exemplify, end-to-end, how to go from collections to interactions. To help address this challenge KDL is building a “talk to your archives” prototype for data enrichment, exploration, retrieval, and interaction (DEERIN). Shared with partners via a publicly accessible code repository and knowledge base this prototype will serve as a blueprint for creative testing and experimentation in the context of film archives.

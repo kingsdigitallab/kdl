@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: DFI Pilot - Tangible Programming
 name: DFI Pilot - Tangible Programming
 tags:
@@ -33,3 +33,5 @@ sla:
   start: null
   end: null
 ---
+
+<div id="empty-div-to-set-draft-false" aria-hidden="true"> </div>
