@@ -16001,6 +16001,18 @@
       ]
     }
   },
+    {
+    "jobTitle": {
+      "name": "Research Software Engineer",
+      "inDefinedTermSet": {
+        "name": "Team roles"
+      }
+    },
+    "agent": {
+      "name": "Stefan Meier",
+      "slug": "stefan-meier"
+    }
+  },
   {
     "jobTitle": null,
     "agent": {
