@@ -101,7 +101,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 - [AHRC Crowd Sourcing Study Report](https://www.kcl.ac.uk/research/archive/arts/croud-sourcing-study/index.aspx)
 - [British Printed Images to 1700](https://bpi1700.org.uk/)
-- [Catalogue of English Literary Manuscripts](http://www.celm-ms.org.uk/)
+- [Catalogue of English Literary Manuscripts](https://celm.folger.edu/)
 - [Corpus of Romanesque Sculpture in Britain and Ireland](https://www.crsbi.ac.uk/)
 - [Corpus Vitrearum Medii Aevi of Great Britain](http://www.cvma.ac.uk/)
 - [Cultural Exchange in a Time of Global Conflict: Colonials, Neutrals and Belligerents during the First World War](https://cegcproject.eu/)
