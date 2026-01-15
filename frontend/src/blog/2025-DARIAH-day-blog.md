@@ -10,7 +10,7 @@ authors:
   - Lisa Otty (University of Edinburgh)
   - Arianna Ciula
   - Barbara McGillivray (King’s College London)
-date: 2025-12-18
+date: 2026-01-15
 excerpt: ""
 feature:
   image: /assets/images/blog/2025-DARIAH-DAY-Banner.jpg
@@ -20,6 +20,8 @@ draft: true
 ---
 
 The second UK [DARIAH](https://www.dariah.eu/) day was hosted by the [Edinburgh Futures Institute](https://efi.ed.ac.uk/) (University of Edinburgh) on Friday 7 November, in collaboration with the five other UK DARIAH partners (King’s College London, University of Brighton, University of Exeter, University of Leeds and the School of Advanced Study, University of London). The event explored the futures of digital research infrastructures in the arts and humanities, with a focus on the current and potential relationships between UK and European infrastructures. It was supported by DARIAH-EU, [DISKAH](https://culturedigitalskills.org/), and the [Centre for Data, Culture & Society](https://www.cdcs.ed.ac.uk/).
+
+![Jennifer Edmond (DARIAH Ireland)](/assets/images/blog/2025-DARIAH-DAY-InText.jpg "Jennifer Edmond (DARIAH Ireland)]. © Arianna Ciula, 2025"){.media-medium}
 
 Jennifer Edmond ([DARIAH Ireland](https://dariah.ie/wordpress/)/Trinity College Dublin) began the day with a keynote that drew on her personal history of engagements with DARIAH across her career to illustrate the crucial impact research infrastructures can have on individual career trajectories. As the current National Coordinator for DARIAH in Ireland, Edmond’s talk demonstrated how effective infrastructure relies on the humans who guide individuals to understand their own potential pathways into larger scale infrastructures and who act as the crucial connective tissue between local, national and international levels.
 
