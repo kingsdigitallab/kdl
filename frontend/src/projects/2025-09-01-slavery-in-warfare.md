@@ -42,13 +42,45 @@ members:
   - name: Maeve Ryan
     slug: maeve-ryan
     roleName: Principal investigator
-  - name:
-      Simon Tanner (DDH - KCL) Andrea Ballatore (DDH, KCL), Jack McDonald (War
-      Studies), Rosana Garciandia (Law), Rebekka Friedman (International
-      Relations), Jeni Mitchell (War Studies), Leonie Ansems deVries
-      (International Politics;
-    slug: simon-tanner-ddh-kcl-andrea-ballatore-ddh-kcl-jack-mcdonald-war-studies-rosana-garciandia-law-rebekka-friedman-international-relations-jeni-mitchell-war-studies-leonie-ansems-devries-international-politics
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
+  - name: Simon Tanner
+    slug: simon-tanner
     roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Andrea Ballatore
+    slug: andrea-ballatore
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities}, Jack McDonald
+      slug: fah-department-of-digital-humanities-jack-mcdonald
+  - name: Rosana Garciandia
+    slug: rosana-garciandia
+    roleName: Co-Investigator
+    inOrganisation:
+      name: The Dickson Poon School of Law
+      slug: the-dickson-poon-school-of-law
+  - name: Rebekka Friedman
+    slug: rebekka-friedman
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
+  - name: Jeni Mitchell
+    slug: jeni-mitchell
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
+  - name: Leonie Ansems deVries
+    slug: leonie-ansems-devries
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
   - name: Kelsey Carthew
     slug: kelsey-carthew
     roleName: Researcher
