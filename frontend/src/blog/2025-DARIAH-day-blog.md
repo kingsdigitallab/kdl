@@ -16,7 +16,7 @@ feature:
   image: /assets/images/blog/2025-DARIAH-DAY-Banner.jpg
   title: "Old Royal Infirmary Building - Image courtesy of Edinburgh Futures Institute"
   description: "Old Royal Infirmary Building, home of the Edinburgh Futures Institute"
-draft: true
+draft: false
 ---
 
 The second UK [DARIAH](https://www.dariah.eu/) day was hosted by the [Edinburgh Futures Institute](https://efi.ed.ac.uk/) (University of Edinburgh) on Friday 7 November, in collaboration with the five other UK DARIAH partners (King’s College London, University of Brighton, University of Exeter, University of Leeds and the School of Advanced Study, University of London). The event explored the futures of digital research infrastructures in the arts and humanities, with a focus on the current and potential relationships between UK and European infrastructures. It was supported by DARIAH-EU, [DISKAH](https://culturedigitalskills.org/), and the [Centre for Data, Culture & Society](https://www.cdcs.ed.ac.uk/).
