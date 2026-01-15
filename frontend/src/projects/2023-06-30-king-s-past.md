@@ -46,7 +46,7 @@ members:
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
-  - name: ; Hannah Dawson
+  - name: Hannah Dawson
     slug: hannah-dawson
     roleName: Principal investigator
     inOrganisation:
