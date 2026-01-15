@@ -108,6 +108,6 @@ draft: false
 
 The King's Past project has produced a critical, reflexive history of King’s focusing on thirteen significant 'moments of making' for the college during the two hundred years since its founding.
 
-KDLworked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.
+KDL worked with the research team to produce a website to share this history built upon a foundational data model and structure that allows for future expansions of content and exposing linkages between entities and content.
 
 In addition, Luis Felipe Abbud, a CAPES PhD student hosted by KDL and affiliated to the CMCI department, worked with the King's Past team and students to create VR/AR models and experiences related to the project, which can be accessed at [https://kingspast.kcl.ac.uk/about/demonumenta](https://kingspast.kcl.ac.uk/about/demonumenta)
