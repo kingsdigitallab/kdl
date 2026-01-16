@@ -64,6 +64,10 @@ keywords:
 urls:
   - name: Project URL
     url: https://www.sudanmemory.org/
+  - name: Other Project Resource URL
+    url: https://www.kcl.ac.uk/news/sudanese-documentary-supported-by-kings-researchers-premiered-at-sundance
+  - name: Other Project Resource URL (2)
+    url: https://www.khartoummovie.com/
 sla:
   start: null
   end: null
