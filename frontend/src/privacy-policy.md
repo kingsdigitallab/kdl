@@ -39,7 +39,7 @@ KDL may use your personal data to resolve technical issues you encounter, to res
 
 ## 4 How long do we retain this information for?
 
-In the case of research projects we will retain correspondence indefinitely, as it constitutes a record of works undertaken and may be important for legitimate business purposes of demonstrating meeting contractual obligations. For further information on KCL's data retention, please see this [document](https://www.kcl.ac.uk/about/assets/business-assets/pdf/retention/research-data.pdf).
+In the case of research projects we will retain correspondence indefinitely, as it constitutes a record of works undertaken and may be important for legitimate business purposes of demonstrating meeting contractual obligations. For further information on KCL's data retention, please see this [document](https://www.kcl.ac.uk/assets/aboutkings/business-assets/pdf/retention/retention-schedule.pdf).
 
 ## 5 Do we use 'Cookies'?
 
