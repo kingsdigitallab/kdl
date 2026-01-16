@@ -20,8 +20,8 @@ funders:
   - name: King's College London
     slug: kings-college-london
 departments:
-  - name: Law
-    slug: law
+  - name: The Dickson Poon School of Law
+    slug: the-dickson-poon-school-of-law
   - name: War Studies
     slug: war-studies
   - name: FAH Department of Digital Humanities
