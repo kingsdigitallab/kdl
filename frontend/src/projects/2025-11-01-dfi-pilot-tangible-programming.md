@@ -20,6 +20,8 @@ funders:
 departments:
   - name: SSPP Department of Education, Communication & Society
     slug: sspp-department-of-education-communication-society
+  - name: FNMS Department of Informatics
+    slug: fnms-department-of-informatics
   - name: King's College, London
     slug: kings-college-london
 members:
