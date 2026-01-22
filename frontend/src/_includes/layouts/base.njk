@@ -56,7 +56,7 @@
     <div class="kdl-container">
     {% endif %}
     {% if navKey != "Home" %}
-      <h1>{{ title | safe }}</h1>
+      <h1 data-pagefind-weight="10">{{ title | safe }}</h1>
     {% endif %}
 
     {% if page.fileSlug == 'faqs' %}
