@@ -153,7 +153,7 @@ The associated estimate of effort would then look something like the following:
 | **TOTAL**                | _(colspan 2)_  | X + Y + Z + ... + Α + Ω |
 
 Based on consultation undertaken under step 3 of the requirements elicitation phase, the RSA would also make sure that ideally the feasibility assessment document includes an overview, even if in the form of a simple outline or sketch idea, of the proposed solution – this is usually based on the collaborative analysis undertaken during the elicitation process and on how the project compares with the RSE team expertise as well as previous efforts.
-In the pre-project phase of this CROSSREADS work package I worked very closely with KDL RSE Geoffroy Noël, KDL RSA Neil Jakeman and project lead Jonathan Prague.
+In the pre-project phase of this CROSSREADS work package I worked very closely with KDL RSE Geoffroy Noël, KDL RSA Neil Jakeman and project lead Jonathan Prag.
 Since this work package of CROSSREADS builds on a previous work package developed by KDL, the sketch architecture was quite detailed and deemed as feasible at the end of the feasibility process:
 
 ![Miro board drawn by RSE](/assets/images/blog/Crossreads-Req.mapping.jpg "Miro board drawn by RSE outlining the evolving solution overview for the corpus building work package of CROSSREADS project.")
