@@ -88,6 +88,7 @@ sla:
   start: null
   end: null
 ---
-The Leverhulme Centre for Research on Slavery in War is an interdisciplinary project being led from KCL War Studies, collaborating with the University of Nottingham. It brings together experts working in fields including history, international law, data science. 
+
+The Leverhulme Centre for Research on Slavery in War is an interdisciplinary project being led from KCL War Studies, collaborating with the University of Nottingham. It brings together experts working in fields including history, international law, data science.
 
 KDL will be working across all four research strands, initially to design infrastructure and data models which will harmonise the various sources and facilitate interdisciplinary conversations. As the research progresses, KDL's involvement will diversify to support many avenues of development and activity, including visualisation and analysis solutions, and creative digital outputs.
