@@ -28,6 +28,9 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer

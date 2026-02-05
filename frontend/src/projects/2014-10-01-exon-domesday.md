@@ -31,6 +31,9 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
