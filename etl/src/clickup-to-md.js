@@ -46,7 +46,7 @@ class ClickUpToMarkdown {
       let isLastPage = false;
       while (!isLastPage) {
         const taskResponse = await this.api.get(
-          `/team/${this.teamId}/task?custom_items=${customItemId}&custom_items=${customItemId}&page=${page}`
+          `/team/${this.teamId}/task?custom_items=${customItemId}&custom_items=${customItemId}&page=${page}`,
         );
 
         tasks.push(...taskResponse.data.tasks);
@@ -72,7 +72,7 @@ class ClickUpToMarkdown {
     } catch (error) {
       if (error.response) {
         throw new Error(
-          `ClickUp API error: ${error.response.status} ${error.response.statusText}`
+          `ClickUp API error: ${error.response.status} ${error.response.statusText}`,
         );
       }
       throw error;
@@ -106,7 +106,7 @@ class ClickUpToMarkdown {
 
       const projectStartDate = this.getCustomFieldValue(
         project,
-        "Project start date"
+        "Project start date",
       );
 
       if (!projectStartDate) {
@@ -126,7 +126,7 @@ class ClickUpToMarkdown {
         existingContent = await fs.readFile(outputFile, "utf8");
 
         const match = existingContent.match(
-          /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+          /^---\n([\s\S]*?)\n---\n([\s\S]*)$/,
         );
         if (match) {
           existingFrontmatter = YAML.parse(match[1]);
@@ -149,8 +149,8 @@ class ClickUpToMarkdown {
       const creativeWorkStatus = sla.start
         ? "Maintained"
         : spaceStatus.toLowerCase() === "post-project"
-        ? spaceStatus
-        : "Active";
+          ? spaceStatus
+          : "Active";
 
       const descriptionLen =
         existingContent?.split("---")[2]?.trim().length || 0;
@@ -166,7 +166,7 @@ class ClickUpToMarkdown {
         slug: slug,
         foundingDate,
         dissolutionDate: this.convertDate(
-          this.getCustomFieldValue(project, "Project end date")
+          this.getCustomFieldValue(project, "Project end date"),
         ),
         creativeWorkStatus,
         keywords: this.getKeywords(project),
@@ -185,7 +185,7 @@ class ClickUpToMarkdown {
             }
             return acc;
           },
-          []
+          [],
         );
       }
 
@@ -207,14 +207,14 @@ class ClickUpToMarkdown {
    */
   async getAndConvertFunders(data) {
     const funderField = data.custom_fields.find(
-      (field) => field.name === "Funder(s)"
+      (field) => field.name === "Funder(s)",
     );
 
     if (!funderField || !funderField.value) return [];
 
     const funders = funderField.value.map((funder) => {
       const found = funderField.type_config.options.find(
-        (opt) => opt.id === funder
+        (opt) => opt.id === funder,
       );
 
       return {
@@ -226,7 +226,7 @@ class ClickUpToMarkdown {
     for (const funder of funders) {
       const funderOutputFile = path.join(
         this.outputPath,
-        `../about/organisations/${funder.slug}.md`
+        `../about/organisations/${funder.slug}.md`,
       );
 
       try {
@@ -264,13 +264,13 @@ class ClickUpToMarkdown {
     let departments = [];
 
     const deptsField = data.custom_fields.find(
-      (field) => field.name === "Department(s)"
+      (field) => field.name === "Department(s)",
     );
 
     if (deptsField) {
       deptsField.value.forEach((dept) => {
         const found = deptsField.type_config.options.find(
-          (opt) => opt.id === dept
+          (opt) => opt.id === dept,
         );
 
         if (found) {
@@ -283,13 +283,13 @@ class ClickUpToMarkdown {
     }
 
     const partnersField = data.custom_fields.find(
-      (field) => field.name === "Partner organisation(s)"
+      (field) => field.name === "Partner organisation(s)",
     );
 
     if (partnersField) {
       partnersField.value.forEach((partner) => {
         const found = partnersField.type_config.options.find(
-          (opt) => opt.id === partner
+          (opt) => opt.id === partner,
         );
 
         if (found) {
@@ -306,7 +306,7 @@ class ClickUpToMarkdown {
     for (const department of departments) {
       const departmentOutputFile = path.join(
         this.outputPath,
-        `../about/organisations/${department.slug}.md`
+        `../about/organisations/${department.slug}.md`,
       );
 
       try {
@@ -330,9 +330,8 @@ class ClickUpToMarkdown {
         "---",
       ].join("\n");
 
-      const formattedDepartmentContent = await this.formatMarkdown(
-        departmentContent
-      );
+      const formattedDepartmentContent =
+        await this.formatMarkdown(departmentContent);
       await fs.writeFile(departmentOutputFile, formattedDepartmentContent);
     }
 
@@ -351,8 +350,8 @@ class ClickUpToMarkdown {
         role === "Analyst"
           ? "Research Software Analyst"
           : role === "Design"
-          ? "Research Software Designer"
-          : "Research Software Engineer";
+            ? "Research Software Designer"
+            : "Research Software Engineer";
 
       if (field && field.value) {
         field.value
@@ -368,7 +367,7 @@ class ClickUpToMarkdown {
     }
 
     const kdlStaffField = data.custom_fields.find(
-      (field) => field.name === "KDL staff"
+      (field) => field.name === "KDL staff",
     );
 
     if (kdlStaffField && kdlStaffField.value) {
@@ -438,7 +437,7 @@ class ClickUpToMarkdown {
     }
 
     const researchersField = data.custom_fields.find(
-      (field) => field.name === "Researchers"
+      (field) => field.name === "Researchers",
     );
 
     if (researchersField && researchersField.value) {
@@ -470,7 +469,7 @@ class ClickUpToMarkdown {
       return (
         index ===
         self.findIndex(
-          (t) => t.slug === member.slug && t.roleName === member.roleName
+          (t) => t.slug === member.slug && t.roleName === member.roleName,
         )
       );
     });
@@ -482,6 +481,7 @@ class ClickUpToMarkdown {
   slugify(text) {
     return text
       .toLowerCase()
+      .normalize("NFD")
       .replace(/[^\w\s-]/g, "")
       .replace(/[\s_-]+/g, "-")
       .replace(/^-+|-+$/g, "");
@@ -492,7 +492,7 @@ class ClickUpToMarkdown {
    */
   getKeywords(data) {
     const themeField = data.custom_fields.find(
-      (field) => field.name === "Theme"
+      (field) => field.name === "Theme",
     );
 
     if (!themeField || !themeField.value) return [];
