@@ -28,6 +28,12 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
   - name: Alex Hadwen-Bennett (SSPP); Timothy Neate (Informatics)
     slug: alex-hadwen-bennett-sspp-timothy-neate-informatics
     roleName: Principal investigator
