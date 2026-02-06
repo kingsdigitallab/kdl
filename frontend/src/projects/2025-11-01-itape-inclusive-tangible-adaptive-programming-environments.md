@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "ITAPE: Inclusive Tangible Adaptive Programming Environments"
 name: "ITAPE: Inclusive Tangible Adaptive Programming Environments"
 tags:
@@ -41,6 +41,7 @@ sla:
   start: null
   end: null
 ---
+
 This project sought to develop an open-source, tangible programming toolkit inclusive of people with visual impairments. The DFI pilot was the next iteration of TIBBL which looked to develop and extend the [work previously done](https://kdl.kcl.ac.uk/projects/tangible-programming/).
- 
+
 KDL's contribution to the pilot was focussed specifically around the development and implementation of human-centred design thinking principles, workshop participation and physical activities with adult programmers with visual impairments, and with participation from children with visual impairments in local schools.
