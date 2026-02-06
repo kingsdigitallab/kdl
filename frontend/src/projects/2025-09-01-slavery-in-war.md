@@ -58,8 +58,14 @@ members:
     slug: andrea-ballatore
     roleName: Co-Investigator
     inOrganisation:
-      name: FAH Department of Digital Humanities}, Jack McDonald
-      slug: fah-department-of-digital-humanities-jack-mcdonald
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Jack McDonald
+    slug: jack-mcdonald
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
   - name: Rosana Garciandia
     slug: rosana-garciandia
     roleName: Co-Investigator
