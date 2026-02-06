@@ -42,6 +42,9 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer

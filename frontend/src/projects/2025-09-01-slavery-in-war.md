@@ -39,6 +39,9 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
   - name: Maeve Ryan
     slug: maeve-ryan
     roleName: Principal investigator
