@@ -68,7 +68,7 @@ members:
     slug: literatures-and-cultures
     roleName: Researcher
   - name: Niccolò Valmori
-    slug: niccol-valmori
+    slug: niccolo-valmori
     roleName: Researcher
     inOrganisation:
       name: FAH Department of Languages
