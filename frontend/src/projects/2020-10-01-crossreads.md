@@ -30,7 +30,7 @@ members:
     slug: neil-jakeman
     roleName: Research Software Analyst
   - name: Geoffroy Noël
-    slug: geoffroy-nol
+    slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Arianna Ciula
     slug: arianna-ciula

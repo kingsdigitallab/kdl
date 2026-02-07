@@ -36,8 +36,8 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
-  - name: Stefan
-    slug: stefan
+  - name: Stefan Meier
+    slug: stefan-meier
     roleName: Research Software Engineer
   - name: Miguel Vieira
     slug: miguel-vieira

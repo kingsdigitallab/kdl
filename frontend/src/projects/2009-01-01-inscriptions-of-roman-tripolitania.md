@@ -42,7 +42,7 @@ members:
     slug: ginestra-ferraro
     roleName: Reseearch Software Designer
   - name: Florence du Pré
-    slug: florence-du-pr
+    slug: florence-du-pre
     roleName: Reseearch Software Project Manager
   - name: Pamela Mellen
     slug: pamela-mellen
@@ -51,7 +51,7 @@ members:
     slug: tim-watts
     roleName: Reseearch Software Systems Administrator
   - name: Charlotte Roueché
-    slug: charlotte-rouech
+    slug: charlotte-roueche
     roleName: Principal investigator
     inOrganisation:
       name: FAH Department of Classics

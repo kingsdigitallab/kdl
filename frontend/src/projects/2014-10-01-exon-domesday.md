@@ -37,9 +37,6 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Geoffroy Noël
-    slug: geoffroy-nol
-    roleName: Research Software Engineer
   - name: Julia Crick
     slug: julia-crick
     roleName: Principal investigator
@@ -59,7 +56,7 @@ members:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
   - name: Francisco Álvarez López
-    slug: francisco-lvarez-lpez
+    slug: francisco-alvarez-lopez
     roleName: Researcher
     inOrganisation:
       name: FAH Department of History

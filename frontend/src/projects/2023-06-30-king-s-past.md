@@ -65,7 +65,7 @@ members:
       name: FAH Department of History
       slug: fah-department-of-history
   - name: Érika Melek Delgado
-    slug: rika-melek-delgado
+    slug: erika-melek-delgado
     roleName: Researcher
     inOrganisation:
       name: FAH Department of History
