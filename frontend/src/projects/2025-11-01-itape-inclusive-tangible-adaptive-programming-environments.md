@@ -40,9 +40,12 @@ members:
     inOrganisation:
       name: Faculty of Social Science & Public Policy
       slug: faculty-of-social-science-public-policy
-  - name: ; Timothy Neate (Informatics)
-    slug: timothy-neate-informatics
+  - name: Timothy Neate
+    slug: timothy-neate
     roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
 sla:
   start: null
   end: null
