@@ -39,7 +39,7 @@ members:
     slug: paul-caton
     roleName: Research Software Analyst
   - name: Geoffroy Noël
-    slug: geoffroy-nol
+    slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Dan Hunter
     slug: dan-hunter

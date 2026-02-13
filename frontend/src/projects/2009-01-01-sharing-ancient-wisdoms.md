@@ -37,7 +37,7 @@ members:
     slug: samantha-callaghan
     roleName: Research Software Analyst
   - name: Charlotte Roueché
-    slug: charlotte-rouech
+    slug: charlotte-roueche
     roleName: Principal investigator
     inOrganisation:
       name: FAH Department of Classics
@@ -55,13 +55,13 @@ members:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
   - name: Måns Bylund
-    slug: mns-bylund
+    slug: mans-bylund
     roleName: Co-Investigator
     inOrganisation:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
   - name: Pontus Österdahl
-    slug: pontus-sterdahl
+    slug: pontus-osterdahl
     roleName: Co-Investigator
     inOrganisation:
       name: Newman Institute Uppsala
@@ -69,7 +69,7 @@ members:
   - name:
       Stephan Procházka (University of Vienna), Elvira Wakelnig (Vienna) Ines
       Dallaji
-    slug: stephan-prochzka-university-of-vienna-elvira-wakelnig-vienna-ines-dallaji
+    slug: stephan-prochazka-university-of-vienna-elvira-wakelnig-vienna-ines-dallaji
     roleName: Co-Investigator
     inOrganisation:
       name: University of Vienna

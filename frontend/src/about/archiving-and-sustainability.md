@@ -92,7 +92,7 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
 - [Schenker Documents Online](http://www.schenkerdocumentsonline.org/index.html) ([dataset](https://doi.org/10.18742/x2pz-ez09)) (University of Southampton)
 - [Shakespeare Holdings in the Royal Collection](https://sharc.kcl.ac.uk/) (AHRC)
-- [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) [dataset](https://kcl.figshare.com/collections/Sharing_Ancient_Wisdoms/7638260)) (FAH)
+- [Sharing Ancient Wisdoms](http://www.ancientwisdoms.ac.uk/) ([dataset](https://kcl.figshare.com/collections/Sharing_Ancient_Wisdoms/7638260)) (FAH)
 - [The Values of French](https://tvof.ac.uk/) ([dataset](https://doi.org/10.6084/m9.figshare.c.4873335.v3)) (FAH)
 
 ## Migrated projects
@@ -197,13 +197,10 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 
 ### Conversion to static in progress
 
-# <<<<<<< HEAD
-
 - [Language of Langscape](http://www.langscape.org.uk/) (FAH)
 - [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
 - [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
-  > > > > > > > main
 
 ## Minimally archived projects
 
@@ -218,11 +215,8 @@ Minimally archived projects are no longer accessible. We maintain their original
 - Intention is for project to migrate but there are no current resources to be able to do so at recipient institution.
 
 The list of projects which have been minimally archived:
-<<<<<<< HEAD
 
-- # [Archetype](http://archetype.ink)
-- [Archetype](<[http://archetype.ink](https://github.com/kcl-ddh/digipal/wiki/)>)
-  > > > > > > > main
+- [Archetype](http://archetype.ink)
 - [Arts and Humanities Data Service: Enabling Digital Resources for the Art and Humanities](http://www.ahds.ac.uk/)
 - [Commodities and Culture in the Colonial World, 1851-1914](http://commoditiesandculture.org/)
 - [The Commonplacer](https://commonplacer.cch.kcl.ac.uk/)
