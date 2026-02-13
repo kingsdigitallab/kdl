@@ -98,5 +98,4 @@ sla:
   end: null
 ---
 
-
-The [Leverhulme Centre for Research on Slavery in War](https://www.slaveryinwar.org/) is the world's first major initiative dedicated to exploring the profound links between slavery and armed conflict. Over the next decade KDL will be working in all four of the research strands to  manage and harmonise the data from across disciplines and to develop tools for analysis and visualisation. KDL will help to communicate the project's findings to variety of specialised audiences and publics. As the reseach centre grows we expect to KDL to be called upon for everything from VR development to infographics, from data modelling to building AI pipelines.
+The [Leverhulme Centre for Research on Slavery in War](https://www.slaveryinwar.org/) is the world's first major initiative dedicated to exploring the profound links between slavery and armed conflict. Over the next decade KDL will be working in all four of the research strands to manage and harmonise the data from across disciplines and to develop tools for analysis and visualisation. KDL will help to communicate the project's findings to variety of specialised audiences and publics. As the reseach centre grows we expect to KDL to be called upon for everything from VR development to infographics, from data modelling to building AI pipelines.

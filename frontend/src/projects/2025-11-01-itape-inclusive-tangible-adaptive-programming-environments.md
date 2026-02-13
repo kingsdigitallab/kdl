@@ -34,9 +34,18 @@ members:
   - name: Zihao Lu
     slug: zihao-lu
     roleName: Research Software Designer
-  - name: Alex Hadwen-Bennett (SSPP); Timothy Neate (Informatics)
-    slug: alex-hadwen-bennett-sspp-timothy-neate-informatics
+  - name: Alex Hadwen-Bennett
+    slug: alex-hadwen-bennett
     roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
+  - name: Timothy Neate
+    slug: timothy-neate
+    roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
 sla:
   start: null
   end: null
