@@ -3,7 +3,7 @@
   "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
   "files": {
     "ignoreUnknown": false,
-    "experimentalScannerIgnores": ["frontend/public/sla-acpp"]
+    "includes": ["**", "!!**/frontend/public/sla-acpp"]
   },
   "formatter": { "enabled": true, "indentStyle": "tab" },
   "assist": { "actions": { "source": { "organizeImports": "on" } } },
@@ -70,5 +70,18 @@
       }
     }
   },
-  "javascript": { "formatter": { "quoteStyle": "double" } }
+  "javascript": {
+    "formatter": { "quoteStyle": "double" },
+    "globals": [
+      "describe",
+      "it",
+      "cy",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "context",
+      "specify"
+    ]
+  }
 }
