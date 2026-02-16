@@ -15,7 +15,6 @@
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@kevingimbel/eleventy-plugin-mermaid": "^2.2.1",
-    "canvas": "^2.10.2",
     "cypress": "^13.6.4",
     "debug": "^4.3.4",
     "dotenv": "^16.0.1",
