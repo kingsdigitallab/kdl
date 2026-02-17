@@ -12,7 +12,8 @@ creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/ITAPE_TIBBLPhotographedByZihao.jpg
   title: Photo by Zihao Lu
-  description: Two people sit at a table sorting printed code strips into clear containers, with a laptop open in front of them.
+  description: Two people sit at a table sorting printed code strips into clear
+    containers, with a laptop open in front of them.
   width: 1200
   height: 800
 keywords:
