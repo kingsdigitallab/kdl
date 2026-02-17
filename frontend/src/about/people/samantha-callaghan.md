@@ -13,7 +13,7 @@ memberOf:
     roleName: Research Software Analyst
 ---
 
-Samantha Callaghan (Te Whānau ā Apanui, Ngāti Kahungunu) initially joined KDL in 2017 as the Metadata Analyst for the Georgian Papers Programme and is now a Research Software Analyst within the Lab.
+Samantha Callaghan (Te Whānau ā Apanui, Ngāti Kahungunu, Ngāi Pākehā) initially joined KDL in 2017 as the Metadata Analyst for the Georgian Papers Programme and is now a Research Software Analyst within the Lab.
 
 Samantha has an MLIS and received her training in the field of digitisation through her work at the New Zealand Electronic Text Centre. She has worked on a wide variety of digitisation projects, large and small, both in NZ and in the UK. She has written or co-written articles around interlibrary loan, digitisation and Mātauranga Māori, digitisation in small institutions and orphan work licensing schemes.
 
