@@ -9,6 +9,12 @@ slug: slavery-in-war
 foundingDate: 2025-09-01
 dissolutionDate: 2030-08-31
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/SlaveryInWar.jpg
+  title: Album for 1835 - Carré enfoncé... 1835 Auguste Raffet (French, 1804–1860) France, 19th century lithograph Twenty-fifth anniversary gift, Mr. and Mrs. Lewis B. Williams Collection 1941.246
+  description: A historic black-and-white illustration of soldiers on horseback gathered on a battlefield, with smoke rising in the background.
+  width: 1200
+  height: 800
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
