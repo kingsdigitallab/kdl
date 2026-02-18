@@ -11,6 +11,15 @@ slug: unhousing-restitution-unrest-african-moving-image-heritage-between-displac
 foundingDate: 2026-01-16
 dissolutionDate: 2028-01-15
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/UNRESTDerekLee.jpg
+  title: Photo by Derek Lee
+  description:
+    An abandoned sofa sits in an empty, overgrown lot beside a damaged
+    building, with construction machinery and industrial structures in the
+    background.
+  width: 1200
+  height: 800
 keywords:
   - name: Indigenous Digital Humanities
     slug: indigenous-digital-humanities
