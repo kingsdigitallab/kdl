@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const ActiveCollab = require("./activecollab");
-const Manager = require("./manager");
 const Scraper = require("./scraper");
 require("dotenv").config();
 
@@ -16,27 +14,6 @@ async function cli() {
 		.description(pkg.description)
 		.usage("<command> [options]")
 		.version(pkg.version, "-v, --version");
-
-	const projectsCommand = program
-		.command("projects")
-		.description("Manage project data");
-	projectsCommand
-		.command("import")
-		.argument("<file>", "CSV projects list")
-		.action((file) => {
-			const activecollab = new ActiveCollab(
-				process.env.AC_API_URL,
-				process.env.AC_API_TOKEN,
-			);
-
-			const manager = new Manager(activecollab);
-			manager
-				.import(file)
-				.then((projects) =>
-					console.info(`Successfully imported ${projects.length} projects`),
-				)
-				.catch((err) => console.error(err));
-		});
 
 	const scrapeCommand = program
 		.command("scrape")
