@@ -63,11 +63,8 @@ members:
     slug: mariia-bogdanova
     roleName: Researcher
     inOrganisation:
-      name: Institute of Psychiatry
-      slug: institute-of-psychiatry
-  - name: Psychology & Neuroscience]
-    slug: psychology-neuroscience
-    roleName: Researcher
+      name: Institute of Psychiatry Psychology & Neuroscience
+      slug: institute-of-psychiatry-psychology-neuroscience
   - name: Rose Hepworth
     slug: rose-hepworth
     roleName: Researcher
