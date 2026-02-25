@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Federation of Compute and Infrastructures in the Arts and Humanities
 name: Federation of Compute and Infrastructures in the Arts and Humanities
 tags:
@@ -12,7 +12,8 @@ creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/FederationOfComputeMarkusWinkler.jpg
   title: Photo by Markus Winkler
-  description: Wooden letter tiles scattered on a surface, with the word 'FED' arranged on a green tile rack in the centre.
+  description: Wooden letter tiles scattered on a surface, with the word 'FED'
+    arranged on a green tile rack in the centre.
   width: 1200
   height: 800
 keywords:
@@ -28,6 +29,8 @@ departments:
     slug: kcl-eresearch
   - name: University of Brighton
     slug: university-of-brighton
+  - name: King's College, London
+    slug: kings-college-london
 members:
   - name: Neil Jakeman
     slug: neil-jakeman
