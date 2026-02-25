@@ -66,10 +66,14 @@ members:
     roleName: RSE team member
     inOrganisation: null
 keywords:
-  - Linguistics
-  - Digital edition
-  - Digital reading/viewing environment
-  - Digital tool creation
+  - name: Linguistics
+    slug: linguistics
+  - name: Digital edition
+    slug: digital-edition
+  - name: Digital reading/viewing environment
+    slug: digital-reading-viewing-environment
+  - name: Digital tool creation
+    slug: digital-tool-creation
 urls:
   - name: Project URL
     url: https://github.com/kcl-ddh/digipal/wiki/
