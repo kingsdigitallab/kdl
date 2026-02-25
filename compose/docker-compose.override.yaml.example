@@ -1,7 +1,0 @@
-services:
-  etl:
-    build:
-      dockerfile: docker/local/etl/Dockerfile
-    volumes:
-      - ./etl:/srv/app
-      - /srv/app/node_modules
