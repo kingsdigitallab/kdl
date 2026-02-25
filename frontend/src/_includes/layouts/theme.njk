@@ -31,7 +31,7 @@ layout: layouts/base.njk
             </a>
           {% endif %}
           <section>
-            <a href="{% route project.slug, 'Projects' %}">
+            <a href="{% route project.data.slug, 'Projects' %}">
               {% set level = 3 %}
               {% set project = project %}
               {% set showTitle = true %}
