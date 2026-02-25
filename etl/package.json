@@ -6,9 +6,6 @@
 	"license": "MPL-2.0",
 	"scripts": {
 		"test": "jest --coverage",
-		"projects-to-md": "node src/projects-to-md.js",
-		"people-to-md": "node src/people-to-md.js",
-		"organisations-to-md": "node src/organisations-to-md.js",
 		"clickup-to-md": "node src/clickup-to-md.js"
 	},
 	"bin": {
