@@ -177,7 +177,8 @@
   
     <div id="overview"><p>The REF 2021 Impact Data Analysis was a small project, between King's Digital Lab (KDL) and colleagues in the King's College London (KCL) Research Management &amp; Innovation Directorate (RMID), to support the analysis of the college's <a href="https://results2021.ref.ac.uk/">REF 2021</a> impact case studies and environment statements.</p>
 <p>The data used during the development of this project includes 153 impact case studies and environment statements, in PDF (5-10 pages of text each), which follow <a href="https://www.ref.ac.uk/publications-and-reports/guidance-on-submissions-201901/">standard templates</a> but are expressed with heterogeneous descriptions and language.</p>
-<p>The project was set up to help RMID and research impact leads to address the questions:</p>
+<p>The project applied several machine learning and natural language processing techniques to extract structured insights from the unstructured text: zero-shot topic classification using a BART-based transformer model to categorise documents against REF impact areas, fields of research, and pathways to impact; named entity extraction using spaCy to identify organisations, places, and products as partners and beneficiaries; abstractive text summarisation; and semantic search over document embeddings. Extracted place entities were geocoded using OpenStreetMap to enable geographic analysis.</p>
+<p>The results were presented through an interactive dashboard built with Streamlit and Plotly, enabling research impact leads to explore the data and address questions such as:</p>
 <ul>
 <li>What are the main types of impact KCL has delivered? Which pathways have been used to deliver those impacts?</li>
 <li>Who are our key partners and beneficiaries of our impacts?</li>
@@ -185,6 +186,7 @@
 <li>Is there a correlation between discipline and types of impact or pathways to impact used?</li>
 <li>What are the areas identified as strengths, areas for development and future plans?</li>
 </ul>
+<p>The work was presented at <a href="https://rsecon2022.society-rse.org/">RSECon 2022</a>.</p>
 </div>
   
 
