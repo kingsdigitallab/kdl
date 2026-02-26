@@ -29,6 +29,10 @@ layout: layouts/base.njk
               } %}
               {{ imageMacro(feature) }}
             </a>
+          {%- else -%}
+          <figure class="kdl-image">
+            <img src="{{ config.paths.placeholderImage }}" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik"/>
+          </figure>
           {% endif %}
           <section>
             <a href="{% route project.data.slug, 'Projects' %}">
