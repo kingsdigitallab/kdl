@@ -36,9 +36,12 @@ members:
     roleName: Research Software Analyst
     inOrganisation: null
 keywords:
-  - Cultural and Museum Studies
-  - Webcrawling/webscraping
-  - Digital mapping
+  - name: Cultural and Museum Studies
+    slug: cultural-and-museum-studies
+  - name: Webcrawling/webscraping
+    slug: webcrawling-webscraping
+  - name: Digital mapping
+    slug: digital-mapping
 urls:
   - name: Project URL
     url: https://www.acd-engine.org/

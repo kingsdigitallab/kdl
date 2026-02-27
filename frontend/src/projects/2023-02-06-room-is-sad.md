@@ -30,7 +30,8 @@ members:
     roleName: Principal investigator
     inOrganisation: null
 keywords:
-  - Digital Creativity
+  - name: Digital Creativity
+    slug: digital-creativity
 urls: []
 ---
 

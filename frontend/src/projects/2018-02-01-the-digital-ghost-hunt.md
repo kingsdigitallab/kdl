@@ -52,7 +52,8 @@ members:
       name: KIT Theatre
       slug: kit-theatre
 keywords:
-  - Digital Creativity
+  - name: Digital Creativity
+    slug: digital-creativity
 urls:
   - name: Project URL
     url: https://digitalghosthunt.com/

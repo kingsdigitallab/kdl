@@ -65,7 +65,8 @@ members:
       name: FAH Department of History
       slug: fah-department-of-history
 keywords:
-  - Digital Creativity
+  - name: Digital Creativity
+    slug: digital-creativity
 urls:
   - name: Project Video URL
     url: https://vimeo.com/448849848
