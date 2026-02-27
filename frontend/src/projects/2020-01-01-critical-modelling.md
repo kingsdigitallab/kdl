@@ -34,7 +34,8 @@ members:
     roleName: Research Software Analyst
     inOrganisation: null
 keywords:
-  - Machine Learning and AI
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
 urls: []
 ---
 

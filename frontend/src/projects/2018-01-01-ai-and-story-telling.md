@@ -78,9 +78,12 @@ members:
       name: Charisma.AI
       slug: to-play-for
 keywords:
-  - Media
-  - Computational text analysis
-  - Digital Creativity
+  - name: Media
+    slug: media
+  - name: Computational text analysis
+    slug: computational-text-analysis
+  - name: Digital Creativity
+    slug: digital-creativity
 urls:
   - name: Article URL
     url: https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html

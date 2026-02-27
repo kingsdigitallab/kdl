@@ -32,7 +32,8 @@ members:
     roleName: RSE team member
     inOrganisation: null
 keywords:
-  - Machine Learning and AI
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
 urls:
   - name: "Repository: kingsdigitallab/nanotoms"
     url: https://github.com/kingsdigitallab/nanotoms

@@ -42,9 +42,12 @@ members:
     roleName: Research Software Engineer
     inOrganisation: null
 keywords:
-  - Data Visualisation
-  - Digital mapping
-  - History
+  - name: Data Visualisation
+    slug: data-visualisation
+  - name: Digital mapping
+    slug: digital-mapping
+  - name: History
+    slug: history
 urls:
   - name: Project URL
     url: https://histecon.fas.harvard.edu/visualizing/egypt/index.html

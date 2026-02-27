@@ -39,12 +39,6 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
-  - name: Erik Ketzan
-    slug: erik-ketzan
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
   - name: Peter Logan
     slug: peter-logan
     roleName: Principal investigator
@@ -86,6 +80,6 @@ This resulted in two prototype interfaces (we pages) and associated documentatio
 
 Both of these are based on a language model made of vectors (also called “embeddings”), one for each word form used in the datasets and one for each Encyclopedia entry. The model is entirely trained from the corpus using off-the-shelf [word2vec](https://en.wikipedia.org/wiki/Word2vec) libraries ([Gensim](https://radimrehurek.com/gensim/) and [top2vec](https://github.com/ddangelov/Top2Vec)). This algorithm ensures that words used in similar constructs have similar vectors. The vector of an Encyclopedia entry is obtained by averaging the vectors of the words it contains. This model can therefore be used to search for the most similar words or entries to another given word or entry based on their distance in that joint space.
 
-The first interface allows allows users to find entries by their heading in the Encyclopedia, their subject terms as extracted by the 19thC Knowledge Project or their domain (assigned by KDL via a classification process based on the models of contemporary descriptions of 6 core domains and associated seed words).
+The first interface allows allows users to find entries by their heading in the Encyclopedia, their subject terms as extracted by the 19thC Knowledge Project or their domain (assigned by KDL via a classification process based on the models of contemporary descriptions of 8 core domains and associated seeds).
 
 While the second interface allows users to interact directly with a copy of the language model (compressed for the web, which slightly degrades its quality) to retrieve the semantically closest entries and words to any given word or entry heading. A click on any result will trigger a new query. This interface lets users break free from the pre-defined domains and interrogate the corpus for any frequent terms, whether they are high level categories of knowledge, specific concepts or actual persons or places.

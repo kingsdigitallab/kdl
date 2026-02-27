@@ -20,18 +20,22 @@ layout: layouts/base.njk
     <ul class="list">
       {% for project in themeProjects %}
         <li>
-          {% if project.image %}
+          {% if project.data.image %}
             <a href="{% route project.slug, 'Projects' %}">
               {% set feature = {
-                image: "/assets/images/projects/" + project.image.filename_download,
-                title: project.image.title,
-                description: project.image.description
+                image: project.data.image,
+                title: project.data.image.title,
+                description: project.data.image.description
               } %}
               {{ imageMacro(feature) }}
             </a>
+          {%- else -%}
+          <figure class="kdl-image">
+            <img src="{{ config.paths.placeholderImage }}" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik"/>
+          </figure>
           {% endif %}
           <section>
-            <a href="{% route project.slug, 'Projects' %}">
+            <a href="{% route project.data.slug, 'Projects' %}">
               {% set level = 3 %}
               {% set project = project %}
               {% set showTitle = true %}

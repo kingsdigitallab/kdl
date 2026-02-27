@@ -69,7 +69,8 @@ members:
     roleName: Co-investigator
     inOrganisation: null
 keywords:
-  - Data Visualisation
+  - name: Data Visualisation
+    slug: data-visualisation
 urls:
   - name: TCL Prototype Visualisation
     url: https://kingsdigitallab.github.io/tcl/
