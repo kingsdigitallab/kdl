@@ -1,81 +1,87 @@
 {
-  "name": "kdl",
-  "version": "1.0.0-0",
-  "description": "KDL Web Project",
-  "homepage": "https://github.com/kingsdigitallab/kdl#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kingsdigitallab/kdl.git"
-  },
-  "author": "King's Digital Lab",
-  "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1"
-  },
-  "scripts": {
-    "compose": "trap 'echo Stopped; exit 0' SIGINT; docker-compose",
-    "up": "npm run compose up -- --build",
-    "down": "npm run compose down",
-    "exec": "npm run compose exec ${npm_config_service}",
-    "pkg": "npm run exec npm",
-    "cms:snapshot": "npm run pkg --service=cms run snapshot:create",
-    "cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml",
-    "lint": "eslint **/src **/tests",
-    "lint:fix": "npm run lint -- --fix",
-    "prettier": "prettier . --check",
-    "prettier:fix": "npm run prettier -- --write",
-    "format": "npm run prettier:fix && npm run lint:fix",
-    "test": "npm run test --workspaces --if-present",
-    "release": "release-it",
-    "etl:clickup": "npm run -w etl clickup-to-md -- 1004",
-    "frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
-    "frontend:dev": "npm run -w frontend dev",
-    "cy": "cypress open",
-    "cy:run": "cypress run"
-  },
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.18.2",
-    "@babel/eslint-plugin": "^7.17.7",
-    "djlint": "^1.19.4",
-    "eslint": "^8.17.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-cypress": "^2.15.1",
-    "lint-staged": "^15.0.2",
-    "prettier": "^2.6.2",
-    "prettier-plugin-sort-imports": "^1.7.0",
-    "simple-git-hooks": "^2.8.0",
-    "vscode-langservers-extracted": "^4.2.1"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "biome format --write",
-      "eslint etl/src etl/tests frontend/src"
-    ],
-    "*.{css,json,md,scss,yaml}": "prettier --write"
-  },
-  "workspaces": [
-    "frontend",
-    "etl",
-    "owl"
-  ],
-  "release-it": {
-    "git": {
-      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template compact"
-    },
-    "github": {
-      "release": false
-    },
-    "hooks": {
-      "after:bump": "npx auto-changelog --package --commit-limit false --unreleased --template compact"
-    },
-    "npm": {
-      "publish": false
-    }
-  },
-  "dependencies": {
-    "release-it": "^16.1.5"
-  }
+	"name": "kdl",
+	"version": "1.0.0-0",
+	"description": "KDL Web Project",
+	"homepage": "https://github.com/kingsdigitallab/kdl#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kingsdigitallab/kdl.git"
+	},
+	"author": "King's Digital Lab",
+	"license": "MPL-2.0",
+	"bugs": {
+		"url": "https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1"
+	},
+	"scripts": {
+		"compose": "trap 'echo Stopped; exit 0' SIGINT; docker-compose",
+		"up": "npm run compose up -- --build",
+		"down": "npm run compose down",
+		"exec": "npm run compose exec ${npm_config_service}",
+		"pkg": "npm run exec npm",
+		"cms:snapshot": "npm run pkg --service=cms run snapshot:create",
+		"cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml",
+		"lint": "eslint **/src **/tests",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "prettier . --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"format": "npm run prettier:fix && npm run lint:fix",
+		"test": "npm run test --workspaces --if-present",
+		"release": "release-it",
+		"etl:clickup": "npm run -w etl clickup-to-md -- 1004",
+		"frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
+		"frontend:dev": "npm run -w frontend dev",
+		"cy": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.18.2",
+		"@babel/eslint-plugin": "^7.17.7",
+		"@biomejs/biome": "^2.4.2",
+		"djlint": "^1.19.4",
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-cypress": "^2.15.1",
+		"lint-staged": "^15.0.2",
+		"prettier": "^2.6.2",
+		"prettier-plugin-sort-imports": "^1.7.0",
+		"simple-git-hooks": "^2.8.0",
+		"vscode-langservers-extracted": "^4.2.1"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "npx lint-staged"
+	},
+	"lint-staged": {
+		"*.js": [
+			"biome format --write",
+			"eslint etl/src etl/tests frontend/src"
+		],
+		"*.{css,json}": [
+			"biome format --write"
+		],
+		"*.{md,yaml,scss}": [
+			"prettier --write"
+		]
+	},
+	"workspaces": [
+		"frontend",
+		"etl",
+		"owl"
+	],
+	"release-it": {
+		"git": {
+			"changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template compact"
+		},
+		"github": {
+			"release": false
+		},
+		"hooks": {
+			"after:bump": "npx auto-changelog --package --commit-limit false --unreleased --template compact"
+		},
+		"npm": {
+			"publish": false
+		}
+	},
+	"dependencies": {
+		"release-it": "^16.1.5"
+	}
 }
