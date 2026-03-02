@@ -39,12 +39,6 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
-  - name: Erik Ketzan
-    slug: erik-ketzan
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
   - name: Peter Logan
     slug: peter-logan
     roleName: Principal investigator
