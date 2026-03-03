@@ -53,7 +53,7 @@
 	"lint-staged": {
 		"*.js": [
 			"biome format --write",
-			"eslint etl/src etl/tests frontend/src"
+			"eslint etl/src frontend/src"
 		],
 		"*.{css,json}": [
 			"biome format --write"

@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: Accessibility statement for the King's Digital Lab website
 tags: resource
+templateEngineOverride: njk, md
 ---
 
 This is an accessibility statement from King's Digital Lab.
@@ -21,7 +22,7 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standar
 
 We welcome your feedback on the accessibility of King's Digital Lab website. Please let us know if you encounter accessibility barriers on the King's Digital Lab website:
 
-- [Issue reporting form](https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1)
+- [Issue reporting form]({{ config.forms.issuesComments }})
 - E-mail: [kdl-info@kcl.ac.uk](kdl-info@kcl.ac.uk)
 
 ## Technical specifications

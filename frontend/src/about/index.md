@@ -4,6 +4,7 @@ title: About
 eleventyNavigation:
   key: About
   order: 1
+templateEngineOverride: njk, md
 ---
 
 King’s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King’s College London. Based within the college's Faculty of Arts and Humanities and with a staff of thirteen full-time members our mission is to enable and deliver high quality digital research across the Faculty's domains.
@@ -30,7 +31,7 @@ The rapid and widespread changes in 'the digital' constantly open up new areas o
 
 ## Interested in working with KDL?
 
-Please get in touch via this [contact form](https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU) or via email ([kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk)). You can also approach members of our team directly if their profiles inspire you. If you’re unsure whether we are the right technical partners for you, email us at [kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk), and we’ll point you in the right direction.
+Please get in touch via this [contact form]({{ config.forms.newProjectIdeas }}) or via email ([kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk)). You can also approach members of our team directly if their profiles inspire you. If you’re unsure whether we are the right technical partners for you, email us at [kdl-info@kcl.ac.uk](mailto:kdl-info@kcl.ac.uk), and we’ll point you in the right direction.
 
 ## Further information
 
