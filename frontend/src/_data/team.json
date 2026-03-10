@@ -1,372 +1,372 @@
 [
-  {
-    "slug": "stefan-meier",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/stefan-meier.jpg",
-      "description": "Photo of Stefan Meier"
-    }
-  },
-  {
-    "slug": "samantha-callaghan",
-    "jobTitle": "Research Software Analyst",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/samantha-callaghan.jpg",
-      "description": "Photo of Samantha Callaghan"
-    }
-  },
-  {
-    "slug": "paul-caton",
-    "jobTitle": "Deputy director & Senior Research Software Analyst",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/paul-caton.jpg",
-      "description": "Photo of Paul Caton"
-    }
-  },
-  {
-    "slug": "arianna-ciula",
-    "jobTitle": "Director & Principal Research Software Analyst",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/arianna-ciula.jpg",
-      "description": "Photo of Arianna Ciula"
-    }
-  },
-  {
-    "slug": "alessandra-esposito",
-    "jobTitle": "Research Software Project Manager",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/alessandra-esposito.jpg",
-      "description": "Photo of Alessandra Esposito"
-    }
-  },
-  {
-    "slug": "neil-jakeman",
-    "jobTitle": "Senior Research Software Analyst",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/neil-jakeman.jpg",
-      "description": "Photo of Neil Jakeman"
-    }
-  },
-  {
-    "slug": "pam-mellen",
-    "jobTitle": "Research Software Lab Manager",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/pamela-mellen.jpg",
-      "description": "Photo of Pam Mellen"
-    }
-  },
+	{
+		"slug": "stefan-meier",
+		"jobTitle": "Senior Research Software Engineer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/stefan-meier.jpg",
+			"description": "Photo of Stefan Meier"
+		}
+	},
+	{
+		"slug": "samantha-callaghan",
+		"jobTitle": "Research Software Analyst",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/samantha-callaghan.jpg",
+			"description": "Photo of Samantha Callaghan"
+		}
+	},
+	{
+		"slug": "paul-caton",
+		"jobTitle": "Deputy director & Senior Research Software Analyst",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/paul-caton.jpg",
+			"description": "Photo of Paul Caton"
+		}
+	},
+	{
+		"slug": "arianna-ciula",
+		"jobTitle": "Director & Principal Research Software Analyst",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/arianna-ciula.jpg",
+			"description": "Photo of Arianna Ciula"
+		}
+	},
+	{
+		"slug": "alessandra-esposito",
+		"jobTitle": "Research Software Project Manager",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/alessandra-esposito.jpg",
+			"description": "Photo of Alessandra Esposito"
+		}
+	},
+	{
+		"slug": "neil-jakeman",
+		"jobTitle": "Senior Research Software Analyst",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/neil-jakeman.jpg",
+			"description": "Photo of Neil Jakeman"
+		}
+	},
+	{
+		"slug": "pam-mellen",
+		"jobTitle": "Research Software Lab Manager",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/pamela-mellen.jpg",
+			"description": "Photo of Pam Mellen"
+		}
+	},
 
-  {
-    "slug": "geoffroy-noel",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/geoffroy-noel.jpg",
-      "description": "Photo of Geoffroy Noel"
-    }
-  },
-  {
-    "slug": "tiffany-ong",
-    "jobTitle": "Senior Research Software UI/UX Designer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/tiffany-ong.jpg",
-      "description": "Photo of Tiffany Ong"
-    }
-  },
-  {
-    "slug": "miguel-vieira",
-    "jobTitle": "Principal Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/miguel-vieira.jpg",
-      "description": "Photo of Miguel Vieira"
-    }
-  },
-  {
-    "slug": "tim-watts",
-    "jobTitle": "Senior Research Software Systems Manager",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/tim-watts.jpg",
-      "description": "Photo of Tim Watts"
-    }
-  },
-  {
-    "slug": "zihao-lu",
-    "jobTitle": "Research Software UI/UX Designer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/zihao-lu.jpg",
-      "description": "Photo of Zihao Lu"
-    }
-  },
-  {
-    "slug": "mary-chester-kadwell",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "KDL",
-    "feature": {
-      "image": "/assets/images/people/mary-chester-kadwell.jpg",
-      "description": "Photo of Mary Chester-Kadwell"
-    }
-  },
-  {
-    "slug": "patrick-ffrench",
-    "name": "Patrick ffrench",
-    "jobTitle": "Languages, Literatures and Cultures Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/patrick-ffrench.jpg",
-      "description": "Photo of Professor Patrick Ffrench",
-      "url": "https://www.kcl.ac.uk/people/patrick-ffrench"
-    }
-  },
-  {
-    "slug": "virginia-crisp",
-    "name": "Virginia Crisp",
-    "jobTitle": "Culture, Media & Creative Industries Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/virginia-crisp.jpg",
-      "description": "Photo of Dr Virginia Crisp",
-      "url": "https://www.kcl.ac.uk/people/virginia-crisp"
-    }
-  },
-  {
-    "slug": "rebecca-levitan",
-    "name": "Rebecca Levitan",
-    "jobTitle": "Classics Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/rebecca-levitan.jpg",
-      "description": "Photo of Dr Rebecca Levitan",
-      "url": "https://www.kcl.ac.uk/people/rebecca-levitan"
-    }
-  },
-  {
-    "slug": "stuart-dunn",
-    "jobTitle": "Digital Humanities Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/stuart-dunn.jpg",
-      "description": "Photo of Professor Stuart Dunn"
-    }
-  },
-  {
-    "slug": "simon-tanner",
-    "jobTitle": "Digital Humanities Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/simon-tanner.jpg",
-      "description": "Photo of Professor Simon Tanner"
-    }
-  },
-  {
-    "slug": "janna-joceli-omena",
-    "name": "Janna Joceli Omena",
-    "jobTitle": "Digital Humanities Affiliate",
-    "team": "Departmental affiliates",
-    "feature": {
-      "image": "/assets/images/people/janna-joceli-omena.jpg",
-      "description": "Photo of Dr Janna Joceli Omena",
-      "url": "https://www.kcl.ac.uk/people/janna-joceli-omena"
-    }
-  },
-  {
-    "slug": "john-bradley",
-    "jobTitle": "Honorary Research Fellow",
-    "team": "Research fellows",
-    "feature": {
-      "image": "/assets/images/people/john-bradley.jpg",
-      "description": "Photo of John Bradley"
-    }
-  },
-  {
-    "slug": "katherine-bode",
-    "jobTitle": "Visiting Research Fellow",
-    "team": "Research fellows",
-    "feature": {
-      "image": "/assets/images/people/katherine-bode.jpg",
-      "description": "Photo of Katherine Bode"
-    }
-  },
-  {
-    "slug": "ginestra-ferraro",
-    "jobTitle": "Visiting Research Fellow",
-    "team": "Research fellows",
-    "feature": {
-      "image": "/assets/images/people/ginestra-ferraro.jpg",
-      "description": "Photo of Ginestra Ferraro"
-    }
-  },
-  {
-    "slug": "harold-short",
-    "jobTitle": "Honorary Research Fellow",
-    "team": "Research fellows",
-    "feature": {
-      "image": "/assets/images/people/harold-short.jpg",
-      "description": "Photo of Professor Harold Short"
-    }
-  },
-  {
-    "slug": "charlotte-roueche",
-    "name": "Charlotte Roueché",
-    "jobTitle": "Honorary Research Fellow",
-    "team": "Research fellows",
-    "feature": {
-      "image": "/assets/images/people/charlotte-roueché.jpg",
-      "description": "Photo of Professor Charlotte Roueché"
-    }
-  },
-  {
-    "slug": "elliott-hall",
-    "jobTitle": "Senior Research Software Engineer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/elliott-hall.jpg",
-      "description": "Photo of Elliott Hall"
-    }
-  },
-  {
-    "slug": "lucie-mingmei-hao",
-    "jobTitle": "Former Research Software UI/UX Designer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/lucie-mingmei-hao.jpg",
-      "description": "Photo of Lucie Mingmei Hao"
-    }
-  },
-  {
-    "slug": "luis-figueira",
-    "jobTitle": "Former Software Developer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/luis-figueira.jpg",
-      "description": "Photo of Luis Figueira"
-    }
-  },
-  {
-    "slug": "shalen-fu",
-    "jobTitle": "Former Research Software Project Manager",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/shalen-fu.png",
-      "description": "Photo of Shalen Fu"
-    }
-  },
-  {
-    "slug": "elliott-hall",
-    "jobTitle": "Former Senior Research Software Engineer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/elliott-hall.jpg",
-      "description": "Photo of Elliott Hall"
-    }
-  },
-  {
-    "slug": "olga-loboda",
-    "jobTitle": "Former Research Software UI/UX Designer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/olga-loboda.jpg",
-      "description": "Photo of Olga Loboda"
-    }
-  },
-  {
-    "slug": "chris-pak",
-    "jobTitle": "Former Postdoctoral Research Associate",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/chris-pak.jpg",
-      "description": "Photo of Chris Pak"
-    }
-  },
-  {
-    "slug": "florence-du-pre",
-    "jobTitle": "Former Research Software Project Manager",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/florence-du-pre.jpg",
-      "description": "Photo of Florence du Pré"
-    }
-  },
-  {
-    "slug": "urszula-pawlicka-deger",
-    "jobTitle": "Former Marie Curie Research Fellow",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/urszula-pawlicka-deger.jpg",
-      "description": "Photo of Dr. Urszula Pawlicka-Deger"
-    }
-  },
-  {
-    "slug": "natasha-romanova",
-    "jobTitle": "Former Digital Methods Lead",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/natasha-romanova.jpg",
-      "description": "Photo of Dr. Natasha Romanova"
-    }
-  },
-  {
-    "slug": "priyal-shah",
-    "jobTitle": "Former UI/UX Designer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/priyal-shah.jpg",
-      "description": "Photo of Priyal Shah"
-    }
-  },
-  {
-    "slug": "james-smithies",
-    "jobTitle": "Former Lab Director",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/james-smithies.jpg",
-      "description": "Photo of Dr. James Smithies"
-    }
-  },
-  {
-    "slug": "carina-westling",
-    "jobTitle": "Former Project Manager and Visiting Research Fellow",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/carina-westling.jpg",
-      "description": "Photo of Carina Westling"
-    }
-  },
-  {
-    "slug": "brian-maher",
-    "jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/brian-maher.jpg",
-      "description": "Photo of Brian Maher"
-    }
-  },
-  {
-    "slug": "ginestra-ferraro",
-    "jobTitle": "Former Senior Research Software UI/UX Designer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/ginestra-ferraro.jpg",
-      "description": "Photo of Ginestra Ferraro"
-    }
-  },
-  {
-    "slug": "ryan-heuser",
-    "jobTitle": "Former Senior Research Software Engineer",
-    "team": "Former staff",
-    "feature": {
-      "image": "/assets/images/people/ryan-heuser.jpg",
-      "description": "Photo of Ryan Heuser"
-    }
-  }
+	{
+		"slug": "geoffroy-noel",
+		"jobTitle": "Senior Research Software Engineer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/geoffroy-noel.jpg",
+			"description": "Photo of Geoffroy Noel"
+		}
+	},
+	{
+		"slug": "tiffany-ong",
+		"jobTitle": "Senior Research Software UI/UX Designer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/tiffany-ong.jpg",
+			"description": "Photo of Tiffany Ong"
+		}
+	},
+	{
+		"slug": "miguel-vieira",
+		"jobTitle": "Principal Research Software Engineer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/miguel-vieira.jpg",
+			"description": "Photo of Miguel Vieira"
+		}
+	},
+	{
+		"slug": "tim-watts",
+		"jobTitle": "Senior Research Software Systems Manager",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/tim-watts.jpg",
+			"description": "Photo of Tim Watts"
+		}
+	},
+	{
+		"slug": "zihao-lu",
+		"jobTitle": "Research Software UI/UX Designer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/zihao-lu.jpg",
+			"description": "Photo of Zihao Lu"
+		}
+	},
+	{
+		"slug": "mary-chester-kadwell",
+		"jobTitle": "Senior Research Software Engineer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/mary-chester-kadwell.jpg",
+			"description": "Photo of Mary Chester-Kadwell"
+		}
+	},
+	{
+		"slug": "patrick-ffrench",
+		"name": "Patrick ffrench",
+		"jobTitle": "Languages, Literatures and Cultures Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/patrick-ffrench.jpg",
+			"description": "Photo of Professor Patrick Ffrench",
+			"url": "https://www.kcl.ac.uk/people/patrick-ffrench"
+		}
+	},
+	{
+		"slug": "virginia-crisp",
+		"name": "Virginia Crisp",
+		"jobTitle": "Culture, Media & Creative Industries Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/virginia-crisp.jpg",
+			"description": "Photo of Dr Virginia Crisp",
+			"url": "https://www.kcl.ac.uk/people/virginia-crisp"
+		}
+	},
+	{
+		"slug": "rebecca-levitan",
+		"name": "Rebecca Levitan",
+		"jobTitle": "Classics Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/rebecca-levitan.jpg",
+			"description": "Photo of Dr Rebecca Levitan",
+			"url": "https://www.kcl.ac.uk/people/rebecca-levitan"
+		}
+	},
+	{
+		"slug": "stuart-dunn",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/stuart-dunn.jpg",
+			"description": "Photo of Professor Stuart Dunn"
+		}
+	},
+	{
+		"slug": "simon-tanner",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/simon-tanner.jpg",
+			"description": "Photo of Professor Simon Tanner"
+		}
+	},
+	{
+		"slug": "janna-joceli-omena",
+		"name": "Janna Joceli Omena",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates",
+		"feature": {
+			"image": "/assets/images/people/janna-joceli-omena.jpg",
+			"description": "Photo of Dr Janna Joceli Omena",
+			"url": "https://www.kcl.ac.uk/people/janna-joceli-omena"
+		}
+	},
+	{
+		"slug": "john-bradley",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/john-bradley.jpg",
+			"description": "Photo of John Bradley"
+		}
+	},
+	{
+		"slug": "katherine-bode",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/katherine-bode.jpg",
+			"description": "Photo of Katherine Bode"
+		}
+	},
+	{
+		"slug": "ginestra-ferraro",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/ginestra-ferraro.jpg",
+			"description": "Photo of Ginestra Ferraro"
+		}
+	},
+	{
+		"slug": "harold-short",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/harold-short.jpg",
+			"description": "Photo of Professor Harold Short"
+		}
+	},
+	{
+		"slug": "charlotte-roueche",
+		"name": "Charlotte Roueché",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/charlotte-roueché.jpg",
+			"description": "Photo of Professor Charlotte Roueché"
+		}
+	},
+	{
+		"slug": "elliott-hall",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/elliott-hall.jpg",
+			"description": "Photo of Elliott Hall"
+		}
+	},
+	{
+		"slug": "lucie-mingmei-hao",
+		"jobTitle": "Former Research Software UI/UX Designer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/lucie-mingmei-hao.jpg",
+			"description": "Photo of Lucie Mingmei Hao"
+		}
+	},
+	{
+		"slug": "luis-figueira",
+		"jobTitle": "Former Software Developer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/luis-figueira.jpg",
+			"description": "Photo of Luis Figueira"
+		}
+	},
+	{
+		"slug": "shalen-fu",
+		"jobTitle": "Former Research Software Project Manager",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/shalen-fu.png",
+			"description": "Photo of Shalen Fu"
+		}
+	},
+	{
+		"slug": "elliott-hall",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/elliott-hall.jpg",
+			"description": "Photo of Elliott Hall"
+		}
+	},
+	{
+		"slug": "olga-loboda",
+		"jobTitle": "Former Research Software UI/UX Designer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/olga-loboda.jpg",
+			"description": "Photo of Olga Loboda"
+		}
+	},
+	{
+		"slug": "chris-pak",
+		"jobTitle": "Former Postdoctoral Research Associate",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/chris-pak.jpg",
+			"description": "Photo of Chris Pak"
+		}
+	},
+	{
+		"slug": "florence-du-pre",
+		"jobTitle": "Former Research Software Project Manager",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/florence-du-pre.jpg",
+			"description": "Photo of Florence du Pré"
+		}
+	},
+	{
+		"slug": "urszula-pawlicka-deger",
+		"jobTitle": "Former Marie Curie Research Fellow",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/urszula-pawlicka-deger.jpg",
+			"description": "Photo of Dr. Urszula Pawlicka-Deger"
+		}
+	},
+	{
+		"slug": "natasha-romanova",
+		"jobTitle": "Former Digital Methods Lead",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/natasha-romanova.jpg",
+			"description": "Photo of Dr. Natasha Romanova"
+		}
+	},
+	{
+		"slug": "priyal-shah",
+		"jobTitle": "Former UI/UX Designer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/priyal-shah.jpg",
+			"description": "Photo of Priyal Shah"
+		}
+	},
+	{
+		"slug": "james-smithies",
+		"jobTitle": "Former Lab Director",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/james-smithies.jpg",
+			"description": "Photo of Dr. James Smithies"
+		}
+	},
+	{
+		"slug": "carina-westling",
+		"jobTitle": "Former Project Manager and Visiting Research Fellow",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/carina-westling.jpg",
+			"description": "Photo of Carina Westling"
+		}
+	},
+	{
+		"slug": "brian-maher",
+		"jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/brian-maher.jpg",
+			"description": "Photo of Brian Maher"
+		}
+	},
+	{
+		"slug": "ginestra-ferraro",
+		"jobTitle": "Former Senior Research Software UI/UX Designer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/ginestra-ferraro.jpg",
+			"description": "Photo of Ginestra Ferraro"
+		}
+	},
+	{
+		"slug": "ryan-heuser",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/ryan-heuser.jpg",
+			"description": "Photo of Ryan Heuser"
+		}
+	}
 ]
