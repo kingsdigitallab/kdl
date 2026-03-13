@@ -58,8 +58,10 @@ keywords:
   - name: DFI
     slug: dfi
 urls:
-  - name: Repository (related tool)
+  - name: Repository (related tool BVQA)
     url: https://github.com/kingsdigitallab/kdl-vqa
+  - name: Repository (related tool FrameSense)
+    url: https://github.com/kingsdigitallab/framesense
 sla:
   start: null
   end: null
