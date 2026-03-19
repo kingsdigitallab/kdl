@@ -27,7 +27,7 @@ members:
     roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong
-    roleName: Research Software Designer]
+    roleName: Research Software Designer
   - name: Francisco Bethencourt
     slug: francisco-bethencourt
     roleName: Principal investigator
