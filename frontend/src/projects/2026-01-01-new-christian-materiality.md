@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: New Christian Materiality
 name: New Christian Materiality
 tags:
@@ -53,3 +53,7 @@ urls:
   - name: Other Project Resource URL
     url: https://www.kcl.ac.uk/news/new-christian-materiality-project-secures-major-european-research-council-grant
 ---
+
+From the 15th to the 18th centuries, the New Christian trading elite (descendants of Jewish communities forced to convert in Iberia) played a major role in Europe’s intercontinental trade. Experts in sourcing and marketing goods across continents, they shaped patterns of consumption. Funded by the ERC, the Materia project explores how this expertise influenced material culture and consumer behaviour. It examines commodities, markets, environments and gendered consumption, while considering social networks, diaspora resilience and the pressures of Inquisition-era suspicion. Materia combines economic, social and art history with geography, gender studies and environmental analysis to centre individual and collective agency, revealing how New Christian material knowledge transformed trade, consumption and social status across continents.
+
+KDL will be designing the data gathering workflow and the data model required to support the research goals. Later on in the project we will explore how best to visualise the findings and make the research discoverable.

@@ -1,87 +1,93 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
-  "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
-  "files": {
-    "ignoreUnknown": false,
-    "includes": ["**", "!!**/frontend/public/sla-acpp"]
-  },
-  "formatter": { "enabled": true, "indentStyle": "tab" },
-  "assist": { "actions": { "source": { "organizeImports": "on" } } },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": false,
-      "complexity": {
-        "noExtraBooleanCast": "error",
-        "noUselessCatch": "error",
-        "noAdjacentSpacesInRegex": "error"
-      },
-      "correctness": {
-        "noConstAssign": "error",
-        "noConstantCondition": "error",
-        "noEmptyCharacterClassInRegex": "error",
-        "noEmptyPattern": "error",
-        "noGlobalObjectCalls": "error",
-        "noInnerDeclarations": "error",
-        "noInvalidConstructorSuper": "error",
-        "noNonoctalDecimalEscape": "error",
-        "noPrecisionLoss": "error",
-        "noSelfAssign": "error",
-        "noSetterReturn": "error",
-        "noSwitchDeclarations": "error",
-        "noUndeclaredVariables": "error",
-        "noUnreachable": "error",
-        "noUnreachableSuper": "error",
-        "noUnsafeFinally": "error",
-        "noUnsafeOptionalChaining": "error",
-        "noUnusedLabels": "error",
-        "noUnusedVariables": "error",
-        "useIsNan": "error",
-        "useValidForDirection": "error",
-        "useYield": "error",
-        "noInvalidBuiltinInstantiation": "error",
-        "useValidTypeof": "error"
-      },
-      "style": { "useBlockStatements": "off" },
-      "suspicious": {
-        "noAsyncPromiseExecutor": "error",
-        "noCatchAssign": "error",
-        "noClassAssign": "error",
-        "noCompareNegZero": "error",
-        "noControlCharactersInRegex": "error",
-        "noDebugger": "error",
-        "noDuplicateCase": "error",
-        "noDuplicateClassMembers": "error",
-        "noDuplicateObjectKeys": "error",
-        "noDuplicateParameters": "error",
-        "noEmptyBlockStatements": "error",
-        "noFallthroughSwitchClause": "error",
-        "noFunctionAssign": "error",
-        "noGlobalAssign": "error",
-        "noImportAssign": "error",
-        "noMisleadingCharacterClass": "error",
-        "noPrototypeBuiltins": "error",
-        "noRedeclare": "error",
-        "noShadowRestrictedNames": "error",
-        "noSparseArray": "error",
-        "noUnsafeNegation": "error",
-        "useGetterReturn": "error",
-        "noWith": "error"
-      }
-    }
-  },
-  "javascript": {
-    "formatter": { "quoteStyle": "double" },
-    "globals": [
-      "describe",
-      "it",
-      "cy",
-      "before",
-      "beforeEach",
-      "after",
-      "afterEach",
-      "context",
-      "specify"
-    ]
-  }
+	"$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
+	"vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
+	"files": {
+		"ignoreUnknown": false,
+		"includes": ["**", "!!**/frontend/public/sla-acpp"]
+	},
+	"formatter": { "enabled": true, "indentStyle": "tab" },
+	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": false,
+			"complexity": {
+				"noExtraBooleanCast": "error",
+				"noUselessCatch": "error",
+				"noAdjacentSpacesInRegex": "error"
+			},
+			"correctness": {
+				"noConstAssign": "error",
+				"noConstantCondition": "error",
+				"noEmptyCharacterClassInRegex": "error",
+				"noEmptyPattern": "error",
+				"noGlobalObjectCalls": "error",
+				"noInnerDeclarations": "error",
+				"noInvalidConstructorSuper": "error",
+				"noNonoctalDecimalEscape": "error",
+				"noPrecisionLoss": "error",
+				"noSelfAssign": "error",
+				"noSetterReturn": "error",
+				"noSwitchDeclarations": "error",
+				"noUndeclaredVariables": "error",
+				"noUnreachable": "error",
+				"noUnreachableSuper": "error",
+				"noUnsafeFinally": "error",
+				"noUnsafeOptionalChaining": "error",
+				"noUnusedLabels": "error",
+				"noUnusedVariables": "error",
+				"useIsNan": "error",
+				"useValidForDirection": "error",
+				"useYield": "error",
+				"noInvalidBuiltinInstantiation": "error",
+				"useValidTypeof": "error"
+			},
+			"style": { "useBlockStatements": "off" },
+			"suspicious": {
+				"noAsyncPromiseExecutor": "error",
+				"noCatchAssign": "error",
+				"noClassAssign": "error",
+				"noCompareNegZero": "error",
+				"noControlCharactersInRegex": "error",
+				"noDebugger": "error",
+				"noDuplicateCase": "error",
+				"noDuplicateClassMembers": "error",
+				"noDuplicateObjectKeys": "error",
+				"noDuplicateParameters": "error",
+				"noEmptyBlockStatements": "error",
+				"noFallthroughSwitchClause": "error",
+				"noFunctionAssign": "error",
+				"noGlobalAssign": "error",
+				"noImportAssign": "error",
+				"noMisleadingCharacterClass": "error",
+				"noPrototypeBuiltins": "error",
+				"noRedeclare": "error",
+				"noShadowRestrictedNames": "error",
+				"noSparseArray": "error",
+				"noUnsafeNegation": "error",
+				"useGetterReturn": "error",
+				"noWith": "error"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": { "quoteStyle": "double" },
+		"globals": [
+			"describe",
+			"it",
+			"cy",
+			"before",
+			"beforeEach",
+			"after",
+			"afterEach",
+			"context",
+			"specify"
+		]
+	},
+	"json": {
+		"formatter": { "enabled": true }
+	},
+	"css": {
+		"formatter": { "enabled": true }
+	}
 }
