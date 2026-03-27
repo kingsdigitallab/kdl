@@ -6,7 +6,7 @@ tags:
 alternateName: null
 slug: musical-lives
 foundingDate: 2023-09-01
-dissolutionDate: 2026-11-30
+dissolutionDate: 2028-04-30
 creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/Bibliothèque nationale de France, MS fr. 846 f.
