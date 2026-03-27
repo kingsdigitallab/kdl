@@ -49,3 +49,7 @@ sla:
   start: null
   end: null
 ---
+
+Unhousing Restitution (UNREST) is a two-year interdisciplinary project that researches, refines anddisseminates practice-oriented and Africa-led solutions to African loss of audiovisual heritage. Co-produced with cultural partners by researchers from film studies, African history and digital humanities, UNREST recast restitution as a collaborative endeavour co-led with international partners and rooted in shared knowledge production and cultural renewal.
+
+KDL’s contribution is predominantly focussed on supporting the project team to engage with secure data preservation protocols, accessibility and data sovereignty discussions, and to define sustainability goals. This contribution is made through providing expertise and advice via meetings, attendance at a knowledge exchange workshop as well as providing feedback on specified research outputs (prototype, sustainability plan and education toolkit). 
