@@ -65,7 +65,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [AHRC Research Centre for the History and Analysis of Recorded Music](http://www.charm.kcl.ac.uk) (FAH)
 - [Art of Making in Antiquity](http://www.artofmaking.ac.uk/) (FAH)
 - [Atlantic Europe in the Metal Ages](http://www.aemap.ac.uk/en/) (University of Wales)
-- [Cambridge Edition of the Works of Ben Jonson](http://universitypublishingonline.org/cambridge/benjonson/) (Cambridge University)
 - [Clergy of the Church of England Database](http://theclergydatabase.org.uk/) (FAH)
 - [The Community of the Realm in Scotland, 1249-1424](https://cotr.ac.uk/) (AHRC)
 - [CultureCase](https://culturecase.org/) (Cultural Institute, King’s College London)
@@ -101,6 +100,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 - [AHRC Crowd Sourcing Study Report](https://www.kcl.ac.uk/research/archive/arts/croud-sourcing-study/index.aspx)
 - [British Printed Images to 1700](https://bpi1700.org.uk/)
+- [Cambridge Edition of the Works of Ben Jonson](https://hcmc.uvic.ca/eol/cambridge/benjonson/) (Cambridge University)
 - [Catalogue of English Literary Manuscripts](https://celm.folger.edu/)
 - [Corpus of Romanesque Sculpture in Britain and Ireland](https://www.crsbi.ac.uk/)
 - [Corpus Vitrearum Medii Aevi of Great Britain](http://www.cvma.ac.uk/)
