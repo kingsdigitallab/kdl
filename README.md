@@ -5,6 +5,14 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kingsdigitallab/kdl)
 
+## Architecture
+
+The website uses a static-first approach:
+
+1. **Data Source**: [ClickUp](https://clickup.com/) - all content is managed in ClickUp
+2. **ETL**: A script fetches data from ClickUp and saves it as JSON files
+3. **Frontend**: [11ty](https://www.11ty.dev/) builds static pages from the JSON data
+
 ## Set up
 
 ### Dependencies
@@ -26,30 +34,34 @@ npx simple-git-hooks
 
 ### Modules
 
-This project is set up as a monorepo with a module for ETL processing and the
-frontend module to publish and build a static site.
+This project is set up as a monorepo with:
+
+- **ETL**: Fetches data from ClickUp and outputs JSON to `frontend/src/_data/`
+- **Frontend**: 11ty static site generator
 
 #### ETL
 
-To process and import data, run:
+To fetch data from ClickUp:
 
 ```bash
-npm run etl:clickup frontend/src/projects
+npm run etl:clickup
 ```
+
+This fetches data from the "Website" custom item in ClickUp and saves JSON files to `frontend/src/_data/`.
 
 #### Frontend
 
-To run the frontend, run:
+To run the frontend locally:
 
 ```bash
 npm run frontend:dev
 ```
 
+The site will be available at `http://localhost:8080`.
+
 ### Data model
 
-This data model is based on the [schema.org](https://schema.org/) vocabulary.
-Local customisations are prefixed with `KDL` and models internal to the CMS
-are prefixed with `CMS`.
+The data model is based on the [schema.org](https://schema.org/) vocabulary. Local customisations are prefixed with `KDL`.
 
 ```mermaid
 erDiagram
@@ -83,7 +95,6 @@ erDiagram
 
     PROJECT ||--|| DEFINEDTERM: creativeWorkStatus
     PROJECT }o--o{ DEFINEDTERM: keywords
-    PROJECT ||--o| cmsIMAGE: image
     PROJECT }o--o{ LINKROLE: url
     PROJECT ||--o{ ORGANISATION: department
     PROJECT }o--o{ AGENT: funder
@@ -117,7 +128,6 @@ erDiagram
     WEBPAGE ||--|{ AGENT: author
     WEBPAGE }o--o{ AGENT: contributor
     WEBPAGE ||--o{ DEFINEDTERM: keywords
-    WEBPAGE ||--o| CMSIMAGE: image
     WEBPAGE }o--o{ AGENT: about
     WEBPAGE }o--o{ PROJECT: about
     WEBPAGE ||--|| WEBPAGE: isPartOf
