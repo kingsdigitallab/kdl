@@ -76,7 +76,7 @@ We usually use VSCode, where you can click in the UI for all these actions. For 
 
 ```bash
 # Create a new branch
-git checkout -b my-feature develop
+git checkout -b my-content-change-branch develop
 
 # Make changes and test locally
 npm run frontend:dev
@@ -84,14 +84,59 @@ npm run frontend:dev
 # Commit and push
 git add .
 git commit -m "description of changes"
-git push -u origin my-feature
+git push -u origin my-content-change-branch
 
 # Merge into develop
 git checkout develop
-git merge my-feature
+git merge my-content-change-branch
 git push develop
-git branch -d my-feature
+git branch -d my-content-change-branch
 ```
+
+### Where to make changes
+
+Some content is managed in ClickUp and synced to the site via ETL, while other content is written directly in markdown files in this repository.
+
+**In ClickUp:**
+
+- Team members (people, roles, organisations)
+- Projects
+- Home page content
+
+**In Markdown files:**
+
+- Blog posts (`frontend/src/blog/*.md`)
+- FAQ pages (`frontend/src/faqs/*.md`)
+- Theme pages (`frontend/src/themes/*.md`)
+- Slides/presentations (`frontend/src/slides/*.md`)
+
+#### Example: Adding a blog article with an image
+
+1. **Create the markdown file** - Add a new file at `frontend/src/blog/your-title.md` with frontmatter:
+
+```yaml
+---
+title: Your Article Title
+subtitle: A brief subtitle
+tags:
+  - post
+  - Your Topic
+authors:
+  - Your Name
+date: 2026-04-21
+excerpt: A short description for previews and SEO.
+feature:
+  image: /assets/images/blog/your-image.jpg
+  title:
+  description: Alt text for the image
+---
+```
+
+2. **Add the image** - Place your image in `frontend/src/assets/images/blog/your-image.jpg`
+
+3. **Check ClickUp** (optional) - If the article references team members or projects, ensure they exist in ClickUp so the ETL can link them properly.
+
+4. **Test locally** - Run `npm run frontend:dev` to preview your changes before merging.
 
 ### Data model
 
