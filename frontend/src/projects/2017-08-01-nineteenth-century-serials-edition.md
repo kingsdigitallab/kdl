@@ -18,8 +18,14 @@ feature:
 funders:
   - name: KCL Faculty of Arts and Humanities
     slug: kcl-faculty-of-arts-and-humanities
+  - name: British Library
+    slug: british-library
   - name: Birkbeck, University of London
     slug: birkbeck-university-of-london
+  - name: Research Society for Victorian Periodicals
+    slug: research-society-for-victorian-periodicals
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
 departments:
   - name: FAH Department of English
     slug: fah-department-of-english
