@@ -59,6 +59,40 @@ npm run frontend:dev
 
 The site will be available at `http://localhost:8080`.
 
+## Contributing
+
+### Workflow
+
+1. Create a branch from `develop`
+2. Make your changes
+3. Test locally with `npm run frontend:dev`
+4. Merge into `develop` and delete your branch
+   - This triggers a deployment to the dev site
+5. After reviewing on the dev site, open a PR from `develop` to `main`
+
+### Commands
+
+We usually use VSCode, where you can click in the UI for all these actions. For reference, here are the commands:
+
+```bash
+# Create a new branch
+git checkout -b my-feature develop
+
+# Make changes and test locally
+npm run frontend:dev
+
+# Commit and push
+git add .
+git commit -m "description of changes"
+git push -u origin my-feature
+
+# Merge into develop
+git checkout develop
+git merge my-feature
+git push develop
+git branch -d my-feature
+```
+
 ### Data model
 
 The data model is based on the [schema.org](https://schema.org/) vocabulary. Local customisations are prefixed with `KDL`.
