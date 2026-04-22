@@ -92,6 +92,8 @@ urls:
     url: https://ncse.ac.uk/
   - name: 2018 component URL
     url: https://ncse.ac.uk/periodicals/
+  - name: Project URL
+    url: https://ncse.ac.uk/index.html
 sla:
   start: 2018-03-01
   end: 2026-03-07
