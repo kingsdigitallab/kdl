@@ -1,8 +1,8 @@
 ---
 title: "CROSSREADS: Text, materiality, and multiculturalism at the crossroads of
-  the ancient Mediterranea"
+  the ancient Mediterranean"
 name: "CROSSREADS: Text, materiality, and multiculturalism at the crossroads of
-  the ancient Mediterranea"
+  the ancient Mediterranean"
 tags:
   - projects
 alternateName: null

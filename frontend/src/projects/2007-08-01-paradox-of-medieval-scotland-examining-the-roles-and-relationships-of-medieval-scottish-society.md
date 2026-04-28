@@ -95,6 +95,8 @@ urls:
     url: https://doi.org/10.18742/pszz-m429
   - name: Project URL
     url: https://www.poms.ac.uk/
+  - name: Data deposit URL
+    url: https://data.kdl.kcl.ac.uk/dataset/people-of-medieval-scotland-project-1093-1371.html
 sla:
   start: 2019-09-01
   end: 2028-01-07
