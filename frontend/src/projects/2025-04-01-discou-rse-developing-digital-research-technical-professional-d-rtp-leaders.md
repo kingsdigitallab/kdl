@@ -82,19 +82,13 @@ departments:
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
-    roleName: Research Software Analyst
+    roleName: Co-Investigator
   - name: Jonathan Cooper
     slug: jonathan-cooper
     roleName: Principal investigator
     inOrganisation:
       name: University College London
       slug: university-college-london
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Co-Investigator
-    inOrganisation:
-      name: KDL
-      slug: kdl
   - name: Kirsty Pringle
     slug: kirsty-pringle
     roleName: Co-Investigator

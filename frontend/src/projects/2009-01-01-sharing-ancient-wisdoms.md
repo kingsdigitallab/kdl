@@ -30,9 +30,6 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
-  - name: Elliott Hall
-    slug: elliott-hall
-    roleName: Research Software Engineer
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst

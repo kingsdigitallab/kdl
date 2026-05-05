@@ -34,28 +34,16 @@ departments:
 members:
   - name: Neil Jakeman
     slug: neil-jakeman
-    roleName: Research Software Analyst
+    roleName: Co-Investigator
   - name: Arianna Ciula
     slug: arianna-ciula
-    roleName: Research Software Analyst
+    roleName: Co-Investigator
   - name: Karina Rodriguez Echavarria
     slug: karina-rodriguez-echavarria
     roleName: Principal investigator
     inOrganisation:
       name: University of Brighton
       slug: university-of-brighton
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Co-Investigator
-    inOrganisation:
-      name: KDL
-      slug: kdl
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Co-Investigator
-    inOrganisation:
-      name: KDL
-      slug: kdl
   - name: Matt Penn
     slug: matt-penn
     roleName: Co-Investigator
