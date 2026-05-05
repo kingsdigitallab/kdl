@@ -25,6 +25,9 @@ members:
   - name: Mary Chester-Kadwell
     slug: mary-chester-kadwell
     roleName: Research Software Engineer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer

@@ -28,8 +28,8 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
-  - name: Miguel Vieira
-    slug: miguel-vieira
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong

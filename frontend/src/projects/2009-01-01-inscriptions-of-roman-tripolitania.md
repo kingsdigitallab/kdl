@@ -29,6 +29,9 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
+  - name: Mary Chester-Kadwell
+    slug: mary-chester-kadwell
+    roleName: Research Software Engineer
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst

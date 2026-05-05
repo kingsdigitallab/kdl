@@ -6,7 +6,7 @@ tags:
   - projects
 alternateName: null
 slug: federation-of-compute-and-infrastructures-in-the-arts-and-humanities
-foundingDate: 2025-09-15
+foundingDate: 2025-09-01
 dissolutionDate: 2026-07-31
 creativeWorkStatus: Active
 feature:
