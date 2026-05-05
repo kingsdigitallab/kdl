@@ -31,6 +31,9 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Stefan Meier
+    slug: stefan-meier
+    roleName: Research Software Engineer
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
