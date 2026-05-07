@@ -63,6 +63,7 @@ For example, when prompted to explain source credibility, the model cites ask.li
 
 GPT-4o does not draw on OpenAI sources in response to meta-prompt (1) on how it selects references until roughly two months into the study. When the researcher explicitly questions this tendency (prompt 2), the model begins to surface more OpenAI sources over time but continues to rely heavily on commercial domains (Fig.5).
 
+<iframe scrolling="no" frameborder="0" title="Interactive or visual content" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" style="width: 100%; height: 939.15px;" src="https://flo.uri.sh/visualisation/28232999/embed?auto=1"></iframe>
 Figure 5: Domain categories used in ChatGPT-4o’s citations over time, by prompt round.
 
 Two observations are of note: a) the lack of transparency regarding OpenAI from the company’s flagship product, and b) the glaring absence of journalistic and academic sources that are traditionally considered more credible than commercial blogs. GPT-4o presents journalistic sources that are typically considered authoritative only when credibility-challenging prompts (e.g. 4 & 5) are introduced.
