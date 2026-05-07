@@ -11,8 +11,9 @@ authors:
 date: 2026-05-07
 excerpt: ""
 feature:
-  image: 
-  title: 
+  image: frontend/public/assets/images/blog/Before AI agents.jpg
+  title: Alan Warburton / https://betterimagesofai.org / © BBC / https://creativecommons.org/licenses/by/4.0/
+  description: A photographic rendering of a succulent plant seen through a refractive glass grid, overlaid with a diagram of a neural network
 draft: true
 ---
 
