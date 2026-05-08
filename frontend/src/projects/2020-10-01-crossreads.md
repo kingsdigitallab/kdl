@@ -104,7 +104,7 @@ members:
 keywords: []
 urls:
   - name: Project URL
-    url: https://crossreads.web.ox.ac.uk/
+    url: https://sicily.classics.ox.ac.uk/
   - name: "Repository (palaeography): kingsdigitallab/crossreads"
     url: https://github.com/kingsdigitallab/crossreads
   - name: ERC URL
