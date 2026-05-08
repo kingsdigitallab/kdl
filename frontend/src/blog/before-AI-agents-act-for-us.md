@@ -5,7 +5,7 @@ tags:
   - Generative AI infrastructures
   - AI agentic search
 authors:
-  - [Janna Joceli Omena (King’s College London)](https://www.kcl.ac.uk/people/janna-joceli-omena) - J.J.Omena@kcl.ac.uk
+  - [Janna Joceli Omena (King’s College London)](https://www.kcl.ac.uk/people/janna-joceli-omena), J.J.Omena@kcl.ac.uk
   - Giulia Tucci (Brazilian Institute of Information in Science and technology & International Center for Tropical Agriculture)
   - Aanila Kishwar (Indiana University Bloomington)
 date: 2026-05-07
