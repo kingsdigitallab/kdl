@@ -87,3 +87,9 @@ sla:
   start: null
   end: null
 ---
+
+
+The UK justice system is under pressure from large backlogs and increasing delays. Some criminal cases can be dealt with using the Single Justice Procedure (SJP), where magistrates decide cases based on written information. However, overwhelmed  magistrates often miss critical details, resulting in flawed judgments. While AI offers potential solutions, its role in judicial decision-making remains largely unexplored, lacking public scrutiny, ethical consideration, and empirical evaluation. 
+The Algorithmic Justice project directly addresses these issues by centring public engagement in developing and testing a prototype AI tool for the SJP, using traffic offences as a test case. The project leads have mapped components and steps of the SJP to a computationally tractable decision tree. KDL are implementing that decision tree as an online resource which guides users through the procedure by dynamically providing appropriate responses to user input. One key piece of input is a free text statement written by the defendant in which a magistrate could potentially perceive mitigating (or aggravating) circumstances that would influence the amount of a fine. 
+
+KDL is integrating an AI-enabled step where a model reviews the defendant's text and flags up sections mentioning significant circumstances. This work has two main goals. The first is to demonstrate the feasibility of automating much of the Single Justice Procedure. A convenient and intuitive online application could potentially reduce magistrates' workloads. The second goal is to foreground the possible benefits and risks of using AI models to interpret and assess evidentiary statements. The outcomes of this work will inform and influence the researchers' workshops and consultations with stakeholder groups.
