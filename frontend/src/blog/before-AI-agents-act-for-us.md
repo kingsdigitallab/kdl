@@ -5,7 +5,7 @@ tags:
   - Generative AI infrastructures
   - AI agentic search
 authors:
-  - Janna Joceli Omena (King's College London), J.J.Omena@kcl.ac.uk
+  - Janna Joceli Omena (King's College London)
   - Giulia Tucci (Brazilian Institute of Information in Science and technology & International Center for Tropical Agriculture)
   - Aanila Kishwar (Indiana University Bloomington)
 date: 2026-05-07
@@ -86,4 +86,6 @@ Using AI for search is not just a matter of convenience or speed, but of how web
 _This post draws on the authors’ Digital Methods [Report](https://www.digitalmethods.net/Dmi/SummerSchool2025LLMsAsResearchEngines) and related [poster](https://doi.org/10.13140/RG.2.2.18247.61601), What if LLMs are our new (re)search engines?, produced for the 2025 Digital Methods Summer School._
 
 _Image credit: All figures reproduced with permission of the authors._
+
+You can reach out to Janna Joceli Omena at J.J.Omena@kcl.ac.uk.
 
