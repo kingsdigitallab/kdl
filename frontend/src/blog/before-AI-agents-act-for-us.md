@@ -5,7 +5,7 @@ tags:
   - Generative AI infrastructures
   - AI agentic search
 authors:
-  - [Janna Joceli Omena (King’s College London)](https://www.kcl.ac.uk/people/janna-joceli-omena), J.J.Omena@kcl.ac.uk
+  - Janna Joceli Omena (King's College London), J.J.Omena@kcl.ac.uk
   - Giulia Tucci (Brazilian Institute of Information in Science and technology & International Center for Tropical Agriculture)
   - Aanila Kishwar (Indiana University Bloomington)
 date: 2026-05-07
@@ -22,7 +22,7 @@ KDL has a team on [ML/AI](https://kdl.kcl.ac.uk/projects/research-themes/machine
 If you have an idea please get in touch by filling this [minimal form](https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU)_
 
 
-**Generative AI agents are pitched as being a new gateway to engaging with the Internet. Based on a new study of how AI reads and searches the internet in a “conservative” and “stubborn” way, Janna Joceli Omena, Giulia Tucci and Aanila Kishwar argue for the need for greater observability in AI search.**
+**Generative AI agents are pitched as being a new gateway to engaging with the Internet. Based on a new study of how AI reads and searches the internet in a “conservative” and “stubborn” way, [Janna Joceli Omena](https://www.kcl.ac.uk/people/janna-joceli-omena), Giulia Tucci and Aanila Kishwar argue for the need for greater observability in AI search.**
 
 
 AI agents have [arrived](https://www.itpro.com/technology/artificial-intelligence/practical-ai-the-age-of-agentic-ai). They browse the web, help with online research, manage calendars and coding repositories, do spreadsheet work and even shop and act on our behalf.
