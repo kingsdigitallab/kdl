@@ -94,8 +94,6 @@ urls:
     url: https://gtr.ukri.org/projects?ref=AH%2FE008348%2F1
   - name: Repository URL
     url: https://github.com/kingsdigitallab/poms-django
-  - name: Data deposit URL
-    url: https://doi.org/10.18742/pszz-m429
   - name: Project URL
     url: https://www.poms.ac.uk/
   - name: Data deposit URL
