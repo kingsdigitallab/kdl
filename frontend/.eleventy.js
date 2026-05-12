@@ -27,7 +27,7 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addPassthroughCopy({
 		[`${kdlComponentsPath}/kdl/assets`]: "/assets",
 		"../node_modules/reveal.js/dist": "assets/reveal/",
-		"../node_modules/reveal.js/plugin": "assets/reveal/plugin",
+		"../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
 		public: "/",
 	});
 
