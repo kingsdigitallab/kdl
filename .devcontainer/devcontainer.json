@@ -5,6 +5,7 @@
 		"vscode": {
 			"extensions": [
 				"bierner.markdown-mermaid",
+				"biomejs.biome",
 				"DavidAnson.vscode-markdownlint",
 				"dbaeumer.vscode-eslint",
 				"deque-systems.vscode-axe-linter",
@@ -69,33 +70,18 @@
 						"commands": ["workbench.view.scm"]
 					}
 				],
-				"[css]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
-				"[html]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
-				"[javascript]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
-				"[json]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
-				"[jsonc]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
-				},
 				"[markdown]": {
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				},
 				"[nunjucks]": {
-					"editor.defaultFormatter": "esbenp.prettier-vscode"
+					"editor.defaultFormatter": "eseom.nunjucks-template"
 				},
-				"[typescript]": {
+				"[scss]": {
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				}
 			}
 		}
 	},
-	"onCreateCommand": "npm install",
+	"onCreateCommand": "apt-get update && apt-get install -y python3-pip && npm install",
 	"postStartCommand": "npm run frontend:dev"
 }
