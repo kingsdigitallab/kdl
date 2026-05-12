@@ -123,16 +123,18 @@ draft: false
 
 The CROSSREADS project aims to develop and exploit I.Sicily, an online corpus of inscriptions of ancient Sicily to study Sicilian epigraphic culture and history. It focuses on texts on stone beginning with the first written texts at the end of the seventh century BCE, and continuing through to the Byzantine period (approximate upper limit of the seventh century CE).
 
-The core datasets for the project relies on the EpiDoc TEI-XML standard. This is used to encode all the information about the inscriptions (just under 6,000 items on project completion) and the inscribed objects, as well as the actual text itself.  
+The core datasets for the project relies on the EpiDoc TEI-XML standard. This is used to encode all the information about the inscriptions (just under 6,000 items on project completion) and the inscribed objects, as well as the actual text itself.
 
 KDL contribution focuses on:
-   - the development of a palaeographic annotation tool, which enables the assignment of letter typologies to linked images and texts;
-   - the development of data workflows for petrographic analysis and interpretation;
-   - the development and redesign (building on a previous web development effort) of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions.
+
+- the development of a palaeographic annotation tool, which enables the assignment of letter typologies to linked images and texts;
+- the development of data workflows for petrographic analysis and interpretation;
+- the development and redesign (building on a previous web development effort) of the custom digital environment supporting the palaeographic, linguistic and petrographic analyses of the CROSSREADS corpus of Sicilian inscriptions.
 
 The online corpus is built as a static website and includes:
-   - inscription pages with aggregating data a diversity of annotations – archival, linguistic, palaeographic and petrographic; 
-   - aggregated search page (inclusive of map interaction); 
-   - secondary dynamic pages (around bibliographic and museum data); 
-   - web visualisations; 
-   - open data endpoints. 
+
+- inscription pages with aggregating data a diversity of annotations – archival, linguistic, palaeographic and petrographic;
+- aggregated search page (inclusive of map interaction);
+- secondary dynamic pages (around bibliographic and museum data);
+- web visualisations;
+- open data endpoints.
