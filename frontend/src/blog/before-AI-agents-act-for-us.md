@@ -14,7 +14,7 @@ feature:
   image: /assets/images/blog/Before-AI-agents.jpg
   title: Alan Warburton / https://betterimagesofai.org / © BBC / https://creativecommons.org/licenses/by/4.0/
   description: A photographic rendering of a succulent plant seen through a refractive glass grid, overlaid with a diagram of a neural network
-draft: true
+draft: false
 ---
 
 _We are pleased to publish one of our [affiliates](https://kdl.kcl.ac.uk/about/team/)' blogpost originally written for the [LSE website](https://blogs.lse.ac.uk/impactofsocialsciences/2026/04/15/before-ai-agents-act-for-us-we-need-to-know-how-ai-searches-for-us/) to give prominence to the topic of AI agents. 
