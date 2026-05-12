@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"axios": "^0.27.2",
-		"commander": "^9.3.0",
+		"commander": "^14.0.3",
 		"crawlee": "^3.0.4",
 		"csv-parse": "^6.2.1",
 		"dotenv": "^17.4.2",
@@ -26,7 +26,7 @@
 	},
 	"devDependencies": {
 		"jest": "^28.1.1",
-		"nock": "^13.2.6"
+		"nock": "^14.0.15"
 	},
 	"main": "index.js",
 	"directories": {
