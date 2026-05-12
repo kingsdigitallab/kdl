@@ -36,8 +36,6 @@
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.18.2",
 		"@babel/eslint-plugin": "^7.17.7",
-		"@biomejs/biome": "^2.4.2",
-		"djlint": "^1.19.4",
 		"eslint": "^8.17.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-cypress": "^2.15.1",
@@ -52,11 +50,11 @@
 	},
 	"lint-staged": {
 		"*.js": [
-			"biome format --write",
+			"prettier --write",
 			"eslint etl/src frontend/src"
 		],
 		"*.{css,json}": [
-			"biome format --write"
+			"prettier --write"
 		],
 		"*.{md,yaml,scss}": [
 			"prettier --write"
