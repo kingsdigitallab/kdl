@@ -5,11 +5,11 @@
 {% set mainClass = layout
   .split("/")
   .pop()
-  .replace(".njk", "") %}
+.replace(".njk", "") %}
 {% set stylesheetsPath = config.paths.stylesheets %}
 
 {% block headExtra %}
-  <base href="{{ baseUrl }}"/>
+  <base href="{{ baseUrl }}" />
 {% endblock headExtra %}
 
 {% block headMeta %}
@@ -52,12 +52,8 @@
 {% endblock headerEnd %}
 
 {% block content %}
-  {% if navKey != "Home" %}
-    <div class="kdl-container">
-    {% endif %}
-    {% if navKey != "Home" %}
-      <h1 data-pagefind-weight="10">{{ title | safe }}</h1>
-    {% endif %}
+  {% if navKey != "Home" %}<div class="kdl-container">{% endif %}
+    {% if navKey != "Home" %}<h1 data-pagefind-weight="10">{{ title | safe }}</h1>{% endif %}
 
     {% if page.fileSlug == 'faqs' %}
       {% set tocTags = ["h2"] %}
@@ -65,9 +61,7 @@
     {% include "partials/toc.njk" %}
 
     <article>{{ content | safe }}</article>
-    {% if navKey != "Home" %}
-    </div>
-  {% endif %}
+    {% if navKey != "Home" %}</div>{% endif %}
 {% endblock content %}
 
 {% block footer %}

@@ -5,6 +5,7 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
 
 {% from "kdl/components/person/macros.njk" import authorMacro %}
 {% from "kdl/components/time/macros.njk" import timeMacro %}
+
 <ul class="list">
   {%- for post in posts -%}
     <li>
@@ -12,7 +13,7 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
         <figure>
           <a href="{{ post.url }}">
             <img src="{{ post.data.feature.image }}"
-              alt="{{ post.data.feature.description }}">
+                 alt="{{ post.data.feature.description }}">
           </a>
           <figcaption>{{ post.feature.description }}</figcaption>
         </figure>
@@ -25,37 +26,36 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
         </a>
 
         {% if post.data.authors %}
-        by
-        {% for name in post.data.authors %}
+          by
+          {% for name in post.data.authors %}
             {% set person = collections.people | filter(name, "data.name") %}
             {%- if person and person.length > 0 -%}
               {{- authorMacro(person[0]) -}}
             {%- else -%}
               {% set data = {
-                name: name
-              } %}
+                              name: name
+                            } %}
               {% set person = {
-                data: data
-              } %}
+                              data: data
+                            } %}
               {{- authorMacro(person) -}}
             {%- endif -%}
             {%- if not loop.last -%},{%- endif -%}
-          {%- endfor -%}
-        {% endif %}
-        {% if post.data.date %}on {{ timeMacro(post.data.date) -}}
-        {% endif %}
+            {%- endfor -%}
+          {% endif %}
+          {% if post.data.date %}on {{ timeMacro(post.data.date) -}}{% endif %}
 
-        {% if post.data.subtitle %}
-          <div class="subtitle">
-            <span>{{ post.data.subtitle }}</span>
-          </div>
-        {% endif %}
+          {% if post.data.subtitle %}
+            <div class="subtitle">
+              <span>{{ post.data.subtitle }}</span>
+            </div>
+          {% endif %}
 
-        <p>{{ post.data.excerpt }}</p>
-      </section>
-    </li>
-  {%- endfor -%}
-</ul>
+          <p>{{ post.data.excerpt }}</p>
+        </section>
+      </li>
+    {%- endfor -%}
+  </ul>
 
-{% set label = "Posts" %}
-{% include "partials/pagination.njk" %}
+  {% set label = "Posts" %}
+  {% include "partials/pagination.njk" %}

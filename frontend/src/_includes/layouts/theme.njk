@@ -7,8 +7,7 @@ layout: layouts/base.njk
 {% set assetsPath = config.paths.assets %}
 
 <section>
-  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}
-  {% endif %}
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
 
   <div id="overview">
     <p>{{ content | safe }}</p>
@@ -23,16 +22,17 @@ layout: layouts/base.njk
           {% if project.data.image %}
             <a href="{% route project.slug, 'Projects' %}">
               {% set feature = {
-                image: project.data.image,
-                title: project.data.image.title,
-                description: project.data.image.description
-              } %}
+                              image: project.data.image,
+                              title: project.data.image.title,
+                              description: project.data.image.description
+                            } %}
               {{ imageMacro(feature) }}
             </a>
           {%- else -%}
-          <figure class="kdl-image">
-            <img src="{{ config.paths.placeholderImage }}" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik"/>
-          </figure>
+            <figure class="kdl-image">
+              <img src="{{ config.paths.placeholderImage }}"
+                   alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik" />
+            </figure>
           {% endif %}
           <section>
             <a href="{% route project.data.slug, 'Projects' %}">

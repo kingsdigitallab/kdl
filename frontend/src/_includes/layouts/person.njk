@@ -13,12 +13,11 @@ layout: layouts/agent.njk
 <section>
   {% if member %}
     {% if member.feature %}
-      <img src="{{ member.feature.image }}" alt="{{ member.feature.description }}">
+      <img src="{{ member.feature.image }}"
+           alt="{{ member.feature.description }}">
     {% endif %}
   {% endif %}
-  {% if content %}
-    <div class="description">{{ content | safe }}</div>
-  {% endif %}
+  {% if content %}<div class="description">{{ content | safe }}</div>{% endif %}
 </section>
 
 {% set projects = collections.projects | getAgentProjects(slug) %}
@@ -29,7 +28,7 @@ layout: layouts/agent.njk
     <ul>
       {% for project in projects | sort(true, false, "data.dissolutionDate") %}
         <li>
-          <a href="{{ project.url}}">
+          <a href="{{ project.url }}">
             {% set level = 3 %}
             {% set showTitle = true %}
             {%- include "partials/project.njk" -%}
@@ -49,11 +48,11 @@ layout: layouts/agent.njk
           <a href="{% route item.organisation.slug, 'Partners and funders' %}">
             {{- item.organisation.name -}}
             {%- if item.roleName -%}, <span class="role-name">{{ item.roleName }}</span>{% endif %}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 {% endif %}
 
 {% set previousObj = collections.people | getPreviousCollectionItem(page) %}

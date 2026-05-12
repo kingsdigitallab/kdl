@@ -1,6 +1,6 @@
 {%- if showTitle %}
   <h {%- if level -%}{{- level -}}{%- else -%}2{%- endif -%}>
-    {{- project.data.title | safe -}}
+  {{- project.data.title | safe -}}
   </h {%- if level -%}{{- level -}}{%- else -%}2{%- endif -%}>
 {%- endif -%}
 
@@ -9,7 +9,8 @@
     {%- for department in project.data.departments %}
       {% set organisation = department %}
       {% include "partials/organisation.njk" %}
-      {%- if not loop.last -%}, {% endif -%}
+      {%- if not loop.last -%},
+      {% endif -%}
     {% endfor %}
   </p>
 {% endif %}

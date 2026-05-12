@@ -17,10 +17,8 @@ layout: layouts/base.njk
         {% if theme.data.feature and theme.data.feature.image %}
           {{ imageMacro(theme.data.feature) }}
         {% else %}
-          <img
-        src="/assets/images/general/placeholder-blur1.jpg"
-        alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere."
-/>
+          <img src="/assets/images/general/placeholder-blur1.jpg"
+               alt="A blurred background featuring a blend of green and yellow hues, evoking a soft serene atmosphere." />
         {% endif %}
       </a>
       <p>{{ theme.data.excerpt }}</p>
