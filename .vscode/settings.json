@@ -41,6 +41,6 @@
 	},
 	"peacock.color": "#d16014",
 	"[nunjucks]": {
-		"editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
+		"editor.defaultFormatter": "monosans.djlint"
 	}
 }

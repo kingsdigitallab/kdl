@@ -27,6 +27,9 @@
 		"format": "npm run prettier:fix && npm run lint:fix",
 		"test": "npm run test --workspaces --if-present",
 		"release": "release-it",
+		"postinstall": "bash scripts/install-djlint.sh",
+		"lint:njk": "djlint frontend/src --check --profile=nunjucks --extension=njk",
+		"format:njk": "djlint frontend/src --reformat --profile=nunjucks --extension=njk",
 		"etl:clickup": "npm run -w etl clickup-to-md -- 1004",
 		"frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
 		"frontend:dev": "npm run -w frontend dev",
@@ -58,6 +61,9 @@
 		],
 		"*.{md,yaml,scss}": [
 			"prettier --write"
+		],
+		"*.{njk,nunjucks}": [
+			"djlint --reformat --profile=nunjucks"
 		]
 	},
 	"workspaces": [
