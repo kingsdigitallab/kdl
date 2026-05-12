@@ -1,8 +1,8 @@
 ---
 tags: impact
 slide:
-  auto: 5000
-  loop: true
+    auto: 5000
+    loop: true
 ---
 
 {% slide %}

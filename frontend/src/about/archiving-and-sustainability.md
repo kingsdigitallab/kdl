@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 title: Archiving and sustainability
 eleventyNavigation:
-  key: Archiving
-  parent: About
+    key: Archiving
+    parent: About
 ---
 
 ## KDL's pragmatic approach to managing 100 Digital Humanities projects, and more

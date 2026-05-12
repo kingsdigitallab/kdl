@@ -2,17 +2,17 @@
 title: Machine Learning and AI
 permalink: projects/research-themes/machine-learning-ai/
 tags:
-  - theme
-  - Machine Learning and AI
+    - theme
+    - Machine Learning and AI
 excerpt: >
-  The AI/ML Research Theme aims to integrate AI and ML throughout the
-  software development lifecycle, fostering innovation and knowledge sharing
-  across critical, analytical, and practical RSE-driven research.
+    The AI/ML Research Theme aims to integrate AI and ML throughout the
+    software development lifecycle, fostering innovation and knowledge sharing
+    across critical, analytical, and practical RSE-driven research.
 feature:
-  image: /assets/images/themes/aiml.jpg
-  title: Image was created by artist Nidia Dias as part of the Visualising AI project launched by Google DeepMind.
-  description: >
-    A rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
+    image: /assets/images/themes/aiml.jpg
+    title: Image was created by artist Nidia Dias as part of the Visualising AI project launched by Google DeepMind.
+    description: >
+        A rectangular frame superimposed over the image of a colorful butterfly resting on a branch, surrounded by grass and a gray sky.
 ---
 
 The Artificial Intelligence/Machine Learning Research Theme focuses on creating

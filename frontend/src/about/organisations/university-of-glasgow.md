@@ -1,7 +1,7 @@
 ---
 title: University of Glasgow
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-glasgow
 foundingDate: null

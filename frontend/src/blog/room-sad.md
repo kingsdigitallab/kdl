@@ -2,15 +2,15 @@
 title: Room is Sad
 subtitle: Room is Sad is appearing at the London Design Biennale until June 25th.
 tags:
-  - post
+    - post
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2023-06-23
 excerpt: "Room is Sad is an immersive experience that uses AI and the Internet of Things (IoT) to tell the story of a smart room that isn’t feeling quite itself.  It's a humorous, accessible way to engage both an academic and general audience on questions of identity, privacy, and intelligence."
 feature:
-  image: /assets/images/blog/RoomIsSad_opening_2_cropped.original.jpg
-  title:
-  description: A desk with lamp and plant on top, in a room are bathed in purple light.
+    image: /assets/images/blog/RoomIsSad_opening_2_cropped.original.jpg
+    title:
+    description: A desk with lamp and plant on top, in a room are bathed in purple light.
 ---
 
 _Room is Sad_ appears at the London Design Biennale until June 25th

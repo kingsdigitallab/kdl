@@ -1,7 +1,7 @@
 ---
 title: German Academic Exchange Service
 tags:
-  - organisations
+    - organisations
 alternateName: DAAD
 slug: german-academic-exchange-service
 foundingDate: null

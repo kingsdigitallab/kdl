@@ -3,20 +3,20 @@ title: Neil Jakeman
 slug: neil-jakeman
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Analyst
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Engineer
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Analyst
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Engineer
 ---
 
 Neil came to the Department of Digital Humanities as a Research Developer in 2011 to help steer development in the spatial turn that DH research that was enjoying at that time. Arriving with a background in environmental analysis, spatial statistics, his interests within the department broadened to encompass the diversity of topics in the department’s portfolio.

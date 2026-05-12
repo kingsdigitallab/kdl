@@ -1,7 +1,7 @@
 ---
 title: UCL Institute of Education
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: ucl-institute-of-education
 foundingDate: null

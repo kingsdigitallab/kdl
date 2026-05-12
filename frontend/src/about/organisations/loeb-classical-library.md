@@ -1,7 +1,7 @@
 ---
 title: Loeb Classical Library
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: loeb-classical-library
 foundingDate: null

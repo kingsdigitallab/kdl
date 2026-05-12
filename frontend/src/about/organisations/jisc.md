@@ -1,7 +1,7 @@
 ---
 title: JISC
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: jisc
 foundingDate: null

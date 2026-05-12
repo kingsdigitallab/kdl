@@ -2,40 +2,40 @@
 title: Critical Modelling of Extensive Literary Data
 name: Critical Modelling of Extensive Literary Data
 tags:
-  - projects
+    - projects
 alternateName: Critical Modelling
 slug: critical-modelling
 foundingDate: 2020-01-01
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
-  title: Critical Modelling Reviews Waves
-  description: A series of black waveform patterns on a light grey background.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
+    title: Critical Modelling Reviews Waves
+    description: A series of black waveform patterns on a light grey background.
+    width: 1200
+    height: 800
 funders:
-  - name: The Australia National University
-    slug: the-australia-national-university
-  - name: King's College London
-    slug: kings-college-london
+    - name: The Australia National University
+      slug: the-australia-national-university
+    - name: King's College London
+      slug: kings-college-london
 departments:
-  - name: The Australia National University
-    slug: the-australia-national-university
-  - name: King's Digital Lab
-    slug: kdl
+    - name: The Australia National University
+      slug: the-australia-national-university
+    - name: King's Digital Lab
+      slug: kdl
 members:
-  - name: Katherine Bode
-    slug: katherine-bode
-    roleName: Principal investigator
-    inOrganisation: null
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-    inOrganisation: null
+    - name: Katherine Bode
+      slug: katherine-bode
+      roleName: Principal investigator
+      inOrganisation: null
+    - name: Arianna Ciula
+      slug: arianna-ciula
+      roleName: Research Software Analyst
+      inOrganisation: null
 keywords:
-  - name: Machine Learning and AI
-    slug: machine-learning-ai
+    - name: Machine Learning and AI
+      slug: machine-learning-ai
 urls: []
 ---
 

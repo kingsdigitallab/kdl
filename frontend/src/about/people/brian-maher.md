@@ -3,14 +3,14 @@ title: Brian Maher
 slug: brian-maher
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Engineer
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Engineer
 ---
 
 After completing his MSc in Bioinformatics at KCL, Brian joined the

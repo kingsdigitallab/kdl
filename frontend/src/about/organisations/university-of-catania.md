@@ -1,7 +1,7 @@
 ---
 title: University of Catania
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-catania
 foundingDate: null

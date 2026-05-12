@@ -1,6 +1,6 @@
 {
-  "frontend": {
-    "public": { "assets": { "images": { "general": {}, "slides": {} } } },
-    "src": { "slides": {} }
-  }
+	"frontend": {
+		"public": { "assets": { "images": { "general": {}, "slides": {} } } },
+		"src": { "slides": {} }
+	}
 }

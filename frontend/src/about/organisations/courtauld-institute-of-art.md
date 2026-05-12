@@ -1,7 +1,7 @@
 ---
 title: Courtauld Institute of Art
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: courtauld-institute-of-art
 foundingDate: null

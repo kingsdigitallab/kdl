@@ -2,94 +2,94 @@
 title: "CultureCase: putting research to work"
 name: "CultureCase: putting research to work"
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: culture-case
 foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/CultureCase--Tomb in India.jpg
-  title: Photo by Ibrahim Rifath
-  description: A traveler with a backpack stands facing an ornate white tomb,
-    surrounded by gardens under a clear sky.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/CultureCase--Tomb in India.jpg
+    title: Photo by Ibrahim Rifath
+    description: A traveler with a backpack stands facing an ornate white tomb,
+        surrounded by gardens under a clear sky.
+    width: 1200
+    height: 800
 funders:
-  - name: KCL Culture
-    slug: kcl-culture
+    - name: KCL Culture
+      slug: kcl-culture
 departments:
-  - name: FAH King's Culture
-    slug: fah-kings-culture
-  - name: King's College, London
-    slug: kings-college-london
+    - name: FAH King's Culture
+      slug: fah-kings-culture
+    - name: King's College, London
+      slug: kings-college-london
 members:
-  - name: Geoffroy Noel
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-  - name: Dan Walker
-    slug: dan-walker
-    roleName: Principal investigator
-    inOrganisation:
-      name: King's Culture
-      slug: kings-culture
-  - name: Ruth Hogarth
-    slug: ruth-hogarth
-    roleName: Principal investigator
-    inOrganisation:
-      name: King's Culture
-      slug: kings-culture
-  - name: Elizabeth Sklar
-    slug: elizabeth-sklar
-    roleName: Principal investigator
-    inOrganisation:
-      name: Faculty of Natural, Mathematical & Engineering Sciences
-      slug: faculty-of-natural-mathematical-engineering-sciences
-  - name: Anna Reading
-    slug: anna-reading
-    roleName: Co-Investigator
-    inOrganisation:
-      name: FAH Department of Culture, Media & Creative Industries
-      slug: fah-department-of-culture-media-creative-industries
-  - name: Jansen Chipp
-    slug: jansen-chipp
-    roleName: Researcher
-    inOrganisation:
-      name: Unknown
-      slug: unknown
-  - name: Kai Essers
-    slug: kai-essers
-    roleName: Researcher
-    inOrganisation:
-      name: Unknown
-      slug: unknown
-  - name: Alexandra Talbott
-    slug: alexandra-talbott
-    roleName: Researcher
-    inOrganisation:
-      name: Unknown
-      slug: unknown
-  - name: James Doeser
-    slug: james-doeser
-    roleName: Researcher
-    inOrganisation:
-      name: King's Colleg London
-      slug: kings-colleg-london
+    - name: Geoffroy Noel
+      slug: geoffroy-noel
+      roleName: Research Software Engineer
+    - name: Arianna Ciula
+      slug: arianna-ciula
+      roleName: Research Software Analyst
+    - name: Tiffany Ong
+      slug: tiffany-ong
+      roleName: Research Software Designer
+    - name: Dan Walker
+      slug: dan-walker
+      roleName: Principal investigator
+      inOrganisation:
+          name: King's Culture
+          slug: kings-culture
+    - name: Ruth Hogarth
+      slug: ruth-hogarth
+      roleName: Principal investigator
+      inOrganisation:
+          name: King's Culture
+          slug: kings-culture
+    - name: Elizabeth Sklar
+      slug: elizabeth-sklar
+      roleName: Principal investigator
+      inOrganisation:
+          name: Faculty of Natural, Mathematical & Engineering Sciences
+          slug: faculty-of-natural-mathematical-engineering-sciences
+    - name: Anna Reading
+      slug: anna-reading
+      roleName: Co-Investigator
+      inOrganisation:
+          name: FAH Department of Culture, Media & Creative Industries
+          slug: fah-department-of-culture-media-creative-industries
+    - name: Jansen Chipp
+      slug: jansen-chipp
+      roleName: Researcher
+      inOrganisation:
+          name: Unknown
+          slug: unknown
+    - name: Kai Essers
+      slug: kai-essers
+      roleName: Researcher
+      inOrganisation:
+          name: Unknown
+          slug: unknown
+    - name: Alexandra Talbott
+      slug: alexandra-talbott
+      roleName: Researcher
+      inOrganisation:
+          name: Unknown
+          slug: unknown
+    - name: James Doeser
+      slug: james-doeser
+      roleName: Researcher
+      inOrganisation:
+          name: King's Colleg London
+          slug: kings-colleg-london
 keywords: []
 urls:
-  - name: Project URL
-    url: https://culturecase.org/
-  - name: "Repository: https://github.com/kingsdigitallab/culturecase-django/"
-    url: https://github.com/kingsdigitallab/culturecase-django/
+    - name: Project URL
+      url: https://culturecase.org/
+    - name: "Repository: https://github.com/kingsdigitallab/culturecase-django/"
+      url: https://github.com/kingsdigitallab/culturecase-django/
 sla:
-  start: null
-  end: null
+    start: null
+    end: null
 draft: false
 ---
 

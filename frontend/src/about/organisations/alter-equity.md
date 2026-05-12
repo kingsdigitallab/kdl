@@ -1,7 +1,7 @@
 ---
 title: Alter Equity
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: alter-equity
 foundingDate: null

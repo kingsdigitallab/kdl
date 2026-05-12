@@ -1,110 +1,110 @@
 {
-  "discover": [
-    {
-      "title": "Activities",
-      "class": "activities",
-      "description": "Some of the ways we enable and deliver digital research.",
-      "items": [
-        {
-          "title": "Planning and analysis",
-          "items": [
-            "Defining requirements",
-            "Cost estimation",
-            "Data analysis",
-            "Modelling",
-            "Designing technical solutions"
-          ]
-        },
-        {
-          "title": "Creating and sustaining",
-          "items": [
-            "Building and maintaining digital resources",
-            "Data visualization",
-            "Digital accessibility",
-            "Archiving and sustainability"
-          ]
-        },
-        {
-          "title": "Participating, contributing, disseminating",
-          "items": [
-            "Sharing code",
-            "Professional bodies and interest groups",
-            "Publications",
-            "Outreach and training"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Research themes",
-      "class": "research",
-      "description": "Some pathways of innovation we are exploring.",
-      "items": [
-        {
-          "title": "Digital Creativity",
-          "url": "projects/research-themes/digital-creativity",
-          "description": "Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions."
-        },
-        {
-          "title": "Indigenous Digital Humanities",
-          "url": "projects/research-themes/indigenous-digital-humanities",
-          "description": "Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources."
-        },
-        {
-          "title": "Machine Learning and AI",
-          "url": "projects/research-themes/machine-learning-ai",
-          "description": "Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research."
-        },
-        {
-          "title": "Data Visualisation",
-          "url": "projects/research-themes/data-visualisation",
-          "description": "Organizing data with form, structure and shape to help users understand the story it has to tell."
-        }
-      ]
-    }
-  ],
-  "communities": {
-    "title": "Communities",
-    "description": "Organizations and groups we have formal attachment to via active contribution, affiliation or sponsorship as description of the communities space.",
-    "items": [
-      {
-        "title": "Digital Futures Institute",
-        "url": "https://www.kcl.ac.uk/digital-futures",
-        "image": "/assets/images/general/dfi-logo.png",
-        "description": "King’s College London Institute bringing together expertise from across all disciplines aiming at living well with technology."
-      },
-      {
-        "title": "King\u2019s Institute for Artificial Intelligence",
-        "url": "https://www.kcl.ac.uk/ai",
-        "image": "/assets/images/general/kcl-ai-institute-logo.png",
-        "description": "King’s College London Institute supporting and promoting work in artificial intelligence (AI) across the College."
-      },
-      {
-        "title": "Society of Research Software Engineering",
-        "url": "https://society-rse.org/",
-        "image": "/assets/images/general/society-rse-logo.png",
-        "description": "UK professional society establishing a research environment that recognises the vital role of software in research."
-      },
+	"discover": [
+		{
+			"title": "Activities",
+			"class": "activities",
+			"description": "Some of the ways we enable and deliver digital research.",
+			"items": [
+				{
+					"title": "Planning and analysis",
+					"items": [
+						"Defining requirements",
+						"Cost estimation",
+						"Data analysis",
+						"Modelling",
+						"Designing technical solutions"
+					]
+				},
+				{
+					"title": "Creating and sustaining",
+					"items": [
+						"Building and maintaining digital resources",
+						"Data visualization",
+						"Digital accessibility",
+						"Archiving and sustainability"
+					]
+				},
+				{
+					"title": "Participating, contributing, disseminating",
+					"items": [
+						"Sharing code",
+						"Professional bodies and interest groups",
+						"Publications",
+						"Outreach and training"
+					]
+				}
+			]
+		},
+		{
+			"title": "Research themes",
+			"class": "research",
+			"description": "Some pathways of innovation we are exploring.",
+			"items": [
+				{
+					"title": "Digital Creativity",
+					"url": "projects/research-themes/digital-creativity",
+					"description": "Experimenting with digital tools to enable, enhance, and expand our cultural experiences and interactions."
+				},
+				{
+					"title": "Indigenous Digital Humanities",
+					"url": "projects/research-themes/indigenous-digital-humanities",
+					"description": "Fostering understanding, respect, and cooperation among holding institutions, researchers and minority groups to help work on complex issues around data from indigenous community sources."
+				},
+				{
+					"title": "Machine Learning and AI",
+					"url": "projects/research-themes/machine-learning-ai",
+					"description": "Working to create a virtual cycle around ML and AI that goes beyond single projects solutions across the triangle of critical, analytical and practical RSE-driven research."
+				},
+				{
+					"title": "Data Visualisation",
+					"url": "projects/research-themes/data-visualisation",
+					"description": "Organizing data with form, structure and shape to help users understand the story it has to tell."
+				}
+			]
+		}
+	],
+	"communities": {
+		"title": "Communities",
+		"description": "Organizations and groups we have formal attachment to via active contribution, affiliation or sponsorship as description of the communities space.",
+		"items": [
+			{
+				"title": "Digital Futures Institute",
+				"url": "https://www.kcl.ac.uk/digital-futures",
+				"image": "/assets/images/general/dfi-logo.png",
+				"description": "King’s College London Institute bringing together expertise from across all disciplines aiming at living well with technology."
+			},
+			{
+				"title": "King\u2019s Institute for Artificial Intelligence",
+				"url": "https://www.kcl.ac.uk/ai",
+				"image": "/assets/images/general/kcl-ai-institute-logo.png",
+				"description": "King’s College London Institute supporting and promoting work in artificial intelligence (AI) across the College."
+			},
+			{
+				"title": "Society of Research Software Engineering",
+				"url": "https://society-rse.org/",
+				"image": "/assets/images/general/society-rse-logo.png",
+				"description": "UK professional society establishing a research environment that recognises the vital role of software in research."
+			},
 
-      {
-        "title": "UK-Ireland Digital Humanities Association",
-        "url": "https://digitalhumanities-uk-ie.org/",
-        "image": "/assets/images/general/uk-ie-dha-logo.png",
-        "description": "UK and Ireland professional association bringing together digital humanities researchers, practitioners and organisations."
-      },
+			{
+				"title": "UK-Ireland Digital Humanities Association",
+				"url": "https://digitalhumanities-uk-ie.org/",
+				"image": "/assets/images/general/uk-ie-dha-logo.png",
+				"description": "UK and Ireland professional association bringing together digital humanities researchers, practitioners and organisations."
+			},
 
-      {
-        "title": "Digital Research Infrastructure for the Arts and Humanities",
-        "url": "https://www.dariah.eu/",
-        "image": "/assets/images/general/dariah-logo.png",
-        "description": "Pan-European infrastructure enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
-      },
-      {
-        "title": "Text Encoding Initiative",
-        "url": "https://tei-c.org/",
-        "image": "/assets/images/general/tei-logo.png",
-        "description": "International consortium developing and maintaining a standard for the representation of texts in digital form."
-      }
-    ]
-  }
+			{
+				"title": "Digital Research Infrastructure for the Arts and Humanities",
+				"url": "https://www.dariah.eu/",
+				"image": "/assets/images/general/dariah-logo.png",
+				"description": "Pan-European infrastructure enhancing and supporting digitally-enabled research and teaching across the arts and humanities."
+			},
+			{
+				"title": "Text Encoding Initiative",
+				"url": "https://tei-c.org/",
+				"image": "/assets/images/general/tei-logo.png",
+				"description": "International consortium developing and maintaining a standard for the representation of texts in digital form."
+			}
+		]
+	}
 }

@@ -1,7 +1,7 @@
 ---
 title: New York University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: nyu
 foundingDate: null

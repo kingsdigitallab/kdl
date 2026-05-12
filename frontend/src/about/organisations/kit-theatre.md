@@ -1,7 +1,7 @@
 ---
 title: KIT Theatre
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: kit-theatre
 foundingDate: null

@@ -1,7 +1,7 @@
 ---
 title: University of Sussex
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-sussex
 foundingDate: null

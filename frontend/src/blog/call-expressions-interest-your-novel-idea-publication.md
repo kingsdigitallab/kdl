@@ -2,18 +2,18 @@
 title: "Call for expressions of interest: your novel idea of publication"
 subtitle:
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2017-11-22
 excerpt: Stanford University Press (SUP) and King’s Digital Lab (KDL, King’s
-  College London) invite expressions of interest to propose ideas for a digital
-  academic publication blending cutting-edge technology with very high quality
-  scholarship.
+    College London) invite expressions of interest to propose ideas for a digital
+    academic publication blending cutting-edge technology with very high quality
+    scholarship.
 feature:
-  image: /assets/images/blog/pexels-fotografia-eles-dois-12518241.jpg
-  title:
-  description: Black envelopes neatly arranged and secured with twine on a polished wooden table.
+    image: /assets/images/blog/pexels-fotografia-eles-dois-12518241.jpg
+    title:
+    description: Black envelopes neatly arranged and secured with twine on a polished wooden table.
 ---
 
 [Stanford University Press](http://sup.org/) (SUP) and [King’s Digital Lab](https://www.kdl.kcl.ac.uk/) (KDL, King’s College London) invite expressions of interest to propose ideas for a digital academic publication blending cutting-edge technology with very high quality scholarship.

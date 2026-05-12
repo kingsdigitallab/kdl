@@ -1,7 +1,7 @@
 ---
 title: Heidelberg University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: heidelberg-university
 foundingDate: null

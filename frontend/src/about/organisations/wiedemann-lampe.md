@@ -1,7 +1,7 @@
 ---
 title: Wiedemann Lampe
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: wiedemann-lampe
 foundingDate: null

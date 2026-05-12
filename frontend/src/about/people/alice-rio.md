@@ -3,12 +3,12 @@ title: Alice Rio
 slug: alice-rio
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-    roleName: Principal investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
+      roleName: Principal investigator
 ---

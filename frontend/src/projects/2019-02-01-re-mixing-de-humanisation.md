@@ -1,75 +1,75 @@
 ---
 title: "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for
-  Hard to Reach Audiences with Museums of Migration  "
+    Hard to Reach Audiences with Museums of Migration  "
 name: "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for
-  Hard to Reach Audiences with Museums of Migration  "
+    Hard to Reach Audiences with Museums of Migration  "
 tags:
-  - projects
+    - projects
 alternateName: Room to Breath
 slug: re-mixing-de-humanisation
 foundingDate: 2019-02-01
 dissolutionDate: 2019-07-01
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Room to breath--Screenshot.jpg
-  title: Screenshot from the project video
-  description: A digitally rendered dimly lit bedroom with a bed, chair, and
-    glowing lights, featuring a textured, painterly effect.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/Room to breath--Screenshot.jpg
+    title: Screenshot from the project video
+    description: A digitally rendered dimly lit bedroom with a bed, chair, and
+        glowing lights, featuring a textured, painterly effect.
+    width: 1200
+    height: 800
 funders:
-  - name: King's College London
-    slug: kings-college-london
+    - name: King's College London
+      slug: kings-college-london
 departments:
-  - name: FAH Department of Culture, Media & Creative Industries
-    slug: fah-department-of-culture-media-and-creative-industries
-  - name: Migration Museum
-    slug: migration-museum
-  - name: FAH Department of History
-    slug: fah-department-of-history
-members:
-  - name: Leonie Ansems de Vries
-    slug: leonie-ansems-de-vries
-    roleName: Researcher
-    inOrganisation: null
-  - name: Adita Anand
-    slug: adita-anand
-    roleName: Researcher
-    inOrganisation:
-      name: Migration Museum
-      slug: migration-museum
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Analyst
-    inOrganisation: null
-  - name: James Smithies
-    slug: james-smithies
-    roleName: Co-investigator
-    inOrganisation: null
-  - name: Liberty Melly
-    slug: liberty-melly
-    roleName: Researcher
-    inOrganisation:
-      name: Migration Museum
-      slug: migration-museum
-  - name: Anna Reading
-    slug: anna-reading
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Culture, Media & Creative Industries
+    - name: FAH Department of Culture, Media & Creative Industries
       slug: fah-department-of-culture-media-and-creative-industries
-  - name: James Bjork
-    slug: james-bjork
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of History
+    - name: Migration Museum
+      slug: migration-museum
+    - name: FAH Department of History
       slug: fah-department-of-history
+members:
+    - name: Leonie Ansems de Vries
+      slug: leonie-ansems-de-vries
+      roleName: Researcher
+      inOrganisation: null
+    - name: Adita Anand
+      slug: adita-anand
+      roleName: Researcher
+      inOrganisation:
+          name: Migration Museum
+          slug: migration-museum
+    - name: Neil Jakeman
+      slug: neil-jakeman
+      roleName: Research Software Analyst
+      inOrganisation: null
+    - name: James Smithies
+      slug: james-smithies
+      roleName: Co-investigator
+      inOrganisation: null
+    - name: Liberty Melly
+      slug: liberty-melly
+      roleName: Researcher
+      inOrganisation:
+          name: Migration Museum
+          slug: migration-museum
+    - name: Anna Reading
+      slug: anna-reading
+      roleName: Principal investigator
+      inOrganisation:
+          name: FAH Department of Culture, Media & Creative Industries
+          slug: fah-department-of-culture-media-and-creative-industries
+    - name: James Bjork
+      slug: james-bjork
+      roleName: Principal investigator
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
 keywords:
-  - name: Digital Creativity
-    slug: digital-creativity
+    - name: Digital Creativity
+      slug: digital-creativity
 urls:
-  - name: Project Video URL
-    url: https://vimeo.com/448849848
+    - name: Project Video URL
+      url: https://vimeo.com/448849848
 ---
 
 The project sought to explore the potential for communicating exhibits, stories and personal experiences using immersive technology. It focused on transmitting, replicating, or otherwise porting, the Room to Breathe temporary exhibition showing at the UK Migration Museum.

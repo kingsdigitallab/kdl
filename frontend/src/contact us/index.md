@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 title: Contact us
 eleventyNavigation:
-  key: Contact
-  order: 5
+    key: Contact
+    order: 5
 permalink: "contact-us/"
 templateEngineOverride: njk, md
 ---

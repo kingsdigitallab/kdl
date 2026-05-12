@@ -1,7 +1,7 @@
 ---
 title: Newcastle University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: newcastle-university
 foundingDate: null

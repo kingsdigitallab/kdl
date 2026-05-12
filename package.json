@@ -20,7 +20,7 @@
 		"pkg": "npm run exec npm",
 		"cms:snapshot": "npm run pkg --service=cms run snapshot:create",
 		"cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml",
-		"lint": "eslint 'etl/src/**' 'frontend/src/**' 'cypress/**'",
+		"lint": "eslint 'etl/src/**/*.js' 'frontend/src/**/*.js' 'cypress/**/*.js'",
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "prettier . --check",
 		"prettier:fix": "npm run prettier -- --write",
@@ -43,7 +43,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-cypress": "^6.3.1",
 		"lint-staged": "^17.0.4",
-		"prettier": "^2.6.2",
+		"prettier": "^3.8.3",
 		"prettier-plugin-sort-imports": "^1.8.11",
 		"simple-git-hooks": "^2.13.1",
 		"vscode-langservers-extracted": "^4.10.0"

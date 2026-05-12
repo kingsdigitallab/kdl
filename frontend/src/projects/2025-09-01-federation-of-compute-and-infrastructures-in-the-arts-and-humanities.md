@@ -3,59 +3,59 @@ draft: false
 title: Federation of Compute and Infrastructures in the Arts and Humanities
 name: Federation of Compute and Infrastructures in the Arts and Humanities
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: federation-of-compute-and-infrastructures-in-the-arts-and-humanities
 foundingDate: 2025-09-01
 dissolutionDate: 2026-07-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/FederationOfComputeMarkusWinkler.jpg
-  title: Photo by Markus Winkler
-  description: Wooden letter tiles scattered on a surface, with the word 'FED'
-    arranged on a green tile rack in the centre.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/FederationOfComputeMarkusWinkler.jpg
+    title: Photo by Markus Winkler
+    description: Wooden letter tiles scattered on a surface, with the word 'FED'
+        arranged on a green tile rack in the centre.
+    width: 1200
+    height: 800
 keywords:
-  - name: Digital Futures Institute
-    slug: digital-futures-institute
+    - name: Digital Futures Institute
+      slug: digital-futures-institute
 funders:
-  - name: UK Research and Innovation (UKRI)
-    slug: uk-research-and-innovation-ukri
+    - name: UK Research and Innovation (UKRI)
+      slug: uk-research-and-innovation-ukri
 departments:
-  - name: King's Digital Lab
-    slug: kings-digital-lab
-  - name: KCL eResearch
-    slug: kcl-eresearch
-  - name: University of Brighton
-    slug: university-of-brighton
-  - name: King's College, London
-    slug: kings-college-london
-members:
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Co-Investigator
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Co-Investigator
-  - name: Karina Rodriguez Echavarria
-    slug: karina-rodriguez-echavarria
-    roleName: Principal investigator
-    inOrganisation:
-      name: University of Brighton
-      slug: university-of-brighton
-  - name: Matt Penn
-    slug: matt-penn
-    roleName: Co-Investigator
-    inOrganisation:
-      name: KCL eResearch
+    - name: King's Digital Lab
+      slug: kings-digital-lab
+    - name: KCL eResearch
       slug: kcl-eresearch
+    - name: University of Brighton
+      slug: university-of-brighton
+    - name: King's College, London
+      slug: kings-college-london
+members:
+    - name: Neil Jakeman
+      slug: neil-jakeman
+      roleName: Co-Investigator
+    - name: Arianna Ciula
+      slug: arianna-ciula
+      roleName: Co-Investigator
+    - name: Karina Rodriguez Echavarria
+      slug: karina-rodriguez-echavarria
+      roleName: Principal investigator
+      inOrganisation:
+          name: University of Brighton
+          slug: university-of-brighton
+    - name: Matt Penn
+      slug: matt-penn
+      roleName: Co-Investigator
+      inOrganisation:
+          name: KCL eResearch
+          slug: kcl-eresearch
 sla:
-  start: null
-  end: null
+    start: null
+    end: null
 urls:
-  - name: Project URL
-    url: https://aah.culturedigitalskills.org/
+    - name: Project URL
+      url: https://aah.culturedigitalskills.org/
 ---
 
 This project on scoping Arts and Humanities (A&H) federation infrastructure contributes to the community pillar of the [NFCS NetworkPlus project](https://nfcs-networkplus.ac.uk/about/). Its aim is to engage with the A&H communities and stakeholders interested in federation and produce validated requirements for federation based on existing approaches, needs and user stories. It will build on existing insights and efforts from the A&H communities through investigation, surveying the community and community-facing events.

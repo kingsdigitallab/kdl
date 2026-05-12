@@ -1,7 +1,7 @@
 ---
 title: Leeds Beckett University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: leeds-beckett-university
 foundingDate: null

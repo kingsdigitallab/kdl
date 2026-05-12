@@ -2,19 +2,19 @@
 title: Making sense of the Stakeholder Map
 subtitle: A focused approach for high-level requirements
 tags:
-  - post
-  - Requirements
-  - Stakeholders
+    - post
+    - Requirements
+    - Stakeholders
 authors:
-  - Neil Jakeman
+    - Neil Jakeman
 date: 2022-06-28
 excerpt: We recently embarked with partners on an AHRC funded scoping exercise,
-  to define the specifications of a Complex 3D Data Repository for the Arts and
-  Humanities.
+    to define the specifications of a Complex 3D Data Repository for the Arts and
+    Humanities.
 feature:
-  image: /assets/images/blog/blog_banner_aX9rBsr.original.jpg
-  title: Neil Jakeman CC BY-NC
-  description: A 3D wooden box model and render of the Marconi Morse Tapper displaying the words "Complex 3D Data in Arts and Humanities"
+    image: /assets/images/blog/blog_banner_aX9rBsr.original.jpg
+    title: Neil Jakeman CC BY-NC
+    description: A 3D wooden box model and render of the Marconi Morse Tapper displaying the words "Complex 3D Data in Arts and Humanities"
 ---
 
 We recently embarked with partners on an AHRC funded scoping exercise, to define the specifications of a [Complex 3D Data Repository for the Arts and Humanities](https://blogs.brighton.ac.uk/3ddataservice/).

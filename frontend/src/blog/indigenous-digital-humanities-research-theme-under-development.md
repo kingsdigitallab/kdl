@@ -2,18 +2,18 @@
 title: Indigenous Digital Humanities
 subtitle: A Research Theme under Development
 tags:
-  - post
+    - post
 authors:
-  - Samantha Callaghan
+    - Samantha Callaghan
 date: 2022-09-07
 excerpt: Whaia e koe ki te iti kahurangi, kia tāpapa koe,he maunga
-  tiketikeFollow your treasured aspirations, if you must bow your head,let it be
-  to a lofty mountainNāku te rourou, nāu te rourou,ka ora ai te iwiWith my
-  basket, and your basket,we will feed the people
+    tiketikeFollow your treasured aspirations, if you must bow your head,let it be
+    to a lofty mountainNāku te rourou, nāu te rourou,ka ora ai te iwiWith my
+    basket, and your basket,we will feed the people
 feature:
-  image: /assets/images/blog/IDH_banner.original.jpg
-  title: © Sean Pike, 2022
-  description: Indigenous Digital Humanities Banner
+    image: /assets/images/blog/IDH_banner.original.jpg
+    title: © Sean Pike, 2022
+    description: Indigenous Digital Humanities Banner
 ---
 
 Whaia e koe ki te iti kahurangi, kia tāpapa koe,  
@@ -84,25 +84,25 @@ Ultimately, through my outreach work, I hope to encourage those working with Ind
 Although not an exhaustive list, these benefits might be:
 
 - For source communities —
-  - Reconnection
-  - Reclamation of control – in description, curation and narration, exercising data sovereignty
-  - Opportunities for capacity building
-  - Opportunities for relationship, network and knowledge building
-  - Taonga more likely to be ‘kept warm’ by [kaitiaki](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=kaitiaki) (custodians) if required, depending on cultural needs
+    - Reconnection
+    - Reclamation of control – in description, curation and narration, exercising data sovereignty
+    - Opportunities for capacity building
+    - Opportunities for relationship, network and knowledge building
+    - Taonga more likely to be ‘kept warm’ by [kaitiaki](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=kaitiaki) (custodians) if required, depending on cultural needs
 - For holding and research organisations —
-  - Better contextualised information and taonga description
-  - Opportunities for capacity building
-  - Opportunities for relationship, network and knowledge building
-  - Opportunities to host more enriching exhibitions and/or support ethical research practices
-  - Opportunities to challenge colonial narratives
+    - Better contextualised information and taonga description
+    - Opportunities for capacity building
+    - Opportunities for relationship, network and knowledge building
+    - Opportunities to host more enriching exhibitions and/or support ethical research practices
+    - Opportunities to challenge colonial narratives
 - For their audiences —
-  - Engagement with information and taonga description that is better contextualised
-  - Experience living, breathing stories and culture in space
-  - Sometimes opportunities to engage with Indigenous and other source communities, e.g. the [Hui-ā-tau](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=hui+%C4%81-tau) (annual event) of [Te Kohanga Reo o Rānana](https://www.ngatiranana.co.uk/kohanga) held every year out at Clandon Park, Surrey, or the [programme of performances and workshops](https://markk-hamburg.de/veranstaltungen/haka-poi-und-tattoos/) being hosted at the Museum am Rothenbaum, Hamburg, in September 2022
+    - Engagement with information and taonga description that is better contextualised
+    - Experience living, breathing stories and culture in space
+    - Sometimes opportunities to engage with Indigenous and other source communities, e.g. the [Hui-ā-tau](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=hui+%C4%81-tau) (annual event) of [Te Kohanga Reo o Rānana](https://www.ngatiranana.co.uk/kohanga) held every year out at Clandon Park, Surrey, or the [programme of performances and workshops](https://markk-hamburg.de/veranstaltungen/haka-poi-und-tattoos/) being hosted at the Museum am Rothenbaum, Hamburg, in September 2022
 - For those involved in this work —
-  - Opportunities for capacity building
-  - Opportunities for relationship, network and knowledge building
-  - For Early Career Researchers and new graduate GLAM staff opportunities to use knowledge gained through their degrees
+    - Opportunities for capacity building
+    - Opportunities for relationship, network and knowledge building
+    - For Early Career Researchers and new graduate GLAM staff opportunities to use knowledge gained through their degrees
 
 ![Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 - edited](/assets/images/blog/hinemihi_2012-2-denoiseai-standard-gigapixel-.width-1024.jpg "Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 © Sean Pike, 2022. Reproduced with permission.")
 

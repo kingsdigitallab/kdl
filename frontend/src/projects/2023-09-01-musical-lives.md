@@ -2,57 +2,57 @@
 title: Musical Lives
 name: Musical Lives
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: musical-lives
 foundingDate: 2023-09-01
 dissolutionDate: 2028-04-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Bibliothèque nationale de France, MS fr. 846 f.
-    94r.jpg
-  title: Bibliothèque Nationale De France, Ms Fr. 846 F. 94r
-  description: Medieval manuscript with illuminated letter depicting a scribe
-    writing on a scroll, surrounded by musical notation and text.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/Bibliothèque nationale de France, MS fr. 846 f.
+        94r.jpg
+    title: Bibliothèque Nationale De France, Ms Fr. 846 F. 94r
+    description: Medieval manuscript with illuminated letter depicting a scribe
+        writing on a scroll, surrounded by musical notation and text.
+    width: 1200
+    height: 800
 funders:
-  - name: European Research Council (ERC)
-    slug: european-research-council-erc
+    - name: European Research Council (ERC)
+      slug: european-research-council-erc
 departments:
-  - name: FAH Department of Music
-    slug: fah-department-of-music
-  - name: King's College, London
-    slug: kings-college-london
+    - name: FAH Department of Music
+      slug: fah-department-of-music
+    - name: King's College, London
+      slug: kings-college-london
 members:
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Analyst
-  - name: Emma Dillon
-    slug: emma-dillon
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Music
-      slug: fah-department-of-music
-  - name: Fiona Barsoum
-    slug: fiona-barsoum
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of Music
-      slug: fah-department-of-music
+    - name: Neil Jakeman
+      slug: neil-jakeman
+      roleName: Research Software Analyst
+    - name: Emma Dillon
+      slug: emma-dillon
+      roleName: Principal investigator
+      inOrganisation:
+          name: FAH Department of Music
+          slug: fah-department-of-music
+    - name: Fiona Barsoum
+      slug: fiona-barsoum
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of Music
+          slug: fah-department-of-music
 keywords: []
 urls:
-  - name: Faculty Project Page URL
-    url: https://www.kcl.ac.uk/research/musical-lives-towards-an-historical-anthropology-of-french-song-1100-1300-muslive
-  - name: Project URL
-    url: https://muslive.kcl.ac.uk/
-  - name: Data deposit repository
-    url: https://doi.org/10.18742/c.6803607.v3
-  - name: Partner url
-    url: https://www.kcl.ac.uk/news/professor-emma-dillon-awarded-erc-grant-for-music
+    - name: Faculty Project Page URL
+      url: https://www.kcl.ac.uk/research/musical-lives-towards-an-historical-anthropology-of-french-song-1100-1300-muslive
+    - name: Project URL
+      url: https://muslive.kcl.ac.uk/
+    - name: Data deposit repository
+      url: https://doi.org/10.18742/c.6803607.v3
+    - name: Partner url
+      url: https://www.kcl.ac.uk/news/professor-emma-dillon-awarded-erc-grant-for-music
 sla:
-  start: null
-  end: null
+    start: null
+    end: null
 draft: false
 ---
 

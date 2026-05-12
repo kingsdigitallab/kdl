@@ -7,13 +7,13 @@
 
 ## URLs
 
--   [dev site:](https://kingsdigitallab.github.io/kdl/)
+- [dev site:](https://kingsdigitallab.github.io/kdl/)
 
 ```text
 https://kingsdigitallab.github.io/kdl/
 ```
 
--   [live site:](https://kdl.kcl.ac.uk/)
+- [live site:](https://kdl.kcl.ac.uk/)
 
 ```text
 https://kdl.kcl.ac.uk/
@@ -30,8 +30,8 @@ The website uses a static-first approach:
 
 ### Dependencies
 
--   [Docker](https://www.docker.com/)
--   [Node](https://nodejs.org/) 20
+- [Docker](https://www.docker.com/)
+- [Node](https://nodejs.org/) 20
 
 Install the node packages:
 
@@ -49,8 +49,8 @@ npx simple-git-hooks
 
 This project is set up as a monorepo with:
 
--   **ETL**: Fetches data from ClickUp and outputs JSON to `frontend/src/_data/`
--   **Frontend**: 11ty static site generator
+- **ETL**: Fetches data from ClickUp and outputs JSON to `frontend/src/_data/`
+- **Frontend**: 11ty static site generator
 
 #### ETL
 
@@ -152,16 +152,16 @@ Some content is managed in ClickUp and synced to the site via ETL, while other c
 
 **In ClickUp:**
 
--   Team members (people, roles, organisations)
--   Projects (This updates the only `yaml` [frontmatter](https://www.markdownlang.com/advanced/frontmatter.html#yaml-frontmatter) of`frontend/src/projects/projectname.md`)
+- Team members (people, roles, organisations)
+- Projects (This updates the only `yaml` [frontmatter](https://www.markdownlang.com/advanced/frontmatter.html#yaml-frontmatter) of`frontend/src/projects/projectname.md`)
 
 **In Markdown files:**
 
--   Blog posts (`frontend/src/blog/*.md`)
--   FAQ pages (`frontend/src/faqs/*.md`)
--   Theme pages (`frontend/src/themes/*.md`)
--   Slides/presentations (`frontend/src/slides/*.md`)
--   Project descriptions need to be written manually into the automatically created markdown file from above (`frontend/src/projects/projectname.md`). Simply add an empty line below the second triple dash (`---`) and start writing your description.
+- Blog posts (`frontend/src/blog/*.md`)
+- FAQ pages (`frontend/src/faqs/*.md`)
+- Theme pages (`frontend/src/themes/*.md`)
+- Slides/presentations (`frontend/src/slides/*.md`)
+- Project descriptions need to be written manually into the automatically created markdown file from above (`frontend/src/projects/projectname.md`). Simply add an empty line below the second triple dash (`---`) and start writing your description.
 
 #### Example: Adding a blog article with an image
 

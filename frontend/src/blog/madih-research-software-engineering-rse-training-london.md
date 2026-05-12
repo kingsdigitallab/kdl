@@ -2,15 +2,15 @@
 title: "MaDiH (مديح): Research Software Engineering (RSE) Training"
 subtitle: London, 2nd-5th July 2019
 tags:
-  - post
+    - post
 authors:
-  - Alessandra Esposito
+    - Alessandra Esposito
 date: 2019-09-26
 excerpt: ""
 feature:
-  image: /assets/images/blog/IMG_20190702_145840736.original.jpg
-  title: © Picture credit Pascal Flohr.
-  description: Three men in a meeting room, with one man receiving an award from another man while the man on the left watches with a smile
+    image: /assets/images/blog/IMG_20190702_145840736.original.jpg
+    title: © Picture credit Pascal Flohr.
+    description: Three men in a meeting room, with one man receiving an award from another man while the man on the left watches with a smile
 ---
 
 ###

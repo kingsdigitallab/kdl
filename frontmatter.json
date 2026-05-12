@@ -1,487 +1,482 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "default",
-      "pageBundle": false,
-      "previewPath": null,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        }
-      ]
-    },
-    {
-      "name": "project",
-      "pageBundle": false,
-      "previewPath": null,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "alternateName",
-          "name": "alternateName",
-          "type": "string"
-        },
-        {
-          "title": "foundingDate",
-          "name": "foundingDate",
-          "type": "datetime"
-        },
-        {
-          "title": "dissolutionDate",
-          "name": "dissolutionDate",
-          "type": "datetime"
-        },
-        {
-          "title": "creativeWorkStatus",
-          "name": "creativeWorkStatus",
-          "type": "string"
-        },
-        {
-          "title": "feature",
-          "name": "feature",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "image",
-              "name": "image",
-              "type": "image"
-            },
-            {
-              "title": "title",
-              "name": "title",
-              "type": "string"
-            },
-            {
-              "title": "description",
-              "name": "description",
-              "type": "datetime"
-            },
-            {
-              "title": "width",
-              "name": "width",
-              "type": "number"
-            },
-            {
-              "title": "height",
-              "name": "height",
-              "type": "number"
-            }
-          ]
-        },
-        {
-          "title": "funders",
-          "name": "funders",
-          "type": "block",
-          "fieldGroup": ["funders_group"]
-        },
-        {
-          "title": "departments",
-          "name": "departments",
-          "type": "block",
-          "fieldGroup": ["departments_group"]
-        },
-        {
-          "title": "members",
-          "name": "members",
-          "type": "block",
-          "fieldGroup": ["members_group"]
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "choice",
-          "choices": [
-            "Data Visualisation",
-            "Digital Creativity",
-            "Indigenous Digital Humanities",
-            "Machine Learning and AI"
-          ]
-        },
-        {
-          "title": "urls",
-          "name": "urls",
-          "type": "block",
-          "fieldGroup": ["urls_group"]
-        }
-      ]
-    },
-    {
-      "name": "post",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "subtitle",
-          "name": "subtitle",
-          "type": "datetime"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "authors",
-          "name": "authors",
-          "type": "choice",
-          "choices": ["Miguel Vieira", "Samantha Callaghan"]
-        },
-        {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "excerpt",
-          "name": "excerpt",
-          "type": "string"
-        },
-        {
-          "title": "feature",
-          "name": "feature",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "image",
-              "name": "image",
-              "type": "image"
-            },
-            {
-              "title": "title",
-              "name": "title",
-              "type": "string"
-            },
-            {
-              "title": "description",
-              "name": "description",
-              "type": "string"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "organisation",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "alternateName",
-          "name": "alternateName",
-          "type": "string"
-        },
-        {
-          "title": "foundingDate",
-          "name": "foundingDate",
-          "type": "datetime"
-        },
-        {
-          "title": "dissolutionDate",
-          "name": "dissolutionDate",
-          "type": "datetime"
-        },
-        {
-          "title": "parentOrganisation",
-          "name": "parentOrganisation",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "name",
-              "name": "name",
-              "type": "string"
-            },
-            {
-              "title": "alternateName",
-              "name": "alternateName",
-              "type": "string"
-            }
-          ]
-        },
-        {
-          "title": "subOrganisations",
-          "name": "subOrganisations",
-          "type": "block",
-          "fieldGroup": ["subOrganisations_group"]
-        },
-        {
-          "title": "urls",
-          "name": "urls",
-          "type": "block",
-          "fieldGroup": ["urls_group"]
-        }
-      ]
-    },
-    {
-      "name": "person",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "jobTitle",
-          "name": "jobTitle",
-          "type": "string"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "memberOf",
-          "name": "memberOf",
-          "type": "block",
-          "fieldGroup": ["memberOf_group"]
-        }
-      ]
-    }
-  ],
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "src",
-      "path": "[[workspace]]/frontend/src",
-      "contentTypes": ["default"]
-    },
-    {
-      "title": "organisations",
-      "path": "[[workspace]]/frontend/src/about/organisations",
-      "contentTypes": ["organisation"]
-    },
-    {
-      "title": "people",
-      "path": "[[workspace]]/frontend/src/about/people",
-      "contentTypes": ["person"]
-    },
-    {
-      "title": "projects",
-      "path": "[[workspace]]/frontend/src/projects",
-      "contentTypes": ["project"]
-    },
-    {
-      "title": "blog",
-      "path": "[[workspace]]/frontend/src/blog",
-      "contentTypes": ["post"]
-    }
-  ],
-  "frontMatter.content.publicFolder": {
-    "path": "[[workspace]]/frontend/public",
-    "relative": false
-  },
-  "frontMatter.data.types": [
-    {
-      "id": "team",
-      "schema": {
-        "title": "Team",
-        "type": "object",
-        "required": ["slug", "jobTitle", "team"],
-        "properties": {
-          "slug": {
-            "type": "slug",
-            "title": "Slug"
-          },
-          "jobTitle": {
-            "type": "string",
-            "title": "Job title"
-          },
-          "team": {
-            "type": "choices",
-            "choices": [
-              "KDL",
-              "Academic affiliates",
-              "Research fellows",
-              "Former staff"
-            ],
-            "title": "Team name"
-          }
-        }
-      }
-    }
-  ],
-  "frontMatter.data.files": [
-    {
-      "id": "team",
-      "title": "Team",
-      "file": "[[workspace]]/frontend/src/_data/team.json",
-      "fileType": "json",
-      "labelField": "slug",
-      "singleEntry": false,
-      "type": "team"
-    }
-  ],
-  "frontMatter.taxonomy.fieldGroups": [
-    {
-      "id": "funders_group",
-      "fields": [
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "id": "departments_group",
-      "fields": [
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "id": "members_group",
-      "fields": [
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        },
-        {
-          "title": "roleName",
-          "name": "roleName",
-          "type": "string"
-        },
-        {
-          "title": "inOrganisation",
-          "name": "inOrganisation",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "name",
-              "name": "name",
-              "type": "string"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "urls_group",
-      "fields": [
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        },
-        {
-          "title": "url",
-          "name": "url",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "id": "subOrganisations_group",
-      "fields": [
-        {
-          "title": "name",
-          "name": "name",
-          "type": "string"
-        },
-        {
-          "title": "alternateName",
-          "name": "alternateName",
-          "type": "datetime"
-        }
-      ]
-    },
-    {
-      "id": "urls_group",
-      "fields": [
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "url",
-          "name": "url",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "id": "memberOf_group",
-      "fields": [
-        {
-          "title": "startDate",
-          "name": "startDate",
-          "type": "datetime"
-        },
-        {
-          "title": "endDate",
-          "name": "endDate",
-          "type": "datetime"
-        },
-        {
-          "title": "organisation",
-          "name": "organisation",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "name",
-              "name": "name",
-              "type": "string"
-            }
-          ]
-        },
-        {
-          "title": "roleName",
-          "name": "roleName",
-          "type": "string"
-        }
-      ]
-    }
-  ]
+	"$schema": "https://frontmatter.codes/frontmatter.schema.json",
+	"frontMatter.taxonomy.contentTypes": [
+		{
+			"name": "default",
+			"pageBundle": false,
+			"previewPath": null,
+			"fields": [
+				{
+					"title": "Title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "Description",
+					"name": "description",
+					"type": "string"
+				},
+				{
+					"title": "Publishing date",
+					"name": "date",
+					"type": "datetime",
+					"default": "{{now}}",
+					"isPublishDate": true
+				},
+				{
+					"title": "Tags",
+					"name": "tags",
+					"type": "tags"
+				}
+			]
+		},
+		{
+			"name": "project",
+			"pageBundle": false,
+			"previewPath": null,
+			"fields": [
+				{
+					"title": "title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"title": "tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "alternateName",
+					"name": "alternateName",
+					"type": "string"
+				},
+				{
+					"title": "foundingDate",
+					"name": "foundingDate",
+					"type": "datetime"
+				},
+				{
+					"title": "dissolutionDate",
+					"name": "dissolutionDate",
+					"type": "datetime"
+				},
+				{
+					"title": "creativeWorkStatus",
+					"name": "creativeWorkStatus",
+					"type": "string"
+				},
+				{
+					"title": "feature",
+					"name": "feature",
+					"type": "fields",
+					"fields": [
+						{
+							"title": "image",
+							"name": "image",
+							"type": "image"
+						},
+						{
+							"title": "title",
+							"name": "title",
+							"type": "string"
+						},
+						{
+							"title": "description",
+							"name": "description",
+							"type": "datetime"
+						},
+						{
+							"title": "width",
+							"name": "width",
+							"type": "number"
+						},
+						{
+							"title": "height",
+							"name": "height",
+							"type": "number"
+						}
+					]
+				},
+				{
+					"title": "funders",
+					"name": "funders",
+					"type": "block",
+					"fieldGroup": ["funders_group"]
+				},
+				{
+					"title": "departments",
+					"name": "departments",
+					"type": "block",
+					"fieldGroup": ["departments_group"]
+				},
+				{
+					"title": "members",
+					"name": "members",
+					"type": "block",
+					"fieldGroup": ["members_group"]
+				},
+				{
+					"title": "keywords",
+					"name": "keywords",
+					"type": "choice",
+					"choices": [
+						"Data Visualisation",
+						"Digital Creativity",
+						"Indigenous Digital Humanities",
+						"Machine Learning and AI"
+					]
+				},
+				{
+					"title": "urls",
+					"name": "urls",
+					"type": "block",
+					"fieldGroup": ["urls_group"]
+				}
+			]
+		},
+		{
+			"name": "post",
+			"pageBundle": false,
+			"fields": [
+				{
+					"title": "title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "subtitle",
+					"name": "subtitle",
+					"type": "datetime"
+				},
+				{
+					"title": "tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "authors",
+					"name": "authors",
+					"type": "choice",
+					"choices": ["Miguel Vieira", "Samantha Callaghan"]
+				},
+				{
+					"title": "date",
+					"name": "date",
+					"type": "datetime"
+				},
+				{
+					"title": "excerpt",
+					"name": "excerpt",
+					"type": "string"
+				},
+				{
+					"title": "feature",
+					"name": "feature",
+					"type": "fields",
+					"fields": [
+						{
+							"title": "image",
+							"name": "image",
+							"type": "image"
+						},
+						{
+							"title": "title",
+							"name": "title",
+							"type": "string"
+						},
+						{
+							"title": "description",
+							"name": "description",
+							"type": "string"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "organisation",
+			"pageBundle": false,
+			"fields": [
+				{
+					"title": "title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "alternateName",
+					"name": "alternateName",
+					"type": "string"
+				},
+				{
+					"title": "foundingDate",
+					"name": "foundingDate",
+					"type": "datetime"
+				},
+				{
+					"title": "dissolutionDate",
+					"name": "dissolutionDate",
+					"type": "datetime"
+				},
+				{
+					"title": "parentOrganisation",
+					"name": "parentOrganisation",
+					"type": "fields",
+					"fields": [
+						{
+							"title": "name",
+							"name": "name",
+							"type": "string"
+						},
+						{
+							"title": "alternateName",
+							"name": "alternateName",
+							"type": "string"
+						}
+					]
+				},
+				{
+					"title": "subOrganisations",
+					"name": "subOrganisations",
+					"type": "block",
+					"fieldGroup": ["subOrganisations_group"]
+				},
+				{
+					"title": "urls",
+					"name": "urls",
+					"type": "block",
+					"fieldGroup": ["urls_group"]
+				}
+			]
+		},
+		{
+			"name": "person",
+			"pageBundle": false,
+			"fields": [
+				{
+					"title": "title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "jobTitle",
+					"name": "jobTitle",
+					"type": "string"
+				},
+				{
+					"title": "tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "memberOf",
+					"name": "memberOf",
+					"type": "block",
+					"fieldGroup": ["memberOf_group"]
+				}
+			]
+		}
+	],
+	"frontMatter.content.pageFolders": [
+		{
+			"title": "src",
+			"path": "[[workspace]]/frontend/src",
+			"contentTypes": ["default"]
+		},
+		{
+			"title": "organisations",
+			"path": "[[workspace]]/frontend/src/about/organisations",
+			"contentTypes": ["organisation"]
+		},
+		{
+			"title": "people",
+			"path": "[[workspace]]/frontend/src/about/people",
+			"contentTypes": ["person"]
+		},
+		{
+			"title": "projects",
+			"path": "[[workspace]]/frontend/src/projects",
+			"contentTypes": ["project"]
+		},
+		{
+			"title": "blog",
+			"path": "[[workspace]]/frontend/src/blog",
+			"contentTypes": ["post"]
+		}
+	],
+	"frontMatter.content.publicFolder": {
+		"path": "[[workspace]]/frontend/public",
+		"relative": false
+	},
+	"frontMatter.data.types": [
+		{
+			"id": "team",
+			"schema": {
+				"title": "Team",
+				"type": "object",
+				"required": ["slug", "jobTitle", "team"],
+				"properties": {
+					"slug": {
+						"type": "slug",
+						"title": "Slug"
+					},
+					"jobTitle": {
+						"type": "string",
+						"title": "Job title"
+					},
+					"team": {
+						"type": "choices",
+						"choices": ["KDL", "Academic affiliates", "Research fellows", "Former staff"],
+						"title": "Team name"
+					}
+				}
+			}
+		}
+	],
+	"frontMatter.data.files": [
+		{
+			"id": "team",
+			"title": "Team",
+			"file": "[[workspace]]/frontend/src/_data/team.json",
+			"fileType": "json",
+			"labelField": "slug",
+			"singleEntry": false,
+			"type": "team"
+		}
+	],
+	"frontMatter.taxonomy.fieldGroups": [
+		{
+			"id": "funders_group",
+			"fields": [
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"id": "departments_group",
+			"fields": [
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"id": "members_group",
+			"fields": [
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"title": "roleName",
+					"name": "roleName",
+					"type": "string"
+				},
+				{
+					"title": "inOrganisation",
+					"name": "inOrganisation",
+					"type": "fields",
+					"fields": [
+						{
+							"title": "name",
+							"name": "name",
+							"type": "string"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "urls_group",
+			"fields": [
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"title": "url",
+					"name": "url",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"id": "subOrganisations_group",
+			"fields": [
+				{
+					"title": "name",
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"title": "alternateName",
+					"name": "alternateName",
+					"type": "datetime"
+				}
+			]
+		},
+		{
+			"id": "urls_group",
+			"fields": [
+				{
+					"title": "type",
+					"name": "type",
+					"type": "string"
+				},
+				{
+					"title": "url",
+					"name": "url",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"id": "memberOf_group",
+			"fields": [
+				{
+					"title": "startDate",
+					"name": "startDate",
+					"type": "datetime"
+				},
+				{
+					"title": "endDate",
+					"name": "endDate",
+					"type": "datetime"
+				},
+				{
+					"title": "organisation",
+					"name": "organisation",
+					"type": "fields",
+					"fields": [
+						{
+							"title": "name",
+							"name": "name",
+							"type": "string"
+						}
+					]
+				},
+				{
+					"title": "roleName",
+					"name": "roleName",
+					"type": "string"
+				}
+			]
+		}
+	]
 }

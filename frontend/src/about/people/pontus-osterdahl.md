@@ -3,6 +3,6 @@ title: Pontus Österdahl
 slug: pontus-osterdahl
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

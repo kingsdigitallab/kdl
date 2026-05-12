@@ -1,7 +1,7 @@
 ---
 title: University of Reading
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-reading
 foundingDate: null

@@ -1,7 +1,7 @@
 ---
 title: Digital Lightforms Ltd.
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: digital-lightforms-ltd
 foundingDate: 2000-09-25

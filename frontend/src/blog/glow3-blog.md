@@ -2,16 +2,16 @@
 title: Empowering Artistic Innovation
 subtitle: Inside GLoW3's Collaborative Journey with Creative Technology
 tags:
-  - post
+    - post
 authors:
-  - Neil Jakeman
-  - Elliott Hall
+    - Neil Jakeman
+    - Elliott Hall
 date: 2024-04-08
 excerpt: Experimental digital research is difficult for independent artists to do in terms of finance and skills on their own, but they are exactly the type of people that will move the use of digital tools forward from interesting tech demos to tools of storytelling.
 feature:
-  image: /assets/images/blog/glow3-banner.webp
-  title:
-  description: A woman stands in the dark embracing a swirl of vibrant neon colours in shades of pink and blue.
+    image: /assets/images/blog/glow3-banner.webp
+    title:
+    description: A woman stands in the dark embracing a swirl of vibrant neon colours in shades of pink and blue.
 draft: false
 ---
 

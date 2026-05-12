@@ -3,12 +3,12 @@ title: Simon Eliot
 slug: simon-eliot
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: University of London
-      slug: university-of-london
-    roleName: Principal investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: University of London
+          slug: university-of-london
+      roleName: Principal investigator
 ---

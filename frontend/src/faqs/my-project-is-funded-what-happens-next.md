@@ -2,7 +2,7 @@
 title: My project is funded and KDL is ready to start, what happens next?
 order: 11
 tags:
-  - faq
+    - faq
 ---
 
 The project enters the 'Evolutionary Development' phase. A kickoff meeting with the SDT and Project Manager will explain KDL's incremental development and deployment process, and documentation. We will plan the initial increments and deliverables.

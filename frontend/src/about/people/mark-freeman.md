@@ -3,12 +3,12 @@ title: Mark Freeman
 slug: mark-freeman
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: UCL Institute of Education
-      slug: ucl-institute-of-education
-    roleName: Co-investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: UCL Institute of Education
+          slug: ucl-institute-of-education
+      roleName: Co-investigator
 ---

@@ -2,15 +2,15 @@
 title: Using Archetype
 subtitle: Reflections on my Erasmus Traineeship
 tags:
-  - post
+    - post
 authors:
-  - Valentina Gettatelli
+    - Valentina Gettatelli
 date: 2018-06-15
 excerpt: ""
 feature:
-  image: /assets/images/blog/annotation.original.png
-  title: © Valentina Gettatelli, KDL & BnF
-  description: VG_annotation
+    image: /assets/images/blog/annotation.original.png
+    title: © Valentina Gettatelli, KDL & BnF
+    description: VG_annotation
 ---
 
 This is a guest post by Valentina Gettatelli

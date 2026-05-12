@@ -1,7 +1,7 @@
 ---
 title: Digital Preservation Coalition
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: digital-preservation-coalition
 foundingDate: null

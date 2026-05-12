@@ -3,6 +3,6 @@ title: Dominic Rathbone
 slug: dominic-rathbone
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

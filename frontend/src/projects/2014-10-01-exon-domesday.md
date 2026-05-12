@@ -1,89 +1,87 @@
 ---
 title: "The Conqueror's Commissioners: Unlocking the Domesday Survey of
-  South-Western England"
+    South-Western England"
 name: "The Conqueror's Commissioners: Unlocking the Domesday Survey of
-  South-Western England"
+    South-Western England"
 tags:
-  - projects
+    - projects
 alternateName: Exon Domesday
 slug: exon-domesday
 foundingDate: 2014-10-01
 dissolutionDate: 2017-12-01
 creativeWorkStatus: Maintained
 feature:
-  image:
-    /assets/images/projects/Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire
-    A.jpg
-  title: Geld Accounts, Wiltshire A [1a1-3b1]
-  description:
-    A close-up of an aged manuscript with handwritten Latin text, some
-    underlined in blue, showing historical record-keeping details.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/Exon_Domesday--1a1-3b1. Geld Accounts, Wiltshire
+        A.jpg
+    title: Geld Accounts, Wiltshire A [1a1-3b1]
+    description: A close-up of an aged manuscript with handwritten Latin text, some
+        underlined in blue, showing historical record-keeping details.
+    width: 1200
+    height: 800
 funders:
-  - name: KCL Faculty of Arts and Humanities
-    slug: kcl-faculty-of-arts-and-humanities
-  - name: Arts and Humanities Research Council (AHRC)
-    slug: arts-and-humanities-research-council-ahrc
+    - name: KCL Faculty of Arts and Humanities
+      slug: kcl-faculty-of-arts-and-humanities
+    - name: Arts and Humanities Research Council (AHRC)
+      slug: arts-and-humanities-research-council-ahrc
 departments:
-  - name: FAH Department of History
-    slug: fah-department-of-history
-  - name: King's College, London
-    slug: kings-college-london
+    - name: FAH Department of History
+      slug: fah-department-of-history
+    - name: King's College, London
+      slug: kings-college-london
 members:
-  - name: Geoffroy Noel
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-  - name: Neil Jakeman
-    slug: neil-jakeman
-    roleName: Research Software Analyst
-  - name: Julia Crick
-    slug: julia-crick
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-  - name: Stephen Baxter
-    slug: stephen-baxter
-    roleName: Co-Investigator
-    inOrganisation:
-      name: University of Oxford
-      slug: university-of-oxford
-  - name: Peter Stokes
-    slug: peter-stokes
-    roleName: Co-Investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
-  - name: Francisco Álvarez López
-    slug: francisco-alvarez-lopez
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-  - name: Chris Lewis
-    slug: chris-lewis
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
-  - name: Frank Thorn
-    slug: frank-thorn
-    roleName: Researcher
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
+    - name: Geoffroy Noel
+      slug: geoffroy-noel
+      roleName: Research Software Engineer
+    - name: Neil Jakeman
+      slug: neil-jakeman
+      roleName: Research Software Analyst
+    - name: Julia Crick
+      slug: julia-crick
+      roleName: Principal investigator
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Stephen Baxter
+      slug: stephen-baxter
+      roleName: Co-Investigator
+      inOrganisation:
+          name: University of Oxford
+          slug: university-of-oxford
+    - name: Peter Stokes
+      slug: peter-stokes
+      roleName: Co-Investigator
+      inOrganisation:
+          name: FAH Department of Digital Humanities
+          slug: fah-department-of-digital-humanities
+    - name: Francisco Álvarez López
+      slug: francisco-alvarez-lopez
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Chris Lewis
+      slug: chris-lewis
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Frank Thorn
+      slug: frank-thorn
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
 keywords: []
 urls:
-  - name: Project URL
-    url: https://www.exondomesday.ac.uk/
-  - name: "Repository: kingsdigitallab/exon"
-    url: https://github.com/kingsdigitallab/exon
-  - name: UKRI URL
-    url: https://gtr.ukri.org/projects?ref=AH%2FL013975%2F1
+    - name: Project URL
+      url: https://www.exondomesday.ac.uk/
+    - name: "Repository: kingsdigitallab/exon"
+      url: https://github.com/kingsdigitallab/exon
+    - name: UKRI URL
+      url: https://gtr.ukri.org/projects?ref=AH%2FL013975%2F1
 sla:
-  start: 2022-10-01
-  end: 2028-11-30
+    start: 2022-10-01
+    end: 2028-11-30
 draft: false
 ---
 

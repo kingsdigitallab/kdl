@@ -1,7 +1,7 @@
 ---
 title: Society for Libyan Studies
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: society-for-libyan-studies
 foundingDate: null

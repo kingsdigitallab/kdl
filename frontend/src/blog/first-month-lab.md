@@ -2,18 +2,18 @@
 title: First month in the Lab
 subtitle: Reflections after a month at KDL
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2017-03-09
 excerpt: I took the role of analyst at King’s Digital Lab (KDL) just over a
-  month ago. It is difficult to judge whether time flew so quickly because I
-  feel at home or because the pace and rhythm of the place goes tick tick
-  tick...
+    month ago. It is difficult to judge whether time flew so quickly because I
+    feel at home or because the pace and rhythm of the place goes tick tick
+    tick...
 feature:
-  image: /assets/images/blog/blog_desk.width-1024.jpg
-  title:
-  description: A desk arrangement showcasing a laptop, headphones, and a cup of coffee.
+    image: /assets/images/blog/blog_desk.width-1024.jpg
+    title:
+    description: A desk arrangement showcasing a laptop, headphones, and a cup of coffee.
 ---
 
 I took the role of analyst at King’s Digital Lab (KDL) just over a month ago. It is difficult to judge whether time flew so quickly because I feel at home or because the pace and rhythm of the place goes tick tick tick...

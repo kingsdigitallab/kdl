@@ -3,12 +3,12 @@ title: Sahar Idwan
 slug: dr-sahar-idwan
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: Hashemite University
-      slug: hashemite-university
-    roleName: Partner
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Hashemite University
+          slug: hashemite-university
+      roleName: Partner
 ---

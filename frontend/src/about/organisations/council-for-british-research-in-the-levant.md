@@ -1,7 +1,7 @@
 ---
 title: Council for British Research in the Levant
 tags:
-  - organisations
+    - organisations
 alternateName: CBRL
 slug: council-for-british-research-in-the-levant
 foundingDate: null

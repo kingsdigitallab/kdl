@@ -2,104 +2,104 @@
 title: Nineteenth-Century Serials Edition
 name: Nineteenth-Century Serials Edition
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: nineteenth-century-serials-edition
 foundingDate: 2017-08-01
 dissolutionDate: 2021-07-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/NCSE--Data viz.jpg
-  title: null
-  description: A minimalist bar chart with blue vertical bars of varying heights
-    against a dark background, creating a structured data visualisation.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/NCSE--Data viz.jpg
+    title: null
+    description: A minimalist bar chart with blue vertical bars of varying heights
+        against a dark background, creating a structured data visualisation.
+    width: 1200
+    height: 800
 funders:
-  - name: KCL Faculty of Arts and Humanities
-    slug: kcl-faculty-of-arts-and-humanities
-  - name: British Library
-    slug: british-library
-  - name: Birkbeck, University of London
-    slug: birkbeck-university-of-london
-  - name: Research Society for Victorian Periodicals
-    slug: research-society-for-victorian-periodicals
-  - name: Arts and Humanities Research Council (AHRC)
-    slug: arts-and-humanities-research-council-ahrc
-departments:
-  - name: FAH Department of English
-    slug: fah-department-of-english
-  - name: Birkbeck
-    slug: birkbeck
-  - name: University of Leeds
-    slug: university-of-leeds
-  - name: King's College, London
-    slug: kings-college-london
-members:
-  - name: Geoffroy Noel
-    slug: geoffroy-noel
-    roleName: Research Software Engineer
-  - name: Tiffany Ong
-    slug: tiffany-ong
-    roleName: Research Software Designer
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
-  - name: Brian Maher
-    slug: brian-maher
-    roleName: Research Software Engineer
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-  - name: Paul Caton
-    slug: paul-caton
-    roleName: Research Software Analyst
-  - name: Laurel Brake
-    slug: laurel-brake
-    roleName: Principal investigator
-    inOrganisation:
-      name: Birkbeck, University of London
+    - name: KCL Faculty of Arts and Humanities
+      slug: kcl-faculty-of-arts-and-humanities
+    - name: British Library
+      slug: british-library
+    - name: Birkbeck, University of London
       slug: birkbeck-university-of-london
-  - name: Mark Turner
-    slug: mark-turner
-    roleName: Co-Investigator
-    inOrganisation:
-      name: FAH Department of English
+    - name: Research Society for Victorian Periodicals
+      slug: research-society-for-victorian-periodicals
+    - name: Arts and Humanities Research Council (AHRC)
+      slug: arts-and-humanities-research-council-ahrc
+departments:
+    - name: FAH Department of English
       slug: fah-department-of-english
-  - name: James Mussell
-    slug: james-mussell
-    roleName: Researcher
-    inOrganisation:
-      name: University of Leeds
+    - name: Birkbeck
+      slug: birkbeck
+    - name: University of Leeds
       slug: university-of-leeds
-  - name: Robyn Jakeman
-    slug: robyn-jakeman
-    roleName: Researcher
-    inOrganisation:
-      name: Birkbeck
-      slug: birkbeck
-  - name: University of London]
-    slug: university-of-london
-    roleName: Researcher
-  - name: Rebecca Sykes
-    slug: rebecca-sykes
-    roleName: Researcher
-    inOrganisation:
-      name: Birkbeck
-      slug: birkbeck
+    - name: King's College, London
+      slug: kings-college-london
+members:
+    - name: Geoffroy Noel
+      slug: geoffroy-noel
+      roleName: Research Software Engineer
+    - name: Tiffany Ong
+      slug: tiffany-ong
+      roleName: Research Software Designer
+    - name: Miguel Vieira
+      slug: miguel-vieira
+      roleName: Research Software Engineer
+    - name: Brian Maher
+      slug: brian-maher
+      roleName: Research Software Engineer
+    - name: Arianna Ciula
+      slug: arianna-ciula
+      roleName: Research Software Analyst
+    - name: Paul Caton
+      slug: paul-caton
+      roleName: Research Software Analyst
+    - name: Laurel Brake
+      slug: laurel-brake
+      roleName: Principal investigator
+      inOrganisation:
+          name: Birkbeck, University of London
+          slug: birkbeck-university-of-london
+    - name: Mark Turner
+      slug: mark-turner
+      roleName: Co-Investigator
+      inOrganisation:
+          name: FAH Department of English
+          slug: fah-department-of-english
+    - name: James Mussell
+      slug: james-mussell
+      roleName: Researcher
+      inOrganisation:
+          name: University of Leeds
+          slug: university-of-leeds
+    - name: Robyn Jakeman
+      slug: robyn-jakeman
+      roleName: Researcher
+      inOrganisation:
+          name: Birkbeck
+          slug: birkbeck
+    - name: University of London]
+      slug: university-of-london
+      roleName: Researcher
+    - name: Rebecca Sykes
+      slug: rebecca-sykes
+      roleName: Researcher
+      inOrganisation:
+          name: Birkbeck
+          slug: birkbeck
 keywords:
-  - name: Data Visualisation
-    slug: data-visualisation
+    - name: Data Visualisation
+      slug: data-visualisation
 urls:
-  - name: Project URL
-    url: https://ncse.ac.uk/
-  - name: 2018 component URL
-    url: https://ncse.ac.uk/periodicals/
-  - name: Project URL
-    url: https://ncse.ac.uk/index.html
+    - name: Project URL
+      url: https://ncse.ac.uk/
+    - name: 2018 component URL
+      url: https://ncse.ac.uk/periodicals/
+    - name: Project URL
+      url: https://ncse.ac.uk/index.html
 sla:
-  start: 2018-03-01
-  end: 2026-03-07
+    start: 2018-03-01
+    end: 2026-03-07
 draft: false
 ---
 

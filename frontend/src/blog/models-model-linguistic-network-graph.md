@@ -2,22 +2,22 @@
 title: Models of "model" a linguistic network graph
 subtitle: A modelling of "model" - a linguistic network graph
 tags:
-  - post
-  - Visualisation
-  - modelling
-  - linguitics
-  - network graph
+    - post
+    - Visualisation
+    - modelling
+    - linguitics
+    - network graph
 authors:
-  - Chris Pak
+    - Chris Pak
 date: 2018-01-24
 excerpt: Modelling is a concept that is central to DH, though its various
-  linguistic associations can encompass complementary and contradictory
-  meanings. By happy providence, the act of modelling itself leads to new
-  insights for our KDL Postdoctoral Research Associate Chris Pak ...
+    linguistic associations can encompass complementary and contradictory
+    meanings. By happy providence, the act of modelling itself leads to new
+    insights for our KDL Postdoctoral Research Associate Chris Pak ...
 feature:
-  image: /assets/images/blog/graph.original.jpg
-  title: © Neil Jakeman
-  description: Network Graph
+    image: /assets/images/blog/graph.original.jpg
+    title: © Neil Jakeman
+    description: Network Graph
 ---
 
 Modelling is a concept that is central to DH, though its various linguistic associations can encompass complementary and contradictory meanings. By happy providence, the act of modelling itself leads to new insights for our KDL Postdoctoral Research Associate Chris Pak ...

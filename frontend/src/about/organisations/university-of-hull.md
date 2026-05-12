@@ -1,7 +1,7 @@
 ---
 title: University of Hull
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-hull
 foundingDate: null

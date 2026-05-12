@@ -1,7 +1,7 @@
 ---
 title: Canterbury Christ Church University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: canterbury-christ-church-university
 foundingDate: null

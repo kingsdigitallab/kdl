@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 title: About
 eleventyNavigation:
-  key: About
-  order: 1
+    key: About
+    order: 1
 templateEngineOverride: njk, md
 ---
 

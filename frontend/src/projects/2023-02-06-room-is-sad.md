@@ -2,36 +2,36 @@
 title: Room is Sad
 name: Room is Sad
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: room-is-sad
 foundingDate: 2023-02-06
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/roomissad--The Room at London Design Biennale
-    2023. Photo Elliott Hall..jpg
-  title: The Room at London Design Biennale 2023. Photo by Elliott Hall.
-  description: A round window looking into a room bathed in purple light with a
-    white desk, lamp and plant on top.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/roomissad--The Room at London Design Biennale
+        2023. Photo Elliott Hall..jpg
+    title: The Room at London Design Biennale 2023. Photo by Elliott Hall.
+    description: A round window looking into a room bathed in purple light with a
+        white desk, lamp and plant on top.
+    width: 1200
+    height: 800
 funders:
-  - name: King's College London
-    slug: kings-college-london
-  - name: FAH King's Culture
-    slug: fah-king-s-culture
+    - name: King's College London
+      slug: kings-college-london
+    - name: FAH King's Culture
+      slug: fah-king-s-culture
 departments:
-  - name: King's Digital Lab
-    slug: kdl
+    - name: King's Digital Lab
+      slug: kdl
 members:
-  - name: Elliott Hall
-    slug: elliott-hall
-    roleName: Principal investigator
-    inOrganisation: null
+    - name: Elliott Hall
+      slug: elliott-hall
+      roleName: Principal investigator
+      inOrganisation: null
 keywords:
-  - name: Digital Creativity
-    slug: digital-creativity
+    - name: Digital Creativity
+      slug: digital-creativity
 urls: []
 ---
 

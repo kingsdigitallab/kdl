@@ -2,31 +2,31 @@
 title: Critical Modelling of Extensive Literary Data
 subtitle: An Experiment
 tags:
-  - post
-  - embeddings
-  - experiment
-  - language models
-  - NLP
-  - notebooks
-  - Modelling
-  - entropy
-  - Part of Speech
-  - literary data
+    - post
+    - embeddings
+    - experiment
+    - language models
+    - NLP
+    - notebooks
+    - Modelling
+    - entropy
+    - Part of Speech
+    - literary data
 authors:
-  - Arianna Ciula
-  - Miguel Vieira
+    - Arianna Ciula
+    - Miguel Vieira
 date: 2023-05-09
 excerpt: This blogpost discusses and reflects on the process and findings of the
-  collaboration between colleagues at the Australian National University (ANU)
-  and at King’s Digital Lab (KDL), supported by the King’s College London
-  Australia Partnership Seed Fund and Australian National University Global
-  Research Partnership scheme, for the period 2020-22. It provides some
-  background and outlines three approaches to investigating the Reading at the
-  Interface project dataset.
+    collaboration between colleagues at the Australian National University (ANU)
+    and at King’s Digital Lab (KDL), supported by the King’s College London
+    Australia Partnership Seed Fund and Australian National University Global
+    Research Partnership scheme, for the period 2020-22. It provides some
+    background and outlines three approaches to investigating the Reading at the
+    Interface project dataset.
 feature:
-  image: /assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg
-  title: © Photo by Robert Anasch on Unsplash
-  description: Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.
+    image: /assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg
+    title: © Photo by Robert Anasch on Unsplash
+    description: Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.
 ---
 
 Authors: Katherine Bode, Arianna Ciula, Galen Cuthbertson, Geoff Hinchcliffe, Ginestra Ferraro, Miguel Vieira, and Millicent Weber
