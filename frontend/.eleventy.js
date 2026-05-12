@@ -1,5 +1,5 @@
 const markdownItImplicitFigures = require("markdown-it-image-figures");
-const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
+const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid").default;
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
 const kdlFilters = require("kdl-components/src/kdl/filters");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
