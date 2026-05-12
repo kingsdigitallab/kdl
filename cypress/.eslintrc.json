@@ -1,4 +1,29 @@
 {
-  "extends": ["plugin:cypress/recommended", "prettier"],
-  "plugins": ["cypress"]
+  "extends": ["prettier"],
+  "plugins": ["cypress"],
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/no-async-tests": "error",
+    "cypress/unsafe-to-chain-command": "error"
+  },
+  "globals": {
+    "cy": false,
+    "Cypress": false,
+    "expect": false,
+    "assert": false,
+    "chai": false,
+    "describe": false,
+    "context": false,
+    "it": false,
+    "specify": false,
+    "before": false,
+    "after": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "xit": false,
+    "xdescribe": false,
+    "xcontext": false,
+    "teardown": false
+  }
 }
