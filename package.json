@@ -63,7 +63,7 @@
 			"prettier --write"
 		],
 		"*.{njk,nunjucks}": [
-			"djlint --reformat --profile=nunjucks"
+			"djlint --check --profile=nunjucks"
 		]
 	},
 	"workspaces": [
