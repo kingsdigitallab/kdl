@@ -98,6 +98,5 @@
 		}
 	},
 	"onCreateCommand": "npm install",
-	"postCreateCommand": "pip3 install djlint",
 	"postStartCommand": "npm run frontend:dev"
 }
