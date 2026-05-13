@@ -1,75 +1,76 @@
 ---
 title: A Partnership for Conserving and Promoting Sudanese Cultural and
-    Documentary Heritage Sudan Memory
+  Documentary Heritage Sudan Memory
 name: A Partnership for Conserving and Promoting Sudanese Cultural and
-    Documentary Heritage Sudan Memory
+  Documentary Heritage Sudan Memory
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: sudan-memory
 foundingDate: 2022-01-10
 dissolutionDate: 2026-03-31
 creativeWorkStatus: Active
 feature:
-    image: /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat
-        Basharu by al-Balabil.jpg
-    title: Record Cover of the Song Al Ginyat Basharu by Al Balabil
-    description: Vintage record cover with a yellow background featuring three
-        portrait photographs of women, Arabic text, and decorative red stars.
-    width: 1200
-    height: 800
+  image:
+    /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat
+    Basharu by al-Balabil.jpg
+  title: Record Cover of the Song Al Ginyat Basharu by Al Balabil
+  description: Vintage record cover with a yellow background featuring three
+    portrait photographs of women, Arabic text, and decorative red stars.
+  width: 1200
+  height: 800
 funders:
-    - name: British Council
-      slug: british-council
+  - name: British Council
+    slug: british-council
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
-    - name: King's College, London
-      slug: kings-college-london
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
 members:
-    - name: Samantha Callaghan
-      slug: samantha-callaghan
-      roleName: Research Software Analyst
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-    - name: Marilyn Deegan
-      slug: marilyn-deegan
-      roleName: Principal investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Badreldin Omer Elhag Musa
-      slug: badreldin-omer-elhag-musa
-      roleName: Co-Investigator
-      inOrganisation:
-          name: Sudanese Association for Archiving Knowledge
-          slug: sudanese-association-for-archiving-knowledge
-    - name: Ussama Abdelwahab Elrais
-      slug: ussama-abdelwahab-elrais
-      roleName: Co-Investigator
-      inOrganisation:
-          name: Africa City of Technology
-          slug: africa-city-of-technology
-    - name: Mohamed Azrag Saeed Abutem
-      slug: mohamed-azrag-saeed-abutem
-      roleName: Co-Investigator
-      inOrganisation:
-          name: National Record Office of Sudan
-          slug: national-record-office-of-sudan
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Marilyn Deegan
+    slug: marilyn-deegan
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Badreldin Omer Elhag Musa
+    slug: badreldin-omer-elhag-musa
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Sudanese Association for Archiving Knowledge
+      slug: sudanese-association-for-archiving-knowledge
+  - name: Ussama Abdelwahab Elrais
+    slug: ussama-abdelwahab-elrais
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Africa City of Technology
+      slug: africa-city-of-technology
+  - name: Mohamed Azrag Saeed Abutem
+    slug: mohamed-azrag-saeed-abutem
+    roleName: Co-Investigator
+    inOrganisation:
+      name: National Record Office of Sudan
+      slug: national-record-office-of-sudan
 keywords:
-    - name: Indigenous Digital Humanities
-      slug: indigenous-digital-humanities
+  - name: Indigenous Digital Humanities
+    slug: indigenous-digital-humanities
 urls:
-    - name: Project URL
-      url: https://www.sudanmemory.org/
-    - name: Other Project Resource URL
-      url: https://www.kcl.ac.uk/news/sudanese-documentary-supported-by-kings-researchers-premiered-at-sundance
-    - name: Other Project Resource URL (2)
-      url: https://www.khartoummovie.com/
+  - name: Project URL
+    url: https://www.sudanmemory.org/
+  - name: Other Project Resource URL
+    url: https://www.kcl.ac.uk/news/sudanese-documentary-supported-by-kings-researchers-premiered-at-sundance
+  - name: Other Project Resource URL (2)
+    url: https://www.khartoummovie.com/
 sla:
-    start: null
-    end: null
+  start: null
+  end: null
 draft: false
 ---
 

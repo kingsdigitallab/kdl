@@ -2,64 +2,65 @@
 title: Computing Britannica
 name: Computing Britannica
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: encyclopedia-britannica-exploratory-prototypes
 foundingDate: 2023-03-01
 dissolutionDate: 2024-03-31
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/Encyclopedia
-        Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
-    title: An open book, Photo by Mohamed Marey
-    description: A close-up of an open book's fanned-out pages, creating a visually
-        striking pattern of curved, layered lines in warm tones.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/Encyclopedia
+    Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
+  title: An open book, Photo by Mohamed Marey
+  description:
+    A close-up of an open book's fanned-out pages, creating a visually
+    striking pattern of curved, layered lines in warm tones.
+  width: 1200
+  height: 800
 keywords:
-    - name: Machine Learning and AI
-      slug: machine-learning-ai
-    - name: Digital Futures Institute
-      slug: digital-futures-institute
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
-    - name: KCL Faculty of Arts and Humanities
-      slug: kcl-faculty-of-arts-and-humanities
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
-    - name: King's College, London
-      slug: kings-college-london
-    - name: Temple University
-      slug: temple-university
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: Temple University
+    slug: temple-university
 members:
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-    - name: Geoffroy Noel
-      slug: geoffroy-noel
-      roleName: Research Software Engineer
-    - name: Peter Logan
-      slug: peter-logan
-      roleName: Principal investigator
-      inOrganisation:
-          name: Temple University
-          slug: temple-university
-    - name: Marion Thain
-      slug: marion-thain
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of English
-          slug: fah-department-of-english
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Peter Logan
+    slug: peter-logan
+    roleName: Principal investigator
+    inOrganisation:
+      name: Temple University
+      slug: temple-university
+  - name: Marion Thain
+    slug: marion-thain
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of English
+      slug: fah-department-of-english
 sla:
-    start: null
-    end: null
+  start: null
+  end: null
 urls:
-    - name: Project URL
-      url: https://kingsdigitallab.github.io/eb-pre/
-    - name: "Repository: kingsdigitallab/eb-pre/"
-      url: https://github.com/kingsdigitallab/eb-pre/
-    - name: Data
-      url: https://tu-plogan.github.io/source/r_releases.html
+  - name: Project URL
+    url: https://kingsdigitallab.github.io/eb-pre/
+  - name: "Repository: kingsdigitallab/eb-pre/"
+    url: https://github.com/kingsdigitallab/eb-pre/
+  - name: Data
+    url: https://tu-plogan.github.io/source/r_releases.html
 draft: false
 ---
 

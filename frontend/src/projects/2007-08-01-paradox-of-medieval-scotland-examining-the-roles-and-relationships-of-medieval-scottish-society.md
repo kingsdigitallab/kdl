@@ -2,105 +2,105 @@
 title: Paradox of Medieval Scotland
 name: Paradox of Medieval Scotland
 tags:
-    - projects
+  - projects
 alternateName: POMS
 slug: paradox-of-medieval-scotland-examining-the-roles-and-relationships-of-medieval-scottish-society
 foundingDate: 2007-08-01
 dissolutionDate: 2010-12-31
 creativeWorkStatus: Maintained
 feature:
-    image: /assets/images/projects/moray_Jq1m58g.original--Moray original map
-        (detail).jpg
-    title: Moray Original Map (detail)
-    description: A historical map presenting Scotland, exhibiting its terrain,
-        cities, and significant landmarks.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/moray_Jq1m58g.original--Moray original map
+    (detail).jpg
+  title: Moray Original Map (detail)
+  description: A historical map presenting Scotland, exhibiting its terrain,
+    cities, and significant landmarks.
+  width: 1200
+  height: 800
 funders:
-    - name: Leverhulme Trust
-      slug: leverhulme-trust
-    - name: Arts and Humanities Research Council (AHRC)
-      slug: arts-and-humanities-research-council-ahrc
-    - name: KCL Faculty of Arts and Humanities
-      slug: kcl-faculty-of-arts-and-humanities
+  - name: Leverhulme Trust
+    slug: leverhulme-trust
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-    - name: FAH Department of History
-      slug: fah-department-of-history
-    - name: King's College, London
-      slug: kings-college-london
+  - name: FAH Department of History
+    slug: fah-department-of-history
+  - name: King's College, London
+    slug: kings-college-london
 members:
-    - name: Stefan Meier
-      slug: stefan-meier
-      roleName: Research Software Engineer
-    - name: Neil Jakeman
-      slug: neil-jakeman
-      roleName: Research Software Analyst
-    - name: Tiffany Ong
-      slug: tiffany-ong
-      roleName: Research Software Designer
-    - name: Ginestra Ferraro
-      slug: ginestra-ferraro
-      roleName: Research Software Designer
-    - name: Elliott Hall
-      slug: elliott-hall
-      roleName: Research Software Engineer
-    - name: Paul Caton
-      slug: paul-caton
-      roleName: Research Software Analyst
-    - name: Brian Maher
-      slug: brian-maher
-      roleName: Research Software Engineer
-    - name: Dauvit Broun
-      slug: dauvit-broun
-      roleName: Principal investigator
-      inOrganisation:
-          name: University of Glasgow
-          slug: university-of-glasgow
-    - name: Alice Taylor
-      slug: alice-taylor
-      roleName: Principal investigator
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: John Bradley
-      slug: john-bradley
-      roleName: Co-Investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Matthew Hammond
-      slug: matthew-hammond
-      roleName: Co-Investigator
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Beatriz Caballero
-      slug: beatriz-caballero
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Charlotte Tupman
-      slug: charlotte-tupman
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
+  - name: Stefan Meier
+    slug: stefan-meier
+    roleName: Research Software Engineer
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Research Software Engineer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Dauvit Broun
+    slug: dauvit-broun
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Glasgow
+      slug: university-of-glasgow
+  - name: Alice Taylor
+    slug: alice-taylor
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: John Bradley
+    slug: john-bradley
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Matthew Hammond
+    slug: matthew-hammond
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Beatriz Caballero
+    slug: beatriz-caballero
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Charlotte Tupman
+    slug: charlotte-tupman
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords: []
 urls:
-    - name: PoMS URL
-      url: http://www.poms.ac.uk/
-    - name: UKRI URL
-      url: https://gtr.ukri.org/projects?ref=AH%2FE008348%2F1
-    - name: Repository URL
-      url: https://github.com/kingsdigitallab/poms-django
-    - name: Project URL
-      url: https://www.poms.ac.uk/
-    - name: Data deposit URL
-      url: https://data.kdl.kcl.ac.uk/dataset/people-of-medieval-scotland-project-1093-1371.html
+  - name: PoMS URL
+    url: http://www.poms.ac.uk/
+  - name: UKRI URL
+    url: https://gtr.ukri.org/projects?ref=AH%2FE008348%2F1
+  - name: Repository URL
+    url: https://github.com/kingsdigitallab/poms-django
+  - name: Project URL
+    url: https://www.poms.ac.uk/
+  - name: Data deposit URL
+    url: https://data.kdl.kcl.ac.uk/dataset/people-of-medieval-scotland-project-1093-1371.html
 sla:
-    start: 2019-09-01
-    end: 2028-01-07
+  start: 2019-09-01
+  end: 2028-01-07
 draft: false
 ---
 
