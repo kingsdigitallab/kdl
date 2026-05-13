@@ -136,7 +136,6 @@ header nav.main .kdl-container > ul {
   margin: 0 10em 0 auto;
   list-style-type: none;
   float: right;
-  /** chevron icon **/
 }
 header nav.main .kdl-container > ul > li {
   display: block;
@@ -229,12 +228,12 @@ header nav.main .kdl-container > ul > li > ul li > ul {
 header nav.main .kdl-container > ul > li > ul li > ul li a,
 header nav.main .kdl-container > ul > li > ul li > ul li label {
   background: #454545;
-  box-shadow: inset 0 -1px #575757;
+  box-shadow: inset 0 -1px rgb(86.85, 86.85, 86.85);
 }
 header nav.main .kdl-container > ul > li > ul li > ul li a:focus, header nav.main .kdl-container > ul > li > ul li > ul li a:hover,
 header nav.main .kdl-container > ul > li > ul li > ul li label:focus,
 header nav.main .kdl-container > ul > li > ul li > ul li label:hover {
-  background: #333333;
+  background: rgb(51.15, 51.15, 51.15);
 }
 header nav.main .kdl-container > ul > li > ul li > ul li > ul {
   /* fourth-level */
@@ -247,16 +246,19 @@ header nav.main .kdl-container > ul > li > ul li > ul li > ul {
 header nav.main .kdl-container > ul > li > ul li > ul li > ul li a,
 header nav.main .kdl-container > ul > li > ul li > ul li > ul li label {
   background: #454545;
-  box-shadow: inset 0 -1px #575757;
+  box-shadow: inset 0 -1px rgb(86.85, 86.85, 86.85);
 }
 header nav.main .kdl-container > ul > li > ul li > ul li > ul li a:focus, header nav.main .kdl-container > ul > li > ul li > ul li > ul li a:hover,
 header nav.main .kdl-container > ul > li > ul li > ul li > ul li label:focus,
 header nav.main .kdl-container > ul > li > ul li > ul li > ul li label:hover {
-  background: #333333;
+  background: rgb(51.15, 51.15, 51.15);
 }
 header nav.main .kdl-container > ul input[type=checkbox]:checked + label + ul {
   /* reset the height when checkbox is checked */
   max-height: 1000px;
+}
+header nav.main .kdl-container > ul {
+  /** chevron icon **/
 }
 header nav.main .kdl-container > ul input[type=checkbox] + label.kdl-checkbox {
   position: relative;
@@ -396,12 +398,12 @@ main {
 }
 main a {
   font-weight: 400;
-  color: #0e3f70;
+  color: rgb(13.9666666667, 62.85, 111.7333333333);
   cursor: pointer;
   text-decoration: underline;
 }
 main a:hover {
-  color: #14589d;
+  color: rgb(19.6333333333, 88.35, 157.0666666667);
 }
 main p {
   line-height: 1.5;
@@ -418,7 +420,7 @@ main h4 {
 }
 main h1 {
   font-size: 2.2em;
-  border-bottom: 4px solid #bababa;
+  border-bottom: 4px solid rgb(185.5, 185.5, 185.5);
 }
 main h2 {
   font-size: 1.8em;
@@ -452,7 +454,7 @@ main button:focus, main button:hover {
 main .kdl-member sup {
   font-family: KingsBureauGrotThreeSeven;
   /* text-shadow: rgba(10, 189, 240, 0.25) 2px 2px 0px,
-    rgba(254, 1, 1, 0.25) -2px -2px 0px; */
+       rgba(254, 1, 1, 0.25) -2px -2px 0px; */
   font-size: 0.7em;
 }
 main .sibling-pagination {
@@ -562,14 +564,14 @@ main .kdl-container > article > article h4 {
   margin-bottom: 0;
 }
 main .kdl-container > article > article h2 {
-  border-bottom: 0.03em solid #abbcc2;
+  border-bottom: 0.03em solid rgb(170.6976744186, 187.5581395349, 194.3023255814);
 }
 main .kdl-container > article > article footer {
   background: white;
   color: black;
   padding: 0.3em 0 0.3em 0.5em;
   border-left: 0.25em solid #5a6369;
-  border-image: linear-gradient(to bottom, #6ce7db, white) 0 1;
+  border-image: linear-gradient(to bottom, rgb(107.8783783784, 231.1216216216, 218.7972972973), white) 0 1;
 }
 
 .home .kdl-container {
@@ -697,7 +699,7 @@ main .kdl-container > article > article footer {
   flex-basis: calc(33.33% - 0.5em);
   margin-bottom: 1.5em;
   padding: 1.5em 0.7em 1em 0.7em;
-  background-color: #f5f7f8;
+  background-color: rgb(244.8255813953, 246.8604651163, 247.6744186047);
 }
 .home .explore section a,
 .home .discover section a,
@@ -1051,7 +1053,7 @@ ul.list li section .subtitle {
   margin-top: 1em;
 }
 ul.list li section .subtitle span {
-  background: linear-gradient(to left, lightcyan, #e8fce8);
+  background: linear-gradient(to left, lightcyan, rgb(232.453125, 251.546875, 232.453125));
   padding: 0.5em;
 }
 
@@ -1064,7 +1066,7 @@ main.organisations h2 {
   text-transform: uppercase;
   text-shadow: rgba(10, 189, 240, 0.25) 5px 5px 0px, rgba(254, 1, 1, 0.25) -5px -5px 0px;
   font-size: 2.5em;
-  border-bottom: 0.03em solid #abbcc2;
+  border-bottom: 0.03em solid rgb(170.6976744186, 187.5581395349, 194.3023255814);
   margin-top: 0;
 }
 main.people ul,
@@ -1106,7 +1108,7 @@ main.organisation article {
 }
 main.person article h2,
 main.organisation article h2 {
-  border-bottom: 0.03em solid #abbcc2;
+  border-bottom: 0.03em solid rgb(170.6976744186, 187.5581395349, 194.3023255814);
 }
 main.person article img,
 main.organisation article img {
@@ -1178,10 +1180,6 @@ main.organisation ul {
   width: 100%;
   margin-left: -40px;
 }
-main.person ul li,
-main.organisation ul li {
-  display: inherit;
-}
 main.person ul li a,
 main.organisation ul li a {
   display: block;
@@ -1191,9 +1189,13 @@ main.organisation ul li a {
 }
 main.person ul li a:hover,
 main.organisation ul li a:hover {
-  background: #f9f9f9;
-  border-left: 0.2em solid #14589d;
+  background: rgb(249.25, 249.25, 249.25);
+  border-left: 0.2em solid rgb(19.6333333333, 88.35, 157.0666666667);
   text-decoration: none;
+}
+main.person ul li,
+main.organisation ul li {
+  display: inherit;
 }
 main.person ul li h3,
 main.organisation ul li h3 {
@@ -1502,7 +1504,7 @@ main.faqs article > article > article:first-of-type ul li a {
   text-decoration: none;
 }
 main.faqs article > article > article:first-of-type ul li a:hover {
-  background: #10477d;
+  background: rgb(15.6666666667, 70.5, 125.3333333333);
 }
 
 main.themes section {
@@ -1511,14 +1513,14 @@ main.themes section {
   justify-content: space-between;
   margin-bottom: 4em;
 }
+main.themes section .research-block h4 {
+  margin: 0 0 0.5em 0;
+}
 main.themes section .research-block {
   flex-basis: calc(50% - 0.5em);
   margin-bottom: 1.5em;
   padding: 1.5em 1.2em 1em 1.2em;
-  background-color: #f5f7f8;
-}
-main.themes section .research-block h4 {
-  margin: 0 0 0.5em 0;
+  background-color: rgb(244.8255813953, 246.8604651163, 247.6744186047);
 }
 main.themes section a {
   text-decoration: none;
@@ -1543,14 +1545,14 @@ main.themes section .research {
 }
 main.themes section .research .research-block {
   flex-basis: calc(50% - 0.5em);
-  background-color: #f5f7f8;
+  background-color: rgb(244.8255813953, 246.8604651163, 247.6744186047);
   position: relative;
   padding: 0.1em 1em 0.7em 1em;
 }
 
 nav.pagination {
   margin-top: 5em;
-  border-top: 2px solid #bababa;
+  border-top: 2px solid rgb(185.5, 185.5, 185.5);
   width: 100%;
 }
 nav.pagination ol {
@@ -1576,24 +1578,24 @@ nav.pagination ol li a {
 }
 nav.pagination ol li:nth-child(1), nav.pagination ol li:nth-child(5) {
   max-width: 3em;
-  background: #10477d;
+  background: rgb(15.6666666667, 70.5, 125.3333333333);
 }
 nav.pagination ol li:nth-child(1):hover, nav.pagination ol li:nth-child(5):hover {
   background: #0a2d50;
 }
 nav.pagination ol li:nth-child(1) a, nav.pagination ol li:nth-child(5) a {
-  color: #e6e6e6;
+  color: rgb(229.5, 229.5, 229.5);
 }
 nav.pagination ol li:nth-child(1) a:hover, nav.pagination ol li:nth-child(5) a:hover {
   color: white;
 }
 nav.pagination ol li:nth-child(2), nav.pagination ol li:nth-child(4) {
   max-width: 5em;
-  background: #f5f7f8;
-  border: 0.05em solid #f5f7f8;
+  background: rgb(244.8255813953, 246.8604651163, 247.6744186047);
+  border: 0.05em solid rgb(244.8255813953, 246.8604651163, 247.6744186047);
 }
 nav.pagination ol li:nth-child(2):hover, nav.pagination ol li:nth-child(4):hover {
-  border: 0.05em solid #c8d3d8;
+  border: 0.05em solid rgb(200.3488372093, 211.2790697674, 215.6511627907);
 }
 nav.pagination ol li:nth-child(3) {
   min-width: 7em;
@@ -1655,7 +1657,7 @@ footer .connect .kdl-container ul li {
 footer .connect .kdl-container ul li a {
   display: block;
   padding: 0.7em 0.5em;
-  border: 0.12em solid #97b0ca;
+  border: 0.12em solid rgb(150.9051724138, 176.25, 201.5948275862);
   border-radius: 50%;
   width: 3em;
   height: 3em;
@@ -1883,7 +1885,7 @@ footer .footer-end p {
     margin: 0;
     width: calc(100% + 165px);
     color: white;
-    background-color: #42494e;
+    background-color: rgb(66.4615384615, 73.1076923077, 77.5384615385);
     margin-left: 10px;
     padding: 0;
   }
