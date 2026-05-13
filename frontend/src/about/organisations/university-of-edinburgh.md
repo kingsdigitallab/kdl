@@ -1,7 +1,7 @@
 ---
 title: University of Edinburgh
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-edinburgh
 foundingDate: null

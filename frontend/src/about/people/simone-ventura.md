@@ -3,6 +3,6 @@ title: Simone Ventura
 slug: simone-ventura
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

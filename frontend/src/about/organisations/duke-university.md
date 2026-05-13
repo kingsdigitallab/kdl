@@ -1,7 +1,7 @@
 ---
 title: Duke University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: duke-university
 foundingDate: null

@@ -12,9 +12,11 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
       <a href="{{ project.page.url }}">
         <figure>
           {%- if (project.data.feature.image) -%}
-            <img src="{{ project.data.feature.image }}" alt="{{ project.data.feature.description }}">
+            <img src="{{ project.data.feature.image }}"
+                 alt="{{ project.data.feature.description }}">
           {%- else -%}
-            <img src="{{ config.paths.placeholderImage }}" alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik"/>
+            <img src="{{ config.paths.placeholderImage }}"
+                 alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik" />
           {%- endif -%}
           <figcaption>{{ project.data.feature.description }}</figcaption>
         </figure>

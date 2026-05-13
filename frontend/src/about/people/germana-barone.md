@@ -3,12 +3,12 @@ title: Germana Barone
 slug: germana-barone
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: University of Catania
-      slug: university-of-catania
-    roleName: Researcher
+    - startDate: null
+      endDate: null
+      organisation:
+          name: University of Catania
+          slug: university-of-catania
+      roleName: Researcher
 ---

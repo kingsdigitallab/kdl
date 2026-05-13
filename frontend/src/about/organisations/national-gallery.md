@@ -1,7 +1,7 @@
 ---
 title: The National Gallery
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: national-gallery
 foundingDate: null

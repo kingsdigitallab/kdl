@@ -1,7 +1,7 @@
 ---
 title: Leeds Trinity University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: leeds-trinity-university
 foundingDate: null

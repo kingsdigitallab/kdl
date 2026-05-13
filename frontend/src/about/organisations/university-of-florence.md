@@ -1,7 +1,7 @@
 ---
 title: University of Florence
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-florence
 foundingDate: null

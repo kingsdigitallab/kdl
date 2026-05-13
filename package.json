@@ -20,13 +20,16 @@
 		"pkg": "npm run exec npm",
 		"cms:snapshot": "npm run pkg --service=cms run snapshot:create",
 		"cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml",
-		"lint": "eslint **/src **/tests",
+		"lint": "eslint 'etl/src/**/*.js' 'frontend/src/**/*.js' 'cypress/**/*.js'",
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "prettier . --check",
 		"prettier:fix": "npm run prettier -- --write",
 		"format": "npm run prettier:fix && npm run lint:fix",
 		"test": "npm run test --workspaces --if-present",
 		"release": "release-it",
+		"postinstall": "bash scripts/install-djlint.sh",
+		"lint:njk": "djlint frontend/src --check --profile=nunjucks --extension=njk",
+		"format:njk": "djlint frontend/src --reformat --profile=nunjucks --extension=njk",
 		"etl:clickup": "npm run -w etl clickup-to-md -- 1004",
 		"frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
 		"frontend:dev": "npm run -w frontend dev",
@@ -36,30 +39,31 @@
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.18.2",
 		"@babel/eslint-plugin": "^7.17.7",
-		"@biomejs/biome": "^2.4.2",
-		"djlint": "^1.19.4",
-		"eslint": "^8.17.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-cypress": "^2.15.1",
-		"lint-staged": "^15.0.2",
-		"prettier": "^2.6.2",
-		"prettier-plugin-sort-imports": "^1.7.0",
-		"simple-git-hooks": "^2.8.0",
-		"vscode-langservers-extracted": "^4.2.1"
+		"eslint": "^9.39.4",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-cypress": "^6.3.1",
+		"lint-staged": "^17.0.4",
+		"prettier": "^3.8.3",
+		"prettier-plugin-sort-imports": "^1.8.11",
+		"simple-git-hooks": "^2.13.1",
+		"vscode-langservers-extracted": "^4.10.0"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx lint-staged"
 	},
 	"lint-staged": {
 		"*.js": [
-			"biome format --write",
+			"prettier --write",
 			"eslint etl/src frontend/src"
 		],
 		"*.{css,json}": [
-			"biome format --write"
+			"prettier --write"
 		],
 		"*.{md,yaml,scss}": [
 			"prettier --write"
+		],
+		"*.{njk,nunjucks}": [
+			"djlint --check --profile=nunjucks"
 		]
 	},
 	"workspaces": [
@@ -81,6 +85,7 @@
 		}
 	},
 	"dependencies": {
-		"release-it": "^16.1.5"
+		"release-it": "^16.1.5",
+		"reveal.js": "^6.0.1"
 	}
 }

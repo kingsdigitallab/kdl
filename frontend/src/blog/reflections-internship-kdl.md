@@ -2,15 +2,15 @@
 title: Reflections on an Internship at KDL
 subtitle: Legacy Data Project
 tags:
-  - post
+    - post
 authors:
-  - Minmin Yu
+    - Minmin Yu
 date: 2020-04-23
 excerpt: ""
 feature:
-  image: /assets/images/blog/legacy_data_blog.original.jpg
-  title: © Photo by Janko Ferlic from Pexels
-  description: Library shelves filled with books on the left side, with a red LED light wall on the right
+    image: /assets/images/blog/legacy_data_blog.original.jpg
+    title: © Photo by Janko Ferlic from Pexels
+    description: Library shelves filled with books on the left side, with a red LED light wall on the right
 ---
 
 > Art challenges technology and technology inspires art

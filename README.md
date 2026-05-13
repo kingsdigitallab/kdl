@@ -23,9 +23,8 @@ https://kdl.kcl.ac.uk/
 
 The website uses a static-first approach:
 
-1. **Data Source**: [ClickUp](https://clickup.com/) - all content is managed in ClickUp
-2. **ETL**: A script fetches data from ClickUp and saves it as JSON files
-3. **Frontend**: [11ty](https://www.11ty.dev/) builds static pages from the JSON data
+1. **ETL**: A script fetches data from [ClickUp](https://clickup.com/) and saves it in the YAML header of the markdown files in `frontend/src`
+1. **Frontend**: [11ty](https://www.11ty.dev/) builds static pages from the ClickUp data and handwritten parts of the markdown files
 
 ## Set up
 
@@ -80,19 +79,19 @@ The site will be available at `http://localhost:8080`.
 1. Create a branch from `develop`
 2. Make your changes
 3. Test [locally](http://localhost:8080/) with `npm run frontend:dev`
-   - If this is not set up, just skip this step. If something goes wrong, [merges can be reverted](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request).
+    - If this is not set up, just skip this step. If something goes wrong, [merges can be reverted](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request).
 4. [Merge your branch into `develop`](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
-   - This triggers a deployment to [the dev site](https://kingsdigitallab.github.io/kdl/)
-   - Review your changes on the dev site
-   - Take a screenshot if the change is complicated  
-     (note: adding text only is not complicated. If the page grabs data from somewhere else, it is complicated.)
-   - Delete your branch if you are happy. The branch is just clutter now, your changes live in `develop` now. (No need to worry: The branch can be restored if needed.)
+    - This triggers a deployment to [the dev site](https://kingsdigitallab.github.io/kdl/)
+    - Review your changes on the dev site
+    - Take a screenshot if the change is complicated  
+      (note: adding text only is not complicated. If the page grabs data from somewhere else, it is complicated.)
+    - Delete your branch if you are happy. The branch is just clutter now, your changes live in `develop` now. (No need to worry: The branch can be restored if needed.)
 5. After reviewing on the dev site, [open a PR ](https://github.com/kingsdigitallab/kdl/pulls) from `develop` to `main`. Now you are done.
-   - Add someone as reviewer, this triggers GitHub to email them
-   - In the description, add the screenshot from before
-   - After the review will be approved, develop can be merged into main  
-     (note: the review is purely technical to check whether the changes will render or break the site. Content is not reviewed.)
-   - Merging triggers a deployment to [the live site](https://kdl.kcl.ac.uk/)
+    - Add someone as reviewer, this triggers GitHub to email them
+    - In the description, add the screenshot from before
+    - After the review will be approved, develop can be merged into main  
+      (note: the review is purely technical to check whether the changes will render or break the site. Content is not reviewed.)
+    - Merging triggers a deployment to [the live site](https://kdl.kcl.ac.uk/)
 
 ```mermaid
 ---
@@ -173,16 +172,16 @@ Some content is managed in ClickUp and synced to the site via ETL, while other c
 title: Your Article Title
 subtitle: A brief subtitle
 tags:
-  - post
-  - Your Topic
+    - post
+    - Your Topic
 authors:
-  - Your Name
+    - Your Name
 date: 2026-04-21
 excerpt: A short description for previews and SEO.
 feature:
-  image: /assets/images/blog/your-image.jpg
-  title:
-  description: Alt text for the image
+    image: /assets/images/blog/your-image.jpg
+    title:
+    description: Alt text for the image
 ---
 ```
 

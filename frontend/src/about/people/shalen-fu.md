@@ -3,7 +3,7 @@ title: Shalen Fu
 slug: shalen-fu
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---
 

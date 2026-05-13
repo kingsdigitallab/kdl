@@ -1,13 +1,13 @@
 ---
 title: What does it mean to sustain a digital research infrastructure?
 event:
-  title: Classical Texts in Digital Media 2 - Digital Methods for Editing and Studying Ancient Texts
-  url:
+    title: Classical Texts in Digital Media 2 - Digital Methods for Editing and Studying Ancient Texts
+    url:
 tags: slides
 slide:
-  loop: true
-  theme: simple
-  slideNumber: true
+    loop: true
+    theme: simple
+    slideNumber: true
 draft: false
 ---
 
@@ -57,9 +57,9 @@ _contributions from past and present KDL team_
 
 - Digital Humanities at King's College London (UK)
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) (2011-)
-  - 7 Masters and 1 Undergraduate degrees
-  - PhD programme​
-  - ~70 staff including researchers and education-focused lecturers
+    - 7 Masters and 1 Undergraduate degrees
+    - PhD programme​
+    - ~70 staff including researchers and education-focused lecturers
 - [King's Digital Lab](https://kdl.kcl.ac.uk/) (2015-)
 
 <aside class="notes">
@@ -97,12 +97,12 @@ Inherited over 100 completed projects with no funding
 
 - [Archiving and Sustainability Programme](https://kdl.kcl.ac.uk/about/archiving-and-sustainability/)
 - Examples of mantained ones (under SLA)
-  - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
-  - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
-  - prosophographies e.g. [DPRR](https://romanrepublic.ac.uk/)
-  - gazeteers e.g. [Cyprus heritage](https://cyprusgazetteer.org/)
-  - corpora
-  - data structures
+    - editions e.g. [IOSPE](https://iospe.kcl.ac.uk/)
+    - archives e.g. [Stonemaking](https://artofmaking.ac.uk/)
+    - prosophographies e.g. [DPRR](https://romanrepublic.ac.uk/)
+    - gazeteers e.g. [Cyprus heritage](https://cyprusgazetteer.org/)
+    - corpora
+    - data structures
 
 <aside class="notes">
 
@@ -119,14 +119,14 @@ Inherited over 100 completed projects with no funding
 ## Epigraphy project example
 
 - Editions [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
-  - [2009](https://inslib.kcl.ac.uk/irt2009/) - reduced functionalities
-  - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
-    - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & [EPIDOC community](https://github.com/EpiDoc/EFES)
-    - [other data](https://doi.org/10.18742/c.6002275.v1) - editor/s, insitution/s & funder/s
-      - authority lists eg. indexes
-      - EFES software architecture
-      - images - photographs of inscriptions
-      - TEI-EPIDOC XML
+    - [2009](https://inslib.kcl.ac.uk/irt2009/) - reduced functionalities
+    - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
+        - [code](https://github.com/kingsdigitallab/ircyr-efes) - KDL & [EPIDOC community](https://github.com/EpiDoc/EFES)
+        - [other data](https://doi.org/10.18742/c.6002275.v1) - editor/s, insitution/s & funder/s
+            - authority lists eg. indexes
+            - EFES software architecture
+            - images - photographs of inscriptions
+            - TEI-EPIDOC XML
 
 <aside class="notes">
 

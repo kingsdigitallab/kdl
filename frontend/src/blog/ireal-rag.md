@@ -2,21 +2,21 @@
 title: "Prototyping a RAG System for Digital Humanities: Exploring AI/ML with Indigenous Data"
 subtitle:
 tags:
-  - post
-  - ireal
-  - dh
-  - ai
-  - ml
-  - rag
+    - post
+    - ireal
+    - dh
+    - ai
+    - ml
+    - rag
 authors:
-  - Miguel Vieira
-  - Samantha Callaghan
+    - Miguel Vieira
+    - Samantha Callaghan
 date: 2025-01-16
 excerpt: A prototype RAG system for Indigenous data, exploring the use of AI/ML in the context of sensitive cultural data.
 feature:
-  image: /assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp
-  title: Jamillah Knowles & We and AI / Better Images of AI / People and Ivory Tower AI / CC-BY 4.0
-  description: "A neural network comes out of the top of an ivory tower, above a crowd of people's heads (shown in green to symbolise grass roots). Some of them are reaching up to try and take some control and pull the net down to them. Watercolour illustration."
+    image: /assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp
+    title: Jamillah Knowles & We and AI / Better Images of AI / People and Ivory Tower AI / CC-BY 4.0
+    description: "A neural network comes out of the top of an ivory tower, above a crowd of people's heads (shown in green to symbolise grass roots). Some of them are reaching up to try and take some control and pull the net down to them. Watercolour illustration."
 ---
 
 In the evolving landscape of Digital Humanities (DH) and Research Software Engineering (RSE), the integration of advanced AI techniques is opening new avenues for research and data exploration. This blog post explores the process of prototyping a Retrieval-Augmented Generation (RAG) system, with a specific focus on its application to Indigenous data. Our primary goal is to stimulate discussion around the use of AI/ML in the context of sensitive cultural data.
@@ -32,38 +32,32 @@ Retrieval-Augmented Generation (RAG) combines large language models with a knowl
 ## Key Aspects of the Prototype
 
 1. **Data Preparation**:
-
-   - Original data was in Word format, converted to JSON for indexing and Markdown for frontend presentation.
-   - This conversion process highlights the challenges of standardising diverse historical documents for machine processing.
+    - Original data was in Word format, converted to JSON for indexing and Markdown for frontend presentation.
+    - This conversion process highlights the challenges of standardising diverse historical documents for machine processing.
 
 2. **Ethical Considerations**:
-
-   - The RSE team maintained constant contact with Indigenous Australian Co-Leads of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), community representatives, throughout the development process.
-   - This collaboration underscores the importance of involving partners and stakeholders when working with culturally sensitive data.
+    - The RSE team maintained constant contact with Indigenous Australian Co-Leads of the [iREAL project](https://kdl.kcl.ac.uk/projects/ireal/), community representatives, throughout the development process.
+    - This collaboration underscores the importance of involving partners and stakeholders when working with culturally sensitive data.
 
 3. **Performance and Feedback**:
-
-   - A user feedback system was implemented in the frontend, allowing dashboard users to rate the helpfulness of each response.
-   - While formal evaluation metrics were not implemented at this stage, the project team expressed interest in using more formal evaluation mechanisms (like [Arize Phoenix](https://phoenix.arize.com/)) in future iterations.
+    - A user feedback system was implemented in the frontend, allowing dashboard users to rate the helpfulness of each response.
+    - While formal evaluation metrics were not implemented at this stage, the project team expressed interest in using more formal evaluation mechanisms (like [Arize Phoenix](https://phoenix.arize.com/)) in future iterations.
 
 4. **Integration with Broader Context**:
-
-   - The RAG system integrates with a wider dashboard, linking AI-generated responses to original records.
-   - This feature enhances transparency and allows users to verify information against primary sources.
+    - The RAG system integrates with a wider dashboard, linking AI-generated responses to original records.
+    - This feature enhances transparency and allows users to verify information against primary sources.
 
 5. **Prototype Nature and Goals**:
-
-   - The primary objective was to elicit discussion around AI/ML and Indigenous data, rather than to create a production-ready system. The dashboard was ephemeral and is not publicly available; the code is available however at the [project GitHub repository](https://github.com/kingsdigitallab/iREAL).
-   - This approach allows for exploration of potential benefits and risks without the pressure of immediate practical application.
+    - The primary objective was to elicit discussion around AI/ML and Indigenous data, rather than to create a production-ready system. The dashboard was ephemeral and is not publicly available; the code is available however at the [project GitHub repository](https://github.com/kingsdigitallab/iREAL).
+    - This approach allows for exploration of potential benefits and risks without the pressure of immediate practical application.
 
 6. **Challenges and Lessons Learned**:
-
-   - A major challenge was addressing semantic drift; highlighting the complexity of creating a truly useful RAG system beyond basic implementation.
-   - This experience underscores the gap between initial setup and developing a system that performs well enough to be genuinely useful in research contexts.
+    - A major challenge was addressing semantic drift; highlighting the complexity of creating a truly useful RAG system beyond basic implementation.
+    - This experience underscores the gap between initial setup and developing a system that performs well enough to be genuinely useful in research contexts.
 
 7. **Collaborative Development**:
-   - The project involved about 15 days of work from a multi-disciplinary team.
-   - This collaborative approach brought diverse perspectives to bear on the challenges of applying AI to cultural heritage data.
+    - The project involved about 15 days of work from a multi-disciplinary team.
+    - This collaborative approach brought diverse perspectives to bear on the challenges of applying AI to cultural heritage data.
 
 ## Technical Implementation
 
@@ -85,34 +79,29 @@ E --> F[Query data]
 When setting up a RAG system for Digital Humanities, consider incorporating these key components:
 
 1. **Document Processing Pipeline**:
-
-   - Implement a robust ingestion pipeline that can handle various document formats.
-   - Use document splitters to break down large texts into manageable chunks.
-   - Apply transformations to extract metadata, such as entities, keywords, and summaries.
+    - Implement a robust ingestion pipeline that can handle various document formats.
+    - Use document splitters to break down large texts into manageable chunks.
+    - Apply transformations to extract metadata, such as entities, keywords, and summaries.
 
 2. **Embedding and Vectorisation**:
-
-   - Choose an appropriate embedding model for your domain.
-   - Implement a vector store to efficiently store and retrieve document embeddings.
+    - Choose an appropriate embedding model for your domain.
+    - Implement a vector store to efficiently store and retrieve document embeddings.
 
 3. **Retrieval Mechanisms**:
-
-   - Implement multiple retrieval methods, such as vector similarity search and keyword-based retrieval (e.g., BM25).
-   - Consider using a fusion of different retrieval methods for more robust results.
+    - Implement multiple retrieval methods, such as vector similarity search and keyword-based retrieval (e.g., BM25).
+    - Consider using a fusion of different retrieval methods for more robust results.
 
 4. **Query Processing**:
-
-   - Develop a flexible query engine that can handle various types of queries.
-   - Implement query transformation techniques, such as Hypothetical Document Embeddings (HyDE), to improve retrieval.
+    - Develop a flexible query engine that can handle various types of queries.
+    - Implement query transformation techniques, such as Hypothetical Document Embeddings (HyDE), to improve retrieval.
 
 5. **Response Generation**:
-
-   - Use a language model to generate responses based on retrieved context.
-   - Implement a prompt template system to guide the language model's responses.
+    - Use a language model to generate responses based on retrieved context.
+    - Implement a prompt template system to guide the language model's responses.
 
 6. **Evaluation and Iteration**:
-   - Implement relevancy evaluators to assess the quality of responses.
-   - Use techniques like retry mechanisms to improve response quality.
+    - Implement relevancy evaluators to assess the quality of responses.
+    - Use techniques like retry mechanisms to improve response quality.
 
 ### Implementation Techniques
 
@@ -139,56 +128,45 @@ Here are some specific techniques you might consider when implementing your RAG 
 A well-designed user interface is essential for making your RAG system accessible and useful to researchers and other users in the Digital Humanities field. Here are some key considerations and features to include in your RAG system's frontend:
 
 1. **Intuitive Query Input**:
-
-   - Provide a clear, prominent input area for users to enter their questions.
-   - Consider offering example questions to help users understand the system's capabilities.
+    - Provide a clear, prominent input area for users to enter their questions.
+    - Consider offering example questions to help users understand the system's capabilities.
 
 2. **Conversation History**:
-
-   - Display a natural language interface showing the history of questions and answers.
-   - Include timestamps and other metadata to provide context for each interaction.
+    - Display a natural language interface showing the history of questions and answers.
+    - Include timestamps and other metadata to provide context for each interaction.
 
 3. **Answer Presentation**:
-
-   - Present AI-generated responses in a clear, readable format.
-   - Use markdown or HTML formatting to enhance readability of complex responses.
+    - Present AI-generated responses in a clear, readable format.
+    - Use markdown or HTML formatting to enhance readability of complex responses.
 
 4. **Source Attribution**:
-
-   - Provide a way to view the source documents or context used to generate each answer.
-   - Include links to original documents when possible, enhancing the system's value as a research tool.
+    - Provide a way to view the source documents or context used to generate each answer.
+    - Include links to original documents when possible, enhancing the system's value as a research tool.
 
 5. **User Feedback Mechanism**:
-
-   - Implement a simple way for users to provide feedback on the quality of responses (e.g., thumbs up/down buttons).
-   - Use this feedback to improve the system over time and to gather metrics on system performance.
+    - Implement a simple way for users to provide feedback on the quality of responses (e.g., thumbs up/down buttons).
+    - Use this feedback to improve the system over time and to gather metrics on system performance.
 
 6. **Customisation Options**:
-
-   - Allow users to customise the AI's behaviour, such as by modifying the prompt or specifying the AI's role.
-   - Provide access to default settings and explanations of how customisation affects results.
+    - Allow users to customise the AI's behaviour, such as by modifying the prompt or specifying the AI's role.
+    - Provide access to default settings and explanations of how customisation affects results.
 
 7. **Help and Documentation**:
-
-   - Include a comprehensive help section explaining how to use the system effectively.
-   - Provide information about the RAG technique and its limitations to set appropriate user expectations and encourage critical engagement with the tool.
+    - Include a comprehensive help section explaining how to use the system effectively.
+    - Provide information about the RAG technique and its limitations to set appropriate user expectations and encourage critical engagement with the tool.
 
 8. **Responsive Design**:
-
-   - Ensure the interface works well on various devices and screen sizes.
+    - Ensure the interface works well on various devices and screen sizes.
 
 9. **Accessibility**:
-
-   - Implement proper ARIA labels and ensure the interface is navigable by keyboard.
-   - Use semantic HTML to improve screen reader compatibility.
+    - Implement proper ARIA labels and ensure the interface is navigable by keyboard.
+    - Use semantic HTML to improve screen reader compatibility.
 
 10. **Error Handling and Loading States**:
-
     - Provide clear feedback when the system is processing a query.
     - Handle and display errors gracefully to maintain a good user experience.
 
 11. **Data Persistence**:
-
     - Consider using local storage to save chat history and user preferences.
     - Provide options for users to clear their data for privacy.
 

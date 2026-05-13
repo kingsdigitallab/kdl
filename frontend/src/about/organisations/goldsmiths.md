@@ -1,7 +1,7 @@
 ---
 title: Goldsmiths, University of London
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: goldsmiths
 foundingDate: null

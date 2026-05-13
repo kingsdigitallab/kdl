@@ -2,15 +2,15 @@
 title: A new Digital Ghost Hunt
 subtitle: After successful scratch performances, the project begins a new life
 tags:
-  - post
+    - post
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2019-02-13
 excerpt: After a successful scratch performance, the project begins a new life
 feature:
-  image: /assets/images/blog/BAC-24-web.original.jpg
-  title:
-  description: BAC Michael
+    image: /assets/images/blog/BAC-24-web.original.jpg
+    title:
+    description: BAC Michael
 ---
 
 ## A new Digital Ghost Hunt

@@ -1,7 +1,7 @@
 ---
 title: Leverhulme Trust
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: leverhulme-trust
 foundingDate: null

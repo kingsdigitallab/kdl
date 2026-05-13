@@ -1,21 +1,21 @@
 ---
 title: UK DARIAH Day 2025 - Imagining Future Digital Research Infrastructures
 tags:
-  - post
-  - Digital Research Infrastructure
-  - DARIAH
-  - Digital Scholarship
+    - post
+    - Digital Research Infrastructure
+    - DARIAH
+    - Digital Scholarship
 authors:
-  - Naomi Wells (School of Advanced Study)
-  - Lisa Otty (University of Edinburgh)
-  - Arianna Ciula
-  - Barbara McGillivray (King’s College London)
+    - Naomi Wells (School of Advanced Study)
+    - Lisa Otty (University of Edinburgh)
+    - Arianna Ciula
+    - Barbara McGillivray (King’s College London)
 date: 2026-01-15
 excerpt: ""
 feature:
-  image: /assets/images/blog/2025-DARIAH-DAY-Banner.jpg
-  title: "Old Royal Infirmary Building - Image courtesy of Edinburgh Futures Institute"
-  description: "Old Royal Infirmary Building, home of the Edinburgh Futures Institute"
+    image: /assets/images/blog/2025-DARIAH-DAY-Banner.jpg
+    title: "Old Royal Infirmary Building - Image courtesy of Edinburgh Futures Institute"
+    description: "Old Royal Infirmary Building, home of the Edinburgh Futures Institute"
 draft: false
 ---
 

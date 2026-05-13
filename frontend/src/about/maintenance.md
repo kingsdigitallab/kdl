@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 title: Designed, developed and maintained
 eleventyNavigation:
-  key: Maintenance
-  parent: About
+    key: Maintenance
+    parent: About
 ---
 
 Websites we have worked on will either have been entirely created by us, or contain a considerable component of our Design and/or Development work. Any or all of these services can be commissioned individually according to the expertise you require

@@ -1,7 +1,7 @@
 ---
 title: Wellcome Trust
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: wellcome-trust
 foundingDate: null

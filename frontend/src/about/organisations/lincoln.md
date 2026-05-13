@@ -1,7 +1,7 @@
 ---
 title: University of Lincoln
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: lincoln
 foundingDate: null

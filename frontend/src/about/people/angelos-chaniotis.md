@@ -3,12 +3,12 @@ title: Angelos Chaniotis
 slug: angelos-chaniotis
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: Heidelberg University
-      slug: heidelberg-university
-    roleName: Researcher
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Heidelberg University
+          slug: heidelberg-university
+      roleName: Researcher
 ---

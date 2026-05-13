@@ -3,6 +3,6 @@ title: Jonathan Prag
 slug: jonathan-prag
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

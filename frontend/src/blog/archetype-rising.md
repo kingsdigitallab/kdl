@@ -2,21 +2,21 @@
 title: Archetype Rising
 subtitle:
 tags:
-  - post
-  - Iconography
-  - Art
-  - Palaeography
+    - post
+    - Iconography
+    - Art
+    - Palaeography
 authors:
-  - Neil Jakeman
+    - Neil Jakeman
 date: 2017-10-04
 excerpt: There have been some mysterious and intriguing noises coming out of KDL
-  recently. The development team have been (metaphorically) hammering away to
-  add the final touches to a digital behemoth hidden underneath an equally
-  metaphorical, oil-stained tarpaulin...
+    recently. The development team have been (metaphorically) hammering away to
+    add the final touches to a digital behemoth hidden underneath an equally
+    metaphorical, oil-stained tarpaulin...
 feature:
-  image: /assets/images/blog/metropolis57fsam.original.jpg
-  title:
-  description: a dark background with a central radiant metallic metropolis figure
+    image: /assets/images/blog/metropolis57fsam.original.jpg
+    title:
+    description: a dark background with a central radiant metallic metropolis figure
 ---
 
 There have been some mysterious and intriguing noises coming out of KDL recently. The development team have been (metaphorically) hammering away to add the final touches to a digital behemoth hidden underneath an equally metaphorical, oil-stained tarpaulin...

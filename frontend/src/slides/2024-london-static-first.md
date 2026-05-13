@@ -1,14 +1,14 @@
 ---
 title: Static First Development Approach
 event:
-  title: Internal Event
-  url:
+    title: Internal Event
+    url:
 tags:
-  - slides
+    - slides
 slide:
-  loop: true
-  theme: light
-  slideNumber: true
+    loop: true
+    theme: light
+    slideNumber: true
 draft: false
 ---
 
@@ -44,9 +44,9 @@ all that we are hosting is HTML/CSS/JavaScript files.
 
 - A modular, flexible approach for building websites and web applications
 - Follows a technical stack with at most 3 components:
-  1. Static Site Generator (SSG) as the base
-  2. Flat File CMS (optional)
-  3. Headless CMS (optional, for more complex projects)
+    1. Static Site Generator (SSG) as the base
+    2. Flat File CMS (optional)
+    3. Headless CMS (optional, for more complex projects)
 
 <aside class="notes">
 It's a modular stack, that allows for different

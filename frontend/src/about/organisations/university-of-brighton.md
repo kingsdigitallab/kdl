@@ -1,7 +1,7 @@
 ---
 title: University of Brighton
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-brighton
 foundingDate: null

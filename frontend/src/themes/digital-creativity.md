@@ -2,17 +2,17 @@
 title: Digital Creativity
 permalink: projects/research-themes/digital-creativity/
 tags:
-  - theme
-  - Digital Creativity
+    - theme
+    - Digital Creativity
 excerpt: >
-  The Digital Creativity Research Theme brings together Analysts and Research
-  Software Engineers in KDL to create immersive, Mixed Reality (MR) experiences
-  with partners in the Creative Industries, Higher Education, and GLAM sectors.
+    The Digital Creativity Research Theme brings together Analysts and Research
+    Software Engineers in KDL to create immersive, Mixed Reality (MR) experiences
+    with partners in the Creative Industries, Higher Education, and GLAM sectors.
 feature:
-  image: /assets/images/themes/dc.jpg
-  title: Image was created by Aurora Mititelu as part of the Visualising AI project launched by Google DeepMind.
-  description: >
-    Hands of various skin tones interact with a dynamic, swirling mass of orange and black particles, symbolizing the collaborative and creative process in digital environments.
+    image: /assets/images/themes/dc.jpg
+    title: Image was created by Aurora Mititelu as part of the Visualising AI project launched by Google DeepMind.
+    description: >
+        Hands of various skin tones interact with a dynamic, swirling mass of orange and black particles, symbolizing the collaborative and creative process in digital environments.
 ---
 
 The Digital Creativity Research Theme brings together Analysts and Research

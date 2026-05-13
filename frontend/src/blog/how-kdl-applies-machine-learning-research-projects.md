@@ -2,24 +2,24 @@
 title: How KDL applies Machine Learning to research projects
 subtitle: A subjective retrospective
 tags:
-  - post
-  - Machine Learning
-  - Modelling
-  - Artificial Intelligence
+    - post
+    - Machine Learning
+    - Modelling
+    - Artificial Intelligence
 authors:
-  - Geoffroy Noël
+    - Geoffroy Noël
 date: 2022-04-19
 excerpt: As our new director, Arianna, mentioned in her recent blog post,
-  Machine Learning (ML) is one of the research themes we are keen to start
-  prioritising. Not only because it matches strong personal interests among the
-  solution development team who are eager to experiment with new and exciting
-  techniques (as you would expect from a Lab) but also because, as AI research
-  moves quickly, it continuously brings new methodological opportunities to many
-  scientific fields including the Humanities.
+    Machine Learning (ML) is one of the research themes we are keen to start
+    prioritising. Not only because it matches strong personal interests among the
+    solution development team who are eager to experiment with new and exciting
+    techniques (as you would expect from a Lab) but also because, as AI research
+    moves quickly, it continuously brings new methodological opportunities to many
+    scientific fields including the Humanities.
 feature:
-  image: /assets/images/blog/sunset-boulevard-in-512-0.01.original.png
-  title: © GN (generated with VQGan-CLIP)
-  description: Image of cityscape against a colorful sunset rendered by VQGAN-CLIP
+    image: /assets/images/blog/sunset-boulevard-in-512-0.01.original.png
+    title: © GN (generated with VQGan-CLIP)
+    description: Image of cityscape against a colorful sunset rendered by VQGAN-CLIP
 ---
 
 As our new director, Arianna, [mentioned in her recent blog post](/blog/ciula-director/), Machine Learning (ML) is one of the research themes we are keen to start prioritising. Not only because it matches strong personal interests among the solution development team who are eager to experiment with new and exciting techniques (as you would expect from a Lab) but also because, as AI research moves quickly, it continuously brings new methodological opportunities to many scientific fields including the Humanities.

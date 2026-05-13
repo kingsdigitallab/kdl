@@ -1,7 +1,7 @@
 ---
 title: Faculty of Natural, Mathematical & Engineering Sciences
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: faculty-of-natural-mathematical-and-engineering-sciences
 foundingDate: null

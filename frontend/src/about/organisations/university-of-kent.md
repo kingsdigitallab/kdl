@@ -1,7 +1,7 @@
 ---
 title: University of Kent
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-kent
 foundingDate: null

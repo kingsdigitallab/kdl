@@ -1,7 +1,7 @@
 ---
 title: University of Vienna
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-vienna
 foundingDate: null

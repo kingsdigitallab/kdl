@@ -1,5 +1,5 @@
 const markdownItImplicitFigures = require("markdown-it-image-figures");
-const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
+const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid").default;
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
 const kdlFilters = require("kdl-components/src/kdl/filters");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
@@ -27,7 +27,7 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addPassthroughCopy({
 		[`${kdlComponentsPath}/kdl/assets`]: "/assets",
 		"../node_modules/reveal.js/dist": "assets/reveal/",
-		"../node_modules/reveal.js/plugin": "assets/reveal/plugin",
+		"../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
 		public: "/",
 	});
 
@@ -39,13 +39,10 @@ module.exports = (eleventyConfig) => {
 
 	eleventyConfig.setLibrary(
 		"md",
-		markdownIt({ html: true })
-			.use(markdownItAnchor)
-			.use(markdownItAttrs)
-			.use(markdownItImplicitFigures, {
-				figcaption: true,
-				copyAttrs: "class",
-			}),
+		markdownIt({ html: true }).use(markdownItAnchor).use(markdownItAttrs).use(markdownItImplicitFigures, {
+			figcaption: true,
+			copyAttrs: "class",
+		}),
 	);
 
 	// Draft posts https://www.11ty.dev/docs/quicktips/draft-posts/
@@ -61,19 +58,16 @@ module.exports = (eleventyConfig) => {
 		};
 	});
 	// When `eleventyExcludeFromCollections` is true, the file is not included in any collections
-	eleventyConfig.addGlobalData(
-		"eleventyComputed.eleventyExcludeFromCollections",
-		function () {
-			return (data) => {
-				// Always exclude from non-watch/serve builds
-				if (data.draft && !process.env.BUILD_DRAFTS) {
-					return true;
-				}
+	eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function () {
+		return (data) => {
+			// Always exclude from non-watch/serve builds
+			if (data.draft && !process.env.BUILD_DRAFTS) {
+				return true;
+			}
 
-				return data.eleventyExcludeFromCollections;
-			};
-		},
-	);
+			return data.eleventyExcludeFromCollections;
+		};
+	});
 	eleventyConfig.on("eleventy.before", ({ runMode }) => {
 		// Set the environment variable
 		if (runMode === "serve" || runMode === "watch") {
@@ -104,28 +98,22 @@ module.exports = (eleventyConfig) => {
 		return posts.reverse().slice(0, number);
 	});
 
-	eleventyConfig.addFilter(
-		"featuredProjects",
-		function (projects, status = "Active", number = 3) {
-			return (
-				projects
-					.filter((project) => project.data.creativeWorkStatus === status)
-					.filter((project) => project.data.feature?.image)
-					// .filter((project) => project.content && project.content.length > 0)
-					.sort(() => Math.random() - 0.5)
-					.slice(0, number)
-			);
-		},
-	);
+	eleventyConfig.addFilter("featuredProjects", function (projects, status = "Active", number = 3) {
+		return (
+			projects
+				.filter((project) => project.data.creativeWorkStatus === status)
+				.filter((project) => project.data.feature?.image)
+				// .filter((project) => project.content && project.content.length > 0)
+				.sort(() => Math.random() - 0.5)
+				.slice(0, number)
+		);
+	});
 
 	eleventyConfig.addFilter("fundedProjects", (projects, agentSlug) => {
 		if (!projects || !agentSlug) return null;
 
 		return projects.filter((project) => {
-			return (
-				project?.data?.fundersSlugs &&
-				project.data.fundersSlugs.some((funder) => funder === agentSlug)
-			);
+			return project?.data?.fundersSlugs && project.data.fundersSlugs.some((funder) => funder === agentSlug);
 		});
 	});
 
@@ -135,20 +123,14 @@ module.exports = (eleventyConfig) => {
 		return projects.filter((project) => {
 			return (
 				project?.data?.departmentsSlugs &&
-				project.data.departmentsSlugs.some(
-					(department) => department === agentSlug,
-				)
+				project.data.departmentsSlugs.some((department) => department === agentSlug)
 			);
 		});
 	});
 
 	eleventyConfig.addFilter("getAgentProjects", (projects, slug) =>
 		projects
-			.filter(
-				(project) =>
-					project.data.members &&
-					project.data.members.some((member) => member.slug === slug),
-			)
+			.filter((project) => project.data.members && project.data.members.some((member) => member.slug === slug))
 			.map((project) => ({
 				...project,
 				role: project.data.members.find((member) => member.slug === slug),
@@ -161,8 +143,7 @@ module.exports = (eleventyConfig) => {
 			organisations
 				.filter(
 					(organisation) =>
-						organisation.data.members &&
-						organisation.data.members.some((member) => member.slug === slug),
+						organisation.data.members && organisation.data.members.some((member) => member.slug === slug),
 				)
 				.reduce((acc, organisation) => {
 					if (!acc[organisation.data.agent]) {
@@ -174,29 +155,17 @@ module.exports = (eleventyConfig) => {
 		),
 	);
 
-	eleventyConfig.addFilter(
-		"getThemeProjects",
-		function (projects, keywords = []) {
-			return projects
-				.filter((project) =>
-					project.data.keywords?.some((keyword) =>
-						keywords.includes(keyword.name),
-					),
-				)
-				.sort(
-					(a, b) =>
-						new Date(b.data.foundingDate) - new Date(a.data.foundingDate),
-				);
-		},
-	);
+	eleventyConfig.addFilter("getThemeProjects", function (projects, keywords = []) {
+		return projects
+			.filter((project) => project.data.keywords?.some((keyword) => keywords.includes(keyword.name)))
+			.sort((a, b) => new Date(b.data.foundingDate) - new Date(a.data.foundingDate));
+	});
 
 	eleventyConfig.addShortcode("route", function (path, navigationKey = "") {
 		let url = path;
 
 		if (navigationKey) {
-			const graph = pluginEleventyNavigation.navigation.getDependencyGraph(
-				this.ctx.collections.all,
-			);
+			const graph = pluginEleventyNavigation.navigation.getDependencyGraph(this.ctx.collections.all);
 
 			try {
 				const found = graph.getNodeData(navigationKey);
@@ -211,14 +180,9 @@ module.exports = (eleventyConfig) => {
 		return url;
 	});
 
-	eleventyConfig.addPairedShortcode(
-		"slide",
-		function (content, options = "data-auto-animate") {
-			return `<section class="slide" ${options.split(
-				",",
-			)}>${content}</section>`;
-		},
-	);
+	eleventyConfig.addPairedShortcode("slide", function (content, options = "data-auto-animate") {
+		return `<section class="slide" ${options.split(",")}>${content}</section>`;
+	});
 
 	// https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
 	eleventyConfig.addTemplateFormats("scss");

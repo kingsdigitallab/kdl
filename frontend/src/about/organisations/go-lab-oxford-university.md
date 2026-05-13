@@ -1,7 +1,7 @@
 ---
 title: GO Lab, Oxford University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: go-lab-oxford-university
 foundingDate: null

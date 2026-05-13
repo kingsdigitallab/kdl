@@ -1,19 +1,19 @@
 ---
 title: What does the role of Research Technology Professional mean to King’s
-  Digital Lab?
+    Digital Lab?
 subtitle: "Part 2: People, projects, infrastructure, methodologies and processes"
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2022-10-14
 excerpt: >-
 
-  This is the second part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
+    This is the second part of a blogpost published for International Research Software Engineering Day integrating and extracting from our response to the Arts and Humanities Research Council (AHRC) consultation this summer on what the role of Research Technology Professional (RTP) means to King’s Digital Lab. Research Software Engineering profiles are a category within RTPs so our response was based on the KDL experience of inhabiting those roles.
 feature:
-  image: /assets/images/blog/pexels-adam-ernster-7767972.original.jpg
-  title: © Photo by Adam Ernster on Pexels
-  description: Professional shot of an orca, up close, gliding through the ocean iceberg waters
+    image: /assets/images/blog/pexels-adam-ernster-7767972.original.jpg
+    title: © Photo by Adam Ernster on Pexels
+    description: Professional shot of an orca, up close, gliding through the ocean iceberg waters
 ---
 
 ![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}
@@ -35,18 +35,18 @@ To the AHRC consultation, we also provided an overview of KDL history and missio
 KDL team includes [13 Research Software Engineers (RSE)](/who-we-are/) currently equivalent to 12.5 FTE and a postdoc. Staff are divided into two broad functions, “Lab Support” (LS) who focus on administrative, management and planning functions and the “Solution Development Team” (SDT) who focus on projects and infrastructure:
 
 - Lab Support
-  - 0.5 director
-  - 1 RS Lab manager (role description introduced this year)
-  - 1 RS Project manager (new team member, Shalen Fu, starting in November)
+    - 0.5 director
+    - 1 RS Lab manager (role description introduced this year)
+    - 1 RS Project manager (new team member, Shalen Fu, starting in November)
 - Solution Development Team:
-  - 1 Principal RSE
-  - 2.5 Senior RSE
-  - 2.5 Senior RS Analysts
-  - 0.5 RS Analyst
-  - 1 Senior RS UI/UX designer
-  - 1 RS UI/UX designer
-  - 1.5 Senior RS system managers
-  - 1 postdoc (EU-funded)
+    - 1 Principal RSE
+    - 2.5 Senior RSE
+    - 2.5 Senior RS Analysts
+    - 0.5 RS Analyst
+    - 1 Senior RS UI/UX designer
+    - 1 RS UI/UX designer
+    - 1.5 Senior RS system managers
+    - 1 postdoc (EU-funded)
 
 Except for the post-doc, all our roles are currently mapped to Professional Services contracts at KCL.
 
@@ -95,9 +95,9 @@ The design and development process is guided by quality guidelines (including [R
 Historically, projects hosted on KDL infrastructure have been submitted to the [UK Research Excellence Framework (REF)](https://www.ref.ac.uk/) as research outputs or part of Impact Case Studies. KDL's wide-ranging impact on the Faculty of A&H research outputs and environment was reflected also in the REF 2021 submission for which contributions included:
 
 - **Digital research outputs** (submitted as snapshots editions contained in clone websites):
-  - _[The Redress of the Past: Historical Pageants in Britain, 1905-2016](https://historicalpageants.ac.uk/)_
-  - _[Models of Authority: Scottish Charters and the Emergence of Government](https://www.modelsofauthority.ac.uk/)_
-  - [_The Values of French Language and Literature in the European Middle Ages_](https://tvof.ac.uk/)
+    - _[The Redress of the Past: Historical Pageants in Britain, 1905-2016](https://historicalpageants.ac.uk/)_
+    - _[Models of Authority: Scottish Charters and the Emergence of Government](https://www.modelsofauthority.ac.uk/)_
+    - [_The Values of French Language and Literature in the European Middle Ages_](https://tvof.ac.uk/)
 - **Impact case study** _Sustaining and Opening-Up a World of Cultural Heritage: Building Digital Capacity for Cross-Sector Cultural Collaboration_ with the [Department of Digital Humanities](https://www.kcl.ac.uk/ddh).
 - Involvement in **other impact case studies** as well as Unit of Assessments (UoA) and College-wide **environmental statements** (not only in UoA Communication, Cultural and Media Studies, Library and Information Management, but also in English Language and Literature; Classics; Modern Languages; History; Music, Drama, Dance, Performing Arts, Film and Screen Studies; Theology and Religious Studies)
 

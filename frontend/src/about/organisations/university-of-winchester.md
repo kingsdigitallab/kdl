@@ -1,7 +1,7 @@
 ---
 title: University of Winchester
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: university-of-winchester
 foundingDate: null

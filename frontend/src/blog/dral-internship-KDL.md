@@ -2,15 +2,15 @@
 title: Internship in the Distant Reading across Languages (DRaL) project
 subtitle: First Published on the Department of Digital Humanities Blog 14 September 2019
 tags:
-  - post
+    - post
 authors:
-  - Natalia Romanova
+    - Natalia Romanova
 date: 2019-10-30
 excerpt: ""
 feature:
-  image: /assets/images/blog/Viz_UTGKaWw.original.jpg
-  title: © Adapted from a visualisation on the DRaL page
-  description: A bar graph presenting the percentage of word repetitions omitted by a translator per each English repeteme in Lithuanian translation (2003)
+    image: /assets/images/blog/Viz_UTGKaWw.original.jpg
+    title: © Adapted from a visualisation on the DRaL page
+    description: A bar graph presenting the percentage of word repetitions omitted by a translator per each English repeteme in Lithuanian translation (2003)
 ---
 
 Coming to the Master’s in Digital Humanities in 2017 as a mature student with some previous experience of working in academia, I was attracted by the reputation of Digital Humanities at King’s. I was particularly interested in [King’s Digital Lab (KDL)](https://www.kdl.kcl.ac.uk/) and was hoping to find a project that I could contribute to.

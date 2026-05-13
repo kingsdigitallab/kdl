@@ -3,14 +3,14 @@ title: Pam Mellen
 slug: pam-mellen
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: RSE team member
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: RSE team member
 ---
 
 Pamela Mellen oversees the Lab's business functions and is deeply involved in managing the Lab's strategic and continuous improvement goals. She also manages key elements of KDL projects, coordinating between the KDL development team and our range of external partners.

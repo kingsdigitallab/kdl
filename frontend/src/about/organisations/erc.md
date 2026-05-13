@@ -1,7 +1,7 @@
 ---
 title: European Research Council
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: erc
 foundingDate: null

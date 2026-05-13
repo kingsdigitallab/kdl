@@ -1,12 +1,12 @@
 ---
 title: "Strutture e processi del King’s Digital Lab"
 event:
-  title: DH-ATLAS
-  url: https://dh-atlas.github.io/workshop.html
+    title: DH-ATLAS
+    url: https://dh-atlas.github.io/workshop.html
 tags: slides
 slide:
-  loop: true
-  slideNumber: true
+    loop: true
+    slideNumber: true
 ---
 
 {% slide %}
@@ -72,7 +72,7 @@ Arianna Ciula
 
 - [Github repository](https://github.com/kingsdigitallab/)
 - [Licenza aperta MIT](https://opensource.org/licenses/MIT)
-  > <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
+    > <small>KDL makes any project application source code freely accessible at KDL’s GitHub repository [...] Unless otherwise specified, users can download this material and reuse it under the terms of the MIT License.</small>
 
 {% endslide %}
 
@@ -110,7 +110,7 @@ Arianna Ciula
 - _Requirements_ - [domande-guida KDL](https://github.com/kingsdigitallab/sdlc-for-rse/wiki/Data-Management-Plan-guidance-and-AHRC-template)
 - _Data Management Plans_ - [linee guida e strumento DCC](https://www.dcc.ac.uk/resources/data-management-plans)
 - _Requirement_ di _default_
-  > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
+    > <small>KDL provides help and advice with respect to preparing and depositing the digital data appropriate for deposit in the King's Open Research Data Service (KORDS) or other appropriate data repository</small>
 
 <aside class="notes">
 
@@ -125,9 +125,9 @@ Arianna Ciula
 ### Progetto attivo
 
 - Di chi sono i dati?
-  - Github
-  - _Repository_ istituzionale o disciplinare
-    - interno o esterno
+    - Github
+    - _Repository_ istituzionale o disciplinare
+        - interno o esterno
 
 <aside class="notes">
 
@@ -146,12 +146,12 @@ Arianna Ciula
 ### Progetto attivo
 
 - Interfaccia utente pubblica
-  - Interfacce al testo/edizione e altri dati
-    - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
-    - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
-  - Database _search_ es. [persone in DPRR](https://romanrepublic.ac.uk/person/)
-  - Dati in formato tabulare es. [_Radical Translations download_](https://radicaltranslations.org/media/data.zip) CC BY 4.0
-  - Altri [esempi](https://kdl.kcl.ac.uk/projects/)
+    - Interfacce al testo/edizione e altri dati
+        - [COTR _Regiam maiestatem_ edizione dinamica](https://cotr.ac.uk/viewer/?group=regiam&blocks=47:transcription@v-3;47:transcription#)
+        - [_Alice Thornton Books timeline_](https://thornton.kdl.kcl.ac.uk/timeline/)
+    - Database _search_ es. [persone in DPRR](https://romanrepublic.ac.uk/person/)
+    - Dati in formato tabulare es. [_Radical Translations download_](https://radicaltranslations.org/media/data.zip) CC BY 4.0
+    - Altri [esempi](https://kdl.kcl.ac.uk/projects/)
 
 <aside class="notes">
 
@@ -168,9 +168,9 @@ Arianna Ciula
 ### Progetto concluso
 
 - Reponsabilità e crediti
-  - es. KDL vs. ruoli editoriali vs. _copyright_
+    - es. KDL vs. ruoli editoriali vs. _copyright_
 - Continua evoluzione delle pratiche di laboratorio / istituzionali / esterne
-  - es. [istanza KDL CKAN](https://data.kdl.kcl.ac.uk/)
+    - es. [istanza KDL CKAN](https://data.kdl.kcl.ac.uk/)
 
 <aside class="notes">
 
@@ -186,14 +186,14 @@ Arianna Ciula
 ## Esempio
 
 - Edizioni [_Inscriptions of Roman Tripolitania_](https://kdl.kcl.ac.uk/projects/inscriptions-of-roman-tripolitania/)
-  - [2009](https://inslib.kcl.ac.uk/irt2009/) - funzionalità ridotte
-  - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
-    - [codice](https://github.com/kingsdigitallab/ircyr-efes) - KDL & comunità EPIDOC
-    - [altri dati](https://doi.org/10.18742/c.6002275.v1) - Editori, università (KORDS, Figshare) & sponspor
-      - authority lists es. indici
-      - architettura software EFES
-      - immagini - fotografie delle iscrizioni
-      - TEI-EPIDOC XML
+    - [2009](https://inslib.kcl.ac.uk/irt2009/) - funzionalità ridotte
+    - [2021](https://irt2021.inslib.kcl.ac.uk/en/)
+        - [codice](https://github.com/kingsdigitallab/ircyr-efes) - KDL & comunità EPIDOC
+        - [altri dati](https://doi.org/10.18742/c.6002275.v1) - Editori, università (KORDS, Figshare) & sponspor
+            - authority lists es. indici
+            - architettura software EFES
+            - immagini - fotografie delle iscrizioni
+            - TEI-EPIDOC XML
 
 <aside class="notes">
 
@@ -208,8 +208,8 @@ Arianna Ciula
 ## Aspirazioni
 
 - Complementare il lavoro con documentazione collaborativa
-  - dati e processi es. [_data paper_](https://doi.org/10.5334/johd.195)
-  - re-usabilità del software es. [_metrics for FAIR software_](https://doi.org/10.5281/zenodo.10047401)
+    - dati e processi es. [_data paper_](https://doi.org/10.5334/johd.195)
+    - re-usabilità del software es. [_metrics for FAIR software_](https://doi.org/10.5281/zenodo.10047401)
 
 {% endslide %}
 

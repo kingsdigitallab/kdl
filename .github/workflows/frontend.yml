@@ -1,71 +1,72 @@
 name: Build 11ty frontend
 
 on:
-  push:
-    branches:
-      - develop
-      - main
-      - next
-  pull_request:
-    branches:
-      - develop
-      - main
-      - next
-  schedule:
-    - cron: "*/30 7-22 * * *"
+    push:
+        branches:
+            - develop
+            - main
+            - next
+    pull_request:
+        branches:
+            - develop
+            - main
+            - next
+    schedule:
+        - cron: "*/30 7-22 * * *"
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
+    build:
+        runs-on: ubuntu-22.04
 
-    strategy:
-      matrix:
-        node-version: [20.x]
+        strategy:
+            matrix:
+                node-version: [24.x]
 
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
+        steps:
+            - uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.PAT }}
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v6
+              with:
+                  node-version: ${{ matrix.node-version }}
 
-      - name: create env files
-        run: |
-          mkdir -p .envs
-          touch .envs/.etl
-          echo CLICKUP_API_URL=${{ secrets.CLICKUP_API_URL }} >> .envs/.etl
-          echo CLICKUP_API_KEY=${{ secrets.CLICKUP_API_KEY }} >> .envs/.etl
-          echo CLICKUP_TEAM_ID=${{ secrets.CLICKUP_TEAM_ID }} >> .envs/.etl
-          touch frontend/.env
-          echo BUILD_DRAFTS=true >> frontend/.env
+            - name: create env files
+              run: |
+                  mkdir -p .envs
+                  touch .envs/.etl
+                  echo CLICKUP_API_URL=${{ secrets.CLICKUP_API_URL }} >> .envs/.etl
+                  echo CLICKUP_API_KEY=${{ secrets.CLICKUP_API_KEY }} >> .envs/.etl
+                  echo CLICKUP_TEAM_ID=${{ secrets.CLICKUP_TEAM_ID }} >> .envs/.etl
+                  touch frontend/.env
+                  echo BUILD_DRAFTS=true >> frontend/.env
 
-      - name: Install dependencies
-        run: |
-          npm ci
+            - name: Install dependencies
+              run: |
+                  npm ci
 
-      - name: Extract projects from ClickUp
-        run: |
-          npm run etl:clickup frontend/src/projects
+            - name: Extract projects from ClickUp
+              run: |
+                  npm run etl:clickup frontend/src/projects
 
-      - name: Test frontend
-        run: npm run frontend:test
+            - name: Test frontend
+              run: npm run frontend:test
 
-      - name: Build frontend
-        run: |
-          npm run build -w frontend -- --pathprefix 'kdl'
-          npm run index -w frontend
+            - name: Build frontend
+              run: |
+                  npm run build -w frontend -- --pathprefix 'kdl'
+                  npm run index -w frontend
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "ci(frontend): Auto-update data"
-          file_pattern: "frontend/src/projects/*.*"
+            - uses: stefanzweifel/git-auto-commit-action@v7
+              with:
+                  commit_message: "ci(frontend): Auto-update data"
+                  file_pattern: "frontend/src/projects/*.*"
+                  commit_options: "--no-verify"
 
-      - name: Deploy to GitHub pages
-        if: github.ref == 'refs/heads/develop'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./frontend/_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+            - name: Deploy to GitHub pages
+              if: github.ref == 'refs/heads/develop'
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  publish_dir: ./frontend/_site
+                  github_token: ${{ secrets.GITHUB_TOKEN }}

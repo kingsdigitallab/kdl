@@ -1,61 +1,60 @@
 ---
 title: "Digital Humanities Laboratory: Studying the Entanglement of
-  Infrastructure and Technology in Knowledge Production"
+    Infrastructure and Technology in Knowledge Production"
 name: "Digital Humanities Laboratory: Studying the Entanglement of
-  Infrastructure and Technology in Knowledge Production"
+    Infrastructure and Technology in Knowledge Production"
 tags:
-  - projects
+    - projects
 alternateName: null
 slug: marie-curie-fellowship-dhlab
 foundingDate: 2020-10-01
 dissolutionDate: 2023-03-17
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/digital-humanities-laboratory.jpg
-  title:
-    A network diagram showing the connections between technologies and their
-    metadata in various states of being considered, actively used, or deprecated
-    to legacy status by King's Digital Lab (Pawlicka-Deger, Ciula and Vieira,
-    forthcoming).
-  description: A dense network of multicoloured nodes connected by thin lines,
-    forming an intricate web on a dark green background.
-  width: 1200
-  height: 800
+    image: /assets/images/projects/digital-humanities-laboratory.jpg
+    title: A network diagram showing the connections between technologies and their
+        metadata in various states of being considered, actively used, or deprecated
+        to legacy status by King's Digital Lab (Pawlicka-Deger, Ciula and Vieira,
+        forthcoming).
+    description: A dense network of multicoloured nodes connected by thin lines,
+        forming an intricate web on a dark green background.
+    width: 1200
+    height: 800
 funders:
-  - name: European Research Council (ERC)
-    slug: european-research-council-erc
+    - name: European Research Council (ERC)
+      slug: european-research-council-erc
 departments:
-  - name: King's Digital Lab
-    slug: kings-digital-lab
-  - name: FAH Department of Digital Humanities
-    slug: fah-department-of-digital-humanities
-  - name: King's College, London
-    slug: kings-college-london
+    - name: King's Digital Lab
+      slug: kings-digital-lab
+    - name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+    - name: King's College, London
+      slug: kings-college-london
 members:
-  - name: James Smithies
-    slug: james-smithies
-    roleName: Director
-  - name: Arianna Ciula
-    slug: arianna-ciula
-    roleName: Research Software Analyst
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
-  - name: Urszula Pawlicka-Deger
-    slug: urszula-pawlicka-deger
-    roleName: Principal investigator
-    inOrganisation:
-      name: KDL
-      slug: kdl
+    - name: James Smithies
+      slug: james-smithies
+      roleName: Director
+    - name: Arianna Ciula
+      slug: arianna-ciula
+      roleName: Research Software Analyst
+    - name: Miguel Vieira
+      slug: miguel-vieira
+      roleName: Research Software Engineer
+    - name: Urszula Pawlicka-Deger
+      slug: urszula-pawlicka-deger
+      roleName: Principal investigator
+      inOrganisation:
+          name: KDL
+          slug: kdl
 keywords: []
 urls:
-  - name: Project URL
-    url: https://dhinfra-org.github.io/
-  - name: European Commission URL
-    url: https://cordis.europa.eu/project/id/891155
+    - name: Project URL
+      url: https://dhinfra-org.github.io/
+    - name: European Commission URL
+      url: https://cordis.europa.eu/project/id/891155
 sla:
-  start: null
-  end: null
+    start: null
+    end: null
 draft: false
 ---
 

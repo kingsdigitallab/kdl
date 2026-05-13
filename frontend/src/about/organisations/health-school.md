@@ -1,7 +1,7 @@
 ---
 title: Health School
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: health-school
 foundingDate: null

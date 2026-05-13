@@ -3,6 +3,6 @@ title: Clare Brant
 slug: clare-brant
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

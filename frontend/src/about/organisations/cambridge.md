@@ -1,7 +1,7 @@
 ---
 title: University of Cambridge
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: cambridge
 foundingDate: null

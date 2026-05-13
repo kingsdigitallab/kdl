@@ -1,7 +1,7 @@
 ---
 title: Migration Museum
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: migration-museum
 foundingDate: null

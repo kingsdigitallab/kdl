@@ -3,7 +3,7 @@ title: Urszula Pawlicka-Deger
 slug: urszula-pawlicka-deger
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---
 

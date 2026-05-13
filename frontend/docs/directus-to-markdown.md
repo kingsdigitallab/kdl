@@ -9,14 +9,13 @@
 The following ETL scripts that converted Directus data to markdown were removed:
 
 - [Commit `364e412f4`](https://github.com/kingsdigitallab/kdl/commit/364e412f4): Removed conversion scripts
-
-  - `etl/src/organisations-to-md.js`
-  - `etl/src/people-to-md.js`
-  - `etl/src/projects-to-md.js`
+    - `etl/src/organisations-to-md.js`
+    - `etl/src/people-to-md.js`
+    - `etl/src/projects-to-md.js`
 
 - [Commit `825d43bad`](https://github.com/kingsdigitallab/kdl/commit/825d43bad): Removed npm scripts and tests
-  - Removed npm scripts that ran the conversion
-  - Removed tests: `etl/tests/organisations-to-md.test.js`, `etl/tests/people-to-md.test.js`, `etl/tests/projects-to-md.test.js`
+    - Removed npm scripts that ran the conversion
+    - Removed tests: `etl/tests/organisations-to-md.test.js`, `etl/tests/people-to-md.test.js`, `etl/tests/projects-to-md.test.js`
 
 ### How the Conversion Worked
 

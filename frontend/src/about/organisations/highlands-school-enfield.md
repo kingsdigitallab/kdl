@@ -1,7 +1,7 @@
 ---
 title: Highlands School Enfield
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: highlands-school-enfield
 foundingDate: null

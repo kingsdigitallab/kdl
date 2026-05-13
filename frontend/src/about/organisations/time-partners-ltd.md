@@ -1,7 +1,7 @@
 ---
 title: Time Partners Ltd
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: time-partners-ltd
 foundingDate: null

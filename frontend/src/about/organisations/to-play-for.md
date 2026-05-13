@@ -1,7 +1,7 @@
 ---
 title: Charisma.AI
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: to-play-for
 foundingDate: null

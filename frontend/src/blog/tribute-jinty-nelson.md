@@ -2,20 +2,20 @@
 title: Tribute to Professor Dame Janet (Jinty) Nelson
 subtitle: DBE FRHistS FBA 1942-2024
 tags:
-  - post
-  - tribute
-  - Dame Janet (Jinty) Nelson
-  - The Making of Charlesmagne's Europe
-  - Prosopography of Anglo-Saxon England
-  - The Language of Landscapes
+    - post
+    - tribute
+    - Dame Janet (Jinty) Nelson
+    - The Making of Charlesmagne's Europe
+    - Prosopography of Anglo-Saxon England
+    - The Language of Landscapes
 authors:
-  - Harold Short
+    - Harold Short
 date: 2024-10-28
 excerpt: Obituary of Professor Dame Janet Nelson
 feature:
-  image: /assets/images/blog/Jinty_Nelson.png
-  title: Image John Deehan for the Royal Historical Society
-  description: Professor Dame Janet Nelson, 2019. Image John Deehan for the Royal Historical Society
+    image: /assets/images/blog/Jinty_Nelson.png
+    title: Image John Deehan for the Royal Historical Society
+    description: Professor Dame Janet Nelson, 2019. Image John Deehan for the Royal Historical Society
 ---
 
 Jinty, as she was known, was a distinguished medieval history scholar of international standing as well as an inspirational colleague and teacher. Her life and career will be celebrated by her colleagues in the Department of History – see their tribute [here](https://www.kcl.ac.uk/news/a-tribute-to-professor-dame-janet-nelson) – where she spent almost her entire academic career from 1970 until her retirement in 2007, and very widely elsewhere. It is highly appropriate, however, to add our own tribute from the field of Digital Humanities – previously ‘humanities computing’, which was its description for most of Jinty’s time at King’s.

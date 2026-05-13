@@ -2,15 +2,15 @@
 title: King’s College London joins DARIAH as Cooperating Partner
 subtitle: First Published on the DARIAH website on 6th November 2023.
 tags:
-  - post
+    - post
 authors:
-  - Alessandra Esposito
+    - Alessandra Esposito
 date: 2023-11-06
 excerpt: "The Digital Research Infrastructure for the Arts and Humanities (DARIAH-EU) is proud to announce it has renewed a Cooperating Partnership agreement with King’s College London in the United Kingdom. "
 feature:
-  image: /assets/images/blog/puzzle_pieces.jpg
-  title: © Photo by Diva Plavalaguna on Pexels
-  description: Close up photo of people holding puzzle pieces
+    image: /assets/images/blog/puzzle_pieces.jpg
+    title: © Photo by Diva Plavalaguna on Pexels
+    description: Close up photo of people holding puzzle pieces
 
 draft: false
 ---

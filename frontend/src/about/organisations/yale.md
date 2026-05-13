@@ -1,7 +1,7 @@
 ---
 title: Yale University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: yale
 foundingDate: null

@@ -3,12 +3,12 @@ title: Denise Ho
 slug: denise-ho
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: Yale University
-      slug: yale
-    roleName: Partner
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Yale University
+          slug: yale
+      roleName: Partner
 ---
