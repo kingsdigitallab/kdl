@@ -5,7 +5,6 @@
 	"author": "King's Digital Lab",
 	"license": "MPL-2.0",
 	"scripts": {
-		"test": "jest --coverage",
 		"clickup-to-md": "node src/clickup-to-md.js"
 	},
 	"bin": {
@@ -24,14 +23,7 @@
 		"slugify": "^1.6.5",
 		"turndown": "^7.1.1"
 	},
-	"devDependencies": {
-		"jest": "^30.4.2",
-		"nock": "^14.0.15"
-	},
 	"main": "index.js",
-	"directories": {
-		"test": "tests"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/kingsdigitallab/kdl.git"
