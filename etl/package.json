@@ -12,7 +12,7 @@
 		"kdl-etl": "src/cli.js"
 	},
 	"dependencies": {
-		"axios": "^0.27.2",
+		"axios": "^1.16.0",
 		"commander": "^14.0.3",
 		"crawlee": "^3.0.4",
 		"csv-parse": "^6.2.1",
@@ -25,7 +25,7 @@
 		"turndown": "^7.1.1"
 	},
 	"devDependencies": {
-		"jest": "^28.1.1",
+		"jest": "^30.4.2",
 		"nock": "^14.0.15"
 	},
 	"main": "index.js",
