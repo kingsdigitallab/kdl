@@ -800,6 +800,7 @@ main {
 			margin-bottom: 4em;
 			div {
 				flex-basis: calc(33.33% - 0.5em);
+				min-width: 0;
 				margin-bottom: 1.5em;
 				padding: 1.5em 0.7em 1em 0.7em;
 				background-color: lighten($lightgray, 5%);
