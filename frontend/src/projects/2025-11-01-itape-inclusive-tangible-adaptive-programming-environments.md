@@ -19,8 +19,6 @@ feature:
 keywords:
   - name: Digital Creativity
     slug: digital-creativity
-  - name: Digital Futures Institute
-    slug: digital-futures-institute
 funders:
   - name: KCL Digital Futures Institute
     slug: kcl-digital-futures-institute
