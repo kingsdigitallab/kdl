@@ -697,6 +697,7 @@ main .kdl-container > article > article footer {
 .home .contact section div,
 .home .communities section div {
   flex-basis: calc(33.33% - 0.5em);
+  min-width: 0;
   margin-bottom: 1.5em;
   padding: 1.5em 0.7em 1em 0.7em;
   background-color: rgb(244.8255813953, 246.8604651163, 247.6744186047);
