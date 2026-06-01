@@ -10,7 +10,7 @@ memberOf:
       organisation:
           name: King's Digital Lab
           slug: kdl
-      roleName: Research Software Engineer
+      roleName: Principal Research Software Engineer
 ---
 
 Mary Chester-Kadwell is a research software engineer, originally from a humanities background. She has a PhD in the landscape archaeology and material culture of early-medieval England using GIS and computational methods.
