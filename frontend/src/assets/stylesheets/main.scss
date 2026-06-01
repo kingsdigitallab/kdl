@@ -804,6 +804,9 @@ main {
 				margin-bottom: 1.5em;
 				padding: 1.5em 0.7em 1em 0.7em;
 				background-color: lighten($lightgray, 5%);
+				p {
+					overflow-wrap: break-word;
+				}
 			}
 			a {
 				text-decoration: none;
