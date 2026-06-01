@@ -2,17 +2,17 @@
 title: Heritage Gazetteer of Libya
 subtitle: Heritage Gazetteer of Libya launched
 tags:
-  - post
+    - post
 authors:
-  - Neil Jakeman
+    - Neil Jakeman
 date: 2016-11-17
 excerpt: Toponyms are slippery things, meaning one place to one person and
-  perhaps a whole region to another. They are encumbered with cultural baggage,
-  questions of identity, temporality and language.
+    perhaps a whole region to another. They are encumbered with cultural baggage,
+    questions of identity, temporality and language.
 feature:
-  image: /assets/images/blog/libya_blog_hero.original.original.jpg
-  title:
-  description: Ancient ruins of arches and building structures with a 'Leptis Magna' location marker overlay with a map
+    image: /assets/images/blog/libya_blog_hero.original.original.jpg
+    title:
+    description: Ancient ruins of arches and building structures with a 'Leptis Magna' location marker overlay with a map
 ---
 
 Toponyms are slippery things, meaning one place to one person and perhaps a whole region to another. They are encumbered with cultural baggage, questions of identity, temporality and language.

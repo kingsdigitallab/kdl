@@ -2,8 +2,8 @@
 layout: layouts/people.njk
 title: People
 eleventyNavigation:
-  key: People
-  parent: About
+    key: People
+    parent: About
 ---
 
 Explore our project contributors who have lent their expertise to the array of [projects](/projects/)

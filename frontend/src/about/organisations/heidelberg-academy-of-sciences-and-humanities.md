@@ -1,7 +1,7 @@
 ---
 title: Heidelberg Academy of Sciences and Humanities
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: heidelberg-academy-of-sciences-and-humanities
 foundingDate: null

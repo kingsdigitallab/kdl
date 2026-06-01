@@ -3,7 +3,7 @@ title: Katherine Bode
 slug: katherine-bode
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---
 

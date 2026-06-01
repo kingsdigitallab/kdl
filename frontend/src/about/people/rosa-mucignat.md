@@ -3,12 +3,12 @@ title: Rosa Mucignat
 slug: rosa-mucignat
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
-    roleName: Co-investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: FAH Department of Languages, Literatures and Cultures
+          slug: fah-department-of-languages-literatures-and-cultures
+      roleName: Co-investigator
 ---

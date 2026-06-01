@@ -1,7 +1,7 @@
 ---
 title: Durham University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: durham-university
 foundingDate: null

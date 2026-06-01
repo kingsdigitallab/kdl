@@ -3,20 +3,20 @@ title: Tim Watts
 slug: tim-watts
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: RSE team member
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Systems Administrator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: RSE team member
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Systems Administrator
 ---
 
 Tim Watts has worked for 20 years with computers and the last 10 as a Linux Systems Manager. He has worked previously as Systems Manager for the Computing Support Group at Imperial College London in the Department of Computing. He has also worked for Astraguard Ltd and Raster Vision Ltd. Tim loves Linux and Perl and is a firm believer that open source software benefits mankind.

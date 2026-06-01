@@ -2,15 +2,15 @@
 title: Indigenous Digital Humanities
 permalink: projects/research-themes/indigenous-digital-humanities/
 tags:
-  - theme
-  - Indigenous Digital Humanities
+    - theme
+    - Indigenous Digital Humanities
 excerpt: >
-  The Indigenous Digital Humanities Research Theme highlights the challenges of how to ethically work with Indigenous peoples and material in Digital Humanities research.
+    The Indigenous Digital Humanities Research Theme highlights the challenges of how to ethically work with Indigenous peoples and material in Digital Humanities research.
 feature:
-  image: /assets/images/themes/indie.jpg
-  title: Image was from Samantha Callaghan
-  description: >
-    A close-up image of interwoven red and black rods tied with thin strands, creating a geometric pattern that represents structure and connection.
+    image: /assets/images/themes/indie.jpg
+    title: Image was from Samantha Callaghan
+    description: >
+        A close-up image of interwoven red and black rods tied with thin strands, creating a geometric pattern that represents structure and connection.
 ---
 
 The Indigenous Digital Humanities Research Theme highlights the challenges of how to ethically work with Indigenous peoples and material in

@@ -2,18 +2,18 @@
 title: Creative Chimeras
 subtitle: Digital Creativity at the Immersive Experience Network Summit 2024
 tags:
-  - post
-  - immersive
-  - digitalcreativity
+    - post
+    - immersive
+    - digitalcreativity
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2025-01-13
 draft: false
 excerpt: The breadth of practitioners provided a fascinating study in how different people approached “immersive.” I have an older understanding of the word, closer to practitioners from theatre like Punchdrunk. Bridge Command, however,  is structured and inspired by the tropes of TV Science Fiction. Jeroen van Hasselt of Entered has a background in video game design and then escape rooms, so he described his work as “live action video games.” Everyone is starting from their industry and then wandering into this shared space, picking up technologies, jargon, and design patterns as required
 feature:
-  image: /assets/images/blog/Ligozzi_Una_quimera.jpg
-  title: Chimera, attributed to Jacopo Ligozzi
-  description: A 1590–1610 drawing of a chimera attributed to Jacopo Ligozzi
+    image: /assets/images/blog/Ligozzi_Una_quimera.jpg
+    title: Chimera, attributed to Jacopo Ligozzi
+    description: A 1590–1610 drawing of a chimera attributed to Jacopo Ligozzi
 ---
 
 _An earlier version of this post was originally published on [LinkedIn](https://www.linkedin.com/posts/elliott-hall-ghost-hunt_there-were-far-too-many-interesting-things-activity-7257078213674258432-VVCM)_

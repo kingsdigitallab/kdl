@@ -2,19 +2,19 @@
 title: Chopin Conference
 subtitle: Chopin Online Variorum Edition conference, January 2017
 tags:
-  - post
-  - OCVE
-  - Chopin
-  - Musicology
+    - post
+    - OCVE
+    - Chopin
+    - Musicology
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2017-03-06
 excerpt: KDL balance the tensions inherent when digital solutions are applied to
-  analogue problems.
+    analogue problems.
 feature:
-  image: /assets/images/blog/ocve_hero.original.jpg
-  title:
-  description: The portrait of composer Frédéric Chopin against a background of his own piano music notation
+    image: /assets/images/blog/ocve_hero.original.jpg
+    title:
+    description: The portrait of composer Frédéric Chopin against a background of his own piano music notation
 ---
 
 KDL balance the tensions inherent when digital solutions are applied to analogue problems.

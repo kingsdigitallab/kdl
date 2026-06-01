@@ -1,7 +1,7 @@
 ---
 title: KCL Research Management & Innovation Directorate
 tags:
-  - organisations
+    - organisations
 alternateName: RMID
 slug: kcl-research-management-and-innovation-directorate
 foundingDate: null

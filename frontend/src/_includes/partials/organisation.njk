@@ -1,13 +1,14 @@
 {{ organisation.name }}
 {%- if organisation.alternateName -%},
-    <small>{{ organisation.alternateName }}</small>
+  <small>{{ organisation.alternateName }}</small>
 {% endif %}
 
 {%- if organisation.parentOrganisation.name -%},
-<span class="parent">{{ organisation.parentOrganisation.name }}</span>
+  <span class="parent">{{ organisation.parentOrganisation.name }}</span>
 {%- else -%}
-    {% set orgInCollection = collections.organisations | filter (organisation.slug, 'data.slug') | first -%}
-    {% if orgInCollection and orgInCollection.data.parentOrganisation -%},
-        <span class="parent">{{ orgInCollection.data.parentOrganisation.name }}</span>
-    {%- endif -%}
+  {% set orgInCollection = collections.organisations | filter (organisation.slug, 'data.slug') | first -%}
+  {% if orgInCollection and orgInCollection.data.parentOrganisation -%}
+    ,
+    <span class="parent">{{ orgInCollection.data.parentOrganisation.name }}</span>
+  {%- endif -%}
 {%- endif -%}

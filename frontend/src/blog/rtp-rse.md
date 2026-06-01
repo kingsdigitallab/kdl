@@ -1,34 +1,34 @@
 ---
 title: What does the role of Research Technology Professional mean to King’s
-  Digital Lab?
+    Digital Lab?
 subtitle: "Our integrated response to AHRC call for evidence - Part 1: Who are
-  Research Technology Professionals?"
+    Research Technology Professionals?"
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2022-10-13
 excerpt: "
 
-  \     \
+    \     \
 
-  \     \
+    \     \
 
-  \         \
+    \         \
 
 
-  For International Research Software Engineering Day we are publishing a
-  serialised blogpost integrating and extracting from our response to the Arts
-  and Humanities Research Council (AHRC) consultation this summer on what the
-  role of Research Technology Professional (RTP) means to King’s Digital Lab.
-  Research Software Engineering profiles are a category within RTPs so our
-  response was based on the KDL experience of inhabiting those roles.
+    For International Research Software Engineering Day we are publishing a
+    serialised blogpost integrating and extracting from our response to the Arts
+    and Humanities Research Council (AHRC) consultation this summer on what the
+    role of Research Technology Professional (RTP) means to King’s Digital Lab.
+    Research Software Engineering profiles are a category within RTPs so our
+    response was based on the KDL experience of inhabiting those roles.
 
-  \        "
+    \        "
 feature:
-  image: /assets/images/blog/bryan-goff-wT-dwxXCsE8-unsplash.original.jpg
-  title: © Photo by Bryan Goff on Unsplash
-  description: Three orca whales gracefully swim alongside an iceberg in the pristine water near McMurdo Station, Antarctica
+    image: /assets/images/blog/bryan-goff-wT-dwxXCsE8-unsplash.original.jpg
+    title: © Photo by Bryan Goff on Unsplash
+    description: Three orca whales gracefully swim alongside an iceberg in the pristine water near McMurdo Station, Antarctica
 ---
 
 ![Logo of RSE day 2022](/assets/images/blog/rseday2022-frame-400x400-1_7SmANz5.width-500.png){.media-small}

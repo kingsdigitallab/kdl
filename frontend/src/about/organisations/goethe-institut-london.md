@@ -1,7 +1,7 @@
 ---
 title: Goethe-Institut London
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: goethe-institut-london
 foundingDate: null

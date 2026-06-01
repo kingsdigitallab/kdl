@@ -1,7 +1,7 @@
 ---
 title: Arts and Humanities Research Council
 tags:
-  - organisations
+    - organisations
 alternateName: AHRC
 slug: ahrc
 foundingDate: null

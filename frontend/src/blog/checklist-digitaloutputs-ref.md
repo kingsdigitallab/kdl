@@ -2,15 +2,15 @@
 title: What Makes Good Honey?
 subtitle: KDL Checklist for Digital Outputs Assessment in the REF
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2019-08-07
 excerpt: ""
 feature:
-  image: /assets/images/blog/REF_blog_Damien_Tupinier_Unsplash.original.jpg
-  title: © Adapted from photo by Damien TUPINIER on Unsplash
-  description: Bees crawling over the honeycomb, with highlighted comb's cell lines
+    image: /assets/images/blog/REF_blog_Damien_Tupinier_Unsplash.original.jpg
+    title: © Adapted from photo by Damien TUPINIER on Unsplash
+    description: Bees crawling over the honeycomb, with highlighted comb's cell lines
 ---
 
 Download the King’s Digital Lab Checklist for Digital Outputs Assessment in the REF [here](https://doi.org/10.5281/zenodo.15147897).

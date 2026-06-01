@@ -1,12 +1,12 @@
 ---
 title: "The Radical Translations: Visualising Networks of Revolutionary Culture (1789-1815)"
 event:
-  title: The Historical Network Research Conference (HNR2024)
-  url: https://historicalnetworkresearch.github.io/lausanne/
+    title: The Historical Network Research Conference (HNR2024)
+    url: https://historicalnetworkresearch.github.io/lausanne/
 tags: slides
 slide:
-  loop: true
-  slideNumber: true
+    loop: true
+    slideNumber: true
 draft: false
 ---
 
@@ -93,9 +93,9 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 - Some of the relationships inferred from other connections, not directly defined
   in the database
 - Interactive features:
-  - Filter network data by people and organisation
-  - Select different types of relationships to display
-  - Ability to explore and manipulate the network dynamically
+    - Filter network data by people and organisation
+    - Select different types of relationships to display
+    - Ability to explore and manipulate the network dynamically
 
 </aside>
 
@@ -113,10 +113,10 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 
 - Simplifies intricate life paths into nodes and edges
 - Example: Thomas Paine
-  - Zoomed-in view of Paine's node
-  - Multiple edges connect to various other people, organisations and places
-  - Edges represent different types of relationships
-  - Illustrates the complexity of an individual's connections and influence.
+    - Zoomed-in view of Paine's node
+    - Multiple edges connect to various other people, organisations and places
+    - Edges represent different types of relationships
+    - Illustrates the complexity of an individual's connections and influence.
 
 </aside>
 
@@ -147,14 +147,14 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 
 - Highlights potential gaps, omissions, and biases in the data
 - Wide view of the network reveals:
-  - Areas of high connectivity
-  - Contrasting sparse areas
-  - Potential geographical or temporal biases
+    - Areas of high connectivity
+    - Contrasting sparse areas
+    - Potential geographical or temporal biases
 - Example: Isolated 'kite' shape
-  - Group of four individuals initially disconnected
-  - Revealed a gap in the data
-  - Connection to the main network addressed the gap
-  - Also uncovered a self-referential group of radicals in Genoa
+    - Group of four individuals initially disconnected
+    - Revealed a gap in the data
+    - Connection to the main network addressed the gap
+    - Also uncovered a self-referential group of radicals in Genoa
 - Demonstrates how visualisation can expose data limitations and lead to new insights
 
 </aside>
@@ -176,18 +176,18 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 
 - Reveals connections across borders
 - Network example illustrates:
-  - Nodes representing agents (individuals and organisations) and places
-  - Edges indicating translation relationships
-  - Large nodes for Paris and London, surrounded by numerous connections
+    - Nodes representing agents (individuals and organisations) and places
+    - Edges indicating translation relationships
+    - Large nodes for Paris and London, surrounded by numerous connections
 - Key insights:
-  - Visualises the flow of radical texts across national boundaries
-  - Highlights Paris and London as central hubs in the radical translation network
-  - Reveals extensive cross-border relationships centred on these major cities
+    - Visualises the flow of radical texts across national boundaries
+    - Highlights Paris and London as central hubs in the radical translation network
+    - Reveals extensive cross-border relationships centred on these major cities
 - Emphasises the international nature of the translations
 - Other benefits of networks:
-  - Helps fill gaps in historical records
-  - Offers insights into social and professional circles
-  - Allows for hypothesis generation about anonymous agents' identities and roles
+    - Helps fill gaps in historical records
+    - Offers insights into social and professional circles
+    - Allows for hypothesis generation about anonymous agents' identities and roles
 
 </aside>
 
@@ -250,24 +250,24 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 <aside class="notes">
 
 - Enables exploration of:
-  - Translators' networks
-  - Collaboration patterns
-  - Influence dynamics
+    - Translators' networks
+    - Collaboration patterns
+    - Influence dynamics
 - Example: Influence dynamics
-  - Researchers examined potential bridge figures
-  - Focus on connections between Italian and French contexts
-  - Identified key individuals facilitating cross-cultural exchange
+    - Researchers examined potential bridge figures
+    - Focus on connections between Italian and French contexts
+    - Identified key individuals facilitating cross-cultural exchange
 - Provides insights into:
-  - Contextual landscape of radical activities
-  - Geographical and temporal distribution of translation efforts
+    - Contextual landscape of radical activities
+    - Geographical and temporal distribution of translation efforts
 - Hypothesis testing:
-  - Assists when biographical data is incomplete
-  - Complements other digital tools
-  - Allows for inference of identities and roles based on network position
+    - Assists when biographical data is incomplete
+    - Complements other digital tools
+    - Allows for inference of identities and roles based on network position
 - Benefits:
-  - Reveals hidden connections and patterns
-  - Supports data-driven research narratives
-  - Enhances understanding of the radical translation ecosystem
+    - Reveals hidden connections and patterns
+    - Supports data-driven research narratives
+    - Enhances understanding of the radical translation ecosystem
 
 </aside>
 

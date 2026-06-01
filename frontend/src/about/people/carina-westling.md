@@ -3,14 +3,14 @@ title: Carina Westling
 slug: carina-westling
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: Royal Holloway, University of London
-      slug: royal-holloway
-    roleName: Researcher
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Royal Holloway, University of London
+          slug: royal-holloway
+      roleName: Researcher
 ---
 
 Carina researches interaction and experience design with a focus on the infrastructures of interactive systems. She holds a PhD in Media and Cultural Studies from the University of Sussex, for which she undertook ethnographies of Punchdrunk’s interactive work in theatre and blended media, including their making cultures, live and digital audiences, and developed a methodology for critical analysis of interactive systems.

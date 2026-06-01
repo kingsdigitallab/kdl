@@ -77,9 +77,7 @@ layout: layouts/base.njk
             </h4>
             {% if item.items %}
               <ul>
-                {% for i in item.items %}
-                  <li>{{ i }}</li>
-                {% endfor %}
+                {% for i in item.items %}<li>{{ i }}</li>{% endfor %}
               </ul>
             {% else %}
               <p>{{ item.description }}</p>

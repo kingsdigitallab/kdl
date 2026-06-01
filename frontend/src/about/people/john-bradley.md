@@ -3,26 +3,26 @@ title: John Bradley
 slug: john-bradley
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-    roleName: Researcher
-  - startDate: null
-    endDate: null
-    organisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-    roleName: Principal investigator
-  - startDate: null
-    endDate: null
-    organisation:
-      name: FAH Department of Digital Humanities
-      slug: ddh
-    roleName: Co-investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: FAH Department of Digital Humanities
+          slug: ddh
+      roleName: Researcher
+    - startDate: null
+      endDate: null
+      organisation:
+          name: FAH Department of Digital Humanities
+          slug: ddh
+      roleName: Principal investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: FAH Department of Digital Humanities
+          slug: ddh
+      roleName: Co-investigator
 ---
 
 John has worked in the Digital Humanities since the late 1970s; first at the University of Toronto, and then, starting in 1997, at King's College London in the Department of Digital Humanities (initially called the Centre for Computing in the Humanities). He retired in 2015, having been involved in the creation of more than 20 humanities-oriented online digital resources which at King's. During his time at Toronto he was best known for the development of the text analysis TACT system. For most of his time at King's he held a post of Senior Analyst, but in 2011 was made an academic when he became a Senior Lecturer. Among the highly collaborative projects in which he was involved are a number of structured prosopographies, including the [Prosopography of Anglo-Saxon England (PASE)](https://pase.ac.uk/) and the [Prosopography of the Roman Republic (DPRR)](https://romanrepublic.ac.uk/). Other, non prosopographical, projects in which he had a role include [the Art of Making in Antiquity](https://artofmaking.ac.uk/) resource.

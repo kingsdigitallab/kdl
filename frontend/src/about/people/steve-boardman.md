@@ -3,12 +3,12 @@ title: Steve Boardman
 slug: steve-boardman
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: University of Edinburgh
-      slug: university-of-edinburgh
-    roleName: Co-investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: University of Edinburgh
+          slug: university-of-edinburgh
+      roleName: Co-investigator
 ---

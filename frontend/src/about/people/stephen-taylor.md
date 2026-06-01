@@ -3,12 +3,12 @@ title: Stephen Taylor
 slug: stephen-taylor
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: Durham University
-      slug: durham-university
-    roleName: Principal investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Durham University
+          slug: durham-university
+      roleName: Principal investigator
 ---

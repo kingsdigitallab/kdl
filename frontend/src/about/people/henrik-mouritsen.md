@@ -3,6 +3,6 @@ title: Henrik Mouritsen
 slug: henrik-mouritsen
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

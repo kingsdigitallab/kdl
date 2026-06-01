@@ -2,15 +2,15 @@
 title: Report on an Internship at the King's Digital Lab
 subtitle:
 tags:
-  - post
+    - post
 authors:
-  - Fiona Wijaya
+    - Fiona Wijaya
 date: 2025-03-27
 excerpt:
 feature:
-  image: /assets/images/blog/DDH_Internship_main.webp
-  title: © Photo by Maxim Berg on Unsplash
-  description: Bar Charts
+    image: /assets/images/blog/DDH_Internship_main.webp
+    title: © Photo by Maxim Berg on Unsplash
+    description: Bar Charts
 ---
 
 Hello readers!

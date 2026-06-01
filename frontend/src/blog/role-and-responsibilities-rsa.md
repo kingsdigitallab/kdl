@@ -2,19 +2,19 @@
 title: Role and responsibilities of the Research Software Analyst
 subtitle:
 tags:
-  - post
-  - RSE
-  - analysis
-  - Agile SDLC
-  - Digital Research Technical Professions (dRTPs)
+    - post
+    - RSE
+    - analysis
+    - Agile SDLC
+    - Digital Research Technical Professions (dRTPs)
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2025-10-31
 excerpt: 'This blog post builds on a talk co-authored with King’s Digital Lab (KDL) research software analysts - Paul Caton, Samantha Callaghan and Neil Jakeman - and presented at RSECon 2025 with the title "Aligning feasible technical requirements to research objectives and steering collaboration: role and responsibilities of the Research Software Analyst in RSE teams."'
 feature:
-  image: /assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png
-  title: Textiles and Tech 1 by Hanna Barakat & Archival Images of AI + AIxDESIGN https://betterimagesofai.org CC 4
-  description:
+    image: /assets/images/blog/textiles-and-tech-1_hanna-barakat-aixdesign_archival-images-of-ai_4096x2846.png
+    title: Textiles and Tech 1 by Hanna Barakat & Archival Images of AI + AIxDESIGN https://betterimagesofai.org CC 4
+    description:
 draft: false
 ---
 
@@ -45,10 +45,10 @@ If you agree that research and business analysis are relevant for RSE teams at l
 Timewise, here is a quick overview of KDL career pathways work:
 
 - 2018
-  - RSE term adoption ([one of the first teams in Arts & Humanities](https://zenodo.org/records/13655424) - p.20 - to do so)
+    - RSE term adoption ([one of the first teams in Arts & Humanities](https://zenodo.org/records/13655424) - p.20 - to do so)
 - 2019
-  - [Roles document](https://doi.org/10.5281/zenodo.2559234%20%20​) published
-  - [SDLC wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) started with project templates and guidance building on [Agile DSDM roles](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html)| definitions
+    - [Roles document](https://doi.org/10.5281/zenodo.2559234%20%20​) published
+    - [SDLC wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki) started with project templates and guidance building on [Agile DSDM roles](https://www.agilebusiness.org/dsdm-project-framework/roles-and-responsibilities.html)| definitions
 
 ### RSA role description
 
@@ -165,21 +165,21 @@ The other phase of the SDLC I decided to focus on to explain the role of the RSA
 During this phase of active design and development for the RSE team, the RSA role can be grouped into three areas, namely:
 
 1. Lead initiation, analysis and reviews where, in line with KDL guidance developed over the last 5 years or so, the RSA leads on:
-   1. Notification of grant / project start
-   2. Set up management environment (in collaboration with projects portfolio manager)
-   3. Organise kick off
-   4. Ownership of Project Review Record and internal/external review meetings schedules
-   5. Analysis work (e.g. data modelling) and associated documentation
+    1. Notification of grant / project start
+    2. Set up management environment (in collaboration with projects portfolio manager)
+    3. Organise kick off
+    4. Ownership of Project Review Record and internal/external review meetings schedules
+    5. Analysis work (e.g. data modelling) and associated documentation
 2. First point of contact and escalations, where the RSA monitors:
-   1. Iterative prioritisation
-   2. Capacity planning at project level
-   3. Any substantial project change request
+    1. Iterative prioritisation
+    2. Capacity planning at project level
+    3. Any substantial project change request
 3. Other contributions, in particular to:
-   1. Project and at times lab-level communication strategy
-   2. “Change freeze,” where the RSA coordinates consensus-reaching (within the RSE sub-team and project team at large) around prioritisation based on testing results and budget available
-   3. Data deposit or other dissemination activity
-   4. Service Level Agreement draft if applicable or any decommissioning plans or documentation
-   5. Project review aiming at wider lab process improvement activities
+    1. Project and at times lab-level communication strategy
+    2. “Change freeze,” where the RSA coordinates consensus-reaching (within the RSE sub-team and project team at large) around prioritisation based on testing results and budget available
+    3. Data deposit or other dissemination activity
+    4. Service Level Agreement draft if applicable or any decommissioning plans or documentation
+    5. Project review aiming at wider lab process improvement activities
 
 Let’s look again at the same example with a specific deliverable in mind (the petrographic environment mentioned in the project requirements table above). In this phase of the project deliverable, I worked very closely with the KDL RSE at the time Ryan Hauser and the project Research Associate Alessia Coccato.
 A core element of RSE support for the project was to create a data collection, processing and analysis environment for one of the project researchers undertaking material sciences analysis of the rocks where the texts (in Latin, Greek and other languages) are inscribed. What follows are examples of the evolutionary development artefacts I contributed to in my role as lead RSA for the project.

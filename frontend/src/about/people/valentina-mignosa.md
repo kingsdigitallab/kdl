@@ -3,6 +3,6 @@ title: Valentina Mignosa
 slug: valentina-mignosa
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

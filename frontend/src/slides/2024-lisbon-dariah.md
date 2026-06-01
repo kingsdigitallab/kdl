@@ -1,15 +1,15 @@
 ---
 title: Software Development Lifecycle
 event:
-  title: DARIAH Annual Event 2024
-  url: https://annualevent.dariah.eu/
+    title: DARIAH Annual Event 2024
+    url: https://annualevent.dariah.eu/
 tags:
-  - dariah
-  - slides
+    - dariah
+    - slides
 slide:
-  loop: true
-  theme: dark
-  slideNumber: true
+    loop: true
+    theme: dark
+    slideNumber: true
 draft: false
 ---
 
@@ -95,7 +95,7 @@ Dr Arianna Ciula | Pamela Mellen | Miguel Vieira
 
 1. Review previous timebox
 1. Plan current timebox based on current projects' priorities
-   - [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
+    - [MoSCoW prioritisation](/faqs/#what-is-moscow-prioritization)
 1. Workload review
 
 <aside class="notes">

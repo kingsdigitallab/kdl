@@ -3,6 +3,6 @@ title: Mark Stewart
 slug: mark-stewart
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

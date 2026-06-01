@@ -2,15 +2,15 @@
 title: Reflections on the International Indigenous Librarians’ Forum
 subtitle: Ea – Indigenous Agency and Abundance (Honolulu, November 2023)
 tags:
-  - post
+    - post
 authors:
-  - Samantha Callaghan
+    - Samantha Callaghan
 date: 2023-12-18
 excerpt: A colleague asked, “What was it like attending a conference based in Hawaii compared to the usual other locations?”
 feature:
-  image: /assets/images/blog/Loi-kalo-taro-resized.jpg
-  title: A Loʻi, a kalo/taro garden. © Samantha Callaghan, 2023
-  description: A Loʻi, kalo/taro garden on the grounds of the Kamakakūokalani Center for Hawaiian Studies at University of Hawaii at Manoa.
+    image: /assets/images/blog/Loi-kalo-taro-resized.jpg
+    title: A Loʻi, a kalo/taro garden. © Samantha Callaghan, 2023
+    description: A Loʻi, kalo/taro garden on the grounds of the Kamakakūokalani Center for Hawaiian Studies at University of Hawaii at Manoa.
 draft: false
 ---
 

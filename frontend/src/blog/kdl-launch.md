@@ -2,21 +2,21 @@
 title: KDL Launch
 subtitle: KDL, established 2016
 tags:
-  - post
-  - Infrastructure
-  - Launch
-  - Agile
+    - post
+    - Infrastructure
+    - Launch
+    - Agile
 authors:
-  - James Smithies
+    - James Smithies
 date: 2016-10-21
 excerpt: King’s Digital Lab continues a proud tradition of digital humanities at
-  King’s College London. Formally launching on November 17th 2016, the lab
-  builds on a legacy that includes 30 years of activity, set against a
-  background of rapid innovation and change.
+    King’s College London. Formally launching on November 17th 2016, the lab
+    builds on a legacy that includes 30 years of activity, set against a
+    background of rapid innovation and change.
 feature:
-  image: /assets/images/blog/blog_hero_mq.original.jpg
-  title:
-  description: A mix of project design and development phases on a whiteboard with a computer code background on the left
+    image: /assets/images/blog/blog_hero_mq.original.jpg
+    title:
+    description: A mix of project design and development phases on a whiteboard with a computer code background on the left
 ---
 
 King’s Digital Lab continues a proud tradition of digital humanities at King’s College London. Formally launching on November 17th 2016, the lab builds on a legacy that includes 30 years of activity, set against a background of rapid innovation and change.

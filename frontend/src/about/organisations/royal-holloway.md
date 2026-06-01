@@ -1,7 +1,7 @@
 ---
 title: Royal Holloway, University of London
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: royal-holloway
 foundingDate: null

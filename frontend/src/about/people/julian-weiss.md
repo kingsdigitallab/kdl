@@ -3,6 +3,6 @@ title: Julian Weiss
 slug: julian-weiss
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

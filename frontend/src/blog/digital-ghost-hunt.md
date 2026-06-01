@@ -2,15 +2,15 @@
 title: The Digital Ghost Hunt
 subtitle: The Digital Ghost Hunt begins development
 tags:
-  - post
+    - post
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2018-02-05
 excerpt: An AHRC-funded project fusing coding education and immersive theatre
 feature:
-  image: /assets/images/blog/KIT_scientist.original.jpg
-  title: KIT taken by Natalie Raaum
-  description: A lively classroom scene with students in blue uniforms standing and raising their hands
+    image: /assets/images/blog/KIT_scientist.original.jpg
+    title: KIT taken by Natalie Raaum
+    description: A lively classroom scene with students in blue uniforms standing and raising their hands
 ---
 
 An AHRC-funded project fusing coding education and immersive theatre

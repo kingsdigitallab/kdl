@@ -2,22 +2,22 @@
 title: The road to a more inclusive web
 subtitle: The state of digital accessibility at KDL
 tags:
-  - post
-  - accessibility
+    - post
+    - accessibility
 authors:
-  - Ginestra Ferraro
+    - Ginestra Ferraro
 date: 2021-04-22
 excerpt: >-
-  Recently I was asked to present the lab’s progress on the work done to improve
-  accessibility in our products to the Digital Accessibility Programme Board at
-  King’s.
+    Recently I was asked to present the lab’s progress on the work done to improve
+    accessibility in our products to the Digital Accessibility Programme Board at
+    King’s.
 
 
-  KDL joined the board from day one to help shape the College’s digital accessibility policy and help scope the work that needed to be done to make every platform as accessible as possible.
+    KDL joined the board from day one to help shape the College’s digital accessibility policy and help scope the work that needed to be done to make every platform as accessible as possible.
 feature:
-  image: /assets/images/blog/liane-metzler-v3bWNXeInQA-unsplash-small.original.jpg
-  title: © Liane Metzler on Unsplash
-  description: Liane Metzler Unsplash - White stairs
+    image: /assets/images/blog/liane-metzler-v3bWNXeInQA-unsplash-small.original.jpg
+    title: © Liane Metzler on Unsplash
+    description: Liane Metzler Unsplash - White stairs
 ---
 
 Recently I was asked to present the lab’s progress on the work done to improve accessibility in our products to the Digital Accessibility Programme Board at King’s.
@@ -112,16 +112,16 @@ The confirmation we received from the legal team that our outputs don't fall und
 We have learned a lot in the last two years and a half, and have identified some technical and workflow issues, some of which are only relevant for the more problematic work on legacy sites:
 
 - **Little to no automation**
-  - Our sites don't sit in the standard College ITS environment, so we are not able to take advantage of the College instance of [**Siteimprove**](https://siteimprove.com/). Having our own instance of the software is **too expensive**.
-  - We are currently tracing all detectable WCAG issues **using Siteimprove's plugin for Google Chrome** and compiling a list manually for every product assessed.
-  - We are **experimenting with [pa11y](https://pa11y.org/)**, an open-source tool to crawl sites and highlight accessibility issues.
+    - Our sites don't sit in the standard College ITS environment, so we are not able to take advantage of the College instance of [**Siteimprove**](https://siteimprove.com/). Having our own instance of the software is **too expensive**.
+    - We are currently tracing all detectable WCAG issues **using Siteimprove's plugin for Google Chrome** and compiling a list manually for every product assessed.
+    - We are **experimenting with [pa11y](https://pa11y.org/)**, an open-source tool to crawl sites and highlight accessibility issues.
 - **Content curation responsibility**
-  - KDL often acts as the technical partner in research projects. Our core contribution is designing and developing software, and providing technical documentation.
-  - We rely on project partners to generate their own content. We can only offer support in finding guidelines to write accessible content (eg. KDL REF checklist [10.5281/zenodo.3361580](https://zenodo.org/record/3361580)).
-  - When KDL does generate content, it is indeed responsible to make it accessible.
+    - KDL often acts as the technical partner in research projects. Our core contribution is designing and developing software, and providing technical documentation.
+    - We rely on project partners to generate their own content. We can only offer support in finding guidelines to write accessible content (eg. KDL REF checklist [10.5281/zenodo.3361580](https://zenodo.org/record/3361580)).
+    - When KDL does generate content, it is indeed responsible to make it accessible.
 - **Experimental work and highly interactive content**
-  - Some of our projects are exploratory, and there are no widely accepted standards yet when it comes to accessibility (eg. Immersive experience (XR), 3D rendering, data visualisations, etc.)
-  - KDL sees these as opportunities to be on the front line to define those standards.
+    - Some of our projects are exploratory, and there are no widely accepted standards yet when it comes to accessibility (eg. Immersive experience (XR), 3D rendering, data visualisations, etc.)
+    - KDL sees these as opportunities to be on the front line to define those standards.
 
 ## What's next?
 

@@ -1,7 +1,7 @@
 ---
 title: Newton Fund
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: newton-fund
 foundingDate: null

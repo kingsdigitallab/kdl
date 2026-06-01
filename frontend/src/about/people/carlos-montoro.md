@@ -3,6 +3,6 @@ title: Carlos Montoro
 slug: carlos-montoro
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

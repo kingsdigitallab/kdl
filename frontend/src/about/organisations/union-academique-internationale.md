@@ -1,7 +1,7 @@
 ---
 title: Union Académique Internationale
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: union-academique-internationale
 foundingDate: null

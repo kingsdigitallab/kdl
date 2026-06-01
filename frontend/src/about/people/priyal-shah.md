@@ -3,7 +3,7 @@ title: Priyal Shah
 slug: priyal-shah
 jobTitle: RSE team member
 tags:
-  - people
+    - people
 memberOf: []
 ---
 

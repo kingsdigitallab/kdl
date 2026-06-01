@@ -2,17 +2,17 @@
 title: SUP and KDL collaboration goes into next phase
 subtitle:
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2018-02-21
 excerpt: "Stanford University Press and King's Digital Lab are pleased to
-  announce our selection of the most compelling ideas that were submitted in
-  this round of the call for expressions of interest. "
+    announce our selection of the most compelling ideas that were submitted in
+    this round of the call for expressions of interest. "
 feature:
-  image: /assets/images/blog/pexels-pok-rie-5799946.jpg
-  title:
-  description: An aerial perspective capturing the mesmerizing sight of a green ocean adorned with undulating waves.
+    image: /assets/images/blog/pexels-pok-rie-5799946.jpg
+    title:
+    description: An aerial perspective capturing the mesmerizing sight of a green ocean adorned with undulating waves.
 ---
 
 [Stanford University Press](http://sup.org/) and [King's Digital Lab](https://www.kdl.kcl.ac.uk/) are pleased to announce our selection of the most compelling ideas that were submitted in this round of the call for expressions of interest.

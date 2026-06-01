@@ -1,7 +1,7 @@
 ---
 title: King's Digital Lab
 tags:
-  - organisations
+    - organisations
 alternateName: KDL
 slug: kdl
 foundingDate: null

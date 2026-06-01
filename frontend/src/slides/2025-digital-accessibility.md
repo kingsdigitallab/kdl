@@ -1,15 +1,15 @@
 ---
 title: Digital Accessibility Strategy and Process
 event:
-  title: KDL's updated approach
-  url:
+    title: KDL's updated approach
+    url:
 tags:
-  - digital accessiblity
-  - slides
+    - digital accessiblity
+    - slides
 slide:
-  loop: true
-  theme: simple
-  slideNumber: true
+    loop: true
+    theme: simple
+    slideNumber: true
 draft: true
 ---
 
@@ -34,10 +34,10 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 - Updated approach (GN 4min)
 - Strategy (GN 3min)
 - Process
-  - Overview (AE 4 mins)
-  - Steps 1-2 (TO 6mins)
-  - Steps 3 (GN 3mins)
-  - Steps 4 (TO 3mins)
+    - Overview (AE 4 mins)
+    - Steps 1-2 (TO 6mins)
+    - Steps 3 (GN 3mins)
+    - Steps 4 (TO 3mins)
 - Questions
 
 {% endslide %}
@@ -51,8 +51,8 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 - Updated approach (GN 4min)
 - Strategy (GN 3min)
 - Process
-  - Overview (4 mins)
-  - Steps 1-4 (TO 12mins)
+    - Overview (4 mins)
+    - Steps 1-4 (TO 12mins)
 - Questions
 
 {% endslide %}
@@ -64,12 +64,11 @@ Alessandra Esposito, Geoffroy Noël, Tiffany Ong
 - 2019: KDL's began an [approach to accessibility](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B2F4D65D9-066F-440B-B50A-8F23F446470C%7D&file=Accessibility%20-%20Index%20Page.docx&action=default&mobileredirect=true)
 
 - 2020 late: [Review meetings](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7BF931468B-46B2-4E40-9294-FAA4C7B16D4D%7D&file=Accessibility%20Review%20Agenda.docx&action=default&mobileredirect=true)
+    - Approximately 10 members in 12 month period (2 solely on accessibility for 6 months). With similar resources, estimated 4-5 years to complete [70+ more post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287).
 
-  - Approximately 10 members in 12 month period (2 solely on accessibility for 6 months). With similar resources, estimated 4-5 years to complete [70+ more post projects](https://docs.google.com/spreadsheets/d/1--ku5lYoGUA-bGzK9xtziqd_dg0uFgYxyBKctEyuq3E/edit?gid=980906287#gid=980906287).
+    - Double checked legal compliance, Not legally required. Kept similar commitment but post project work was shifted to SLA [approach](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148).
 
-  - Double checked legal compliance, Not legally required. Kept similar commitment but post project work was shifted to SLA [approach](https://app.clickup.com/26475560/v/dc/t7z18-23888/t7z18-112148).
-
-  - Attempt to [documentation process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+    - Attempt to [documentation process](https://emckclac.sharepoint.com/:w:/r/sites/AHkdlfa/_layouts/15/Doc.aspx?sourcedoc=%7B61FD200C-3189-45CD-8B2C-628FBE9013F6%7D&file=2022.06.09_Process%20List_TO.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 - 2021 mid: ["The road to a more inclusive web" blogpost](https://kdl.kcl.ac.uk/blog/state-digital-accessibility-kdl/)
 
@@ -251,13 +250,13 @@ Estimates need to be updated to adapt for different project budgets/timelines
 - produce a public accessibility **statement** and update it at each deployment
 - Estimate **3 days** = A 0.6 | E 1.2 | U 1.2<hr>
 
-        ✔ Has more than 5 users
+          ✔ Has more than 5 users
 
-        ✔ Has 1st party apps/platforms
+          ✔ Has 1st party apps/platforms
 
-        ✘ Not only non-complex components
+          ✘ Not only non-complex components
 
-        e.g.  [Radical Translation](http://radicaltranslations.org/) (Data visualisation) 18-20h (incl fixes), [Alice Thornton](https://thornton.kdl.kcl.ac.uk) (Digital Edition), [Field](https://field-wt.co.uk) (Game)
+          e.g.  [Radical Translation](http://radicaltranslations.org/) (Data visualisation) 18-20h (incl fixes), [Alice Thornton](https://thornton.kdl.kcl.ac.uk) (Digital Edition), [Field](https://field-wt.co.uk) (Game)
 
 {% endslide %}
 
@@ -419,12 +418,11 @@ All assessment and fixes should be integrated seamlessly, continuously when desi
 {% slide %}
 
 - **Assess**
+    - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify some common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but capture only a minority of the accessibility issues.
 
-  - **Automated Testing**: Use automated [accessibility tools](https://www.w3.org/WAI/test-evaluate/tools/list/) (like WAVE, Axe, WebVal or Lighthouse) to identify some common issues, such as missing alt text, insufficient colour contrast, or missing form labels. These tools provide a broad initial scan but capture only a minority of the accessibility issues.
+    - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, zoom factors, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
 
-  - **Manual Testing**: Conduct manual checks to identify issues automated tools may miss, such as keyboard navigation functionality, zoom factors, screen reader compatibility, dynamic content accessibility (e.g. hover states, text over image). This stage often includes testing with assistive technology like screen readers (e.g., JAWS or NVDA) and magnifiers.
-
-  - Stand alone assessments (fixes done separately) should be documented in CU.
+    - Stand alone assessments (fixes done separately) should be documented in CU.
 
 {% endslide %}
 
@@ -467,10 +465,9 @@ Example Colour Contrast Findings from [Alice Thornton](https://app.clickup.com/2
 {% slide %}
 
 - **Fix** when issue is found, **if possible** (depending on budget, time, skills, ...), is usually best.
+    - Any issues that cannot be fixed should be recorded directly to the statement.
 
-  - Any issues that cannot be fixed should be recorded directly to the statement.
-
-  - Tools and methods should also be recorded in the statement.
+    - Tools and methods should also be recorded in the statement.
 
 {% endslide %}
 
@@ -487,30 +484,27 @@ _Lead_ **_A_**_, Collaborate_ **_E U_**_, Consult_ **_PM R_**
 {% slide %}
 
 - Github
-
-  - `fix(a11y): Added missing alt attribute to first image on About page`
+    - `fix(a11y): Added missing alt attribute to first image on About page`
 
 - Statement
+    - First deployment should have the barebones statement
 
-  - First deployment should have the barebones statement
+    - Refer back to Scope table to check if decisions/level planned at the time match delivered solution
 
-  - Refer back to Scope table to check if decisions/level planned at the time match delivered solution
+    - Issues that are not fixed should be recorded
 
-  - Issues that are not fixed should be recorded
-
-  - Tools and methods should be recorded
+    - Tools and methods should be recorded
 
 {% endslide %}
 
 {% slide %}
 
 - Recent KDL examples:
+    - using the [gov.uk template](https://www.gov.uk/guidance/model-accessibility-statement) took a long time to fill in, difficult to understand. [Alice Thornton](https://thornton.kdl.kcl.ac.uk/accessibility/), [COTR](https://cotr.ac.uk/accessibility-statement/)
 
-  - using the [gov.uk template](https://www.gov.uk/guidance/model-accessibility-statement) took a long time to fill in, difficult to understand. [Alice Thornton](https://thornton.kdl.kcl.ac.uk/accessibility/), [COTR](https://cotr.ac.uk/accessibility-statement/)
+    - using [generator tool](https://www.w3.org/WAI/planning/statements/generator/#create) took shorter time but lots of repetition. [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement), [Radical Translation](https://radicaltranslations.org/accessibility-statement/), [King's Digital Lab](https://kdl.kcl.ac.uk/accessibility-statement/)
 
-  - using [generator tool](https://www.w3.org/WAI/planning/statements/generator/#create) took shorter time but lots of repetition. [King's Past](https://kingspast.kcl.ac.uk/accessibility-statement), [Radical Translation](https://radicaltranslations.org/accessibility-statement/), [King's Digital Lab](https://kdl.kcl.ac.uk/accessibility-statement/)
-
-  - Very minimal example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation)
+    - Very minimal example on [Living with Machines](https://observablehq.com/@jmiguelv/language-of-mechanisation)
 
 - External examples: [National Archives](https://www.nationalarchives.gov.uk/help/web-accessibility/), [UKRI](https://www.ukri.org/who-we-are/accessibility-statement/), [JISC](https://www.jisc.ac.uk/accessibility-statement), [Santander](https://www.santander.co.uk/personal/support/accessibility/accessibility-statement)
 
@@ -546,7 +540,7 @@ Adapted minimal statement from [King's Digital Lab](https://kingsdigitallab.gith
 - KDL Team to feedback on process on [miro board](https://miro.com/app/board/uXjVI5fmopw=/)
 - DA team to review in 6 months based on feedback and adoption to adapt strategy and process
 - Step 5: SLA process not yet looked at
-<hr>
+  <hr>
 
 ## ? Questions ?
 
@@ -635,16 +629,14 @@ Example of a [spreadsheet to record all issues and fixes ](https://docs.google.c
 ## Observations
 
 - Inconsistent outputs (All or nothing approach)
+    - very different processes
 
-  - very different processes
-
-  - dependant of who was on the project
+    - dependant of who was on the project
 
 - Deprioritisation/Avoidance
+    - Feasibility - Reasons were given that accessibility wasn't needed in project requirements
 
-  - Feasibility - Reasons were given that accessibility wasn't needed in project requirements
-
-  - Evolutionary Development - Not prioritised, often left to the end where there would be no time to work on
+    - Evolutionary Development - Not prioritised, often left to the end where there would be no time to work on
 
 {% endslide %}
 
@@ -699,13 +691,13 @@ Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pd
 - produce a public accessibility **statement** and update it at each deployment
 - Estimate **4 days** = A 1 | E 1.5 | U 1.5<hr>
 
-        ✔ Has more than 5 users
+          ✔ Has more than 5 users
 
-        ✔ Has 1st party apps/platforms
+          ✔ Has 1st party apps/platforms
 
-        ✔ Has only non-complex components
+          ✔ Has only non-complex components
 
-        e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
+          e.g. [Layers of Vision](https://layersofvision.org/), [KDLweb](https://kdl.kcl.ac.uk/),  [CultureCase](https://culturecase.org) ~28h
 
 {% endslide %}
 
@@ -718,11 +710,11 @@ Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pd
 - produce a public accessibility **statement** and update it at each deployment
 - Estimate **1 day** \= A 0.2 | E 0.4 | U 0.4<hr>
 
-        ✔ Has more than 5 users
+          ✔ Has more than 5 users
 
-        ✘ Not using only 1st party apps/platforms
+          ✘ Not using only 1st party apps/platforms
 
-        e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
+          e.g. [Living with Machines](https://observablehq.com/@jmiguelv/lwm-language-of-accidents#cell-3512) ~6h
 
 {% endslide %}
 
@@ -735,9 +727,9 @@ Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pd
 - **not** produce a public accessibility **statement**
 - Estimate **0.3 days** = A 0.1 | E 0.1 | U 0.1<hr>
 
-  ✘ No more than 5 users
+    ✘ No more than 5 users
 
-        e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
+          e.g. [Crossreads A](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7B87A0CB55-5CEE-4A34-9817-5B77A6F77468%7D&file=Crossreads_A_Statement_of_Work_REVISION_2023_10.docx&action=default&mobileredirect=true), [PiNiM](https://emckclac.sharepoint.com/:w:/r/sites/AHkdl/_layouts/15/Doc.aspx?sourcedoc=%7BF9864D7B-AC78-40FD-A6AE-914D7D734671%7D&file=Feasibility.docx&action=default&mobileredirect=true) ~0h
 
 {% endslide %}
 

@@ -2,21 +2,21 @@
 title: Snapshot on King’s Digital Lab Mission and Activities 2022-25
 subtitle: Communicating the significance of RSE in a research-intensive HEI context
 tags:
-  - post
-  - Lab development
-  - Research Software Engineering
-  - Lab practice
-  - Research Facilities
+    - post
+    - Lab development
+    - Research Software Engineering
+    - Lab practice
+    - Research Facilities
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2023-08-24
 excerpt: This blogpost aims to present the Mission and Activities document
-  produced by King’s Digital Lab (KDL) in collaboration with the Faculty of Arts
-  and Humanities (King’s College London) senior management in 2022.
+    produced by King’s Digital Lab (KDL) in collaboration with the Faculty of Arts
+    and Humanities (King’s College London) senior management in 2022.
 feature:
-  image: /assets/images/blog/background_shane-rounce-DNkoNXQti3c-unsplash.original.png
-  title: © Photo by Shane Rounce on Unsplash
-  description: A group of people holding hands on top of a tree
+    image: /assets/images/blog/background_shane-rounce-DNkoNXQti3c-unsplash.original.png
+    title: © Photo by Shane Rounce on Unsplash
+    description: A group of people holding hands on top of a tree
 ---
 
 Authors: Arianna Ciula, Paul Caton, and Pam Mellen

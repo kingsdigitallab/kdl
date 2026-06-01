@@ -1,7 +1,7 @@
 ---
 title: Russian Academy of Sciences
 tags:
-  - organisations
+    - organisations
 alternateName: Российская академия наук
 slug: russian-academy-of-sciences
 foundingDate: null

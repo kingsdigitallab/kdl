@@ -3,14 +3,14 @@ title: Elliott Hall
 slug: elliott-hall
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Engineer
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Engineer
 ---
 
 Elliott Hall is a Creative Technologist, Writer, and Research Software Engineer.

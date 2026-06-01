@@ -1,7 +1,7 @@
 ---
 title: Praline
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: praline
 foundingDate: null

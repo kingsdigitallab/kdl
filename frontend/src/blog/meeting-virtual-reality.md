@@ -2,22 +2,22 @@
 title: Meeting in Virtual Reality
 subtitle: Conferences and gatherings while working from home
 tags:
-  - post
-  - XR
-  - VR
-  - Conferencing
+    - post
+    - XR
+    - VR
+    - Conferencing
 authors:
-  - Neil Jakeman
+    - Neil Jakeman
 date: 2020-04-24
 excerpt: |-
-  In these strange days technologies for virtual meetings and 
-  gatherings that have been developing steadily and quietly are now 
-  finding themselves suddenly ushered to the front of the class as we ask 
-  what might change in the workplace post COVID-19.
+    In these strange days technologies for virtual meetings and 
+    gatherings that have been developing steadily and quietly are now 
+    finding themselves suddenly ushered to the front of the class as we ask 
+    what might change in the workplace post COVID-19.
 feature:
-  image: /assets/images/blog/banner_vr.original.jpg
-  title:
-  description: A VR headset resting on a pink chair
+    image: /assets/images/blog/banner_vr.original.jpg
+    title:
+    description: A VR headset resting on a pink chair
 ---
 
 In these strange days technologies for virtual meetings and gatherings that have been developing steadily and quietly are now finding themselves suddenly ushered to the front of the class as we ask what might change in the workplace post COVID-19.

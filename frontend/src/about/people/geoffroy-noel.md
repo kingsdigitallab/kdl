@@ -3,14 +3,14 @@ title: Geoffroy Noël
 slug: geoffroy-noel
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Engineer
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Engineer
 ---
 
 Geoffroy is a programmer analyst who joined King's College London in 2008, after more than nine years working for various technology startups in Brussels and London, and has since contributed to and led the analysis and software development of several Digital Humanities projects. Most of these projects were specifically about digital palaeography, codicology, diplomatics and online scholarly editions of medieval manuscripts.

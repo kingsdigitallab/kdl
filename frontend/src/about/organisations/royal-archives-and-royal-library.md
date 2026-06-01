@@ -1,7 +1,7 @@
 ---
 title: Royal Archives & Royal Library
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: royal-archives-and-royal-library
 foundingDate: null

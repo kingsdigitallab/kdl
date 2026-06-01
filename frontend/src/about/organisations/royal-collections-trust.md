@@ -1,7 +1,7 @@
 ---
 title: Royal Collection Trust
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: royal-collections-trust
 foundingDate: null

@@ -3,7 +3,7 @@ title: Stuart Dunn
 slug: stuart-dunn
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---
 

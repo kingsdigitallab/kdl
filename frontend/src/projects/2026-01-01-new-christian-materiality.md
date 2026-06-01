@@ -9,6 +9,12 @@ slug: new-christian-materiality
 foundingDate: 2026-01-01
 dissolutionDate: 2030-08-31
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/MATERIAMarkusSchumacher.jpg
+  title: Photo by Markus Schumacher
+  description: A wooden cross silhouetted against a cloudy sky.
+  width: 1200
+  height: 800
 keywords: []
 funders:
   - name: European Research Council (ERC)

@@ -1,7 +1,7 @@
 ---
 title: Entrepreneurship Institute
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: entrepreneurship-institute
 foundingDate: null

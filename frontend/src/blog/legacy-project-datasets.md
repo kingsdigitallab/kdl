@@ -2,22 +2,22 @@
 title: Exposing legacy project datasets in Digital Humanities
 subtitle: KDL experience
 tags:
-  - post
-  - Sustainability
-  - Legacy
-  - Cultural Heritage
-  - Data
-  - DDH
+    - post
+    - Sustainability
+    - Legacy
+    - Cultural Heritage
+    - Data
+    - DDH
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2020-07-07
 excerpt: How to address pragmatically the substantial challenge of curating and
-  archiving a rich estate of over 100 legacy projects without funding? Deep
-  breath…
+    archiving a rich estate of over 100 legacy projects without funding? Deep
+    breath…
 feature:
-  image: /assets/images/blog/exposing-legacy-datasets.original.jpg
-  title: © Image composite from Unsplash - Steven Wright and Ula Kuźma
-  description: A hand holding a magnifying glass over the red letters shows as 'Exposing Legacy Datasets', over a background of numerous white drawers
+    image: /assets/images/blog/exposing-legacy-datasets.original.jpg
+    title: © Image composite from Unsplash - Steven Wright and Ula Kuźma
+    description: A hand holding a magnifying glass over the red letters shows as 'Exposing Legacy Datasets', over a background of numerous white drawers
 ---
 
 How to address pragmatically the substantial challenge of curating and archiving a rich estate of over 100 legacy projects without funding? Deep breath…

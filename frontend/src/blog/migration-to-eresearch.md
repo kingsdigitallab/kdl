@@ -2,20 +2,20 @@
 title: "Infrastructure Modernisation: A Year-Long Journey of Migrating Research Projects and Core Services"
 subtitle:
 tags:
-  - post
-  - sustainability
-  - infrastructure
-  - migration
-  - static-first
+    - post
+    - sustainability
+    - infrastructure
+    - migration
+    - static-first
 authors:
-  - Miguel Vieira
+    - Miguel Vieira
 date: 2024-12-10
 excerpt: A year-long journey of migrating research projects and core services to
-  King's e-Research facility.
+    King's e-Research facility.
 feature:
-  image: /assets/images/blog/city-infrastructure-aerial.webp
-  title: "Aerial View of Urban Infrastructure at Night, by Natasha Dulhiier, Unsplash"
-  description: "Network of city lights viewed from above, representing the interconnected nature of modern digital infrastructure"
+    image: /assets/images/blog/city-infrastructure-aerial.webp
+    title: "Aerial View of Urban Infrastructure at Night, by Natasha Dulhiier, Unsplash"
+    description: "Network of city lights viewed from above, representing the interconnected nature of modern digital infrastructure"
 ---
 
 ## Introduction
@@ -150,31 +150,29 @@ If interested, you can find out more about our
 ### Technical Implementation Process
 
 1. Initial Site Capture
-
-   - Created complete site snapshots as the first step
-   - Documented existing functionality and user flows
-   - Identified critical features that needed preservation
-   - Used tools like [Sitesucker](https://ricks-apps.com/osx/sitesucker/index.html)
-     for creating comprehensive static snapshots
+    - Created complete site snapshots as the first step
+    - Documented existing functionality and user flows
+    - Identified critical features that needed preservation
+    - Used tools like [Sitesucker](https://ricks-apps.com/osx/sitesucker/index.html)
+      for creating comprehensive static snapshots
 
 2. Technical Challenges
-
-   - Sites with [AJAX](<https://en.wikipedia.org/wiki/Ajax_(programming)>)-dependent
-     interfaces required special handling
-   - For complex dynamic functionality:
-     - Captured all necessary data states
-     - Reimplemented critical features using client-side tools
-     - Implemented modern static search functionality using
-       [pagefind](https://pagefind.app/) where needed
-     - Simplified interfaces where appropriate
-   - Preserved core user experience while accepting some functionality trade-offs
+    - Sites with [AJAX](<https://en.wikipedia.org/wiki/Ajax_(programming)>)-dependent
+      interfaces required special handling
+    - For complex dynamic functionality:
+        - Captured all necessary data states
+        - Reimplemented critical features using client-side tools
+        - Implemented modern static search functionality using
+          [pagefind](https://pagefind.app/) where needed
+        - Simplified interfaces where appropriate
+    - Preserved core user experience while accepting some functionality trade-offs
 
 3. Sustainability Benefits
-   - Dramatically reduced security attack surface
-   - Minimal ongoing maintenance requirements
-   - Lower hosting costs
-   - Improved performance
-   - Extended project lifespan
+    - Dramatically reduced security attack surface
+    - Minimal ongoing maintenance requirements
+    - Lower hosting costs
+    - Improved performance
+    - Extended project lifespan
 
 ### Stakeholder Engagement
 

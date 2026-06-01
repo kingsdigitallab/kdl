@@ -1,7 +1,7 @@
 ---
 title: Maughan Library, King's College London
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: maughan-library-king-s-college-london
 foundingDate: null

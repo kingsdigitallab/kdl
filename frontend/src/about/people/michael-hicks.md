@@ -3,12 +3,12 @@ title: Michael Hicks
 slug: michael-hicks
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: University of Winchester
-      slug: university-of-winchester
-    roleName: Principal investigator
+    - startDate: null
+      endDate: null
+      organisation:
+          name: University of Winchester
+          slug: university-of-winchester
+      roleName: Principal investigator
 ---

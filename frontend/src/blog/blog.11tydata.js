@@ -1,4 +1,4 @@
 module.exports = {
-  layout: "layouts/post.njk",
-  navKey: "Blog",
+	layout: "layouts/post.njk",
+	navKey: "Blog",
 };

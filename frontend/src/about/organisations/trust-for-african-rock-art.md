@@ -1,7 +1,7 @@
 ---
 title: Trust for African Rock Art
 tags:
-  - organisations
+    - organisations
 alternateName: TARA
 slug: trust-for-african-rock-art
 foundingDate: null

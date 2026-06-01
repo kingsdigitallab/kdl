@@ -1,7 +1,7 @@
 ---
 title: Software Sustainability Institute
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: software-sustainability-institute
 foundingDate: null

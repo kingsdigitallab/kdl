@@ -14,9 +14,7 @@ layout: layouts/base.njk
             {%- for item in items -%}
               {% set organisation = item.data %}
               <li>
-                <a href="{{ organisation.page.url }}">
-                  {% include "partials/organisation.njk" %}
-                </a>
+                <a href="{{ organisation.page.url }}">{% include "partials/organisation.njk" %}</a>
               </li>
             {%- endfor -%}
           </ol>

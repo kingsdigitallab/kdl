@@ -1,15 +1,15 @@
 ---
 title: iREAL Workshop 2
 event:
-  title: iREAL Workshop 2
-  url:
+    title: iREAL Workshop 2
+    url:
 tags:
-  - ireal
-  - slides
+    - ireal
+    - slides
 slide:
-  loop: true
-  theme: light
-  slideNumber: true
+    loop: true
+    theme: light
+    slideNumber: true
 draft: false
 ---
 
@@ -30,9 +30,9 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 - iREAL: Indigenous data considerations
 - User research (to be re-integrated)
 - Workshop dashboard constraints
-  - Models and data
+    - Models and data
 - Today's focus:
-  - Identify use cases and requirements
+    - Identify use cases and requirements
 
 {% endslide %}
 
@@ -55,8 +55,8 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 - **S**hould have
 - **C**ould have
 - **W**on't have this time
-  - Defines out-of-scope items
-  - Potential for future phases
+    - Defines out-of-scope items
+    - Potential for future phases
 
 {% endslide %}
 
@@ -103,9 +103,8 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 ## Data Preparation
 
 1. Original documents converted to:
-
-   - JSON (for data extraction)
-   - Markdown (for frontend rendering)
+    - JSON (for data extraction)
+    - Markdown (for frontend rendering)
 
 1. Each record divided into smaller, manageable sections
 1. Each section is processed for data extraction

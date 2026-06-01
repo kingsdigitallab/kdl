@@ -1,6 +1,6 @@
 {
 	"name": "kdl",
-	"image": "node:18",
+	"image": "alpine:3.19",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -12,6 +12,7 @@
 				"eliostruyf.vscode-front-matter",
 				"esbenp.prettier-vscode",
 				"eseom.nunjucks-template",
+				"monosans.djlint",
 				"johnpapa.vscode-peacock",
 				"JonathanHarty.gruvbox-material-icon-theme",
 				"mvllow.rose-pine",
@@ -97,5 +98,6 @@
 		}
 	},
 	"onCreateCommand": "npm install",
+	"postCreateCommand": "pip3 install djlint",
 	"postStartCommand": "npm run frontend:dev"
 }

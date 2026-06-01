@@ -1,7 +1,7 @@
 ---
 title: Open University
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: open-university
 foundingDate: null

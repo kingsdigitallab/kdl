@@ -3,6 +3,6 @@ title: Yuval Evri
 slug: yuval-evri
 jobTitle: null
 tags:
-  - people
+    - people
 memberOf: []
 ---

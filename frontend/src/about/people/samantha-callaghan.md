@@ -3,14 +3,14 @@ title: Samantha Callaghan
 slug: samantha-callaghan
 jobTitle: Research Software Analyst
 tags:
-  - people
+    - people
 memberOf:
-  - startDate: null
-    endDate: null
-    organisation:
-      name: King's Digital Lab
-      slug: kdl
-    roleName: Research Software Analyst
+    - startDate: null
+      endDate: null
+      organisation:
+          name: King's Digital Lab
+          slug: kdl
+      roleName: Research Software Analyst
 ---
 
 Samantha Callaghan (Te Whānau ā Apanui, Ngāti Kahungunu, Ngāi Pākehā) initially joined KDL in 2017 as the Metadata Analyst for the Georgian Papers Programme and is now a Research Software Analyst within the Lab.

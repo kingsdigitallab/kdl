@@ -2,21 +2,21 @@
 title: Ghost Hunt at Spinners Mill
 subtitle: A family immersive adventure
 tags:
-  - post
+    - post
 authors:
-  - Elliott Hall
+    - Elliott Hall
 date: 2021-10-24
 excerpt: "Tom Bowtell of KIT Theatre and Elliott Hall of Kings Digital Lab
-  worked in collaboration with Leigh Ambassadors group to create a new Digital
-  Ghost Hunt at Spinners Mill for family audiences (9+) inspired by real
-  historical events.Listen to an episode of the Exchange's podcast Connecting
-  Tales discussing the show, with Tom, Elliott, and Leigh Ambassador (and part
-  time ghost) Mike Burwin.Emma Bradburn, intern for the ‘Civic Theatres: A Place
-  for Towns’ research project wrote an account of the show on her blog."
+    worked in collaboration with Leigh Ambassadors group to create a new Digital
+    Ghost Hunt at Spinners Mill for family audiences (9+) inspired by real
+    historical events.Listen to an episode of the Exchange's podcast Connecting
+    Tales discussing the show, with Tom, Elliott, and Leigh Ambassador (and part
+    time ghost) Mike Burwin.Emma Bradburn, intern for the ‘Civic Theatres: A Place
+    for Towns’ research project wrote an account of the show on her blog."
 feature:
-  image: /assets/images/blog/Leigh_Spinners_Leigh_-_geograph.org.uk_-_637989.original.png
-  title: © By Chris Allen, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=13176326
-  description: Spinners Mill
+    image: /assets/images/blog/Leigh_Spinners_Leigh_-_geograph.org.uk_-_637989.original.png
+    title: © By Chris Allen, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=13176326
+    description: Spinners Mill
 ---
 
 Tom Bowtell of [KIT Theatre](https://www.kittheatre.org/) and Elliott Hall of Kings Digital Lab worked in collaboration with Leigh Ambassadors group to create a new [Digital Ghost Hunt](https://digitalghosthunt.com/) at [Spinners Mill](http://www.leighspinnersmill.co.uk/) for family audiences (9+) inspired by real historical events.

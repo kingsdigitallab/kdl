@@ -1,7 +1,7 @@
 ---
 title: Ausonius
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: ausonius
 foundingDate: null

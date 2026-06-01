@@ -1,7 +1,7 @@
 ---
 title: Queen Mary, University of London
 tags:
-  - organisations
+    - organisations
 alternateName: null
 slug: queen-mary-university-of-london
 foundingDate: null

@@ -2,18 +2,18 @@
 title: High level priorities
 subtitle: As new Director of KDL ...
 tags:
-  - post
+    - post
 authors:
-  - Arianna Ciula
+    - Arianna Ciula
 date: 2022-02-10
 excerpt: After almost exactly five years since I joined King’s Digital Lab (KDL)
-  as Research Software Analyst, I have recently been appointed Director for the
-  next four years, following the departure of KDL first director, James
-  Smithies.
+    as Research Software Analyst, I have recently been appointed Director for the
+    next four years, following the departure of KDL first director, James
+    Smithies.
 feature:
-  image: /assets/images/blog/chris-lawton-vBA-JNHAraI-unsplash.original.jpg
-  title: © Photo by Chris Lawton on Unsplash
-  description: Bunting flags
+    image: /assets/images/blog/chris-lawton-vBA-JNHAraI-unsplash.original.jpg
+    title: © Photo by Chris Lawton on Unsplash
+    description: Bunting flags
 ---
 
 After almost exactly five years [since I joined King’s Digital Lab (KDL)](/blog/first-month-lab/) as Research Software Analyst, I have recently been appointed Director for the next four years, following the [departure of KDL first director](https://kdl.kcl.ac.uk/blog/smithies-departure/), James Smithies.
