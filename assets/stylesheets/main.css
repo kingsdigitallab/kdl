@@ -702,6 +702,12 @@ main .kdl-container > article > article footer {
   padding: 1.5em 0.7em 1em 0.7em;
   background-color: rgb(244.8255813953, 246.8604651163, 247.6744186047);
 }
+.home .explore section div p,
+.home .discover section div p,
+.home .contact section div p,
+.home .communities section div p {
+  overflow-wrap: break-word;
+}
 .home .explore section a,
 .home .discover section a,
 .home .contact section a,
