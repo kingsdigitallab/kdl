@@ -73,24 +73,6 @@
 		}
 	},
 	{
-		"slug": "tiffany-ong",
-		"jobTitle": "Senior Research Software UI/UX Designer",
-		"team": "KDL",
-		"feature": {
-			"image": "/assets/images/people/tiffany-ong.jpg",
-			"description": "Photo of Tiffany Ong"
-		}
-	},
-	{
-		"slug": "miguel-vieira",
-		"jobTitle": "Principal Research Software Engineer",
-		"team": "KDL",
-		"feature": {
-			"image": "/assets/images/people/miguel-vieira.jpg",
-			"description": "Photo of Miguel Vieira"
-		}
-	},
-	{
 		"slug": "tim-watts",
 		"jobTitle": "Senior Research Software Systems Manager",
 		"team": "KDL",
@@ -115,6 +97,15 @@
 		"feature": {
 			"image": "/assets/images/people/mary-chester-kadwell.jpg",
 			"description": "Photo of Mary Chester-Kadwell"
+		}
+	},
+	{
+		"slug": "david-man",
+		"jobTitle": "Senior Research Software UI/UX Designer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/david-man.jpg",
+			"description": "Photo of David Man"
 		}
 	},
 	{
@@ -367,6 +358,24 @@
 		"feature": {
 			"image": "/assets/images/people/ryan-heuser.jpg",
 			"description": "Photo of Ryan Heuser"
+		}
+	},
+	{
+		"slug": "tiffany-ong",
+		"jobTitle": "Former Senior Research Software UI/UX Designer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/tiffany-ong.jpg",
+			"description": "Photo of Tiffany Ong"
+		}
+	},
+	{
+		"slug": "miguel-vieira",
+		"jobTitle": "Former Principal Research Software Engineer",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/miguel-vieira.jpg",
+			"description": "Photo of Miguel Vieira"
 		}
 	}
 ]
