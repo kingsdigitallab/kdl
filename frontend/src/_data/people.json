@@ -16014,6 +16014,18 @@
 		}
 	},
 	{
+		"jobTitle": {
+			"name": "Senior Research Software UI/UX Designer",
+			"inDefinedTermSet": {
+				"name": "Team roles"
+			}
+		},
+		"agent": {
+			"name": "David Man",
+			"slug": "david-man"
+		}
+	},
+	{
 		"jobTitle": null,
 		"agent": {
 			"name": "Mary Clayton",
