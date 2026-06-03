@@ -191,6 +191,11 @@ feature:
 
 4. **Test locally** - Run `npm run frontend:dev` to preview your changes before merging.
 
+### Nunjuck template files
+
+We have files for html templating, called nunjuck files. They have the `.njk` extension. To lint those files, additional dependencies have to be installed. There is a python package called djlint, which can be pip installed. There is a VSCode extension [https://marketplace.visualstudio.com/items?itemName=monosans.djlint](https://marketplace.visualstudio.com/items?itemName=monosans.djlint), for which there are settings in the vscode settings, and it is currently also installed in the devcontainers.
+TODO: Find a way to lint those files in a pre-commit hook and in the CI pipeline.
+
 ### Data model
 
 The data model is based on the [schema.org](https://schema.org/) vocabulary. Local customisations are prefixed with `KDL`.
