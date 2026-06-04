@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	obj: (data) => data,
 	// SEO plugin
 	author: (data) => data.authors?.join(", "),

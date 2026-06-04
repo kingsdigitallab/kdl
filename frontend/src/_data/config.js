@@ -6,7 +6,7 @@ const paths = {
 	stylesheets: `${baseUrl}assets/stylesheets`,
 };
 
-module.exports = {
+export default {
 	baseUrl: baseUrl,
 	title: "King's Digital Lab",
 	description: "King’s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King’s College London",

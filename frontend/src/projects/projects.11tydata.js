@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	layout: "layouts/project.njk",
 	navKey: "Projects",
 	eleventyComputed: {
