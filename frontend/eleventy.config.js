@@ -74,6 +74,7 @@ export default (eleventyConfig) => {
 	eleventyConfig.addFilter("toLocaleDate", kdlFilters.toLocaleDate);
 	eleventyConfig.addFilter("filter", kdlFilters.filter);
 	eleventyConfig.addFilter("renderMd", kdlFilters.renderMd);
+	eleventyConfig.addFilter("merge", (obj1, obj2) => ({ ...obj1, ...obj2 }));
 
 	eleventyConfig.addFilter("asToc", (content, tags = ["h2", "h3", "h4"]) => {
 		const tocFilter = eleventyConfig.getFilter("toc");
