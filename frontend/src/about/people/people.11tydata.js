@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	layout: "layouts/person.njk",
 	breadcrumb: "People",
 	navKey: "People",

@@ -206,7 +206,7 @@ class ClickUpToMarkdown {
 			try {
 				await fs.access(funderOutputFile);
 				continue;
-			} catch (_) {
+			} catch {
 				console.log(`Creating new funder file: ${funder.slug}.md`);
 			}
 
@@ -275,7 +275,7 @@ class ClickUpToMarkdown {
 			try {
 				await fs.access(departmentOutputFile);
 				continue;
-			} catch (_) {
+			} catch {
 				console.log(`Creating new department file: ${department.slug}.md`);
 			}
 
