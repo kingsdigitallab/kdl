@@ -1,6 +1,6 @@
 {
 	"name": "kdl",
-	"image": "alpine:3.19",
+	"image": "node:24",
 	"customizations": {
 		"vscode": {
 			"extensions": [
