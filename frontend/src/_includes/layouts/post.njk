@@ -4,7 +4,8 @@ layout: layouts/base.njk
 
 {% from "kdl/components/article/macros.njk" import articleMacro %}
 
-{{ articleMacro(obj, collections, { addLink: false }) }}
+{% set postData = obj | merge({ content: content }) %}
+{{ articleMacro(postData, { addLink: false }) }}
 
 {% set previousPost = collections.post | getPreviousCollectionItem %}
 {% set nextPost = collections.post | getNextCollectionItem %}

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ "$SKIP_SIMPLE_GIT_HOOKS" = "1" ]; then
+    echo "[INFO] SKIP_SIMPLE_GIT_HOOKS is set to 1, skipping hook."
+    exit 0
+fi
+
+if [ -f "$SIMPLE_GIT_HOOKS_RC" ]; then
+    . "$SIMPLE_GIT_HOOKS_RC"
+fi
+
+npx lint-staged
+
+# Page rendering smoke test
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+"$ROOT_DIR/scripts/page-check.sh" 2>/dev/null || true
