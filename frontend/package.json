@@ -2,6 +2,7 @@
 	"name": "kdl-frontend",
 	"version": "0.1.0",
 	"description": "Frontend for the KDL project",
+	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"build": "eleventy",

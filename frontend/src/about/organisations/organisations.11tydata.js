@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	layout: "layouts/organisation.njk",
 	breadcrumb: "Partners and funders",
 	navKey: "Partners and funders",

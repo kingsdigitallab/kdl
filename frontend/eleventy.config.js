@@ -1,20 +1,24 @@
-const markdownItImplicitFigures = require("markdown-it-image-figures");
-const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid").default;
-const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
-const kdlFilters = require("kdl-components/src/kdl/filters");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItAttrs = require("markdown-it-attrs");
-const pluginSEO = require("eleventy-plugin-seo");
-const pluginTOC = require("eleventy-plugin-toc");
-const markdownIt = require("markdown-it");
-const Nunjucks = require("nunjucks");
-const path = require("node:path");
-const sass = require("sass");
+import markdownItImplicitFigures from "markdown-it-image-figures";
+import mermaidPlugin from "@kevingimbel/eleventy-plugin-mermaid";
+import pluginEleventyNavigation from "@11ty/eleventy-navigation";
+import kdlFilters from "kdl-components/src/kdl/filters.js";
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
+import pluginSEO from "eleventy-plugin-seo";
+import pluginTOC from "eleventy-plugin-toc";
+import markdownIt from "markdown-it";
+import Nunjucks from "nunjucks";
+import path from "node:path";
+import { execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import sass from "sass";
+import dotenv from "dotenv";
+import seoConfig from "./src/_data/config.js";
 
-require("dotenv").config();
+dotenv.config();
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
 	const kdlComponentsPath = "../node_modules/kdl-components/src";
 	const nunjucksEnvironment = new Nunjucks.Environment([
 		new Nunjucks.FileSystemLoader(kdlComponentsPath),
@@ -33,8 +37,8 @@ module.exports = (eleventyConfig) => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginEleventyNavigation);
-	eleventyConfig.addPlugin(pluginMermaid);
-	eleventyConfig.addPlugin(pluginSEO, require("./src/_data/config.js"));
+	eleventyConfig.addPlugin(mermaidPlugin);
+	eleventyConfig.addPlugin(pluginSEO, seoConfig);
 	eleventyConfig.addPlugin(pluginTOC);
 
 	eleventyConfig.setLibrary(
@@ -45,11 +49,8 @@ module.exports = (eleventyConfig) => {
 		}),
 	);
 
-	// Draft posts https://www.11ty.dev/docs/quicktips/draft-posts/
-	// When `permalink` is false, the file is not written to disk
 	eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
 		return (data) => {
-			// Always skip during non-watch/serve builds
 			if (data.draft && !process.env.BUILD_DRAFTS) {
 				return false;
 			}
@@ -57,10 +58,8 @@ module.exports = (eleventyConfig) => {
 			return data.permalink;
 		};
 	});
-	// When `eleventyExcludeFromCollections` is true, the file is not included in any collections
 	eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function () {
 		return (data) => {
-			// Always exclude from non-watch/serve builds
 			if (data.draft && !process.env.BUILD_DRAFTS) {
 				return true;
 			}
@@ -68,16 +67,30 @@ module.exports = (eleventyConfig) => {
 			return data.eleventyExcludeFromCollections;
 		};
 	});
+	let pageCheckDone = false;
+
 	eleventyConfig.on("eleventy.before", ({ runMode }) => {
-		// Set the environment variable
 		if (runMode === "serve" || runMode === "watch") {
 			process.env.BUILD_DRAFTS = true;
+		}
+	});
+
+	eleventyConfig.on("eleventy.after", ({ runMode }) => {
+		if (runMode === "serve" && !pageCheckDone) {
+			pageCheckDone = true;
+			const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+			try {
+				execSync("bash scripts/page-check.sh", { cwd: repoRoot, stdio: "inherit" });
+			} catch {
+				// informational only
+			}
 		}
 	});
 
 	eleventyConfig.addFilter("toLocaleDate", kdlFilters.toLocaleDate);
 	eleventyConfig.addFilter("filter", kdlFilters.filter);
 	eleventyConfig.addFilter("renderMd", kdlFilters.renderMd);
+	eleventyConfig.addFilter("merge", (obj1, obj2) => ({ ...obj1, ...obj2 }));
 
 	eleventyConfig.addFilter("asToc", (content, tags = ["h2", "h3", "h4"]) => {
 		const tocFilter = eleventyConfig.getFilter("toc");
@@ -99,14 +112,11 @@ module.exports = (eleventyConfig) => {
 	});
 
 	eleventyConfig.addFilter("featuredProjects", function (projects, status = "Active", number = 3) {
-		return (
-			projects
-				.filter((project) => project.data.creativeWorkStatus === status)
-				.filter((project) => project.data.feature?.image)
-				// .filter((project) => project.content && project.content.length > 0)
-				.sort(() => Math.random() - 0.5)
-				.slice(0, number)
-		);
+		return projects
+			.filter((project) => project.data.creativeWorkStatus === status)
+			.filter((project) => project.data.feature?.image)
+			.sort(() => Math.random() - 0.5)
+			.slice(0, number);
 	});
 
 	eleventyConfig.addFilter("fundedProjects", (projects, agentSlug) => {
@@ -184,7 +194,6 @@ module.exports = (eleventyConfig) => {
 		return `<section class="slide" ${options.split(",")}>${content}</section>`;
 	});
 
-	// https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
 	eleventyConfig.addTemplateFormats("scss");
 	eleventyConfig.addExtension("scss", {
 		outputFileExtension: "css",
@@ -195,7 +204,7 @@ module.exports = (eleventyConfig) => {
 				loadPaths: [parsed.dir || ".", this.config.dir.includes],
 			});
 
-			return (_) => {
+			return () => {
 				return result.css;
 			};
 		},

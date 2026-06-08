@@ -83,5 +83,6 @@ cms/uploads/*
 etl/data
 etl/storage
 frontend/_site
+.page-check.report
 volumes/*
 !volumes/proxy
