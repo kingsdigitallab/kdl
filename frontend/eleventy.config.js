@@ -10,6 +10,8 @@ import pluginTOC from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import Nunjucks from "nunjucks";
 import path from "node:path";
+import { execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 import sass from "sass";
 import dotenv from "dotenv";
 import seoConfig from "./src/_data/config.js";
@@ -65,9 +67,23 @@ export default (eleventyConfig) => {
 			return data.eleventyExcludeFromCollections;
 		};
 	});
+	let pageCheckDone = false;
+
 	eleventyConfig.on("eleventy.before", ({ runMode }) => {
 		if (runMode === "serve" || runMode === "watch") {
 			process.env.BUILD_DRAFTS = true;
+		}
+	});
+
+	eleventyConfig.on("eleventy.after", ({ runMode }) => {
+		if (runMode === "serve" && !pageCheckDone) {
+			pageCheckDone = true;
+			const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+			try {
+				execSync("bash scripts/page-check.sh", { cwd: repoRoot, stdio: "inherit" });
+			} catch {
+				// informational only
+			}
 		}
 	});
 

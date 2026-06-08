@@ -58,6 +58,9 @@ jobs:
                   npm run build -w frontend -- --pathprefix 'kdl'
                   npm run index -w frontend
 
+            - name: Page rendering check
+              run: bash scripts/page-check.sh
+
             - uses: stefanzweifel/git-auto-commit-action@v7
               with:
                   commit_message: "ci(frontend): Auto-update data"
