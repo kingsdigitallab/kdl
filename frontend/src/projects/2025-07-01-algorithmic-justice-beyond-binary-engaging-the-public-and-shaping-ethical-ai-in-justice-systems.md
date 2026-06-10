@@ -11,6 +11,15 @@ slug: algorithmic-justice-beyond-binary-engaging-the-public-and-shaping-ethical-
 foundingDate: 2025-07-01
 dissolutionDate: 2026-07-31
 creativeWorkStatus: Active
+feature:
+  image: /assets/images/projects/algorithmicjustice.jpg
+  title: Elise Racine & The Bigger Picture / https://betterimagesofai.org /
+    https://creativecommons.org/licenses/by/4.0/
+  description:
+    Black-and-white aerial view of a narrow city street flanked by tall
+    buildings.
+  width: 1200
+  height: 800
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
