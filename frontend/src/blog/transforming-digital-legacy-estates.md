@@ -46,7 +46,7 @@ KDL was founded in 2015, when the Faculty of Arts and Humanities at King’s Col
 
 KDL inherited around 30 years of DH projects at King's, which constituted more than 100 individual projects and sites that we then hosted. These projects included a huge variety of work, from simple conference websites to highly experimental digital tools to more traditional DH projects such as prosopographies. As there was no clear plan for these projects’ ongoing support, this estate brought with it significant legacy debt.
 
-These different projects involved a wide variety of stakeholders, including the project investigators and other project staff, King’s Faculty of Arts and Humanities, individual departments, external organisations, funders, users and so on.
+These different projects involved a wide variety of stakeholders, including the project investigators and other project staff, King’s Faculty of Arts and Humanities, individual departments, external organisations, funders, users and so on. Unsurprisingly, these stakeholders expressed a variety of thoughts, feelings and stances on the digital legacy estate, creating a complicating factor in how we could approach managing the estate.
 
 At UCL, the Advanced Research Computing Centre (ARC) was formed in 2021 in part to fulfil the research computing demands among research teams at UCL and the wider community. ARC builds digital research infrastructure for partners both inside and outside of UCL. UCL DH was established in 2010 and supports 50+ pioneering DH projects that very much need a sustainability strategy, or strategies, now.
 
@@ -68,13 +68,13 @@ These goals were:
     - Long-term technical and financial sustainability
 - Graceful decommissioning
 
-We recognise that preserving high “value” projects is necessarily based on subjective criteria; still, a start needed to be made.
+We recognise that preserving high “value” projects is necessarily based on subjective criteria; still, a start needed to be made. Gracefully decommissioning refers to any project which was not suitable for ongoing support in its current form.
+
+As you can imagine, this process wasn't straightforward; untangling a digital legacy estate that is years in the making posed major challenges.
 
 ---
 
 ## Challenges
-
-![Illustration created by Neil Jakeman to exemplify a sequence of failures to adjust the 3D printing of complex forms](/assets/images/blog/picture-blogpost-sustainability2.jpg)
 
 In tackling our legacy debt, we had to address a range of challenges, often through trial and error as we uncovered unexpected issues and adjusted our approaches to adapt as we learned. As the project progressed, the team identified common themes and challenges, some project-by-project, others in respect to our position and resources as a lab, and in alignment with the wider institution. We frame them here as questions that others can use when considering how to address their own legacy debts:
 
@@ -247,13 +247,15 @@ Finally, be transparent. Make it clear that you have a standard process, tell pa
 
 Identify your current digital legacy estate by looking at your current and past projects. Do you know what you are hosting, where it lives and what is needed?
 
-Tackle it systematically, fairly and consistently. The chart below shows the time KDL spent getting our estate in order, especially at the beginning. Over the period of this project, we have spent in the region of 3000 hours across a range of roles, from system administrators to RSEs, investigating and addressing sustainability for our digital legacy estate. It is a significant number of hours but the alternative — hosting questionable, insecure legacy projects indefinitely — is not a viable strategy.
+Tackle it systematically, fairly and consistently. The chart below shows the time KDL spent getting our estate in order, especially at the beginning. Over the period of this project, we have spent in the region of 3000 hours across a range of roles, from system administrators to RSEs, investigating and addressing sustainability for our digital legacy estate. This chart demonstrates that more time is needed the more complex, older and 'unplanned' your estate is. It is a significant number of hours but the alternative — hosting questionable, insecure legacy projects indefinitely — is not a viable strategy.
 
 ![Bar chart showing hours spent per project over the course of the archiving and sustainability project](/assets/images/blog/picture-blogpost-sustainability7.png)
 
 Start documenting — your future self will thank you. You'll be able to answer difficult questions about projects that have been decommissioned years ago, allowing you to act consistently.
 
 While addressing the legacy estate is complex, time-consuming and can be uncomfortable, the advantages to having addressed the historical digital debt are clear. It gives you clarity on what projects you have, where they live, who to talk to about them and what is needed to maintain them in the long term. It reduces the reputational and security risks described above. This process connects you to your colleagues and partners. And importantly, the conversations you have with partners and decisions you make as a lab — while sometimes difficult — ultimately serve to demonstrate that you care about the research you have produced and the people involved.
+
+There are many advantages in addressing your legacy debt and rationalising your digital legacy estate: lowering risk, improving security, making better use of resources and even gaining a modest increase in grant income if you have the process in place to include funding for post-project support in applications.
 
 If you have questions about our approach to archiving and sustainability at KDL, you can reach out to us via the KDL website: [https://kdl.kcl.ac.uk](https://kdl.kcl.ac.uk)
 
