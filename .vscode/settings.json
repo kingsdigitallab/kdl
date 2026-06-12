@@ -42,5 +42,9 @@
 	"peacock.color": "#d16014",
 	"[nunjucks]": {
 		"editor.defaultFormatter": "monosans.djlint"
-	}
+	},
+	"python.terminal.activateEnvironment": false,
+	"python.terminal.activateEnvInCurrentTerminal": false,
+	"python.disableAutomaticEnvironmentDetection": false,
+	"python.envFile": "${workspaceFolder}/.env"
 }
