@@ -74,8 +74,6 @@ We recognise that preserving high “value” projects is necessarily based on s
 
 ## Challenges
 
-![Illustration created by Neil Jakeman to exemplify a sequence of failures to adjust the 3D printing of complex forms](/assets/images/blog/picture-blogpost-sustainability2.jpg)
-
 In tackling our legacy debt, we had to address a range of challenges, often through trial and error as we uncovered unexpected issues and adjusted our approaches to adapt as we learned. As the project progressed, the team identified common themes and challenges, some project-by-project, others in respect to our position and resources as a lab, and in alignment with the wider institution. We frame them here as questions that others can use when considering how to address their own legacy debts:
 
 - **Infrastructure** – Do you have the resources to host legacy projects?
