@@ -13,7 +13,6 @@ excerpt: ""
 feature:
     image: /assets/images/blog/picture-blogpost-sustainability1.jpg
     title: Transforming digital legacy estates
-draft: true
 ---
 
 _Background note: Samatha Callaghan and Pamela Mellen are current KDL staff members. Brian Maher previously worked at KDL and is now based at the University College London (UCL) [Advanced Research Computing Centre](https://www.ucl.ac.uk/advanced-research-computing/) (ARC) with a visiting fellowship in KDL._
