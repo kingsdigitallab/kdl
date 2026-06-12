@@ -421,6 +421,7 @@ characteristics.
 
 
     
+  <script type="module" async="">import mermaid from "https://unpkg.com/mermaid@11.11.0/dist/mermaid.esm.min.mjs";document.addEventListener('DOMContentLoaded', mermaid.initialize({"loadOnSave":true}));</script>
   <script src="/kdl/assets/reveal/reveal.js"></script>
   <script src="/kdl/assets/reveal/plugin/highlight.js"></script>
   <script src="/kdl/assets/reveal/plugin/notes.js"></script>
@@ -437,6 +438,12 @@ characteristics.
       slideNumber: true,
       transition: 'fade',
       plugins: [ RevealHighlight, RevealNotes ]
+    });
+    Reveal.on('slidechanged', event => {
+      const els = event.currentSlide.querySelectorAll('.mermaid');
+      if (els.length && window.mermaid) {
+        mermaid.run({ nodes: [...els] });
+      }
     });
   </script>
 
