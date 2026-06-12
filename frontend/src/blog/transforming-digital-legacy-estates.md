@@ -11,8 +11,8 @@ authors:
 date: 2026-06-12
 excerpt: ""
 feature:
-    image: 
-    title: 
+    image: /assets/images/blog/picture-blogpost-sustainability1.jpg
+    title: Transforming digital legacy estates
 draft: true
 ---
 
@@ -22,10 +22,10 @@ _We presented at [RSECon24](https://rsecon24.society-rse.org/), in Newcastle - o
 
 We will share our working definition of the term ‘digital legacy estate’[^1], followed by some of the history and context of KDL and UCL Digital Humanities (DH). Our discussion will cover:
 
-- The goals that motivate us to address our legacy estates and some of the challenges we've encountered when undertaking this work  
-- Our past approaches and what we've learned, including examples drawn from our legacy estates and how we approached them  
-- Our current approaches as well as what we foresee to be our future solutions  
-- A call to action  
+- The goals that motivate us to address our legacy estates and some of the challenges we've encountered when undertaking this work
+- Our past approaches and what we've learned, including examples drawn from our legacy estates and how we approached them
+- Our current approaches as well as what we foresee to be our future solutions
+- A call to action
 
 We hope the experiences we share will galvanise teams with unaddressed legacy estates to take up the challenge sooner rather than later.
 
@@ -62,12 +62,12 @@ In consultation with our faculty, we agreed a set of core goals for what we were
 These goals were:
 
 - Preserving high "value" projects, factoring in:
-  - Impact  
-  - Reputation  
-  - Value to scholars  
-  - Ongoing usage  
-  - Long-term technical and financial sustainability  
-- Graceful decommissioning  
+    - Impact
+    - Reputation
+    - Value to scholars
+    - Ongoing usage
+    - Long-term technical and financial sustainability
+- Graceful decommissioning
 
 We recognise that preserving high “value” projects is necessarily based on subjective criteria; still, a start needed to be made.
 
@@ -75,20 +75,22 @@ We recognise that preserving high “value” projects is necessarily based on s
 
 ## Challenges
 
+![Illustration created by Neil Jakeman to exemplify a sequence of failures to adjust the 3D printing of complex forms](/assets/images/blog/picture-blogpost-sustainability2.jpg)
+
 In tackling our legacy debt, we had to address a range of challenges:
 
-- **Infrastructure** – Do you have the resources to host legacy projects?  
-- **Time** – Do you have the time (and finances) to maintain or rebuild?  
-- **Cyber Security** – Do you have the right expertise? What is your organisational risk appetite?  
-- **Technical** – Is the code very old? Does it rely on unsupported software?  
-- **Reputational Risk** – If things go wrong, how bad will the impact be?  
-- **Legal/Ethical Risks** – Accessibility regulations; GDPR compliance  
-- **Lost connections** – Are academic partners still available?  
-- **Political/Interpersonal Issues** – Will partners take decisions personally?  
+- **Infrastructure** – Do you have the resources to host legacy projects?
+- **Time** – Do you have the time (and finances) to maintain or rebuild?
+- **Cyber Security** – Do you have the right expertise? What is your organisational risk appetite?
+- **Technical** – Is the code very old? Does it rely on unsupported software?
+- **Reputational Risk** – If things go wrong, how bad will the impact be?
+- **Legal/Ethical Risks** – Accessibility regulations; GDPR compliance
+- **Lost connections** – Are academic partners still available?
+- **Political/Interpersonal Issues** – Will partners take decisions personally?
 
 ### Cyber security example
 
-- [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) – UK certification scheme  
+- [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) – UK certification scheme
 
 Example of reputational risk:
 
@@ -101,39 +103,64 @@ Example of reputational risk:
 KDL established a process and a set of options for archiving and sustainability:
 
 ### Ongoing hosting
+
 - Service Level Agreements (SLA)
 
 ### Decommissioning options
-- Static (minimal hosting)  
-- Migration  
-- Minimal archiving (including links to archives such as Internet Archive / UK Web Archive)  
+
+- Static (minimal hosting)
+- Migration
+- Minimal archiving (including links to archives such as Internet Archive / UK Web Archive)
 
 Example:
+
 - Archetype GitHub access: [Archetype wiki](https://github.com/kcl-ddh/digipal/wiki/)
+
+We also began to document our decommissioning process early on. We captured information about the projects' development histories, infrastructure needs at the time of decommissioning, recommendations and decisions.
+
+![KDL Legacy Projects Pie Chart showing archiving and sustainability progress as of November 2024](/assets/images/blog/picture-blogpost-sustainability3.jpg)
+
+![KDL Legacy Projects Pie Chart showing current status as of June 2026](/assets/images/blog/picture-blogpost-sustainability4.jpg)
+
+The first pie chart indicates how many projects had been addressed under our archiving and sustainability approach as of November 2024. The small slice for "GitHub Access" is a minimally archived project referred to under the decommissioning option above.
 
 ---
 
 ## Completed examples
 
 ### Early English Laws (EEL)
-- [Project site](https://www.earlyenglishlaws.ac.uk/home)  
-- Outcome: migrated to University of Saint Andrews  
+
+- [Project site](https://www.earlyenglishlaws.ac.uk/home)
+- Outcome: migrated to University of Saint Andrews
 
 ### Stormont Papers
-- [Project site](https://stormontpapers.ahds.ac.uk/)  
-- Outcome: minimally archived  
+
+- [Project site](https://stormontpapers.ahds.ac.uk/)
+- Outcome: currently minimally archived
 
 Additional archive:
+
 - [Northern Ireland Official Papers Archive](https://niopa.qub.ac.uk/)
 
 ---
 
-## Current approaches
+## Current approaches – Evaluation
 
 The process is standardised, fair, transparent, and based on agreed criteria.
 
+![KDL Service Level Agreement (SLA) Evaluation Process Diagram](/assets/images/blog/picture-blogpost-sustainability5.jpg)
+
+The diagram above outlines how we make recommendations for sites as they come to the end of their SLAs; the complexity of this chart reflects the complexity of these decisions.
+
 Documentation resources:
+
 - [Software Development Lifecycle (SDLC) wiki](https://github.com/kingsdigitallab/sdlc-for-rse/wiki)
+
+### Current approaches – Decommissioning process
+
+![KDL Decommissioning Process Diagram](/assets/images/blog/picture-blogpost-sustainability6.jpg)
+
+The evaluation decision tree is part of our larger Archiving and Sustainability process; in conjunction with our decommissioning process, we ensure our approach is consistent and documented.
 
 ---
 
@@ -142,7 +169,7 @@ Documentation resources:
 ### Technical approaches
 
 - Consider static websites:
-  - [Static-first approach slides](https://kdl.kcl.ac.uk/slides/2024-london-static-first/)
+    - [Static-first approach slides](https://kdl.kcl.ac.uk/slides/2024-london-static-first/)
 
 - Avoid unsustainable dependencies (e.g. complex back-end search, cloud services)
 
@@ -152,23 +179,27 @@ Documentation resources:
 
 ### Non-technical approaches
 
-- Plan sustainability from project inception  
-- Include funding for long-term maintenance  
+- Plan sustainability from project inception
+- Include funding for long-term maintenance
 - Use funding schemes:
-  - [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
+    - [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
 
-- Maintain clear documentation and transparency  
+- Maintain clear documentation and transparency
 
 ---
 
 ## Call to action
 
+Finally, this chart shows the time KDL spent on getting our estate in order, especially at the beginning. The ca. 3000 hours in the first year demonstrate why we encourage everyone to address their own legacy debt sooner rather than later.
+
+![Bar Chart showing Time Spent on Archiving & Sustainability, approximately 3000 hours in the first year](/assets/images/blog/picture-blogpost-sustainability7.png)
+
 Addressing legacy debt helps to:
 
-- Lower risk  
-- Improve security  
-- Use resources more effectively  
-- Support future funding opportunities  
+- Lower risk
+- Improve security
+- Use resources more effectively
+- Support future funding opportunities
 
 ---
 
