@@ -14,6 +14,7 @@
 {% endblock main %}
 
 {% block bodyEnd %}
+  {% mermaid_js %}
   <script src="/assets/reveal/reveal.js"></script>
   <script src="/assets/reveal/plugin/highlight.js"></script>
   <script src="/assets/reveal/plugin/notes.js"></script>
@@ -30,6 +31,12 @@
       slideNumber: {{ slide.slideNumber or false}},
       transition: 'fade',
       plugins: [ RevealHighlight, RevealNotes ]
+    });
+    Reveal.on('slidechanged', event => {
+      const els = event.currentSlide.querySelectorAll('.mermaid');
+      if (els.length && window.mermaid) {
+        mermaid.run({ nodes: [...els] });
+      }
     });
   </script>
 {% endblock bodyEnd %}
