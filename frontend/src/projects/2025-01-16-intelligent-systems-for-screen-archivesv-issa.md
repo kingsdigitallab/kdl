@@ -65,7 +65,7 @@ draft: false
 urls:
   - name: Project URL
     url: https://www.kcl.ac.uk/research/issa
- - name: Project Wiki
+  - name: Project Wiki
     url: https://github.com/kingsdigitallab/issa/wiki/
 ---
 
