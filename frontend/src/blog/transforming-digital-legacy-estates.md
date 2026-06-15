@@ -76,6 +76,8 @@ As you can imagine, this process wasn't straightforward; untangling a digital le
 
 ## Challenges
 
+![Illustration created by Neil Jakeman to exemplify a sequence of failures to adjust the 3D printing of complex forms](/assets/images/blog/picture-blogpost-sustainability2.jpg "Illustration created by Neil Jakeman to exemplify a sequence of failures to adjust the 3D printing of complex forms based on sculptures designed by artist Lisa Jamhoury for her work L’Entrée in the Glow3 project (Jakeman and Hall 2024). © Neil Jakeman."){.media-medium}
+
 In tackling our legacy debt, we had to address a range of challenges, often through trial and error as we uncovered unexpected issues and adjusted our approaches to adapt as we learned. As the project progressed, the team identified common themes and challenges, some project-by-project, others in respect to our position and resources as a lab, and in alignment with the wider institution. We frame them here as questions that others can use when considering how to address their own legacy debts:
 
 - **Infrastructure** – Do you have the resources to host legacy projects?
@@ -155,9 +157,11 @@ Example: [Archetype GitHub access](https://github.com/kcl-ddh/digipal/wiki/) —
 
 Critically, we began to document our decommissioning process early on. We captured information about the projects' development histories, infrastructure needs at the time of decommissioning, recommendations and decisions, any special requests made and the dates of decommission. While both the decommissioning authorisation template and the process overall have gone through many iterations, the decommissioning documents have proven extremely valuable. They allow us to answer questions that arise, sometimes even years later, when the partners have long retired or moved on.
 
-![KDL Legacy Projects Pie Chart showing archiving and sustainability progress as of November 2024](/assets/images/blog/picture-blogpost-sustainability3.jpg)
+![KDL Legacy Projects Pie Chart showing archiving and sustainability progress as of November 2024](/assets/images/blog/picture-blogpost-sustainability3.jpg "KDL Legacy Projects Pie Chart (Nov 2024)"){.media-medium}
 
-![KDL Legacy Projects Pie Chart showing current status as of June 2026](/assets/images/blog/picture-blogpost-sustainability4.jpg)
+![KDL Legacy Projects Pie Chart showing current status as of June 2026](/assets/images/blog/picture-blogpost-sustainability4.jpg "KDL Legacy Projects Pie Chart (Jun 2026)"){.media-medium}
+
+KDL Legacy Projects Pie Chart (Jun 2026)
 
 The first pie chart indicates how many projects had been addressed under our archiving and sustainability approach as of November 2024. The tiny slice for "GitHub Access" is a minimally archived project (Archetype) which redirects to the project's GitHub page rather than a holding page at the request of the partner. The second pie chart updates this status as of June 2026.
 
@@ -191,7 +195,7 @@ The site was technically unsustainable in its previous form and presented major 
 
 Out of this complex 'archiving sustainably' project, and with contributions from many staff over the years, KDL evolved a standardised approach. The process must be fair, transparent and consistent. We have agreed criteria and make recommendations for each site based on these. The final decisions rest with the Faculty of Arts and Humanities, which has a formal SLA committee that meets annually.
 
-![KDL Service Level Agreement (SLA) Evaluation Process Diagram](/assets/images/blog/picture-blogpost-sustainability5.jpg)
+![KDL Service Level Agreement (SLA) Evaluation Process Diagram](/assets/images/blog/picture-blogpost-sustainability5.jpg "KDL Service Level Agreement (SLA) Evaluation Process Diagram"){.media-medium}
 
 The diagram above outlines how we make recommendations for sites as they come to the end of their SLAs; the complexity of this chart reflects the complexity of these decisions. While this doesn't always make it easy, we find that it makes the conversations with partners and the decisions about next steps more straightforward. Referring to standard policies and criteria, backed by the authority of our Faculty, helps ensure that the process is and feels fair to all involved.
 
@@ -201,7 +205,7 @@ Documentation resources:
 
 ### Current approaches – Decommissioning process
 
-![KDL Decommissioning Process Diagram](/assets/images/blog/picture-blogpost-sustainability6.jpg)
+![KDL Decommissioning Process Diagram](/assets/images/blog/picture-blogpost-sustainability6.jpg "KDL Decommissioning Process Diagram"){.media-medium}
 
 The evaluation decision tree is part of our larger Archiving and Sustainability process; in conjunction with our decommissioning process, we ensure our approach is consistent and documented. This includes specifying what should happen and who has responsibility for each step. It helps ensure we keep our digital legacy estate in good order and, while the documentation can take time, it pays off readily when a difficult question arises. Our approach is always evolving, but clear processes and documentation enable us to maintain consistency and transparency which are essential.
 
@@ -245,20 +249,8 @@ Finally, be transparent. Make it clear that you have a standard process, tell pa
 
 ## Call to action
 
-Identify your current digital legacy estate by looking at your current and past projects. Do you know what you are hosting, where it lives and what is needed?
+Finally, this chart shows the time KDL spent on our getting our estate in order, especially at the beginning. The ca. 3000 hours in the first year demonstrate why we encourage everyone to address their own legacy debt. This chart demonstrates that more time is needed the more complex, older and ‘unplanned’ your estate is.
 
-Tackle it systematically, fairly and consistently. The chart below shows the time KDL spent getting our estate in order, especially at the beginning. Over the period of this project, we have spent in the region of 3000 hours across a range of roles, from system administrators to RSEs, investigating and addressing sustainability for our digital legacy estate. This chart demonstrates that more time is needed the more complex, older and 'unplanned' your estate is. It is a significant number of hours but the alternative — hosting questionable, insecure legacy projects indefinitely — is not a viable strategy.
-
-![Bar chart showing hours spent per project over the course of the archiving and sustainability project](/assets/images/blog/picture-blogpost-sustainability7.png)
-
-Start documenting — your future self will thank you. You'll be able to answer difficult questions about projects that have been decommissioned years ago, allowing you to act consistently.
-
-While addressing the legacy estate is complex, time-consuming and can be uncomfortable, the advantages to having addressed the historical digital debt are clear. It gives you clarity on what projects you have, where they live, who to talk to about them and what is needed to maintain them in the long term. It reduces the reputational and security risks described above. This process connects you to your colleagues and partners. And importantly, the conversations you have with partners and decisions you make as a lab — while sometimes difficult — ultimately serve to demonstrate that you care about the research you have produced and the people involved.
+![Bar chart showing hours spent per project over the course of the archiving and sustainability project](/assets/images/blog/picture-blogpost-sustainability7.png "Bar Chart showing Time Spent on Archiving & Sustainability"){.media-medium}
 
 There are many advantages in addressing your legacy debt and rationalising your digital legacy estate: lowering risk, improving security, making better use of resources and even gaining a modest increase in grant income if you have the process in place to include funding for post-project support in applications.
-
-If you have questions about our approach to archiving and sustainability at KDL, you can reach out to us via the KDL website: [https://kdl.kcl.ac.uk](https://kdl.kcl.ac.uk)
-
----
-
-[^1]: We have refined this definition since the original presentation, to differentiate between a “legacy estate” and “legacy debt”.
