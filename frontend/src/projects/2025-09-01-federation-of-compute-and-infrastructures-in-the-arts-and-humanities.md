@@ -74,5 +74,5 @@ To investigate the above areas together with colleagues from the University of B
 - stakeholders’ event enabling participants to contribute best practices, current needs, workflows, and prediction of future needs regarding DRI federation;
 - testing a federated service prototype using HPC infrastructure.
 
-The project team has published a report  into Communities and Digital Research Practice ([Rodriguez Echavarria, K., Samaroudi, M., Jakeman, N., Ciula, A., & Penn, P. (2026). Federated Digital Research Infrastructures (DRI) for the Arts and Humanities Communities. Zenodo](https://doi.org/10.5281/zenodo.20667275)).
+The project team has published a report into Communities and Digital Research Practice ([Rodriguez Echavarria, K., Samaroudi, M., Jakeman, N., Ciula, A., & Penn, P. (2026). Federated Digital Research Infrastructures (DRI) for the Arts and Humanities Communities. Zenodo](https://doi.org/10.5281/zenodo.20667275)).
 As an outcome, the project will contribute to the development of a strategic roadmap for a national federated compute service including computation and data federation which supports the research of the A&H communities.
