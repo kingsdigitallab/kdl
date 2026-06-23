@@ -3,12 +3,12 @@ layout: layouts/base.njk
 ---
 
 <article>
-  {{ content | safe }}
+  {{ faq.templateContent | safe }}
 
   {% for faq in collections.faq | sort(false, false, "data.order") %}
     <article>
       <h2 id="{{ faq.data.title | slugify }}">{{ faq.data.title }}</h2>
-      {{ faq.data.content | safe }}
+      {{ faq.templateContent | safe }}
     </article>
   {% endfor %}
 </article>

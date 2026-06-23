@@ -26757,5 +26757,65 @@
 				}
 			]
 		}
+	},
+	{
+		"jobTitle": null,
+		"agent": {
+			"name": "Tamara Lopez",
+			"slug": "tamara-lopez",
+			"description": null,
+			"memberOf": [
+				{
+					"startDate": null,
+					"endDate": null,
+					"inProject": {
+						"name": "Henry III Fine Rolls",
+						"alternateName": "",
+						"slug": "henry-iii-fine-rolls",
+						"foundingDate": null,
+						"dissolutionDate": null,
+						"department": [
+							{
+								"organisation_id": {
+									"agent": {
+										"name": "FAH Department of History"
+									}
+								}
+							},
+							{
+								"organisation_id": {
+									"agent": {
+										"name": "FAH Department of Digital Humanities"
+									}
+								}
+							},
+							{
+								"organisation_id": {
+									"agent": {
+										"name": "Canterbury Christ Church University"
+									}
+								}
+							},
+							{
+								"organisation_id": {
+									"agent": {
+										"name": "The National Archives"
+									}
+								}
+							}
+						]
+					},
+					"inOrganisation": {
+						"agent": {
+							"name": "FAH Department of Digital Humanities",
+							"slug": "ddh"
+						}
+					},
+					"roleName": {
+						"name": "Researcher"
+					}
+				}
+			]
+		}
 	}
 ]

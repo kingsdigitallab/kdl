@@ -152,16 +152,88 @@ Some content is managed in ClickUp and synced to the site via ETL, while other c
 
 **In ClickUp:**
 
-- Team members (people, roles, organisations)
-- Projects (This updates the only `yaml` [frontmatter](https://www.markdownlang.com/advanced/frontmatter.html#yaml-frontmatter) of`frontend/src/projects/projectname.md`)
+- Projects (This updates the `yaml` [frontmatter](https://www.markdownlang.com/advanced/frontmatter.html#yaml-frontmatter) of `frontend/src/projects/projectname.md`)
+    - Project team members are synced from ClickUp into each project's `members` list. This determines who is listed on a project page, but their names will render as **plain text** unless a matching entry exists in `_data/people.json` and `about/people/{slug}.md` (see below).
 
 **In Markdown files:**
 
+- People (two files to update — see example below)
 - Blog posts (`frontend/src/blog/*.md`)
 - FAQ pages (`frontend/src/faqs/*.md`)
 - Theme pages (`frontend/src/themes/*.md`)
 - Slides/presentations (`frontend/src/slides/*.md`)
 - Project descriptions need to be written manually into the automatically created markdown file from above (`frontend/src/projects/projectname.md`). Simply add an empty line below the second triple dash (`---`) and start writing your description.
+
+#### Example: Adding a person
+
+People data is maintained manually in two files. **Both are required** — the JSON entry controls whether the person's name renders as a link on project pages, and the markdown file creates their profile page at `/about/people/{slug}/`.
+
+1. **Add the person to `frontend/src/_data/people.json`** — Append a new entry following the existing structure. The key fields are `agent.slug` (used for lookups), `agent.name`, and `agent.memberOf[].inProject` (links the person to projects):
+
+```json
+{
+	"jobTitle": null,
+	"agent": {
+		"name": "Their Name",
+		"slug": "their-name",
+		"description": "Optional short bio.",
+		"memberOf": [
+			{
+				"startDate": null,
+				"endDate": null,
+				"inProject": {
+					"name": "Project Name",
+					"alternateName": "",
+					"slug": "project-slug",
+					"foundingDate": null,
+					"dissolutionDate": null,
+					"department": [
+						{
+							"organisation_id": {
+								"agent": {
+									"name": "Department Name"
+								}
+							}
+						}
+					]
+				},
+				"inOrganisation": {
+					"agent": {
+						"name": "Organisation Name",
+						"slug": "org-slug"
+					}
+				},
+				"roleName": {
+					"name": "Their Role"
+				}
+			}
+		]
+	}
+}
+```
+
+2. **Create the profile page at `frontend/src/about/people/their-name.md`** — The filename must match the slug:
+
+```markdown
+---
+title: Their Name
+slug: their-name
+jobTitle: null
+tags:
+    - people
+memberOf:
+    - startDate: null
+      endDate: null
+      organisation:
+          name: Organisation Name
+          slug: org-slug
+      roleName: Their Role
+---
+
+Optional biography in markdown.
+```
+
+3. **Test locally** — Run `npm run frontend:dev` and check the person's name is linked on the relevant project pages.
 
 #### Example: Adding a blog article with an image
 
