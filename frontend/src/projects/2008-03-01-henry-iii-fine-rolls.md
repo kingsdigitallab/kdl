@@ -109,6 +109,12 @@ members:
     inOrganisation:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
+  - name: Tamara Lopez
+    slug: tamara-lopez
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 sla:
   start: 2018-12-01
   end: 2023-12-07

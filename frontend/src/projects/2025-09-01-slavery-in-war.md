@@ -46,6 +46,18 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Stefan Meier
+    slug: stefan-meier
+    roleName: Research Software Engineer
+  - name: Mary Chester-Kadwell
+    slug: mary-chester-kadwell
+    roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer

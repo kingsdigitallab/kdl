@@ -66,6 +66,12 @@ members:
     inOrganisation:
       name: FAH Department of English
       slug: fah-department-of-english
+  - name: Tamara Lopez
+    slug: tamara-lopez
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: James Mussell
     slug: james-mussell
     roleName: Researcher
