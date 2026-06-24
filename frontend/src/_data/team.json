@@ -180,15 +180,6 @@
 		}
 	},
 	{
-		"slug": "katherine-bode",
-		"jobTitle": "Visiting Research Fellow",
-		"team": "Research fellows",
-		"feature": {
-			"image": "/assets/images/people/katherine-bode.jpg",
-			"description": "Photo of Katherine Bode"
-		}
-	},
-	{
 		"slug": "ginestra-ferraro",
 		"jobTitle": "Visiting Research Fellow",
 		"team": "Research fellows",
@@ -376,6 +367,15 @@
 		"feature": {
 			"image": "/assets/images/people/miguel-vieira.jpg",
 			"description": "Photo of Miguel Vieira"
+		}
+	},
+	{
+		"slug": "james-smithies",
+		"jobTitle": "Visiting Professor",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/james-smithies.jpg",
+			"description": "Photo of Dr. James Smithies"
 		}
 	},
 	{
