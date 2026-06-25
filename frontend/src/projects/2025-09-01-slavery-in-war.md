@@ -106,8 +106,8 @@ members:
     inOrganisation:
       name: Faculty of Social Science & Public Policy
       slug: faculty-of-social-science-public-policy
-  - name: Leonie Ansems deVries
-    slug: leonie-ansems-devries
+  - name: Leonie Ansems de Vries
+    slug: leonie-ansems-de-vries
     roleName: Co-Investigator
     inOrganisation:
       name: Faculty of Social Science & Public Policy
