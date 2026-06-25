@@ -180,15 +180,6 @@
 		}
 	},
 	{
-		"slug": "katherine-bode",
-		"jobTitle": "Visiting Research Fellow",
-		"team": "Research fellows",
-		"feature": {
-			"image": "/assets/images/people/katherine-bode.jpg",
-			"description": "Photo of Katherine Bode"
-		}
-	},
-	{
 		"slug": "ginestra-ferraro",
 		"jobTitle": "Visiting Research Fellow",
 		"team": "Research fellows",
@@ -335,8 +326,8 @@
 	},
 	{
 		"slug": "brian-maher",
-		"jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
-		"team": "Former staff",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows",
 		"feature": {
 			"image": "/assets/images/people/brian-maher.jpg",
 			"description": "Photo of Brian Maher"
@@ -358,6 +349,42 @@
 		"feature": {
 			"image": "/assets/images/people/ryan-heuser.jpg",
 			"description": "Photo of Ryan Heuser"
+		}
+	},
+	{
+		"slug": "tiffany-ong",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/tiffany-ong.jpg",
+			"description": "Photo of Tiffany Ong"
+		}
+	},
+	{
+		"slug": "miguel-vieira",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/miguel-vieira.jpg",
+			"description": "Photo of Miguel Vieira"
+		}
+	},
+	{
+		"slug": "james-smithies",
+		"jobTitle": "Visiting Professor",
+		"team": "Research fellows",
+		"feature": {
+			"image": "/assets/images/people/james-smithies.jpg",
+			"description": "Photo of Dr. James Smithies"
+		}
+	},
+	{
+		"slug": "brian-maher",
+		"jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
+		"team": "Former staff",
+		"feature": {
+			"image": "/assets/images/people/brian-maher.jpg",
+			"description": "Photo of Brian Maher"
 		}
 	},
 	{
