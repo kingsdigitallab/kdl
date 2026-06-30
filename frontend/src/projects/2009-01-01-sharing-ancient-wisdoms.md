@@ -27,6 +27,10 @@ departments:
     slug: fah-department-of-classics
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
+  - name: University of Vienna
+    slug: university-of-vienna
+  - name: Newman Institute Uppsala
+    slug: newman-institute-uppsala
   - name: King's College, London
     slug: kings-college-london
 members:
@@ -63,10 +67,20 @@ members:
     inOrganisation:
       name: Newman Institute Uppsala
       slug: newman-institute-uppsala
-  - name:
-      Stephan Procházka (University of Vienna), Elvira Wakelnig (Vienna) Ines
-      Dallaji
-    slug: stephan-prochazka-university-of-vienna-elvira-wakelnig-vienna-ines-dallaji
+  - name: Stephan Procházka
+    slug: stephan-prochazka
+    roleName: Co-Investigator
+    inOrganisation:
+      name: University of Vienna
+      slug: university-of-vienna
+  - name: Elvira Wakelnig
+    slug: elvira-wakelnig
+    roleName: Co-Investigator
+    inOrganisation:
+      name: University of Vienna
+      slug: university-of-vienna
+  - name: Ines Dallaji
+    slug: ines-dallaji
     roleName: Co-Investigator
     inOrganisation:
       name: University of Vienna
