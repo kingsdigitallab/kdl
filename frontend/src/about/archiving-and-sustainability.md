@@ -85,7 +85,6 @@ Institutions that support SLAs for projects hosted and maintained by KDL are inc
 - [Masonic Periodicals Online](http://www.masonicperiodicals.org/) (The Library and Museum of Freemasonry)
 - [Ministry of Information](http://www.moidigital.ac.uk/) (AHRC)
 - [Models of Authority](https://www.modelsofauthority.ac.uk/) (FAH)
-- [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
 - [People of Medieval Scotland](http://www.poms.ac.uk) ([dataset](https://doi.org/10.18742/pszz-m429)) (AHRC)
 - [Prosopography of the Byzantine World](http://pbw2016.kdl.kcl.ac.uk) (British Academy)
 - [Radical Translations: The Transfer of Revolutionary Culture between Britain, France and Italy (1789-1815)](https://radicaltranslations.org/) (AHRC)
@@ -107,6 +106,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [Cultural Exchange in a Time of Global Conflict: Colonials, Neutrals and Belligerents during the First World War](https://cegcproject.eu/)
 - [Cultural Exchange in a Time of Global Conflict Sourcebook](http://sourcebook.cegcproject.eu/)
 - [Current Epigraphy](https://currentepigraphy.org/)
+- [DigiPal](http://www.digipal.eu/)
 - [Digital Classicist](https://www.digitalclassicist.org/)
 - [Early English Laws](https://earlyenglishlaws.ac.uk/)
 - [Early Modern London Theatres](https://emlot.library.utoronto.ca/)
@@ -119,6 +119,7 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 - [Gough Map of Britain](http://www.goughmap.org/)
 - [Greek Bible in Byzantine Judaism](https://www.gbbj.org/index.html)
 - Hieroglyphic Hands
+- [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html)
 - [Humanist](https://dhhumanist.org/) listserv
 - [Humanist Archive](https://dhhumanist.org/archives/) (1987-2021)
 - [J.P.E. Harper-Scott](https://jpehs.co.uk/) (personal website)
@@ -144,8 +145,6 @@ If researchers wanted to maintain dynamic functionality for their projects but w
 
 ### Migration in progress
 
-- [DigiPal](http://www.digipal.eu/)
-- [Hofmeister XIX](http://www.hofmeister.rhul.ac.uk/2008/index.html)
 - [Online Chopin](http://chopinonline.ac.uk/)
 
 ## Projects converted to static sites
@@ -201,6 +200,7 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Making of Charlemagne's Europe](https://charlemagneseurope.ac.uk) (FAH)
 - [Mao Era in Objects](https://maoeraobjects.ac.uk/) (AHRC; FAH)
 - [Medieval Francophone Literary Culture Outside France](http://www.medievalfrancophone.ac.uk/) (FAH)
+- [Nineteen Century Serials Edition](http://www.ncse.ac.uk/) (FAH; Birkbeck)
 
 ## Minimally archived projects
 
