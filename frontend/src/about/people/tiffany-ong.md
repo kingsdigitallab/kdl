@@ -12,6 +12,7 @@ memberOf:
           slug: kdl
       roleName: Research Software Designer
 ---
+Tiffany was a Senior Research Software UI/UX Design in KDL, where she worked from 2015 until 2026. She currently collaborates with the Lab as a Visiting Fellow. 
 
 Tiffany is a designer with a background in textiles who has worked in the field of journalism, fashion, marketing, advertising. After completing an MA at the Royal College of Art and entered digital design unsure if she was ready to give up the tactile aspect but soon was deeply engaged with the ever evolving vibrant community. Once she started integrating design with code, along with the complexity of content and diversity of human interactions, it brought about even more interest and exploration. Her current interest is data visualisation, experimenting to improve clarity, curiosity and engagement using geometric shapes.
 
