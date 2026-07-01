@@ -244,15 +244,6 @@
 		}
 	},
 	{
-		"slug": "elliott-hall",
-		"jobTitle": "Former Senior Research Software Engineer",
-		"team": "Former staff",
-		"feature": {
-			"image": "/assets/images/people/elliott-hall.jpg",
-			"description": "Photo of Elliott Hall"
-		}
-	},
-	{
 		"slug": "olga-loboda",
 		"jobTitle": "Former Research Software UI/UX Designer",
 		"team": "Former staff",
@@ -317,7 +308,7 @@
 	},
 	{
 		"slug": "carina-westling",
-		"jobTitle": "Former Project Manager and Visiting Research Fellow",
+		"jobTitle": "Former Project Manager and Former Visiting Research Fellow",
 		"team": "Former staff",
 		"feature": {
 			"image": "/assets/images/people/carina-westling.jpg",
