@@ -1,6 +1,6 @@
 ---
-title: Lukas Sekula
-slug: lukas-sekula
+title: Lucas Sekula
+slug: lucas-sekula
 jobTitle: null
 tags:
     - people
