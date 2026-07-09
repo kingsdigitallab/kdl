@@ -1,6 +1,6 @@
 ---
 title: Nicola Morato
-slug: nicola-morata
+slug: nicola-morato
 jobTitle: null
 tags:
     - people
