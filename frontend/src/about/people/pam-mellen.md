@@ -1,6 +1,6 @@
 ---
-title: Pamela Mellen
-slug: pamela-mellen
+title: Pam Mellen
+slug: pam-mellen
 jobTitle: null
 tags:
     - people

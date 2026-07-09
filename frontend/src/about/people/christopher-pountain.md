@@ -1,6 +1,6 @@
 ---
-title: Chris Pountain
-slug: chris-pountain
+title: Christopher Pountain
+slug: christopher-pountain
 jobTitle: null
 tags:
     - people
