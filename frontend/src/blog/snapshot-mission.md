@@ -19,7 +19,7 @@ feature:
     description: A group of people holding hands on top of a tree
 ---
 
-Authors: Arianna Ciula, Paul Caton, and Pam Mellen
+Authors: Arianna Ciula, Paul Caton, and Pamela Mellen
 
 This blogpost aims to present the Mission and Activities document produced by King’s Digital Lab (KDL) in collaboration with the Faculty of Arts and Humanities (King’s College London) senior management in 2022.
 
