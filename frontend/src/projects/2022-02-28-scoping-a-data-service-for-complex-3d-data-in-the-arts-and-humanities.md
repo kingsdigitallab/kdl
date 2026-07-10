@@ -54,8 +54,8 @@ members:
       inOrganisation:
           name: University College London
           slug: ucl
-    - name: Karina Rodriguez Echavarria
-      slug: karina-rodriguez-echavarria
+    - name: Karina Rodrigues Echavarria
+      slug: karina-rodrigues-echavarria
       roleName: Principal investigator
       inOrganisation:
           name: University of Brighton
