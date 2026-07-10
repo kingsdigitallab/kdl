@@ -293,13 +293,13 @@ Through our Archiving & Sustainability efforts, we have been able to greatly imp
 
 [Read more](/about/people/brian-maher/ "Read more about Brian Maher")
 
-### Pam Mellen
+### Pamela Mellen
 
 _Research Software Lab Manager_
 
 I've primarily worked on integrating the Archiving and Sustainability project with the larger KDL Software Development Lifecycle, as well as supporting implementation at various points throughout the project. With a goal of building Archiving and Sustainability into KDL's 'business as usual'; this has involved working with with the team processes and documentation which are robust and standardised. As we reach the stage where SLA maintenance is integrated into the normal work of the Lab, I have implemented processes to ensure that we maintain good oversight of our portfolio of projects under SLA.
 
-[Read more](/about/people/pamela-mellen/ "Read more about Pam Mellen")
+[Read more](/about/people/pamela-mellen/ "Read more about Pamela Mellen")
 
 ### Tiffany Ong
 

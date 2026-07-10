@@ -1,6 +1,6 @@
 ---
-title: Karina Rodrigues Echavarria
-slug: karina-rodrigues-echavarria
+title: Karina Rodriguez Echavarria
+slug: karina-rodriguez-echavarria
 jobTitle: null
 tags:
     - people

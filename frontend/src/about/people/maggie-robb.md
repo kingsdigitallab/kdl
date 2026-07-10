@@ -1,6 +1,6 @@
 ---
-title: Margaret Robb
-slug: margaret-robb
+title: Maggie Robb
+slug: maggie-robb
 jobTitle: null
 tags:
     - people
