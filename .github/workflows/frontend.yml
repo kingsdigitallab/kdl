@@ -50,6 +50,9 @@ jobs:
               run: |
                   npm run etl:clickup frontend/src/projects
 
+            - name: Generate missing people profiles
+              run: npm run -w etl generate-missing-people
+
             - name: Test frontend
               run: npm run frontend:test
 
@@ -64,7 +67,7 @@ jobs:
             - uses: stefanzweifel/git-auto-commit-action@v7
               with:
                   commit_message: "ci(frontend): Auto-update data"
-                  file_pattern: "frontend/src/projects/*.*"
+                  file_pattern: "frontend/src/projects/*.* frontend/src/about/people/*.md frontend/src/_data/people.json"
                   commit_options: "--no-verify"
 
             - name: Deploy to GitHub pages
