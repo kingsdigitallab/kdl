@@ -1,6 +1,6 @@
 ---
-title: Margaret Robb
-slug: margaret-robb
+title: Lucas Sekula
+slug: lucas-sekula
 jobTitle: null
 tags:
     - people

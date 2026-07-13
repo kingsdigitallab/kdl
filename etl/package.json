@@ -5,7 +5,8 @@
 	"author": "King's Digital Lab",
 	"license": "MPL-2.0",
 	"scripts": {
-		"clickup-to-md": "node src/clickup-to-md.js"
+		"clickup-to-md": "node src/clickup-to-md.js",
+		"generate-missing-people": "node src/generate-missing-people.js"
 	},
 	"bin": {
 		"kdl-etl": "src/cli.js"

@@ -1,6 +1,6 @@
 ---
-title: Nicola Morato
-slug: nicola-morata
+title: Caroline Barron
+slug: caroline-barron
 jobTitle: null
 tags:
     - people
@@ -8,7 +8,7 @@ memberOf:
     - startDate: null
       endDate: null
       organisation:
-          name: University of Cambridge
-          slug: cambridge
+          name: FAH Department of Classics
+          slug: fah-department-of-classics
       roleName: Researcher
 ---

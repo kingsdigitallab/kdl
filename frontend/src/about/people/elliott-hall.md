@@ -13,7 +13,9 @@ memberOf:
       roleName: Research Software Engineer
 ---
 
-Elliott Hall is a Creative Technologist, Writer, and Research Software Engineer.
+Elliott was a Senior Research Software Engineer in the Lab, where he worked from 2015 until 2023. 
+
+He is a Creative Technologist, Writer, and Research Software Engineer.
 
 As a Creative Technologist he makes immersive family shows using a combination of AR, embedded systems and live performance, using Unreal Engine, Unity, and embedded systems like Raspberry Pis and Micro:Bits. He is the creator of the Digital Ghost Hunt, co-created with Tom Bowtell of [KIT Theatre](https://www.kittheatre.org/), and the immersive AI installation Room is Sad.
 

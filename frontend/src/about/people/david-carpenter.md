@@ -1,6 +1,6 @@
 ---
-title: Karina Rodrigues Echavarria
-slug: karina-rodrigues-echavarria
+title: David Carpenter
+slug: david-carpenter
 jobTitle: null
 tags:
     - people
@@ -8,7 +8,7 @@ memberOf:
     - startDate: null
       endDate: null
       organisation:
-          name: University of Brighton
-          slug: university-of-brighton
+          name: FAH Department of History
+          slug: fah-department-of-history
       roleName: Principal investigator
 ---
