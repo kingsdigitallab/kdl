@@ -171,7 +171,7 @@ Projects converted to static sites remain on KDL infrastructure but no longer of
 - [Girls and Digital Culture: Transnational Reflections on Girlhood 2012](https://girlsanddigitalculture.cch.kcl.ac.uk/)
 - [Historic Weather](http://historicweather.cerch.kcl.ac.uk/)
 - [Investigating the Significant Properties of Electronic Content over Time](http://significantproperties.kdl.kcl.ac.uk/)
-- [Inquisitions Post Mortem](http://ipm.cch.kcl.ac.uk) ([dataset](https://doi.org/10.18742/g53w-ry29))
+- [Inquisitions Post Mortem](https://inquisitionspostmortem.ac.uk/) ([dataset](https://doi.org/10.18742/g53w-ry29))
 - [Inscriptions of Aphrodisias: ALA (2004)](http://www.insaph.kcl.ac.uk/ala2004/) + [IAph (2007)](https://insaph.kcl.ac.uk/iaph2007/index.html) ([dataset](https://kcl.figshare.com/collections/Aphrodisias_in_Late_Antiquity_2004/7637966))
 - [Inscriptions of Roman Tripolitania (2009)](http://inslib.kcl.ac.uk/irt2009/)
 - [King's Visualisation Lab](http://www.kvl.cch.kcl.ac.uk/)
