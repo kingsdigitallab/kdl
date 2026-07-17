@@ -7,7 +7,7 @@ tags:
 alternateName: null
 slug: slavery-in-war
 foundingDate: 2025-09-01
-dissolutionDate: 2030-08-31
+dissolutionDate: 2026-12-31
 creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/SlaveryInWar.jpg
