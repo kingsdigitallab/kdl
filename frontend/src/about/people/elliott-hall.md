@@ -13,7 +13,7 @@ memberOf:
       roleName: Research Software Engineer
 ---
 
-Elliott was a Senior Research Software Engineer in the Lab, where he worked from 2015 until 2023. 
+Elliott was a Senior Research Software Engineer in the Lab, where he worked from 2015 until 2023.
 
 He is a Creative Technologist, Writer, and Research Software Engineer.
 
