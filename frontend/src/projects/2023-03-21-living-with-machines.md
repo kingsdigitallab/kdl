@@ -88,6 +88,9 @@ urls:
       url: https://gtr.ukri.org/projects?ref=AH%2FS01179X%2F1
     - name: Language of Mechanisation data paper
       url: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195
+    - name: Language of Mechanisation chapter book
+      url: https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a
+      
 draft: false
 ---
 
@@ -99,4 +102,4 @@ King's Digital Lab worked in collaboration with members of the project team to p
 2. to visualise crowdsourced data from the original digitised newspaper articles, contemporary press directories that described individual newspapers, and classifications by Zooniverse volunteers;
 3. to analyse words that changed meaning during the 19th century, examining their connection to the process of mechanisation in British society, specifically focused on terms used to describe vehicles.
 
-This collaboration led to two co-authored publications: a [data paper](https://doi.org/10.5334/johd.195) and a [forthcoming chapter book](https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a) reflecting on the analysis of language enabled by KDL data processing and visualisations work.
+This collaboration led to two co-authored publications: a [data paper](https://doi.org/10.5334/johd.195) and a [chapter book](https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a) reflecting on the analysis of language enabled by KDL data processing and visualisations work.
