@@ -25,8 +25,16 @@ funders:
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
+  - name: Yorkshire Film Archive
+    slug: yorkshire-film-archive
+  - name: National Library of Scotland
+    slug: national-library-of-scotland
   - name: King's College, London
     slug: kings-college-london
+  - name: Northern Ireland Screen Commission
+    slug: northern-ireland-screen-commission
+  - name: "  \tNorth West Film Archive Manchester Metropolitan University"
+    slug: north-west-film-archive-manchester-metropolitan-university
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
