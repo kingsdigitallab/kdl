@@ -4,7 +4,7 @@ subtitle: A pretext to talk about accountability, text production, ideas, expres
 tags:
     - post
     - ai
-    - research
+    - research 
     - arts
     - humanities
 authors:
