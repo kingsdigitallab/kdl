@@ -36,7 +36,7 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-  - name: Geoffroy Noel
+  - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Peter Logan
