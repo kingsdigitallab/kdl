@@ -48,6 +48,9 @@ members:
   - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Stefan Meier
+    slug: stefan-meier
+    roleName: Research Software Engineer
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
