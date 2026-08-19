@@ -46,7 +46,7 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Geoffroy Noel
+  - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Stefan Meier

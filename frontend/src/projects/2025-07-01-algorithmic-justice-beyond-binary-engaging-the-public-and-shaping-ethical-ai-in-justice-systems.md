@@ -9,7 +9,7 @@ tags:
 alternateName: null
 slug: algorithmic-justice-beyond-binary-engaging-the-public-and-shaping-ethical-ai-in-justice-systems
 foundingDate: 2025-07-01
-dissolutionDate: 2026-07-31
+dissolutionDate: 2026-08-31
 creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/algorithmicjustice.jpg
