@@ -23,8 +23,8 @@ funders:
 departments:
   - name: King's Digital Lab
     slug: kings-digital-lab
-  - name: KCL eResearch
-    slug: kcl-eresearch
+  - name: KCL ARC
+    slug: kcl-arc
   - name: University of Manchester
     slug: university-of-manchester
   - name: Society of RSE
