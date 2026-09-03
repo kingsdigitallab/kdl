@@ -39,18 +39,18 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-  - name: Geoffroy Noël
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Geoffroy Noel
     slug: geoffroy-noel
     roleName: Research Software Engineer
   - name: Stefan Meier
     slug: stefan-meier
     roleName: Research Software Engineer
-  - name: Miguel Vieira
-    slug: miguel-vieira
-    roleName: Research Software Engineer
-  - name: Paul Caton
-    slug: paul-caton
-    roleName: Research Software Analyst
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
