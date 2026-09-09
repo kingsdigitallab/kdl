@@ -306,28 +306,6 @@ class ClickUpToMarkdown {
 	getMembers(data) {
 		const members = [];
 
-		for (const role of ["Analyst", "Design", "Dev"]) {
-			const field = data.custom_fields.find((field) => field.name === role);
-			const roleName =
-				role === "Analyst"
-					? "Research Software Analyst"
-					: role === "Design"
-						? "Research Software Designer"
-						: "Research Software Engineer";
-
-			if (field && field.value) {
-				field.value
-					.filter((member) => member)
-					.forEach((member) => {
-						members.push({
-							name: member.username.trim(),
-							slug: this.slugify(member.username.trim()),
-							roleName,
-						});
-					});
-			}
-		}
-
 		const kdlStaffField = data.custom_fields.find((field) => field.name === "KDL staff");
 
 		if (kdlStaffField && kdlStaffField.value) {

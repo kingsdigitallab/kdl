@@ -31,9 +31,6 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
-  - name: Mary Chester-Kadwell
-    slug: mary-chester-kadwell
-    roleName: Research Software Engineer
   - name: Paul Caton
     slug: paul-caton
     roleName: Research Software Analyst
