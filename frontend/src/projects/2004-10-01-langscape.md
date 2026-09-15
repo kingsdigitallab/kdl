@@ -125,7 +125,7 @@ members:
       slug: fah-department-of-digital-humanities
 sla:
   start: null
-  end: null
+  end: 2028-12-31
 urls:
   - name: Project URL
     url: http://www.langscape.org.uk/index.html
