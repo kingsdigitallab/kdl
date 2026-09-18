@@ -13170,6 +13170,46 @@
   {
     "jobTitle": null,
     "agent": {
+      "name": "Joanna Zylinska",
+      "slug": "joanna-zylinska",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Multisensory XR: From ‘Tech for Good’ to Ethical Immersive Experience",
+            "alternateName": null,
+            "slug": "multisensory-xr-from-tech-for-good-to-ethical-immersive-experience",
+            "foundingDate": "2026-01-01",
+            "dissolutionDate": "2027-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": { "name": "FAH Department of Digital Humanities" }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": { "name": "King's College, London" }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Digital Humanities",
+              "slug": "fah-department-of-digital-humanities"
+            }
+          },
+          "roleName": { "name": "Principal investigator" }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
       "name": "Joanne Edge",
       "slug": "joanne-edge",
       "description": null,
@@ -17177,6 +17217,46 @@
             }
           },
           "roleName": { "name": "Researcher" }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Maria Elena Stefanou",
+      "slug": "maria-elena-stefanou",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Multisensory XR: From ‘Tech for Good’ to Ethical Immersive Experience",
+            "alternateName": null,
+            "slug": "multisensory-xr-from-tech-for-good-to-ethical-immersive-experience",
+            "foundingDate": "2026-01-01",
+            "dissolutionDate": "2027-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": { "name": "FAH Department of Digital Humanities" }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": { "name": "King's College, London" }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "Institute of Psychiatry, Psychology & Neuroscience",
+              "slug": "institute-of-psychiatry-psychology-neuroscience"
+            }
+          },
+          "roleName": { "name": "Co-Investigator" }
         }
       ]
     }
@@ -26403,6 +26483,46 @@
             }
           },
           "roleName": { "name": "Researcher" }
+        }
+      ]
+    }
+  },
+  {
+    "jobTitle": null,
+    "agent": {
+      "name": "Stephanie Janes",
+      "slug": "stephanie-janes",
+      "description": null,
+      "memberOf": [
+        {
+          "startDate": null,
+          "endDate": null,
+          "inProject": {
+            "name": "Multisensory XR: From ‘Tech for Good’ to Ethical Immersive Experience",
+            "alternateName": null,
+            "slug": "multisensory-xr-from-tech-for-good-to-ethical-immersive-experience",
+            "foundingDate": "2026-01-01",
+            "dissolutionDate": "2027-06-30",
+            "department": [
+              {
+                "organisation_id": {
+                  "agent": { "name": "FAH Department of Digital Humanities" }
+                }
+              },
+              {
+                "organisation_id": {
+                  "agent": { "name": "King's College, London" }
+                }
+              }
+            ]
+          },
+          "inOrganisation": {
+            "agent": {
+              "name": "FAH Department of Culture, Media & Creative Industries",
+              "slug": "fah-department-of-culture-media-creative-industries"
+            }
+          },
+          "roleName": { "name": "Co-Investigator" }
         }
       ]
     }
