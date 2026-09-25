@@ -1,7 +1,6 @@
 # Sculpting Time with Computers: Modelling Cinematic Continuity with Vision-Language Models
 
-*by* [Daniel Chávez
-Heras](https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras)*,* [Geoffroy
+*by* [Daniel Chávez Heras](https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras)*,* [Geoffroy
 Noël](https://kdl.kcl.ac.uk/about/people/geoffroy-noel/)*,* [Ryan
 Heuser,](https://www.english.cam.ac.uk/people/Ryan.Heuser) Arianna Ciula
 
