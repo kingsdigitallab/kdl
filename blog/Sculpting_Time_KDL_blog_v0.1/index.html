@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  <base href=".">
+
+
+    
+  <title>King&apos;s Digital Lab</title>
+
+<meta name="description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta name="robots" content="index,follow">
+<meta name="author" content="King's Digital Lab">
+
+<link rel="canonical" href="https://kdl.kcl.ac.uk/blog/Sculpting_Time_KDL_blog_v0.1/">
+
+<meta property="og:title" content="King&apos;s Digital Lab">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://kdl.kcl.ac.uk/blog/Sculpting_Time_KDL_blog_v0.1/">
+<meta property="og:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta property="og:image" content="https://kdl.kcl.ac.ukundefined">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kingsdigitallab">
+<meta name="twitter:url" content="https://kdl.kcl.ac.uk/blog/Sculpting_Time_KDL_blog_v0.1/">
+<meta name="twitter:title" content="King&apos;s Digital Lab">
+<meta name="twitter:description" content="King&rsquo;s Digital Lab (KDL) is a Research Software Engineering (RSE) team in King&rsquo;s College London">
+<meta name="twitter:image" content="https://kdl.kcl.ac.ukundefined">
+
+
+
+
+    
+      <link rel="icon" href="/kdl/assets/images/favicon.ico" sizes="any">
+      <link rel="icon" href="/kdl/assets/images/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/kdl/assets/images/icon.png">
+    
+
+    
+      <link href="/kdl/assets/stylesheets/main.css" rel="stylesheet">
+    
+
+    <meta name="theme-color" content="#d16014">
+  </head>
+  <body>
+    
+    
+
+    
+      <header>
+        
+  <div class="site">
+    <div class="kdl-container">
+      <a class="sitename" href="/kdl/">King&#39;s Digital Lab</a>
+      <a class="logo" href="//kcl.ac.uk">
+        <img src="/kdl/assets/images/kings-logo-red.svg" alt="King&#39;s College London logo in red">
+      </a>
+    </div>
+  </div>
+
+
+        
+  
+  
+  <nav class="main" aria-label="Menu">
+    <div class="kdl-container">
+      
+        <input id="menu-toggle" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="menu-toggle">
+          <span class="kdl-menu-button">Menu</span>
+        </label>
+      
+      <ul>
+      
+        
+  
+<li>
+    <a href="/kdl/about/">About</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/">Projects</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/projects/research-themes/">Research</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/blog/">Blog</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/contact-us/">Contact</a>
+</li>
+
+      
+        
+  
+<li>
+    <a href="/kdl/search/">Search</a>
+</li>
+
+      
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+        
+  
+  
+  <nav class="sub" aria-label="breadcrumbs">
+    <div class="kdl-container">
+      <ol>
+        
+          <li>
+            <a href="/kdl/blog/" aria-current="page">Blog</a>
+          </li>
+        
+      </ol>
+    </div>
+  </nav>
+
+
+
+
+      </header>
+    
+
+    
+      <main class="post">
+        
+  <div class="kdl-container">
+    <h1 data-pagefind-weight="10"></h1>
+
+    
+    <aside>
+    <h2>Table of contents</h2>
+    <nav class="toc">
+        <ol><li><a href="#introduction">Introduction</a></li><li><a href="#the-challenge%3A-making-visible-the-connections-between-shots">The Challenge: Making Visible the Connections Between Shots</a></li><li><a href="#a-theoretical-foundation%3A-burch's-%22d%C3%A9coupage%22">A Theoretical Foundation: Burch's &quot;Découpage&quot;</a></li><li><a href="#case-study%3A-the-baptism-scene-from-the-godfather">Case Study: The Baptism Scene from The Godfather</a></li><li><a href="#two-computational-experiments">Two Computational Experiments</a><ol><li><a href="#experiment-1%3A-model-guided-%22lazy%22-shot-clustering">Experiment 1: Model-Guided &quot;Lazy&quot; Shot Clustering</a></li><li><a href="#experiment-2%3A-critic-guided-shot-sequence-classification">Experiment 2: Critic-Guided Shot Sequence Classification</a></li></ol></li><li><a href="#key-insights-and-lessons-learned">Key Insights and Lessons Learned</a><ol><li><a href="#the-persistent-relevance-of-context">The Persistent Relevance of Context</a></li><li><a href="#the-value-of-theoretical-grounding">The Value of Theoretical Grounding</a></li><li><a href="#human-annotation-as-uncertain-ground-truth">Human Annotation as Uncertain Ground Truth</a></li></ol></li><li><a href="#broader-implications-for-digital-humanities">Broader Implications for Digital Humanities</a></li><li><a href="#technical-approach">Technical Approach</a></li><li><a href="#future-directions">Future Directions</a></li><li><a href="#conclusion">Conclusion</a></li></ol>
+      </nav>
+  </aside>
+
+    <article>
+
+
+
+
+  
+  <article>
+    <header>
+      
+      
+      
+    </header>
+
+    
+      
+      <article><h1 id="sculpting-time-with-computers%3A-modelling-cinematic-continuity-with-vision-language-models" tabindex="-1">Sculpting Time with Computers: Modelling Cinematic Continuity with Vision-Language Models</h1>
+<p><em>by</em> <a href="https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras">Daniel Chávez
+Heras</a><em>,</em> <a href="https://kdl.kcl.ac.uk/about/people/geoffroy-noel/">Geoffroy
+Noël</a><em>,</em> <a href="https://www.english.cam.ac.uk/people/Ryan.Heuser">Ryan
+Heuser,</a> Arianna Ciula</p>
+<p><em>[September 2026]</em></p>
+<figure><img src="media/c4edd9714311656d835d3c8228ec6999c218e1c8.png" alt=""></figure>
+<p><em>[FIGURE 1: Featured image -- Sequence of frames from The Godfather
+(1972) showing the baptism scene with numbered arrows highlighting key
+cinematic shots and transitions.]</em></p>
+<p><em>Caption: Part of automated analysis workflow on a scene from The
+Godfather (1972).</em></p>
+<p><em>Want to know more about this research? Why not read <a href="https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html">Cinema and Machine
+Vision: Artificial Intelligence, Aesthetics and
+Spectatorship</a>
+which is now out on paperback! For a limited time, get a 30% discount
+using the code <strong>PAPER30</strong></em></p>
+<h2 id="introduction" tabindex="-1">Introduction</h2>
+<p>How do films create the illusion of continuous action from separate
+shots? This is a question that lies at the heart of cinema as a medium,
+and one that film scholars and practitioners have grappled with for over
+a century. In the <a href="https://kdl.kcl.ac.uk/projects/sculpting-time-with-computers/">Sculpting Time with
+Computers</a>
+project, we've been exploring how computational approaches
+---specifically large vision and language models (VLMs)--- can help us
+understand and model the invisible &quot;joints&quot; that make moving images
+appear to flow seamlessly in time.</p>
+<p>This proof of concept was a collaboration between King's Digital Lab and
+the <a href="https://www.kcl.ac.uk/ddh">Department of Digital Humanities</a>, and
+is part of a broader research programme on computational modelling of
+audiovisual media. Our aim is to gain new insights into how narrative
+mechanisms like continuity editing relate to larger historical patterns
+in cinema and post-cinema ---the emergence of new genres, changing
+audience expectations, and evolving aesthetic forms enabled by
+large-scale computational technologies.</p>
+<h2 id="the-challenge%3A-making-visible-the-connections-between-shots" tabindex="-1">The Challenge: Making Visible the Connections Between Shots</h2>
+<p>When we watch a film, something remarkable happens, and it is remarkable
+because it remains largely unnoticed. Intuitively, we might expect
+viewers to feel disoriented when confronted with rapid cuts between
+different fragments of a scene: bits and pieces at different space and
+time scales, from the close-up of a hand to the vastness of a landscape
+and back again in a few seconds. For early film theorists such as
+Rudolph Arnheim, this type of fragmentation would naturally lead to a
+kind of &quot;seasickness&quot; in audiences, and yet, he observes, something
+rather unexpected happens: with seemingly little effort, viewers
+synthesise these fragments into a coherent imagined timeline. Years
+later, cognitive film theorists would describe this phenomenon more
+precisely, as viewers becoming &quot;willing subjects&quot; of the film's
+time-space manipulations.</p>
+<p>Over time, a common set of techniques designed to achieve this effect of
+continuity developed, and these are now well-known and taught in film
+schools: the
+<a href="https://en.wikipedia.org/wiki/Cutting_on_action">match-on-action</a>,
+<a href="https://en.wikipedia.org/wiki/180-degree_rule">180-degree rule</a>,
+<a href="https://en.wikipedia.org/wiki/Eyeline_match">eyeline match</a>, among
+others. For the most part, professional editors learn to apply these
+rules and conventions instinctively through careful observation and
+practice. But although expert practitioners in crafting continuity can
+usually tell very accurately whether a sequence is well or poorly
+edited, most often they cannot explain <em>why</em> the effect is possible in
+the first place. Perhaps the best example of a film editor going into
+detail about how thy develop their craft by abstracting rules out of
+embodied knowledge is Walter Murch, one of the most respected film
+editors (and sound designers) in contemporary cinema.</p>
+<p><a href="https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH">https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH</a></p>
+<figure><img src="media/8b32988f25f7b90dbff0b13ef31956405cc636a8.png" alt="U,{be353be1-f8c7-481c-a279-b7d00e9e9f5b}{100},12.63425925925926,7.3125"><figcaption>Video titled: Walter Murch - The six criteria of film editing (293/320)</figcaption></figure>
+<p>As with other forms of embodied knowledge developed by practice and
+convention over long periods of time, the emergence of cultural patterns
+of meaning is a fascinating challenge for computational humanities. The
+relations between shots are, for the most part, invisible---they exist
+in the cognitive space between what's shown on screen and what audiences
+infer. Film scholars have theorised these relations through careful
+analysis of individual films, but such deductive approaches rely on few
+points of extrapolation. What if we could surface these invisible
+relations as data and at scale?</p>
+<h2 id="a-theoretical-foundation%3A-burch's-%22d%C3%A9coupage%22" tabindex="-1">A Theoretical Foundation: Burch's &quot;Découpage&quot;</h2>
+<p>Our computational approach takes as starting point the work of film
+theorist <a href="https://en.wikipedia.org/wiki/No%C3%ABl_Burch">Noël Burch</a>,
+who proposed a systematic way of classifying shot-to-shot transitions.
+Drawing an analogy to music composition, Burch observed that filmmakers
+work with a relatively limited palette of possibilities when assembling
+sequences---much like how composers arrange individual notes to create
+continuous melodies.</p>
+<p>Burch identified fifteen fundamental types of shot transitions based on
+space and time relationships, ranging from full continuity to radical
+discontinuity. Michael Frierson, another film theorist, formalised this
+framework as a 5×3 matrix:</p>
+<figure><img src="media/62fd31724c511d0453f6a555bfc95816bd3b1d29.png" alt=""></figure>
+<p><em>[FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
+Ellipsis definite/indefinite, Time reversal definite/indefinite).
+Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
+CtR, CtRi, DC, DE, DEi, DR, DRi]</em></p>
+<p>From a data modelling perspective, this formalisation allows us to
+encode any shot-to-shot transition as a position in this matrix. The
+computational intuition is that, given enough samples, patterns drawn
+from this encoding could help identify editing styles, directorial
+signatures, genre conventions, or historical periods---a kind of
+&quot;stylometry&quot; for film editing.</p>
+<p>It's important to note, however, that as with other aesthetic
+categories, Burch describes <em>latent</em> relations---what an idealised
+viewer would infer between shots, rather than directly measurable
+properties of the film itself. This has two key implications: 1) that to
+model editing styles we need not only the films but a proxy for its
+viewers; and 2) that this proxy is by necessity an abstraction. This is
+something that Olga Goriunova calls &quot;the abstract people of AI&quot;, in this
+case using a Vision and Language model (VLM) as a <strong>synthetic audience</strong>
+that draws on shared notions of memory, causality, and reasoning. There
+are very good reasons to be critical about this process of subjective
+abstraction and why we should be rightly sceptical of it. At the same
+time, it bears saying that this is not just a feature of computational
+approaches, classic close-reading film scholarship also mobilises
+abstract subjectivities and idealised models of audiences, even if they
+are not expressed in formal languages or computer programmes. For our
+purposes here, we are interested in the possibilities enabled by
+computational synthetic audiences, but do urge readers to look at Olga's
+book to get a sense of the limitations too.</p>
+<h2 id="case-study%3A-the-baptism-scene-from-the-godfather" tabindex="-1">Case Study: The Baptism Scene from The Godfather</h2>
+<p>To illustrate our approach, we focused on one of cinema's most analysed
+sequences: the &quot;baptism of fire&quot; scene from Francis Ford Coppola's <em>The
+Godfather</em> (1972). In this sequence, shots of Michael Corleone attending
+his nephew's baptism are intercalated with shots of multiple murders
+being carried out at his behest.</p>
+<p><a href="https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN">https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN</a></p>
+<figure><img src="media/8b32988f25f7b90dbff0b13ef31956405cc636a8.png" alt="U,{6c05d4c9-6251-4dda-828d-e6ca5a551edd}{221},12.63425925925926,7.3125"><figcaption>Video titled: Baptism Scene | THE GODFATHER (1972) Movie CLIP HD</figcaption></figure>
+<p>Using the PySceneDetect library, we first segmented the entire film into
+individual shots (1,429 in total). The baptism sequence (shots
+1296--1364) demonstrates the now classic parallel editing technique: the
+film maintains continuity in time (events happening simultaneously)
+while showing radical discontinuity in space (the church vs. multiple
+murder locations). The technique is widely used in popular narrative
+cinema, and the sequence itself has transcended <a href="https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&amp;t=159">its influence to the
+point of
+parody</a>.</p>
+<figure><img src="media/469eec8de987f8b9206f84b4f994975b79e9557e.png" alt=""></figure>
+<p><em>[FIGURE 3: Table showing shot analysis from The Godfather baptism
+sequence -- including shot numbers, frame thumbnails, space/time
+classifications, and Burch codes.]</em></p>
+<p>By encoding these transitions as numerical values (from --2 for
+discontinuity to +2 for continuity), we can visualise the editing
+pattern as a signal---making visible the rhythmic structure that
+underpins this iconic sequence.</p>
+<figure><img src="media/20ff2f7903717b92b9ad194ef06ec20680485154.png" alt=""></figure>
+<p><em>[FIGURE 4: Line graphs showing time and space continuity signals
+across the baptism sequence -- visualising the oscillating pattern of
+parallel editing]</em></p>
+<h2 id="two-computational-experiments" tabindex="-1">Two Computational Experiments</h2>
+<p>Creating these annotations manually is time-consuming and, crucially,
+represents only one viewer's interpretation rather than an
+inter-subjective consensus. Our proof of concept explored whether VLMs
+could help generate this kind of data at scale. We designed two
+complementary experiments:</p>
+<h3 id="experiment-1%3A-model-guided-%22lazy%22-shot-clustering" tabindex="-1">Experiment 1: Model-Guided &quot;Lazy&quot; Shot Clustering</h3>
+<p>In our first experiment, we used GPT-4 to group shots based on the
+model's self-guided sense of similarity, without pre-defining
+categories. We provided frame images and prompted the model to identify
+&quot;shot groups&quot;---shots that are &quot;the same in some respects intuitive to
+the viewer.&quot;</p>
+<p>The model successfully identified meaningful groupings based on shot
+scale, subject, action, and location. For example, in a conversation
+sequence from <em>The Godfather</em>, GPT-4 correctly grouped establishing
+shots separately from close-ups of each character, reflecting the
+<a href="https://www.davidbordwell.net/blog/2008/02/04/what-happens-between-shots-happens-between-your-ears/">&quot;analytical editing&quot; pattern described by Bordwell and
+Thompson</a>.
+Arguably, the model seems to regroup shots independently from the prompt
+and mainly by camera viewpoint and shot size as if attempting to
+reconstruct the takes at production phase from the shots edited in
+post-production, a sort of &quot;uncutting&quot; or &quot;unediting&quot; process,</p>
+<figure><img src="media/c4edd9714311656d835d3c8228ec6999c218e1c8.png" alt=""></figure>
+<figure><img src="media/541d450e686d1134cedba2e15a5a4a3ddd35f729.png" alt=""></figure>
+<p><em>[FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+results -- nodes represent shots, positioned by model-defined groups,
+with edges showing sequence order. Include examples from both The
+Godfather and Vertigo (1958)]</em></p>
+<p>This approach is highly flexible and produces intuitively coherent
+results. However, the groupings are heavily influenced by the prompting
+strategy, and the relations between shots aren't constrained to Burch's
+theoretical framework. The experiment effectively tests the value of
+operationalising visual data into measurable small units, but to make
+the leap towards useful systematic film analysis, we first needed to
+define objectives alongside constraints to design the prompt and
+evaluate results in a more robust set of tests. Further iteration was
+out of scope for this initial exploratory work; however, the lazy shot
+clustering experiments proved very valuable as an example of quick
+results without explanation, which very often makes working with VLMs
+difficult from a scientific standpoint.</p>
+<h3 id="experiment-2%3A-critic-guided-shot-sequence-classification" tabindex="-1">Experiment 2: Critic-Guided Shot Sequence Classification</h3>
+<p>Our second experiment took a more constrained and shot sequence-aware
+approach. Using the open-source Qwen2.5-VL-32B-Instruct-AWQ model (one
+of the most capable open-weight video understanding models at the time),
+we fed the whole shots sequence to the model and asked to classify
+transitions according to Burch's established categories, with detailed
+definitions provided in the prompt.</p>
+<p>The results validated against expert's manual annotation[^1] revealed
+both capabilities and limitations. Qwen performed reasonably well at
+recognising changes in setting and identifying &quot;narrative connections&quot;
+between shots. However, it made significant errors in temporal reasoning
+---most notably conflating the baptism ceremony with a funeral, and
+misidentifying relationships between the parallel murder scenes.</p>
+<figure><img src="media/ff60119f9fb06e6bbc9ad82e97311a8f5be2db36.jpg" alt=""></figure>
+<p><em>[FIGURE 7: Table comparing manual annotations with Qwen model output
+for the same transitions -- showing where the model succeeded and
+failed]</em></p>
+<p>Several factors likely contributed to these errors. The model received
+only frame images without audio (missing the organ music and crying that
+cue temporal continuity) or broader narrative context (the apotheotic
+resolution of the film's narrative arc for Michael). At close reading
+level, we noticed that the baptism scene involves both parallel editing
+(comparing baptism and execution) and cross-cutting (multiple
+simultaneous executions), which is a particularly challenging
+combination for a model with limited context. One of the most common
+film-editing techniques proved to be challenging to one of the most
+capable vision models.</p>
+<p><em>[FIGURE 7: Experimental designs (conducted in green and black):
+Computational Burch (1 and 2) are the experiments discussed in this
+blogpost.]</em></p>
+<h2 id="key-insights-and-lessons-learned" tabindex="-1">Key Insights and Lessons Learned</h2>
+<h3 id="the-persistent-relevance-of-context" tabindex="-1">The Persistent Relevance of Context</h3>
+<p>A crucial insight from these experiments concerns the amount of
+contextual information available to different &quot;viewers&quot;---human or
+computational. When a human expert classifies shot transitions, they
+draw on their memory of the entire film, knowledge of narrative
+conventions, and rich audiovisual information. Our models, by contrast,
+received only a handful of frames presented in isolation.</p>
+<p>This raises important methodological questions: What is the minimum
+amount of input information needed to accurately identify relationships
+between shots? What is the right balance between reduction of features
+and meaningful results aligned to our research questions (<a href="https://doi.org/10.11647/OBP.0369">Ciula et al.
+2023</a>)? How could VLMs be redesigned,
+harnessed, or post-trained in order to detect parallel editing? What
+kind of data would they need access to? And is this data only available
+through human annotation?</p>
+<p>The answers might depend on how we imagine our ideal subjects and how
+they aggregate and interact to form a synthetic audience, whether we
+imagine a classifier that has &quot;already watched&quot; the whole film, one
+seeing frames with a sliding window of context, or something in
+between---a viewer experiencing the film in real-time, knowing only what
+came before, but who has seen other films in the past and may have a
+chat with other future viewers in the future. How can we model this as a
+dynamic system? Perhaps a multi-model system (e.g. ensemble voting or
+agentic deliberation) is the minimum required to claim any sort of
+approximation of consensus between independent viewers.</p>
+<h3 id="the-value-of-theoretical-grounding" tabindex="-1">The Value of Theoretical Grounding</h3>
+<p>The experiments also highlighted ambiguities in Burch's foundational
+taxonomy that had not been fully articulated. What exactly distinguishes
+&quot;contiguous&quot; from &quot;continuous&quot; space? Why does the temporal dimension
+lack this nuance? The process of translating theory into computable
+instructions forced us to confront these gaps, not apparent at the
+encoding matrix level. In other words, theory is very valuable to
+bootstrap epistemic assumptions while computational modelling can play a
+key role in the critique and refinement of these assumptions. These are
+two complementary knowledge operations that inform each other.</p>
+<p>This is, we would argue, one of the core epistemic values of
+computational approaches in the humanities: not always or primarily to
+validate results about what we already know, but to make us question the
+explicability of our reasoning parameters. Building models ―whether
+computational or conceptual--- and running simulations based on these
+models, can tell us something new, not only about the phenomenon under
+study but about our thinking of the phenomenon and its conceptual
+definition.</p>
+<h3 id="human-annotation-as-uncertain-ground-truth" tabindex="-1">Human Annotation as Uncertain Ground Truth</h3>
+<p>Perhaps most provocatively, our experiments suggest that human
+annotations might not be the definitive &quot;ground truth&quot; for this task.
+Looking at the explanations Qwen provided for its classifications, we
+observed a degree of ambiguity and indeterminacy in the theoretical
+categories themselves --- particularly when temporal relationships
+cannot be easily inferred from visual form alone.</p>
+<p>This doesn't invalidate Burch's theoretical framework, but it does
+suggest that the emergence of continuity involves not only visual
+perception but types of temporal inference and extrapolation that may be
+fundamentally difficult to pin down ---for humans and machines alike. We
+believe that human annotation alone will not solve this issue and for
+this task at least might not be the most reliable data source, as we
+can't fully explain temporal reasoning in humans either.</p>
+<h2 id="broader-implications-for-digital-humanities" tabindex="-1">Broader Implications for Digital Humanities</h2>
+<p>This proof of concept connects to larger questions about computational
+approaches to cultural analysis and specifically to screen culture. Our
+work draws on intermedia studies and theories of modelling that
+emphasise how different &quot;modalities&quot;---the material, virtual, and
+cognitive dimensions of media---interact to create meaning.</p>
+<p><em>[LINK: For theoretical background, see Elleström's work on media
+modalities: https://doi.org/10.1057/9780230275201_2]</em></p>
+<p>What we're attempting to model is essentially the relationship between a
+film's material properties (shots, frames, cuts) and its &quot;virtual&quot;
+manifestation (how space and time are experienced by viewers) via
+cognitive and perceptual processes. The construction of these models,
+meaning the elements we choose to encode and what features we
+prioritise, inevitably shapes how we interpret the results.</p>
+<p>Importantly, this work is not about developing new computer vision
+techniques per se, but about asking if and how VLMs can inform our
+understanding of visual culture while they are simultaneously being used
+to reshape such culture. The value lies in the explicit articulation of
+an epistemic practice ---what we have called &quot;<strong>sculpting time with
+computers</strong>&quot;</p>
+<h2 id="technical-approach" tabindex="-1">Technical Approach</h2>
+<p><strong>Shot Boundary Detection:</strong> We used PySceneDetect for automated
+segmentation, which provides reliable results for hard cuts though some
+transition types (dissolves, wipes) remain challenging. No automated SBD
+system is perfect, and validation against manual annotation is still
+important for critical applications. We found, for example, significant
+variance between colour and black and white footage using the different
+methods available in PySceneDetect.</p>
+<p><strong>Model Selection:</strong> For the second experiment, we deliberately chose an
+open-weight model (Qwen2.5-VL) that could run locally. At the time, this
+was one of the most capable models for video understanding that would
+fit on the infrastructure available for the project.</p>
+<p><strong>Experimental design and productive</strong> <strong>byproducts</strong>: while in this
+blogpost we reported only about two experiments, other experiments were
+designed but not conducted (due to time and resources constraints) or
+conducted as tests to explore complementary models and architectures
+affordances but not included here for brevity (see the public code
+repository at https://github.com/kingsdigitallab/sculpting-poc/).
+Importantly, some of this work, complemented by KDL research time,
+resulted in stand-alone reusable software applications for the
+pre-processing and analysis of visual assets, namely BVQA and
+<a href="https://github.com/kingsdigitallab/framesense">FrameSense</a>. ---which is
+now actively being used for systematic pre-processing and model testing
+in the <a href="https://www.kcl.ac.uk/research/issa">Intelligent Systems for Screen Archives
+Project</a> (ISSA).</p>
+<h2 id="future-directions" tabindex="-1">Future Directions</h2>
+<p>This proof of concept opens several avenues for further research:</p>
+<p><strong>Richer Context:</strong> Providing models with film synopses, character
+descriptions, or audio features significantly improved classification in
+preliminary tests. Systematic exploration of what contextual information
+is most useful for a model to enhance temporal reasoning is a promising
+avenue and overlaps to an extent with video understanding efforts in AI
+research.</p>
+<p><strong>Controlled Experiments:</strong> Future work could select sequences with
+single, clear types of discontinuity to systematically uncover model
+capabilities, building toward a benchmark for this new task. The lack of
+reliable benchmarks across disciplines makes progress in this area
+fragmented and slow.</p>
+<p><strong>Multimodal Analysis:</strong> The current experiments used only visual
+information. Incorporating audio would likely improve temporal
+reasoning, since sound design often provides crucial continuity cues. At
+the same time, incorporating sound data brings its own set of
+computational modelling challenges. Again, there is an overlap here with
+multimodal AI research.</p>
+<p><strong>Scale:</strong> With refined approaches, we aim to analyse larger corpora to
+identify patterns across directors, genres, and historical periods
+---moving from proof of concept toward the stylometric analysis of
+editing that Burch's framework makes theoretically possible. Scale in
+this instance is not only a matter of larger datasets and samples,
+although that too is an issue, but of density and diversity, meaning not
+just more data, but other types of <a href="https://journals.sagepub.com/doi/full/10.1177/2053951718765026">thick and blended
+data</a>.</p>
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<p>Our experiments demonstrate that approximating inter-subjective
+aesthetic consensus---the &quot;synthetic audiences&quot; and their shared
+cognitive strategies--- is a viable and productive area for VLM-assisted
+research, even as current models have significant limitations in
+temporal reasoning.</p>
+<p>Perhaps most importantly, we found that the value of this approach lies
+not in VLMs as straightforward &quot;data extractors,&quot; but as tools for
+generating explanations and exposing ambiguities that stress-test
+existing theoretical assumptions in humanities frameworks. The
+progressive &quot;thickening&quot; of data through the aggregation of multiple
+generated signals, offers a surface of interaction between human critics
+and computational models that can introduce inductive potency to
+deductive theoretical frameworks.</p>
+<p>Rather than expecting computational models to produce consistent outputs
+like traditional statistical tools, moving image researchers may find
+greater success in designing contexts where the elasticity of VLM output
+plays out as an advantage. From this point of view, we are not applying
+computational methods <em>to</em> film but designing the abstract spaces for
+synthetic audiences to be simulated; this is where most of the sculpting
+happens!</p>
+<p><em>This research was conducted in collaboration between King's Digital Lab
+and the Department of Digital Humanities, supported by the</em> <em>Digital
+Futures Institute, the Faculty of Arts &amp; Humanities and the AI Institute
+at King's College London. This research was conducted</em> with
+infrastructure for research data storage provided by <em>King's College
+London e-Research. This proof-of-concept collaboration also connects to
+the</em> <a href="https://kdl.kcl.ac.uk/projects/intelligent-systems-for-screen-archivesv-issa/">Intelligent Systems for Screen Archives
+(ISSA)</a>
+<em>project.</em></p>
+<p>[^1]: We would like to thank Barbara Plotz
+(<a href="https://www.kcl.ac.uk/people/barbara-plotz">https://www.kcl.ac.uk/people/barbara-plotz</a>) for her contribution
+as expert annotator for this task.</p>
+</article>
+    
+
+    
+
+  </article>
+
+
+
+
+
+
+
+<div class="sibling-pagination">
+  <nav aria-label="pagination">
+    <ol>
+      
+      
+    </ol>
+  </nav>
+</div>
+</article>
+    </div>
+
+      </main>
+    
+
+    
+  <footer>
+    <div class="connect">
+  <div class="kdl-container">
+    <h2>Connect with King’s Digital Lab</h2>
+    <ul>
+      <li>
+        <a href="//github.com/kingsdigitallab/" title="KDL on GitHub">
+          <ion-icon name="logo-github" aria-label="GitHub icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//hachyderm.io/@kingsdigitallab" title="KDL on Mastodon">
+          <ion-icon name="logo-mastodon" aria-label="Mastodon icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//twitter.com/kingsdigitallab/" title="KDL on Twitter">
+          <ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="//bsky.app/profile/kingsdigitallab.bsky.social" title="KDL on Bluesky">
+          <ion-icon src="/assets/icons/bluesky.svg" aria-label="Bluesky icon"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:kdl-info@kcl.ac.uk" title="KDL email">
+          <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<nav class="footer" aria-label="Footer navigation">
+  <div class="kdl-container">
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/team/">Team</a>
+        </li>
+        <li>
+          <a href="/kdl/faqs/">Frequently Asked Questions</a>
+        </li>
+        <li>
+          <a href="/kdl/about/archiving-and-sustainability/">Archiving and sustainability</a>
+        </li>
+        <li>
+          <a href="/kdl/about/maintenance/">Maintenance</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Directory</h2>
+      <ul>
+        <li>
+          <a href="/kdl/about/people/">People</a>
+        </li>
+        <li>
+          <a href="/kdl/about/partners-and-funders/">Partners & funders</a>
+        </li>
+        <li>
+          <a href="/kdl/sitemap.xml">Site map</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Policies</h2>
+      <ul>
+        <li>
+          <a href="/kdl/accessibility-statement/">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="/kdl/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/kdl/terms-and-conditions/">Terms &amp; conditions</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact us</h2>
+      <ul>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU">
+          <ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon> New project ideas</a>
+        </li>
+        <li>
+          <a href="https://forms.clickup.com/26475560/f/t7z18-72288/ZIZZG9QOO8ZE1TCMQG">
+            <ion-icon name="pencil-sharp" aria-label="document icon"></ion-icon>
+           Report a problem</a>
+        </li>
+        <li>
+          <address>
+            <a href="mailto:kdl-info@kcl.ac.uk">
+            <ion-icon name="mail-sharp" aria-label="email icon"></ion-icon> kdl-info@kcl.ac.uk</a>
+          </address>
+        </li>
+        <li>
+          <address class="postal">
+            King's College London
+            <br>
+            REACH Space, 3rd Floor
+            <br>
+            Surrey Street East Wing
+            <br>
+            Strand Campus
+            <br>
+            London WC2R 2LS
+          </address>
+        </li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<section class="footer-end">
+  <div class="kdl-container">
+    <p>
+      Issues or comments? Please use our <a href="https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1">form<a> to let us know. The previous King's Digital Lab site can be found at &#160;<a href="https://2015.kdl.kcl.ac.uk">2015.kdl.kcl.ac.uk</a>.
+    </a></a></p>
+  </div>
+</section>
+
+
+  </footer>
+
+
+    
+  <script type="module" async="">import mermaid from "https://unpkg.com/mermaid@11.11.0/dist/mermaid.esm.min.mjs";document.addEventListener('DOMContentLoaded', mermaid.initialize({"loadOnSave":true}));</script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script data-goatcounter="https://kdl.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+
+  </body>
+</html>
