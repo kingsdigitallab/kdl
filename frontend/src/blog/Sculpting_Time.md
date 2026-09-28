@@ -1,10 +1,22 @@
-# Sculpting Time with Computers: Modelling Cinematic Continuity with Vision-Language Models
+---
+title: Sculpting Time with Computers
+subtitle: Modelling Cinematic Continuity with Vision-Language Models
+tags:
+    - post
+    - Your Topic
+authors:
+    - [Daniel Chávez Heras](https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras)
+    - [Geoffroy Noël](https://kdl.kcl.ac.uk/about/people/geoffroy-noel/)
+    - [Ryan Heuser](https://www.english.cam.ac.uk/people/Ryan.Heuser)
+    - [Arianna Ciula](https://kdl.kcl.ac.uk/about/people/arianna-ciula/) 
+date: 2026-09-30
+excerpt: A short description for previews and SEO.
+feature:
+    image: /assets/images/blog/your-image.jpg
+    title:
+    description: Alt text for the image
 
-*by* [Daniel Chávez Heras](https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras)*,* [Geoffroy
-Noël](https://kdl.kcl.ac.uk/about/people/geoffroy-noel/)*,* [Ryan
-Heuser,](https://www.english.cam.ac.uk/people/Ryan.Heuser) Arianna Ciula
 
-*\[September 2026\]*
 
 ![](./media/c4edd9714311656d835d3c8228ec6999c218e1c8.png)
 
