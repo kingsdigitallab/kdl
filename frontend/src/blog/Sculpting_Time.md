@@ -5,33 +5,32 @@ tags:
     - post
     - Your Topic
 authors:
-    - [Daniel Chávez Heras](https://www.kcl.ac.uk/meet-dr-daniel-chavez-heras)
-    - [Geoffroy Noël](https://kdl.kcl.ac.uk/about/people/geoffroy-noel/)
-    - [Ryan Heuser](https://www.english.cam.ac.uk/people/Ryan.Heuser)
-    - [Arianna Ciula](https://kdl.kcl.ac.uk/about/people/arianna-ciula/) 
+    - Daniel Chávez Heras
+    - Geoffroy Noël
+    - Ryan Heuser
+    - Arianna Ciula
 date: 2026-09-30
 excerpt: A short description for previews and SEO.
 feature:
     image: /assets/images/blog/your-image.jpg
     title:
     description: Alt text for the image
-
-
+---
 
 ![](./media/c4edd9714311656d835d3c8228ec6999c218e1c8.png)
 
-*\[FIGURE 1: Featured image -- Sequence of frames from The Godfather
+_\[FIGURE 1: Featured image -- Sequence of frames from The Godfather
 (1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.\]*
+cinematic shots and transitions.\]_
 
-*Caption: Part of automated analysis workflow on a scene from The
-Godfather (1972).*
+_Caption: Part of automated analysis workflow on a scene from The
+Godfather (1972)._
 
-*Want to know more about this research? Why not read [Cinema and Machine
+\*Want to know more about this research? Why not read [Cinema and Machine
 Vision: Artificial Intelligence, Aesthetics and
 Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html)
 which is now out on paperback! For a limited time, get a 30% discount
-using the code **PAPER30***
+using the code **PAPER30\***
 
 ## Introduction
 
@@ -80,7 +79,7 @@ others. For the most part, professional editors learn to apply these
 rules and conventions instinctively through careful observation and
 practice. But although expert practitioners in crafting continuity can
 usually tell very accurately whether a sequence is well or poorly
-edited, most often they cannot explain *why* the effect is possible in
+edited, most often they cannot explain _why_ the effect is possible in
 the first place. Perhaps the best example of a film editor going into
 detail about how thy develop their craft by abstracting rules out of
 embodied knowledge is Walter Murch, one of the most respected film
@@ -117,11 +116,11 @@ framework as a 5×3 matrix:
 
 ![](./media/62fd31724c511d0453f6a555bfc95816bd3b1d29.png)
 
-*\[FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+_\[FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi\]*
+CtR, CtRi, DC, DE, DEi, DR, DRi\]_
 
 From a data modelling perspective, this formalisation allows us to
 encode any shot-to-shot transition as a position in this matrix. The
@@ -131,7 +130,7 @@ signatures, genre conventions, or historical periods---a kind of
 "stylometry" for film editing.
 
 It's important to note, however, that as with other aesthetic
-categories, Burch describes *latent* relations---what an idealised
+categories, Burch describes _latent_ relations---what an idealised
 viewer would infer between shots, rather than directly measurable
 properties of the film itself. This has two key implications: 1) that to
 model editing styles we need not only the films but a proxy for its
@@ -152,8 +151,8 @@ book to get a sense of the limitations too.
 ## Case Study: The Baptism Scene from The Godfather
 
 To illustrate our approach, we focused on one of cinema's most analysed
-sequences: the "baptism of fire" scene from Francis Ford Coppola's *The
-Godfather* (1972). In this sequence, shots of Michael Corleone attending
+sequences: the "baptism of fire" scene from Francis Ford Coppola's _The
+Godfather_ (1972). In this sequence, shots of Michael Corleone attending
 his nephew's baptism are intercalated with shots of multiple murders
 being carried out at his behest.
 
@@ -173,9 +172,9 @@ parody](https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&t=159).
 
 ![](./media/469eec8de987f8b9206f84b4f994975b79e9557e.png)
 
-*\[FIGURE 3: Table showing shot analysis from The Godfather baptism
+_\[FIGURE 3: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes.\]*
+classifications, and Burch codes.\]_
 
 By encoding these transitions as numerical values (from --2 for
 discontinuity to +2 for continuity), we can visualise the editing
@@ -184,9 +183,9 @@ underpins this iconic sequence.
 
 ![](./media/20ff2f7903717b92b9ad194ef06ec20680485154.png)
 
-*\[FIGURE 4: Line graphs showing time and space continuity signals
+_\[FIGURE 4: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing\]*
+parallel editing\]_
 
 ## Two Computational Experiments
 
@@ -206,7 +205,7 @@ the viewer."
 
 The model successfully identified meaningful groupings based on shot
 scale, subject, action, and location. For example, in a conversation
-sequence from *The Godfather*, GPT-4 correctly grouped establishing
+sequence from _The Godfather_, GPT-4 correctly grouped establishing
 shots separately from close-ups of each character, reflecting the
 ["analytical editing" pattern described by Bordwell and
 Thompson](https://www.davidbordwell.net/blog/2008/02/04/what-happens-between-shots-happens-between-your-ears/).
@@ -219,10 +218,10 @@ post-production, a sort of "uncutting" or "unediting" process,
 
 ![](./media/541d450e686d1134cedba2e15a5a4a3ddd35f729.png)
 
-*\[FIGURES 5&6: Network visualisation showing lazy shot clustering
+_\[FIGURES 5&6: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
-Godfather and Vertigo (1958)\]*
+Godfather and Vertigo (1958)\]_
 
 This approach is highly flexible and produces intuitively coherent
 results. However, the groupings are heavily influenced by the prompting
@@ -255,9 +254,9 @@ misidentifying relationships between the parallel murder scenes.
 
 ![](./media/ff60119f9fb06e6bbc9ad82e97311a8f5be2db36.jpg)
 
-*\[FIGURE 7: Table comparing manual annotations with Qwen model output
+_\[FIGURE 7: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
-failed\]*
+failed\]_
 
 Several factors likely contributed to these errors. The model received
 only frame images without audio (missing the organ music and crying that
@@ -270,9 +269,9 @@ combination for a model with limited context. One of the most common
 film-editing techniques proved to be challenging to one of the most
 capable vision models.
 
-*\[FIGURE 7: Experimental designs (conducted in green and black):
+_\[FIGURE 7: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost.\]*
+blogpost.\]_
 
 ## Key Insights and Lessons Learned
 
@@ -351,8 +350,8 @@ work draws on intermedia studies and theories of modelling that
 emphasise how different "modalities"---the material, virtual, and
 cognitive dimensions of media---interact to create meaning.
 
-*\[LINK: For theoretical background, see Elleström's work on media
-modalities: https://doi.org/10.1057/9780230275201_2\]*
+_\[LINK: For theoretical background, see Elleström's work on media
+modalities: https://doi.org/10.1057/9780230275201_2\]_
 
 What we're attempting to model is essentially the relationship between a
 film's material properties (shots, frames, cuts) and its "virtual"
@@ -451,20 +450,21 @@ Rather than expecting computational models to produce consistent outputs
 like traditional statistical tools, moving image researchers may find
 greater success in designing contexts where the elasticity of VLM output
 plays out as an advantage. From this point of view, we are not applying
-computational methods *to* film but designing the abstract spaces for
+computational methods _to_ film but designing the abstract spaces for
 synthetic audiences to be simulated; this is where most of the sculpting
 happens!
 
-*This research was conducted in collaboration between King's Digital Lab
-and the Department of Digital Humanities, supported by the* *Digital
+_This research was conducted in collaboration between King's Digital Lab
+and the Department of Digital Humanities, supported by the_ _Digital
 Futures Institute, the Faculty of Arts & Humanities and the AI Institute
-at King's College London. This research was conducted* with
-infrastructure for research data storage provided by *King's College
+at King's College London. This research was conducted_ with
+infrastructure for research data storage provided by _King's College
 London e-Research. This proof-of-concept collaboration also connects to
-the* [Intelligent Systems for Screen Archives
+the_ [Intelligent Systems for Screen Archives
 (ISSA)](https://kdl.kcl.ac.uk/projects/intelligent-systems-for-screen-archivesv-issa/)
-*project.*
+_project._
 
-[^1]: We would like to thank Barbara Plotz
+[^1]:
+    We would like to thank Barbara Plotz
     (<https://www.kcl.ac.uk/people/barbara-plotz>) for her contribution
     as expert annotator for this task.
