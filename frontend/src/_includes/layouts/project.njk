@@ -5,128 +5,149 @@ layout: layouts/base.njk
 {% from "kdl/components/image/macros.njk" import imageMacro %}
 
 <section>
-  <!-- Images -->
-  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
+	<!-- Images -->
+	{% if obj.feature and obj.feature.image %}
+		{{ imageMacro(obj.feature) }}
+	{% endif %}
 
-  <!-- Overview -->
-  {% if content %}<div id="overview">{{ content | safe }}</div>{% endif %}
+	<!-- Overview -->
+	{% if content %}
+		<div id="overview">
+			{{ content | safe }}
+		</div>
+	{% endif %}
 
-  <!-- Team -->
-  {% if obj.members and obj.members.length > 0 %}
-    <div id="team">
-      <h2>Team</h2>
-      <ul>
-        {% for member in obj.members | sort(false, false, "name") %}
-          {% set kdlTeamMember = team | filter('KDL', 'team') | filter(member.slug, 'slug') | first %}
-          <li {% if kdlTeamMember %}class="kdl-member"{% endif %}>
-            {% if people | filter(member.slug, 'agent.slug') | first %}
-              <a href="{% route member.slug, 'People' %}">{{ member.name }}</a>
-            {% else %}
-              {{ member.name }}
-            {% endif %}
-            {% if kdlTeamMember %}<sup title="Current KDL team member">KDL</sup>{% endif %}
-            <span>{{ member.roleName }}
-              {%- if member.inOrganisation -%}, {{ member.inOrganisation.name }}{%- endif %}
-              </span>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+	<!-- Team -->
+	{% if obj.members and obj.members.length > 0 %}
+		<div id="team">
+			<h2>Team</h2>
+			<ul>
+				{% for member in obj.members | sort(false, false, "name") %}
+					{% set kdlTeamMember = team | filter('KDL', 'team') | filter(member.slug, 'slug') | first %}
+					<li
+						{% if kdlTeamMember %}
+							class="kdl-member"
+						{% endif %}
+					>
+						{% if collections.people | filter(member.slug, 'fileSlug') | first %}
+							<a href="{% route member.slug, 'People' %}">
+								{{ member.name }}
+							</a>
+						{% else %}
+							{{ member.name }}
+						{% endif %}
+						{% if kdlTeamMember %}
+							<sup title="Current KDL team member">KDL</sup>
+						{% endif %}
+						<span>
+							{{ member.roleName }}
+							{%- if member.inOrganisation -%}
+								, {{ member.inOrganisation.name }}
+							{%- endif %}
+						</span>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
 
-    {% set previousObj = collections.projects | getPreviousCollectionItem(page) %}
-    {% set nextObj = collections.projects | getNextCollectionItem(page) %}
-    <div class="sibling-pagination">
-      <nav aria-label="pagination">
-        <ol>
-          {% if previousObj %}
-            <li>
-              <a href="{{ previousObj.url }}">
-                <ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon>
-              {{ previousObj.data.name }}</a>
-            </li>
-          {% endif %}
-          {% if nextObj %}
-            <li>
-              <a href="{{ nextObj.url }}">
-                {{ nextObj.data.name }}
-                <ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon>
-              </a>
-            </li>
-          {% endif %}
-        </ol>
-      </nav>
-    </div>
-  </section>
+	{% set previousObj = collections.projects | getPreviousCollectionItem(page) %}
+	{% set nextObj = collections.projects | getNextCollectionItem(page) %}
+	<div class="sibling-pagination">
+		<nav aria-label="pagination">
+			<ol>
+				{% if previousObj %}
+					<li>
+						<a href="{{ previousObj.url }}">
+							<ion-icon name="chevron-back-sharp" aria-label="previous project"></ion-icon>
+							{{ previousObj.data.name }}
+						</a>
+					</li>
+				{% endif %}
+				{% if nextObj %}
+					<li>
+						<a href="{{ nextObj.url }}">
+							{{ nextObj.data.name }}
+							<ion-icon name="chevron-forward-sharp" aria-label="next project"></ion-icon>
+						</a>
+					</li>
+				{% endif %}
+			</ol>
+		</nav>
+	</div>
+</section>
 
-  <section>
+<section>
 
-    <!-- Information -->
-    <div id="metadata">
-      <span class="status">Project Status: {{ obj.creativeWorkStatus }}</span>
+	<!-- Information -->
+	<div id="metadata">
+		<span class="status">Project Status: {{ obj.creativeWorkStatus }}</span>
 
-      {% if obj.urls.length > 0 %}
-        <div id="links">
-          <h3>Project links</h3>
-          <ul>
-            {% for url in obj.urls %}
-              <li>
-                <a href="{{ url.url }}" role="button">{{ url.name }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+		{% if obj.urls.length > 0 %}
+			<div id="links">
+				<h3>Project links</h3>
+				<ul>
+					{% for url in obj.urls %}
+						<li>
+							<a href="{{ url.url }}" role="button">{{ url.name }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
 
-      {% if obj.funders.length > 0 %}
-        <div class="funder">
-          <h3>Funder</h3>
-          <ul>
-            {% for funder in obj.funders %}
-              <li>
-                <a href="{% route funder.slug, 'Partners and funders' %}">{{- funder.name -}}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+		{% if obj.funders.length > 0 %}
+			<div class="funder">
+				<h3>Funder</h3>
+				<ul>
+					{% for funder in obj.funders %}
+						<li>
+							<a href="{% route funder.slug, 'Partners and funders' %}">{{- funder.name -}}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
 
-      <div class="date">
-        <h3>Partner institution</h3>
-        <ul>
-          {% if obj.departments.length > 0 %}
-            {%- for department in obj.departments %}
-              <li>
-                <a href="{% route department.slug, 'Partners and funders' %}">
-                  {%- set organisation = department -%}
-                  {% include "partials/organisation.njk" %}
-                </a>
-              </li>
-            {% endfor %}
-          {% endif %}
-          {% if obj.foundingDate %}
-            <li class="date">{% include "partials/dates.njk" %}</li>
-          {% endif %}
-        </ul>
-      </div>
+		<div class="date">
+			<h3>Partner institution</h3>
+			<ul>
+				{% if obj.departments.length > 0 %}
+					{%- for department in obj.departments %}
+						<li>
+							<a
+								href="{% route department.slug, 'Partners and funders' %}"
+							>{%- set organisation = department -%} {% include "partials/organisation.njk" %}</a>
+						</li>
+					{% endfor %}
+				{% endif %}
+				{% if obj.foundingDate %}
+					<li class="date">
+						{% include "partials/dates.njk" %}
+					</li>
+				{% endif %}
+			</ul>
+		</div>
 
-      <!-- Keywords -->
-      {% if obj.keywords and obj.keywords.length > 0 %}
-        <div class="keywords">
-          <h3>Keywords</h3>
-          <ul>
-            {% for keyword in obj.keywords %}
-              {% set themeExists = collections.theme | filter(keyword.slug, 'fileSlug') | first %}
-              <li>
-                {% if themeExists %}
-                  <a href="{% route keyword.slug, 'Research' %}">{{ keyword.name }}</a>
-                {% else %}
-                  {{ keyword.name }}
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
-    </div>
-  </section>
+		<!-- Keywords -->
+		{% if obj.keywords and obj.keywords.length > 0 %}
+			<div class="keywords">
+				<h3>Keywords</h3>
+				<ul>
+					{% for keyword in obj.keywords %}
+						{% set themeExists = collections.theme | filter(keyword.slug, 'fileSlug') | first %}
+						<li>
+							{% if themeExists %}
+								<a href="{% route keyword.slug, 'Research' %}">
+									{{ keyword.name }}
+								</a>
+							{% else %}
+								{{ keyword.name }}
+							{% endif %}
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+	</div>
+</section>

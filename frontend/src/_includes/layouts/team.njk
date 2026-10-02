@@ -3,38 +3,42 @@ layout: layouts/base.njk
 permalink: "about/people/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/"
 ---
 
-<section>
-  {{ content | safe }}
-</section>
+<section>{{ content | safe }}</section>
 
 {% for team, items in team | groupby("team") %}
-  <section id="{{ team | slugify }}">
-    {% if team == "KDL" %}
-      <h2>Current {{ team }} team members</h2>
-    {% else %}
-      <h2>{{ team }}</h2>
-    {% endif %}
-    <ul>
-      {%- for item in items | sort(false, false, "slug") -%}
-        {% set agent = people | filter(item.slug, 'agent.slug') | first %}
-        <li id="{{ item.slug }}">
-          {% if team !== "Former staff" %}
-            {% if item.feature %}<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}">{% endif %}
-          {% endif %}
-          <section>
-            <h3>
-              {% if agent %}
-                <a href="{% route item.slug, 'People' %}">{{ agent.agent.name }}</a>
-              {% elif item.feature.url %}
-                <a href="{{ item.feature.url }}">{{ item.name }}</a>
-              {% else %}
-                {{ item.name }}
-              {% endif %}
-            </h3>
-            <h2>{{ item.jobTitle }}</h2>
-          </section>
-        </li>
-      {%- endfor -%}
-    </ul>
-  </section>
+	<section id="{{ team | slugify }}">
+		{% if team == "KDL" %}
+			<h2>Current {{ team }} team members</h2>
+		{% else %}
+			<h2>
+				{{ team }}
+			</h2>
+		{% endif %}
+		<ul>
+			{%- for item in items | sort(false, false, "slug") -%}
+				{% set agentPage = collections.people | filter(item.slug, 'fileSlug') | first %}
+				<li id="{{ item.slug }}">
+					{% if team !== "Former staff" %}
+						{% if item.feature %}
+							<img src="{{ item.feature.image }}" alt="{{ item.feature.description }}" />
+						{% endif %}
+					{% endif %}
+					<section>
+						<h3>
+							{% if agentPage %}
+								<a href="{% route item.slug, 'People' %}">
+									{{ agentPage.data.name }}
+								</a>
+							{% elif item.feature.url %}
+								<a href="{{ item.feature.url }}">{{ item.name }}</a>
+							{% else %}
+								{{ item.name }}
+							{% endif %}
+						</h3>
+						<h2>{{ item.jobTitle }}</h2>
+					</section>
+				</li>
+			{%- endfor -%}
+		</ul>
+	</section>
 {%- endfor -%}
