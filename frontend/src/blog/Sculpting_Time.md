@@ -12,9 +12,9 @@ authors:
 date: 2026-09-30
 excerpt: A short description for previews and SEO.
 feature:
-    image: /assets/images/blog/your-image.jpg
-    title:
-    description: Alt text for the image
+    image: /assets/images/blog/Sculptingtime.jpg
+    title: Algorithmic memory by Jenny Kidd & Synthetic Pasts
+    description: A library of photos. One photo has been highlighted by the system, and a series of  pointers suggest it has been marked as in some way meaningful by the archival and retrieval system.
 ---
 
 ![](./media/c4edd9714311656d835d3c8228ec6999c218e1c8.png)
