@@ -20,7 +20,10 @@ feature:
 FIGURE 1: Featured image -- Sequence of frames from The Godfather
 (1972) showing the baptism scene with numbered arrows highlighting key
 cinematic shots and transitions.
-](/assets/images/blog/sculpting_time_figure_1.jpg)
+](/assets/images/blog/sculpting_time_figure_1.png "FIGURE 1: Featured image -- Sequence of frames from The Godfather
+(1972) showing the baptism scene with numbered arrows highlighting key
+cinematic shots and transitions.")
+
 _Caption: Part of automated analysis workflow on a scene from The
 Godfather (1972)._
 
@@ -116,7 +119,11 @@ framework as a 5×3 matrix:
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.jpg)
+CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.png "FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
+Ellipsis definite/indefinite, Time reversal definite/indefinite).
+Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
+CtR, CtRi, DC, DE, DEi, DR, DRi")
 
 From a data modelling perspective, this formalisation allows us to
 encode any shot-to-shot transition as a position in this matrix. The
@@ -168,7 +175,9 @@ parody](https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&t=159).
 
 ![FIGURE 3: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.jpg)
+classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.png "FIGURE 3: Table showing shot analysis from The Godfather baptism
+sequence -- including shot numbers, frame thumbnails, space/time
+classifications, and Burch codes.")
 
 By encoding these transitions as numerical values (from --2 for
 discontinuity to +2 for continuity), we can visualise the editing
@@ -177,7 +186,9 @@ underpins this iconic sequence.
 
 ![FIGURE 4: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing](/assets/images/blog/sculpting_time_figure_4.jpg)
+parallel editing](/assets/images/blog/sculpting_time_figure_4.png "FIGURE 4: Line graphs showing time and space continuity signals
+across the baptism sequence -- visualising the oscillating pattern of
+parallel editing")
 
 ## Two Computational Experiments
 
@@ -206,14 +217,20 @@ and mainly by camera viewpoint and shot size as if attempting to
 reconstruct the takes at production phase from the shots edited in
 post-production, a sort of "uncutting" or "unediting" process,
 
-![]()
-
-![]()
-
-_\[FIGURES 5&6: Network visualisation showing lazy shot clustering
+![FIGURES 5&6: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
-Godfather and Vertigo (1958)\]_
+Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_5.png)
+
+![FIGURES 5&6: Network visualisation showing lazy shot clustering
+results -- nodes represent shots, positioned by model-defined groups,
+with edges showing sequence order. Include examples from both The
+Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_6.png)
+
+![](/ "FIGURES 5&6: Network visualisation showing lazy shot clustering
+results -- nodes represent shots, positioned by model-defined groups,
+with edges showing sequence order. Include examples from both The
+Godfather and Vertigo (1958)")
 
 This approach is highly flexible and produces intuitively coherent
 results. However, the groupings are heavily influenced by the prompting
@@ -237,18 +254,18 @@ we fed the whole shots sequence to the model and asked to classify
 transitions according to Burch's established categories, with detailed
 definitions provided in the prompt.
 
-The results validated against expert's manual annotation[^1] revealed
-both capabilities and limitations. Qwen performed reasonably well at
+The results validated against expert's manual annotation revealed
+both capabilities and limitations. [^1] Qwen performed reasonably well at
 recognising changes in setting and identifying "narrative connections"
 between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.
 
-![]()
-
-_\[FIGURE 7: Table comparing manual annotations with Qwen model output
+![FIGURE 7: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
-failed\]_
+failed](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 7: Table comparing manual annotations with Qwen model output
+for the same transitions -- showing where the model succeeded and
+failed")
 
 Several factors likely contributed to these errors. The model received
 only frame images without audio (missing the organ music and crying that
@@ -261,9 +278,11 @@ combination for a model with limited context. One of the most common
 film-editing techniques proved to be challenging to one of the most
 capable vision models.
 
-_\[FIGURE 7: Experimental designs (conducted in green and black):
+![FIGURE 7: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost.\]_
+blogpost.](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 7: Experimental designs (conducted in green and black):
+Computational Burch (1 and 2) are the experiments discussed in this
+blogpost.")
 
 ## Key Insights and Lessons Learned
 
@@ -454,7 +473,7 @@ infrastructure for research data storage provided by _King's College
 London e-Research. This proof-of-concept collaboration also connects to
 the_ [Intelligent Systems for Screen Archives
 (ISSA)](https://kdl.kcl.ac.uk/projects/intelligent-systems-for-screen-archivesv-issa/)
-_project._
+project.
 
 [^1]:
     We would like to thank Barbara Plotz
