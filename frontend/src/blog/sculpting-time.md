@@ -3,7 +3,6 @@ title: Sculpting Time with Computers
 subtitle: Modelling Cinematic Continuity with Vision-Language Models
 tags:
     - post
-    - Your Topic
 authors:
     - Daniel Chávez Heras
     - Geoffroy Noël
@@ -17,12 +16,11 @@ feature:
     description: A library of photos. One photo has been highlighted by the system, and a series of  pointers suggest it has been marked as in some way meaningful by the archival and retrieval system.
 ---
 
-![](./media/c4edd9714311656d835d3c8228ec6999c218e1c8.png)
-
-_\[FIGURE 1: Featured image -- Sequence of frames from The Godfather
+![
+FIGURE 1: Featured image -- Sequence of frames from The Godfather
 (1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.\]_
-
+cinematic shots and transitions.
+](/assets/images/blog/sculpting_time_figure_1.jpg)
 _Caption: Part of automated analysis workflow on a scene from The
 Godfather (1972)._
 
@@ -87,7 +85,7 @@ editors (and sound designers) in contemporary cinema.
 
 <https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH>
 
-![U,{be353be1-f8c7-481c-a279-b7d00e9e9f5b}{100},12.63425925925926,7.3125](./media/8b32988f25f7b90dbff0b13ef31956405cc636a8.png "Video titled: Walter Murch - The six criteria of film editing (293/320)")
+![Video titled: Walter Murch - The six criteria of film editing (293/320)]()
 
 As with other forms of embodied knowledge developed by practice and
 convention over long periods of time, the emergence of cultural patterns
@@ -114,13 +112,11 @@ space and time relationships, ranging from full continuity to radical
 discontinuity. Michael Frierson, another film theorist, formalised this
 framework as a 5×3 matrix:
 
-![](./media/62fd31724c511d0453f6a555bfc95816bd3b1d29.png)
-
-_\[FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+![FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi\]_
+CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.jpg)
 
 From a data modelling perspective, this formalisation allows us to
 encode any shot-to-shot transition as a position in this matrix. The
@@ -158,7 +154,7 @@ being carried out at his behest.
 
 <https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN>
 
-![U,{6c05d4c9-6251-4dda-828d-e6ca5a551edd}{221},12.63425925925926,7.3125](./media/8b32988f25f7b90dbff0b13ef31956405cc636a8.png "Video titled: Baptism Scene | THE GODFATHER (1972) Movie CLIP HD")
+![Video titled: Baptism Scene | THE GODFATHER (1972) Movie CLIP HD]()
 
 Using the PySceneDetect library, we first segmented the entire film into
 individual shots (1,429 in total). The baptism sequence (shots
@@ -170,22 +166,18 @@ cinema, and the sequence itself has transcended [its influence to the
 point of
 parody](https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&t=159).
 
-![](./media/469eec8de987f8b9206f84b4f994975b79e9557e.png)
-
-_\[FIGURE 3: Table showing shot analysis from The Godfather baptism
+![FIGURE 3: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes.\]_
+classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.jpg)
 
 By encoding these transitions as numerical values (from --2 for
 discontinuity to +2 for continuity), we can visualise the editing
 pattern as a signal---making visible the rhythmic structure that
 underpins this iconic sequence.
 
-![](./media/20ff2f7903717b92b9ad194ef06ec20680485154.png)
-
-_\[FIGURE 4: Line graphs showing time and space continuity signals
+![FIGURE 4: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing\]_
+parallel editing](/assets/images/blog/sculpting_time_figure_4.jpg)
 
 ## Two Computational Experiments
 
@@ -214,9 +206,9 @@ and mainly by camera viewpoint and shot size as if attempting to
 reconstruct the takes at production phase from the shots edited in
 post-production, a sort of "uncutting" or "unediting" process,
 
-![](./media/c4edd9714311656d835d3c8228ec6999c218e1c8.png)
+![]()
 
-![](./media/541d450e686d1134cedba2e15a5a4a3ddd35f729.png)
+![]()
 
 _\[FIGURES 5&6: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
@@ -252,7 +244,7 @@ between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.
 
-![](./media/ff60119f9fb06e6bbc9ad82e97311a8f5be2db36.jpg)
+![]()
 
 _\[FIGURE 7: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
@@ -350,11 +342,11 @@ work draws on intermedia studies and theories of modelling that
 emphasise how different "modalities"---the material, virtual, and
 cognitive dimensions of media---interact to create meaning.
 
-_\[LINK: For theoretical background, see Elleström's work on media
-modalities: https://doi.org/10.1057/9780230275201_2\]_
+[LINK: For theoretical background, see Elleström's work on media
+modalities: <https://doi.org/10.1057/9780230275201_2>]
 
 What we're attempting to model is essentially the relationship between a
-film's material properties (shots, frames, cuts) and its "virtual"
+film's material properties () and its "virtual"
 manifestation (how space and time are experienced by viewers) via
 cognitive and perceptual processes. The construction of these models,
 meaning the elements we choose to encode and what features we
@@ -387,7 +379,7 @@ blogpost we reported only about two experiments, other experiments were
 designed but not conducted (due to time and resources constraints) or
 conducted as tests to explore complementary models and architectures
 affordances but not included here for brevity (see the public code
-repository at https://github.com/kingsdigitallab/sculpting-poc/).
+repository at [https://github.com/kingsdigitallab/sculpting-poc/](https://github.com/kingsdigitallab/sculpting-poc/)).
 Importantly, some of this work, complemented by KDL research time,
 resulted in stand-alone reusable software applications for the
 pre-processing and analysis of visual assets, namely BVQA and
