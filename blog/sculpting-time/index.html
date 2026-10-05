@@ -185,12 +185,14 @@
 
     
       
-      <article><p><img src="/kdl/assets/images/blog/sculpting_time_figure_1.jpg" alt="
+      <article><figure><img src="/kdl/assets/images/blog/sculpting_time_figure_1.png" alt="
 FIGURE 1: Featured image -- Sequence of frames from The Godfather
 (1972) showing the baptism scene with numbered arrows highlighting key
 cinematic shots and transitions.
-">
-<em>Caption: Part of automated analysis workflow on a scene from The
+"><figcaption>FIGURE 1: Featured image -- Sequence of frames from The Godfather
+(1972) showing the baptism scene with numbered arrows highlighting key
+cinematic shots and transitions.</figcaption></figure>
+<p><em>Caption: Part of automated analysis workflow on a scene from The
 Godfather (1972).</em></p>
 <p>*Want to know more about this research? Why not read <a href="https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html">Cinema and Machine
 Vision: Artificial Intelligence, Aesthetics and
@@ -267,11 +269,15 @@ continuous melodies.</p>
 space and time relationships, ranging from full continuity to radical
 discontinuity. Michael Frierson, another film theorist, formalised this
 framework as a 5×3 matrix:</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_2.jpg" alt="FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_2.png" alt="FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi"></figure>
+CtR, CtRi, DC, DE, DEi, DR, DRi"><figcaption>FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
+Ellipsis definite/indefinite, Time reversal definite/indefinite).
+Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
+CtR, CtRi, DC, DE, DEi, DR, DRi</figcaption></figure>
 <p>From a data modelling perspective, this formalisation allows us to
 encode any shot-to-shot transition as a position in this matrix. The
 computational intuition is that, given enough samples, patterns drawn
@@ -313,16 +319,20 @@ murder locations). The technique is widely used in popular narrative
 cinema, and the sequence itself has transcended <a href="https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&amp;t=159">its influence to the
 point of
 parody</a>.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_3.jpg" alt="FIGURE 3: Table showing shot analysis from The Godfather baptism
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_3.png" alt="FIGURE 3: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes."></figure>
+classifications, and Burch codes."><figcaption>FIGURE 3: Table showing shot analysis from The Godfather baptism
+sequence -- including shot numbers, frame thumbnails, space/time
+classifications, and Burch codes.</figcaption></figure>
 <p>By encoding these transitions as numerical values (from --2 for
 discontinuity to +2 for continuity), we can visualise the editing
 pattern as a signal---making visible the rhythmic structure that
 underpins this iconic sequence.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_4.jpg" alt="FIGURE 4: Line graphs showing time and space continuity signals
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_4.png" alt="FIGURE 4: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing"></figure>
+parallel editing"><figcaption>FIGURE 4: Line graphs showing time and space continuity signals
+across the baptism sequence -- visualising the oscillating pattern of
+parallel editing</figcaption></figure>
 <h2 id="two-computational-experiments" tabindex="-1">Two Computational Experiments</h2>
 <p>Creating these annotations manually is time-consuming and, crucially,
 represents only one viewer's interpretation rather than an
@@ -345,12 +355,18 @@ Arguably, the model seems to regroup shots independently from the prompt
 and mainly by camera viewpoint and shot size as if attempting to
 reconstruct the takes at production phase from the shots edited in
 post-production, a sort of &quot;uncutting&quot; or &quot;unediting&quot; process,</p>
-<figure><img src="." alt=""></figure>
-<figure><img src="." alt=""></figure>
-<p><em>[FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_5.png" alt="FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
-Godfather and Vertigo (1958)]</em></p>
+Godfather and Vertigo (1958)"></figure>
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_6.png" alt="FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+results -- nodes represent shots, positioned by model-defined groups,
+with edges showing sequence order. Include examples from both The
+Godfather and Vertigo (1958)"></figure>
+<figure><img src="/kdl/" alt=""><figcaption>FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+results -- nodes represent shots, positioned by model-defined groups,
+with edges showing sequence order. Include examples from both The
+Godfather and Vertigo (1958)</figcaption></figure>
 <p>This approach is highly flexible and produces intuitively coherent
 results. However, the groupings are heavily influenced by the prompting
 strategy, and the relations between shots aren't constrained to Burch's
@@ -370,16 +386,17 @@ of the most capable open-weight video understanding models at the time),
 we fed the whole shots sequence to the model and asked to classify
 transitions according to Burch's established categories, with detailed
 definitions provided in the prompt.</p>
-<p>The results validated against expert's manual annotation[^1] revealed
-both capabilities and limitations. Qwen performed reasonably well at
+<p>The results validated against expert's manual annotation revealed
+both capabilities and limitations. <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> Qwen performed reasonably well at
 recognising changes in setting and identifying &quot;narrative connections&quot;
 between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.</p>
-<figure><img src="." alt=""></figure>
-<p><em>[FIGURE 7: Table comparing manual annotations with Qwen model output
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 7: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
-failed]</em></p>
+failed"><figcaption>FIGURE 7: Table comparing manual annotations with Qwen model output
+for the same transitions -- showing where the model succeeded and
+failed</figcaption></figure>
 <p>Several factors likely contributed to these errors. The model received
 only frame images without audio (missing the organ music and crying that
 cue temporal continuity) or broader narrative context (the apotheotic
@@ -390,9 +407,11 @@ simultaneous executions), which is a particularly challenging
 combination for a model with limited context. One of the most common
 film-editing techniques proved to be challenging to one of the most
 capable vision models.</p>
-<p><em>[FIGURE 7: Experimental designs (conducted in green and black):
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 7: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost.]</em></p>
+blogpost."><figcaption>FIGURE 7: Experimental designs (conducted in green and black):
+Computational Burch (1 and 2) are the experiments discussed in this
+blogpost.</figcaption></figure>
 <h2 id="key-insights-and-lessons-learned" tabindex="-1">Key Insights and Lessons Learned</h2>
 <h3 id="the-persistent-relevance-of-context" tabindex="-1">The Persistent Relevance of Context</h3>
 <p>A crucial insight from these experiments concerns the amount of
@@ -552,11 +571,16 @@ infrastructure for research data storage provided by <em>King's College
 London e-Research. This proof-of-concept collaboration also connects to
 the</em> <a href="https://kdl.kcl.ac.uk/projects/intelligent-systems-for-screen-archivesv-issa/">Intelligent Systems for Screen Archives
 (ISSA)</a>
-<em>project.</em></p>
-<p>[^1]:
-We would like to thank Barbara Plotz
+project.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>We would like to thank Barbara Plotz
 (<a href="https://www.kcl.ac.uk/people/barbara-plotz">https://www.kcl.ac.uk/people/barbara-plotz</a>) for her contribution
-as expert annotator for this task.</p>
+as expert annotator for this task. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </article>
     
 
