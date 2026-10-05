@@ -15,6 +15,7 @@ import { fileURLToPath } from "node:url";
 import sass from "sass";
 import dotenv from "dotenv";
 import seoConfig from "./src/_data/config.js";
+import embedEverything from "eleventy-plugin-embed-everything";
 
 dotenv.config();
 
@@ -40,6 +41,7 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(mermaidPlugin);
 	eleventyConfig.addPlugin(pluginSEO, seoConfig);
 	eleventyConfig.addPlugin(pluginTOC);
+	eleventyConfig.addPlugin(embedEverything);
 
 	eleventyConfig.setLibrary(
 		"md",
