@@ -27,9 +27,6 @@ departments:
   - name: King's College, London
     slug: kings-college-london
 members:
-  - name: Stefan Meier
-    slug: stefan-meier
-    roleName: Research Software Engineer
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
@@ -128,7 +125,7 @@ members:
       slug: fah-department-of-digital-humanities
 sla:
   start: null
-  end: null
+  end: 2028-12-31
 urls:
   - name: Project URL
     url: http://www.langscape.org.uk/index.html

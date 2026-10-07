@@ -15,6 +15,8 @@ import { fileURLToPath } from "node:url";
 import sass from "sass";
 import dotenv from "dotenv";
 import seoConfig from "./src/_data/config.js";
+import embedEverything from "eleventy-plugin-embed-everything";
+import markdownItFootnote from "markdown-it-footnote";
 
 dotenv.config();
 
@@ -40,13 +42,18 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(mermaidPlugin);
 	eleventyConfig.addPlugin(pluginSEO, seoConfig);
 	eleventyConfig.addPlugin(pluginTOC);
+	eleventyConfig.addPlugin(embedEverything);
 
 	eleventyConfig.setLibrary(
 		"md",
-		markdownIt({ html: true }).use(markdownItAnchor).use(markdownItAttrs).use(markdownItImplicitFigures, {
-			figcaption: true,
-			copyAttrs: "class",
-		}),
+		markdownIt({ html: true })
+			.use(markdownItAnchor)
+			.use(markdownItAttrs)
+			.use(markdownItFootnote)
+			.use(markdownItImplicitFigures, {
+				figcaption: true,
+				copyAttrs: "class",
+			}),
 	);
 
 	eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {

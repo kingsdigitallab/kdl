@@ -395,5 +395,14 @@
 			"image": "/assets/images/people/miguel-vieira.jpg",
 			"description": "Photo of Miguel Vieira"
 		}
+	},
+	{
+		"slug": "arturo-guzman-perez",
+		"jobTitle": "Research Software Engineer",
+		"team": "KDL",
+		"feature": {
+			"image": "/assets/images/people/arturo-guzman-perez.jpg",
+			"description": "Photo of Arturo Guzmán Pérez"
+		}
 	}
 ]
