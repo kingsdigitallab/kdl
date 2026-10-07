@@ -24,14 +24,14 @@
 
 <meta property="og:url" content="https://kdl.kcl.ac.uk/blog/sculpting-time/">
 <meta property="og:description" content="A short description for previews and SEO.">
-<meta property="og:image" content="https://kdl.kcl.ac.uk/assets/images/blog/Sculptingtime.jpg">
+<meta property="og:image" content="https://kdl.kcl.ac.uk/assets/images/blog/sculpting_time_figure_1.png">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@kingsdigitallab">
 <meta name="twitter:url" content="https://kdl.kcl.ac.uk/blog/sculpting-time/">
 <meta name="twitter:title" content="Sculpting Time with Computers | King&apos;s Digital Lab">
 <meta name="twitter:description" content="A short description for previews and SEO.">
-<meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/blog/Sculptingtime.jpg">
+<meta name="twitter:image" content="https://kdl.kcl.ac.uk/assets/images/blog/sculpting_time_figure_1.png">
 
 
 
@@ -176,8 +176,8 @@
         </div>
       
       <figure class="kdl-image">
-  <img loading="lazy" src="/kdl/assets/images/blog/Sculptingtime.jpg" alt="A library of photos. One photo has been highlighted by the system, and a series of  pointers suggest it has been marked as in some way meaningful by the archival and retrieval system.">
-  <figcaption>Algorithmic memory by Jenny Kidd &amp; Synthetic Pasts</figcaption>
+  <img loading="lazy" src="/kdl/assets/images/blog/sculpting_time_figure_1.png" alt="Sequence of frames from The Godfather (1972) showing the baptism scene with numbered arrows highlighting key cinematic shots and transitions.">
+  <figcaption>Part of automated analysis workflow on a scene from The Godfather (1972).</figcaption>
 </figure>
 
       
@@ -185,20 +185,7 @@
 
     
       
-      <article><figure><img src="/kdl/assets/images/blog/sculpting_time_figure_1.png" alt="
-FIGURE 1: Featured image -- Sequence of frames from The Godfather
-(1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.
-"><figcaption>FIGURE 1: Featured image -- Sequence of frames from The Godfather
-(1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.</figcaption></figure>
-<p><em>Caption: Part of automated analysis workflow on a scene from The
-Godfather (1972).</em></p>
-<p>*Want to know more about this research? Why not read <a href="https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html">Cinema and Machine
-Vision: Artificial Intelligence, Aesthetics and
-Spectatorship</a>
-which is now out on paperback! For a limited time, get a 30% discount
-using the code <strong>PAPER30*</strong></p>
+      <article><p><em>Want to know more about this research? Why not read <a href="https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html">Cinema and Machine Vision: Artificial Intelligence, Aesthetics and Spectatorship</a> which is now out on paperback! For a limited time, get a 30% discount using the code PAPER30</em></p>
 <h2 id="introduction" tabindex="-1">Introduction</h2>
 <p>How do films create the illusion of continuous action from separate
 shots? This is a question that lies at the heart of cinema as a medium,
@@ -247,7 +234,6 @@ detail about how thy develop their craft by abstracting rules out of
 embodied knowledge is Walter Murch, one of the most respected film
 editors (and sound designers) in contemporary cinema.</p>
 <div id="s49Al2CMfTI" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/s49Al2CMfTI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-<figure><img src="." alt="Video titled: Walter Murch - The six criteria of film editing (293/320)"></figure>
 <p>As with other forms of embodied knowledge developed by practice and
 convention over long periods of time, the emergence of cultural patterns
 of meaning is a fascinating challenge for computational humanities. The
@@ -269,11 +255,11 @@ continuous melodies.</p>
 space and time relationships, ranging from full continuity to radical
 discontinuity. Michael Frierson, another film theorist, formalised this
 framework as a 5×3 matrix:</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_2.png" alt="FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_2.png" alt="FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi"><figcaption>FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+CtR, CtRi, DC, DE, DEi, DR, DRi"><figcaption>FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
@@ -309,7 +295,6 @@ Godfather</em> (1972). In this sequence, shots of Michael Corleone attending
 his nephew's baptism are intercalated with shots of multiple murders
 being carried out at his behest.</p>
 <div id="bkoEALTHQwc" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/bkoEALTHQwc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-<figure><img src="." alt="Video titled: Baptism Scene | THE GODFATHER (1972) Movie CLIP HD"></figure>
 <p>Using the PySceneDetect library, we first segmented the entire film into
 individual shots (1,429 in total). The baptism sequence (shots
 1296--1364) demonstrates the now classic parallel editing technique: the
@@ -319,18 +304,18 @@ murder locations). The technique is widely used in popular narrative
 cinema, and the sequence itself has transcended <a href="https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&amp;t=159">its influence to the
 point of
 parody</a>.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_3.png" alt="FIGURE 3: Table showing shot analysis from The Godfather baptism
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_3.png" alt="FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes."><figcaption>FIGURE 3: Table showing shot analysis from The Godfather baptism
+classifications, and Burch codes."><figcaption>FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
 classifications, and Burch codes.</figcaption></figure>
 <p>By encoding these transitions as numerical values (from --2 for
 discontinuity to +2 for continuity), we can visualise the editing
 pattern as a signal---making visible the rhythmic structure that
 underpins this iconic sequence.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_4.png" alt="FIGURE 4: Line graphs showing time and space continuity signals
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_4.png" alt="FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing"><figcaption>FIGURE 4: Line graphs showing time and space continuity signals
+parallel editing"><figcaption>FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
 parallel editing</figcaption></figure>
 <h2 id="two-computational-experiments" tabindex="-1">Two Computational Experiments</h2>
@@ -355,15 +340,15 @@ Arguably, the model seems to regroup shots independently from the prompt
 and mainly by camera viewpoint and shot size as if attempting to
 reconstruct the takes at production phase from the shots edited in
 post-production, a sort of &quot;uncutting&quot; or &quot;unediting&quot; process,</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_5.png" alt="FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_5.png" alt="FIGURES 4&amp;5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)"></figure>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_6.png" alt="FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_6.png" alt="FIGURES 4&amp;5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)"></figure>
-<figure><img src="/kdl/" alt=""><figcaption>FIGURES 5&amp;6: Network visualisation showing lazy shot clustering
+<figure><img src="/kdl/" alt=""><figcaption>FIGURES 4&amp;5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)</figcaption></figure>
@@ -392,9 +377,9 @@ recognising changes in setting and identifying &quot;narrative connections&quot;
 between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 7: Table comparing manual annotations with Qwen model output
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 6: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
-failed"><figcaption>FIGURE 7: Table comparing manual annotations with Qwen model output
+failed"><figcaption>FIGURE 6: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
 failed</figcaption></figure>
 <p>Several factors likely contributed to these errors. The model received
@@ -407,9 +392,9 @@ simultaneous executions), which is a particularly challenging
 combination for a model with limited context. One of the most common
 film-editing techniques proved to be challenging to one of the most
 capable vision models.</p>
-<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 7: Experimental designs (conducted in green and black):
+<figure><img src="/kdl/assets/images/blog/sculpting_time_figure_7.jpg" alt="FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost."><figcaption>FIGURE 7: Experimental designs (conducted in green and black):
+blogpost."><figcaption>FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
 blogpost.</figcaption></figure>
 <h2 id="key-insights-and-lessons-learned" tabindex="-1">Key Insights and Lessons Learned</h2>
@@ -611,7 +596,7 @@ as expert annotator for this task. <a href="#fnref1" class="footnote-backref">�
           
           
             on
-            <time datetime="Wed Sep 30 2026 00:00:00 GMT+0000 (Coordinated Universal Time)">Sep 30, 2026</time>
+            <time datetime="Fri Oct 09 2026 00:00:00 GMT+0000 (Coordinated Universal Time)">Oct 9, 2026</time>
 
         
       </footer>
