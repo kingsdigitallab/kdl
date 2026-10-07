@@ -8,30 +8,15 @@ authors:
     - Geoffroy Noël
     - Ryan Heuser
     - Arianna Ciula
-date: 2026-09-30
+date: 2026-10-09
 excerpt: A short description for previews and SEO.
 feature:
-    image: /assets/images/blog/Sculptingtime.jpg
-    title: Algorithmic memory by Jenny Kidd & Synthetic Pasts
-    description: A library of photos. One photo has been highlighted by the system, and a series of  pointers suggest it has been marked as in some way meaningful by the archival and retrieval system.
+    image: /assets/images/blog/sculpting_time_figure_1.png
+    title: Part of automated analysis workflow on a scene from The Godfather (1972).
+    description: Sequence of frames from The Godfather (1972) showing the baptism scene with numbered arrows highlighting key cinematic shots and transitions.
 ---
 
-![
-FIGURE 1: Featured image -- Sequence of frames from The Godfather
-(1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.
-](/assets/images/blog/sculpting_time_figure_1.png "FIGURE 1: Featured image -- Sequence of frames from The Godfather
-(1972) showing the baptism scene with numbered arrows highlighting key
-cinematic shots and transitions.")
-
-_Caption: Part of automated analysis workflow on a scene from The
-Godfather (1972)._
-
-\*Want to know more about this research? Why not read [Cinema and Machine
-Vision: Artificial Intelligence, Aesthetics and
-Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html)
-which is now out on paperback! For a limited time, get a 30% discount
-using the code **PAPER30\***
+_Want to know more about this research? Why not read [Cinema and Machine Vision: Artificial Intelligence, Aesthetics and Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html) which is now out on paperback! For a limited time, get a 30% discount using the code PAPER30_
 
 ## Introduction
 
@@ -88,8 +73,6 @@ editors (and sound designers) in contemporary cinema.
 
 <https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH>
 
-![Video titled: Walter Murch - The six criteria of film editing (293/320)]()
-
 As with other forms of embodied knowledge developed by practice and
 convention over long periods of time, the emergence of cultural patterns
 of meaning is a fascinating challenge for computational humanities. The
@@ -115,11 +98,11 @@ space and time relationships, ranging from full continuity to radical
 discontinuity. Michael Frierson, another film theorist, formalised this
 framework as a 5×3 matrix:
 
-![FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+![FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.png "FIGURE 2: Table showing Burch's 5×3 matrix of shot transitions --
+CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.png "FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
@@ -161,8 +144,6 @@ being carried out at his behest.
 
 <https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN>
 
-![Video titled: Baptism Scene | THE GODFATHER (1972) Movie CLIP HD]()
-
 Using the PySceneDetect library, we first segmented the entire film into
 individual shots (1,429 in total). The baptism sequence (shots
 1296--1364) demonstrates the now classic parallel editing technique: the
@@ -173,9 +154,9 @@ cinema, and the sequence itself has transcended [its influence to the
 point of
 parody](https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&t=159).
 
-![FIGURE 3: Table showing shot analysis from The Godfather baptism
+![FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.png "FIGURE 3: Table showing shot analysis from The Godfather baptism
+classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.png "FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
 classifications, and Burch codes.")
 
@@ -184,9 +165,9 @@ discontinuity to +2 for continuity), we can visualise the editing
 pattern as a signal---making visible the rhythmic structure that
 underpins this iconic sequence.
 
-![FIGURE 4: Line graphs showing time and space continuity signals
+![FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing](/assets/images/blog/sculpting_time_figure_4.png "FIGURE 4: Line graphs showing time and space continuity signals
+parallel editing](/assets/images/blog/sculpting_time_figure_4.png "FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
 parallel editing")
 
@@ -217,17 +198,17 @@ and mainly by camera viewpoint and shot size as if attempting to
 reconstruct the takes at production phase from the shots edited in
 post-production, a sort of "uncutting" or "unediting" process,
 
-![FIGURES 5&6: Network visualisation showing lazy shot clustering
+![FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_5.png)
 
-![FIGURES 5&6: Network visualisation showing lazy shot clustering
+![FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_6.png)
 
-![](/ "FIGURES 5&6: Network visualisation showing lazy shot clustering
+![](/ "FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
 Godfather and Vertigo (1958)")
@@ -261,9 +242,9 @@ between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.
 
-![FIGURE 7: Table comparing manual annotations with Qwen model output
+![FIGURE 6: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
-failed](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 7: Table comparing manual annotations with Qwen model output
+failed](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 6: Table comparing manual annotations with Qwen model output
 for the same transitions -- showing where the model succeeded and
 failed")
 
@@ -278,9 +259,9 @@ combination for a model with limited context. One of the most common
 film-editing techniques proved to be challenging to one of the most
 capable vision models.
 
-![FIGURE 7: Experimental designs (conducted in green and black):
+![FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost.](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 7: Experimental designs (conducted in green and black):
+blogpost.](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
 blogpost.")
 
