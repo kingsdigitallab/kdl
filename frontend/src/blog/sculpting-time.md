@@ -242,12 +242,6 @@ between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
 misidentifying relationships between the parallel murder scenes.
 
-![FIGURE 6: Table comparing manual annotations with Qwen model output
-for the same transitions -- showing where the model succeeded and
-failed](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 6: Table comparing manual annotations with Qwen model output
-for the same transitions -- showing where the model succeeded and
-failed")
-
 Several factors likely contributed to these errors. The model received
 only frame images without audio (missing the organ music and crying that
 cue temporal continuity) or broader narrative context (the apotheotic
