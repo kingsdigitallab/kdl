@@ -67,7 +67,7 @@ practice. But although expert practitioners in crafting continuity can
 usually tell very accurately whether a sequence is well or poorly
 edited, most often they cannot explain _why_ the effect is possible in
 the first place. Perhaps the best example of a film editor going into
-detail about how thy develop their craft by abstracting rules out of
+detail about how they develop their craft by abstracting rules out of
 embodied knowledge is Walter Murch, one of the most respected film
 editors (and sound designers) in contemporary cinema.
 
