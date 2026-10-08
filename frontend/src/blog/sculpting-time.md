@@ -340,7 +340,7 @@ cognitive dimensions of media---interact to create meaning.
 modalities: <https://doi.org/10.1057/9780230275201_2>]
 
 What we're attempting to model is essentially the relationship between a
-film's material properties "(shots, frames, cuts)" and its "virtual"
+film's material properties (shots, frames, cuts) and its "virtual"
 manifestation (how space and time are experienced by viewers) via
 cognitive and perceptual processes. The construction of these models,
 meaning the elements we choose to encode and what features we
