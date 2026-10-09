@@ -9,7 +9,7 @@ authors:
     - Ryan Heuser
     - Arianna Ciula
 date: 2026-10-09
-excerpt: A short description for previews and SEO.
+excerpt: ""
 feature:
     image: /assets/images/blog/sculpting_time_figure_1.png
     title: Part of automated analysis workflow on a scene from The Godfather (1972).
