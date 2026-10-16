@@ -1,9 +1,9 @@
 ---
-title: Defense Studies
+title: Defence Studies
 tags:
     - organisations
 alternateName: null
-slug: defense-studies
+slug: defence-studies
 foundingDate: null
 dissolutionDate: null
 parentOrganisation:
