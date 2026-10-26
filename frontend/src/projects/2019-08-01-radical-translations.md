@@ -42,12 +42,6 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
-  - name: Sanja Perovic
-    slug: sanja-perovic
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Languages, Literatures and Cultures
-      slug: fah-department-of-languages-literatures-and-cultures
   - name: Erica Joy Mannucci
     slug: erica-joy-mannucci
     roleName: Co-Investigator
