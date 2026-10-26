@@ -33,12 +33,6 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Julia Crick
-    slug: julia-crick
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
 sla:
   start: null
   end: null
