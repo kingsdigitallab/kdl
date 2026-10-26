@@ -28,12 +28,6 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
-  - name: Joanna Zylinska
-    slug: joanna-zylinska
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
   - name: Gabriele Salciute Civiliene
     slug: gabriele-salciute-civiliene
     roleName: Co-Investigator
