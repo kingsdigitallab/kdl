@@ -115,6 +115,9 @@ members:
   - name: Kelsey Carthew
     slug: kelsey-carthew
     roleName: Researcher
+    inOrganisation:
+      name: King's College London
+      slug: kings-college-london
 sla:
   start: null
   end: null
