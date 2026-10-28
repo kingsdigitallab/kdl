@@ -37,6 +37,12 @@ members:
   - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Julia Crick
+    slug: julia-crick
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Stephen Baxter
     slug: stephen-baxter
     roleName: Co-Investigator

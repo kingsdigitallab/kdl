@@ -37,6 +37,18 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Charlotte Roueché
+    slug: charlotte-roueche
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
+  - name: Mark Hedges
+    slug: mark-hedges
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Denis Searby
     slug: denis-searby
     roleName: Co-Investigator

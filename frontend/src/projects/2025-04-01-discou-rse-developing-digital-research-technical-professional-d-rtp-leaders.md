@@ -83,6 +83,12 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Co-Investigator
+  - name: Jonathan Cooper
+    slug: jonathan-cooper
+    roleName: Principal investigator
+    inOrganisation:
+      name: University College London
+      slug: university-college-london
   - name: Kirsty Pringle
     slug: kirsty-pringle
     roleName: Co-Investigator

@@ -34,6 +34,12 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
+  - name: Marilyn Deegan
+    slug: marilyn-deegan
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Badreldin Omer Elhag Musa
     slug: badreldin-omer-elhag-musa
     roleName: Co-Investigator

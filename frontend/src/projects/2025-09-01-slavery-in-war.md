@@ -64,6 +64,12 @@ members:
   - name: Zihao Lu
     slug: zihao-lu
     roleName: Research Software Designer
+  - name: Maeve Ryan
+    slug: maeve-ryan
+    roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Social Science & Public Policy
+      slug: faculty-of-social-science-public-policy
   - name: Simon Tanner
     slug: simon-tanner
     roleName: Co-Investigator

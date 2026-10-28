@@ -50,6 +50,24 @@ members:
   - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Dan Hunter
+    slug: dan-hunter
+    roleName: Principal investigator
+    inOrganisation:
+      name: The Dickson Poon School of Law
+      slug: the-dickson-poon-school-of-law
+  - name: Cari Hyde-Vaamonde
+    slug: cari-hyde-vaamonde
+    roleName: Principal investigator
+    inOrganisation:
+      name: The Dickson Poon School of Law
+      slug: the-dickson-poon-school-of-law
+  - name: Pierpaolo Vivo
+    slug: pierpaolo-vivo
+    roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
   - name: Mariia Bogdanova
     slug: mariia-bogdanova
     roleName: Researcher

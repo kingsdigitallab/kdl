@@ -33,6 +33,24 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Dan Walker
+    slug: dan-walker
+    roleName: Principal investigator
+    inOrganisation:
+      name: King's Culture
+      slug: kings-culture
+  - name: Ruth Hogarth
+    slug: ruth-hogarth
+    roleName: Principal investigator
+    inOrganisation:
+      name: King's Culture
+      slug: kings-culture
+  - name: Elizabeth Sklar
+    slug: elizabeth-sklar
+    roleName: Principal investigator
+    inOrganisation:
+      name: Faculty of Natural, Mathematical & Engineering Sciences
+      slug: faculty-of-natural-mathematical-engineering-sciences
   - name: Anna Reading
     slug: anna-reading
     roleName: Co-Investigator

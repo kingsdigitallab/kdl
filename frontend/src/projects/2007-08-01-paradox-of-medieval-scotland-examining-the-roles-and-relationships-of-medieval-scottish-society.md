@@ -47,6 +47,18 @@ members:
   - name: Brian Maher
     slug: brian-maher
     roleName: Research Software Engineer
+  - name: Dauvit Broun
+    slug: dauvit-broun
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Glasgow
+      slug: university-of-glasgow
+  - name: Alice Taylor
+    slug: alice-taylor
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: John Bradley
     slug: john-bradley
     roleName: Co-Investigator

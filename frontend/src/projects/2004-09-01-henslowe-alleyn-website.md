@@ -33,6 +33,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Grace Ioppolo
+    slug: grace-ioppolo
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Reading
+      slug: university-of-reading
   - name: David Cooper
     slug: david-cooper
     roleName: Researcher

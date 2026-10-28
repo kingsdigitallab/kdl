@@ -39,6 +39,12 @@ members:
   - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Peter Logan
+    slug: peter-logan
+    roleName: Principal investigator
+    inOrganisation:
+      name: Temple University
+      slug: temple-university
   - name: Marion Thain
     slug: marion-thain
     roleName: Researcher

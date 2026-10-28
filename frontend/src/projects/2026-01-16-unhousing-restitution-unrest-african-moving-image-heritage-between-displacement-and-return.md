@@ -39,6 +39,12 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Erica Carter
+    slug: erica-carter
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Film Studies
+      slug: fah-department-of-film-studies
 sla:
   start: null
   end: null

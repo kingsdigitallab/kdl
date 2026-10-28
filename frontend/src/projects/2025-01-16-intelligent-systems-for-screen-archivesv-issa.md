@@ -54,6 +54,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Daniel Chavez Herras
+    slug: daniel-chavez-herras
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Kirsty Warner
     slug: kirsty-warner
     roleName: Researcher

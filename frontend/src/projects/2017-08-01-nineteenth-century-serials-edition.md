@@ -51,6 +51,12 @@ members:
   - name: Paul Caton
     slug: paul-caton
     roleName: Research Software Analyst
+  - name: Laurel Brake
+    slug: laurel-brake
+    roleName: Principal investigator
+    inOrganisation:
+      name: Birkbeck, University of London
+      slug: birkbeck-university-of-london
   - name: Mark Turner
     slug: mark-turner
     roleName: Co-Investigator

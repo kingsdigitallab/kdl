@@ -50,6 +50,12 @@ members:
   - name: Tim Watts
     slug: tim-watts
     roleName: Reseearch Software Systems Administrator
+  - name: Charlotte Roueché
+    slug: charlotte-roueche
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
   - name: Hafed Walda
     slug: hafed-walda
     roleName: Researcher
