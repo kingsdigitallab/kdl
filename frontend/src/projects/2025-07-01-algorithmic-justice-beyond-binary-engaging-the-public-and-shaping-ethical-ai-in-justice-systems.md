@@ -31,8 +31,8 @@ funders:
 departments:
   - name: The Dickson Poon School of Law
     slug: the-dickson-poon-school-of-law
-  - name: FNMS Department of Mathematics
-    slug: fnms-department-of-mathematics
+  - name: NMES Department of Mathematics
+    slug: nmes-department-of-mathematics
   - name: Science Gallery London
     slug: science-gallery-london
   - name: The Alan Turing Institute
@@ -66,8 +66,8 @@ members:
     slug: pierpaolo-vivo
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Natural, Mathematical & Engineering Sciences
-      slug: faculty-of-natural-mathematical-engineering-sciences
+      name: NMES Department of Mathematics
+      slug: nmes-department-of-mathematics
   - name: Mariia Bogdanova
     slug: mariia-bogdanova
     roleName: Researcher
