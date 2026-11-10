@@ -93,8 +93,6 @@ keywords:
   - name: Data Visualisation
     slug: data-visualisation
 urls:
-  - name: 2018 component URL
-    url: https://ncse.ac.uk/periodicals/
   - name: Project URL
     url: https://ncse.ac.uk/index.html
 sla:
