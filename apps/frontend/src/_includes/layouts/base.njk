@@ -2,80 +2,90 @@
 
 {% set assetsPath = config.paths.assets %}
 {% set imagesPath = config.paths.images %}
-{% set mainClass = layout
-  .split("/")
-  .pop()
-.replace(".njk", "") %}
+{% set mainClass = layout .split("/") .pop() .replace(".njk", "") %}
 {% set stylesheetsPath = config.paths.stylesheets %}
 
 {% block headExtra %}
-  <base href="{{ baseUrl }}" />
-{% endblock headExtra %}
+	<base href="{{ baseUrl }}" />
+{% endblock %}
 
 {% block headMeta %}
-  {% seo "" %}
-{% endblock headMeta %}
+	{% seo "" %}
+{% endblock %}
 
 {% block headerStart %}
-  <div class="site">
-    <div class="kdl-container">
-      <a class="sitename" href="/">{{ config.title }}</a>
-      <a class="logo" href="//kcl.ac.uk">
-        <img src="{{ config.feature.image }}"
-             alt="{{ config.feature.description }}">
-      </a>
-    </div>
-  </div>
-{% endblock headerStart %}
+	<div class="site">
+		<div class="kdl-container">
+			<a class="sitename" href="/">{{ config.title }}</a>
+			<a class="logo" href="//kcl.ac.uk">
+				<img src="{{ config.feature.image }}" alt="{{ config.feature.description }}" />
+			</a>
+		</div>
+	</div>
+{% endblock %}
 
 {% block menu %}
-  {{- navMacro({
-    title: "Menu",
-    pages: collections.all | eleventyNavigation,
-    currentUrl: page.url
-    }, {
-    action: "menu-toggle",
-    class: "main",
-    nested: false,
-    ordered: false
-    }) 
-  -}}
-{% endblock menu %}
+	{{- navMacro({
+		title: "Menu",
+		pages: collections.all | eleventyNavigation,
+		currentUrl: page.url
+	},
+	{
+		action: "menu-toggle",
+		class: "main",
+		nested: false,
+		ordered: false
+	}) -}}
+{% endblock %}
 
 {% block headerEnd %}
-  {% if navKey and navKey != "Home" %}
-    {{- breadcrumbsMacro({
-        pages: collections.all | eleventyNavigationBreadcrumb(navKey, { includeSelf: true }) 
-    }, {class: "sub"})
-    -}}
-  {% endif %}
-{% endblock headerEnd %}
+	{% if navKey and navKey != "Home" %}
+		{{- breadcrumbsMacro({
+			pages: collections.all | eleventyNavigationBreadcrumb(
+				navKey,
+				{
+					includeSelf: true
+				}
+			)
+		},
+		{
+			class: "sub"
+		}) -}}
+	{% endif %}
+{% endblock %}
 
 {% block content %}
-  {% if navKey != "Home" %}<div class="kdl-container">{% endif %}
-    {% if navKey != "Home" %}<h1 data-pagefind-weight="10">{{ title | safe }}</h1>{% endif %}
+	{% if navKey != "Home" %}
+		<div class="kdl-container">
+	{% endif %}
+	{% if navKey != "Home" %}
+		<h1 data-pagefind-weight="10">
+			{{ title | safe }}
+		</h1>
+	{% endif %}
 
-    {% if page.fileSlug == 'faqs' %}
-      {% set tocTags = ["h2"] %}
-    {% endif %}
-    {% include "partials/toc.njk" %}
+	{% if page.fileSlug == 'faqs' %}
+		{% set tocTags = ["h2"] %}
+	{% endif %}
+	{% include "partials/toc.njk" %}
 
-    <article>{{ content | safe }}</article>
-    {% if navKey != "Home" %}</div>{% endif %}
-{% endblock content %}
+	<article>
+		{{ content | safe }}
+	</article>
+	{% if navKey != "Home" %}
+		</div>
+	{% endif %}
+{% endblock %}
 
 {% block footer %}
-  <footer>
-    {% include "partials/footer.njk" %}
+	<footer>
+		{% include "partials/footer.njk" %}
 
-  </footer>
-{% endblock footer %}
+	</footer>
+{% endblock %}
 
 {% block bodyEnd %}
-  {% mermaid_js %}
-  <script type="module"
-          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script data-goatcounter="https://kdl.goatcounter.com/count"
-          async
-          src="//gc.zgo.at/count.js"></script>
-{% endblock bodyEnd %}
+	{% mermaid_js %}
+	<script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+	<script data-goatcounter="https://kdl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{% endblock %}

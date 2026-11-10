@@ -70,7 +70,10 @@ layout: layouts/agent.njk
 			{% if previousObj %}
 				<li>
 					<a href="{{ previousObj.url }}">
-						<ion-icon name="chevron-back-sharp" aria-label="previous person"></ion-icon>
+						<iconify-icon
+							icon="ion:chevron-back-sharp"
+							
+						></iconify-icon>
 						{{- previousObj.data.name -}}
 					</a>
 				</li>
@@ -79,7 +82,10 @@ layout: layouts/agent.njk
 				<li>
 					<a href="{{ nextObj.url }}">
 						{{- nextObj.data.name -}}
-						<ion-icon name="chevron-forward-sharp" aria-label="next person"></ion-icon>
+						<iconify-icon
+							icon="ion:chevron-forward-sharp"
+							
+						></iconify-icon>
 					</a>
 				</li>
 			{% endif %}
