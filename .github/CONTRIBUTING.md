@@ -70,6 +70,7 @@ You can use any text editor you like to edit the content of markdown files. Look
 
 - If you create a file manually, make sure that you've added the .md extension at the end of the file.
 - If there are any content conflicts due to 2 or more people simultaneously editing the same content, reach out to the person that has made changes to agree on what changes to keep. If you require further assistance please ask an RSE.
+- Do not reference non existing images, as this will cause the build of the website to fail.
 
 ## Dev
 
