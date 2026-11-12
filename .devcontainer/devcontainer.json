@@ -100,6 +100,6 @@
 			}
 		}
 	},
-	"onCreateCommand": "npm install",
-	"postStartCommand": "npm run frontend:dev"
+	"onCreateCommand": "pnpm install",
+	"postStartCommand": "pnpm run dev"
 }
