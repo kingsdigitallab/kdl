@@ -9,6 +9,11 @@ authors:
 date: 2026-11-12 # PLACEHOLDER: confirm publication date
 ---
 
+
+_We are pleased to publish one of our [affiliates](https://kdl.kcl.ac.uk/about/team/)' blogpost originally presented at [The Digital](https://www.kcldigitalconference.com/) conference in June 2026 to give prominence to the topic of AI agents.
+KDL has a team on [ML/AI](https://kdl.kcl.ac.uk/projects/research-themes/machine-learning-ai/) and while explainability has been explored in few instances so far (e.g. [REFIDA](https://kdl.kcl.ac.uk/projects/refida/), [iREAL](https://kdl.kcl.ac.uk/projects/ireal/) and [Algorithmic Justice](https://kdl.kcl.ac.uk/projects/algorithmic-justice-beyond-binary-engaging-the-public-and-shaping-ethical-ai-in-justice-systems/)), we would be very interested to work with prospective collaborators on this topic.
+If you have an idea please get in touch by filling this [minimal form](https://forms.clickup.com/26475560/f/t7z18-72308/NK252MBKP2M3U8YGXU)_
+
 The emergence of Generative AI has unsettled a great many assumptions in
 society at large, and in the Digital Humanities in particular. For DH,
 assumptions have been disturbed about how digital tools might serve the
