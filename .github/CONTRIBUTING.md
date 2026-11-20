@@ -97,7 +97,22 @@ The destination of the file needs to be referenced like this:
 /assets/images/slides/your-file-name.jpg
 
 # For themes
-/assets/images/themes/dataviz.jpg
+/assets/images/themes/your-file-name.jpg
+```
+
+In a feature it will look like:
+
+```md
+feature:
+image: /assets/images/REPLACE_TYPE/your-file-name.jpg
+title: Image title
+description: Image description
+```
+
+Inside the content:
+
+```md
+![Image alt-text](/assets/images/REPLACE_TYPE/your-file-name.jpg)
 ```
 
 If in doubt, refer to a markdown file that is the similar type of the one you're trying to create/edit or ask an RSE.
