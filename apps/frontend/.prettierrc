@@ -1,0 +1,9 @@
+{
+	"plugins": ["prettier-plugin-nunjucks"],
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": false,
+	"trailingComma": "all",
+	"arrowParens": "always",
+	"printWidth": 120
+}

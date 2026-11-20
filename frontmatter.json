@@ -43,32 +43,38 @@
 				{
 					"title": "name",
 					"name": "name",
-					"type": "string"
+					"type": "string",
+					"editable": false
 				},
 				{
 					"title": "tags",
 					"name": "tags",
-					"type": "tags"
+					"type": "tags",
+					"editable": false
 				},
 				{
 					"title": "alternateName",
 					"name": "alternateName",
-					"type": "string"
+					"type": "string",
+					"editable": false
 				},
 				{
 					"title": "foundingDate",
 					"name": "foundingDate",
-					"type": "datetime"
+					"type": "datetime",
+					"editable": false
 				},
 				{
 					"title": "dissolutionDate",
 					"name": "dissolutionDate",
-					"type": "datetime"
+					"type": "datetime",
+					"editable": false
 				},
 				{
 					"title": "creativeWorkStatus",
 					"name": "creativeWorkStatus",
-					"type": "string"
+					"type": "string",
+					"editable": false
 				},
 				{
 					"title": "feature",
@@ -106,19 +112,22 @@
 					"title": "funders",
 					"name": "funders",
 					"type": "block",
-					"fieldGroup": ["funders_group"]
+					"fieldGroup": ["funders_group"],
+					"editable": false
 				},
 				{
 					"title": "departments",
 					"name": "departments",
 					"type": "block",
-					"fieldGroup": ["departments_group"]
+					"fieldGroup": ["departments_group"],
+					"editable": false
 				},
 				{
 					"title": "members",
 					"name": "members",
 					"type": "block",
-					"fieldGroup": ["members_group"]
+					"fieldGroup": ["members_group"],
+					"editable": false
 				},
 				{
 					"title": "keywords",
@@ -129,13 +138,15 @@
 						"Digital Creativity",
 						"Indigenous Digital Humanities",
 						"Machine Learning and AI"
-					]
+					],
+					"editable": false
 				},
 				{
 					"title": "urls",
 					"name": "urls",
 					"type": "block",
-					"fieldGroup": ["urls_group"]
+					"fieldGroup": ["urls_group"],
+					"editable": false
 				}
 			]
 		},
@@ -215,17 +226,20 @@
 				{
 					"title": "alternateName",
 					"name": "alternateName",
-					"type": "string"
+					"type": "string",
+					"editable": false
 				},
 				{
 					"title": "foundingDate",
 					"name": "foundingDate",
-					"type": "datetime"
+					"type": "datetime",
+					"editable": false
 				},
 				{
 					"title": "dissolutionDate",
 					"name": "dissolutionDate",
-					"type": "datetime"
+					"type": "datetime",
+					"editable": false
 				},
 				{
 					"title": "parentOrganisation",
@@ -270,7 +284,8 @@
 				{
 					"title": "jobTitle",
 					"name": "jobTitle",
-					"type": "string"
+					"type": "string",
+					"editable": false
 				},
 				{
 					"title": "tags",
@@ -288,35 +303,26 @@
 	],
 	"frontMatter.content.pageFolders": [
 		{
-			"title": "src",
-			"path": "[[workspace]]/frontend/src",
-			"contentTypes": ["default"]
-		},
-		{
 			"title": "organisations",
-			"path": "[[workspace]]/frontend/src/about/organisations",
+			"path": "[[workspace]]/docs/about/organisations",
 			"contentTypes": ["organisation"]
 		},
 		{
 			"title": "people",
-			"path": "[[workspace]]/frontend/src/about/people",
+			"path": "[[workspace]]/docs/about/people",
 			"contentTypes": ["person"]
 		},
 		{
 			"title": "projects",
-			"path": "[[workspace]]/frontend/src/projects",
+			"path": "[[workspace]]/docs/projects",
 			"contentTypes": ["project"]
 		},
 		{
 			"title": "blog",
-			"path": "[[workspace]]/frontend/src/blog",
+			"path": "[[workspace]]/docs/blog",
 			"contentTypes": ["post"]
 		}
 	],
-	"frontMatter.content.publicFolder": {
-		"path": "[[workspace]]/frontend/public",
-		"relative": false
-	},
 	"frontMatter.data.types": [
 		{
 			"id": "team",
@@ -346,7 +352,7 @@
 		{
 			"id": "team",
 			"title": "Team",
-			"file": "[[workspace]]/frontend/src/_data/team.json",
+			"file": "[[workspace]]/apps/frontend/src/_data/team.json",
 			"fileType": "json",
 			"labelField": "slug",
 			"singleEntry": false,

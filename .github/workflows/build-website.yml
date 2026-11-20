@@ -1,0 +1,68 @@
+name: Build and test website
+
+on:
+    pull_request:
+        branches:
+            - main
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    build:
+        runs-on: ubuntu-22.04
+
+        strategy:
+            matrix:
+                node-version: [24.x]
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Set variables
+              run: |
+                  echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
+
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v6
+              with:
+                  node-version: ${{ matrix.node-version }}
+
+            - name: Setup PNPM
+              uses: pnpm/setup@v3
+              with:
+                  version: 12
+                  cache: true
+
+            - name: Install dependencies
+              run: |
+                  pnpm ci
+
+            - name: Restore image cache
+              uses: actions/cache/restore@v6
+              with:
+                  path: _site/img
+                  key: eleventy-images-${{ runner.os }}-${{ hashFiles('docs/assets/images/**/*') }}-${{ hashFiles('pnpm-lock.yaml') }}
+                  restore-keys: |
+                      eleventy-images-${{ runner.os }}-
+
+            - name: Build frontend
+              run: |
+                  pnpm run build --pathprefix $REPO_NAME
+                  pnpx -y pagefind --site _site
+
+            - name: Test frontend
+              run: pnpm run test
+
+            - name: Page rendering check
+              run: bash scripts/page-check.sh $REPO_NAME
+
+            - name: Save image cache
+              uses: actions/cache/save@v6
+              with:
+                  path: _site/img
+                  key: eleventy-images-${{ runner.os }}-${{ hashFiles('docs/assets/images/**/*') }}-${{ hashFiles('pnpm-lock.yaml') }}

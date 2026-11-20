@@ -1,0 +1,8 @@
+<span class="author">
+	{%- if data.url -%}
+		<a href="{{ data.url }}">{{ data.data.name }}{{ "," if not last }}</a>
+	{%- else -%}
+		{{- data.data.name -}}
+		{{ "," if not last }}
+	{%- endif -%}
+</span>

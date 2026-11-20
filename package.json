@@ -13,78 +13,23 @@
 		"url": "https://forms.clickup.com/26475560/f/t7z18-74115/7YCNCR5Y6MA3KI9GX1"
 	},
 	"scripts": {
-		"compose": "trap 'echo Stopped; exit 0' SIGINT; docker-compose",
-		"up": "npm run compose up -- --build",
-		"down": "npm run compose down",
-		"exec": "npm run compose exec ${npm_config_service}",
-		"pkg": "npm run exec npm",
-		"cms:snapshot": "npm run pkg --service=cms run snapshot:create",
-		"cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml",
-		"lint": "eslint 'etl/src/**/*.js' 'frontend/src/**/*.js' 'cypress/**/*.js'",
-		"lint:fix": "npm run lint -- --fix",
-		"prettier": "prettier . --check",
-		"prettier:fix": "npm run prettier -- --write",
-		"format": "npm run prettier:fix && npm run lint:fix",
-		"test": "npm run test --workspaces --if-present",
+		"dev": "pnpm run --parallel dev",
+		"lint": "pnpm run lint",
+		"format": "prettier --write .",
+		"build": "pnpm --filter kdl-frontend run build",
+		"sync": "pnpm --filter etl run sync && pnpm --filter etl run write-projects && pnpm --filter etl run write-orgs && pnpm --filter etl run write-people",
+		"cli": "pnpm --filter etl run cli",
 		"release": "release-it",
-		"lint:njk": "djlint frontend/src --check --profile=nunjucks --extension=njk",
-		"format:njk": "djlint frontend/src --reformat --profile=nunjucks --extension=njk",
-		"etl:clickup": "npm run -w etl clickup-to-md -- 1004",
-		"frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
-		"frontend:dev": "npm run -w frontend dev",
-		"cy": "cypress open",
-		"cy:run": "cypress run"
+		"test": "pnpm --filter kdl-frontend run test"
 	},
+	"type": "module",
 	"devDependencies": {
-		"@babel/eslint-parser": "^7.18.2",
-		"@babel/eslint-plugin": "^7.17.7",
-		"eslint": "^9.39.4",
+		"@eslint/js": "^10.0.1",
+		"@types/node": "^24.19.2",
+		"eslint": "^9.39.5",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-cypress": "^6.3.1",
-		"lint-staged": "^17.0.4",
-		"prettier": "^3.8.3",
-		"prettier-plugin-sort-imports": "^1.8.11",
-		"simple-git-hooks": "^2.13.1",
-		"vscode-langservers-extracted": "^4.10.0"
-	},
-	"simple-git-hooks": {
-		"pre-commit": "npx lint-staged"
-	},
-	"lint-staged": {
-		"*.js": [
-			"prettier --write",
-			"eslint etl/src frontend/src"
-		],
-		"*.{css,json}": [
-			"prettier --write"
-		],
-		"*.{md,yaml,scss}": [
-			"prettier --write"
-		],
-		"*.{njk,nunjucks}": [
-			"djlint --check --profile=nunjucks"
-		]
-	},
-	"workspaces": [
-		"frontend",
-		"etl"
-	],
-	"release-it": {
-		"git": {
-			"changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template compact"
-		},
-		"github": {
-			"release": false
-		},
-		"hooks": {
-			"after:bump": "npx auto-changelog --package --commit-limit false --unreleased --template compact"
-		},
-		"npm": {
-			"publish": false
-		}
-	},
-	"dependencies": {
-		"release-it": "^16.1.5",
-		"reveal.js": "^6.0.1"
+		"globals": "^17.14.0",
+		"prettier": "^3.9.10",
+		"typescript-eslint": "^8.72.1"
 	}
 }

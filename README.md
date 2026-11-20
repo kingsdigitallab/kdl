@@ -3,8 +3,6 @@
 [![Build 11ty frontend](https://github.com/kingsdigitallab/kdl/actions/workflows/frontend.yml/badge.svg)](https://github.com/kingsdigitallab/kdl/actions/workflows/frontend.yml)
 [![pages-build-deployment](https://github.com/kingsdigitallab/kdl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kingsdigitallab/kdl/actions/workflows/pages/pages-build-deployment)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kingsdigitallab/kdl)
-
 ## URLs
 
 - [dev site:](https://kingsdigitallab.github.io/kdl/)
@@ -21,301 +19,53 @@ https://kdl.kcl.ac.uk/
 
 ## Architecture
 
-The website uses a static-first approach:
-
-1. **ETL**: A script fetches data from [ClickUp](https://clickup.com/) and saves it in the YAML header of the markdown files in `frontend/src`
-1. **Frontend**: [11ty](https://www.11ty.dev/) builds static pages from the ClickUp data and handwritten parts of the markdown files
-
-## Set up
-
-### Dependencies
-
-- [Docker](https://www.docker.com/)
-- [Node](https://nodejs.org/) 20
-
-Install the node packages:
-
-```bash
-npm install
-```
-
-Install the git hooks:
-
-```bash
-npx simple-git-hooks
-```
+This project is set up as a monorepo with PNPM workspaces. The website uses a static-first approach.
 
 ### Modules
 
 This project is set up as a monorepo with:
 
-- **ETL**: Fetches data from ClickUp and outputs JSON to `frontend/src/_data/`
-- **Frontend**: 11ty static site generator
+#### Apps
 
-#### ETL
+- **[ETL](./apps/etl/readme.md)**: Fetches data from ClickUp transforms it to markdown files and JSON project index.
+- **[Frontend](./apps/frontend/readme.md)**: Eleventy static site generator
 
-To fetch data from ClickUp:
+#### Docs
+
+Docs contains all the available content that get served by the frontend.
+
+#### Packages
+
+- **KDL components**: Nunjucks components
+
+## Set up
+
+### Dependencies
+
+- [PNPM](https://pnpm.io/installation)
+- [Node LTS](https://nodejs.org/)
+
+> [!NOTE]
+> It is recommended to [install Node](https://pnpm.io/cli/runtime#examples) with PNPM.
+
+Clone the repo:
 
 ```bash
-npm run etl:clickup
+git clone git@github.com:kingsdigitallab/kdl.git
 ```
 
-This fetches data from the "Website" custom item in ClickUp and saves JSON files to `frontend/src/_data/`.
-
-#### Frontend
-
-To run the frontend locally:
+Install:
 
 ```bash
-npm run frontend:dev
+pnpm install
 ```
 
-The site will be available at `http://localhost:8080`.
+Run:
+
+```bash
+pnpm run dev
+```
 
 ## Contributing
 
-### Workflow
-
-1. Create a branch from `develop`
-2. Make your changes
-3. Test [locally](http://localhost:8080/) with `npm run frontend:dev`
-    - If this is not set up, just skip this step. If something goes wrong, [merges can be reverted](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request).
-4. [Merge your branch into `develop`](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
-    - This triggers a deployment to [the dev site](https://kingsdigitallab.github.io/kdl/)
-    - Review your changes on the dev site
-    - Take a screenshot if the change is complicated  
-      (note: adding text only is not complicated. If the page grabs data from somewhere else, it is complicated.)
-    - Delete your branch if you are happy. The branch is just clutter now, your changes live in `develop` now. (No need to worry: The branch can be restored if needed.)
-5. After reviewing on the dev site, [open a PR ](https://github.com/kingsdigitallab/kdl/pulls) from `develop` to `main`. Now you are done.
-    - Add someone as reviewer, this triggers GitHub to email them
-    - In the description, add the screenshot from before
-    - After the review will be approved, develop can be merged into main  
-      (note: the review is purely technical to check whether the changes will render or break the site. Content is not reviewed.)
-    - Merging triggers a deployment to [the live site](https://kdl.kcl.ac.uk/)
-
-```mermaid
----
-title: workflow to add changes
----
-
-gitGraph
-    checkout main
-    commit id: "branch for live site " tag: "eternal branch"
-
-    branch develop
-    checkout develop
-    commit id: "branch for dev site " tag: "eternal branch"
-
-    branch your-change-branch
-    checkout your-change-branch
-    commit id: "branch for making changes " tag: "temporary branch"
-    commit id: "Make changes"
-    commit id: "Test locally: npm run frontend:dev"
-    commit id: "merge back to develop to trigger release to dev site"
-
-    checkout develop
-    merge your-change-branch tag: "automatic release to dev"
-    commit id: "Review on dev site"
-    commit id: "maybe take screenshot"
-    commit id: "Open PR: develop to main. Merging will trigger release."
-
-    checkout main
-    merge develop tag: "automatic release to live"
-```
-
-### Commands
-
-We usually use VSCode, where you can click in the UI for all these actions. For reference, here are the commands:
-
-```bash
-# Create a new branch
-git checkout -b my-content-change-branch develop
-
-# Make changes and test locally
-npm run frontend:dev
-
-# Commit and push
-git add .
-git commit -m "description of changes"
-git push -u origin my-content-change-branch
-
-# Merge into develop
-git checkout develop
-git merge my-content-change-branch
-git push develop
-git branch -d my-content-change-branch
-```
-
-### Where to make changes
-
-Some content is managed in ClickUp and synced to the site via ETL, while other content is written directly in markdown files in this repository.
-
-**In ClickUp:**
-
-- Projects (This updates the `yaml` [frontmatter](https://www.markdownlang.com/advanced/frontmatter.html#yaml-frontmatter) of `frontend/src/projects/projectname.md`)
-    - Project team members are synced from ClickUp into each project's `members` list. This determines who is listed on a project page, but their names will render as **plain text** unless a matching entry exists in `_data/people.json` and `about/people/{slug}.md` (see below).
-
-**In Markdown files:**
-
-- People (`frontend/src/about/people/*.md`)
-- Blog posts (`frontend/src/blog/*.md`)
-- FAQ pages (`frontend/src/faqs/*.md`)
-- Theme pages (`frontend/src/themes/*.md`)
-- Slides/presentations (`frontend/src/slides/*.md`)
-- Project descriptions need to be written manually into the automatically created markdown file from above (`frontend/src/projects/projectname.md`). Simply add an empty line below the second triple dash (`---`) and start writing your description.
-
-#### Example: Adding a person
-
-People are automatically generated from existing projects in ClickUp. You can also manually add people by creating a md file at `frontend/src/about/people/their-name.md`, or edit their profile.
-
-```markdown
----
-title: Their Name
-slug: their-name
-jobTitle: null
-tags:
-    - people
-memberOf:
-    - startDate: null
-      endDate: null
-      organisation:
-          name: Organisation Name
-          slug: org-slug
-      roleName: Their Role
----
-
-Optional biography in markdown.
-```
-
-**Test locally** — Run `npm run frontend:dev` and check the person's name is linked on the relevant project pages.
-
-##### Team members
-
-To add a team member, you also need to add a picture at `frontend/public/assets/images/people/their-name.jpg` and add an entry at `frontend/src/_data/team.json`, which should match the `frontend/src/about/people/their-name.md` file and the picture filename.
-
-```json
-{
-	"slug": "their-name",
-	"jobTitle": "job title...",
-	"team": "KDL",
-	"feature": {
-		"image": "/assets/images/people/their-name.jpg",
-		"description": "Photo of Their Name"
-	}
-}
-```
-
-#### Example: Adding a blog article with an image
-
-1. **Create the markdown file** - Add a new file at `frontend/src/blog/your-title.md` with frontmatter:
-
-```yaml
----
-title: Your Article Title
-subtitle: A brief subtitle
-tags:
-    - post
-    - Your Topic
-authors:
-    - Your Name
-date: 2026-04-21
-excerpt: A short description for previews and SEO.
-feature:
-    image: /assets/images/blog/your-image.jpg
-    title:
-    description: Alt text for the image
----
-```
-
-2. **Add the image** - Place your image in `frontend/src/assets/images/blog/your-image.jpg`
-
-3. **Check ClickUp** (optional) - If the article references team members or projects, ensure they exist in ClickUp so the ETL can link them properly.
-
-4. **Test locally** - Run `npm run frontend:dev` to preview your changes before merging.
-
-### Nunjuck template files
-
-We have files for html templating, called nunjuck files. They have the `.njk` extension. To lint those files, additional dependencies have to be installed. There is a python package called djlint, which can be pip installed. There is a VSCode extension [https://marketplace.visualstudio.com/items?itemName=monosans.djlint](https://marketplace.visualstudio.com/items?itemName=monosans.djlint), for which there are settings in the vscode settings, and it is currently also installed in the devcontainers.
-TODO: Find a way to lint those files in a pre-commit hook and in the CI pipeline.
-
-### Data model
-
-The data model is based on the [schema.org](https://schema.org/) vocabulary. Local customisations are prefixed with `KDL`.
-
-```mermaid
-erDiagram
-    AGENT }o--o{ LINKROLE: url
-    AGENT ||..o{ ORGANISATION: is
-    AGENT ||..o{ PERSON: is
-    AGENT }o--o{ KDLROLE: memberOf
-    AGENT {
-        string name
-        string alternateName
-        string description
-
-    }
-
-    ORGANISATION ||--o| ORGANISATION: parentOrganisation
-    ORGANISATION {
-        date foundingDate
-        date dissolutionDate
-    }
-
-    DEFINEDTERMSET ||--o{ DEFINEDTERM: hasDefinedTerm
-    DEFINEDTERMSET ||--o{ LINKROLE: url
-    DEFINEDTERMSET {
-        string name
-    }
-
-    DEFINEDTERM ||--|| DEFINEDTERMSET: inDefinedTermSet
-    DEFINEDTERM {
-        string name
-    }
-
-    PROJECT ||--|| DEFINEDTERM: creativeWorkStatus
-    PROJECT }o--o{ DEFINEDTERM: keywords
-    PROJECT }o--o{ LINKROLE: url
-    PROJECT ||--o{ ORGANISATION: department
-    PROJECT }o--o{ AGENT: funder
-    PROJECT }o--o{ KDLROLE: member
-    PROJECT }o--o{ PROJECT: relatedTo
-    PROJECT {
-        string name
-        string slug
-        string alternateName
-        date foundingDate
-        date dissolutionDate
-        text description
-    }
-
-    KDLROLE ||--|| AGENT: agent
-    KDLROLE ||--|| ORGANISATION: inOrganisation
-    KDLROLE ||--|| PROJECT: inProject
-    KDLROLE {
-        string name
-        date startDate
-        date endDate
-    }
-
-    LINKROLE {
-        string name
-        date startDate
-        date endDate
-        string url
-    }
-
-    WEBPAGE ||--|{ AGENT: author
-    WEBPAGE }o--o{ AGENT: contributor
-    WEBPAGE ||--o{ DEFINEDTERM: keywords
-    WEBPAGE }o--o{ AGENT: about
-    WEBPAGE }o--o{ PROJECT: about
-    WEBPAGE ||--|| WEBPAGE: isPartOf
-    WEBPAGE ||--o{ WEBPAGE: hasPart
-    WEBPAGE {
-        string name
-        string slug
-        string type
-        text abstract
-        text text
-    }
-```
+Please refer to [contributing.](/.github/CONTRIBUTING.md)

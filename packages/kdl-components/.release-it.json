@@ -1,0 +1,11 @@
+{
+  "github": {
+    "release": false
+  },
+  "npm": {
+    "publish": false
+  },
+  "@release-it/keep-a-changelog": {
+    "filename": "CHANGELOG.md"
+  }
+}

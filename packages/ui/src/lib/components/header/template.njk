@@ -1,0 +1,14 @@
+{% extends "../../component.njk" %}
+
+{% block component %}
+  <div class="sitename">
+    <a href="{{ data.url | default('/') }}">{{ data.title }}</a>
+  </div>
+  {% if data.feature %}
+    <div class="logo">
+      <a href="{{ data.url | default('/') }}">
+        <img src="{{ data.feature.image }}" alt="{{ data.feature.description }}">
+      </a>
+    </div>
+  {% endif %}
+{% endblock component %}

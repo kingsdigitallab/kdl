@@ -1,0 +1,67 @@
+{% extends "../../component.njk" %}
+
+{% from "../image/macros.njk" import imageMacro %}
+{% from "../link/macros.njk" import linkMacro %}
+{% from "../person/macros.njk" import authorMacro %}
+{% from "../time/macros.njk" import timeMacro %}
+{% from "../utils/macros.njk" import classAttributeMacro %}
+
+{% block component %}
+  <article {{ classAttributeMacro(options.class) -}}>
+    <header>
+      {% if data.subtitle %}
+        <div class="kdl-subtitle">
+          <span>{{ data.subtitle }}</span>
+        </div>
+      {% endif %}
+      {% if data.feature and data.feature.image %}{{- imageMacro(data.feature) -}}{% endif %}
+      {% if options.addLink or options.headerHtml %}
+        <section>
+          {% if options.addLink %}
+            {% set html %}
+              <h2>{{ data.title | safe }}</h2>
+            {% endset %}
+            {{ linkMacro(data, { html: html }) }}
+          {% endif %}
+          {{ options.headerHtml | safe }}
+        </section>
+      {% endif %}
+    </header>
+
+    {% if options.html %}
+      {{ options.html | safe }}
+    {% else %}
+      {% set content = data[options.contentField] if options.contentField else data.content %}
+      <article>{{ content | safe }}</article>
+    {% endif %}
+
+    {% if data.authors or data.date or options.footerHtml %}
+      <footer>
+        {% if options.footerHtml %}
+          {{ options.footerHtml | safe }}
+        {% else %}
+          {% if data.authors %}
+            by
+            {% for name in data.authors %}
+              {% set person = data.collections.people | filter(name, "data.id") %}
+              {% if person and person.length > 0 %}
+                {{- authorMacro(person[0]) -}}
+              {% else %}
+                {% set personName = { name: name } %}
+                {% set person = {data: personName} %}
+                {{- authorMacro(person) -}}
+              {% endif %}
+              {%- if not loop.last -%},
+              {% endif -%}
+            {% endfor %}
+          {% endif %}
+          {% if data.date %}
+            on
+            {{ timeMacro(data.date) -}}
+          {% endif %}
+        {% endif %}
+      </footer>
+    {% endif %}
+
+  </article>
+{% endblock component %}

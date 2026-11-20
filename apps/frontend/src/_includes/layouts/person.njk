@@ -1,0 +1,94 @@
+---
+layout: layouts/agent.njk
+---
+
+{% set member = team | filter(slug, 'slug') | first %}
+
+{% if member %}
+	<h2 class="jobtitle">
+		{{ member.jobTitle }}
+	</h2>
+{% elif jobTitle %}
+	<h2 class="jobtitle">{{ jobTitle }}</h2>
+{% endif %}
+
+<section>
+	{% if feature %}
+		{# {% if member.feature %} #}
+		<img src="{{ feature.image }}" alt="{{ feature.description }}" />
+		{# {% endif %} #}
+	{% endif %}
+	{% if content %}
+		<div class="description">
+			{{ content | safe }}
+		</div>
+	{% endif %}
+</section>
+
+{% set projects = collections.projects | getAgentProjects(slug) %}
+
+{% if projects.length > 0 %}
+	<div class="part-of">
+		<h2>Projects</h2>
+		<ul>
+			{% for project in projects | sort(true, false, "data.dissolutionDate") %}
+				<li>
+					<a href="{{ project.url }}">{% set level = 3 %} {% set showTitle = true %}
+						{%- include "partials/project.njk" -%}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endif %}
+
+{% if memberOf.length > 0 %}
+	<section class="part-of">
+		<h2>Organisations</h2>
+		<ul>
+			{% for item in memberOf | sort(false, false, "organisation.slug") %}
+				<li>
+					<a href="{% route item.organisation.slug, 'Partners and funders' %}">
+						{{- item.organisation.name -}}
+						{%- if item.roleName -%}
+							,
+							<span class="role-name">
+								{{ item.roleName }}
+							</span>
+						{% endif %}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+{% endif %}
+
+{% set previousObj = collections.people | getPreviousCollectionItem(page) %}
+{% set nextObj = collections.people | getNextCollectionItem(page) %}
+<div class="sibling-pagination">
+	<nav aria-label="pagination">
+		<ol>
+			{% if previousObj %}
+				<li>
+					<a href="{{ previousObj.url }}">
+						<iconify-icon
+							icon="ion:chevron-back-sharp"
+							
+						></iconify-icon>
+						{{- previousObj.data.name -}}
+					</a>
+				</li>
+			{% endif %}
+			{% if nextObj %}
+				<li>
+					<a href="{{ nextObj.url }}">
+						{{- nextObj.data.name -}}
+						<iconify-icon
+							icon="ion:chevron-forward-sharp"
+							
+						></iconify-icon>
+					</a>
+				</li>
+			{% endif %}
+		</ol>
+	</nav>
+</div>

@@ -1,0 +1,25 @@
+packages:
+    - "apps/*"
+    - "packages/*"
+allowBuilds:
+    "@tailwindcss/oxide": false
+    esbuild: false
+    core-js: false
+    simple-git-hooks: false
+    "@parcel/watcher": true
+    djlint: true
+autoInstallPeers: true
+minimumReleaseAge: 1440
+blockExoticSubdeps: true
+
+# packageConfigs:
+#   public:
+#     engineStrict: true
+#   playground:
+#     engineStrict: true
+#   indacas:
+#     engineStrict: true
+#   "@indacas/ui":
+#     engineStrict: true
+minimumReleaseAgeExclude:
+    - prettier-plugin-nunjucks@0.2.3

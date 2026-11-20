@@ -1,0 +1,49 @@
+{
+	"name": "@kdl/components",
+	"version": "0.1.1",
+	"description": "KDL components",
+	"homepage": "https://github.com/kingsdigitallab/kdl-components#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kingsdigitallab/kdl-components.git"
+	},
+	"author": "King's Digital Lab",
+	"license": "MPL-2.0",
+	"bugs": {
+		"url": "https://github.com/kingsdigitallab/kdl-components/issues"
+	},
+	"scripts": {
+		"lint": "eslint src",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "prettier . --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"format": "npm run prettier:fix && npm run lint:fix",
+		"test": "npm run test",
+		"release": "release-it"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.18.2",
+		"@babel/eslint-plugin": "^7.17.7",
+		"@release-it/keep-a-changelog": "^3.1.0",
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"nunjucks": "^3.2.3",
+		"prettier": "^2.6.2",
+		"prettier-plugin-sort-imports": "^1.7.0",
+		"release-it": "^15.5.0",
+		"simple-git-hooks": "^2.8.0",
+		"vscode-langservers-extracted": "^4.2.1"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "npx lint-staged"
+	},
+	"lint-staged": {
+		"*.{js}": "npm run format",
+		"*.{json,md,yaml}": "npm run prettier:fix"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"luxon": "^3.1.0",
+		"markdown-it": "^13.0.1"
+	}
+}

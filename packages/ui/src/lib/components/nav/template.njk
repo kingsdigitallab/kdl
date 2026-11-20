@@ -1,0 +1,24 @@
+{% extends "../../component.njk" %}
+
+{% from "./macros.njk" import navItemMacro %}
+
+{% block component %}
+  {% set listTag = "ol" if options.ordered else "ul" %}
+  <nav class="kdl-nav {%- if options.class %}{{ options.class }}{%- endif -%}"
+       aria-label="{{ data.title }}">
+    <h2 class="kdl-visually-hidden">{{ data.title }}</h2>
+    <{{ listTag }}>
+    {% for page in data.pages %}
+      {{
+      navItemMacro({
+      page: page,
+      currentUrl: data.currentUrl
+      }, {
+      nested: options.nested,
+      listTag: listTag
+      })
+      }}
+    {% endfor %}
+    </{{ listTag }}>
+  </nav>
+{% endblock %}

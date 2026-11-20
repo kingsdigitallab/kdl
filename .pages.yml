@@ -1,0 +1,453 @@
+actions:
+    - name: update-content
+      label: Update content
+      workflow: update-content.yml
+      confirm:
+          title: Update content
+          message: This will update content of projects, organisations and people with the data from ClickUp from the existing list of projects. If you want to get a recently created project run sync projects first.
+          button: Update content
+    - name: sync-projects
+      label: Sync project IDs
+      workflow: sync-projects.yml
+      confirm:
+          title: Sync projects IDs?
+          message: This will generate an index of all projects in ClickUp (aprox 20 mins), which then can be used to create and/or update data by running the update data action.
+          button: Sync projects IDs
+
+    - name: request-deployment
+      label: Request deployment to production
+      workflow: request-deployment.yml
+      confirm:
+          title: Request deployment to production
+          message: This will submit your content changes for an RSE's to checkbefore deploying to production. You will still be able to make changes if you spot any issues but but please make sure you're happy with the changes in the dev website before making a request.
+          button: Request
+media:
+    - name: images
+      label: Images
+      input: docs/assets/images
+      output: /assets/images
+      rename: safe
+      extensions: [png, jpg, webp, svg]
+    - name: videos
+      label: Videos
+      input: docs/assets/videos
+      output: /assets/videos
+      rename: safe
+      extensions: [mp4]
+      # actions:
+      #     - name: optimize-images
+      #       label: Optimize images
+      #       workflow: pages-cms-media-action.yml
+content:
+    - name: organisations
+      label: Organisations
+      type: collection
+      path: docs/about/organisations
+      format: yaml-frontmatter
+      operations:
+          create: false
+          delete: false
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: alternateName
+            label: Alternate Name
+            type: string
+            hidden: true
+          - name: slug
+            label: false
+            hidden: true
+            type: string
+          - name: foundingDate
+            label: Founding date
+            hidden: true
+            type: date
+          - name: dissolutionDate
+            label: Dissolution date
+            hidden: true
+            type: date
+          - name: parentOrganisation
+            label: Parent organisation
+            type: object
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: alternateName
+                  label: Alternate name
+                  type: string
+          - name: subOrganisations
+            label: Sub organisations
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: alternateName
+                  label: Alternate name
+                  type: string
+          - name: urls
+            label: URLs
+            type: object
+            list: true
+            fields:
+                - name: type
+                  label: Type
+                  type: string
+                - name: url
+                  label: URL
+                  type: string
+          - name: body
+            label: Content
+            type: rich-text
+
+    - name: faqs
+      label: FAQs
+      type: collection
+      path: docs/faqs
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: order
+            label: Order
+            description: This is the order of which they'll be shown in the FAQs page, "What does working with KDL involve?" should always be 0 as the css megafile has hardcoded article 0 to render the diagram.
+            type: number
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: body
+            label: Content
+            type: rich-text
+
+    - name: people
+      label: People
+      type: collection
+      path: docs/about/people
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: slug
+            label: false
+            hidden: true
+            type: string
+          - name: jobTitle
+            label: Job title
+            type: string
+            hidden: true
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: memberOf
+            label: Member of
+            type: object
+            list: true
+            fields:
+                - name: startDate
+                  label: Start date
+                  type: date
+                - name: endDate
+                  label: End date
+                  type: date
+                - name: organisation
+                  label: Organisation
+                  type: object
+                  fields:
+                      - name: name
+                        label: Name
+                        type: string
+                      - name: slug
+                        label: Slug
+                        type: string
+          - name: feature
+            label: Feature
+            type: object
+            fields:
+                - name: image
+                  label: Image
+                  type: image
+                  options:
+                      path: /assets/images/people
+                      rename: safe
+                - name: description
+                  label: Description
+                  type: rich-text
+
+          - name: body
+            label: Content
+            type: rich-text
+
+    - name: blog
+      label: Blog
+      type: collection
+      path: docs/blog
+      format: yaml-frontmatter
+      filename: "{primary}.md"
+      # NOTE: default behaviour
+      # filename:
+      #   template: "{year}-{month}-{day}-{primary}.md"
+      #   field: create
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: subtitle
+            label: Subtitle
+            type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
+          - name: excerpt
+            label: Excerpt
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: authors
+            label: Authors
+            type: string
+            list: true
+          - name: date
+            label: Date
+            type: date
+            default: ""
+          - name: feature
+            label: Feature
+            type: object
+            fields:
+                - name: title
+                  label: Title
+                  type: string
+                - name: description
+                  label: Description
+                  type: rich-text
+                - name: image
+                  label: Image
+                  type: image
+                  options:
+                      path: /assets/images/blog
+                      rename: safe
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+                path: /assets/images/blog
+                rename: safe
+
+    - name: projects
+      label: Projects
+      type: collection
+      path: docs/projects
+      format: yaml-frontmatter
+      operations:
+          create: false
+          delete: false
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: name
+            label: false
+            hidden: true
+            type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
+          - name: tags
+            label: Tags
+            type: string
+            hidden: true
+            list: true
+
+          - name: alternateName
+            label: Alternate Name
+            type: string
+            hidden: true
+
+          - name: slug
+            label: false
+            hidden: true
+            type: string
+
+          - name: foundingDate
+            label: Founding date
+            type: date
+            hidden: true
+
+          - name: dissolutionDate
+            label: Dissolution date
+            type: date
+            hidden: true
+
+          - name: creativeWorkStatus
+            label: Status
+            type: string
+            hidden: true
+
+          - name: feature
+            label: Feature
+            type: object
+            fields:
+                - name: title
+                  label: Title
+                  type: string
+                - name: description
+                  label: Description
+                  type: rich-text
+                - name: image
+                  label: Image
+                  type: image
+                  options:
+                      path: /assets/images/projects
+                      rename: safe
+                - name: width
+                  label: Witdh
+                  type: number
+                - name: height
+                  label: Height
+                  type: number
+
+          - name: funders
+            label: Funders
+            type: object
+            list: true
+            hidden: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+          - name: departments
+            label: Departments
+            type: object
+            list: true
+            hidden: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+
+          - name: members
+            label: Members
+            type: object
+            list: true
+            hidden: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: inOrganisation
+                  label: Organisation
+                  type: object
+                  fields:
+                      - name: name
+                        label: Name
+                        type: string
+                      - name: slug
+                        label: Slug
+                        type: string
+
+          # - name: funders
+          #   label: Funders
+          #   type: reference
+          #   options:
+          #       collection: organisations
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
+          #
+          # - name: departments
+          #   label: Departments
+          #   type: reference
+          #   options:
+          #       collection: organisations
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
+          # - name: members
+          #   label: Members
+          #   type: reference
+          #   options:
+          #       collection: people
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
+          - name: body
+            label: Content
+            type: rich-text
+          - name: keywords
+            label: Keywords
+            type: object
+            hidden: true
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+          - name: urls
+            label: URLs
+            type: object
+            list: true
+            hidden: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: url
+                  label: URL
+                  type: string
+          - name: sla
+            label: SLA
+            type: object
+            hidden: true
+            fields:
+                - name: start
+                  label: Start
+                  type: date
+                - name: end
+                  label: End
+                  type: date
+settings:
+    content:
+        merge: true
+    commit:
+        identity: app
+        templates:
+            create: "chore: Create {name} {filename}"
+            update: "chore: Update {name} {filename}"
+            delete: "chore: Delete {name} {filename}"
+            rename: "chore: Rename {oldPath} -> {newPath}"
