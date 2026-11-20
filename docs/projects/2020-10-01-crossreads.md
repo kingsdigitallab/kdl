@@ -47,6 +47,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Jonathan Prag
+    slug: jonathan-prag
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Oxford
+      slug: university-of-oxford
   - name: Paolo Mazzoleni
     slug: paolo-mazzoleni
     roleName: Researcher
