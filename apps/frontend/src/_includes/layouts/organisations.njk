@@ -6,7 +6,8 @@ layout: layouts/base.njk
 
 <div class="wrapper">
 	<ul>
-		{%- for type, items in collections.organisations | groupby('data.index') | dictsort -%}
+		{% set partners = collections.projects | getPartnerWithProjects(collections.partnersAndFunders) %}
+		{%- for type, items in partners | groupby('data.index') | dictsort -%}
 			{% if type !== "0" %}
 				<li>
 					<h2>{{ type }}</h2>

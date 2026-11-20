@@ -128,6 +128,22 @@ export default (eleventyConfig) => {
 	// 	}
 	// });
 
+	eleventyConfig.addFilter("getPartnerWithProjects", (projects, partnersAndFunders) => {
+		const reduced = partnersAndFunders.reduce((acc, el) => {
+			const { data } = el;
+			const hasOne = projects.some(
+				(project) =>
+					(project.data.funders && project.data.funders.some((member) => member.slug === data.slug)) ||
+					(project.data.departments && project.data.departments.some((member) => member.slug === data.slug)),
+			);
+			if (hasOne) {
+				acc.push(el);
+			}
+			return acc;
+		}, []);
+		return reduced;
+	});
+
 	eleventyConfig.addFilter("toLocaleDate", kdlFilters.toLocaleDate);
 	eleventyConfig.addFilter("filter", kdlFilters.filter);
 	eleventyConfig.addFilter("renderMd", kdlFilters.renderMd);
@@ -210,6 +226,17 @@ export default (eleventyConfig) => {
 		return projects
 			.filter((project) => project.data.keywords?.some((keyword) => keywords.includes(keyword.name)))
 			.sort((a, b) => new Date(b.data.foundingDate) - new Date(a.data.foundingDate));
+	});
+
+	eleventyConfig.addCollection("partnersAndFunders", (collectionApi) => {
+		const byPath = new Map();
+		for (const item of [
+			...collectionApi.getFilteredByTag("organisations"),
+			...collectionApi.getFilteredByTag("departments"),
+		]) {
+			byPath.set(item.inputPath, item);
+		}
+		return [...byPath.values()].sort((a, b) => a.data.title.localeCompare(b.data.title));
 	});
 
 	eleventyConfig.addShortcode("route", function (path, navigationKey = "") {
