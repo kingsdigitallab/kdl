@@ -103,10 +103,12 @@ The destination of the file needs to be referenced like this:
 In a feature it will look like:
 
 ```md
+---
 feature:
-image: /assets/images/REPLACE_TYPE/your-file-name.jpg
-title: Image title
-description: Image description
+    image: /assets/images/REPLACE_TYPE/your-file-name.jpg
+    title: Image title
+    description: Image description
+---
 ```
 
 Inside the content:
