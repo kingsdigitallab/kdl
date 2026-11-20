@@ -43,12 +43,6 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Research Software Analyst
-  - name: Janet Nelson
-    slug: janet-nelson
-    roleName: Principal investigator
-    inOrganisation:
-      name: FAH Department of History
-      slug: fah-department-of-history
   - name: Paul Vetch
     slug: paul-vetch
     roleName: Researcher

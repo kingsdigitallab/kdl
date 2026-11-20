@@ -40,12 +40,6 @@ members:
   - name: Brian Maher
     slug: brian-maher
     roleName: Research Software Engineer
-  - name: Jennifer Altehenger
-    slug: jennifer-altehenger
-    roleName: Principal investigator
-    inOrganisation:
-      name: University of Oxford
-      slug: university-of-oxford
   - name: Denise Ho
     slug: denise-ho
     roleName: Co-Investigator
