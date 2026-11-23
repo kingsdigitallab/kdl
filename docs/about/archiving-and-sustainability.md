@@ -48,6 +48,17 @@ Minimal storage (for two years minimum): project and data are archived on our in
 
 We are also interested in options such as providing projects as virtual machines (VMs) for offline use, or capturing their last good state in recording tools such as webrecorder.io but (interestingly enough) those options have not yet been requested. Where PIs or Co-Is are not able to be reached, options are considered within KDL and with appropriate [Department of Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/index.aspx) staff and a decision made on a per project basis.
 
+## Post-development: our sustainability‑focused approach
+
+After development is complete, and for legacy projects, our focus is pragmatic stewardship. Accessibility efforts are focused on correcting any regressions where possible. Where a site's technology and support agreements allow, we test and mitigate accessibility regressions using tools such as SiteImprove whenever KDL deliberately changes the code or architecture of a digital resource. If a site's accessibility changes in this process, we update the Accessibility Statement.
+
+Alongside the sites we develop and continue to host, KDL inherited nearly 100 older sites. These are by now often unfunded, technically diverse, and require careful conversations with project partners about long‑term options. We are committed to balancing accessibility with sustainable archiving pathways, including advising on Service Level Agreements, enabling graceful archiving where appropriate, and supporting migration or simplified hosting solutions. Due to their older technology, many of these legacy sites are out of scope for these accessibility reviews as accessibility improvements would cause an excessive burden on our limited resources. Such sites have been carefully reviewed and the determination made that there is greater benefit to continuing to make less-accessible sites available than to take them down entirely.
+
+The deliberate code and architecture changes referenced above most commonly occur as part of routine software updates. For sites which do not fall under the scope of software updates referenced above, changes are typically made only on a break/fix basis. We will make reasonable efforts to restore broken functionality, including rectifying accessibility regressions. Sites may be out of scope for updates for reasons such as:
+Age - it may no longer be possible to update the software
+New static-first development approaches rendering updates unnecessary
+Static conversion, which may affect site functionality, rendering further updates unnecessary.
+
 ## Projects born static
 
 Building on this strategy, KDL has made an effort since 2021 to implement a [static-first approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/). The following projects were born static with no need of conversion.
@@ -262,7 +273,7 @@ Responsibility for KDL's archiving and sustainability strategy rests with its Di
 - Paul Caton and Brian Maher discuss how KDL approached managing our backlog of now-unfunded legacy software in [After the grant](https://www.youtube.com/watch?v=h3bKDlZoTgU), paper presented at the [Sixth Annual Conference for Research Software Engineering](https://rsecon2022.society-rse.org/), Newcastle Upon Tyne, September 2022.
 - Smithies, J., Sichani, A.M., & Westling, C. (2017). [Preserving 30 years of Digital Humanities Work: The Experience of King’s College London Digital Lab](http://jamessmithies.org/blog/2017/06/23/preserving-30-years-digital-humanities-work-experience-kings-digital-lab/). Presented at the DPASSH: Digital Preservation for Social Sciences and Humanities, University of Sussex.
 - Smithies, J., P. Caton, G. Ferraro, L. Figueira, E. Hall, N. Jakeman, P. Mellen, A.M. Sicani, M. Vieira, T. Watts, Carina Westling. (2017). Mechanizing the Humanities? King’s Digital Lab as Critical Experiment. Presented at the DH2017, McGill University, Montreal.
-- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). *Digital Humanities Quarterly* 13.1 (2019).
+- Smithies, J., Westling, C., Sichani, A.M., Mellen, P., & Ciula, A. [Managing 100 Digital Humanities Projects: Digital Scholarship & Archiving in King’sDigital Lab](http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html). _Digital Humanities Quarterly_ 13.1 (2019).
 - [Static First software development approach](https://kdl.kcl.ac.uk/slides/2024-london-static-first/#/).
 
 For more information and reflections on our archiving and sustainability processes watch Arianna Ciula present as part of the '[DH broken - Between experimentation and degradation panel discussion](https://www.sas.ac.uk/podcasts/reframing-failure-dh-broken-between-experimentation-and-degradation), 25 January 2023' ([Reframing Failure Seminar series, 2022-23](https://www.sas.ac.uk/digital-humanities/events/past-events/reframing-failure)).
