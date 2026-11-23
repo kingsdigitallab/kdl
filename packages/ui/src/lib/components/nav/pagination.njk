@@ -1,0 +1,24 @@
+{% extends "../../component.njk" %}
+
+{% from "../utils/macros.njk" import classAttributeMacro, visuallyHiddenMacro %}
+
+{% set pagination = data.pagination %}
+{% block component %}
+  <nav {{ classAttributeMacro(options.class) -}} aria-label="pagination">
+    <ol>
+      <li>
+        <a {% if data.currentUrl != pagination.href.first %} href="{{ pagination.href.first }}" {% else %} class="kdl-link-disabled" href="#" aria-disabled="true" {% endif -%}>First {{ visuallyHiddenMacro("span", "page") }}</a>
+      </li>
+      <li>
+        <a {% if pagination.href.previous %} href="{{ pagination.href.previous }}" {% else %} class="kdl-link-disabled" href="#" aria-disabled="true" {% endif -%}>Previous {{ visuallyHiddenMacro("span", "page") }}</a>
+      </li>
+      <li>Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</li>
+      <li>
+        <a {% if pagination.href.next %} href="{{ pagination.href.next }}" {% else %} class="kdl-link-disabled" href="#" aria-disabled="true" {% endif -%}>Next {{ visuallyHiddenMacro("span", "page") }}</a>
+      </li>
+      <li>
+        <a {% if data.currentUrl != pagination.href.last %} href="{{ pagination.href.last }}" {% else %} class="kdl-link-disabled" href="#" aria-disabled="true" {% endif -%}>Last {{ visuallyHiddenMacro("span", "page") }}</a>
+      </li>
+    </ol>
+  </nav>
+{% endblock component %}

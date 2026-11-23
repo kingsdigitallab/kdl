@@ -1,0 +1,52 @@
+name: Request deployment
+
+on:
+    workflow_dispatch:
+        inputs:
+            payload:
+                description: Pages CMS payload as JSON
+                required: true
+                type: string
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    create-pr:
+        runs-on: ubuntu-22.04
+        permissions:
+            contents: read
+            pull-requests: write
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.PAT }}
+
+            - name: Create or update PR from content into main
+              env:
+                  GH_TOKEN: ${{ secrets.PAT }}
+              run: |
+                  AHEAD=$(gh api "repos/$GITHUB_REPOSITORY/compare/main...content" \
+                      --jq '.ahead_by // empty')
+                  if [ -z "$AHEAD" ] || [ "$AHEAD" = "0" ]; then
+                      echo "No changes on 'content' ahead of 'main' — nothing to merge."
+                      exit 0
+                  fi
+
+                  PR_NUMBER=$(gh pr list --base main --head content --state open \
+                      --json number --jq '.[0].number // empty')
+                  if [ -n "$PR_NUMBER" ]; then
+                      echo "Appending to existing PR #$PR_NUMBER"
+                      gh pr comment "$PR_NUMBER" --body \
+                          "Deployment requested again via Pages CMS — 'content' is now $AHEAD commit(s) ahead of 'main'."
+                      exit 0
+                  fi
+
+                  gh pr create \
+                      --base main \
+                      --head content \
+                      --title "Merge content into main" \
+                      --body "Triggered via Pages CMS. 'content' is $AHEAD commit(s) ahead of 'main'."

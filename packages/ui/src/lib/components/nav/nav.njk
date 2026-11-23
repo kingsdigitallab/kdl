@@ -1,0 +1,33 @@
+{% extends "../../component.njk" %}
+
+{% from "./macros.njk" import navItemMacro %}
+{% from "../utils/macros.njk" import classAttributeMacro, visuallyHiddenMacro %}
+
+{% block component %}
+  {% set listTag = "ol" if options.ordered else "ul" %}
+  <nav {{ classAttributeMacro(options.class) -}} aria-label="{{ data.title }}">
+    <div class="kdl-container">
+      {% if options.action %}
+        <input id="{{ options.action }}" type="checkbox">
+        <label class="kdl-menu-button-container" role="button" for="{{ options.action }}">
+          <span class="kdl-menu-button">{{ data.title }}</span>
+        </label>
+      {% else %}
+        {{ visuallyHiddenMacro("h2", data.title) }}
+      {% endif %}
+      <{{ listTag }}>
+      {% for page in data.pages %}
+        {{
+        navItemMacro({
+        page: page,
+        currentUrl: data.currentUrl
+        }, {
+        nested: options.nested,
+        listTag: listTag
+        })
+        }}
+      {% endfor %}
+      </{{ listTag }}>
+    </div>
+  </nav>
+{% endblock component %}

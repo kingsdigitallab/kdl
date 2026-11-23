@@ -1,0 +1,13 @@
+---
+title: King's College London
+alternateName: null
+tags:
+  - departments
+  - organisations
+slug: kings-college-london
+foundingDate: null
+dissolutionDate: null
+parentOrganisation: null
+subOrganisations: []
+urls: []
+---

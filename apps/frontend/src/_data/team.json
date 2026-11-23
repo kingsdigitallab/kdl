@@ -1,0 +1,224 @@
+[
+	{
+		"slug": "arturo-guzman-perez",
+		"jobTitle": "Research Software Engineer",
+		"team": "KDL"
+	},
+	{
+		"slug": "samantha-callaghan",
+		"jobTitle": "Research Software Analyst",
+		"team": "KDL"
+	},
+	{
+		"slug": "paul-caton",
+		"jobTitle": "Deputy director & Senior Research Software Analyst",
+		"team": "KDL"
+	},
+	{
+		"slug": "arianna-ciula",
+		"jobTitle": "Director & Principal Research Software Analyst",
+		"team": "KDL"
+	},
+	{
+		"slug": "alessandra-esposito",
+		"jobTitle": "Research Software Project Manager",
+		"team": "KDL"
+	},
+	{
+		"slug": "neil-jakeman",
+		"jobTitle": "Senior Research Software Analyst",
+		"team": "KDL"
+	},
+	{
+		"slug": "pamela-mellen",
+		"jobTitle": "Research Software Lab Manager",
+		"team": "KDL"
+	},
+
+	{
+		"slug": "geoffroy-noel",
+		"jobTitle": "Senior Research Software Engineer",
+		"team": "KDL"
+	},
+	{
+		"slug": "tim-watts",
+		"jobTitle": "Senior Research Software Systems Manager",
+		"team": "KDL"
+	},
+	{
+		"slug": "zihao-lu",
+		"jobTitle": "Research Software UI/UX Designer",
+		"team": "KDL"
+	},
+	{
+		"slug": "mary-chester-kadwell",
+		"jobTitle": "Principal Research Software Engineer",
+		"team": "KDL"
+	},
+	{
+		"slug": "david-man",
+		"jobTitle": "Senior Research Software UI/UX Designer",
+		"team": "KDL"
+	},
+	{
+		"slug": "patrick-ffrench",
+		"jobTitle": "Languages, Literatures and Cultures Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "virginia-crisp",
+		"jobTitle": "Culture, Media & Creative Industries Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "rebecca-levitan",
+		"jobTitle": "Classics Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "stuart-dunn",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "simon-tanner",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "janna-joceli-omena",
+		"jobTitle": "Digital Humanities Affiliate",
+		"team": "Departmental affiliates"
+	},
+	{
+		"slug": "john-bradley",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "ginestra-ferraro",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "harold-short",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "charlotte-roueche",
+		"name": "Charlotte Roueché",
+		"jobTitle": "Honorary Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "elliott-hall",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "lucie-mingmei-hao",
+		"jobTitle": "Former Research Software UI/UX Designer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "luis-figueira",
+		"jobTitle": "Former Software Developer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "shalen-fu",
+		"jobTitle": "Former Research Software Project Manager",
+		"team": "Former staff"
+	},
+	{
+		"slug": "olga-loboda",
+		"jobTitle": "Former Research Software UI/UX Designer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "chris-pak",
+		"jobTitle": "Former Postdoctoral Research Associate",
+		"team": "Former staff"
+	},
+	{
+		"slug": "florence-du-pre",
+		"jobTitle": "Former Research Software Project Manager",
+		"team": "Former staff"
+	},
+	{
+		"slug": "urszula-pawlicka-deger",
+		"jobTitle": "Former Marie Curie Research Fellow",
+		"team": "Former staff"
+	},
+	{
+		"slug": "natasha-romanova",
+		"jobTitle": "Former Digital Methods Lead",
+		"team": "Former staff"
+	},
+	{
+		"slug": "priyal-shah",
+		"jobTitle": "Former UI/UX Designer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "james-smithies",
+		"jobTitle": "Former Lab Director",
+		"team": "Former staff"
+	},
+	{
+		"slug": "carina-westling",
+		"jobTitle": "Former Project Manager and Former Visiting Research Fellow",
+		"team": "Former staff"
+	},
+	{
+		"slug": "brian-maher",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "ginestra-ferraro",
+		"jobTitle": "Former Senior Research Software UI/UX Designer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "ryan-heuser",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "tiffany-ong",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "miguel-vieira",
+		"jobTitle": "Visiting Research Fellow",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "james-smithies",
+		"jobTitle": "Visiting Professor",
+		"team": "Research fellows"
+	},
+	{
+		"slug": "brian-maher",
+		"jobTitle": "Former Senior Research Software Engineer & Research Software Systems Manager",
+		"team": "Former staff"
+	},
+	{
+		"slug": "tiffany-ong",
+		"jobTitle": "Former Senior Research Software UI/UX Designer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "miguel-vieira",
+		"jobTitle": "Former Principal Research Software Engineer",
+		"team": "Former staff"
+	},
+	{
+		"slug": "stefan-meier",
+		"jobTitle": "Former Senior Research Software Engineer",
+		"team": "Former staff"
+	}
+]

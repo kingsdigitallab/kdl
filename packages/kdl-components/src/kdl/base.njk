@@ -1,0 +1,72 @@
+{%- from "./components/header/macros.njk" import headerMacro -%}
+{%- from "./components/nav/macros.njk" import breadcrumbsMacro, navMacro -%}
+{%- from "./components/utils/macros.njk" import classAttributeMacro -%}
+
+<!doctype html>
+<html lang="{{ htmlLang | default('en') }}" {{ classAttributeMacro(htmlClass) -}}>
+  <head>
+    {# based on https://html5boilerplate.com/ #}
+    <meta charset="utf-8">
+    {% if headTitle %}<title>{{ headTitle }}</title>{% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible"
+          content="{{ metaCompatible | default('IE=edge') }}">
+    {% block headExtra %}
+    {% endblock headExtra %}
+
+    {% block headMeta %}
+    {% endblock headMeta %}
+
+    {% block headIcons %}
+      <link rel="icon"
+            href="{{ imagesPath | default('/assets/images') }}/favicon.ico"
+            sizes="any">
+      <link rel="icon"
+            href="{{ imagesPath | default('/assets/images') }}/icon.svg"
+            type="image/svg+xml">
+      <link rel="apple-touch-icon"
+            href="{{ imagesPath | default('/assets/images') }}/icon.png">
+    {% endblock headIcons %}
+
+    {% block stylesheets %}
+      <link href="{{ stylesheetsPath | default('/assets/stylesheets') }}/main.css"
+            rel="stylesheet">
+    {% endblock stylesheets %}
+
+    <meta name="theme-color"
+          content="{{ metaThemeColour | default('#d16014') }}">
+  </head>
+  <body {{ classAttributeMacro(bodyClass) -}}>
+    {% block bodyStart %}
+    {% endblock bodyStart %}
+
+    {% block header %}
+      <header {{ classAttributeMacro(headerClass) -}}>
+        {% block headerStart %}
+          {{ headerMacro({}) }}
+        {% endblock headerStart %}
+
+        {% block menu %}
+          {{ navMacro({}) }}
+        {% endblock menu %}
+
+        {% block headerEnd %}
+          {{ breadcrumbsMacro({}) }}
+        {% endblock headerEnd %}
+      </header>
+    {% endblock header %}
+
+    {% block main %}
+      <main {{ classAttributeMacro(mainClass) -}} {%- if mainLang -%} lang="{{ mainLang }}" {%- endif -%}>
+        {% block content %}
+        {% endblock content %}
+      </main>
+    {% endblock main %}
+
+    {% block footer %}
+    {% endblock footer %}
+
+    {% block bodyEnd %}
+    {% endblock bodyEnd %}
+  </body>
+</html>

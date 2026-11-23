@@ -1,6 +1,9 @@
 {
 	"name": "kdl",
 	"image": "node:24",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/pnpm:2": { "version": "2.0.5" }
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -97,6 +100,6 @@
 			}
 		}
 	},
-	"onCreateCommand": "npm install",
-	"postStartCommand": "npm run frontend:dev"
+	"onCreateCommand": "pnpm install",
+	"postStartCommand": "pnpm run dev"
 }

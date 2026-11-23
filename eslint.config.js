@@ -1,17 +1,19 @@
-const js = require("@eslint/js");
-const cypress = require("eslint-plugin-cypress");
-const babelParser = require("@babel/eslint-parser");
-const globals = require("globals");
-const prettierConfig = require("eslint-config-prettier");
+import js from "@eslint/js";
+import ts from "typescript-eslint";
+// const babelParser = require("@babel/eslint-parser");
+import globals from "globals";
+import prettierConfig from "eslint-config-prettier";
+import { defineConfig } from "eslint/config";
 
-module.exports = [
+export const config = defineConfig(
 	{
 		ignores: ["frontend/public/sla-acpp"],
 	},
 	js.configs.recommended,
+	ts.configs.recommended,
 	{
 		languageOptions: {
-			parser: babelParser,
+			// parser: babelParser,
 			parserOptions: {
 				requireConfigFile: false,
 			},
@@ -22,9 +24,5 @@ module.exports = [
 			},
 		},
 	},
-	{
-		files: ["cypress/**/*.js"],
-		...cypress.configs.recommended,
-	},
 	prettierConfig,
-];
+);

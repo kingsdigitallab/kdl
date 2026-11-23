@@ -86,3 +86,4 @@ frontend/_site
 .page-check.report
 volumes/*
 !volumes/proxy
+_site

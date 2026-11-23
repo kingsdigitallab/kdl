@@ -1,0 +1,7 @@
+<a href="{{ data.page.url }}">
+  {%- if options.html -%}
+    {{ options.html | safe }}
+  {%- else -%}
+    {{ data.title }}
+  {%- endif -%}
+</a>

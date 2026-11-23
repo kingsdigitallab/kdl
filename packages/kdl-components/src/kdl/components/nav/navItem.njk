@@ -1,0 +1,23 @@
+{% set page = data.page %}
+<li {% if page.url==data.currentUrl -%}
+    class="{{ options.activeClass | default('active') }}"
+    {%- endif -%}>
+  {%- if page.children.length and options.nested %}
+    <input id="menu-{{ page.title | slugify }}" type="checkbox" hidden>
+    <label class="kdl-checkbox" for="menu-{{ page.title | slugify}}">{{ page.title }}</label>
+    <{{ options.listTag }}>
+    {%- for child in page.children -%}
+      {{
+      navItemMacro({
+      page: child,
+      currentUrl: data.currentUrl,
+      nested: options.nested,
+      listTag: options.listTag
+      })
+      }}
+    {%- endfor %}
+    </{{ options.listTag }}>
+  {%- else %}
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  {%- endif %}
+</li>

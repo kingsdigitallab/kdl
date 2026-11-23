@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe }}
+
+<div class="wrapper">
+	<ul>
+		{% set partners = collections.projects | getPartnerWithProjects(collections.partnersAndFunders) %}
+		{%- for type, items in partners | groupby('data.index') | dictsort -%}
+			{% if type !== "0" %}
+				<li>
+					<h2>{{ type }}</h2>
+					<ol>
+						{%- for item in items | sort(attribute='data.name') -%}
+							{% set organisation = item.data %}
+							<li>
+								<a href="{{ organisation.page.url }}">{% include "partials/organisation.njk" %}</a>
+							</li>
+						{%- endfor -%}
+					</ol>
+				</li>
+			{% endif %}
+		{%- endfor -%}
+	</ul>
+</div>

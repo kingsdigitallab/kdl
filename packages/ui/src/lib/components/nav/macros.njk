@@ -1,0 +1,24 @@
+{% macro navMacro(data, options) %}
+  {%- include "./nav.njk" -%}
+{% endmacro %}
+{#
+| Name | Type | Description |
+| --------- | ------ | ------------------------------------------- |
+| page| object | Navigation page. |
+| currentUrl| string | URL of the current page, used for active status. |
+| options.activeClass | string | Class names for active page, default is `active`. |
+| options.nested | boolean | If true render children, otherwise only top level items. |
+| options.listTag | string | Tag to render the list for children. |
+#}
+{%- macro navItemMacro(data, options) %}
+  {% include "./navItem.njk" %}
+
+{%- endmacro %}
+
+{% macro paginationMacro(data, options) %}
+  {%- include "./pagination.njk" -%}
+{% endmacro %}
+
+{% macro breadcrumbsMacro(data, options) %}
+  {%- include "./breadcrumbs.njk" -%}
+{% endmacro %}

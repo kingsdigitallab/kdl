@@ -1,0 +1,51 @@
+{
+	"name": "kdl-frontend",
+	"version": "0.1.0",
+	"description": "Frontend for the KDL project",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"build": "eleventy",
+		"dev": "eleventy --serve",
+		"debug": "DEBUG=Eleventy* npm run dev",
+		"index": "npx -y pagefind --site _site",
+		"test:e2e": "playwright install --with-deps firefox && playwright test",
+		"test": "pnpm run test:e2e"
+	},
+	"author": "King's Digital Lab",
+	"license": "MPL-2.0",
+	"devDependencies": {
+		"@11ty/eleventy": "3.1.6",
+		"@11ty/eleventy-img": "^7.0.0",
+		"@11ty/eleventy-navigation": "^1.0.5",
+		"@kdl/components": "workspace:*",
+		"@kevingimbel/eleventy-plugin-mermaid": "^3.0.1",
+		"@playwright/test": "^1.60.0",
+		"debug": "^4.4.3",
+		"dotenv": "^17.4.2",
+		"eleventy-plugin-embed-everything": "^1.21.2",
+		"eleventy-plugin-seo": "^0.5.2",
+		"eleventy-plugin-toc": "^1.1.5",
+		"luxon": "^3.7.2",
+		"markdown-it": "^15.0.2",
+		"markdown-it-anchor": "^9.2.1",
+		"markdown-it-attrs": "^4.5.0",
+		"markdown-it-footnote": "^4.0.0",
+		"markdown-it-image-figures": "^2.1.1",
+		"nunjucks": "^3.2.4",
+		"playwright": "^1.60.0",
+		"prettier": "^3.9.9",
+		"prettier-plugin-nunjucks": "^0.2.3",
+		"prettier-plugin-sort-imports": "^1.8.11",
+		"reveal.js": "^6.0.2",
+		"sass": "^1.105.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kingsdigitallab/kdl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kingsdigitallab/kdl/issues"
+	},
+	"homepage": "https://github.com/kingsdigitallab/kdl#readme"
+}

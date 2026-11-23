@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"types": ["node"],
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"rewriteRelativeImportExtensions": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "nodenext",
+		"module": "nodenext",
+		"target": "ESNext",
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"lib": ["esnext", "DOM", "DOM.Iterable"]
+	}
+}
