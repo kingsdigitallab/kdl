@@ -184,7 +184,7 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: /assets/images/people
+                      path: /docs/assets/images/people
                       rename: safe
                 - name: description
                   label: Description
@@ -193,6 +193,9 @@ content:
           - name: body
             label: Content
             type: rich-text
+            options:
+                path: /docs/assets/images/people
+                rename: safe
 
     - name: blog
       label: Blog
@@ -244,13 +247,13 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: /assets/images/blog
+                      path: /docs/assets/images/blog
                       rename: safe
           - name: body
             label: Content
             type: rich-text
             options:
-                path: /assets/images/blog
+                path: /docs/assets/images/blog
                 rename: safe
 
     - name: projects
@@ -318,7 +321,7 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: /assets/images/projects
+                      path: /docs/assets/images/projects
                       rename: safe
                 - name: width
                   label: Witdh
@@ -406,6 +409,9 @@ content:
           - name: body
             label: Content
             type: rich-text
+            options:
+                path: /docs/assets/images/projects
+                rename: safe
           - name: keywords
             label: Keywords
             type: object
